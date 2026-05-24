@@ -1,0 +1,687 @@
+import { useState } from "react";
+
+const S = {
+  bg: "#07090f",
+  surface: "#0d1120",
+  card: "#111827",
+  cardBorder: "#1e2a42",
+  gold: "#c9a84c",
+  goldLight: "#e8cf85",
+  cream: "#ddd5c4",
+  muted: "#6b7094",
+  accent: "#7c5cfc",
+  accentLight: "#a48dfd",
+  danger: "#e05a5a",
+  success: "#4caf7d",
+  info: "#5bafd6",
+  text: "#c8c0b2",
+};
+
+const styles = `
+  @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Crimson+Pro:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: ${S.bg}; }
+  ::-webkit-scrollbar { width: 4px; }
+  ::-webkit-scrollbar-track { background: ${S.surface}; }
+  ::-webkit-scrollbar-thumb { background: ${S.cardBorder}; border-radius: 2px; }
+  .tab-btn { background: none; border: none; cursor: pointer; transition: all 0.2s; }
+  .tab-btn:hover { opacity: 1 !important; }
+  .pill-btn { background: none; border: 1px solid ${S.cardBorder}; cursor: pointer; border-radius: 20px; transition: all 0.2s; }
+  .pill-btn:hover { border-color: ${S.gold}; }
+  .pill-btn.active { background: ${S.gold}22; border-color: ${S.gold}; color: ${S.gold} !important; }
+  .check-row { display: flex; align-items: center; gap: 10px; padding: 8px 12px; border-radius: 8px; cursor: pointer; transition: background 0.15s; }
+  .check-row:hover { background: ${S.card}; }
+  input[type=checkbox] { accent-color: ${S.gold}; width: 15px; height: 15px; cursor: pointer; }
+`;
+
+const TECHNIQUES = [
+  { id: "transits", name: "Transits", tier: 1, role: "External triggers · real-time sky", color: S.info,
+    calc: "Compare current ephemeris positions to natal chart. Aspect formed = natal energy activated.",
+    rate: { outer: "Months–years of influence", jupiter: "Several months per aspect", inner: "Days–weeks" },
+    orbs: { outer_apply: "5°00'", outer_sep: "3°00'", jupiter: "3°00' / 2°00'", inner: "1°00' / 0°30'" },
+    themes: { saturn:"Testing, maturation, structural solidification", uranus:"Sudden change, liberation, disruption", neptune:"Dissolution, idealism, spiritual sensitivity", pluto:"Transformation, power, elimination", jupiter:"Expansion, opportunity, growth", mars:"Activation, conflict, drive", venus:"Harmony, attraction, financial themes", mercury:"Communication, contracts, decisions", sun:"Illumination, identity focus", moon:"Emotional resonance (hours)" },
+    steps: ["List all transiting planets within orb of natal points","Sort outer planets first, then slower inners","Note natal planet activated and its house/sign","Identify transiting planet's natal house rulership","Assess aspect type (flowing vs. tense)","Note retrograde amplification (crosses same degree 3×)","Cross-reference with progressions and dasha layers"],
+    synthesis: "External trigger. Confirms timing of events indicated by progressions and dashas."
+  },
+  { id: "secondary", name: "Secondary Progressions", tier: 1, role: "Internal development · day for a year", color: S.accent,
+    calc: "Add 1 day per year of age to birth date. Progressed chart = that date at original birth time + location.",
+    rate: { moon:"~1° per month; ~27–28yr full cycle; ~2–2.5yr per sign", sun:"~1° per year; sign change ~every 30yr", mercury:"Up to 2° per year", venus:"Up to 1.25° per year", mars:"~0.5° per year", asc:"~1° per year (varies by latitude)" },
+    orbs: { all: "1°00' maximum; strongest within 0°30'" },
+    themes: { progressed_moon:"Most noticeable — immediate emotional focus and shifting needs", progressed_sun:"Decadal identity definition — major chapters", prog_new_full_moon:"30-year initiation (New) and culmination (Full) cycles", progressed_asc:"Life approach and self-presentation shift", progressed_mc:"Career orientation and public role evolution", retrograde_station:"Planet internalizes; direct station = re-externalizes" },
+    steps: ["Identify progressed Moon sign and house — immediate emotional focus","Check upcoming progressed Moon sign/house changes within 2 years","Note progressed Sun position and any upcoming sign change","List all progressed-to-natal aspects within 1°00' orb","Flag progressed New/Full Moon dates","Note progressed Ascendant and Midheaven sign positions","Synthesize into developmental narrative"],
+    synthesis: "Internal readiness. Most significant events = major progression + significant transit + relevant dasha period.",
+    examples: ["Sarah (Moon Virgo→Libra prog, age 32): Left solo research role for collaborative design firm","Michael (Sun 28°Gemini→Cancer, age 32): Bought first house, started family, moved from journalism to memoir","Jennifer (Venus Capricorn→Aquarius, age 38): Left conventional marriage for unconventional partnership","David (Sun sq Pluto prog, age 42): Health crisis, father's death, complete career reinvention over 3 years","Thomas (Mercury dir→retrograde, age 35): Left sales for research; at 60 Mercury stationed direct → published groundbreaking work"]
+  },
+  { id: "tertiary", name: "Tertiary Progressions", tier: 3, role: "Subconscious rhythms · lunar month", color: "#9b7fd4",
+    calc: "Add 27.321661 days per year of age to birth date. Birth time constant; only date advances.",
+    rate: { moon:"Moves through phases over multiple years rather than 29.5 days", notes:"Small variations compound over decades — use high-precision ephemeris" },
+    orbs: { major: "1°00'–2°00'", minor: "0°30'–1°00'" },
+    themes: { new_moon:"New emotional beginnings and subconscious seeding", waxing:"Emotional growth and increasing awareness", full_moon:"Culmination of emotional patterns, heightened sensitivity", waning:"Release, integration, preparation for new cycles", house_change:"Significant shift in emotional focus and life priorities" },
+    steps: ["Calculate tertiary progressed chart for target date","Identify tertiary progressed Moon phase (New/Waxing/Full/Waning)","Note tertiary Moon house — subconscious focus area","Check tertiary Moon aspects to natal and progressed planets","Examine tertiary Venus/Mars — evolution of relationship and drive patterns","Track tertiary Ascendant for subtle self-presentation shifts","Integrate with secondary progressions: conscious (secondary) vs. subconscious (tertiary)"],
+    synthesis: "Underground streams of the psyche. Where secondary shows conscious development, tertiary shows instinctual and emotional shifts below awareness threshold."
+  },
+  { id: "solar_arc", name: "Solar Arc Directions", tier: 1, role: "Definitive turning points · 1° per year", color: S.gold,
+    calc: "Step 1: Progressed Sun position = Natal Sun + days since birth. Step 2: Solar Arc = Progressed Sun − Natal Sun. Step 3: Add Solar Arc to every natal planet, angle, node, asteroid.",
+    rate: { annual: "~59 arc minutes per year ≈ 1° per year", peak: "Manifests most powerfully within 6 months of exact aspect" },
+    orbs: { conj_opp: "1°00' maximum", sq_tri: "0°45' maximum", sext_minor: "0°30' maximum" },
+    themes: { SA_sun:"Fundamental life changes and identity evolution; new life chapter", SA_moon:"Emotional and domestic changes, family developments, residential moves", SA_mercury:"Intellectual and communicative developments; key learning or decisions", SA_venus:"Relationship milestones, financial developments", SA_mars:"Action phases, career drives, conflict resolution", SA_jupiter:"Expansion, recognition, opportunity windows", SA_saturn:"Increased responsibility, career achievements, structural changes", SA_uranus:"Sudden departures from established patterns; awakening", SA_neptune:"Dissolution, spiritual deepening, disillusionment or inspiration", SA_pluto:"Deep transformation, power shifts, irreversible change" },
+    steps: ["Calculate current solar arc value for target date","Apply solar arc to all natal planets, angles, nodes, asteroids","List all SA planets forming aspects to natal points within current orb","Rank by aspect type and orb exactness","Build midpoint tree: identify which SA planets contact natal midpoints","Interpret planetary combinations at each contacted midpoint","Cross-reference with transits to identify external triggers"],
+    synthesis: "Internal timing / readiness. Significant events manifest when SA aspects coincide with relevant transits. SA = definitive turning points; secondary progressions = gradual development.",
+    examples: ["Career: SA Sun conj natal Jupiter → unexpected job offer, salary doubled, relocation to dream destination — accurate within 2 weeks of exact degree","Relationship: SA Venus opp natal Sun → client's engagement announcement — exact timing match","Midheaven: SA Jupiter conj MC → promotion and public recognition; SA Saturn conj MC → increased responsibility, career restructuring"]
+  },
+  { id: "solar_return", name: "Solar Return", tier: 2, role: "Annual thematic blueprint", color: "#e8883a",
+    calc: "Cast chart for exact moment Sun returns to natal degree and minute. Location at time of return determines house placements. Active from return to next return (~365 days).",
+    rate: { year_q1:"Themes strongest in first quarter after birthday", mid_year:"Themes develop and complicate", final_q:"Resolution or completion", monthly:"Each New Moon activates a different SR house" },
+    orbs: { angular: "Within 5°00' of ASC/MC/DSC/IC = most significant" },
+    themes: { sr_asc:"Overall tone and energy for the entire year", sun:"Primary focus and areas of personal growth", moon:"Emotional needs, domestic influence, subconscious patterns", angular_planets:"Most prominent events and themes of the year", house_emphasis:"Which life areas are most active and energized", empty_houses:"Fewer cosmic pressures — more natural flow in those areas" },
+    steps: ["Cast SR chart for exact Sun return moment and location","Identify SR Ascendant and its ruler — year's overall energy","Locate SR Sun by house — primary focus of the year","Assess Moon placement — monthly emotional themes","List all angular planets (within 5°)","Map house emphasis: count planets per house grouping","Identify dominant configurations (grand trines, T-squares, stellia)","Compare SR to natal: harmony = easier; challenge = growth required","Note recurring SR themes across multiple years","Track each New Moon activating SR houses for monthly timing","Use solstices and equinoxes as progress checkpoints"],
+    synthesis: "Annual syllabus. Progressions and transits show when each chapter unfolds within the SR framework.",
+    examples: ["SR Jupiter in 10th → career expansion, public recognition year","SR Saturn on ASC → year of increased responsibility and serious self-development"]
+  },
+  { id: "lunar_return", name: "Lunar Return", tier: 3, role: "Monthly emotional forecast", color: "#7ecbd4",
+    calc: "Cast chart when Moon transits return to natal Moon degree. Every ~27.3 days (26–29 day variation due to elliptical orbit). Location at return time affects house placements.",
+    rate: { cycle:"26–29 days depending on lunar orbital speed", duration:"Active until next lunar return" },
+    orbs: { angular_emphasis: "Angular Moon placements (1st, 4th, 7th, 10th) = most intense months" },
+    themes: { lr_asc:"Monthly cycle's general approach and energy flavor", moon_house:"Which life area receives primary emotional focus this month", aspects_to_moon:"Monthly emotional dynamics and relationship tones", angular_planets:"Most pronounced events of the month", patterns:"T-squares, grand trines, stellia color the month" },
+    steps: ["Cast lunar return chart for exact Moon return moment and location","Identify LR Ascendant — monthly energy and approach","Locate return Moon by house — primary emotional focus","Assess all aspects to the return Moon","Identify angular planets — most prominent monthly themes","Look for dominant configurations","Compare with solar return — does this month emphasize SR themes?","Compare with natal chart — which natal patterns are activated?"],
+    synthesis: "Monthly emotional refinement layer within the annual solar return framework.",
+    examples: ["Sarah (Moon Cap, LR Moon 10th conj Jupiter trine natal MC): unexpected promotion and public acknowledgment","Michael (LR Moon 7th, Venus conj, grand trine with Neptune 11th and natal Sun): forgiveness, renewed intimacy, spiritual reconnection with partner","Lisa (LR Moon 4th opp Pluto 10th, Saturn sq both → T-square): mother's health crisis required leave from work; strengthened family bonds"]
+  },
+  { id: "eclipses", name: "Eclipses", tier: 3, role: "Fated acceleration · 6-month windows", color: "#c44569",
+    calc: "Solar Eclipse = New Moon conjunct lunar node. Lunar Eclipse = Full Moon aligned with nodes. Both = turbocharged lunations bringing sudden revelations.",
+    rate: { window:"Six-month period of influence", peak:"Within 1 month before and after eclipse date", trigger:"Effects often triggered when transiting planets later cross the eclipse degree", saros:"Eclipse families repeat ~every 19 years in similar degrees" },
+    orbs: { high_significance: "Within 1°00' of natal planet or angle", moderate: "1°00'–3°00'", background: "Up to 5°00'" },
+    steps: ["Determine eclipse degree and sign","Check all natal planets or angles within 1° of eclipse degree","Identify natal house(s) activated","Note eclipse's nodal axis: North Node → new beginnings; South Node → release","Track Saros family for recurring 19-year life themes","Monitor subsequent transits over eclipse degree as triggers","Synthesize with progressions and dasha periods"],
+    synthesis: "When eclipse activates natal point + active dasha + progression = fated acceleration. Most significant when natal luminaries or angles are activated."
+  },
+  { id: "profections", name: "Annual Profections", tier: 2, role: "Hellenistic time lord · 12-year cycle", color: "#8db87e",
+    calc: "Advance Ascendant by 1 sign per year of life. Ruling planet of that sign = annual time lord. All transits to/from time lord are amplified for the year.",
+    houses: { "1st":[0,12,24,36,48,60,72], "2nd":[1,13,25,37,49,61,73], "3rd":[2,14,26,38,50,62,74], "4th":[3,15,27,39,51,63,75], "5th":[4,16,28,40,52,64,76], "6th":[5,17,29,41,53,65,77], "7th":[6,18,30,42,54,66,78], "8th":[7,19,31,43,55,67,79], "9th":[8,20,32,44,56,68,80], "10th":[9,21,33,45,57,69,81], "11th":[10,22,34,46,58,70,82], "12th":[11,23,35,47,59,71,83] },
+    themes: { "1st":"Personal identity, new beginnings, physical body", "2nd":"Finances, possessions, self-worth", "3rd":"Communication, siblings, local travel", "4th":"Home, family, roots, emotional security", "5th":"Romance, creativity, children, pleasure", "6th":"Health, daily work, service, routines", "7th":"Partnerships, one-on-one relationships", "8th":"Shared resources, transformation, intimacy", "9th":"Travel, philosophy, higher education, spirituality", "10th":"Career, reputation, public role, authority", "11th":"Friends, groups, social networks, goals", "12th":"Hidden matters, karma, retreat, spirituality" },
+    steps: ["Determine current age and corresponding house of the year","Identify sign of profected house and its natal ruler","The natal ruler becomes the 'time lord' — its natal condition is especially significant","All transits to/from time lord planet are amplified this year","The activated house's natal contents become thematically prominent","Synthesize with solar return — does SR emphasize the same house?"],
+    synthesis: "Identifies the annual time lord and activated house. Elevated weight given to all events involving the time lord planet."
+  },
+  { id: "vimshottari", name: "Vimshottari Dasha", tier: 2, role: "Vedic time lords · 120-year cycle", color: "#d4826a",
+    calc: "Basis: natal Moon's nakshatra determines starting dasha. Three nested levels: Mahadasha (major), Antardasha (sub-period), Pratyantardasha (micro-period). Fixed mathematical formulas — consistent regardless of geography.",
+    planets: { sun:{years:6, themes:"Leadership, recognition, authority, father"}, moon:{years:10, themes:"Emotional growth, intuition, mother, public"}, mars:{years:7, themes:"Action, conflict resolution, courage, siblings"}, rahu:{years:18, themes:"Material desires, worldly success, obsession, foreigners"}, jupiter:{years:16, themes:"Wisdom, expansion, teaching, spirituality, children"}, saturn:{years:19, themes:"Discipline, karmic lessons, delays, service"}, mercury:{years:17, themes:"Communication, learning, commerce, adaptability"}, ketu:{years:7, themes:"Spiritual awakening, detachment, past karma"}, venus:{years:20, themes:"Relationships, creativity, luxury, beauty, marriage"} },
+    combos: { favorable:"Jupiter–Venus, Venus–Mercury → harmonious, multi-area success", challenging:"Saturn–Mars, Mars–Saturn → intense challenges requiring strategic preparation", mixed:"Interpretation depends on natal dignity and house rulership of both planets" },
+    career: "Mercury → communication careers, education; Mars → entrepreneurship, leadership; Jupiter → teaching, advisory, recognition",
+    finance: "Jupiter → expansion, investment opportunities; Saturn → conservative management, debt reduction; Rahu → sudden wealth or sudden losses",
+    steps: ["Calculate Mahadasha balance at birth from Moon's nakshatra","Determine current Mahadasha and its ruling planet","Determine current Antardasha ruler","Determine Pratyantardasha ruler for pinpoint timing","Assess natal dignity and placement of all three ruling planets","Identify houses ruled by each dasha planet — life areas activated","Assess current transits of dasha rulers — transits to dasha rulers are amplified","Integrate with Western transits for cross-system testimonies"],
+    synthesis: "Western transits confirm dasha-predicted events. A challenging Saturn transit during Saturn Mahadasha is doubly significant."
+  },
+];
+
+const CHART_TYPES = [
+  { id: "harmonic", name: "Harmonic Charts", tradition: "Western modern (Addey 1976)", color: S.accent,
+    desc: "Derived by multiplying every natal longitude by harmonic number N, then mod 360°. Each harmonic chart amplifies the pattern of that harmonic's aspect series, making latent aspects visible.",
+    formula: "H_position = (Natal_longitude × N) mod 360",
+    note: "Planets conjunct in the harmonic chart were originally in that harmonic's aspect relationship natally.",
+    series: [
+      { n:1, name:"Radix", aspect:"Conjunction (0°)", theme:"Whole self; the natal chart itself", use:"Baseline" },
+      { n:2, name:"Second harmonic", aspect:"Opposition (180°)", theme:"Duality, polarity, awareness of opposites", use:"Psyche's polarities and tension requiring integration" },
+      { n:3, name:"Third harmonic", aspect:"Trine (120°), Sextile (60°)", theme:"Harmony, talent, creative flow, ease", use:"Natural gifts, areas of least resistance" },
+      { n:4, name:"Fourth harmonic", aspect:"Square (90°), Semisquare (45°)", theme:"Structure, challenge, effort, physical manifestation", use:"Cardinal drives, achievement motivation, structural challenges" },
+      { n:5, name:"Fifth harmonic", aspect:"Quintile (72°), Biquintile (144°)", theme:"Creative talent, genius, inspired skill", use:"Extraordinary creative or intellectual talent areas" },
+      { n:7, name:"Seventh harmonic", aspect:"Septile (51°26'), Biseptile (102°51')", theme:"Fate, karmic compulsion, obsession, transcendence", use:"Fated encounter patterns, transpersonal compulsion" },
+      { n:8, name:"Eighth harmonic", aspect:"Semisquare (45°), Sesquisquare (135°)", theme:"Tension, intensity, transformation through friction", use:"Sources of driven intensity from minor hard aspects" },
+      { n:9, name:"Ninth harmonic", aspect:"Novile (40°), Binovile (80°)", theme:"Spiritual attainment, blessings, completion, integration", use:"Spiritual development, karmic blessing patterns" },
+      { n:10, name:"Tenth harmonic", aspect:"Decile (36°), Tredecile (108°)", theme:"Achievement, fulfillment, practical mastery", use:"Disciplined effort producing skilled achievement" },
+      { n:12, name:"Twelfth harmonic", aspect:"Semisextile (30°), Quincunx (150°)", theme:"Service, sacrifice, karmic adjustment, hidden patterns", use:"Unconscious service patterns, karmic obligations" },
+    ],
+    orbs: "1°00'–2°00' for conjunctions in the harmonic chart. Tighter orb = stronger original harmonic aspect natally.",
+    steps: ["Select harmonic number(s) relevant to the question (H4=challenges, H5=talent, H7=fate, H9=spiritual)","Convert all natal positions to 0–360° continuous longitude","Multiply each by N; take result mod 360; convert back to sign/degree","Focus on conjunctions within 1°–2° in the harmonic chart","Identify stellia (3+ conjunct) — concentrated harmonic themes","Planets conjunct in both H5 and H7 = creative talent + fated compulsion","Never interpret in isolation — always reference natal planet condition"],
+    weight: "Tier 4 — depth confirmation. Weight increases when harmonic conjunctions involve natal luminaries, chart ruler, or angular planets."
+  },
+  { id: "draconic", name: "Draconic Chart", tradition: "Western esoteric convention", color: "#b07ccc",
+    desc: "Derived by resetting 0° Aries to the natal True North Node position. Reveals the soul's pre-incarnation blueprint, karmic purpose, and soul-level impulses beneath the tropical personality.",
+    formula: "Draconic_longitude = (Natal_longitude − True_North_Node + 360) mod 360",
+    note: "Use True Node (not Mean Node) for precision. The natal True North Node becomes 0° Aries in the draconic chart.",
+    example: { node:"14°30' Gemini = 74.5°", sun:"20° Leo = 140°", result:"(140 − 74.5 + 360) mod 360 = 65.5° = 5°30' Gemini", interp:"Soul-level Sun essence = communicative, curious, bridge-building — regardless of tropical Leo personality expression" },
+    principles: ["Draconic chart = soul's eternal blueprint carried across incarnations","Draconic Sun = soul's core essence and purpose at the deepest level","Draconic Moon = soul's emotional home and deepest felt-sense of belonging","Draconic Ascendant = soul's instinctive incarnational orientation","Draconic-to-natal conjunction (within 1°) = that natal planet carries heightened soul-purpose significance","Partner's tropical planets conjunct your draconic planets = soul-recognition and past-life resonance"],
+    steps: ["Calculate True North Node longitude from precise ephemeris data","Apply formula to all natal positions to generate draconic chart","Overlay draconic chart onto natal as a biwheel","Identify all conjunctions between draconic and tropical positions (within 1°–2°)","These conjunctions mark points of heightened soul-purpose significance","Identify draconic stellia — clusters indicate concentrated soul-mission areas","Compare draconic ASC to natal ASC — gap reveals soul vs. personality orientation","For synastry: overlay partner A's tropical chart with partner B's draconic chart","In predictive work: transits activating draconic planets carry soul-evolution significance"],
+    orbs: "1°00' most significant; up to 2°00' acceptable",
+    weight: "Tier 4 — essential layer for soul-purpose, past-life, and relationship karma analysis. Weight increases when draconic planets fall within 1° of natal luminaries or angles."
+  },
+  { id: "antiscia", name: "Antiscia & Contra-Antiscia", tradition: "Hellenistic and Renaissance convention", color: "#7aba9a",
+    desc: "Mirror-point system. Antiscia: planets reflected across the Cancer/Capricorn (solstice) axis. Contra-antiscia: reflected across the Aries/Libra (equinox) axis. Share equal solar day-length — act as hidden conjunctions and oppositions.",
+    formula_a: "Antiscia = (180° − Natal_longitude) mod 360",
+    formula_ca: "Contra-Antiscia = (Antiscia + 180°) mod 360",
+    example: { planet:"Sun at 20° Gemini = 80°", antiscia:"180 − 80 = 100° = 10° Cancer (hidden conjunction)", contra:"100 + 180 = 280° = 10° Capricorn (hidden opposition)" },
+    axis_a: [ ["Gemini","Cancer"], ["Taurus","Leo"], ["Aries","Virgo"], ["Pisces","Libra"], ["Aquarius","Scorpio"], ["Capricorn","Sagittarius"] ],
+    axis_ca: [ ["Aries","Pisces"], ["Taurus","Aquarius"], ["Gemini","Capricorn"], ["Cancer","Sagittarius"], ["Leo","Scorpio"], ["Virgo","Libra"] ],
+    principles: ["A planet conjunct another's antiscia = hidden conjunction — they act as if actually conjunct","A planet conjunct another's contra-antiscia = hidden opposition","Strongest when two planets are also in parallel declination","In natal: explains powerful chart dynamics with no traditional aspect","In synastry: one person's planet conjunct another's antiscia = hidden attraction or mysterious resonance","In predictive: transit/progression/SA contacting an antiscia degree covertly activates the corresponding natal planet","Luminaries and angles antiscia are highest priority"],
+    related: { parallels:"Two planets at equal distance from celestial equator — hidden conjunctions", contraparallels:"Equal but opposite declination — hidden oppositions" },
+    steps: ["Calculate antiscia for all natal planets: (180 − longitude) mod 360","Calculate contra-antiscia: (Antiscia + 180) mod 360","Search chart for any planet within 1° of any antiscia or contra-antiscia point","These pairs form shadow conjunctions or shadow oppositions","In predictive: add antiscia degrees to watch list for transits, SA, progressions","In synastry: overlay antiscia degrees on partner's natal chart","Weight Sun/Moon/ASC/MC antiscia contacts most heavily","Include parallel/contraparallel declination for complete out-of-sign work"],
+    orbs: "1°00' for clear significance; 1°30' maximum. Tighter orb = stronger hidden connection.",
+    weight: "Tier 4 — supplementary. Most valuable when: (a) predictive technique activates an antiscia degree; (b) natal chart has few traditional aspects; (c) synastry explains unexplained attraction."
+  },
+];
+
+const PLANET_WEIGHTS = [
+  { planet:"Sun", w:1.00 }, { planet:"Moon", w:0.95 }, { planet:"Ascendant", w:0.95 }, { planet:"Midheaven", w:0.90 },
+  { planet:"Chart Ruler", w:0.88 }, { planet:"Saturn", w:0.88 }, { planet:"Pluto", w:0.85 }, { planet:"Jupiter", w:0.82 },
+  { planet:"Uranus", w:0.80 }, { planet:"Neptune", w:0.78 }, { planet:"Mars", w:0.75 }, { planet:"Venus", w:0.75 },
+  { planet:"Mercury", w:0.72 }, { planet:"North Node", w:0.70 }, { planet:"South Node", w:0.65 }, { planet:"Chiron", w:0.60 },
+];
+
+const ASPECT_WEIGHTS = [
+  { asp:"Conjunction", deg:"0°", w:1.00, nature:"Fusion of energies" },
+  { asp:"Opposition", deg:"180°", w:0.90, nature:"Tension and awareness" },
+  { asp:"Square", deg:"90°", w:0.85, nature:"Friction and motivation to act" },
+  { asp:"Trine", deg:"120°", w:0.75, nature:"Ease and natural flow" },
+  { asp:"Sextile", deg:"60°", w:0.60, nature:"Opportunity requiring initiative" },
+  { asp:"Quintile", deg:"72°", w:0.55, nature:"Creative talent bridge" },
+  { asp:"Quincunx", deg:"150°", w:0.50, nature:"Adjustment and redirection" },
+  { asp:"Septile", deg:"51°26'", w:0.50, nature:"Fated / karmic link" },
+  { asp:"Semisquare", deg:"45°", w:0.40, nature:"Minor friction" },
+  { asp:"Novile", deg:"40°", w:0.45, nature:"Spiritual completion link" },
+];
+
+const LIFE_AREAS = ["Career / Vocation","Relationships / Romance","Home / Family","Finances","Health / Body","Spirituality / Growth","Identity / Self","Travel / Education","Loss / Transformation"];
+const TECHNIQUE_LIST = ["Transits (outer)","Transits (inner)","Secondary progressions","Tertiary progressions","Solar arc directions","Solar return","Lunar return","Eclipses","Profections","Vimshottari dasha","Draconic layer","Harmonic pattern","Antiscia contact"];
+
+function Badge({ color, children }) {
+  return <span style={{ background: color + "22", color, border: `1px solid ${color}44`, borderRadius:4, padding:"2px 8px", fontSize:11, fontFamily:"'Cinzel', serif", letterSpacing:"0.04em" }}>{children}</span>;
+}
+
+function Card({ children, style = {} }) {
+  return <div style={{ background:S.card, border:`1px solid ${S.cardBorder}`, borderRadius:12, padding:"20px 22px", ...style }}>{children}</div>;
+}
+
+function SectionTitle({ children, sub }) {
+  return (
+    <div style={{ marginBottom:20 }}>
+      <h2 style={{ fontFamily:"'Cinzel', serif", color:S.goldLight, fontSize:18, fontWeight:500, letterSpacing:"0.06em" }}>{children}</h2>
+      {sub && <p style={{ color:S.muted, fontSize:13, marginTop:4 }}>{sub}</p>}
+    </div>
+  );
+}
+
+function TechniqueCard({ t }) {
+  const [open, setOpen] = useState(false);
+  return (
+    <Card style={{ marginBottom:12 }}>
+      <div style={{ display:"flex", alignItems:"center", justifyContent:"space-between", cursor:"pointer" }} onClick={() => setOpen(!open)}>
+        <div style={{ display:"flex", alignItems:"center", gap:12 }}>
+          <div style={{ width:10, height:10, borderRadius:"50%", background:t.color, flexShrink:0 }} />
+          <div>
+            <div style={{ fontFamily:"'Cinzel', serif", color:S.cream, fontSize:14, fontWeight:500 }}>{t.name}</div>
+            <div style={{ color:S.muted, fontSize:12, marginTop:2 }}>{t.role}</div>
+          </div>
+        </div>
+        <div style={{ display:"flex", alignItems:"center", gap:8 }}>
+          <Badge color={t.color}>Tier {t.tier}</Badge>
+          <span style={{ color:S.muted, fontSize:16, transform:open?"rotate(180deg)":"none", transition:"0.2s" }}>▾</span>
+        </div>
+      </div>
+      {open && (
+        <div style={{ marginTop:18, borderTop:`1px solid ${S.cardBorder}`, paddingTop:18 }}>
+          <Row label="Calculation">{t.calc}</Row>
+          {t.orbs && <Row label="Orbs">{Object.entries(t.orbs).map(([k,v]) => <span key={k} style={{ display:"block" }}><span style={{ color:S.gold, fontSize:11 }}>{k.replace(/_/g," ")}: </span>{v}</span>)}</Row>}
+          {t.rate && <Row label="Timing">{Object.entries(t.rate).map(([k,v]) => <span key={k} style={{ display:"block" }}><span style={{ color:S.gold, fontSize:11 }}>{k.replace(/_/g," ")}: </span>{v}</span>)}</Row>}
+          <Row label="Key themes">
+            <div style={{ display:"flex", flexWrap:"wrap", gap:6 }}>
+              {Object.entries(t.themes).map(([k,v]) => (
+                <div key={k} style={{ background:S.surface, border:`1px solid ${S.cardBorder}`, borderRadius:6, padding:"4px 8px", fontSize:12 }}>
+                  <span style={{ color:t.color, fontFamily:"'Cinzel', serif", fontSize:11 }}>{k.replace(/_/g," ")}: </span>
+                  <span style={{ color:S.text }}>{v}</span>
+                </div>
+              ))}
+            </div>
+          </Row>
+          <Row label="Delineation steps">
+            <ol style={{ paddingLeft:16, color:S.text, fontSize:13, lineHeight:1.7 }}>
+              {t.steps.map((s,i) => <li key={i} style={{ marginBottom:4 }}>{s}</li>)}
+            </ol>
+          </Row>
+          <Row label="Synthesis role"><span style={{ color:S.goldLight, fontStyle:"italic" }}>{t.synthesis}</span></Row>
+          {t.examples && <Row label="Case studies"><ul style={{ paddingLeft:16, fontSize:12, color:S.muted, lineHeight:1.8 }}>{t.examples.map((e,i) => <li key={i}>{e}</li>)}</ul></Row>}
+          {t.planets && <Row label="Mahadasha periods">
+            <div style={{ display:"grid", gridTemplateColumns:"repeat(auto-fill, minmax(150px, 1fr))", gap:6 }}>
+              {Object.entries(t.planets).map(([p,d]) => (
+                <div key={p} style={{ background:S.surface, border:`1px solid ${S.cardBorder}`, borderRadius:6, padding:"6px 10px" }}>
+                  <div style={{ color:S.gold, fontFamily:"'Cinzel', serif", fontSize:11, textTransform:"capitalize" }}>{p} · {d.years}yr</div>
+                  <div style={{ color:S.text, fontSize:11, marginTop:2 }}>{d.themes}</div>
+                </div>
+              ))}
+            </div>
+          </Row>}
+          {t.houses && <Row label="House of year by age">
+            <div style={{ display:"grid", gridTemplateColumns:"repeat(auto-fill, minmax(120px, 1fr))", gap:5 }}>
+              {Object.entries(t.houses).map(([h,ages]) => (
+                <div key={h} style={{ background:S.surface, borderRadius:6, padding:"4px 8px", fontSize:12 }}>
+                  <span style={{ color:t.color, fontFamily:"'Cinzel', serif", fontSize:11 }}>{h}: </span>
+                  <span style={{ color:S.muted }}>{ages.filter(a => a <= 84).join(", ")}</span>
+                </div>
+              ))}
+            </div>
+          </Row>}
+        </div>
+      )}
+    </Card>
+  );
+}
+
+function Row({ label, children }) {
+  return (
+    <div style={{ marginBottom:14 }}>
+      <div style={{ color:S.gold, fontFamily:"'Cinzel', serif", fontSize:11, letterSpacing:"0.06em", marginBottom:6, textTransform:"uppercase" }}>{label}</div>
+      <div style={{ color:S.text, fontSize:13, lineHeight:1.7 }}>{children}</div>
+    </div>
+  );
+}
+
+function ChartTypeCard({ ct }) {
+  const [open, setOpen] = useState(false);
+  return (
+    <Card style={{ marginBottom:12 }}>
+      <div style={{ display:"flex", alignItems:"center", justifyContent:"space-between", cursor:"pointer" }} onClick={() => setOpen(!open)}>
+        <div style={{ display:"flex", alignItems:"center", gap:12 }}>
+          <div style={{ width:10, height:10, borderRadius:"50%", background:ct.color, flexShrink:0 }} />
+          <div>
+            <div style={{ fontFamily:"'Cinzel', serif", color:S.cream, fontSize:14, fontWeight:500 }}>{ct.name}</div>
+            <div style={{ color:S.muted, fontSize:12, marginTop:2 }}>{ct.tradition}</div>
+          </div>
+        </div>
+        <span style={{ color:S.muted, fontSize:16, transform:open?"rotate(180deg)":"none", transition:"0.2s" }}>▾</span>
+      </div>
+      {open && (
+        <div style={{ marginTop:18, borderTop:`1px solid ${S.cardBorder}`, paddingTop:18 }}>
+          <Row label="Description"><em style={{ color:S.text }}>{ct.desc}</em></Row>
+          <Row label="Formula"><code style={{ background:S.surface, padding:"4px 10px", borderRadius:6, color:S.goldLight, fontSize:13, display:"inline-block" }}>{ct.formula || ct.formula_a}</code>
+          {ct.formula_ca && <><br/><code style={{ background:S.surface, padding:"4px 10px", borderRadius:6, color:S.goldLight, fontSize:13, display:"inline-block", marginTop:6 }}>{ct.formula_ca}</code></>}
+          </Row>
+          {ct.note && <Row label="Key rule"><span style={{ color:S.goldLight, fontStyle:"italic" }}>{ct.note}</span></Row>}
+          {ct.example && <Row label="Worked example">
+            <div style={{ background:S.surface, borderRadius:8, padding:"12px 14px" }}>
+              {Object.entries(ct.example).map(([k,v]) => (
+                <div key={k} style={{ marginBottom:4 }}>
+                  <span style={{ color:S.gold, fontSize:11, fontFamily:"'Cinzel', serif" }}>{k}: </span>
+                  <span style={{ color:S.text, fontSize:13 }}>{v}</span>
+                </div>
+              ))}
+            </div>
+          </Row>}
+          {ct.series && <Row label="Harmonic series">
+            <div style={{ display:"flex", flexDirection:"column", gap:4 }}>
+              {ct.series.map(s => (
+                <div key={s.n} style={{ display:"grid", gridTemplateColumns:"40px 1fr 1fr 1fr", gap:8, background:S.surface, borderRadius:6, padding:"6px 10px", alignItems:"start", fontSize:12 }}>
+                  <span style={{ color:ct.color, fontFamily:"'Cinzel', serif", fontWeight:600 }}>H{s.n}</span>
+                  <span style={{ color:S.muted }}>{s.aspect}</span>
+                  <span style={{ color:S.cream }}>{s.theme}</span>
+                  <span style={{ color:S.text, fontStyle:"italic" }}>{s.use}</span>
+                </div>
+              ))}
+            </div>
+          </Row>}
+          {ct.axis_a && <Row label="Antiscia mirror pairs (solstice axis)">
+            <div style={{ display:"flex", flexWrap:"wrap", gap:6 }}>
+              {ct.axis_a.map(([a,b]) => <span key={a} style={{ background:S.surface, padding:"3px 10px", borderRadius:20, fontSize:12, color:S.cream, border:`1px solid ${S.cardBorder}` }}>{a} ↔ {b}</span>)}
+            </div>
+          </Row>}
+          {ct.axis_ca && <Row label="Contra-antiscia pairs (equinox axis)">
+            <div style={{ display:"flex", flexWrap:"wrap", gap:6 }}>
+              {ct.axis_ca.map(([a,b]) => <span key={a} style={{ background:S.surface, padding:"3px 10px", borderRadius:20, fontSize:12, color:S.muted, border:`1px solid ${S.cardBorder}` }}>{a} ↔ {b}</span>)}
+            </div>
+          </Row>}
+          {ct.principles && <Row label="Interpretation principles">
+            <ul style={{ paddingLeft:16, color:S.text, fontSize:13, lineHeight:1.9 }}>
+              {ct.principles.map((p,i) => <li key={i}>{p}</li>)}
+            </ul>
+          </Row>}
+          <Row label="Delineation steps">
+            <ol style={{ paddingLeft:16, color:S.text, fontSize:13, lineHeight:1.7 }}>
+              {ct.steps.map((s,i) => <li key={i} style={{ marginBottom:4 }}>{s}</li>)}
+            </ol>
+          </Row>
+          <Row label="Orbs">{ct.orbs}</Row>
+          <Row label="Synthesis weight"><span style={{ color:S.goldLight, fontStyle:"italic" }}>{ct.weight}</span></Row>
+        </div>
+      )}
+    </Card>
+  );
+}
+
+function WeightBar({ value }) {
+  return (
+    <div style={{ display:"flex", alignItems:"center", gap:8 }}>
+      <div style={{ flex:1, height:6, background:S.surface, borderRadius:3, overflow:"hidden" }}>
+        <div style={{ width:`${value * 100}%`, height:"100%", background:`linear-gradient(90deg, ${S.accent}, ${S.gold})`, borderRadius:3 }} />
+      </div>
+      <span style={{ color:S.cream, fontSize:12, minWidth:30 }}>{value.toFixed(2)}</span>
+    </div>
+  );
+}
+
+function SynthesisEngine() {
+  const [checks, setChecks] = useState({});
+  const toggle = (area, tech) => {
+    const key = `${area}__${tech}`;
+    setChecks(prev => ({ ...prev, [key]: !prev[key] }));
+  };
+  const count = (area) => TECHNIQUE_LIST.filter(t => checks[`${area}__${t}`]).length;
+  const confidence = (n) => {
+    if (n >= 5) return { label:"Very High", color:S.success };
+    if (n >= 3) return { label:"High", color:S.gold };
+    if (n === 2) return { label:"Moderate", color:S.info };
+    if (n === 1) return { label:"Low", color:S.muted };
+    return { label:"Minimal", color:S.cardBorder };
+  };
+  return (
+    <div>
+      <SectionTitle>Testimony Synthesis Engine</SectionTitle>
+      <p style={{ color:S.muted, fontSize:13, marginBottom:20, lineHeight:1.7 }}>
+        Check every active technique for each life area. When 3 or more independent techniques point to the same theme, confidence reaches "High." Five or more = "Very High — definitive development expected." This is the convergence protocol from the unified framework.
+      </p>
+      <div style={{ display:"flex", flexDirection:"column", gap:12 }}>
+        {LIFE_AREAS.map(area => {
+          const n = count(area);
+          const conf = confidence(n);
+          return (
+            <Card key={area}>
+              <div style={{ display:"flex", alignItems:"center", justifyContent:"space-between", marginBottom:12 }}>
+                <span style={{ fontFamily:"'Cinzel', serif", color:S.cream, fontSize:13 }}>{area}</span>
+                <div style={{ display:"flex", alignItems:"center", gap:10 }}>
+                  <span style={{ color:conf.color, fontSize:13, fontFamily:"'Cinzel', serif" }}>{n} testimonies</span>
+                  <Badge color={conf.color}>{conf.label}</Badge>
+                </div>
+              </div>
+              <div style={{ display:"flex", flexWrap:"wrap", gap:4 }}>
+                {TECHNIQUE_LIST.map(tech => {
+                  const key = `${area}__${tech}`;
+                  const active = checks[key];
+                  return (
+                    <button key={tech} className={`pill-btn${active ? " active" : ""}`} onClick={() => toggle(area, tech)}
+                      style={{ padding:"3px 10px", fontSize:11, color: active ? S.gold : S.muted, transition:"all 0.15s" }}>
+                      {tech}
+                    </button>
+                  );
+                })}
+              </div>
+              {n > 0 && (
+                <div style={{ marginTop:10, height:4, background:S.surface, borderRadius:2, overflow:"hidden" }}>
+                  <div style={{ width:`${Math.min(n/6*100, 100)}%`, height:"100%", background:conf.color, borderRadius:2, transition:"width 0.3s" }} />
+                </div>
+              )}
+            </Card>
+          );
+        })}
+      </div>
+      <Card style={{ marginTop:16, background:S.surface }}>
+        <div style={{ fontFamily:"'Cinzel', serif", color:S.gold, fontSize:12, letterSpacing:"0.06em", marginBottom:12 }}>CONFIDENCE MATRIX</div>
+        <div style={{ display:"flex", flexDirection:"column", gap:6 }}>
+          {[["5+ testimonies","Very High","Definitive theme — major development expected",S.success],["3–4 testimonies","High","Strong theme — significant development likely",S.gold],["2 testimonies","Moderate","Developing theme — monitor closely",S.info],["1 testimony","Low","Background potential — note but do not emphasize",S.muted],["0 testimonies","Minimal","Not supported — omit from primary report",S.cardBorder]].map(([t,c,d,col]) => (
+            <div key={t} style={{ display:"flex", alignItems:"center", gap:12, padding:"6px 0", borderBottom:`1px solid ${S.cardBorder}` }}>
+              <div style={{ width:10, height:10, borderRadius:"50%", background:col, flexShrink:0 }} />
+              <span style={{ color:col, fontFamily:"'Cinzel', serif", fontSize:12, minWidth:120 }}>{t}</span>
+              <Badge color={col}>{c}</Badge>
+              <span style={{ color:S.muted, fontSize:12 }}>{d}</span>
+            </div>
+          ))}
+        </div>
+      </Card>
+    </div>
+  );
+}
+
+function ZodiacWheel({ size = 180 }) {
+  const signs = ["♈","♉","♊","♋","♌","♍","♎","♏","♐","♑","♒","♓"];
+  const r = size/2, inner = r*0.62, mid = r*0.78;
+  return (
+    <svg width={size} height={size} style={{ opacity:0.35 }}>
+      <circle cx={r} cy={r} r={r-4} fill="none" stroke={S.gold} strokeWidth={1} />
+      <circle cx={r} cy={r} r={inner} fill="none" stroke={S.cardBorder} strokeWidth={1} />
+      {signs.map((s,i) => {
+        const a = (i*30 - 90) * Math.PI / 180;
+        const sx = r + Math.cos(a) * mid, sy = r + Math.sin(a) * mid;
+        const x1 = r + Math.cos(a) * inner, y1 = r + Math.sin(a) * inner;
+        const x2 = r + Math.cos(a) * (r-4), y2 = r + Math.sin(a) * (r-4);
+        return (
+          <g key={i}>
+            <line x1={x1} y1={y1} x2={x2} y2={y2} stroke={S.cardBorder} strokeWidth={0.5} />
+            <text x={sx} y={sy} textAnchor="middle" dominantBaseline="central" fontSize={11} fill={S.gold}>{s}</text>
+          </g>
+        );
+      })}
+    </svg>
+  );
+}
+
+const TABS = [
+  { id:"overview", label:"Overview" },
+  { id:"techniques", label:"Techniques" },
+  { id:"depths", label:"Depth Charts" },
+  { id:"weighting", label:"Weighting" },
+  { id:"synthesis", label:"Synthesis" },
+];
+
+export default function AstrologyApp() {
+  const [tab, setTab] = useState("overview");
+
+  return (
+    <div style={{ fontFamily:"'Crimson Pro', Georgia, serif", background:S.bg, minHeight:"100vh", color:S.text }}>
+      <style>{styles}</style>
+
+      {/* Header */}
+      <div style={{ background:S.surface, borderBottom:`1px solid ${S.cardBorder}`, padding:"0 28px" }}>
+        <div style={{ display:"flex", alignItems:"center", justifyContent:"space-between", paddingTop:18, paddingBottom:14 }}>
+          <div style={{ display:"flex", alignItems:"center", gap:16 }}>
+            <ZodiacWheel size={60} />
+            <div>
+              <h1 style={{ fontFamily:"'Cinzel', serif", color:S.goldLight, fontSize:22, fontWeight:600, letterSpacing:"0.12em" }}>ASTROLOGOS</h1>
+              <p style={{ color:S.muted, fontSize:12, letterSpacing:"0.06em", marginTop:2 }}>Unified Predictive Framework · Master Reference</p>
+            </div>
+          </div>
+          <div style={{ textAlign:"right" }}>
+            <div style={{ color:S.muted, fontSize:11, fontFamily:"'Cinzel', serif", letterSpacing:"0.06em" }}>Schema v3.0</div>
+            <div style={{ color:S.cardBorder, fontSize:11, marginTop:2 }}>13 Techniques · 3 Depth Chart Types</div>
+          </div>
+        </div>
+
+        {/* Tabs */}
+        <div style={{ display:"flex", gap:4, paddingBottom:0 }}>
+          {TABS.map(t => (
+            <button key={t.id} className="tab-btn" onClick={() => setTab(t.id)}
+              style={{ fontFamily:"'Cinzel', serif", fontSize:12, letterSpacing:"0.06em", color: tab===t.id ? S.gold : S.muted, padding:"10px 18px", borderBottom: tab===t.id ? `2px solid ${S.gold}` : "2px solid transparent", opacity: tab===t.id ? 1 : 0.7 }}>
+              {t.label}
+            </button>
+          ))}
+        </div>
+      </div>
+
+      {/* Content */}
+      <div style={{ maxWidth:900, margin:"0 auto", padding:"28px 20px" }}>
+
+        {tab === "overview" && (
+          <div>
+            <div style={{ display:"grid", gridTemplateColumns:"1fr 1fr", gap:16, marginBottom:24 }}>
+              <Card>
+                <div style={{ fontFamily:"'Cinzel', serif", color:S.gold, fontSize:11, letterSpacing:"0.08em", marginBottom:12 }}>CORE PRINCIPLE</div>
+                <p style={{ fontSize:14, lineHeight:1.9, fontStyle:"italic", color:S.cream }}>
+                  "The natal chart is the seed containing all potential. Predictive techniques show how that seed grows and unfolds over time."
+                </p>
+                <p style={{ fontSize:13, color:S.muted, marginTop:10, lineHeight:1.7 }}>
+                  The most effective astrologers weave together multiple predictive techniques for a comprehensive picture — revealing not just <em>what</em> might happen, but <em>when</em> and <em>how</em> these energies manifest.
+                </p>
+              </Card>
+              <Card>
+                <div style={{ fontFamily:"'Cinzel', serif", color:S.gold, fontSize:11, letterSpacing:"0.08em", marginBottom:12 }}>TESTIMONY PRINCIPLE</div>
+                <p style={{ fontSize:14, lineHeight:1.9, fontStyle:"italic", color:S.cream }}>
+                  "Multiple witnesses to the same astrological truth."
+                </p>
+                <p style={{ fontSize:13, color:S.muted, marginTop:10, lineHeight:1.7 }}>
+                  When multiple independent techniques point toward the same theme, confidence increases. Three or more convergent testimonies = high confidence forecast.
+                </p>
+                <div style={{ marginTop:12, background:S.surface, borderRadius:8, padding:"10px 12px" }}>
+                  <div style={{ fontSize:12, color:S.text }}>Example: Uranus transit conjunct natal Venus <span style={{ color:S.gold }}>+</span> 7th house profection year <span style={{ color:S.gold }}>+</span> progressed Venus changing signs <span style={{ color:S.gold }}>+</span> SR Venus angular <span style={{ color:S.goldLight }}>= 4 testimonies → major relationship development</span></div>
+                </div>
+              </Card>
+            </div>
+
+            <SectionTitle>14-Layer Reading Sequence</SectionTitle>
+            <div style={{ display:"flex", flexDirection:"column", gap:6, marginBottom:28 }}>
+              {[
+                ["1","Natal chart","baseline themes and planet dignities",S.cream],
+                ["2","Draconic chart","soul-purpose context",S.accent],
+                ["3","Harmonic charts","H4/H5/H7/H9 — talent and fate layers",S.accentLight],
+                ["4","Antiscia","hidden aspect contacts — add to watch list",S.success],
+                ["5","Vimshottari Dasha","Mahadasha + Antardasha + Pratyantardasha",S.danger],
+                ["6","Annual Profection","house of year + time lord",S.info],
+                ["7","Solar arc directions","definitive turning points (1° = 1 year)",S.gold],
+                ["8","Secondary progressions","internal developmental themes",S.accent],
+                ["9","Tertiary progressions","subconscious emotional rhythms","#9b7fd4"],
+                ["10","Solar return","annual thematic blueprint","#e8883a"],
+                ["11","Active eclipses","fated acceleration points",S.danger],
+                ["12","Current transits","external timing catalysts",S.info],
+                ["13","Lunar returns","monthly emotional refinement","#7ecbd4"],
+                ["14","Testimony count","build narrative with confidence ratings",S.gold],
+              ].map(([n,layer,desc,col]) => (
+                <div key={n} style={{ display:"flex", alignItems:"center", gap:12, padding:"8px 14px", background:S.card, border:`1px solid ${S.cardBorder}`, borderRadius:8 }}>
+                  <div style={{ width:24, height:24, borderRadius:"50%", background:col+"22", border:`1px solid ${col}44`, display:"flex", alignItems:"center", justifyContent:"center", color:col, fontFamily:"'Cinzel', serif", fontSize:11, flexShrink:0 }}>{n}</div>
+                  <div style={{ flex:1 }}>
+                    <span style={{ color:col, fontFamily:"'Cinzel', serif", fontSize:13 }}>{layer}</span>
+                    <span style={{ color:S.muted, fontSize:12, marginLeft:10 }}>{desc}</span>
+                  </div>
+                </div>
+              ))}
+            </div>
+
+            <SectionTitle>Internal vs External Distinction</SectionTitle>
+            <div style={{ display:"grid", gridTemplateColumns:"1fr 1fr 1fr", gap:12, marginBottom:28 }}>
+              {[
+                ["Internal (gradual)","Secondary progressions · Tertiary progressions","Evolving conscious personality + subconscious rhythms",S.accent],
+                ["Definitive turning points","Solar arc directions","Marks specific pivot years with precision",S.gold],
+                ["External (triggers)","Transits · Eclipses","Real-time cosmic weather; confirms internal readiness",S.info],
+              ].map(([type,tech,desc,col]) => (
+                <Card key={type} style={{ borderTop:`3px solid ${col}` }}>
+                  <div style={{ color:col, fontFamily:"'Cinzel', serif", fontSize:11, letterSpacing:"0.06em", marginBottom:8 }}>{type.toUpperCase()}</div>
+                  <div style={{ color:S.cream, fontSize:13, marginBottom:6 }}>{tech}</div>
+                  <div style={{ color:S.muted, fontSize:12, lineHeight:1.7 }}>{desc}</div>
+                </Card>
+              ))}
+            </div>
+
+            <SectionTitle>Skillful Forecasting Framework</SectionTitle>
+            <div style={{ display:"grid", gridTemplateColumns:"1fr 1fr", gap:12 }}>
+              {[
+                ["Preparation","Anticipating challenging periods and building resources beforehand",S.gold],
+                ["Timing","Launching important initiatives during supportive transits and favorable dashas",S.success],
+                ["Consciousness","Understanding the spiritual lessons embedded in difficult passages",S.accent],
+                ["Choice","Recognizing that you always have agency in how you respond to cosmic energies",S.info],
+              ].map(([title,desc,col]) => (
+                <Card key={title} style={{ borderLeft:`3px solid ${col}` }}>
+                  <div style={{ color:col, fontFamily:"'Cinzel', serif", fontSize:13, fontWeight:500, marginBottom:8 }}>{title}</div>
+                  <div style={{ color:S.text, fontSize:13, lineHeight:1.7 }}>{desc}</div>
+                </Card>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {tab === "techniques" && (
+          <div>
+            <SectionTitle>Predictive Techniques" sub="Expand each technique for full delineation framework, orbs, themes, steps, and synthesis role" />
+            {TECHNIQUES.map(t => <TechniqueCard key={t.id} t={t} />)}
+          </div>
+        )}
+
+        {tab === "depths" && (
+          <div>
+            <SectionTitle>Depth Chart Types" sub="Harmonic charts, draconic chart, and antiscia — the specialized soul-layer techniques" />
+            <div style={{ marginBottom:16, padding:"12px 16px", background:S.card, borderRadius:8, border:`1px solid ${S.cardBorder}`, fontSize:13, color:S.muted, lineHeight:1.7 }}>
+              All three depth chart types are <span style={{ color:S.gold }}>Tier 4 specialized layers</span> — used to confirm, deepen, or reveal patterns not visible through standard techniques. Derived from established astrological convention (John Addey 1976 for harmonics; standard convention for draconic and antiscia). Always read in conjunction with the natal chart context.
+            </div>
+            {CHART_TYPES.map(ct => <ChartTypeCard key={ct.id} ct={ct} />)}
+          </div>
+        )}
+
+        {tab === "weighting" && (
+          <div>
+            <SectionTitle>Weighting Framework" sub="Normalized salience hierarchy for all techniques, aspects, and planets" />
+
+            <div style={{ marginBottom:20 }}>
+              <div style={{ fontFamily:"'Cinzel', serif", color:S.gold, fontSize:12, letterSpacing:"0.06em", marginBottom:12 }}>TECHNIQUE TIERS</div>
+              <div style={{ display:"flex", flexDirection:"column", gap:8 }}>
+                {[
+                  { tier:1, w:"1.00", techs:"Natal chart · Outer planet transits · Progressed Sun · Solar arc directions", note:"Broadest multi-year themes; identity-level changes" },
+                  { tier:2, w:"0.85", techs:"Progressed Moon · Solar return · Vimshottari Mahadasha · Profections", note:"Annual and major-cycle timing" },
+                  { tier:3, w:"0.70", techs:"Tertiary progressions · Lunar return · Eclipses · Inner planet transits · Antardasha", note:"Monthly and sub-cycle refinement" },
+                  { tier:4, w:"0.60", techs:"Harmonic charts · Draconic chart · Antiscia · Planetary returns (Mars/Jupiter) · Pratyantardasha", note:"Depth confirmation; specialized soul-purpose layers" },
+                ].map(({ tier, w, techs, note }) => (
+                  <Card key={tier} style={{ display:"grid", gridTemplateColumns:"60px 60px 1fr", gap:12, alignItems:"center" }}>
+                    <Badge color={S.gold}>Tier {tier}</Badge>
+                    <span style={{ color:S.cream, fontFamily:"'Cinzel', serif", fontSize:14 }}>×{w}</span>
+                    <div>
+                      <div style={{ color:S.text, fontSize:13 }}>{techs}</div>
+                      <div style={{ color:S.muted, fontSize:12, marginTop:3, fontStyle:"italic" }}>{note}</div>
+                    </div>
+                  </Card>
+                ))}
+              </div>
+            </div>
+
+            <div style={{ display:"grid", gridTemplateColumns:"1fr 1fr", gap:20, marginBottom:20 }}>
+              <div>
+                <div style={{ fontFamily:"'Cinzel', serif", color:S.gold, fontSize:12, letterSpacing:"0.06em", marginBottom:12 }}>PLANET WEIGHTS</div>
+                <Card>
+                  <div style={{ display:"flex", flexDirection:"column", gap:8 }}>
+                    {PLANET_WEIGHTS.map(({ planet, w }) => (
+                      <div key={planet}>
+                        <div style={{ display:"flex", justifyContent:"space-between", marginBottom:4 }}>
+                          <span style={{ color:S.text, fontSize:13 }}>{planet}</span>
+                        </div>
+                        <WeightBar value={w} />
+                      </div>
+                    ))}
+                  </div>
+                </Card>
+              </div>
+              <div>
+                <div style={{ fontFamily:"'Cinzel', serif", color:S.gold, fontSize:12, letterSpacing:"0.06em", marginBottom:12 }}>ASPECT WEIGHTS</div>
+                <Card>
+                  <div style={{ display:"flex", flexDirection:"column", gap:8 }}>
+                    {ASPECT_WEIGHTS.map(({ asp, deg, w, nature }) => (
+                      <div key={asp}>
+                        <div style={{ display:"flex", justifyContent:"space-between", marginBottom:4 }}>
+                          <span style={{ color:S.text, fontSize:13 }}>{asp} <span style={{ color:S.muted, fontSize:11 }}>({deg})</span></span>
+                          <span style={{ color:S.muted, fontSize:11, fontStyle:"italic" }}>{nature}</span>
+                        </div>
+                        <WeightBar value={w} />
+                      </div>
+                    ))}
+                  </div>
+                </Card>
+              </div>
+            </div>
+
+            <div style={{ fontFamily:"'Cinzel', serif", color:S.gold, fontSize:12, letterSpacing:"0.06em", marginBottom:12 }}>BONUS MODIFIERS</div>
+            <div style={{ display:"grid", gridTemplateColumns:"1fr 1fr 1fr", gap:10 }}>
+              {[
+                ["Orb within 0°30'", "+0.20", "Imminent / peak activation", S.success],
+                ["Orb within 1°00'", "+0.10", "Active and building", S.gold],
+                ["Orb within 1°30'", "+0.05", "Approaching influence", S.info],
+                ["Angular position", "+0.15", "Within 5° of ASC/MC/DSC/IC", S.accent],
+                ["Retrograde station", "×3", "Triple intensity — crosses same degree 3 times", S.danger],
+                ["Prog. retrograde station", "⟲", "Major psychological internalization shift", "#9b7fd4"],
+              ].map(([label, bonus, note, col]) => (
+                <Card key={label} style={{ borderTop:`2px solid ${col}` }}>
+                  <div style={{ color:col, fontFamily:"'Cinzel', serif", fontSize:20, fontWeight:600, marginBottom:4 }}>{bonus}</div>
+                  <div style={{ color:S.cream, fontSize:13, marginBottom:4 }}>{label}</div>
+                  <div style={{ color:S.muted, fontSize:12 }}>{note}</div>
+                </Card>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {tab === "synthesis" && <SynthesisEngine />}
+
+      </div>
+
+      <div style={{ textAlign:"center", padding:"24px 0", borderTop:`1px solid ${S.cardBorder}`, color:S.cardBorder, fontSize:11, fontFamily:"'Cinzel', serif", letterSpacing:"0.08em" }}>
+        UNIFIED ASTROLOGICAL PREDICTIVE FRAMEWORK · SCHEMA v3.0 · SOURCES: SKYLINE READINGS · ADDEY (1976) · ESTABLISHED CONVENTION
+      </div>
+    </div>
+  );
+}

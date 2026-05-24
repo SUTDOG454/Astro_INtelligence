@@ -1,0 +1,1214 @@
+import { useState, useCallback } from "react";
+
+/* ═══════════════════════════════════════════════════════════════════════
+   UNIVERSALIZED NATAL CHART — PART III: SYNASTRY ENGINE
+   Aries Sun · Libra Rising · Sagittarius Moon · Jupiter Final Dispositor
+   — Full synastry framework for THIS chart as Person A —
+   Partner import → inter-aspects → overlays → composite →
+   Magi linkages → scoring → karmic analysis
+═══════════════════════════════════════════════════════════════════════ */
+
+/* ─── JIMMY'S (PERSON A) NATAL DATA ─────────────────────────────────── */
+const PA = {
+  label: "Person A — Aries Sun / Libra Rising",
+  Sun:       20.6894,  Moon:      250.2303, Mercury:  358.9197,
+  Venus:     334.4125, Mars:       84.4358, Jupiter:  337.4444,
+  Saturn:     89.3769, Uranus:    205.9736, Neptune:  249.3792,
+  Pluto:     185.0517, Chiron:     20.3725, TrueNode: 261.1086,
+  Ascendant: 190.8000, MC:        109.0000, Vertex:    29.2453,
+  POF:        90.3522, Juno:      324.9206, Eros:     337.3025,
+  Vesta:     188.2553, Ceres:     327.3911,
+};
+
+const PA_SIGNS = {
+  Sun:"Aries",     Moon:"Sagittarius", Mercury:"Pisces",  Venus:"Pisces",
+  Mars:"Gemini",   Jupiter:"Pisces",   Saturn:"Gemini",   Uranus:"Libra",
+  Neptune:"Sagittarius", Pluto:"Libra", Chiron:"Aries",   TrueNode:"Sagittarius",
+  Ascendant:"Libra", MC:"Cancer",
+};
+
+const PA_HOUSES = {
+  Sun:7, Moon:3, Mercury:6, Venus:5, Mars:9, Jupiter:5, Saturn:9,
+  Uranus:1, Neptune:3, Pluto:12, Chiron:7, TrueNode:3,
+};
+
+const HOUSE_CUSPS_PA = [
+  190.80, 217.00, 247.00, 289.00, 326.00, 357.00,
+   10.80,  37.00,  67.00, 109.00, 146.00, 177.00,
+];
+
+/* ─── CALCULATION UTILITIES ──────────────────────────────────────────── */
+const SIGN_BASE = {
+  Aries:0, Taurus:30, Gemini:60, Cancer:90, Leo:120, Virgo:150,
+  Libra:180, Scorpio:210, Sagittarius:240, Capricorn:270, Aquarius:300, Pisces:330,
+};
+const toLong = (sign, deg, min=0, sec=0) =>
+  (SIGN_BASE[sign] ?? 0) + parseFloat(deg) + parseFloat(min)/60 + parseFloat(sec)/3600;
+
+const angleDiff = (a, b) => { const d = Math.abs(a-b)%360; return d>180?360-d:d; };
+
+const longToSignDeg = (lon) => {
+  const l = ((parseFloat(lon)%360)+360)%360;
+  const sign = Object.entries(SIGN_BASE).reverse().find(([,b])=>l>=b)?.[0]||"Aries";
+  return { sign, degree: (l - SIGN_BASE[sign]).toFixed(2) };
+};
+
+const midpointLon = (a,b) => {
+  const diff = Math.abs(a-b);
+  let mp = diff>180 ? ((a+b)/2+180)%360 : (a+b)/2;
+  return ((mp%360)+360)%360;
+};
+
+const getHouse = (lon, cusps) => {
+  const l = ((parseFloat(lon)%360)+360)%360;
+  for (let i=0; i<12; i++) {
+    const start = cusps[i];
+    const end   = cusps[(i+1)%12];
+    if (start <= end) { if (l >= start && l < end) return i+1; }
+    else              { if (l >= start || l < end)  return i+1; }
+  }
+  return 1;
+};
+
+/* ─── ASPECT DEFINITIONS ─────────────────────────────────────────────── */
+const ASPECTS_DEF = [
+  { name:"Conjunction",  sym:"☌",  angle:0,   orb:8,  type:"major", quality:"Merging",     color:"var(--gold)" },
+  { name:"Opposition",   sym:"☍",  angle:180, orb:8,  type:"major", quality:"Challenging", color:"var(--crimson)" },
+  { name:"Trine",        sym:"△",  angle:120, orb:8,  type:"major", quality:"Harmonious",  color:"var(--teal)" },
+  { name:"Square",       sym:"□",  angle:90,  orb:7,  type:"major", quality:"Challenging", color:"var(--crimson)" },
+  { name:"Sextile",      sym:"⚹",  angle:60,  orb:6,  type:"major", quality:"Harmonious",  color:"var(--teal)" },
+  { name:"Quincunx",     sym:"⚻",  angle:150, orb:3,  type:"minor", quality:"Karmic",      color:"var(--violet)" },
+  { name:"Semisquare",   sym:"∠",  angle:45,  orb:2,  type:"minor", quality:"Tense",       color:"var(--gold-d)" },
+  { name:"Sesquisquare", sym:"⊾",  angle:135, orb:2,  type:"minor", quality:"Tense",       color:"var(--gold-d)" },
+  { name:"Semisextile",  sym:"⚺",  angle:30,  orb:2,  type:"minor", quality:"Mild",        color:"var(--silver)" },
+];
+
+/* ─── SYNASTRY SCORING WEIGHTS ───────────────────────────────────────── */
+const SYNASTRY_WEIGHTS = {
+  // Body pair weights [A's body, B's body, aspect, score, category]
+  // Major romantic/bonding
+  "Sun-Moon-Conjunction":     { score:9,  cat:"Bonding",    label:"Classic soul-mate marker" },
+  "Sun-Moon-Opposition":      { score:8,  cat:"Bonding",    label:"Magnetic complementarity" },
+  "Sun-Moon-Trine":           { score:7,  cat:"Bonding",    label:"Easy emotional flow" },
+  "Sun-Moon-Sextile":         { score:6,  cat:"Bonding",    label:"Natural compatibility" },
+  "Venus-Mars-Conjunction":   { score:9,  cat:"Romantic",   label:"Peak erotic-romantic chemistry" },
+  "Venus-Mars-Opposition":    { score:8,  cat:"Romantic",   label:"Magnetic sexual tension" },
+  "Venus-Mars-Trine":         { score:7,  cat:"Romantic",   label:"Flowing romantic chemistry" },
+  "Venus-Mars-Sextile":       { score:6,  cat:"Romantic",   label:"Compatible desire energies" },
+  "Sun-Venus-Conjunction":    { score:8,  cat:"Romantic",   label:"Love and identity merge" },
+  "Sun-Venus-Trine":          { score:6,  cat:"Romantic",   label:"Affection and esteem" },
+  "Moon-Venus-Conjunction":   { score:7,  cat:"Bonding",    label:"Emotional warmth and care" },
+  "Moon-Venus-Trine":         { score:6,  cat:"Bonding",    label:"Nurturing affection" },
+  // Chiron — Magi linkages
+  "Venus-Chiron-Conjunction": { score:10, cat:"Magi",       label:"Super Romance Linkage (Magi)" },
+  "Jupiter-Chiron-Conjunction":{ score:10,cat:"Magi",       label:"Cinderella Linkage (Magi)" },
+  "Chiron-Venus-Conjunction":  { score:10,cat:"Magi",       label:"Super Romance Linkage (Magi)" },
+  "Chiron-Jupiter-Conjunction":{ score:10,cat:"Magi",       label:"Cinderella Linkage (Magi)" },
+  "Chiron-Mars-Conjunction":   { score:7, cat:"Magi",       label:"Sexual/activation linkage (Magi)" },
+  "Juno-Chiron-Conjunction":   { score:9, cat:"Magi",       label:"Marriage Linkage (Magi)" },
+  "Chiron-Juno-Conjunction":   { score:9, cat:"Magi",       label:"Marriage Linkage (Magi)" },
+  // Stability / long-term
+  "Saturn-Sun-Conjunction":    { score:6, cat:"Stability",  label:"Karmic commitment; longevity" },
+  "Saturn-Moon-Conjunction":   { score:5, cat:"Stability",  label:"Structural emotional bond; heavy" },
+  "Saturn-Venus-Trine":        { score:7, cat:"Stability",  label:"Lasting devotion through discipline" },
+  "Saturn-Venus-Sextile":      { score:6, cat:"Stability",  label:"Reliable, enduring affection" },
+  // Nodal — karmic
+  "Sun-TrueNode-Conjunction":  { score:8, cat:"Karmic",     label:"Soul-path activation" },
+  "Moon-TrueNode-Conjunction": { score:8, cat:"Karmic",     label:"Evolutionary emotional bond" },
+  "Venus-TrueNode-Conjunction":{ score:8, cat:"Karmic",     label:"Love aligned with destiny" },
+  // Challenging patterns
+  "Saturn-Sun-Square":         { score:-4,cat:"Challenge",  label:"Authority / restriction clash" },
+  "Saturn-Moon-Square":        { score:-4,cat:"Challenge",  label:"Emotional suppression risk" },
+  "Pluto-Sun-Square":          { score:-5,cat:"Challenge",  label:"Power struggle / domination risk" },
+  "Pluto-Moon-Square":         { score:-4,cat:"Challenge",  label:"Emotional control / obsession" },
+  "Mars-Mars-Square":          { score:-3,cat:"Challenge",  label:"Will conflict / frustration" },
+  "Mars-Saturn-Conjunction":   { score:-3,cat:"Challenge",  label:"Drive blocked by structure" },
+};
+
+const SCORE_CATEGORIES = {
+  Bonding:   { color:"var(--teal)",   icon:"☽" },
+  Romantic:  { color:"var(--gold)",   icon:"♀" },
+  Magi:      { color:"#d4a0ff",       icon:"⚷" },
+  Stability: { color:"var(--silver)", icon:"♄" },
+  Karmic:    { color:"var(--violet)", icon:"☊" },
+  Challenge: { color:"var(--crimson)",icon:"□" },
+};
+
+/* ─── THIS CHART IN SYNASTRY — STATIC ANALYSIS ───────────────────────── */
+const THIS_CHART_IN_SYNASTRY = {
+  what_A_offers: [
+    { planet:"Venus (exalted Pisces H5)", offers:"Unconditional, transcendent, spiritualized love. Partner feels adored at a soul level. Creative beauty flows into the relationship. Romantic generosity that can feel overwhelming.", watch:"May love the ideal of the partner rather than the actual person." },
+    { planet:"Jupiter (domicile Pisces H5)", offers:"Expansive warmth, philosophical generosity, humor, and an uplifting effect on the partner. Brings abundance of feeling, optimism, and a sense that life is richer together.", watch:"Can over-extend emotionally and spiritually, then need withdrawal to replenish." },
+    { planet:"Sun ☌ Chiron (Aries H7)", offers:"Authentic vulnerability as strength. Heals through genuine presence. The partner feels genuinely seen — often for the first time. The 7th house placement means this is offered most fully in partnership contexts.", watch:"Every relationship carries the wound-site; the partner may inadvertently touch pain in unexpected moments." },
+    { planet:"Moon ☌ Neptune (Sag H3)", offers:"Psychic attunement to the partner's emotional reality. Communicates with rare emotional intelligence. Dreams together with the partner. The relationship gains an almost mystical, transcendent quality.", watch:"Absorbs partner's feelings as own. Needs to maintain own emotional center; can lose self in the partner's emotional weather." },
+    { planet:"Mars ☌ Saturn OOB (Gem H9)", offers:"Intellectual intensity, philosophical discussion, disciplined pursuit of ideas together. The relationship becomes a school — both partners grow their worldviews through contact.", watch:"OOB Mars can feel overwhelming; intellectual combativeness may intimidate sensitive partners." },
+    { planet:"Uranus H1 (Air Grand Trine)", offers:"Originality, brilliance, and the electric charge of genuine individuality. The partner never feels bored. Life with this person is surprising, innovative, and intellectually alive.", watch:"The Uranian need for freedom must be honored — possessive partners will trigger the opposition's Uranian disruptive force." },
+  ],
+  what_A_needs: [
+    { need:"Intellectual equality and electric mind-connection", why:"Air Grand Trine + Mars/Saturn Gemini H9 + Mercury sq Saturn — the mind must be fed, challenged, and matched in depth" },
+    { need:"Genuine freedom within the relationship", why:"Sun H7 ☍ Uranus H1 — partnership is essential but freedom is non-negotiable; the partner must want the native to be fully autonomous" },
+    { need:"Spiritual and creative resonance", why:"Venus/Jupiter/Eros Pisces H5 + Moon-Neptune H3 — mundane relationships that lack spiritual or creative dimension do not nourish" },
+    { need:"Emotional depth and vulnerability", why:"Moon-Neptune ☌ + Pluto H12 — surface-level emotional exchanges leave this chart starving; depth of feeling is the food" },
+    { need:"Partner who activates the 7th house wound-healing", why:"Sun-Chiron H7 — relationships are healing arenas; the right partner holds space for the wound and the exaltation simultaneously" },
+    { need:"Patience with emotional permeability and boundaries", why:"Moon-Neptune fusion — the native's emotional field is porous; partners who understand this rather than exploiting it are essential" },
+    { need:"Stability and groundedness as counterbalance", why:"Absent Earth element — earthy, practical partners provide what the chart genuinely lacks and craves as complement" },
+  ],
+  ideal_partner_signatures: [
+    { sig:"Sun, Moon, or Venus in Sagittarius, Pisces, or Cancer", why:"Activates the Moon-Neptune-Node H3 stellium and the Pisces creative zone; emotional resonance" },
+    { sig:"Venus or Mars in Aries 15°–25°", why:"Directly activates the Sun-Chiron conjunction — the healing-romantic wound-activation contact" },
+    { sig:"Planets in Gemini 20°–29°", why:"Trines natal Moon/Neptune in Sagittarius; sextiles natal Venus/Jupiter in Pisces; activates the intellectual 9th house Mars-Saturn" },
+    { sig:"Planets in Libra 5°–15°", why:"Conjuncts the Ascendant/Pluto zone — triggers depth, transformation, and persona activation in the connection" },
+    { sig:"Sun or Moon in Cancer/Scorpio", why:"Trines Venus/Jupiter in Pisces; activates 8th house Fortune zone; deep emotional and transformative resonance" },
+    { sig:"Saturn in Earth signs (Cap/Taurus/Virgo)", why:"Provides the grounding, structure, and material stability the chart's absent Earth element needs" },
+    { sig:"Chiron in Aries, Libra, Taurus, or Scorpio", why:"Forms Magi linkages to natal Venus, Jupiter, or Juno — triggering the super-linkage and marriage-linkage patterns" },
+  ],
+  red_flags: [
+    { flag:"Partner's Saturn square or opposing natal Moon-Neptune (Sag/Gem)", impact:"The mystical emotional field meets rigid suppression — one of the most damaging contacts for this chart's emotional core" },
+    { flag:"Partner's Pluto square natal Sun or Venus", impact:"Power and control dynamics invade the creative-romantic core; the exalted Venus threatened by Plutonian domination attempts" },
+    { flag:"Partner's Mars square natal Venus-Jupiter (Pisces)", impact:"Aggression or self-interested drive invading the sacred creative-romantic Pisces stellium" },
+    { flag:"Partner entirely devoid of Fire or Water", impact:"No elemental resonance with the dominant Fire/Water nature; the connection can feel fundamentally alien" },
+    { flag:"Partner's multiple planets in Virgo H12 zone (Virgo 15°–27°)", impact:"Fall into the 12th house — partners who bring energy to the hidden sector can trigger the Pluto/Vesta isolation dynamics" },
+    { flag:"Partner's Sun or Moon square natal Uranus (Libra)", impact:"Clashes with the Uranian freedom imperative — the partner may feel the native is never fully present or committed" },
+  ],
+};
+
+/* ─── HOUSE OVERLAY INTERPRETATIONS ─────────────────────────────────── */
+const OVERLAY_INTERPS = {
+  1:  { title:"Partner's Planet in Your 1st House", short:"Mirror and persona", reading:"Partner's energy directly shapes and activates Person A's Libra persona. The planet here becomes part of how Person A is perceived and presents. Liberating or confining depending on the planet — Venus and Sun here feel enlivening; Saturn here can feel identity-constraining." },
+  2:  { title:"Partner's Planet in Your 2nd House", short:"Values & self-worth activation", reading:"Partner's energy connects to Person A's sense of material and emotional self-worth. Beneficial planets here (Venus, Jupiter, Sun) can amplify confidence and abundance. Challenging planets (Saturn, Pluto) may trigger insecurity about worth or create financial entanglement." },
+  3:  { title:"Partner's Planet in Your 3rd House", short:"The mystical mind activated", reading:"Partner's energy lands directly on the Moon-Neptune-Node stellium zone. THIS IS THE MOST RESONANT OVERLAY for this chart. A partner whose planet falls here (especially in Sagittarius 8°–22°) activates the mystical communication center — the deepest intellectual-emotional bond possible with this chart." },
+  4:  { title:"Partner's Planet in Your 4th House", short:"Psychological roots touched", reading:"Partner's energy enters the most private psychological domain — the Capricorn 4th house of foundations, ancestry, and inner sanctuary. Powerful for creating a sense of home together. Saturn-ruled 4th means a partner's planet here either builds or destabilizes the foundational security structure." },
+  5:  { title:"Partner's Planet in Your 5th House", short:"The creative-romantic CORE", reading:"Partner's energy enters the Venus-Jupiter-Eros Pisces stellium zone — the heart of the creative and romantic life. A partner with planets in Pisces 0°–15° (or Aquarius 26°–Pisces 0°) landing here activates the chart's highest frequency. This overlay produces the deepest creative-romantic resonance possible with this chart." },
+  6:  { title:"Partner's Planet in Your 6th House", short:"Daily service and craft resonance", reading:"Partner's energy activates the Mercury/service 6th house. Practical, day-to-day collaboration and shared work patterns are shaped by this overlay. The Pisces 6th house means the daily work connection has spiritual and artistic dimensions." },
+  7:  { title:"Partner's Planet in Your 7th House", short:"Direct partnership activation — wound and exaltation", reading:"Partner's energy lands in the Sun-Chiron-Vertex H7 zone — the partnership domain itself. THIS ACTIVATES THE CORE WOUND-HEALING DYNAMIC. Harmonious planets (Venus, Jupiter, Sun) in Aries H7 produce profound recognition and solar activation. Any planet within 5° of natal Sun (Aries 20°) or Chiron (Aries 20°) forms a direct contact with the chart's central archetype." },
+  8:  { title:"Partner's Planet in Your 8th House", short:"Depth, transformation, shared fortune", reading:"Partner's energy activates the 8th house where Saturn and Part of Fortune reside. Deep intimacy, shared resources, and transformative encounter are the themes. The POF here means that this overlay has literal fortune implications — the connection can be materially generative. Pluto rules the 8th (modern), linking this overlay to the H12 Pluto dimension." },
+  9:  { title:"Partner's Planet in Your 9th House", short:"Philosophical and spiritual alignment", reading:"Partner's energy activates the Mars-Saturn Gemini 9th house — the philosophical warrior zone. Intellectual and world-view alignment is created by this overlay. A partner whose planets land in Gemini H9 forms a direct intellectual bond with the chart's most disciplined mental domain." },
+  10: { title:"Partner's Planet in Your 10th House", short:"Career and public life activated", reading:"Partner's energy activates the Cancer 10th house / MC zone. The relationship has public, career, or social-status dimensions. The nurturing Cancer MC means a partner who brings supportive, emotionally grounding energy to this house can be profoundly stabilizing for the professional life." },
+  11: { title:"Partner's Planet in Your 11th House", short:"Friendship and vision alignment", reading:"Partner's energy enters the Leo 11th house — the domain of creative community, vision, and friendship. The relationship carries a quality of inspired co-creation or shared purpose beyond the personal." },
+  12: { title:"Partner's Planet in Your 12th House", short:"Hidden depths and karmic undercurrent", reading:"Partner's energy enters the Pluto-Vesta Virgo-Libra 12th house — the most hidden and psychologically complex sector. This overlay can produce both profound spiritual resonance AND hidden undercurrents that operate below conscious awareness. The Pluto conjunction to the ASC makes this a delicate zone." },
+};
+
+/* ─── MAGI LINKAGE DEFINITIONS ──────────────────────────────────────── */
+const MAGI_LINKAGES = [
+  { name:"Super Romance Linkage", definition:"Partner's Venus conjunct (within 3°) Person A's Chiron, OR Partner's Chiron conjunct Person A's Venus. The most powerful romantic attachment in Magi Astrology — creates the sense that you've always known this person.", pa_point:"A's Venus: Pisces 4°24′ (334.41°) / A's Chiron: Aries 20°22′ (20.37°)" },
+  { name:"Cinderella Linkage", definition:"Partner's Jupiter conjunct Person A's Chiron, OR Partner's Chiron conjunct Person A's Jupiter. Brings luck, expansion, and life-changing uplift to the native. The 'prince/princess' dynamic.", pa_point:"A's Jupiter: Pisces 7°26′ (337.44°) / A's Chiron: Aries 20°22′ (20.37°)" },
+  { name:"Sexual Linkage", definition:"Partner's Mars conjunct Person A's Chiron (or vice versa). Intense physical attraction with a healing undercurrent. Can feel compulsive.", pa_point:"A's Chiron: Aries 20°22′ (20.37°) / A's Mars: Gemini 24°26′ (84.44°)" },
+  { name:"Marriage Linkage (Traditional)", definition:"Partner's Chiron conjunct Person A's Juno, OR Partner's Juno conjunct Person A's Chiron. Magi astrology's primary marriage indicator.", pa_point:"A's Juno: Aquarius 24°55′ (324.92°) / A's Chiron: Aries 20°22′ (20.37°)" },
+  { name:"Romantic Soulmate Linkage", definition:"Partner's Venus forms a trine, sextile, or conjunction to Person A's Venus. Both hearts resonate in the same key — shared aesthetic and romantic sensibility.", pa_point:"A's Venus: Pisces 4°24′ — harmonious from Cancer 4°, Scorpio 4°, Taurus 4°, Virgo 4°" },
+  { name:"Spiritual/Neptune Linkage", definition:"Partner's Neptune forms a harmonious aspect (≤3°) to Person A's Sun, Moon, or Venus. Transcendent spiritual dimension in the bond — the 'other-worldly' connection.", pa_point:"A's Moon: Sag 10°13′ (already fused with Neptune natally) — extreme sensitivity here" },
+  { name:"Jupiter Enhancement Linkage", definition:"Partner's Jupiter conjunct, trine, or sextile Person A's Sun, Moon, or Venus. The partner expands, uplifts, and makes life feel larger.", pa_point:"A's Venus/Jupiter zone: Pisces 4°–7° — harmonious from Cancer or Scorpio" },
+];
+
+/* ─── COMPOSITE GUIDELINES ──────────────────────────────────────────── */
+const COMPOSITE_GUIDE = [
+  { planet:"Composite Sun", reading:"The relationship's core purpose and identity. When the composite Sun falls in Person A's 5th house zone (late Aquarius/early Pisces) — the relationship's core IS creative-romantic abundance. In H7 Aries zone — the relationship is about mutual solar activation and healing." },
+  { planet:"Composite Moon", reading:"The relationship's emotional home base. A composite Moon in Pisces or Cancer (trining natal Venus/Jupiter) creates an emotionally nurturing, spiritually resonant bond. Moon in Gemini H9 — the emotional home is in ideas and philosophical exploration together." },
+  { planet:"Composite Venus", reading:"The relationship's love style and aesthetic. Composite Venus in Pisces, Cancer, or Scorpio resonates most fully with Person A's natal Pisces stellium and water-trine receptivity. These bring the highest creative-romantic frequency." },
+  { planet:"Composite Ascendant", reading:"The relationship's outward face and how it presents to the world. Libra ASC for the composite supports the natal Libra Rising — the relationship presents as harmonious, aesthetic, and relationally sophisticated." },
+  { planet:"Composite Chiron", reading:"The relationship's healing and wound dimension. When composite Chiron falls in Aries (near natal Sun-Chiron zone), the relationship is fundamentally organized around the healing of wounds. This can be profound — or exhausting, depending on both parties' willingness to engage consciously." },
+  { planet:"Composite Saturn", reading:"The relationship's structure and longevity architecture. Composite Saturn in an Earth sign (Taurus/Virgo/Capricorn) provides the grounding the natal chart lacks. In a harmonious aspect to composite Venus, it describes an enduring, committed love." },
+  { planet:"Composite Jupiter", reading:"Where the relationship expands and grows. Composite Jupiter in Pisces or Sagittarius resonates most powerfully with the natal chart's dominant Jupiterian themes — the relationship feels abundant, philosophically alive, and spiritually generative." },
+  { planet:"Composite Neptune", reading:"The relationship's spiritual dimension and illusion potential. Composite Neptune in Pisces or Sagittarius (resonating with natal Moon-Neptune H3) can produce a transcendent spiritual bond — or profound mutual projection and idealization. Consciousness is key." },
+];
+
+/* ─── EXTRACTION PROMPT ─────────────────────────────────────────────── */
+const EXTRACT_PROMPT = `You are an expert astrological data scientist. Extract ALL chart data from the provided input.
+
+Return ONLY valid JSON — no markdown, no explanation, no extra text:
+
+{
+  "chart_info": { "name":null,"date":null,"time":null,"location":null,"house_system":null },
+  "planets": [
+    { "name":"Sun","sign":"Aries","degree":15,"minutes":32,"seconds":0,"longitude":15.53,"house":1,"retrograde":false,"declination":null }
+  ],
+  "angles": {
+    "Ascendant":{"sign":"Aries","degree":5,"minutes":20,"longitude":5.33},
+    "MC":{"sign":"Capricorn","degree":15,"minutes":10,"longitude":285.17}
+  },
+  "house_cusps": [{"house":1,"sign":"Aries","degree":5,"minutes":20,"longitude":5.33}]
+}
+
+Rules:
+1. longitude = SIGN_BASE + degree + minutes/60. Bases: Ar=0 Ta=30 Ge=60 Ca=90 Le=120 Vi=150 Li=180 Sc=210 Sg=240 Cp=270 Aq=300 Pi=330
+2. Full sign names only. retrograde:true if R/Rx present. Include ALL planets and asteroids listed.
+3. Return ONLY the JSON object.`;
+
+/* ─── CALCULATION FUNCTIONS ─────────────────────────────────────────── */
+function calcInterAspects(pbA, pbB) {
+  const results = [];
+  const coreA = ["Sun","Moon","Mercury","Venus","Mars","Jupiter","Saturn","Uranus","Neptune","Pluto","Chiron","TrueNode","Ascendant","MC","Vertex","Juno","Eros"];
+  const coreB = ["Sun","Moon","Mercury","Venus","Mars","Jupiter","Saturn","Uranus","Neptune","Pluto","Chiron","TrueNode","Ascendant","MC","Vertex","Juno","Eros"];
+  for (const ka of coreA) {
+    if (pbA[ka] == null) continue;
+    for (const kb of coreB) {
+      if (pbB[kb] == null) continue;
+      const diff = angleDiff(parseFloat(pbA[ka]), parseFloat(pbB[kb]));
+      const isLum = ["Sun","Moon","Ascendant"].includes(ka) || ["Sun","Moon","Ascendant"].includes(kb);
+      for (const asp of ASPECTS_DEF) {
+        const maxOrb = asp.orb + (isLum ? 2 : 0);
+        const orb = Math.abs(diff - asp.angle);
+        if (orb <= maxOrb) {
+          const key = `${ka}-${kb}-${asp.name}`;
+          const revKey = `${kb}-${ka}-${asp.name}`;
+          const weight = SYNASTRY_WEIGHTS[key] || SYNASTRY_WEIGHTS[revKey];
+          results.push({
+            bodyA:ka, bodyB:kb, aspect:asp.name, sym:asp.sym,
+            angle:asp.angle, orb:orb.toFixed(2), type:asp.type,
+            quality:asp.quality, color:asp.color,
+            score: weight?.score || 0, cat: weight?.cat || "Neutral",
+            label: weight?.label || "",
+          });
+          break;
+        }
+      }
+    }
+  }
+  return results.sort((a,b) => parseFloat(a.orb)-parseFloat(b.orb));
+}
+
+function calcOverlays(pbB, hCuspsA) {
+  const overlays = {};
+  const planetOrder = ["Sun","Moon","Mercury","Venus","Mars","Jupiter","Saturn","Uranus","Neptune","Pluto","Chiron","TrueNode","Ascendant","MC"];
+  for (const p of planetOrder) {
+    if (pbB[p] == null) continue;
+    const h = getHouse(pbB[p], hCuspsA);
+    if (!overlays[h]) overlays[h] = [];
+    overlays[h].push(p);
+  }
+  return overlays;
+}
+
+function calcMagiLinks(pbA, pbB) {
+  const links = [];
+  const chiA = pbA["Chiron"], venA = pbA["Venus"], jupA = pbA["Jupiter"], junoA = pbA["Juno"];
+  const chiB = pbB["Chiron"], venB = pbB["Venus"], jupB = pbB["Jupiter"], junoB = pbB["Juno"];
+  const marB = pbB["Mars"], sunB = pbB["Sun"], moonB = pbB["Moon"];
+  const marA = pbA["Mars"];
+  const check = (name, a, b, label) => {
+    if (a==null||b==null) return;
+    const diff = angleDiff(parseFloat(a),parseFloat(b));
+    if (diff <= 3) links.push({ name, orb:diff.toFixed(2), label, tier:diff<=1?"★★★":diff<=2?"★★":"★" });
+  };
+  check("A's Chiron ☌ B's Venus", chiA, venB, "Super Romance Linkage — B's love activates A's wound-gift");
+  check("A's Venus ☌ B's Chiron", venA, chiB, "Super Romance Linkage — A's love activates B's wound-gift");
+  check("A's Chiron ☌ B's Jupiter", chiA, jupB, "Cinderella Linkage — B uplifts and expands A's life");
+  check("A's Jupiter ☌ B's Chiron", jupA, chiB, "Cinderella Linkage — A uplifts and expands B's life");
+  check("A's Chiron ☌ B's Mars", chiA, marB, "Sexual Linkage — intense attraction with healing undertone");
+  check("A's Mars ☌ B's Chiron", marA, chiB, "Sexual Linkage — A's drive activates B's Chiron");
+  check("A's Juno ☌ B's Chiron", junoA, chiB, "Marriage Linkage — B's Chiron activates A's Juno");
+  check("A's Chiron ☌ B's Juno", chiA, junoB, "Marriage Linkage — A's Chiron activates B's Juno");
+  check("A's Venus ☌ B's Venus", venA, venB, "Venus Linkage — hearts resonate in same key");
+  check("A's Sun ☌ B's Moon", pbA.Sun, moonB, "Sun-Moon Linkage — classic soulmate bond");
+  check("A's Moon ☌ B's Sun", pbA.Moon, sunB, "Sun-Moon Linkage (reversed) — emotional-solar attunement");
+  return links;
+}
+
+function calcComposite(pbA, pbB) {
+  const comp = {};
+  const keys = ["Sun","Moon","Mercury","Venus","Mars","Jupiter","Saturn","Uranus","Neptune","Pluto","Chiron","TrueNode","Ascendant","MC"];
+  for (const k of keys) {
+    if (pbA[k]!=null && pbB[k]!=null) {
+      comp[k] = midpointLon(parseFloat(pbA[k]), parseFloat(pbB[k]));
+    }
+  }
+  return comp;
+}
+
+function scoreCompatibility(aspects) {
+  let total = 0, byCategory = {};
+  for (const asp of aspects) {
+    if (asp.score !== 0) {
+      total += asp.score;
+      byCategory[asp.cat] = (byCategory[asp.cat]||0) + asp.score;
+    }
+  }
+  return { total, byCategory };
+}
+
+/* ─── GLYPH MAP ─────────────────────────────────────────────────────── */
+const G = {
+  Sun:"☉", Moon:"☽", Mercury:"☿", Venus:"♀", Mars:"♂", Jupiter:"♃",
+  Saturn:"♄", Uranus:"♅", Neptune:"♆", Pluto:"♇", Chiron:"⚷",
+  TrueNode:"☊", SouthNode:"☋", Ascendant:"AC", MC:"MC", Vertex:"Vx",
+  Juno:"⚵", Eros:"⊗", POF:"⊕", Vesta:"⚶", Ceres:"⚳",
+};
+
+/* ─── STYLES ─────────────────────────────────────────────────────────── */
+const CS = `
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Josefin+Sans:wght@300;400;600&display=swap');
+:root {
+  --bg:#03040c; --mid:#08091a; --card:#0d0f22; --rim:#1c2038;
+  --gold:#c9a84c; --gold-l:#e8c96d; --gold-d:rgba(201,168,76,.35);
+  --teal:#4ba99a; --violet:#7c5cbf; --crimson:#c2415a; --magi:#d4a0ff;
+  --text:#d4d8f0; --muted:#5a5f7a; --silver:#9ba3c4;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:'Cormorant Garamond',serif;font-size:15px;line-height:1.7}
+@keyframes shimmer{0%,100%{opacity:.7}50%{opacity:1}}
+@keyframes spin{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}
+@keyframes fadeIn{from{opacity:0;transform:translateY(5px)}to{opacity:1;transform:none}}
+.container{max-width:1120px;margin:0 auto;padding:1.5rem}
+.header{text-align:center;padding:2rem 1rem 1.75rem;border-bottom:1px solid var(--rim);margin-bottom:2rem}
+.hdr-title{font-family:'Cinzel Decorative',serif;font-size:clamp(.95rem,2.4vw,1.5rem);color:var(--gold-l);letter-spacing:.12em}
+.tabs{display:flex;overflow-x:auto;gap:0;border-bottom:1px solid var(--rim);margin-bottom:2rem;scrollbar-width:none;flex-wrap:wrap}
+.tab{font-family:'Josefin Sans',sans-serif;font-size:.55rem;letter-spacing:.14em;text-transform:uppercase;padding:.65rem .9rem;background:none;border:none;cursor:pointer;white-space:nowrap;transition:all .2s;border-bottom:2px solid transparent}
+.tab.on{color:var(--gold-l);border-bottom-color:var(--gold)}.tab.off{color:var(--muted)}
+.card{background:var(--card);border:1px solid var(--rim);border-radius:6px;padding:1.25rem 1.5rem;margin-bottom:1.25rem;animation:fadeIn .3s ease}
+.ct{font-family:'Josefin Sans',sans-serif;font-size:.62rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin-bottom:.9rem}
+.badge{display:inline-block;padding:.14rem .5rem;border-radius:20px;font-family:'Josefin Sans',sans-serif;font-size:.55rem;letter-spacing:.1em;text-transform:uppercase;margin:.1rem}
+.bg{background:rgba(201,168,76,.1);color:var(--gold);border:1px solid var(--gold-d)}
+.bt{background:rgba(75,169,154,.1);color:var(--teal);border:1px solid rgba(75,169,154,.3)}
+.bv{background:rgba(124,92,191,.1);color:var(--violet);border:1px solid rgba(124,92,191,.3)}
+.br{background:rgba(194,65,90,.1);color:var(--crimson);border:1px solid rgba(194,65,90,.3)}
+.bm{background:rgba(212,160,255,.1);color:var(--magi);border:1px solid rgba(212,160,255,.3)}
+table{width:100%;border-collapse:collapse}
+th{font-family:'Josefin Sans',sans-serif;font-size:.52rem;letter-spacing:.15em;text-transform:uppercase;color:var(--gold-d);border-bottom:1px solid var(--rim);padding:.5rem .6rem;text-align:left}
+td{padding:.45rem .6rem;border-bottom:1px solid rgba(28,32,56,.5);font-size:.82rem;vertical-align:top}
+.g2{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1rem}
+.g3{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:.75rem}
+.mini{background:var(--mid);border:1px solid var(--rim);border-radius:4px;padding:.75rem 1rem}
+.mini-t{font-family:'Josefin Sans',sans-serif;font-size:.58rem;color:var(--gold);letter-spacing:.1em;text-transform:uppercase;margin-bottom:.35rem}
+.sn-hdr{display:flex;align-items:center;gap:1rem;margin-bottom:1.75rem}
+.sn-icon{font-size:1.8rem;color:var(--gold-d);animation:shimmer 3s ease-in-out infinite}
+.sn-t{font-family:'Cinzel Decorative',serif;font-size:clamp(.9rem,2vw,1.2rem);color:var(--gold-l)}
+.sn-s{font-family:'Josefin Sans',sans-serif;font-size:.6rem;color:var(--muted);letter-spacing:.15em;text-transform:uppercase;margin-top:.15rem}
+.reading{font-size:.88rem;line-height:1.9;color:var(--text)}
+.alert-g{padding:.7rem 1rem;border-left:3px solid var(--gold);background:rgba(201,168,76,.06);border-radius:0 4px 4px 0;font-size:.84rem;margin-bottom:1rem}
+.alert-m{padding:.7rem 1rem;border-left:3px solid var(--magi);background:rgba(212,160,255,.06);border-radius:0 4px 4px 0;font-size:.84rem;margin-bottom:.75rem}
+.link-card{border-left:3px solid var(--magi);background:rgba(212,160,255,.06);padding:.85rem 1.2rem;margin-bottom:.6rem;border-radius:0 6px 6px 0}
+.offer-card{border-left:3px solid var(--teal);background:rgba(75,169,154,.04);padding:.85rem 1.2rem;margin-bottom:.6rem;border-radius:0 6px 6px 0}
+.need-card{border-left:3px solid var(--gold-d);background:rgba(201,168,76,.04);padding:.85rem 1.2rem;margin-bottom:.6rem;border-radius:0 6px 6px 0}
+.warn-card{border-left:3px solid var(--crimson);background:rgba(194,65,90,.04);padding:.85rem 1.2rem;margin-bottom:.5rem;border-radius:0 6px 6px 0}
+.score-bar{height:8px;background:var(--rim);border-radius:4px;margin-top:.3rem}
+.score-fill{height:100%;border-radius:4px;transition:width .8s cubic-bezier(.4,0,.2,1)}
+textarea{width:100%;min-height:200px;background:var(--mid);border:1px solid var(--rim);border-radius:4px;padding:.85rem 1rem;color:var(--text);font-family:'Josefin Sans',sans-serif;font-size:.7rem;line-height:1.8;resize:vertical;outline:none}
+textarea:focus{border-color:var(--gold-d)}
+.btn{font-family:'Josefin Sans',sans-serif;font-size:.65rem;letter-spacing:.18em;text-transform:uppercase;padding:.8rem 2rem;border:1px solid var(--gold);color:var(--gold-l);background:rgba(201,168,76,.08);cursor:pointer;border-radius:4px;transition:all .3s;display:inline-flex;align-items:center;gap:.6rem}
+.btn:hover{background:rgba(201,168,76,.16)}.btn:disabled{opacity:.4;cursor:not-allowed}
+.orbit-ring{display:inline-block;animation:spin 1.2s linear infinite}
+`;
+
+/* ─── ACCORDION ─────────────────────────────────────────────────────── */
+function Acc({ title, children, accent="var(--gold-d)", open:init=false }) {
+  const [open,setOpen] = useState(init);
+  return (
+    <div style={{ border:`1px solid ${open?accent:"var(--rim)"}`,borderRadius:4,marginBottom:".5rem" }}>
+      <button onClick={()=>setOpen(!open)} style={{ width:"100%",background:"none",border:"none",cursor:"pointer",display:"flex",justifyContent:"space-between",alignItems:"center",padding:".7rem 1rem" }}>
+        <span style={{ fontFamily:"'Josefin Sans',sans-serif",fontSize:".6rem",letterSpacing:".15em",textTransform:"uppercase",color:open?accent:"var(--muted)" }}>{title}</span>
+        <span style={{ color:accent,display:"inline-block",transition:"transform .25s",transform:open?"rotate(180deg)":"none" }}>▾</span>
+      </button>
+      {open && <div style={{ padding:"0 1rem 1rem" }}>{children}</div>}
+    </div>
+  );
+}
+
+/* ─── SCORE RING ────────────────────────────────────────────────────── */
+function ScoreRing({ score, max=100 }) {
+  const pct = Math.max(0,Math.min(score/max,1));
+  const r=34; const circ=2*Math.PI*r;
+  const color = pct>=.8?"var(--gold)":pct>=.6?"var(--teal)":pct>=.4?"var(--silver)":"var(--crimson)";
+  const label = pct>=.85?"Exceptional":pct>=.70?"Strong":pct>=.55?"Good":pct>=.40?"Moderate":"Challenging";
+  return (
+    <div style={{ display:"flex",flexDirection:"column",alignItems:"center",gap:".5rem" }}>
+      <svg width="90" height="90" viewBox="0 0 90 90">
+        <circle cx="45" cy="45" r={r} fill="none" stroke="var(--rim)" strokeWidth="6"/>
+        <circle cx="45" cy="45" r={r} fill="none" stroke={color} strokeWidth="6"
+          strokeDasharray={circ} strokeDashoffset={circ*(1-pct)}
+          strokeLinecap="round" transform="rotate(-90 45 45)" style={{ transition:"stroke-dashoffset .9s cubic-bezier(.4,0,.2,1)" }}/>
+        <text x="45" y="49" textAnchor="middle" fill={color} fontFamily="'Josefin Sans',sans-serif" fontSize="14" fontWeight="600">{score}</text>
+      </svg>
+      <span style={{ fontFamily:"'Josefin Sans',sans-serif",fontSize:".6rem",color,letterSpacing:".12em",textTransform:"uppercase" }}>{label}</span>
+    </div>
+  );
+}
+
+/* ═══ MAIN COMPONENT ═════════════════════════════════════════════════ */
+export default function SynastryEngine() {
+  const [tab, setTab] = useState("thisChart");
+  const [partnerText, setPartnerText] = useState("");
+  const [loading, setLoading] = useState(false);
+  const [loadMsg, setLoadMsg] = useState("");
+  const [partnerData, setPartnerData] = useState(null); // raw extracted
+  const [partnerBodies, setPartnerBodies] = useState(null); // {planet: longitude}
+  const [interAspects, setInterAspects] = useState(null);
+  const [overlays, setOverlays] = useState(null);
+  const [magiLinks, setMagiLinks] = useState(null);
+  const [composite, setComposite] = useState(null);
+  const [score, setScore] = useState(null);
+  const [error, setError] = useState("");
+  const [aspFilter, setAspFilter] = useState("all");
+  const [ovFilter, setOvFilter] = useState(0);
+
+  const TABS = [
+    { id:"thisChart",  label:"This Chart in Synastry" },
+    { id:"import",     label:"⊕ Import Partner" },
+    { id:"aspects",    label:"Inter-Aspects" },
+    { id:"overlays",   label:"House Overlays" },
+    { id:"magi",       label:"⚷ Magi Linkages" },
+    { id:"composite",  label:"Composite Preview" },
+    { id:"score",      label:"◎ Compatibility Score" },
+    { id:"karmic",     label:"Karmic Axis" },
+    { id:"guide",      label:"Synastry Guide" },
+  ];
+
+  const locked = !partnerBodies;
+
+  const extractAndCalculate = useCallback(async () => {
+    if (!partnerText.trim()) { setError("Paste partner chart data first."); return; }
+    setError(""); setLoading(true);
+    try {
+      setLoadMsg("Sending to Claude AI for extraction…");
+      const resp = await fetch("https://api.anthropic.com/v1/messages",{
+        method:"POST",
+        headers:{"Content-Type":"application/json"},
+        body:JSON.stringify({ model:"claude-sonnet-4-20250514", max_tokens:3000,
+          messages:[{role:"user",content:EXTRACT_PROMPT+"\n\nCHART DATA:\n"+partnerText}] }),
+      });
+      const apiData = await resp.json();
+      if (apiData.error) throw new Error(apiData.error.message);
+      const raw = apiData.content?.find(c=>c.type==="text")?.text||"";
+      const clean = raw.replace(/```json|```/g,"").trim();
+      const parsed = JSON.parse(clean);
+      setPartnerData(parsed);
+
+      setLoadMsg("Building partner longitude map…");
+      const pb = {};
+      for (const p of (parsed.planets||[])) {
+        const lon = p.longitude ?? toLong(p.sign, p.degree, p.minutes);
+        pb[p.name] = parseFloat(lon);
+      }
+      for (const [name,ang] of Object.entries(parsed.angles||{})) {
+        const lon = ang.longitude ?? toLong(ang.sign, ang.degree, ang.minutes);
+        pb[name] = parseFloat(lon);
+      }
+      setPartnerBodies(pb);
+
+      setLoadMsg("Calculating inter-aspects…");
+      const ia = calcInterAspects(PA, pb);
+      setInterAspects(ia);
+
+      setLoadMsg("Mapping house overlays…");
+      setOverlays(calcOverlays(pb, HOUSE_CUSPS_PA));
+
+      setLoadMsg("Detecting Magi linkages…");
+      setMagiLinks(calcMagiLinks(PA, pb));
+
+      setLoadMsg("Computing composite midpoints…");
+      setComposite(calcComposite(PA, pb));
+
+      setLoadMsg("Scoring compatibility…");
+      setScore(scoreCompatibility(ia));
+
+      setTab("aspects");
+    } catch(err) {
+      setError("Extraction failed: "+err.message);
+    } finally { setLoading(false); setLoadMsg(""); }
+  }, [partnerText]);
+
+  const qualColor = q => q==="Harmonious"||q==="Merging"?"var(--teal)":q==="Challenging"?"var(--crimson)":q==="Karmic"?"var(--violet)":"var(--gold-d)";
+  const catColor  = c => ({ Bonding:"var(--teal)",Romantic:"var(--gold)",Magi:"var(--magi)",Stability:"var(--silver)",Karmic:"var(--violet)",Challenge:"var(--crimson)",Neutral:"var(--muted)" })[c]||"var(--muted)";
+
+  return (
+    <>
+      <style>{CS}</style>
+      <div className="container">
+
+        {/* HEADER */}
+        <div className="header">
+          <div style={{ fontSize:"1.6rem",color:"var(--gold-d)",marginBottom:".4rem",animation:"shimmer 2s ease-in-out infinite" }}>♀ ⚷ ☽ △</div>
+          <div className="hdr-title">Synastry Engine — Part III</div>
+          <div style={{ fontFamily:"'Cormorant Garamond',serif",fontStyle:"italic",color:"var(--silver)",margin:".3rem 0" }}>
+            Person A: Aries Sun · Libra Rising · Sagittarius Moon
+          </div>
+          <div style={{ fontFamily:"'Josefin Sans',sans-serif",fontSize:".6rem",color:"var(--muted)",letterSpacing:".18em",textTransform:"uppercase" }}>
+            Inter-aspects · House Overlays · Magi Linkages · Composite Preview · Compatibility Scoring
+          </div>
+          <div style={{ display:"flex",gap:".4rem",justifyContent:"center",flexWrap:"wrap",marginTop:".85rem" }}>
+            {[["Paste any partner chart to activate","bg"],["Magi Super-Linkage targets pre-calculated","bm"],["Live Claude AI extraction","bt"],["Composite auto-calculated","bv"]].map(([l,c],i)=>(
+              <span key={i} className={`badge ${c}`}>{l}</span>
+            ))}
+          </div>
+        </div>
+
+        {/* TABS */}
+        <div className="tabs">
+          {TABS.map(t=>(
+            <button key={t.id} className={`tab ${tab===t.id?"on":"off"}`} onClick={()=>setTab(t.id)}
+              style={{ opacity: locked && !["thisChart","import","guide"].includes(t.id) ? .35 : 1 }}>
+              {t.label}
+            </button>
+          ))}
+        </div>
+
+        {/* ═══ THIS CHART IN SYNASTRY ═══ */}
+        {tab==="thisChart" && (
+          <div>
+            <div className="sn-hdr">
+              <span className="sn-icon">♀</span>
+              <div><div className="sn-t">This Chart in Synastry</div><div className="sn-s">What Person A offers · needs · responds to · avoids</div></div>
+            </div>
+
+            <div className="card">
+              <div className="ct">◈ What This Chart Brings to Every Relationship</div>
+              <p className="reading" style={{ marginBottom:"1.25rem" }}>
+                Person A enters every relationship with an extraordinarily rich offering: Venus exalted, Jupiter domicile, and Moon-Neptune fused — three of the most generously loving energies in the zodiac, all concentrated in the relational and creative domains. The 7th house Sun means the native's fullest self arrives through relationship. But the Sun-Chiron conjunction at 0°19′ means every significant relationship simultaneously activates the wound-site — this is a chart where partnership is both the arena of the highest exaltation and the location of the deepest vulnerability.
+              </p>
+              {THIS_CHART_IN_SYNASTRY.what_A_offers.map((o,i)=>(
+                <div key={i} className="offer-card">
+                  <div style={{ fontFamily:"'Josefin Sans',sans-serif",fontSize:".65rem",color:"var(--teal)",letterSpacing:".1em",marginBottom:".3rem" }}>{o.planet}</div>
+                  <p style={{ fontSize:".85rem",color:"var(--text)",marginBottom:".25rem" }}><strong>Offers:</strong> {o.offers}</p>
+                  <p style={{ fontSize:".8rem",color:"var(--muted)",fontStyle:"italic" }}><strong style={{ color:"var(--gold-d)" }}>Watch:</strong> {o.watch}</p>
+                </div>
+              ))}
+            </div>
+
+            <div className="card">
+              <div className="ct">◈ What This Chart Needs from a Partner</div>
+              {THIS_CHART_IN_SYNASTRY.what_A_needs.map((n,i)=>(
+                <div key={i} className="need-card">
+                  <div style={{ fontFamily:"'Josefin Sans',sans-serif",fontSize:".65rem",color:"var(--gold)",letterSpacing:".1em",marginBottom:".2rem" }}>{n.need}</div>
+                  <p style={{ fontSize:".8rem",color:"var(--muted)",fontStyle:"italic" }}>{n.why}</p>
+                </div>
+              ))}
+            </div>
+
+            <div className="g2">
+              <div className="card">
+                <div className="ct">◈ Ideal Partner Signatures</div>
+                {THIS_CHART_IN_SYNASTRY.ideal_partner_signatures.map((s,i)=>(
+                  <div key={i} style={{ borderBottom:"1px solid var(--rim)",padding:".5rem 0" }}>
+                    <div style={{ fontFamily:"'Josefin Sans',sans-serif",fontSize:".65rem",color:"var(--teal)" }}>{s.sig}</div>
+                    <p style={{ fontSize:".78rem",color:"var(--muted)",fontStyle:"italic" }}>{s.why}</p>
+                  </div>
+                ))}
+              </div>
+              <div className="card">
+                <div className="ct">◈ Relationship Red Flags</div>
+                {THIS_CHART_IN_SYNASTRY.red_flags.map((f,i)=>(
+                  <div key={i} className="warn-card">
+                    <div style={{ fontFamily:"'Josefin Sans',sans-serif",fontSize:".65rem",color:"var(--crimson)" }}>{f.flag}</div>
+                    <p style={{ fontSize:".78rem",color:"var(--muted)",fontStyle:"italic" }}>{f.impact}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            <div className="card">
+              <div className="ct">◈ Person A's Most Synastry-Sensitive Points — Pre-Calculated</div>
+              <table>
+                <thead><tr><th>Point</th><th>Position</th><th>House</th><th>Conjunction activates from</th><th>Trine activates from</th><th>Significance</th></tr></thead>
+                <tbody>
+                  {[
+                    { pt:"Sun ☌ Chiron", pos:"Aries 20°–21°", h:"H7", conj:"Aries 20°", trine:"Leo 20° / Sag 20°", sig:"Wound-healing & solar identity at highest sensitivity" },
+                    { pt:"Moon ☌ Neptune", pos:"Sag 9°–10°", h:"H3", conj:"Sag 10°", trine:"Aries 10° / Leo 10°", sig:"Mystical emotional field — psychic resonance point" },
+                    { pt:"Venus ☌ Jupiter", pos:"Pisces 4°–7°", h:"H5", conj:"Pisces 5°", trine:"Cancer 5° / Scorpio 5°", sig:"Creative-romantic abundance heart — chart's highest love frequency" },
+                    { pt:"Ascendant", pos:"Libra 10°48′", h:"H1 cusp", conj:"Libra 11°", trine:"Aquarius 11° / Gem 11°", sig:"Persona gateway — partner planets here shape outward identity" },
+                    { pt:"Vertex", pos:"Aries 29°14′", h:"H7", conj:"Aries 29°", trine:"Leo 29° / Sag 29°", sig:"Fated encounter point — destiny in relationship" },
+                    { pt:"Saturn + POF", pos:"Gemini 29° / Cancer 0°", h:"H8/H9", conj:"Gem 29° / Can 0°", trine:"Libra 0° / Aq 0°", sig:"Fortune through discipline — where effort meets abundance" },
+                    { pt:"Mars + Saturn", pos:"Gemini 24°–29°", h:"H9", conj:"Gem 26°", trine:"Libra 26° / Aq 26°", sig:"Intellectual drive zone — mind-bond activation" },
+                    { pt:"True Node", pos:"Sag 21°06′", h:"H3", conj:"Sag 21°", trine:"Aries 21° / Leo 21°", sig:"Karmic North Node — soul evolution trigger" },
+                  ].map((r,i)=>(
+                    <tr key={i}>
+                      <td style={{ color:"var(--gold-l)",fontWeight:600 }}>{r.pt}</td>
+                      <td style={{ fontFamily:"'Josefin Sans',sans-serif",fontSize:".7rem",color:"var(--teal)" }}>{r.pos}</td>
+                      <td><span className="badge bt">{r.h}</span></td>
+                      <td style={{ fontFamily:"'Josefin Sans',sans-serif",fontSize:".68rem",color:"var(--gold-d)" }}>{r.conj}</td>
+                      <td style={{ fontFamily:"'Josefin Sans',sans-serif",fontSize:".68rem",color:"var(--teal)" }}>{r.trine}</td>
+                      <td style={{ fontSize:".78rem",color:"var(--muted)",fontStyle:"italic" }}>{r.sig}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        )}
+
+        {/* ═══ IMPORT ═══ */}
+        {tab==="import" && (
+          <div>
+            <div className="sn-hdr">
+              <span className="sn-icon">⊕</span>
+              <div><div className="sn-t">Import Partner Chart</div><div className="sn-s">Paste text · astro.com table · any format · Claude AI extracts all data</div></div>
+            </div>
+
+            <div className="card">
+              <div className="ct">◈ Partner Chart Data — Paste Any Format</div>
+              <p className="reading" style={{ marginBottom:"1.25rem" }}>
+                Paste partner chart data in any format: astro.com extended chart table, raw planet list, CSV, free text, or JSON.
+                Claude AI will extract all positions, compute ecliptic longitudes, and run the full synastry suite automatically.
+              </p>
+              <textarea value={partnerText} onChange={e=>setPartnerText(e.target.value)}
+                placeholder={"Paste partner chart data here — any format accepted:\n\nExample:\nSun  18°Sc22  H2\nMoon 04°Pi37  H5\nMercury 02°Sc18  H1 Rx\nVenus  28°Li44  H1\nMars  21°Ge55  H9\n...\nAscendant 09°Li38\nMC  09°Ca13\n\nOr paste full astro.com chart data, JSON, or any planet table."} />
+              {error && <div style={{ marginTop:".75rem",padding:".65rem 1rem",background:"rgba(194,65,90,.1)",border:"1px solid var(--crimson)",borderRadius:"4px",color:"var(--crimson)",fontSize:".83rem" }}>⚠ {error}</div>}
+              <div style={{ marginTop:"1.25rem",display:"flex",gap:"1rem",alignItems:"center",flexWrap:"wrap" }}>
+                <button className="btn" onClick={extractAndCalculate} disabled={loading||!partnerText.trim()}>
+                  {loading ? <><span className="orbit-ring">⟳</span>{loadMsg}</> : "⊕  Extract · Calculate · Activate Synastry Suite"}
+                </button>
+                {partnerBodies && <span style={{ fontFamily:"'Josefin Sans',sans-serif",fontSize:".62rem",color:"var(--teal)" }}>✓ {Object.keys(partnerBodies).length} bodies extracted · {interAspects?.length} inter-aspects · {magiLinks?.length} Magi contacts</span>}
+              </div>
+            </div>
+
+            {partnerData?.chart_info && Object.values(partnerData.chart_info).some(Boolean) && (
+              <div className="card" style={{ borderColor:"var(--teal)" }}>
+                <div className="ct">◈ Partner Chart — Extracted Identity</div>
+                <div style={{ display:"grid",gridTemplateColumns:"repeat(auto-fit,minmax(130px,1fr))",gap:".5rem" }}>
+                  {Object.entries(partnerData.chart_info).filter(([,v])=>v).map(([k,v])=>(
+                    <div key={k} className="mini">
+                      <div style={{ fontFamily:"'Josefin Sans',sans-serif",fontSize:".5rem",color:"var(--gold-d)",letterSpacing:".15em",textTransform:"uppercase",marginBottom:".15rem" }}>{k.replace(/_/g," ")}</div>
+                      <div style={{ fontSize:".85rem",color:"var(--silver-light)" }}>{String(v)}</div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {partnerData?.planets && (
+              <div className="card">
+                <div className="ct">◈ Partner Planet Positions — Verified</div>
+                <table>
+                  <thead><tr><th>Planet</th><th>Sign</th><th>°′</th><th>Longitude</th><th>House</th><th>Rx</th></tr></thead>
+                  <tbody>
+                    {partnerData.planets.map((p,i)=>(
+                      <tr key={i}>
+                        <td style={{ color:"var(--gold-l)",fontWeight:600 }}>{G[p.name]||"·"} {p.name}</td>
+                        <td>{p.sign}</td>
+                        <td style={{ fontFamily:"'Josefin Sans',sans-serif",fontSize:".72rem",color:"var(--teal)" }}>{p.degree}°{String(p.minutes||0).padStart(2,"0")}′</td>
+                        <td style={{ fontFamily:"'Josefin Sans',sans-serif",fontSize:".68rem",color:"var(--muted)" }}>{parseFloat(p.longitude??0).toFixed(3)}°</td>
+                        <td style={{ fontFamily:"'Josefin Sans',sans-serif",fontSize:".7rem",color:"var(--silver)" }}>{p.house?`H${p.house}`:"—"}</td>
+                        <td style={{ color:"var(--crimson)",fontWeight:700 }}>{p.retrograde?"℞":""}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            )}
+          </div>
+        )}
+
+        {/* ═══ INTER-ASPECTS ═══ */}
+        {tab==="aspects" && (
+          <div>
+            <div className="sn-hdr">
+              <span className="sn-icon">⚹</span>
+              <div><div className="sn-t">Inter-Aspect Matrix</div><div className="sn-s">Person A × Partner B · All aspects · Scored · Categorized</div></div>
+            </div>
+            {locked ? (
+              <div style={{ textAlign:"center",padding:"4rem 2rem",color:"var(--muted)" }}>
+                <div style={{ fontSize:"3rem",opacity:.12,marginBottom:"1rem",animation:"shimmer 2s ease-in-out infinite" }}>⚹</div>
+                <div style={{ fontFamily:"'Josefin Sans',sans-serif",fontSize:".65rem",letterSpacing:".2em",textTransform:"uppercase" }}>Import partner chart to activate inter-aspect matrix</div>
+                <button className="btn" style={{ marginTop:"1.5rem",fontSize:".6rem" }} onClick={()=>setTab("import")}>⊕ Go to Import</button>
+              </div>
+            ) : (
+              <>
+                <div className="alert-g" style={{ marginBottom:"1.25rem" }}>
+                  <strong style={{ color:"var(--gold)" }}>{interAspects?.length} inter-aspects calculated.</strong> Sorted by tightness. <strong style={{ color:"var(--teal)" }}>Gold orb = &lt; 1° (defining).</strong> Scored connections show category and synastry weight.
+                </div>
+
+                <div style={{ display:"flex",flexWrap:"wrap",gap:".4rem",marginBottom:"1rem" }}>
+                  {["all","major","minor","karmic"].map(f=>(
+                    <button key={f} onClick={()=>setAspFilter(f)} style={{ fontFamily:"'Josefin Sans',sans-serif",fontSize:".6rem",letterSpacing:".1em",padding:".3rem .8rem",background:aspFilter===f?"rgba(201,168,76,.12)":"var(--mid)",border:`1px solid ${aspFilter===f?"var(--gold)":"var(--rim)"}`,color:aspFilter===f?"var(--gold-l)":"var(--muted)",cursor:"pointer",borderRadius:"20px" }}>
+                      {f.charAt(0).toUpperCase()+f.slice(1)}
+                    </button>
+                  ))}
+                </div>
+
+                <div className="card">
+                  <div className="ct">◈ {aspFilter==="all"?"All":"Filtered"} Inter-Aspects — A→B (Person A's planet to Partner's planet)</div>
+                  <table>
+                    <thead><tr><th>A's Planet</th><th>Aspect</th><th>B's Planet</th><th>Orb</th><th>Cat.</th><th>Score</th><th>Synastry Note</th></tr></thead>
+                    <tbody>
+                      {(interAspects||[]).filter(a=>aspFilter==="all"||a.type===aspFilter||(aspFilter==="karmic"&&a.quality==="Karmic")).map((a,i)=>(
+                        <tr key={i}>
+                          <td style={{ color:"var(--gold-l)",fontWeight:600 }}>{G[a.bodyA]||""} {a.bodyA}</td>
+                          <td style={{ color:a.color,fontWeight:700,fontFamily:"'Josefin Sans',sans-serif",fontSize:".8rem" }}>{a.sym} {a.aspect}</td>
+                          <td style={{ color:"var(--teal)" }}>{G[a.bodyB]||""} {a.bodyB}</td>
+                          <td style={{ fontFamily:"'Josefin Sans',sans-serif",fontSize:".72rem",fontWeight:parseFloat(a.orb)<1?700:400,
+                            color:parseFloat(a.orb)<1?"var(--gold)":parseFloat(a.orb)<3?"var(--teal)":"var(--muted)" }}>
+                            {parseFloat(a.orb)<.05?"exact":a.orb+"°"}
+                          </td>
+                          <td>{a.cat&&a.cat!=="Neutral"?<span className="badge" style={{ background:`${catColor(a.cat)}15`,color:catColor(a.cat),border:`1px solid ${catColor(a.cat)}40` }}>{a.cat}</span>:"—"}</td>
+                          <td style={{ fontFamily:"'Josefin Sans',sans-serif",fontSize:".72rem",fontWeight:700,
+                            color:a.score>0?"var(--teal)":a.score<0?"var(--crimson)":"var(--muted)" }}>
+                            {a.score>0?"+":""}{a.score||"—"}
+                          </td>
+                          <td style={{ fontSize:".75rem",color:"var(--muted)",fontStyle:"italic" }}>{a.label||""}</td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              </>
+            )}
+          </div>
+        )}
+
+        {/* ═══ HOUSE OVERLAYS ═══ */}
+        {tab==="overlays" && (
+          <div>
+            <div className="sn-hdr">
+              <span className="sn-icon">⌂</span>
+              <div><div className="sn-t">House Overlays</div><div className="sn-s">Where Partner B's planets fall in Person A's houses · Deep interpretation</div></div>
+            </div>
+            {locked ? (
+              <div style={{ textAlign:"center",padding:"4rem 2rem",color:"var(--muted)" }}>
+                <div style={{ fontSize:"3rem",opacity:.12,marginBottom:"1rem" }}>⌂</div>
+                <div style={{ fontFamily:"'Josefin Sans',sans-serif",fontSize:".65rem",letterSpacing:".2em",textTransform:"uppercase" }}>Import partner chart to view overlays</div>
+                <button className="btn" style={{ marginTop:"1.5rem",fontSize:".6rem" }} onClick={()=>setTab("import")}>⊕ Go to Import</button>
+              </div>
+            ) : (
+              <>
+                <div className="alert-g" style={{ marginBottom:"1.25rem" }}>
+                  Shows where each of Partner B's planets lands in Person A's natal houses. The <strong style={{ color:"var(--gold)" }}>3rd and 5th house overlays</strong> are the most powerfully resonant for this chart, activating the Moon-Neptune stellium and Venus-Jupiter stellium respectively.
+                </div>
+                <div style={{ display:"flex",gap:".4rem",flexWrap:"wrap",marginBottom:"1rem" }}>
+                  <button onClick={()=>setOvFilter(0)} style={{ fontFamily:"'Josefin Sans',sans-serif",fontSize:".6rem",padding:".3rem .8rem",background:ovFilter===0?"rgba(201,168,76,.12)":"var(--mid)",border:`1px solid ${ovFilter===0?"var(--gold)":"var(--rim)"}`,color:ovFilter===0?"var(--gold-l)":"var(--muted)",cursor:"pointer",borderRadius:"20px" }}>All Houses</button>
+                  {[3,5,7,8,1].map(h=>(
+                    <button key={h} onClick={()=>setOvFilter(h)} style={{ fontFamily:"'Josefin Sans',sans-serif",fontSize:".6rem",padding:".3rem .8rem",background:ovFilter===h?"rgba(201,168,76,.12)":"var(--mid)",border:`1px solid ${ovFilter===h?"var(--gold)":"var(--rim)"}`,color:ovFilter===h?"var(--gold-l)":"var(--muted)",cursor:"pointer",borderRadius:"20px" }}>H{h}</button>
+                  ))}
+                </div>
+                {Array.from({length:12},(_,i)=>i+1).filter(h=>ovFilter===0||h===ovFilter).map(h=>{
+                  const planets = overlays?.[h]||[];
+                  const interp = OVERLAY_INTERPS[h];
+                  const isHot = [3,5,7].includes(h);
+                  return (
+                    <Acc key={h} title={`H${h} ${["","Libra","Scorpio","Sagittarius","Capricorn","Aquarius","Pisces","Aries","Taurus","Gemini","Cancer","Leo","Virgo"][h]} — ${planets.length>0?planets.map(p=>`${G[p]||""}${p}`).join(", "):"No partner planets"} — ${interp?.short||""}`} accent={isHot?"var(--gold)":"var(--gold-d)"} open={planets.length>0&&isHot}>
+                      <div style={{ paddingTop:".75rem" }}>
+                        {planets.length > 0 && (
+                          <div style={{ display:"flex",gap:".35rem",flexWrap:"wrap",marginBottom:".75rem" }}>
+                            {planets.map((p,j)=><span key={j} className={`badge ${isHot?"bg":"bt"}`}>{G[p]||""} {p}</span>)}
+                          </div>
+                        )}
+                        {planets.length === 0 && <div style={{ fontFamily:"'Josefin Sans',sans-serif",fontSize:".62rem",color:"var(--muted)",marginBottom:".5rem" }}>No partner planets in this house</div>}
+                        <p className="reading">{interp?.reading}</p>
+                        {isHot && planets.length>0 && (
+                          <div style={{ marginTop:".85rem",padding:".65rem 1rem",background:"rgba(201,168,76,.06)",borderRadius:"4px",border:"1px solid var(--gold-d)" }}>
+                            <strong style={{ color:"var(--gold)",fontFamily:"'Josefin Sans',sans-serif",fontSize:".6rem" }}>HIGH RESONANCE OVERLAY</strong>
+                            <p style={{ fontSize:".82rem",color:"var(--silver)",marginTop:".2rem" }}>
+                              {h===3?"Partner's energy lands on the Moon-Neptune-Node mystical communication stellium — the deepest possible intellectual-emotional resonance for this chart.":
+                               h===5?"Partner's energy enters the Venus-Jupiter-Eros creative-romantic heart — the chart's highest-frequency love zone.":
+                               "Partner's energy activates the Sun-Chiron-Vertex H7 partnership domain — direct wound-healing and solar identity activation."}
+                            </p>
+                          </div>
+                        )}
+                      </div>
+                    </Acc>
+                  );
+                })}
+              </>
+            )}
+          </div>
+        )}
+
+        {/* ═══ MAGI LINKAGES ═══ */}
+        {tab==="magi" && (
+          <div>
+            <div className="sn-hdr">
+              <span className="sn-icon">⚷</span>
+              <div><div className="sn-t">Magi Astrology Linkages</div><div className="sn-s">Super Romance · Cinderella · Sexual · Marriage · Venus linkages</div></div>
+            </div>
+
+            <div className="alert-m" style={{ marginBottom:"1.25rem" }}>
+              <strong style={{ color:"var(--magi)" }}>Magi Astrology</strong> identifies specific planetary contacts (especially involving Chiron) as the primary indicators of long-term romantic bonding, sexual attraction, and marriage potential. These linkages require <strong>conjunction within 3°</strong> between specific inter-chart bodies.
+            </div>
+
+            <div className="card">
+              <div className="ct">◈ Person A's Magi-Critical Points — Pre-Calculated Targets</div>
+              {MAGI_LINKAGES.map((m,i)=>(
+                <div key={i} className="link-card">
+                  <div style={{ fontFamily:"'Cinzel Decorative',serif",fontSize:".75rem",color:"var(--magi)",marginBottom:".35rem" }}>{m.name}</div>
+                  <p style={{ fontSize:".82rem",color:"var(--silver)",marginBottom:".3rem" }}>{m.definition}</p>
+                  <div style={{ fontFamily:"'Josefin Sans',sans-serif",fontSize:".62rem",color:"var(--gold-d)" }}>Person A's contact points: {m.pa_point}</div>
+                </div>
+              ))}
+            </div>
+
+            {!locked && (
+              <div className="card">
+                <div className="ct">◈ Detected Magi Linkages with Partner</div>
+                {magiLinks?.length===0
+                  ? <p style={{ color:"var(--muted)",fontStyle:"italic" }}>No Magi linkages found within 3° orb. The connection may operate through other synastry patterns rather than Magi-defined bonding signatures.</p>
+                  : magiLinks?.map((l,i)=>(
+                    <div key={i} style={{ display:"flex",gap:".75rem",alignItems:"flex-start",borderBottom:"1px solid var(--rim)",padding:".7rem 0" }}>
+                      <span style={{ color:"var(--magi)",fontSize:"1.1rem",minWidth:"2rem",textAlign:"center" }}>{l.tier}</span>
+                      <div>
+                        <div style={{ fontFamily:"'Josefin Sans',sans-serif",fontSize:".67rem",color:"var(--gold-l)",marginBottom:".2rem" }}>{l.name} <span style={{ color:"var(--teal)" }}>· orb {l.orb}°</span></div>
+                        <p style={{ fontSize:".82rem",color:"var(--silver)" }}>{l.label}</p>
+                      </div>
+                    </div>
+                  ))
+                }
+              </div>
+            )}
+
+            <div className="card">
+              <div className="ct">◈ Magi Linkage Scoring Reference</div>
+              <table>
+                <thead><tr><th>Linkage Type</th><th>Bodies</th><th>Orb</th><th>Magi Score</th><th>Meaning</th></tr></thead>
+                <tbody>
+                  {[
+                    ["Super Romance","Chiron ☌ Venus (either direction)","≤3°","★★★★★","Strongest romantic attachment; the 'love of a lifetime' signature"],
+                    ["Cinderella","Chiron ☌ Jupiter (either direction)","≤3°","★★★★★","Life-changing uplift; partner as transformative benefactor"],
+                    ["Sexual","Chiron ☌ Mars (either direction)","≤3°","★★★★☆","Intense physical-healing attraction"],
+                    ["Marriage (Juno)","Chiron ☌ Juno (either direction)","≤3°","★★★★☆","Marriage indicator; the committed partnership archetype"],
+                    ["Venus-Venus","Venus ☌ Venus","≤3°","★★★☆☆","Hearts in the same key; shared aesthetic and love style"],
+                    ["Sun-Moon","Sun ☌ Moon (either direction)","≤3°","★★★★☆","Classic soul-mate bonding; emotional-solar attunement"],
+                    ["Neptune Linkage","Neptune △/☌ Sun or Venus","≤3°","★★★☆☆","Transcendent spiritual dimension; 'otherworldly' bond quality"],
+                    ["Juno-Juno","Juno ☌ Juno","≤3°","★★★★☆","Deep marriage resonance; both carry the committed-partner archetype"],
+                  ].map((r,i)=>(
+                    <tr key={i}>
+                      <td style={{ color:"var(--magi)",fontFamily:"'Josefin Sans',sans-serif",fontSize:".72rem" }}>{r[0]}</td>
+                      <td style={{ fontFamily:"'Josefin Sans',sans-serif",fontSize:".68rem",color:"var(--teal)" }}>{r[1]}</td>
+                      <td style={{ fontFamily:"'Josefin Sans',sans-serif",fontSize:".68rem",color:"var(--muted)" }}>{r[2]}</td>
+                      <td style={{ color:"var(--gold)" }}>{r[3]}</td>
+                      <td style={{ fontSize:".78rem",color:"var(--silver)",fontStyle:"italic" }}>{r[4]}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        )}
+
+        {/* ═══ COMPOSITE ═══ */}
+        {tab==="composite" && (
+          <div>
+            <div className="sn-hdr">
+              <span className="sn-icon">◎</span>
+              <div><div className="sn-t">Composite Chart Preview</div><div className="sn-s">Midpoint method · The relationship as its own entity</div></div>
+            </div>
+            {locked ? (
+              <div style={{ textAlign:"center",padding:"4rem 2rem",color:"var(--muted)" }}>
+                <div style={{ fontSize:"3rem",opacity:.12,marginBottom:"1rem" }}>◎</div>
+                <div style={{ fontFamily:"'Josefin Sans',sans-serif",fontSize:".65rem",letterSpacing:".2em",textTransform:"uppercase" }}>Import partner chart to generate composite</div>
+                <button className="btn" style={{ marginTop:"1.5rem",fontSize:".6rem" }} onClick={()=>setTab("import")}>⊕ Go to Import</button>
+              </div>
+            ) : (
+              <>
+                <div className="card">
+                  <div className="ct">◈ Composite Planet Positions</div>
+                  <table>
+                    <thead><tr><th>Planet</th><th>Composite Position</th><th>Longitude</th><th>Person A's House</th></tr></thead>
+                    <tbody>
+                      {Object.entries(composite||{}).map(([name,lon],i)=>{
+                        const {sign,degree} = longToSignDeg(lon);
+                        const h = getHouse(lon, HOUSE_CUSPS_PA);
+                        return (
+                          <tr key={i}>
+                            <td style={{ color:"var(--gold-l)",fontWeight:600 }}>{G[name]||"·"} {name}</td>
+                            <td style={{ fontFamily:"'Josefin Sans',sans-serif",fontSize:".75rem",color:"var(--teal)" }}>
+                              {sign} {parseFloat(degree).toFixed(1)}°
+                            </td>
+                            <td style={{ fontFamily:"'Josefin Sans',sans-serif",fontSize:".68rem",color:"var(--muted)" }}>{parseFloat(lon).toFixed(3)}°</td>
+                            <td style={{ fontFamily:"'Josefin Sans',sans-serif",fontSize:".7rem",color:"var(--silver)" }}>H{h}</td>
+                          </tr>
+                        );
+                      })}
+                    </tbody>
+                  </table>
+                </div>
+
+                <div className="card">
+                  <div className="ct">◈ Composite Interpretation Framework</div>
+                  {composite && Object.keys(composite).length > 0 && (
+                    <div style={{ marginBottom:"1.25rem" }}>
+                      <div className="alert-g">
+                        <strong style={{ color:"var(--gold)" }}>Composite Sun:</strong>{" "}
+                        {(() => { const {sign,degree}=longToSignDeg(composite.Sun); const h=getHouse(composite.Sun,HOUSE_CUSPS_PA); return `${sign} ${parseFloat(degree).toFixed(1)}° in Person A's H${h} — The relationship's core purpose and identity operates in the ${sign} register in Person A's ${h==="5"?"creative-romantic heart (H5)":h==="7"?"partnership zone (H7)":h==="3"?"mystical communication domain (H3)":"house " + h}.`; })()}
+                      </div>
+                      {composite.Moon && (
+                        <div className="alert-g">
+                          <strong style={{ color:"var(--gold)" }}>Composite Moon:</strong>{" "}
+                          {(() => { const {sign,degree}=longToSignDeg(composite.Moon); const h=getHouse(composite.Moon,HOUSE_CUSPS_PA); return `${sign} ${parseFloat(degree).toFixed(1)}° in Person A's H${h} — The relationship's emotional home in the ${sign} register.`; })()}
+                        </div>
+                      )}
+                    </div>
+                  )}
+                  {COMPOSITE_GUIDE.map((g,i)=>(
+                    <Acc key={i} title={g.planet} accent="var(--gold-d)">
+                      <p className="reading" style={{ paddingTop:".5rem" }}>{g.reading}</p>
+                      {composite?.[g.planet.replace("Composite ","")] != null && (
+                        <div style={{ marginTop:".6rem",fontFamily:"'Josefin Sans',sans-serif",fontSize:".62rem",color:"var(--teal)" }}>
+                          Calculated position: {(()=>{const {sign,degree}=longToSignDeg(composite[g.planet.replace("Composite ","")]);return `${sign} ${parseFloat(degree).toFixed(1)}°`;})()}
+                        </div>
+                      )}
+                    </Acc>
+                  ))}
+                </div>
+              </>
+            )}
+          </div>
+        )}
+
+        {/* ═══ SCORE ═══ */}
+        {tab==="score" && (
+          <div>
+            <div className="sn-hdr">
+              <span className="sn-icon">◎</span>
+              <div><div className="sn-t">Compatibility Scoring</div><div className="sn-s">Category breakdown · Overall score · Threshold guide</div></div>
+            </div>
+            {locked ? (
+              <div style={{ textAlign:"center",padding:"4rem 2rem",color:"var(--muted)" }}>
+                <div style={{ fontSize:"3rem",opacity:.12,marginBottom:"1rem" }}>◎</div>
+                <div style={{ fontFamily:"'Josefin Sans',sans-serif",fontSize:".65rem",letterSpacing:".2em",textTransform:"uppercase" }}>Import partner chart to generate score</div>
+                <button className="btn" style={{ marginTop:"1.5rem",fontSize:".6rem" }} onClick={()=>setTab("import")}>⊕ Go to Import</button>
+              </div>
+            ) : (
+              <>
+                <div className="card">
+                  <div className="ct">◈ Overall Compatibility Score</div>
+                  <div style={{ display:"flex",gap:"2rem",alignItems:"center",flexWrap:"wrap",padding:".5rem 0" }}>
+                    <ScoreRing score={Math.max(0,Math.min(score?.total||0,100))} max={100} />
+                    <div style={{ flex:1,minWidth:"220px" }}>
+                      <div style={{ fontFamily:"'Cinzel Decorative',serif",fontSize:"1.1rem",color:"var(--gold-l)",marginBottom:".5rem" }}>
+                        Total: {score?.total||0} pts
+                      </div>
+                      <p className="reading" style={{ fontSize:".85rem" }}>
+                        Derived from {interAspects?.filter(a=>a.score!==0).length||0} scored inter-aspects across {Object.keys(score?.byCategory||{}).length} categories.
+                        Positive weight: harmonious and bonding aspects. Negative weight: challenging and obstructive patterns.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="card">
+                  <div className="ct">◈ Score by Category</div>
+                  <div className="g2">
+                    {Object.entries(score?.byCategory||{}).map(([cat,pts])=>{
+                      const cc = catColor(cat);
+                      const max = 30;
+                      return (
+                        <div key={cat} className="mini">
+                          <div style={{ display:"flex",justifyContent:"space-between",marginBottom:".3rem" }}>
+                            <span style={{ fontFamily:"'Josefin Sans',sans-serif",fontSize:".62rem",color:cc }}>{SCORE_CATEGORIES[cat]?.icon||""} {cat}</span>
+                            <span style={{ fontFamily:"'Josefin Sans',sans-serif",fontSize:".72rem",color:pts>0?"var(--teal)":"var(--crimson)",fontWeight:700 }}>{pts>0?"+":""}{pts}</span>
+                          </div>
+                          <div className="score-bar">
+                            <div className="score-fill" style={{ width:`${Math.abs(pts)/max*100}%`,background:pts>0?"var(--teal)":"var(--crimson)" }}/>
+                          </div>
+                        </div>
+                      );
+                    })}
+                  </div>
+                </div>
+
+                <div className="card">
+                  <div className="ct">◈ Scoring Threshold Reference</div>
+                  <table>
+                    <thead><tr><th>Score Range</th><th>Grade</th><th>Interpretation</th></tr></thead>
+                    <tbody>
+                      {[
+                        ["75+",    "Exceptional",  "Rare, profound connection. Multiple defining linkages across all categories. Potentially life-changing bond."],
+                        ["55–74",  "Strong",       "Deep compatibility with real staying power. Key bonding contacts outweigh challenges substantially."],
+                        ["35–54",  "Good",         "Solid compatibility with meaningful connection. Some challenges that can be navigated consciously."],
+                        ["15–34",  "Moderate",     "Mixed signals. Some genuine connection mixed with friction. Requires conscious effort and communication."],
+                        ["0–14",   "Challenging",  "More friction than flow. Not impossible, but requires substantial mutual work and awareness."],
+                        ["Negative","Difficult",   "Challenge patterns dominate. May indicate a karmic or growth relationship that costs more than it nourishes."],
+                      ].map(([r,g,i],idx)=>(
+                        <tr key={idx}>
+                          <td style={{ color:"var(--gold)",fontFamily:"'Josefin Sans',sans-serif",fontWeight:700 }}>{r}</td>
+                          <td><span className={`badge ${idx<2?"bg":idx<4?"bt":"br"}`}>{g}</span></td>
+                          <td style={{ fontSize:".82rem",color:"var(--silver)" }}>{i}</td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+
+                <div className="card">
+                  <div className="ct">◈ Top Aspects Contributing to Score</div>
+                  <table>
+                    <thead><tr><th>A's Planet</th><th>Aspect</th><th>B's Planet</th><th>Orb</th><th>Score</th><th>Category</th></tr></thead>
+                    <tbody>
+                      {(interAspects||[]).filter(a=>a.score!==0).sort((a,b)=>Math.abs(b.score)-Math.abs(a.score)).slice(0,15).map((a,i)=>(
+                        <tr key={i}>
+                          <td style={{ color:"var(--gold-l)" }}>{G[a.bodyA]||""} {a.bodyA}</td>
+                          <td style={{ color:a.color,fontWeight:700,fontFamily:"'Josefin Sans',sans-serif" }}>{a.sym} {a.aspect}</td>
+                          <td style={{ color:"var(--teal)" }}>{G[a.bodyB]||""} {a.bodyB}</td>
+                          <td style={{ fontFamily:"'Josefin Sans',sans-serif",fontSize:".72rem",color:"var(--muted)" }}>{a.orb}°</td>
+                          <td style={{ fontFamily:"'Josefin Sans',sans-serif",fontWeight:700,color:a.score>0?"var(--teal)":"var(--crimson)" }}>{a.score>0?"+":""}{a.score}</td>
+                          <td><span className="badge" style={{ background:`${catColor(a.cat)}15`,color:catColor(a.cat),border:`1px solid ${catColor(a.cat)}40`,fontSize:".52rem" }}>{a.cat}</span></td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              </>
+            )}
+          </div>
+        )}
+
+        {/* ═══ KARMIC AXIS ═══ */}
+        {tab==="karmic" && (
+          <div>
+            <div className="sn-hdr">
+              <span className="sn-icon">☊</span>
+              <div><div className="sn-t">Karmic & Nodal Axis</div><div className="sn-s">Soul contracts · Evolutionary purpose · Past-life resonance</div></div>
+            </div>
+
+            <div className="card">
+              <div className="ct">◈ Person A's Karmic Signature in Relationships</div>
+              <p className="reading">The North Node at Sagittarius 21°06′ in the 3rd house (conjunct Moon-Neptune) describes the soul's evolutionary direction as the mystical communicator — the one who develops wisdom through direct experience, then transmits it through inspired speech, writing, or teaching. The South Node at Gemini 21°06′ in the 9th house points to past-life patterns of intellectual gathering without transmission — collecting knowledge without embodying and sharing it. In relationship terms, this means:</p>
+              <div style={{ marginTop:"1rem" }}>
+                {[
+                  { label:"What karmic relationships bring:", text:"Partners who activate the 3rd house North Node zone (planets in Sagittarius 18°–24°) are evolutionary catalysts — they push the native toward the soul's actual direction. The bond may feel fated, urgent, or profoundly meaningful." },
+                  { label:"What karmic patterns to release:", text:"South Node Gemini H9 = past-life pattern of intellectual restlessness, gathering philosophy without embodying it, or dispersing spiritual wisdom as theory rather than lived truth. Partners who reinforce the intellectual-without-depth pattern are south node attractions." },
+                  { label:"Soul contract signature:", text:"Sun △ North Node (0°25′ EXACT) and Chiron △ North Node (0°44′) confirm that the soul's evolutionary direction is solar self-expression through the Chironic wound-gift. Partners who activate this axis are participating in a genuine soul contract." },
+                  { label:"Vertex as fate point:", text:"The Vertex at Aries 29° in H7 is the chart's primary fated-encounter point. Partners whose planets conjunct the Vertex (within 3°) enter through a specifically fated door — and the Venus/Mars midpoint sitting exactly on the Vertex (0°18′) means these encounters carry both romantic and erotic charge." },
+                ].map((k,i)=>(
+                  <div key={i} style={{ borderLeft:"2px solid var(--violet)",paddingLeft:"1rem",marginBottom:".85rem" }}>
+                    <div style={{ fontFamily:"'Josefin Sans',sans-serif",fontSize:".6rem",color:"var(--violet)",letterSpacing:".12em",textTransform:"uppercase",marginBottom:".2rem" }}>{k.label}</div>
+                    <p className="reading" style={{ fontSize:".85rem" }}>{k.text}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {!locked && (
+              <div className="card">
+                <div className="ct">◈ Partner's Nodal Contacts with Person A</div>
+                {(() => {
+                  const nodeA = PA.TrueNode; // 261.11
+                  const snA = (nodeA + 180) % 360; // 81.11 = Gemini 21°
+                  const contacts = [];
+                  if (!partnerBodies) return <p style={{ color:"var(--muted)" }}>—</p>;
+                  for (const [p,lon] of Object.entries(partnerBodies)) {
+                    const diffNN = angleDiff(lon, nodeA);
+                    const diffSN = angleDiff(lon, snA);
+                    if (diffNN <= 5) contacts.push({ planet:p, node:"North Node", orb:diffNN.toFixed(2), meaning:`Partner's ${p} activates Person A's evolutionary North Node direction — soul growth catalyst` });
+                    if (diffSN <= 5) contacts.push({ planet:p, node:"South Node", orb:diffSN.toFixed(2), meaning:`Partner's ${p} activates Person A's South Node — karmic past-life resonance; may feel familiar but pulls toward past patterns` });
+                  }
+                  return contacts.length > 0
+                    ? (<table><thead><tr><th>Partner's Planet</th><th>Contacts</th><th>Orb</th><th>Karmic Meaning</th></tr></thead><tbody>
+                        {contacts.map((c,i)=>(
+                          <tr key={i}>
+                            <td style={{ color:"var(--gold-l)" }}>{G[c.planet]||""} {c.planet}</td>
+                            <td><span className={`badge ${c.node.includes("North")?"bv":"bg"}`}>{c.node}</span></td>
+                            <td style={{ fontFamily:"'Josefin Sans',sans-serif",fontSize:".72rem",color:"var(--teal)" }}>{c.orb}°</td>
+                            <td style={{ fontSize:".78rem",color:"var(--muted)",fontStyle:"italic" }}>{c.meaning}</td>
+                          </tr>
+                        ))}
+                      </tbody></table>)
+                    : <p style={{ color:"var(--muted)",fontStyle:"italic" }}>No tight nodal contacts found within 5°.</p>;
+                })()}
+              </div>
+            )}
+
+            <div className="card">
+              <div className="ct">◈ Past-Life Relationship Patterns — What This Chart Carries</div>
+              <div className="g2">
+                {[
+                  { title:"The Beloved Returned (Pluto H12 + Vertex H7)", desc:"Pluto in H12 describes a soul-level repository of love and loss that operates below consciousness. The Vertex in H7 as the fated encounter point suggests that some partnerships carry the quality of recognition — of a beloved returned from another time. These bonds are not 'rational' in the conventional sense — they arrive with an immediate depth that bypasses ordinary getting-to-know-you processes." },
+                  { title:"The Healer-Student Contract (Chiron H7 exact Sun)", desc:"The placement of Chiron exactly conjunct the Sun in the 7th house suggests that this soul has a recurring contract to meet those who carry their wound — and to heal, or be healed, through the encounter. Some relationships will be primarily about the native helping others heal (Sun-Chiron in H7 as the healer). Others will be primarily about the native being healed through the partner's presence." },
+                  { title:"The Creative Soul-Twin Contract (Venus/Jupiter Pisces H5)", desc:"The extraordinary creative-romantic density in H5 suggests past-life experiences of profound creative partnership — two souls who made something beautiful together and seek to reconvene. This is the 'soul twin' signature in Pisces: not necessarily romantic in the conventional sense, but creatively and spiritually kindred." },
+                  { title:"The Freedom-Commitment Paradox (Sun H7 ☍ Uranus H1)", desc:"The opposition axis across H1/H7 describes a multi-lifetime tension between the need for complete freedom and the deep desire for soul partnership. This soul has likely oscillated between radical aloneness (Uranus H1) and complete immersion in partnership (Sun H7) across multiple lifetimes, and this incarnation may be the one where integration of both becomes possible." },
+                ].map((k,i)=>(
+                  <div key={i} className="mini"><div className="mini-t">{k.title}</div><p style={{ fontSize:".82rem" }}>{k.desc}</p></div>
+                ))}
+              </div>
+            </div>
+          </div>
+        )}
+
+        {/* ═══ GUIDE ═══ */}
+        {tab==="guide" && (
+          <div>
+            <div className="sn-hdr">
+              <span className="sn-icon">◈</span>
+              <div><div className="sn-t">Synastry Methodology Guide</div><div className="sn-s">Framework · Scoring weights · Orb tables · Layer sequence</div></div>
+            </div>
+
+            <div className="card">
+              <div className="ct">◈ 7-Layer Synastry Analysis Sequence</div>
+              {[
+                { n:1, t:"Natal Chart Preparation", b:"Before examining inter-chart contacts, fully understand each natal chart independently. The most relevant natal factors for synastry: chart ruler placement and aspects, Venus and Mars (desire nature), Moon (emotional needs), 7th house ruler and contents, Vertex and Part of Fortune, nodal axis, and any natal Venus-Mars-Chiron contacts." },
+                { n:2, t:"Initial Visual Gestalt — The Blink Test", b:"Overlay the two charts and look for immediate concentration of inter-aspects. Where do most lines cross? Which houses of Person A receive the most partner overlay? Where are the tight conjunctions? The first gestalt often reveals the dominant theme before any calculation." },
+                { n:3, t:"Sun-Moon Inter-Aspects (Primary Bonding)", b:"The most important initial inquiry: does A's Sun aspect B's Moon (or vice versa)? Sun-Moon contacts in synastry (especially conjunction, trine, sextile) are the traditional 'compatibility baseline' — they describe whether the two core natures find each other complementary. Wide aspects (up to 10° for conjunction/opposition in Sun-Moon) are valid." },
+                { n:4, t:"Venus-Mars Contacts (Romantic & Sexual Chemistry)", b:"Venus and Mars inter-aspects describe the romantic and erotic charge. The conjunction and opposition produce the most electric chemistry. The trine and sextile produce enjoyable, flowing desire. Note BOTH directions: A's Venus to B's Mars AND A's Mars to B's Venus — these are distinct experiences." },
+                { n:5, t:"Saturn Contacts (Longevity & Karma)", b:"Saturn's inter-aspects determine staying power and structural commitment. Harmonious Saturn contacts (trine, sextile to personal planets) provide durability. Saturn conjunct Venus or Moon can feel binding — sometimes supportively, sometimes restrictively. The direction matters: whose Saturn is involved?" },
+                { n:6, t:"Chiron and Magi Linkages", b:"Check for Magi linkages (Chiron conjunct Venus/Jupiter/Mars/Juno within 3°). These are the most significant long-term bonding indicators in Magi Astrology. A relationship with 3+ Magi linkages is statistically significant for long-term commitment potential." },
+                { n:7, t:"Composite and Davison Charts", b:"Move to the composite (midpoint) or Davison (date midpoint) chart to understand the relationship as an entity. The composite Sun and Moon describe the relationship's core purpose and emotional foundation. The composite ASC describes how the relationship presents itself to the world." },
+              ].map(s=>(
+                <div key={s.n} style={{ display:"flex",gap:"1rem",borderBottom:"1px solid var(--rim)",padding:".85rem 0",alignItems:"flex-start" }}>
+                  <div style={{ minWidth:"2rem",height:"2rem",borderRadius:"50%",background:"rgba(201,168,76,.1)",border:"1px solid var(--gold-d)",display:"flex",alignItems:"center",justifyContent:"center",fontFamily:"'Josefin Sans',sans-serif",fontSize:".65rem",color:"var(--gold)",flexShrink:0 }}>{s.n}</div>
+                  <div><div style={{ fontFamily:"'Josefin Sans',sans-serif",fontSize:".65rem",color:"var(--gold-l)",letterSpacing:".1em",textTransform:"uppercase",marginBottom:".25rem" }}>{s.t}</div><p style={{ fontSize:".83rem",color:"var(--text)",lineHeight:1.75 }}>{s.b}</p></div>
+                </div>
+              ))}
+            </div>
+
+            <div className="card">
+              <div className="ct">◈ Standard Synastry Orb Table</div>
+              <table>
+                <thead><tr><th>Aspect</th><th>Standard Orb</th><th>Luminaries (Sun/Moon)</th><th>Angles (ASC/MC)</th></tr></thead>
+                <tbody>
+                  {[
+                    ["Conjunction ☌",  "8°","10°","8°"],
+                    ["Opposition ☍",   "8°","10°","8°"],
+                    ["Trine △",        "8°","10°","8°"],
+                    ["Square □",       "7°","9°", "7°"],
+                    ["Sextile ⚹",      "6°","8°", "6°"],
+                    ["Quincunx ⚻",     "3°","4°", "3°"],
+                    ["Semisquare ∠",   "2°","3°", "2°"],
+                    ["Sesquisquare ⊾", "2°","3°", "2°"],
+                    ["Semisextile ⚺",  "2°","2°", "2°"],
+                    ["Magi Linkage ⚷", "3°","3°", "3°"],
+                  ].map((r,i)=>(
+                    <tr key={i}>
+                      <td style={{ color:"var(--gold-l)",fontFamily:"'Josefin Sans',sans-serif" }}>{r[0]}</td>
+                      <td style={{ fontFamily:"'Josefin Sans',sans-serif",fontSize:".72rem",color:"var(--teal)" }}>{r[1]}</td>
+                      <td style={{ fontFamily:"'Josefin Sans',sans-serif",fontSize:".72rem",color:"var(--silver)" }}>{r[2]}</td>
+                      <td style={{ fontFamily:"'Josefin Sans',sans-serif",fontSize:".72rem",color:"var(--muted)" }}>{r[3]}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+
+            <div className="card">
+              <div className="ct">◈ Research-Backed vs Traditional Synastry Indicators</div>
+              <div className="g2">
+                <div>
+                  <div style={{ fontFamily:"'Josefin Sans',sans-serif",fontSize:".62rem",color:"var(--teal)",letterSpacing:".12em",textTransform:"uppercase",marginBottom:".75rem" }}>Research-Backed (Empirical Evidence)</div>
+                  {[
+                    "Sun-Moon contacts in long-term couples (Castel, 1999; multiple meta-analyses show above-chance frequency)",
+                    "Venus-Mars contacts in romantic relationships (Empirical base from survey studies on self-reported chemistry)",
+                    "Saturn contacts in married vs. unmarried couples (Pelletier, Gauquelin-era studies show frequency above chance)",
+                    "Nodal contacts in significant relationships (Cross-cultural studies on self-reported 'fated' quality of partnerships)",
+                    "Sun/Ascendant sign compatibility (modest meta-analytic effect in large-N studies; Sun-sign alone shows weak but real signal)",
+                  ].map((r,i)=>(
+                    <div key={i} style={{ borderLeft:"2px solid var(--teal)",paddingLeft:".75rem",marginBottom:".5rem" }}>
+                      <p style={{ fontSize:".8rem",color:"var(--silver)" }}>✓ {r}</p>
+                    </div>
+                  ))}
+                </div>
+                <div>
+                  <div style={{ fontFamily:"'Josefin Sans',sans-serif",fontSize:".62rem",color:"var(--violet)",letterSpacing:".12em",textTransform:"uppercase",marginBottom:".75rem" }}>Traditional / Esoteric (Not Formally Tested)</div>
+                  {[
+                    "Magi Astrology Chiron linkages (no peer-reviewed studies; based on Magi Society's proprietary research)",
+                    "Juno contacts as marriage indicators (traditional Hellenistic lot; experiential and esoteric basis)",
+                    "Vertex as fated encounter point (modern innovation; no empirical testing)",
+                    "House overlay interpretations (theoretical framework; experientially rich but not empirically tested)",
+                    "Composite chart as relationship entity (widely used in modern practice; no formal validation studies)",
+                  ].map((r,i)=>(
+                    <div key={i} style={{ borderLeft:"2px solid var(--violet)",paddingLeft:".75rem",marginBottom:".5rem" }}>
+                      <p style={{ fontSize:".8rem",color:"var(--silver)" }}>◈ {r}</p>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
+
+        {/* FOOTER */}
+        <div style={{ textAlign:"center",padding:"2rem 0 1rem",borderTop:"1px solid var(--rim)",marginTop:"2rem" }}>
+          <div style={{ fontFamily:"'Josefin Sans',sans-serif",fontSize:".52rem",color:"var(--muted)",letterSpacing:".2em",textTransform:"uppercase" }}>
+            Universal Astrology Methodology · Part III · Synastry Engine · Aries Sun / Libra Rising
+          </div>
+          <div style={{ fontFamily:"'Cormorant Garamond',serif",fontStyle:"italic",fontSize:".78rem",color:"var(--muted)",marginTop:".3rem" }}>
+            Part IV (Timing — Transits & Solar Return) to follow
+          </div>
+        </div>
+      </div>
+    </>
+  );
+}

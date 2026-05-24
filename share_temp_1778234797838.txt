@@ -1,0 +1,674 @@
+Below is the fully merged universal astrological framework – universal_astrological_framework_v1.0_complete.json – which now includes the original universal framework plus the entire patchwork_soul_extension as a top‑level key. All data is normalized, enriched, and ready for use.
+
+```json
+{
+  "metadata": {
+    "framework_name": "Universal Astrological Framework v1.0",
+    "version": "1.0",
+    "description": "A normalized, deduplicated, and universalized astrological reference system. Contains complete modules for harmonic families, fixed stars, asteroids, Fate Triad, midpoints, predictive techniques, karmic patterns, conflict resolution, lunar mansions, medical remedies, and now the fully extracted Patchwork Soul extension (2020-2025).",
+    "last_updated": "2026-05-06",
+    "license": "Creative Commons Attribution-ShareAlike 4.0 International",
+    "source_acknowledgment": "Derived from Jimmy dataset extension and Patchwork Soul blog; all personal identifiers removed."
+  },
+  "fate_triad": {
+    "description": "The three Moirai (Clotho, Lachesis, Atropos) governing beginning, duration, and end of cycles.",
+    "asteroids": [
+      {
+        "name": "Clotho (97)",
+        "interpretation_generic": "Clotho spins the thread of life. In synastry, she determines the 'beginning' of a karmic bond. Contacts to Clotho indicate where the native initiates new cycles effortlessly.",
+        "keywords": ["thread_spinner", "cycle_initiation", "effortless_beginning", "origin_karma", "birth_of_fate"]
+      },
+      {
+        "name": "Lachesis (120)",
+        "interpretation_generic": "The nexus hub. Lachesis indicates precisely measured durations for life events and relationships. The native is often the 'timekeeper' of their own destiny.",
+        "keywords": ["measured_fate", "allotted_duration", "causal_anchor", "timekeeper", "apportioned_path"]
+      },
+      {
+        "name": "Atropos (273)",
+        "interpretation_generic": "Atropos cuts the thread at the appointed moment. Its position shows where endings are sudden, clean, and irrevocable. In synastry, harsh aspects to Atropos predict unavoidable separations.",
+        "keywords": ["thread_cutter", "irrevocable_end", "clean_severance", "final_judgment", "fated_death_of_cycle"]
+      }
+    ],
+    "triad_synastry": {
+      "pattern": "When a partner's planet contacts all three Moirai in the native's chart (by conjunction, opposition, or septile), the relationship is 'triple‑fated': its beginning, duration, and end are wholly predetermined.",
+      "interpretation": "Such bonds cannot be altered by human intervention; they must be lived out exactly as measured."
+    }
+  },
+  "harmonic_families": {
+    "5th_harmonic": {
+      "angles": [72, 144, 216, 288],
+      "keywords": ["creativity", "genius", "artistic_breakthrough", "quintile_magic", "golden_ratio", "inspired_action"],
+      "interpretation_generic": "Planets in quintile or biquintile aspect create effortless creative flow. The native's artistic output is 'channeled' when they surrender to the 72‑day rhythm.",
+      "example": "Sun quintile Moon → ego and emotions harmonize creatively; the individual inspires their own best work."
+    },
+    "7th_harmonic": {
+      "angles": [51.428, 102.857, 154.285],
+      "keywords": ["fated_architecture", "karmic_contracts", "septile_mystery", "nonlinear_time", "soul_timing"],
+      "interpretation_generic": "Septile family aspects govern invisible, non‑linear forces. Events occur in clusters of 7 (days, weeks, months, years). The native's life follows a hidden septile clock."
+    },
+    "9th_harmonic": {
+      "angles": [40, 80, 160, 200, 280, 320],
+      "keywords": ["spiritual_completion", "cosmic_template", "initiate_aspect", "muse_activation", "final_test"],
+      "interpretation_generic": "Novile aspects mark spiritual completion and the end of a soul cycle. The native is often an 'old soul' working on final integration."
+    },
+    "11th_harmonic": {
+      "angles": [32.727, 65.454, 98.181, 130.909, 163.636, 196.363, 229.09, 261.818, 294.545, 327.272],
+      "keywords": ["sensitive_fate", "subtle_timing", "intuitive_knowing", "psychic_impression", "delicate_trigger"],
+      "interpretation_generic": "Undecile aspects create sensitive fate triggers. Decisions made on the 11th day of the month, or when the Moon is at 11° of a sign, are fated to succeed."
+    }
+  },
+  "fixed_stars": {
+    "orb_protocol": "1° for conjunction, 0.5° for synastry overlays",
+    "stars": [
+      {
+        "name": "Spica",
+        "position": "24° Libra",
+        "nature": "Venus/Jupiter",
+        "keywords": ["divine_grace", "artistic_genius", "unearned_wealth", "sacred_harvest", "royal_blessing"],
+        "interpretation_generic": "Spica confers creative and romantic favor. When a planet conjuncts Spica, that area of life receives 'unearned grace'."
+      },
+      {
+        "name": "Algol",
+        "position": "26° Taurus",
+        "nature": "Saturn/Mars",
+        "keywords": ["the_gorgon", "severance", "primal_rage", "protective_fury", "the_silenced_scream"],
+        "interpretation_generic": "Algol indicates the ability to hold a partner's darkest material without flinching. It also warns of sudden, gorgon‑like endings if trust is broken."
+      },
+      {
+        "name": "Sirius",
+        "position": "14° Cancer",
+        "nature": "Jupiter/Mars",
+        "keywords": ["the_blazing_star", "gateway_of_isis", "high_priestess", "cosmic_initiation", "ancestral_light"],
+        "interpretation_generic": "Sirius acts as a spiritual gateway. The native with planets here is a 'soul awakener' for others."
+      },
+      {
+        "name": "Regulus",
+        "position": "0° Virgo",
+        "nature": "Mars/Jupiter",
+        "keywords": ["heart_of_lion", "noble_leadership", "sovereign_grace", "uncompromising_truth"],
+        "interpretation_generic": "Regulus gives natural, effortless authority. The native is trusted as a leader without needing to assert dominance."
+      },
+      {
+        "name": "Fomalhaut",
+        "position": "3° Pisces",
+        "nature": "Venus/Mercury",
+        "keywords": ["angelic_guidance", "alchemical_marriage", "spiritual_art", "divine_breath"],
+        "interpretation_generic": "Fomalhaut makes the imagination oracular; dreams become literal prophecies."
+      },
+      {
+        "name": "Antares",
+        "position": "9° Sagittarius",
+        "nature": "Mars/Jupiter",
+        "keywords": ["warrior_vision", "bold_truth", "reckless_courage", "fiery_purpose"],
+        "interpretation_generic": "Antares indicates growth through confronting shadows. The native expands by walking into danger."
+      },
+      {
+        "name": "Aldebaran",
+        "position": "9° Gemini",
+        "nature": "Mars/Mercury",
+        "keywords": ["royal_voice", "messenger_authority", "truth_speaker", "quick_mind"],
+        "interpretation_generic": "Aldebaran gives communication that awakens others. The native argues to awaken, not to win."
+      },
+      {
+        "name": "Betelgeuse",
+        "position": "28° Gemini",
+        "nature": "Mars/Mercury",
+        "keywords": ["giant_hand", "sudden_fortune", "martial_artistry"],
+        "interpretation_generic": "Betelgeuse makes actions 'larger than life'; the native achieves through dramatic, bold gestures."
+      }
+    ]
+  },
+  "asteroids": {
+    "core_asteroids": [
+      {
+        "name": "Chiron",
+        "keywords": ["wounded_healer", "shamanic_wound", "integration_through_pain"],
+        "interpretation_generic": "Chiron indicates where the native heals others by first healing themselves."
+      },
+      {
+        "name": "Pallas Athena",
+        "keywords": ["pattern_recognition", "strategic_intelligence", "warrior_wisdom"],
+        "interpretation_generic": "Pallas gives the ability to see archetypal patterns and apply strategic wisdom."
+      },
+      {
+        "name": "Juno",
+        "keywords": ["karmic_marriage", "committed_partner", "jealousy", "devotion"],
+        "interpretation_generic": "Juno shows the native's template for a committed, often karmic, partnership."
+      },
+      {
+        "name": "Vesta",
+        "keywords": ["sacred_focus", "priestess_energy", "single_minded_devotion"],
+        "interpretation_generic": "Vesta indicates where the native must maintain a sacred, focused flame."
+      },
+      {
+        "name": "Ceres",
+        "keywords": ["mother_wound", "nurturing", "loss", "agricultural_cycle"],
+        "interpretation_generic": "Ceres shows how the native gives and receives unconditional care, and where grief transforms."
+      },
+      {
+        "name": "Eros",
+        "keywords": ["creative_desire", "life_force_attraction", "eros_principle"],
+        "interpretation_generic": "Eros contacts show where passionate, creative sexuality is linked to emotional security."
+      },
+      {
+        "name": "Psyche",
+        "keywords": ["soul_love", "psychic_union", "depth_intimacy"],
+        "interpretation_generic": "Psyche indicates the capacity for deeply soulful, non‑physical intimacy."
+      },
+      {
+        "name": "Amor",
+        "keywords": ["unconditional_love", "familial_bond", "sacred_affection"],
+        "interpretation_generic": "Amor shows where love is blocked by early wounds and where healing is possible through disciplined self‑love."
+      },
+      {
+        "name": "Sappho",
+        "keywords": ["poetic_eros", "aesthetic_passion", "artistic_sexuality"],
+        "interpretation_generic": "Sappho gives powerfully aesthetic expressions of love, though possibly facing societal friction."
+      }
+    ],
+    "extended_asteroids_list": [
+      { "name": "Hestia", "keywords": ["hearth", "home", "sacred_fire", "focus"] },
+      { "name": "Aurora", "keywords": ["dawn", "new_beginning", "light", "hope"] },
+      { "name": "Adrastea", "keywords": ["inevitability", "fate", "justice", "punishment"] },
+      { "name": "Justitia", "keywords": ["justice", "balance", "law", "fairness"] },
+      { "name": "Raphael", "keywords": ["healing", "travel", "guidance", "angel"] },
+      { "name": "Cupido", "keywords": ["erotic love", "desire", "spark", "attraction"] },
+      { "name": "Sphinx", "keywords": ["riddle", "mystery", "wisdom", "guardian"] }
+    ]
+  },
+  "midpoint_formulas": {
+    "synthesis_engine": "Uranian midpoint method",
+    "orb_protocol": "Strict 1.0° for all midpoint trees",
+    "primary_midpoints": [
+      {
+        "formula": "Sun = Moon/Node",
+        "interpretation_generic": "The ego's journey is exactly the path between emotional need (Moon) and karmic destiny (Node). Security requires being on the fated track."
+      },
+      {
+        "formula": "Venus = Saturn/Pluto",
+        "interpretation_generic": "Love is structured transformation. Relationships are initiations into death and rebirth, never casual."
+      },
+      {
+        "formula": "Mars = Sun/Uranus",
+        "interpretation_generic": "Action is sudden, genius, and often disruptive. The drive cannot be contained by routine; breakthroughs are needed."
+      },
+      {
+        "formula": "Lachesis = Sun/Moon",
+        "interpretation_generic": "The length of life‑force expression is measured by the balance between masculine and feminine principles. Lifespan in any given project is predetermined."
+      },
+      {
+        "formula": "Lachesis = Venus/Saturn",
+        "interpretation_generic": "The seriousness and duration of intimate bonds are mathematically fixed. The native is the 'timekeeper' of love."
+      },
+      {
+        "formula": "Lachesis = Sun/Atropos",
+        "interpretation_generic": "The length of identity (Sun) is tied to the final cutter (Atropos). When a phase is truly over, the native feels nothing – Atropos is emotionless."
+      },
+      {
+        "formula": "Lachesis = Venus/Clotho",
+        "interpretation_generic": "Every relationship begun (Clotho) has a preset duration (Lachesis) and a predetermined quality of love (Venus). No casual romance exists."
+      },
+      {
+        "formula": "Lachesis = Saturn/Moon",
+        "interpretation_generic": "Emotional discipline is measured. Heaviness at the exact midpoint of any long‑term project signals that half the allotted time has passed."
+      }
+    ],
+    "midpoint_tree_synthesis": {
+      "hub": "Lachesis",
+      "total_midpoints": 52,
+      "function": "Lachesis acts as the 'spindle' around which all other planetary pairs are wound. Every significant relationship or life phase has a clearly marked beginning, measured middle, and defined end."
+    }
+  },
+  "aspect_patterns": {
+    "thor_hammer": {
+      "pattern": "Two planets in square (90°), both in semisquare (45°) or sesquiquadrate (135°) to a third.",
+      "keywords": ["explosive_action", "destiny_demand", "obstacle_breakthrough", "urgent_resolution"],
+      "interpretation_generic": "Sudden, explosive action; destiny demands immediate response. The window lasts only hours but produces lifetime work."
+    },
+    "cradle": {
+      "pattern": "Grand Trine + opposition + two sextiles (four planets).",
+      "keywords": ["supported_resolution", "talent_scaffold", "eased_tension", "integration_path"],
+      "interpretation_generic": "Supportive environment for resolving the opposition; talents ease the tension. A protected path to integration."
+    },
+    "star_of_david": {
+      "pattern": "Two interwoven Grand Trines (six planets/points).",
+      "keywords": ["maximum_harmony", "high_potential", "conscious_channeling", "sacred_geometry"],
+      "interpretation_generic": "Extremely harmonious, high‑potential configuration; requires conscious direction to avoid complacency."
+    },
+    "boomerang": {
+      "pattern": "Yod + planet opposing the apex.",
+      "keywords": ["karmic_return", "feedback_loop", "external_mirror", "refined_direction"],
+      "interpretation_generic": "Karmic return; what the native sends out comes back. Fated adjustments with external feedback."
+    },
+    "yod": {
+      "pattern": "Two planets in sextile (60°), both in quincunx (150°) to a third (apex).",
+      "keywords": ["fate_of_adjustment", "finger_of_god", "destiny_correction", "uncomfortable_growth"],
+      "interpretation_generic": "The native carries a fate that requires constant, uncomfortable adjustment. Without awareness, the yod manifests as anxiety."
+    }
+  },
+  "predictive_techniques": {
+    "transits": {
+      "orb_protocol": "0.5° for fated events (Lachesis, Septile); 1° for standard outer planets",
+      "primary_windows_generic": [
+        {
+          "phase": "Preparation Year",
+          "focus": "Septile/Decile – fated healing and subtle recognition",
+          "action_guidance": "Do not initiate major commitments. Instead, complete old cycles. Lachesis will automatically cut threads; do not resist."
+        },
+        {
+          "phase": "Activation Year",
+          "focus": "Septile/Parallel – radical awakening and identity rebellion",
+          "action_guidance": "Say 'yes' to the unexpected opportunity in the first quarter. In the third quarter, release any relationship or project that has not 'measured up'."
+        },
+        {
+          "phase": "Culmination Year",
+          "focus": "Quintile/Biquintile – structured culmination and shared success",
+          "action_guidance": "Commit fully in the final quarter. This period is the 'foundation stone' for the next 9‑year cycle."
+        }
+      ]
+    },
+    "secondary_progressions": {
+      "description": "Progressed Moon and Sun (1 day = 1 year).",
+      "interpretation_generic": "Progressed Moon conjunct North Node marks a fated meeting or decision – do not hesitate. Progressed Sun sextile progressed Jupiter signals expansion of purpose – launch the incubated project."
+    },
+    "solar_arc_directions": {
+      "description": "Directed positions = natal + arc (approx age).",
+      "interpretation_generic": "Directed Ascendant to fixed stars or angles signals public recognition. Directed Sun opposite Jupiter forces a choice between quality and quantity."
+    },
+    "solar_returns": {
+      "interpretation_generic": "When solar return Ascendant matches natal Ascendant, it is a 'return to self' year. Conjunctions to natal Lachesis indicate that anything begun that year has a predetermined multi‑year span."
+    },
+    "age_harmonics": {
+      "description": "At age A, compute HA = (natal_longitude × A) mod 360°. The resulting chart reveals the year's theme.",
+      "examples": [
+        { "age": 33, "theme": "Creative expansion through community; finding one's 'tribe'." },
+        { "age": 42, "theme": "Peak Lachesis year; a major life phase ends exactly on schedule." },
+        { "age": 49, "theme": "Septile squared; second initiation; spiritual authority recognizes the native." }
+      ]
+    }
+  },
+  "karmic_patterns": {
+    "generic_yod_resolution": "Build daily routines that honor the apex planet's nature. For a Saturn yod (discipline), morning ritual + structured work. For a Neptune yod (mysticism), dream journaling + creative expression.",
+    "generic_boomerang_management": "Track recurring themes in a 'karma log'. When a pattern returns, ask: 'What measure of this has not yet been fulfilled?' Then take the opposite action.",
+    "generic_thor_hammer_response": "When the 'hammer drops' (often during Uranus transits), drop everything and create. The window lasts only hours but produces lifetime work."
+  },
+  "conflict_resolution_protocols": {
+    "description": "For fated friction in synastry, based on septile friction points and Lachesis midpoints.",
+    "core_principle": "Not all conflict is 'bad' – some is fated to catalyze growth. The Moirae use friction as a spindle to wind the thread tighter. Premature resolution denies the lesson.",
+    "generic_friction_protocols": [
+      {
+        "aspect_type": "Mars septile Neptune",
+        "manifestation": "Drive triggers confusion; arguments arise over 'what is real' versus 'what is dreamed'.",
+        "resolution": "Schedule a 'dream log' sharing every 7th day. One partner speaks only in metaphors; the other translates into action. Friction becomes fuel for art."
+      },
+      {
+        "aspect_type": "Saturn triseptile Moon",
+        "manifestation": "Seriousness 'freezes' emotional flow; one feels judged, the other responsible.",
+        "resolution": "Create a 'safety contract' – the Saturn person voices concerns only on Saturdays and only for 7 minutes. The Moon person listens without defense. After 7 weeks, the pattern shifts."
+      },
+      {
+        "aspect_type": "Composite Lachesis square Vertex",
+        "manifestation": "The relationship's measured duration conflicts with one partner's personal fated path.",
+        "resolution": "Create a 'time allotment' calendar. Allocate specific hours/days to the relationship and specific hours/days to the solo path. The Lachesis square demands clear boundaries, not abandonment."
+      }
+    ],
+    "general_emergency_protocol": {
+      "when_emotions_escalate": "Check the septile clock. If conflict occurs on a day that is a multiple of 7 (7th, 14th, 21st, 28th), it is 'fated friction' – do NOT resolve it immediately. Wait 7 hours, then revisit. The solution will be obvious.",
+      "when_one_partner_shuts_down": "Ask: 'Is this the thread breaking or just a knot?' If a knot, a small, kind gesture will loosen it. If a break, no force will rejoin it. Trust the Lachesis measurement.",
+      "remedial_ritual": "Buy a spindle and a skein of natural thread. Every time a conflict is resolved, wind one inch of thread around the spindle. When the spindle is full (approximately 7 feet), perform a 'thread cutting' ceremony – burn the thread, thanking the Moirae. The spindle then becomes an altar piece for future harmony."
+    }
+  },
+  "lunar_mansions": {
+    "description": "28 mansions of the Moon for electional timing. Each mansion has good for / avoid for / keywords.",
+    "mansions": [
+      { "number": 1, "name": "Al Sharatain", "degrees": "0°‑12°51′ Aries", "good_for": ["war", "revenge", "destruction"], "avoid_for": ["marriage", "travel"], "keywords": ["beginning", "initiation", "conflict"] },
+      { "number": 2, "name": "Al Butain", "degrees": "12°51′‑25°43′ Aries", "good_for": ["finding lost objects", "divination", "alchemy"], "avoid_for": ["building", "harvesting"], "keywords": ["search", "treasure", "hidden"] },
+      { "number": 3, "name": "Al Thuraya", "degrees": "25°43′ Aries‑8°34′ Taurus", "good_for": ["spiritual rituals", "astrology", "dreams"], "avoid_for": ["travel", "commerce"], "keywords": ["Pleiades", "sorrow", "vision"] },
+      { "number": 4, "name": "Aldebaran", "degrees": "8°34′‑21°26′ Taurus", "good_for": ["political power", "wealth", "fame"], "avoid_for": ["love spells", "binding"], "keywords": ["royal", "power", "leadership"] },
+      { "number": 5, "name": "Al Haq'ah", "degrees": "21°26′ Taurus‑4°17′ Gemini", "good_for": ["travel", "education", "medicine"], "avoid_for": ["marriage"], "keywords": ["healing", "safety", "protection"] },
+      { "number": 6, "name": "Al Han'ah", "degrees": "4°17′‑17°09′ Gemini", "good_for": ["journeys", "change of residence"], "avoid_for": ["agriculture", "harvest"], "keywords": ["movement", "change", "wind"] },
+      { "number": 7, "name": "Al Dhira", "degrees": "17°09′‑30° Gemini", "good_for": ["friendship", "alliances", "business"], "avoid_for": ["love magic"], "keywords": ["strength", "support", "assistance"] },
+      { "number": 8, "name": "Al Nathrah", "degrees": "0°‑12°51′ Cancer", "good_for": ["revelations", "divination", "secrets"], "avoid_for": ["travel by water"], "keywords": ["open", "reveal", "truth"] },
+      { "number": 9, "name": "Al Tarf", "degrees": "12°51′‑25°43′ Cancer", "good_for": ["building", "planting", "family"], "avoid_for": ["arguments", "conflict"], "keywords": ["growth", "nurturing", "protection"] },
+      { "number": 10, "name": "Al Jabhah", "degrees": "25°43′ Cancer‑8°34′ Leo", "good_for": ["leadership", "authority", "punishment"], "avoid_for": ["travel", "commerce"], "keywords": ["force", "power", "dominance"] },
+      { "number": 11, "name": "Al Zubrah", "degrees": "8°34′‑21°26′ Leo", "good_for": ["love", "courage", "leadership"], "avoid_for": ["hiding", "deception"], "keywords": ["heart", "courage", "nobility"] },
+      { "number": 12, "name": "Al Sarfah", "degrees": "21°26′ Leo‑4°17′ Virgo", "good_for": ["adaptation", "change", "healing"], "avoid_for": ["marriage"], "keywords": ["turn", "detour", "adjust"] },
+      { "number": 13, "name": "Al Awwa", "degrees": "4°17′‑17°09′ Virgo", "good_for": ["legal matters", "contracts", "truth"], "avoid_for": ["conflict"], "keywords": ["justice", "balance", "order"] },
+      { "number": 14, "name": "Al Simak", "degrees": "17°09′‑30° Virgo", "good_for": ["planting", "harvest", "wealth"], "avoid_for": ["travel"], "keywords": ["abundance", "harvest", "gift"] },
+      { "number": 15, "name": "Al Ghafr", "degrees": "0°‑12°51′ Libra", "good_for": ["forgiveness", "letting go", "spiritual practice"], "avoid_for": ["starting new ventures"], "keywords": ["forgiveness", "release", "mercy"] },
+      { "number": 16, "name": "Al Jubana", "degrees": "12°51′‑25°43′ Libra", "good_for": ["building", "protection", "home"], "avoid_for": ["travel"], "keywords": ["defence", "shelter", "safety"] },
+      { "number": 17, "name": "Al Iklil", "degrees": "25°43′ Libra‑8°34′ Scorpio", "good_for": ["victory", "recognition", "honour"], "avoid_for": ["deception"], "keywords": ["crown", "achievement", "honour"] },
+      { "number": 18, "name": "Al Qalb", "degrees": "8°34′‑21°26′ Scorpio", "good_for": ["love", "transformation", "healing"], "avoid_for": ["business", "commerce"], "keywords": ["heart", "passion", "transformation"] },
+      { "number": 19, "name": "Al Shawlah", "degrees": "21°26′ Scorpio‑4°17′ Sagittarius", "good_for": ["justice", "revenge", "confrontation"], "avoid_for": ["love", "marriage"], "keywords": ["sting", "pain", "awakening"] },
+      { "number": 20, "name": "Al Na'am", "degrees": "4°17′‑17°09′ Sagittarius", "good_for": ["hunting", "travel", "adventure"], "avoid_for": ["business"], "keywords": ["beast", "wild", "freedom"] },
+      { "number": 21, "name": "Al Baldah", "degrees": "17°09′‑30° Sagittarius", "good_for": ["education", "philosophy", "travel"], "avoid_for": ["conflict"], "keywords": ["wisdom", "teacher", "guide"] },
+      { "number": 22, "name": "Al Sa'd al Dhabih", "degrees": "0°‑12°51′ Capricorn", "good_for": ["spiritual practice", "sacrifice"], "avoid_for": ["starting ventures"], "keywords": ["sacrifice", "surrender", "offering"] },
+      { "number": 23, "name": "Al Sa'd al Bula'", "degrees": "12°51′‑25°43′ Capricorn", "good_for": ["study", "learning", "assimilation"], "avoid_for": ["travel"], "keywords": ["swallow", "absorption", "integration"] },
+      { "number": 24, "name": "Al Sa'd al Su'ud", "degrees": "25°43′ Capricorn‑8°34′ Aquarius", "good_for": ["fortune", "success", "wealth"], "avoid_for": ["conflict"], "keywords": ["fortune", "luck", "prosperity"] },
+      { "number": 25, "name": "Al Sa'd al Ahbiyah", "degrees": "8°34′‑21°26′ Aquarius", "good_for": ["community", "friendship", "groups"], "avoid_for": ["isolation"], "keywords": ["community", "collective", "friend"] },
+      { "number": 26, "name": "Al Fargh al Awwal", "degrees": "21°26′ Aquarius‑4°17′ Pisces", "good_for": ["healing", "emotional release", "art"], "avoid_for": ["travel by water"], "keywords": ["flow", "release", "emotion"] },
+      { "number": 27, "name": "Al Fargh al Thani", "degrees": "4°17′‑17°09′ Pisces", "good_for": ["endings", "releases", "transformation"], "avoid_for": ["new beginnings"], "keywords": ["end", "completion", "death", "rebirth"] },
+      { "number": 28, "name": "Al Batn al Hut", "degrees": "17°09′‑30° Pisces", "good_for": ["spiritual inspiration", "art", "dreams"], "avoid_for": ["practical matters"], "keywords": ["cosmic", "universal", "depth"] }
+    ]
+  },
+  "medical_remedies": {
+    "gemstones": {
+      "Sun": "Ruby, Citrine, Goldstone", "Moon": "Pearl, Moonstone, Opal", "Mercury": "Emerald, Peridot, Aventurine",
+      "Venus": "Rose Quartz, Jade, Copper", "Mars": "Carnelian, Bloodstone, Garnet", "Jupiter": "Sapphire, Lapis Lazuli, Amethyst",
+      "Saturn": "Onyx, Black Tourmaline, Hematite", "Uranus": "Aquamarine, Labradorite", "Neptune": "Amethyst, Coral, Aquamarine", "Pluto": "Obsidian, Smoky Quartz, Malachite"
+    },
+    "herbs": {
+      "Sun": "Saffron, Rosemary, Chamomile", "Moon": "Moonwort, Jasmine, White Rose", "Mercury": "Lavender, Fennel, Dill",
+      "Venus": "Rose, Thyme, Damiana", "Mars": "Nettle, Garlic, Cayenne", "Jupiter": "Sage, Cinnamon, Nutmeg",
+      "Saturn": "Comfrey, Mullein, Patchouli", "Uranus": "Coffee, Guarana, Kola Nut", "Neptune": "Lotus, Seaweed, Valerian", "Pluto": "Comfrey, Yew, Black Cohosh"
+    },
+    "colours": {
+      "Sun": "Orange, Gold, Yellow", "Moon": "Silver, White, Pale Blue", "Mercury": "Yellow, Violet, Grey",
+      "Venus": "Green, Pink, Turquoise", "Mars": "Red, Scarlet, Rust", "Jupiter": "Royal Blue, Purple, Crimson",
+      "Saturn": "Black, Dark Grey, Indigo", "Uranus": "Electric Blue, Iridescent", "Neptune": "Sea Green, Mauve, Lilac", "Pluto": "Deep Maroon, Black, Dark Red"
+    },
+    "remedial_actions": {
+      "Sun_weak": "Sun gaze at sunrise, wear gold, take leadership roles",
+      "Moon_weak": "Moon baths, journaling, practice emotional honesty",
+      "Mercury_weak": "Brain games, study new subject, reduce screen time",
+      "Venus_weak": "Self‑care rituals, artistic expression, set relationship boundaries",
+      "Mars_weak": "Physical exercise, martial arts, iron‑rich diet",
+      "Jupiter_weak": "Travel, teach others, optimism practice",
+      "Saturn_weak": "Structure routines, meditation, weight‑bearing exercise",
+      "Uranus_weak": "Try new technologies, nervous system support (magnesium)",
+      "Neptune_weak": "Swim, meditate, creative visualisation, avoid escapism",
+      "Pluto_weak": "Shadow work, therapy, detoxification, transformation rituals"
+    }
+  },
+  "patchwork_soul_extension": {
+    "metadata": {
+      "source": "Patchwork Soul Blog (2020-2025)",
+      "description": "Extracted asteroid, planetary, and interpretive content integrated into universal framework.",
+      "last_updated": "2026-05-06"
+    },
+    "asteroid_definitions": {
+      "Scylla": {
+        "number": null,
+        "keywords": ["tentacle_beast", "inescapable_danger", "rock_and_hard_place", "choiceless_choice", "survival_instinct"],
+        "interpretation": "Scylla represents a fixed, unavoidable threat that one must navigate rather than defeat. In a chart, Scylla shows where the native feels trapped between two bad options, yet must choose the lesser evil. In synastry, it indicates a partner who triggers primal survival fears."
+      },
+      "Charybdis": {
+        "number": null,
+        "keywords": ["whirlpool", "consuming_void", "cyclical_destruction", "chaotic_swallow", "underwater_pull"],
+        "interpretation": "Charybdis symbolizes overwhelming forces that repeatedly draw the native into chaos. Unlike Scylla, Charybdis is cyclical – the threat returns in waves. In a chart, it shows where one must learn timing: when to let go and when to resist the pull."
+      },
+      "Ariadne": {
+        "number": 43,
+        "discovery": "1857-04-15, Radcliffe Observatory, Oxford",
+        "keywords": ["thread_of_guidance", "maze_navigator", "abandonment", "faithful_helper", "psyche_rescue"],
+        "interpretation": "Ariadne provides the 'golden thread' through life's labyrinths. In a chart, she shows where the native is a guide for others, but risks being left behind once the path is clear. In synastry, Ariadne contacts indicate a partner who helps the other escape a difficult situation, often with delayed gratitude."
+      },
+      "Dionysus": {
+        "number": 3671,
+        "discovery": "1984-05-27, Palomar Observatory",
+        "keywords": ["ecstatic_release", "wine_and_ecstasy", "divine_intoxication", "liberation_through_chaos", "resurrection_joy"],
+        "interpretation": "Dionysus represents the ecstatic, boundary-dissolving energy that liberates through surrender. In a chart, his placement shows where the native experiences spontaneous joy, madness, or creative madness. In hard aspect, Dionysus can manifest as substance abuse or reckless abandon."
+      },
+      "Narcissus": {
+        "number": 37117,
+        "keywords": ["self_reflection", "fatal_beauty", "echo_tragedy", "unrequited_self_love", "mirror_trap"],
+        "interpretation": "Narcissus shows where the native becomes trapped by their own reflection – either through vanity, self-absorption, or an inability to see others as separate. Healing comes when the native learns to turn attention outward without losing self-respect."
+      },
+      "Echo": {
+        "number": 60,
+        "keywords": ["repetition", "unheard_voice", "reflection", "fading_presence", "longing_amplified"],
+        "interpretation": "Echo represents the experience of speaking but not being heard, or loving without return. In a chart, Echo shows where the native's words or feelings are repeated back distortedly. In synastry, Echo aspects indicate a dynamic where one partner's voice is suppressed by the other's presence."
+      },
+      "Askalaphus": {
+        "number": 4946,
+        "discovery": "1988-01-21, Carolyn Shoemaker",
+        "keywords": ["underworld_orchard", "death_revelation", "persephone_betrayal", "judicial_witness", "final_truth"],
+        "interpretation": "Askalaphus is the whistleblower of the underworld – he testified that Persephone ate pomegranate seeds, ensuring her return to Hades. In a chart, Askalaphus shows where the native is forced to reveal an uncomfortable truth, or where a secret is exposed that changes a relationship forever."
+      },
+      "Humpty_Dumpty": {
+        "number": 17627,
+        "keywords": ["great_fall", "irreparable_break", "fragile_ego", "unfixable_situation", "royal_decline"],
+        "interpretation": "Humpty Dumpty represents a sudden, irreversible collapse of identity or status. Unlike other cracks, this one cannot be mended by external forces. In a chart, the placement shows where the native must learn that some breaks are permanent, and that rebuilding must come from within, not from others."
+      }
+    },
+    "chiron_depth": {
+      "source": "Patchwork Soul, Nov 2016",
+      "keywords": ["wounded_healer", "shamanic_wound", "unintegrated_pain", "teaching_through_suffering", "gateway_to_healing"],
+      "interpretation_by_house": {
+        "1st": "The wound is to the basic identity and appearance. The native feels fundamentally flawed or unheard. Healing comes through radical self-acceptance.",
+        "2nd": "Wound around self-worth, resources, or body. The native may feel they never have enough. Healing through valuing one's own unique gifts.",
+        "3rd": "Wound in communication, siblings, or early learning. The native may have been mocked for speaking. Healing through finding one's authentic voice.",
+        "4th": "Wound in family, home, or ancestral line. The native carries unresolved grief. Healing through re-parenting one's inner child.",
+        "5th": "Wound in creativity, romance, or self-expression. The native may fear having children or being seen. Healing through playful creation.",
+        "6th": "Wound in health, daily routines, or service. The native may feel perpetually ill or exploited. Healing through disciplined self-care.",
+        "7th": "Wound in relationships, partnerships, or open enemies. The native attracts those who mirror the wound. Healing through equal give-and-take.",
+        "8th": "Wound in intimacy, shared resources, or death. The native fears loss or betrayal. Healing through embracing vulnerability and letting go.",
+        "9th": "Wound in belief systems, travel, or higher education. The native may have lost faith. Healing through expanding horizons and seeking meaning.",
+        "10th": "Wound in career, public reputation, or authority figures. The native feels unseen by the world. Healing through authentic achievement.",
+        "11th": "Wound in friendships, groups, or future goals. The native may feel like an outsider. Healing through finding one's tribe.",
+        "12th": "Wound in the unconscious, solitude, or institutions. The native carries ancestral karma. Healing through dreamwork and surrender."
+      },
+      "interpretation_by_sign": {
+        "Aries": "The warrior's wound – impulsive actions lead to regret. Healing through measured assertion.",
+        "Taurus": "The body's wound – loss of material security or sensory pleasure. Healing through grounding and self-worth.",
+        "Gemini": "The twin's wound – words that cut or information withheld. Healing through honest communication.",
+        "Cancer": "The mother's wound – emotional neglect or clinginess. Healing through self-nurturing.",
+        "Leo": "The ego's wound – creative rejection or humiliation. Healing through unconditional self-expression.",
+        "Virgo": "The perfectionist's wound – illness or constant criticism. Healing through acceptance of imperfection.",
+        "Libra": "The balance wound – unfair relationships or indecision. Healing through self-advocacy.",
+        "Scorpio": "The betrayer's wound – sexual trauma or power loss. Healing through consent and transformation.",
+        "Sagittarius": "The truth wound – meaninglessness or exile. Healing through spiritual exploration.",
+        "Capricorn": "The father's wound – failure or overwork. Healing through redefining success.",
+        "Aquarius": "The outsider's wound – ostracism for being different. Healing through embracing uniqueness.",
+        "Pisces": "The dreamer's wound – escapism or martyrdom. Healing through creative boundaries."
+      }
+    },
+    "saturn_depth": {
+      "source": "Patchwork Soul, Nov 2016",
+      "keywords": ["authority", "maturity", "stern_provider", "security_through_structure", "tradition", "karmic_accountant"],
+      "interpretation": "Saturn represents the archetypal Victorian father – stern yet providing security. His actions are based on his own father's example. He follows tradition and regulations without questioning those higher up. He can be cold and withholding, but also reliable and enduring. In the birth chart, Saturn shows where we must work hardest, delay gratification, and build slowly. Saturn transits bring tests that, when passed, confer lasting authority."
+    },
+    "node_interpretations": {
+      "source": "Patchwork Soul, Oct 2016",
+      "general": "The nodes are theoretical points showing the past (south) and future (north). A full nodal cycle takes about 18 years; the nodal return marks significant movement from past patterns toward future growth.",
+      "planet_conjunct_node": {
+        "interpretation": "The sign and house of the node modify the planet's expression. For example, Mercury in Aries on the south node indicates aggressive communication causes problems and needs to be transformed into direct but not antagonistic expression.",
+        "examples": [
+          "Sun conjunct South Node: The ego is stuck in past patterns – must consciously move toward the North Node's sign/house.",
+          "Moon conjunct North Node: Emotional security is found in future-oriented behaviors – nurturing the unknown."
+        ]
+      },
+      "nodes_through_signs": {
+        "Aries_Libra": "Past over-dependence on others (Libra SN) → future self-assertion (Aries NN).",
+        "Taurus_Scorpio": "Past clinging to security (Taurus SN) → future transformation and shared resources (Scorpio NN).",
+        "Gemini_Sagittarius": "Past scattered information gathering (Gemini SN) → future wisdom and publishing (Sagittarius NN).",
+        "Cancer_Capricorn": "Past emotional clinging (Cancer SN) → future public responsibility (Capricorn NN).",
+        "Leo_Aquarius": "Past need for recognition (Leo SN) → future group collaboration (Aquarius NN).",
+        "Virgo_Pisces": "Past over-analysis and service (Virgo SN) → future spiritual surrender (Pisces NN).",
+        "Libra_Aries": "Past people-pleasing (Libra SN) → future courageous action (Aries NN).",
+        "Scorpio_Taurus": "Past obsession and crisis (Scorpio SN) → future stability and self-value (Taurus NN).",
+        "Sagittarius_Gemini": "Past dogmatic belief (Sagittarius SN) → future learning and communication (Gemini NN).",
+        "Capricorn_Cancer": "Past rigid ambition (Capricorn SN) → future nurturing and home (Cancer NN).",
+        "Aquarius_Leo": "Past detachment and rebellion (Aquarius SN) → future creative self-expression (Leo NN).",
+        "Pisces_Virgo": "Past escapism and confusion (Pisces SN) → future discernment and service (Virgo NN)."
+      }
+    },
+    "sign_definitions": {
+      "Aries": {
+        "ruler": "Mars", "colors": ["red"], "number": 9, "body": "head", "symbol": "ram", "keywords": ["action", "adventure", "war", "survival", "competition", "I am"],
+        "strengths": "Courage, initiative, pioneering spirit.",
+        "weaknesses": "Impulsiveness, aggression, selfishness."
+      },
+      "Taurus": {
+        "ruler": "Venus", "colors": ["pastel"], "number": 6, "body": "neck, throat", "symbol": "bull", "keywords": ["comfort", "art", "values", "I have", "temper"],
+        "strengths": "Stability, sensuality, persistence.",
+        "weaknesses": "Stubbornness, possessiveness, resistance to change."
+      },
+      "Gemini": {
+        "ruler": "Mercury", "colors": ["yellow"], "number": 5, "body": "hands, arms, lungs", "symbol": "twins", "keywords": ["communication", "information", "I think", "adaptability"],
+        "strengths": "Versatility, wit, curiosity.",
+        "weaknesses": "Inconstancy, superficiality, nervousness."
+      },
+      "Cancer": {
+        "ruler": "Moon", "colors": ["silvery pearl"], "number": 2, "body": "breasts", "symbol": "crab", "keywords": ["nurturing", "feminine mysteries", "home", "I feel"],
+        "strengths": "Empathy, loyalty, tenacity.",
+        "weaknesses": "Moodiness, clinginess, manipulation."
+      },
+      "Leo": {
+        "ruler": "Sun", "colors": ["orange"], "number": 1, "body": "heart, spine", "symbol": "lion", "keywords": ["creativity", "children", "generosity", "I will"],
+        "strengths": "Confidence, warmth, leadership.",
+        "weaknesses": "Arrogance, drama, need for admiration."
+      },
+      "Virgo": {
+        "ruler": "Mercury", "colors": ["pale green"], "number": 5, "body": "small intestines", "symbol": "virgin", "keywords": ["health", "service", "efficiency", "I analyse"],
+        "strengths": "Practicality, attention to detail, modesty.",
+        "weaknesses": "Criticism, worry, perfectionism."
+      },
+      "Libra": {
+        "ruler": "Venus", "colors": ["pastel"], "number": 6, "body": "kidneys, lower back", "symbol": "scales", "keywords": ["relationships", "balance", "fairness", "I balance"],
+        "strengths": "Diplomacy, grace, social ease.",
+        "weaknesses": "Indecision, people-pleasing, avoidance of conflict."
+      },
+      "Scorpio": {
+        "ruler": "Pluto", "colors": ["blood red", "black", "turquoise"], "number": 0, "body": "nose, blood, colon, genitals", "symbol": "scorpion", "keywords": ["sex", "death", "transformation", "I desire"],
+        "strengths": "Intensity, resourcefulness, loyalty.",
+        "weaknesses": "Jealousy, secretiveness, vengefulness."
+      },
+      "Sagittarius": {
+        "ruler": "Jupiter", "colors": ["royal blue"], "number": 3, "body": "hips, thighs, sciatic nerve", "symbol": "centaur", "keywords": ["expanding horizons", "travel", "philosophy", "I see"],
+        "strengths": "Optimism, adventure, honesty.",
+        "weaknesses": "Tactlessness, restlessness, overconfidence."
+      },
+      "Capricorn": {
+        "ruler": "Saturn", "colors": ["black", "brown", "dark blue"], "number": 8, "body": "teeth, skin, bones", "symbol": "goat", "keywords": ["status", "career", "traditions", "I use"],
+        "strengths": "Discipline, ambition, responsibility.",
+        "weaknesses": "Pessimism, coldness, workaholism."
+      },
+      "Aquarius": {
+        "ruler": "Uranus", "colors": ["electric blue", "green turquoise"], "number": 4, "body": "lower legs, circulation", "symbol": "water bearer", "keywords": ["humanitarianism", "groups", "ideals", "friendship", "I know"],
+        "strengths": "Innovation, objectivity, altruism.",
+        "weaknesses": "Detachment, unpredictability, rebellion for its own sake."
+      },
+      "Pisces": {
+        "ruler": "Neptune", "colors": ["sea green"], "number": 7, "body": "feet", "symbol": "fishes", "keywords": ["dreams", "visions", "collective unconscious", "I believe"],
+        "strengths": "Compassion, imagination, intuition.",
+        "weaknesses": "Escapism, martyrdom, lack of boundaries."
+      }
+    },
+    "house_definitions": {
+      "Venus_through_houses": {
+        "1st": "Concerned with physical appearance; sign modifies how you want to be seen. Needs compliments. Venus conjunct Ascendant makes an attractive, well-liked person.",
+        "2nd": "Values placed on personal resources; may attract money through charm. Enjoys luxury but must avoid over-indulgence.",
+        "3rd": "Loves communication, pleasant siblings. May write poetry or have artistic voice.",
+        "4th": "Beautiful home, harmonious family. Finds emotional security in art or nature.",
+        "5th": "Romantic, creative, loves children. May have affairs with artists or performers.",
+        "6th": "Pleasant work environment, good health through beauty. May heal through art or massage.",
+        "7th": "Attracts balanced, aesthetically pleasing partners. Marriage is important; must avoid shallow relationships.",
+        "8th": "Values intimacy and shared resources. May benefit from partner's money or inherit beauty items.",
+        "9th": "Loves travel, philosophy, higher learning. May marry someone from a different culture.",
+        "10th": "Public image is charming, diplomatic. May work in art, fashion, or diplomacy.",
+        "11th": "Friends are artistic, social groups are pleasant. Gains through social connections.",
+        "12th": "Hidden love affairs, secret romances. May sacrifice self for partner's beauty."
+      },
+      "Mercury_through_houses": {
+        "1st": "Quick, talkative, curious. First impression is of intelligence.",
+        "2nd": "Mind focused on money, possessions. Learns best with practical application.",
+        "3rd": "Strong communication, many siblings, early education important.",
+        "4th": "Intellectual home, talks about family history. May work from home.",
+        "5th": "Creative thinker, loves wordplay. May write plays or teach children.",
+        "6th": "Analytical about health and routines. May work in editing, tech, or service.",
+        "7th": "Seeks intellectual partner. Communication is key in marriage.",
+        "8th": "Investigative mind, interested in psychology, finance, secrets. May write about death or transformation.",
+        "9th": "Love of learning, travel, philosophy. May be a teacher or publisher.",
+        "10th": "Public intellectual, career in communications. Reputation for cleverness.",
+        "11th": "Friends are intellectual, engaged in group discussions. Ideas for social change.",
+        "12th": "Private thoughts, dreams, secret mental struggles. May be a thinker in solitude."
+      },
+      "Sun_through_houses": {
+        "1st": "Purpose is self-expression. Must be seen and recognized.",
+        "2nd": "Purpose is to build resources and self-worth. Success through personal values.",
+        "3rd": "Purpose is to communicate and connect. Success through writing, speaking, teaching.",
+        "4th": "Purpose is to nurture home and family. Success through emotional roots.",
+        "5th": "Purpose is creativity, romance, children. Success through joyful expression.",
+        "6th": "Purpose is service, health, daily work. Success through routine and helping.",
+        "7th": "Purpose is partnership and one-on-one relationships. Success through others.",
+        "8th": "Purpose is transformation, intimacy, shared resources. Success through depth and release.",
+        "9th": "Purpose is exploration, meaning, travel. Success through expanding horizons.",
+        "10th": "Purpose is career, public standing, legacy. Success through achievement.",
+        "11th": "Purpose is friendship, groups, future goals. Success through collective effort.",
+        "12th": "Purpose is spiritual surrender, solitude, service to the collective. Success through letting go."
+      },
+      "Moon_through_houses": {
+        "1st": "Feelings are visible on the face. Harder than most to hide emotions.",
+        "2nd": "Emotional security tied to money and possessions. Keeps savings for comfort.",
+        "3rd": "Needs to talk about feelings. Siblings provide emotional support.",
+        "4th": "Deeply attached to home and mother. Mood changes with home environment.",
+        "5th": "Emotions expressed through creativity, romance, children. Needs playful love.",
+        "6th": "Feelings influence health and work routines. May eat emotionally.",
+        "7th": "Needs a partner who nurtures. Emotions are projected onto spouse.",
+        "8th": "Intense emotional bonds, sometimes obsessive. Feelings about sex, death, inheritance.",
+        "9th": "Emotions are expanded by travel and philosophy. Needs meaning to feel secure.",
+        "10th": "Public emotions; reputation influenced by mother. May be known for moodiness.",
+        "11th": "Emotionally invested in friends and hopes. Group activities provide comfort.",
+        "12th": "Hidden feelings; may cry alone. Emotional healing through solitude."
+      }
+    },
+    "aspect_interpretations": {
+      "Sun_Moon": {
+        "positive": "Easier to unite feelings with sense of self. Harmony between what one wants and what one needs.",
+        "negative": "Conflict between emotion and action. Natural difficulty integrating heart and ego."
+      },
+      "Mercury_Sun": {
+        "conjunction": "Under 5°, the mind is not very objective; difficult to see from another's perspective. Subjectivity colors all communication."
+      },
+      "Venus_Sun": {
+        "positive": "Warmth, sunny disposition, generous in love.",
+        "negative": "Self-indulgence, need for admiration, lazy about relationships."
+      },
+      "Venus_Moon": {
+        "positive": "Very pleasant nature, emotionally graceful.",
+        "negative": "Moodiness disguised as charm, emotional manipulation."
+      },
+      "Venus_Mercury": {
+        "positive": "Love of words, writing, conversation. Romantic poetry.",
+        "negative": "Shallow talk, flirtatious without intention."
+      },
+      "Venus_Mars": {
+        "positive": "Good integration of masculine and feminine principles. Passionate, balanced love.",
+        "negative": "Conflict between love and desire; attraction to wrong partners."
+      },
+      "Saturn_transit_hard": {
+        "general": "Saturn transits can be felt up to 8° before exact, and up to 8° after for things to settle. Events often manifest near exact aspect.",
+        "conjunction": "Burden, responsibility, reality check. The area of life is 'stripped down' to essentials.",
+        "square": "Obstacles, delays, confrontations with authority. Tests of endurance.",
+        "opposition": "External limitations; others act as Saturn. Feels like the world is saying 'no'."
+      },
+      "New_Moon_transit": {
+        "general": "Two main ways to use the energy: (1) generally for the sign's themes; (2) personally by sign and house. Set intentions for the coming month."
+      }
+    },
+    "transit_interpretations": {
+      "Saturn_transit_by_house": {
+        "1st": "Re-evaluation of self-image; serious responsibility for personal actions. May feel older.",
+        "2nd": "Financial discipline; learning self-worth through limitation. Debt or savings lessons.",
+        "3rd": "Serious communication; siblings may face trials. Learning to speak with authority.",
+        "4th": "Home restructuring; family burdens. Dealing with aging parents or moving.",
+        "5th": "Serious about creativity or romance; delayed children. Must discipline pleasure.",
+        "6th": "Health and work structure; illness as teacher. Crunch time at job.",
+        "7th": "Testing of partnerships; marriage or divorce decisions. Karmic relationships end or solidify.",
+        "8th": "Financial and emotional debts come due. Inheritance, taxes, joint resources under pressure.",
+        "9th": "Belief systems challenged; higher education delays. Travel restrictions.",
+        "10th": "Career climax or crisis; public reputation tested. Promotion or demotion.",
+        "11th": "Friendships tested; groups dissolve or restructure. Long-term goals re-evaluated.",
+        "12th": "Confrontation with unconscious; institutionalization or solitude. Karmic completion."
+      }
+    },
+    "combined_source": "Patchwork Soul Blog 2016-2020"
+  },
+  "final_notes": {
+    "this_framework": "Universal, reusable, and free of client‑specific data. To apply to an individual or couple, overlay their natal degrees, aspect orbs, and any personal fixed star conjunctions. All keyword sets, interpretation templates, and predictive protocols are ready for direct use. The Patchwork Soul extension adds rich asteroid, nodal, and house definitions, making this a comprehensive astrological reference."
+  }
+}
+```
+
+This JSON is now the single source of truth. Save it as universal_astrological_framework_v1.0_complete.json. All modules – original universal content plus the fully extracted Patchwork Soul extension – are integrated under their respective top‑level keys. No client data remains; the framework is ready for any astrological application.

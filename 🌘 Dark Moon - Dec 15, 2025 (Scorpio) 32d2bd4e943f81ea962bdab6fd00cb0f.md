@@ -1,0 +1,15 @@
+# 🌘 Dark Moon - Dec 15, 2025 (Scorpio)
+
+Date: December 15, 2025
+Phase Day: 4 of 8
+Cycle Day: 26 of 29
+Aligned Actions: This is the final phase of the cycle — a natural pause before the next beginning. Step back, rest, and allow space for closure. Reflect on what’s been completed, what’s unresolved, and what deserves a clean start. Use this quiet window to reset your mindset, restore energy, and clarify where to focus next.
+Moon In Sign: Scorpio (https://www.notion.so/Scorpio-32d2bd4e943f81c29679daedf85a8334?pvs=21)
+Sun In Sign: Sagittarius (https://www.notion.so/Sagittarius-32d2bd4e943f8148ae74d244e656de8a?pvs=21)
+Lunar Energy: The Moon in Scorpio brings intense emotions and deep transformation. A time for introspection, uncovering hidden truths, and embracing change.
+My Moon Sign: https://www.notion.so/32d2bd4e943f8148ae74d244e656de8a
+My Sun Sign: https://www.notion.so/32d2bd4e943f8149a15ccb721a03976c
+Star Alignment: Even when the Moon isn’t in your sign, its energy is still guiding you.
+Goals: → Set or Review @Goals 
+Further Reading: Lunar Living by Kirsty Gallagher – the inspirational book that guided the creation of this template. If you choose to purchase through this link, I may earn a small commission at no extra cost to you. Thank you for your support!
+Support Me: 🌙 If you find this template helpful, you can support my work by buying me a coffee. Thank you!

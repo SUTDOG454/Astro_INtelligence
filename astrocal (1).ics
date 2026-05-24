@@ -1,0 +1,2209 @@
+BEGIN:VCALENDAR
+CALSCALE:GREGORIAN
+PRODID:-//Apple Inc.//macOS 14.8.3//EN
+VERSION:2.0
+X-APPLE-CALENDAR-COLOR:#FF2968
+X-WR-CALNAME:Moon/Astro
+BEGIN:VEVENT
+DTEND:20260217T120104Z
+DTSTAMP:20260101T053147Z
+DTSTART:20260217T120104Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌑 New Moon
+TRANSP:OPAQUE
+UID:0001-20251231-223152-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20270520T105855Z
+DTSTAMP:20260101T053147Z
+DTSTART:20270520T105855Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌕 Full Moon
+TRANSP:OPAQUE
+UID:0002-20251231-223152-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20261101T202821Z
+DTSTAMP:20260101T053147Z
+DTSTART:20261101T202821Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌗 Third Quarter Moon
+TRANSP:OPAQUE
+UID:0003-20251231-223152-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:This marks the beginning of winter (in the northern hemisphe
+ re) and the beginning of summer (in the southern hemisphere.) The winter
+  solstice is the shortest day of the year\, respectively\, in the sense 
+ that the length of time elapsed between sunrise and sunset on this day i
+ s a minimum for the year. Of course\, daylight saving time means that th
+ e first Sunday in April has 23 hours and the last Sunday in October has 
+ 25 hours\, but these human meddlings with the calendar and do not corres
+ pond to the actual number of daylight hours. \n\nIf you live in the sout
+ hern hemisphere\, this is your Summer Solstice\, and good cause for cele
+ brating the longest day of the year.
+DTEND:20271222T024253Z
+DTSTAMP:20260101T053147Z
+DTSTART:20271222T024253Z
+LAST-MODIFIED:20251231T224208Z
+SUMMARY:December Solstice
+TRANSP:OPAQUE
+UID:0004-20251231-223152-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20270413T225633Z
+DTSTAMP:20260101T053147Z
+DTSTART:20270413T225633Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌓 First Quarter Moon
+TRANSP:OPAQUE
+UID:0005-20251231-223152-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20271121T004807Z
+DTSTAMP:20260101T053147Z
+DTSTART:20271121T004807Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌗 Third Quarter Moon
+TRANSP:OPAQUE
+UID:0006-20251231-223152-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20250527T030217Z
+DTSTAMP:20260101T053147Z
+DTSTART:20250527T030217Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌑 New Moon
+TRANSP:OPAQUE
+UID:0007-20251231-223152-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20260126T044720Z
+DTSTAMP:20260101T053147Z
+DTSTART:20260126T044720Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌓 First Quarter Moon
+TRANSP:OPAQUE
+UID:0008-20251231-223152-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20250106T235614Z
+DTSTAMP:20260101T053147Z
+DTSTART:20250106T235614Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌓 First Quarter Moon
+TRANSP:OPAQUE
+UID:0009-20251231-223152-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20250101T003045Z
+DESCRIPTION:Lughnasadh is celebrated near the midpoint of the Summer Sol
+ stice and the Autumn Equinox (Northern Hemisphere). It observes the trad
+ itional start of the harvest season.
+DTEND;VALUE=DATE:20260802
+DTSTAMP:20260101T053147Z
+DTSTART;VALUE=DATE:20260801
+LAST-MODIFIED:20251231T224404Z
+SUMMARY:Lughnasadh
+TRANSP:OPAQUE
+UID:0010-20251231-223152-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20250102T132917Z
+DESCRIPTION:If you are reading this entry\, then your subscription to Ca
+ nton Becker's Moon and Astronomical Events calendar is working properly.
+  Your calendar should now show special events through to the end of 2026
+ \, and moon phases another year or two past that.\n\nIf you like meteor 
+ showers\, you're in for a treat. Both the Perseids and Geminids "king" s
+ howers will be free of any competition from the moon this year.\n\nMarch
+  3 gives us a near-total lunar eclipse that most world can watch.\n\nAs 
+ this calendar enters its 19th year of publication\, I'd like to extend t
+ hanks to everyone who sent in suggestions\, corrections\, and donations.
+  Hopefully every donor has received a personal thank you (and free stick
+ ers\, if you asked for them.)\n\nAs always\, please contact me if you se
+ e any mistakes or omissions.
+DTEND;VALUE=DATE:20260106
+DTSTAMP:20260101T053147Z
+DTSTART;VALUE=DATE:20260105
+LAST-MODIFIED:20260101T053132Z
+SUMMARY:✨ Another Year of Stellar Events
+TRANSP:OPAQUE
+UID:0011-20251231-223152-astrocal@cantonbecker.com
+URL;VALUE=URI:https://cantonbecker.com/astronomy-calendar/
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20250228T004445Z
+DTSTAMP:20260101T053147Z
+DTSTART:20250228T004445Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌑 New Moon
+TRANSP:OPAQUE
+UID:0012-20251231-223152-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20250101T005407Z
+DESCRIPTION:Hooray! Dark skies (no moon) interfering with one of the bes
+ t showers of the year\, producing up to 60 meteors per hour at its peak.
+  Although the predicted peak falls during the night of August 12-13\, it
+  has a long range: from July 14 to September 1. So\, you can start watch
+ ing for these meteors in the early August morning hours.\n\nThe Perseid 
+ meteor shower is perhaps the most beloved meteor shower of the year in t
+ he Northern Hemisphere. It’s a rich and steady shower. These fast and br
+ ight meteors radiate from a point in the constellation Perseus the Hero.
+  As with all meteor shower radiant points\, you don’t need to know Perse
+ us to watch the shower. Instead\, the meteors appear in all parts of the
+  sky\, frequently leaving persistent trails. Perseid meteors tend to str
+ engthen in number from midnight to the wee hours before dawn.\n\nThese m
+ eteors are the result of our passing through the tail of Comet Swift-Tut
+ tle. For a while\, astronomers calculated that this comet would collide 
+ with the Earth during the Perseids in 2126. Such an impact would have sp
+ oiled any stargazing since the comet is the largest near-Earth object th
+ at periodically passes through our sky. If Swift-Tuttle ever does hit th
+ e Earth\, its 60 km/s impact will be about 27 times more energetic than 
+ the asteroid strike that wiped out the dinosaurs.
+DTEND;VALUE=DATE:20260814
+DTSTAMP:20260101T053147Z
+DTSTART;VALUE=DATE:20260812
+LAST-MODIFIED:20260101T031801Z
+SUMMARY:Perseids Meteor Shower
+TRANSP:OPAQUE
+UID:0013-20251231-223152-astrocal@cantonbecker.com
+URL;VALUE=URI:https://earthsky.org/astronomy-essentials/everything-you-n
+ eed-to-know-perseid-meteor-shower/
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20250101T004604Z
+DESCRIPTION:The waning gibbous moon will block out many of the fainter m
+ eteors this year.\n\nBest viewing will be from a dark location after mid
+ night.\n\nThis shower peaks annually from April 19 to May 28\, and is kn
+ own for producing up to 60 meteors per hour in the Southern Hemisphere a
+ nd about 30 per hour in the Northern Hemisphere. Originating from comet 
+ Halley\, these meteors radiate from the constellation Aquarius but are v
+ isible across the sky.
+DTEND;VALUE=DATE:20260508
+DTSTAMP:20260101T053147Z
+DTSTART;VALUE=DATE:20260506
+LAST-MODIFIED:20251231T234708Z
+SUMMARY:Eta Aquarids Meteor Shower
+TRANSP:OPAQUE
+UID:0014-20251231-223152-astrocal@cantonbecker.com
+URL;VALUE=URI:https://earthsky.org/astronomy-essentials/earthskys-meteor
+ -shower-guide/
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20250413T002212Z
+DTSTAMP:20260101T053147Z
+DTSTART:20250413T002212Z
+LAST-MODIFIED:20251231T230356Z
+SUMMARY:🌕 Full Moon
+TRANSP:OPAQUE
+UID:0015-20251231-223152-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20271227T201214Z
+DTSTAMP:20260101T053147Z
+DTSTART:20271227T201214Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌑 New Moon
+TRANSP:OPAQUE
+UID:0016-20251231-223152-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20270611T105602Z
+DTSTAMP:20260101T053147Z
+DTSTART:20270611T105602Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌓 First Quarter Moon
+TRANSP:OPAQUE
+UID:0017-20251231-223152-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:The full moon closest to the Summer Solstice (for those of y
+ ou in the Northern Hemisphere) is known as the Mead Moon. In ancient tra
+ ditions\, drinking mead under the 'Mead Moon' would promote healing\, fe
+ rtility and prosperity throughout the year. So let's crack open a bottle
+  of honey wine!\n\nOf course we'll be drinking blue mead because when yo
+ u've got two full moons in a single calendar month\, the second one is a
+  'blue moon'...
+DTEND:20260531T084507Z
+DTSTAMP:20260101T053147Z
+DTSTART:20260531T084507Z
+LAST-MODIFIED:20251231T230800Z
+SUMMARY:🌕 Full Moon (Blue Mead)
+TRANSP:OPAQUE
+UID:0018-20251231-223152-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20251013T181236Z
+DTSTAMP:20260101T053147Z
+DTSTART:20251013T181236Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌗 Third Quarter Moon
+TRANSP:OPAQUE
+UID:0019-20251231-223152-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20260721T110531Z
+DTSTAMP:20260101T053147Z
+DTSTART:20260721T110531Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌓 First Quarter Moon
+TRANSP:OPAQUE
+UID:0020-20251231-223152-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20270322T104343Z
+DTSTAMP:20260101T053147Z
+DTSTART:20270322T104343Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌕 Full Moon
+TRANSP:OPAQUE
+UID:0021-20251231-223152-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20250421T013529Z
+DTSTAMP:20260101T053147Z
+DTSTART:20250421T013529Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌗 Third Quarter Moon
+TRANSP:OPAQUE
+UID:0022-20251231-223152-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20270308T092924Z
+DTSTAMP:20260101T053147Z
+DTSTART:20270308T092924Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌑 New Moon
+TRANSP:OPAQUE
+UID:0023-20251231-223152-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20271114T032550Z
+DTSTAMP:20260101T053147Z
+DTSTART:20271114T032550Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌕 Full Moon
+TRANSP:OPAQUE
+UID:0024-20251231-223152-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20250809T075458Z
+DTSTAMP:20260101T053147Z
+DTSTART:20250809T075458Z
+LAST-MODIFIED:20251231T231156Z
+SUMMARY:🌕 Full Moon
+TRANSP:OPAQUE
+UID:0025-20251231-223152-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20251021T122507Z
+DTSTAMP:20260101T053147Z
+DTSTART:20251021T122507Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌑 New Moon
+TRANSP:OPAQUE
+UID:0026-20251231-223152-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Why a "Wolf Moon"? As creatures well-adapted to winter condi
+ tions\, wolves are often observed howling during the crisp\, cold months
+  – a behavior that is thought to reflect excitement and contentment with
+  the wintry landscape.\n\nThis is the first of three supermoons for this
+  year. The next ones are in November and December.
+DTEND:20260103T100250Z
+DTSTAMP:20260101T053147Z
+DTSTART:20260103T100250Z
+LAST-MODIFIED:20251231T225852Z
+SUMMARY:🌕 Full Supermoon (Wolf)
+TRANSP:OPAQUE
+UID:0027-20251231-223152-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20260523T111051Z
+DTSTAMP:20260101T053147Z
+DTSTART:20260523T111051Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌓 First Quarter Moon
+TRANSP:OPAQUE
+UID:0028-20251231-223152-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20260110T154820Z
+DTSTAMP:20260101T053147Z
+DTSTART:20260110T154820Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌗 Third Quarter Moon
+TRANSP:OPAQUE
+UID:0029-20251231-223152-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20250129T123554Z
+DTSTAMP:20260101T053147Z
+DTSTART:20250129T123554Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌑 New Moon
+TRANSP:OPAQUE
+UID:0030-20251231-223152-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20271213T160842Z
+DTSTAMP:20260101T053147Z
+DTSTART:20271213T160842Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌕 Full Moon
+TRANSP:OPAQUE
+UID:0031-20251231-223152-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20250101T010013Z
+DESCRIPTION:The waxing gibbous moon will set around midnight\, so watch 
+ for meteors just midnight through the wee hours of dawn.\n\nThese fast-m
+ oving meteors sometimes produce bright fireballs\, which might be able t
+ o overcome a moonlit glare. If you trace these meteors backward\, they s
+ eem to radiate from the Club of the famous constellation Orion the Hunte
+ r.\n\nThe Orionids is produced by dust grains left behind by comet Halle
+ y\, which has been known and observed since ancient times.
+DTEND;VALUE=DATE:20261023
+DTSTAMP:20260101T053147Z
+DTSTART;VALUE=DATE:20261021
+LAST-MODIFIED:20260101T032947Z
+SUMMARY:Orionids Meteor Shower
+TRANSP:OPAQUE
+UID:0032-20251231-223152-astrocal@cantonbecker.com
+URL;VALUE=URI:https://earthsky.org/clusters-nebulae-galaxies/everything-
+ you-need-to-know-orionid-meteor-shower/
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20261018T161235Z
+DTSTAMP:20260101T053147Z
+DTSTART:20261018T161235Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌓 First Quarter Moon
+TRANSP:OPAQUE
+UID:0033-20251231-223152-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20270506T105832Z
+DTSTAMP:20260101T053147Z
+DTSTART:20270506T105832Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌑 New Moon
+TRANSP:OPAQUE
+UID:0034-20251231-223152-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20270710T183855Z
+DTSTAMP:20260101T053147Z
+DTSTART:20270710T183855Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌓 First Quarter Moon
+TRANSP:OPAQUE
+UID:0035-20251231-223152-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20261209T005146Z
+DTSTAMP:20260101T053147Z
+DTSTART:20261209T005146Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌑 New Moon
+TRANSP:OPAQUE
+UID:0036-20251231-223152-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Known as the "Hunters Moon" because at this time of year the
+  leaves are falling and the game is fat and ready to hunt.
+DTEND:20261026T041144Z
+DTSTAMP:20260101T053147Z
+DTSTART:20261026T041144Z
+LAST-MODIFIED:20251231T231345Z
+SUMMARY:🌕 Full Moon (Hunters)
+TRANSP:OPAQUE
+UID:0037-20251231-223152-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20250831T062508Z
+DTSTAMP:20260101T053147Z
+DTSTART:20250831T062508Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌓 First Quarter Moon
+TRANSP:OPAQUE
+UID:0038-20251231-223152-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20270726T165449Z
+DTSTAMP:20260101T053147Z
+DTSTART:20270726T165449Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌗 Third Quarter Moon
+TRANSP:OPAQUE
+UID:0039-20251231-223152-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20250823T060627Z
+DTSTAMP:20260101T053147Z
+DTSTART:20250823T060627Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌑 New Moon
+TRANSP:OPAQUE
+UID:0040-20251231-223152-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20250101T004038Z
+DESCRIPTION:This marks the beginning of winter (in the northern hemisphe
+ re) and the beginning of summer (in the southern hemisphere.) The winter
+  solstice is the shortest day of the year\, respectively\, in the sense 
+ that the length of time elapsed between sunrise and sunset on this day i
+ s a minimum for the year. Of course\, daylight saving time means that th
+ e first Sunday in April has 23 hours and the last Sunday in October has 
+ 25 hours\, but these human meddlings with the calendar and do not corres
+ pond to the actual number of daylight hours. \n\nIf you live in the sout
+ hern hemisphere\, this is your Summer Solstice\, and good cause for cele
+ brating the longest day of the year.
+DTEND:20261221T205038Z
+DTSTAMP:20260101T053147Z
+DTSTART:20261221T205038Z
+LAST-MODIFIED:20251231T223601Z
+SUMMARY:December Solstice
+TRANSP:OPAQUE
+UID:0041-20251231-223152-astrocal@cantonbecker.com
+URL;VALUE=URI:
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20250512T165552Z
+DTSTAMP:20260101T053147Z
+DTSTART:20250512T165552Z
+LAST-MODIFIED:20251231T230523Z
+SUMMARY:🌕 Full Moon
+TRANSP:OPAQUE
+UID:0042-20251231-223152-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20251227T190948Z
+DTSTAMP:20260101T053147Z
+DTSTART:20251227T190948Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌓 First Quarter Moon
+TRANSP:OPAQUE
+UID:0043-20251231-223152-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20260911T032655Z
+DTSTAMP:20260101T053147Z
+DTSTART:20260911T032655Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌑 New Moon
+TRANSP:OPAQUE
+UID:0044-20251231-223152-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20270923T102022Z
+DTSTAMP:20260101T053147Z
+DTSTART:20270923T102022Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌗 Third Quarter Moon
+TRANSP:OPAQUE
+UID:0045-20251231-223152-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20261217T054236Z
+DTSTAMP:20260101T053147Z
+DTSTART:20261217T054236Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌓 First Quarter Moon
+TRANSP:OPAQUE
+UID:0046-20251231-223152-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20250220T173229Z
+DTSTAMP:20260101T053147Z
+DTSTART:20250220T173229Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌗 Third Quarter Moon
+TRANSP:OPAQUE
+UID:0047-20251231-223152-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20270214T075825Z
+DTSTAMP:20260101T053147Z
+DTSTART:20270214T075825Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌓 First Quarter Moon
+TRANSP:OPAQUE
+UID:0048-20251231-223152-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20250322T112922Z
+DTSTAMP:20260101T053147Z
+DTSTART:20250322T112922Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌗 Third Quarter Moon
+TRANSP:OPAQUE
+UID:0049-20251231-223152-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20260319T012324Z
+DTSTAMP:20260101T053147Z
+DTSTART:20260319T012324Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌑 New Moon
+TRANSP:OPAQUE
+UID:0050-20251231-223152-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:In July\, the Full Moon is the Buck Moon\, named after the n
+ ew antlers that emerge from a buck’s forehead around this time of the ye
+ ar. It is also called Thunder Moon\, Hay Moon\, and (from pagan/medieval
+  times) the Wyrt Moon.
+DTEND:20260729T143537Z
+DTSTAMP:20260101T053147Z
+DTSTART:20260729T143537Z
+LAST-MODIFIED:20251231T230907Z
+SUMMARY:🌕 Full Moon (Buck)
+TRANSP:OPAQUE
+UID:0051-20251231-223152-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20260608T100026Z
+DTSTAMP:20260101T053147Z
+DTSTART:20260608T100026Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌗 Third Quarter Moon
+TRANSP:OPAQUE
+UID:0052-20251231-223152-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20251120T064713Z
+DTSTAMP:20260101T053147Z
+DTSTART:20251120T064713Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌑 New Moon
+TRANSP:OPAQUE
+UID:0053-20251231-223152-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20250603T034053Z
+DTSTAMP:20260101T053147Z
+DTSTART:20250603T034053Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌓 First Quarter Moon
+TRANSP:OPAQUE
+UID:0054-20251231-223152-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20260224T122733Z
+DTSTAMP:20260101T053147Z
+DTSTART:20260224T122733Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌓 First Quarter Moon
+TRANSP:OPAQUE
+UID:0055-20251231-223152-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20250101T003558Z
+DESCRIPTION:In the northern hemisphere\, this marks the first day of sum
+ mer and is the day with most hours of light in the year -- when the Sun 
+ is farthest north. In the southern hemisphere\, this is your winter sols
+ tice\, marking the shortest day of the year.
+DTEND:20260621T082519Z
+DTSTAMP:20260101T053147Z
+DTSTART:20260621T082519Z
+LAST-MODIFIED:20251231T223538Z
+SUMMARY:June Solstice
+TRANSP:OPAQUE
+UID:0056-20251231-223152-astrocal@cantonbecker.com
+URL;VALUE=URI:
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20250724T191106Z
+DTSTAMP:20260101T053147Z
+DTSTART:20250724T191106Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌑 New Moon
+TRANSP:OPAQUE
+UID:0057-20251231-223152-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20271128T032421Z
+DTSTAMP:20260101T053147Z
+DTSTART:20271128T032421Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌑 New Moon
+TRANSP:OPAQUE
+UID:0058-20251231-223152-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20271007T114718Z
+DTSTAMP:20260101T053147Z
+DTSTART:20271007T114718Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌓 First Quarter Moon
+TRANSP:OPAQUE
+UID:0059-20251231-223152-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20260118T195154Z
+DTSTAMP:20260101T053147Z
+DTSTART:20260118T195154Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌑 New Moon
+TRANSP:OPAQUE
+UID:0060-20251231-223152-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20250101T011119Z
+DESCRIPTION:Yes! Resume working on that abandoned project. But don't sig
+ n that contract before re-reading it three times. \n\nMercury Retrograde
+  is of particular interest to *astrologically* minded folks\, and some p
+ eople who have to deal with communications technology. See URL for more 
+ info...
+DTEND;VALUE=DATE:20261025
+DTSTAMP:20260101T053147Z
+DTSTART;VALUE=DATE:20261024
+LAST-MODIFIED:20251231T223028Z
+SUMMARY:Mercury Retrograde Begins
+TRANSP:OPAQUE
+UID:0061-20251231-223152-astrocal@cantonbecker.com
+URL;VALUE=URI:https://cantonbecker.com/astronomy-calendar/mercury-retrog
+ rade
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20241002T193042Z
+DESCRIPTION:The Apophis asteroid will pass less than 20\,000 miles (32\,
+ 000 kilometers) from our planet's surface – closer than the distance of 
+ geosynchronous satellites. During the approach\, Apophis should be visib
+ le to observers in the Eastern Hemisphere with a brightness magnitude of
+  3.1 -- no need for a telescope or binoculars. The asteroid is 370 meter
+ s wide. Were it to impact Earth\, it would hit with 1200 megatons of for
+ ce leaving a 5km impact crater.
+DTEND;VALUE=DATE:20290414
+DTSTAMP:20260101T053147Z
+DTSTART;VALUE=DATE:20290413
+LAST-MODIFIED:20241002T193752Z
+SUMMARY:Apophis Asteroid Fly-By
+TRANSP:OPAQUE
+UID:0062-20251231-223152-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20270704T030158Z
+DTSTAMP:20260101T053147Z
+DTSTART:20270704T030158Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌑 New Moon
+TRANSP:OPAQUE
+UID:0063-20251231-223152-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20251211T205137Z
+DTSTAMP:20260101T053147Z
+DTSTART:20251211T205137Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌗 Third Quarter Moon
+TRANSP:OPAQUE
+UID:0064-20251231-223152-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Brr! The December full moon is also known as the Ice Moon\, 
+ Snow Moon\, Long Nights Moon\, and my very favorite (from the Cree)\, Fr
+ ost Exploding Trees Moon.\n\n"We saw 47 below on our porch\, and we didn
+ 't look again. I would hear these bangs and I blamed it on the house exp
+ anding or contracting\, or whatever\, from the cold\, but it was the tre
+ es exploding. It was the bark bursting\, and you could hear it. That's h
+ ow wild it was."\n— Shirley Loudon
+DTEND:20261224T012809Z
+DTSTAMP:20260101T053147Z
+DTSTART:20261224T012809Z
+LAST-MODIFIED:20251231T232006Z
+SUMMARY:🌕 Super Full Moon (Bitter)
+TRANSP:OPAQUE
+UID:0065-20251231-223152-astrocal@cantonbecker.com
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Exploding_tree
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:In the northern hemisphere\, this marks the first day of sum
+ mer and is the day with most hours of light in the year -- when the Sun 
+ is farthest north. In the southern hemisphere\, this is your winter sols
+ tice\, marking the shortest day of the year.
+DTEND:20270621T141050Z
+DTSTAMP:20260101T053147Z
+DTSTART:20270621T141050Z
+LAST-MODIFIED:20251231T224143Z
+SUMMARY:June Solstice
+TRANSP:OPAQUE
+UID:0066-20251231-223152-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20250103T133110Z
+DESCRIPTION:To experience greatest totality\, you might get a lucky brea
+ k in the clouds in Greenland or Iceland... but unlikely according to Ecl
+ ipsophile:\n\n"Two-thirds of the Moon’s shadow path falls over water and
+  even a casual glance at Figure 1 shows that ship-borne viewing sites wi
+ ll be challenged to find good weather. Instead\, the best observing site
+ s are on land or close to land and of these\, Spain and Mallorca are the
+  most promising."
+DTEND:20260812T195700Z
+DTSTAMP:20260101T053147Z
+DTSTART:20260812T153400Z
+LAST-MODIFIED:20250103T133137Z
+SUMMARY:Total Solar Eclipse (Spain and Mallorca)
+TRANSP:OPAQUE
+UID:0067-20251231-223152-astrocal@cantonbecker.com
+URL;VALUE=URI:https://eclipsophile.com/tse2026/
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20251128T065844Z
+DTSTAMP:20260101T053147Z
+DTSTART:20251128T065844Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌓 First Quarter Moon
+TRANSP:OPAQUE
+UID:0068-20251231-223152-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20250520T115840Z
+DTSTAMP:20260101T053147Z
+DTSTART:20250520T115840Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌗 Third Quarter Moon
+TRANSP:OPAQUE
+UID:0069-20251231-223152-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20250101T010432Z
+DESCRIPTION:This is an excellent year for viewing the Geminids. The waxi
+ ng crescent moon will set early in the evening leaving dark skies for wh
+ at should be an excellent show. In 2025\, we saw 150 multicolored meteor
+ s per hour\, a significant increase from the typical 120.\n\nSince the r
+ adiant rises in mid-evening\, you can watch for Geminids all night on De
+ cember 13-14. The days before and after might be good as well.\n\nThe bo
+ ld\, bright white and slow moving Geminids give us one of the Northern H
+ emisphere’s best showers. They’re also visible\, at lower rates\, from t
+ he Southern Hemisphere. The meteors are plentiful\, rivaling the August 
+ Perseids.\n\nMost meteor showers are the result of us passing though com
+ et trails. These meteors are the debris left behind by an *asteroid* kno
+ wn as 3200 Phaethon\, discovered in 1982. The shower runs annually from 
+ December 7-17. Meteors will radiate from the constellation Gemini\, but 
+ can appear anywhere in the sky.
+DTEND;VALUE=DATE:20261215
+DTSTAMP:20260101T053147Z
+DTSTART;VALUE=DATE:20261213
+LAST-MODIFIED:20260101T033450Z
+SUMMARY:Geminids "King" Meteor Shower
+TRANSP:OPAQUE
+UID:0070-20251231-223152-astrocal@cantonbecker.com
+URL;VALUE=URI:https://earthsky.org/astronomy-essentials/everything-you-n
+ eed-to-know-geminid-meteor-shower/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:The full moon in June reminds us it's time to harvest strawb
+ erries\, at least in the northern hemisphere. If you're in the souther h
+ emisphere where it's mid-winter\, I guess this is the leafy greens and r
+ oots moon?
+DTEND:20260629T235635Z
+DTSTAMP:20260101T053147Z
+DTSTART:20260629T235635Z
+LAST-MODIFIED:20251231T231137Z
+SUMMARY:🌕 Full Moon (Strawberry)
+TRANSP:OPAQUE
+UID:0071-20251231-223152-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20250101T003708Z
+DESCRIPTION:"Earth at Aphelion" refers to the point in Earth's orbit whe
+ re it is farthest from the Sun\, a phenomenon that occurs annually. This
+  coincides very nearly with winter solstice in the Southern Hemisphere\,
+  leading to especially cold temperatures there due to the combined effec
+ t of Earth's axial tilt away from the Sun and the increased orbital dist
+ ance. Brr!
+DTEND;VALUE=DATE:20260707
+DTSTAMP:20260101T053147Z
+DTSTART;VALUE=DATE:20260706
+LAST-MODIFIED:20260101T034453Z
+SUMMARY:Earth at Aphelion
+TRANSP:OPAQUE
+UID:0072-20251231-223152-astrocal@cantonbecker.com
+URL;VALUE=URI:https://www.timeanddate.com/astronomy/perihelion-aphelion-
+ solstice.html
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20250101T011151Z
+DESCRIPTION:This is primarily of interest to *astrologically* minded fol
+ ks. See URL for more info...
+DTEND;VALUE=DATE:20260724
+DTSTAMP:20260101T053147Z
+DTSTART;VALUE=DATE:20260723
+LAST-MODIFIED:20251231T223012Z
+SUMMARY:Mercury Retrograde Ends
+TRANSP:OPAQUE
+UID:0073-20251231-223152-astrocal@cantonbecker.com
+URL;VALUE=URI:https://cantonbecker.com/astronomy-calendar/mercury-retrog
+ rade
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20250929T235345Z
+DTSTAMP:20260101T053147Z
+DTSTART:20250929T235345Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌓 First Quarter Moon
+TRANSP:OPAQUE
+UID:0074-20251231-223152-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20250101T011140Z
+DESCRIPTION:This is primarily of interest to *astrologically* minded fol
+ ks. See URL for more info...
+DTEND;VALUE=DATE:20260321
+DTSTAMP:20260101T053147Z
+DTSTART;VALUE=DATE:20260320
+LAST-MODIFIED:20251231T222929Z
+SUMMARY:Mercury Retrograde Ends
+TRANSP:OPAQUE
+UID:0075-20251231-223152-astrocal@cantonbecker.com
+URL;VALUE=URI:https://cantonbecker.com/astronomy-calendar/mercury-retrog
+ rade
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20270809T045405Z
+DTSTAMP:20260101T053147Z
+DTSTART:20270809T045405Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌓 First Quarter Moon
+TRANSP:OPAQUE
+UID:0076-20251231-223152-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Kartik Purnima\, a revered festival in Hinduism\, is celebra
+ ted on the full moon day of the Hindu month of Kartik. This festival hol
+ ds great significance as it commemorates Lord Shiva's triumph over the d
+ emon Tripurasura\, and is also associated with Lord Krishna's defeat of 
+ the demon Narakasura.\n\nThis auspicious day symbolizes the victory of g
+ ood over evil and provides an opportunity to admire the moon’s splendor 
+ and ponder its spiritual importance.
+DTEND:20261124T145329Z
+DTSTAMP:20260101T053147Z
+DTSTART:20261124T145329Z
+LAST-MODIFIED:20251231T231752Z
+SUMMARY:🌕 Super Full Moon (Kartik Purnima)
+TRANSP:OPAQUE
+UID:0077-20251231-223152-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20270206T155602Z
+DTSTAMP:20260101T053147Z
+DTSTART:20270206T155602Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌑 New Moon
+TRANSP:OPAQUE
+UID:0078-20251231-223153-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20270428T201746Z
+DTSTAMP:20260101T053147Z
+DTSTART:20270428T201746Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌗 Third Quarter Moon
+TRANSP:OPAQUE
+UID:0079-20251231-223153-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20270315T162507Z
+DTSTAMP:20260101T053147Z
+DTSTART:20270315T162507Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌓 First Quarter Moon
+TRANSP:OPAQUE
+UID:0080-20251231-223153-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20270406T235105Z
+DTSTAMP:20260101T053147Z
+DTSTART:20270406T235105Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌑 New Moon
+TRANSP:OPAQUE
+UID:0081-20251231-223153-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:The term "Sturgeon Moon" refers to the full moon in August a
+ nd originates from Native American tribes in North America. They named i
+ t after the sturgeon fish\, which was abundant and most easily caught in
+  the Great Lakes and other major bodies of water during this time of the
+  year.\n\nEver seen a sturgeon? Living dinosaurs! This fish species date
+ s back to the Late Cretaceous period\, around 100 million years ago\, ma
+ king them one of the oldest surviving fish species. Google yourself some
+  'great lakes sturgeon' pictures. Weird looking\, but allegedly one of t
+ he tastiest fish in the world. 
+DTEND:20260828T041826Z
+DTSTAMP:20260101T053147Z
+DTSTART:20260828T041826Z
+LAST-MODIFIED:20251231T231214Z
+SUMMARY:🌕 Full Moon (Sturgeon)
+TRANSP:OPAQUE
+UID:0082-20251231-223153-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20260417T115144Z
+DTSTAMP:20260101T053147Z
+DTSTART:20260417T115144Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌑 New Moon
+TRANSP:OPAQUE
+UID:0083-20251231-223153-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20260806T022124Z
+DTSTAMP:20260101T053147Z
+DTSTART:20260806T022124Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌗 Third Quarter Moon
+TRANSP:OPAQUE
+UID:0084-20251231-223153-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20251105T131915Z
+DTSTAMP:20260101T053147Z
+DTSTART:20251105T131915Z
+LAST-MODIFIED:20251231T231730Z
+SUMMARY:🌕 Super Full Moon
+TRANSP:OPAQUE
+UID:0085-20251231-223153-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20271206T052203Z
+DTSTAMP:20260101T053147Z
+DTSTART:20271206T052203Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌓 First Quarter Moon
+TRANSP:OPAQUE
+UID:0086-20251231-223153-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20270513T044347Z
+DTSTAMP:20260101T053147Z
+DTSTART:20270513T044347Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌓 First Quarter Moon
+TRANSP:OPAQUE
+UID:0087-20251231-223153-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20260509T211022Z
+DTSTAMP:20260101T053147Z
+DTSTART:20260509T211022Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌗 Third Quarter Moon
+TRANSP:OPAQUE
+UID:0088-20251231-223153-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20260714T094331Z
+DTSTAMP:20260101T053147Z
+DTSTART:20260714T094331Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌑 New Moon
+TRANSP:OPAQUE
+UID:0089-20251231-223153-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20271015T134655Z
+DTSTAMP:20260101T053147Z
+DTSTART:20271015T134655Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌕 Full Moon
+TRANSP:OPAQUE
+UID:0090-20251231-223153-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20270930T023559Z
+DTSTAMP:20260101T053147Z
+DTSTART:20270930T023559Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌑 New Moon
+TRANSP:OPAQUE
+UID:0091-20251231-223153-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20260615T025404Z
+DTSTAMP:20260101T053147Z
+DTSTART:20260615T025404Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌑 New Moon
+TRANSP:OPAQUE
+UID:0092-20251231-223153-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20260311T093826Z
+DTSTAMP:20260101T053147Z
+DTSTART:20260311T093826Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌗 Third Quarter Moon
+TRANSP:OPAQUE
+UID:0093-20251231-223153-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20250710T203642Z
+DTSTAMP:20260101T053147Z
+DTSTART:20250710T203642Z
+LAST-MODIFIED:20251231T230854Z
+SUMMARY:🌕 Full Moon
+TRANSP:OPAQUE
+UID:0094-20251231-223153-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20271022T172903Z
+DTSTAMP:20260101T053147Z
+DTSTART:20271022T172903Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌗 Third Quarter Moon
+TRANSP:OPAQUE
+UID:0095-20251231-223153-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20250329T105746Z
+DTSTAMP:20260101T053147Z
+DTSTART:20250329T105746Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌑 New Moon
+TRANSP:OPAQUE
+UID:0096-20251231-223153-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20250101T012413Z
+DESCRIPTION:Jupiter will be at opposition — its nearest point to Earth t
+ his year\, making it exceptionally bright and visible throughout the ent
+ ire night. This event offers the optimal opportunity to observe and phot
+ ograph Jupiter\, along with its moons. With a medium-sized telescope\, y
+ ou can view details in Jupiter's cloud bands.\n\nUsing a good pair of bi
+ noculars\, you should be able to spot the four largest moons of Jupiter\
+ , known as the Galilean moons (discovered by Galileo Galilei in 1610)\, 
+ appearing as distinct bright spots on either side of the planet. Beyond 
+ these\, astronomers have discovered 76 more Jovain moons since Galileo's
+  time.\n\nFun fact: Jupiter emits more heat than it receives from the Su
+ n! Jupiter generates its own heat as a result of perpetually (and slowly
+ ) shrinking and compressing\, converting gravitational potential energy 
+ into thermal energy.
+DTEND;VALUE=DATE:20260111
+DTSTAMP:20260101T053147Z
+DTSTART;VALUE=DATE:20260110
+LAST-MODIFIED:20251231T232849Z
+SUMMARY:Jupiter Crazy Bright
+TRANSP:OPAQUE
+UID:0097-20251231-223153-astrocal@cantonbecker.com
+URL;VALUE=URI:
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20250921T195403Z
+DTSTAMP:20260101T053147Z
+DTSTART:20250921T195403Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌑 New Moon
+TRANSP:OPAQUE
+UID:0098-20251231-223153-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20250101T022750Z
+DESCRIPTION:This year\, a waning crescent moon shouldn't interfere with 
+ the show.\n\nThe Taurid meteor shower\, which includes both Southern and
+  Northern Taurids\, is known for its long duration\, typically lasting f
+ rom September 28 to December 2\, but it generally offers only about five
+  meteors per hour even at its peak. The Taurids are notable for a high p
+ ercentage of fireballs\, or exceptionally bright meteors.The American Me
+ teor Society pointed to “a seven-year periodicity” with Taurid fireballs
+ . 2008 and 2015 both produced them. 2022 did as well. Fingers crossed fo
+ r 2029?\n\nThe best viewing times for the Taurids are typically around m
+ idnight\, when the constellation Taurus is highest in the sky.\n\nThe Ta
+ urids are unusual in having two separate streams: one produced by debris
+  from Asteroid 2004 TG10 and the other from Comet 2P Encke.
+DTEND;VALUE=DATE:20261106
+DTSTAMP:20260101T053147Z
+DTSTART;VALUE=DATE:20261104
+LAST-MODIFIED:20260101T033121Z
+SUMMARY:(Possible) Taurid Fireballs
+TRANSP:OPAQUE
+UID:0099-20251231-223153-astrocal@cantonbecker.com
+URL;VALUE=URI:https://earthsky.org/astronomy-essentials/earthskys-meteor
+ -shower-guide/
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20260424T023139Z
+DTSTAMP:20260101T053147Z
+DTSTART:20260424T023139Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌓 First Quarter Moon
+TRANSP:OPAQUE
+UID:0100-20251231-223153-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20260325T191737Z
+DTSTAMP:20260101T053147Z
+DTSTART:20260325T191737Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌓 First Quarter Moon
+TRANSP:OPAQUE
+UID:0101-20251231-223153-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20270831T174105Z
+DTSTAMP:20260101T053147Z
+DTSTART:20270831T174105Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌑 New Moon
+TRANSP:OPAQUE
+UID:0102-20251231-223153-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20250702T193007Z
+DTSTAMP:20260101T053147Z
+DTSTART:20250702T193007Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌓 First Quarter Moon
+TRANSP:OPAQUE
+UID:0103-20251231-223153-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20250101T004258Z
+DESCRIPTION:This year\, the first quarter moon will set shortly after mi
+ dnight leaving dark skies for what should be a great show.\n\nThe Lyrid 
+ meteor shower – April’s shooting stars – lasts from about April 15 to 29
+ . About 10 to 15 meteors per hour can be expected around the shower’s pe
+ ak\, in a dark sky. The Lyrids are known for uncommon surges that can so
+ metimes bring the rate up to 100 per hour. Those rare outbursts aren’t e
+ asy to predict\, but they’re one of the reasons the tantalizing Lyrids a
+ re worth checking out. The radiant for this shower is near the bright st
+ ar Vega in the constellation Lyra.
+DTEND;VALUE=DATE:20260424
+DTSTAMP:20260101T053147Z
+DTSTART;VALUE=DATE:20260422
+LAST-MODIFIED:20251231T234530Z
+SUMMARY:Lyrids Meteor Shower 
+TRANSP:OPAQUE
+UID:0104-20251231-223153-astrocal@cantonbecker.com
+URL;VALUE=URI:https://earthsky.org/astronomy-essentials/earthskys-meteor
+ -shower-guide/
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20270802T100508Z
+DTSTAMP:20260101T053147Z
+DTSTART:20270802T100508Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌑 New Moon
+TRANSP:OPAQUE
+UID:0105-20251231-223153-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20250625T103132Z
+DTSTAMP:20260101T053147Z
+DTSTART:20250625T103132Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌑 New Moon
+TRANSP:OPAQUE
+UID:0106-20251231-223153-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20251220T014317Z
+DTSTAMP:20260101T053147Z
+DTSTART:20251220T014317Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌑 New Moon
+TRANSP:OPAQUE
+UID:0107-20251231-223153-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20250718T003735Z
+DTSTAMP:20260101T053147Z
+DTSTART:20250718T003735Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌗 Third Quarter Moon
+TRANSP:OPAQUE
+UID:0108-20251231-223153-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20250816T051210Z
+DTSTAMP:20260101T053147Z
+DTSTART:20250816T051210Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌗 Third Quarter Moon
+TRANSP:OPAQUE
+UID:0109-20251231-223153-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20250101T003104Z
+DESCRIPTION:Samhain marks the last of the year's four cross-quarter fest
+ ivals in the Wheel of the Year\, celebrated by many in Neopagan and Wicc
+ an traditions. Positioned between the Autumn Equinox and the Winter Sols
+ tice in the Northern Hemisphere\, it serves as a time to honor and remem
+ ber the deceased.
+DTEND;VALUE=DATE:20261101
+DTSTAMP:20260101T053147Z
+DTSTART;VALUE=DATE:20261031
+LAST-MODIFIED:20251231T224640Z
+SUMMARY:Samhain
+TRANSP:OPAQUE
+UID:0110-20251231-223153-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20270420T222704Z
+DTSTAMP:20260101T053147Z
+DTSTART:20270420T222704Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌕 Full Moon
+TRANSP:OPAQUE
+UID:0111-20251231-223153-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20270718T154448Z
+DTSTAMP:20260101T053147Z
+DTSTART:20270718T154448Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌕 Full Moon
+TRANSP:OPAQUE
+UID:0112-20251231-223153-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20270825T022715Z
+DTSTAMP:20260101T053147Z
+DTSTART:20270825T022715Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌗 Third Quarter Moon
+TRANSP:OPAQUE
+UID:0113-20251231-223153-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:The Sun will beam down directly on the equator giving us jus
+ t about equal amounts of day and night in most parts of the world. North
+  of the equator\, this is your Autumnal Equinox. If you live south of th
+ e equator\, this is your Spring Equinox.\n\nAlso\, try balancing an egg 
+ on its end! Whether or not you succeed has nothing to do with the Equino
+ x\, but it's still a fun game to try on any day of the year. :)
+DTEND:20270923T060132Z
+DTSTAMP:20260101T053147Z
+DTSTART:20270923T060132Z
+LAST-MODIFIED:20251231T224113Z
+SUMMARY:September Equinox
+TRANSP:OPAQUE
+UID:0114-20251231-223153-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:The Farmer's Almanac described this as the Harvest Moon beca
+ use it gave farmers several extra evenings of moonlight to allow them to
+  finish their harvests before the frosts of fall arrived. Tender vegetab
+ les such as tomatoes\, peppers\, winter squash\, and pumpkins must be pi
+ cked before the first frost.\n\n"Come a little bit closer\nHear what I h
+ ave to say\nJust like children sleepin'\nWe could dream this night away\
+ nBut there's a full moon risin'\nLet's go dancin' in the light\nWe know 
+ where the music's playin'\nLet's go out and feel the night\nBecause I'm 
+ still in love with you\nI want to see you dance again\nBecause I'm still
+  in love with you\nOn this harvest moon..."\n– Neil Young
+DTEND:20260926T164857Z
+DTSTAMP:20260101T053147Z
+DTSTART:20260926T164857Z
+LAST-MODIFIED:20251231T231648Z
+SUMMARY:🌕 Full Moon (Harvest)
+TRANSP:OPAQUE
+UID:0115-20251231-223153-astrocal@cantonbecker.com
+URL;VALUE=URI:https://www.youtube.com/watch?v=n2MtEsrcTTs
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20261109T070203Z
+DTSTAMP:20260101T053147Z
+DTSTART:20261109T070203Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌑 New Moon
+TRANSP:OPAQUE
+UID:0116-20251231-223153-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20250611T074345Z
+DTSTAMP:20260101T053147Z
+DTSTART:20250611T074345Z
+LAST-MODIFIED:20251231T230648Z
+SUMMARY:🌕 Full Moon
+TRANSP:OPAQUE
+UID:0117-20251231-223153-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20250907T180849Z
+DTSTAMP:20260101T053147Z
+DTSTART:20250907T180849Z
+LAST-MODIFIED:20260101T034519Z
+SUMMARY:🌕 Full Moon
+TRANSP:OPAQUE
+UID:0118-20251231-223153-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20270115T203427Z
+DTSTAMP:20260101T053147Z
+DTSTART:20270115T203427Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌓 First Quarter Moon
+TRANSP:OPAQUE
+UID:0119-20251231-223153-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20270129T105524Z
+DTSTAMP:20260101T053147Z
+DTSTART:20270129T105524Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌗 Third Quarter Moon
+TRANSP:OPAQUE
+UID:0120-20251231-223153-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20250103T131502Z
+DESCRIPTION:Just as North America experienced twice-in-a-lifetime solar 
+ eclipses in 2017 and 2024\, Europe and Africa will have their turn. The 
+ eclipse will start in Morocco\, sweep across the Mediterranean Sea\, and
+  reach its peak totality in historic Luxor\, Egypt.\n\nhttps://eclipsoph
+ ile.com/tse2027/
+DTEND:20270802T124300Z
+DTSTAMP:20260101T053147Z
+DTSTART:20270802T073000Z
+LAST-MODIFIED:20260101T035414Z
+SUMMARY:S. EUROPE / N. AFRICA TOTAL SOLAR ECLIPSE
+TRANSP:OPAQUE
+UID:0121-20251231-223153-astrocal@cantonbecker.com
+URL;VALUE=URI:https://www.timeanddate.com/eclipse/solar/2027-august-2
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20261003T132458Z
+DTSTAMP:20260101T053147Z
+DTSTART:20261003T132458Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌗 Third Quarter Moon
+TRANSP:OPAQUE
+UID:0122-20251231-223153-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20270228T051625Z
+DTSTAMP:20260101T053147Z
+DTSTART:20270228T051625Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌗 Third Quarter Moon
+TRANSP:OPAQUE
+UID:0123-20251231-223153-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20250405T021436Z
+DTSTAMP:20260101T053147Z
+DTSTART:20250405T021436Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌓 First Quarter Moon
+TRANSP:OPAQUE
+UID:0124-20251231-223153-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20270107T202418Z
+DTSTAMP:20260101T053147Z
+DTSTART:20270107T202418Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌑 New Moon
+TRANSP:OPAQUE
+UID:0125-20251231-223153-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20250618T191902Z
+DTSTAMP:20260101T053147Z
+DTSTART:20250618T191902Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌗 Third Quarter Moon
+TRANSP:OPAQUE
+UID:0126-20251231-223153-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20250101T002935Z
+DESCRIPTION:Imbolc anticipates the first signs of Spring\, falling appro
+ ximately "cross-quarter" between the Winter Solstice and Spring Equinox 
+ (in the Northern Hemisphere).
+DTEND;VALUE=DATE:20260202
+DTSTAMP:20260101T053147Z
+DTSTART;VALUE=DATE:20260201
+LAST-MODIFIED:20251231T224324Z
+SUMMARY:Imbolc
+TRANSP:OPAQUE
+UID:0127-20251231-223153-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20250427T193105Z
+DTSTAMP:20260101T053147Z
+DTSTART:20250427T193105Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌑 New Moon
+TRANSP:OPAQUE
+UID:0128-20251231-223153-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20250103T132119Z
+DESCRIPTION:Just as North America experienced twice-in-a-lifetime solar 
+ eclipses in 2017 and 2024\, on August 2nd 2027 Europe and Africa will ha
+ ve their turn. \n\nThe eclipse will start in Morocco\, sweep across the 
+ Mediterranean Sea\, and reach its peak totality in historic Luxor\, Egyp
+ t. \n\nEclipsophile says\, "Cloud cover for this eclipse is among the lo
+ west I’ve analyzed over the last 45 years... Just about anywhere will pr
+ esent a good to excellent opportunity to see this event and bathe in ove
+ r six minutes of totality."\nhttps://eclipsophile.com/tse2027/\n\nIf you
+  live anywhere near the path of totality and have never seen a total ecl
+ ipse of the sun\, DO NOT MISS THIS OPPORTUNITY.\n\nIf you live far away\
+ , it's not too early to make travel plans. Many hotels in the path of to
+ tality are already fully booked.
+DTEND;VALUE=DATE:20260803
+DTSTAMP:20260101T053147Z
+DTSTART;VALUE=DATE:20260802
+LAST-MODIFIED:20260101T035044Z
+SUMMARY:Reminder: Aug 2027 TOTAL Solar Eclipse
+TRANSP:OPAQUE
+UID:0129-20251231-223153-astrocal@cantonbecker.com
+URL;VALUE=URI:https://eclipsophile.com/tse2027/
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20260402T021154Z
+DTSTAMP:20260101T053147Z
+DTSTART:20260402T021154Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌕 Full Moon
+TRANSP:OPAQUE
+UID:0130-20251231-223153-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20250801T124115Z
+DTSTAMP:20260101T053147Z
+DTSTART:20250801T124115Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌓 First Quarter Moon
+TRANSP:OPAQUE
+UID:0131-20251231-223153-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20270528T135750Z
+DTSTAMP:20260101T053147Z
+DTSTART:20270528T135750Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌗 Third Quarter Moon
+TRANSP:OPAQUE
+UID:0132-20251231-223153-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20250101T003013Z
+DESCRIPTION:Beltane\, a celebration of fertility\, anticipates the first
+  signs of summer falling between the Spring Equinox and the Summer Solst
+ ice (in the Northern Hemisphere).
+DTEND;VALUE=DATE:20260502
+DTSTAMP:20260101T053147Z
+DTSTART;VALUE=DATE:20260501
+LAST-MODIFIED:20251231T224344Z
+SUMMARY:Beltane
+TRANSP:OPAQUE
+UID:0133-20251231-223153-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20270627T045415Z
+DTSTAMP:20260101T053147Z
+DTSTART:20270627T045415Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌗 Third Quarter Moon
+TRANSP:OPAQUE
+UID:0134-20251231-223153-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20251112T052804Z
+DTSTAMP:20260101T053147Z
+DTSTART:20251112T052804Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌗 Third Quarter Moon
+TRANSP:OPAQUE
+UID:0135-20251231-223153-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20260904T075108Z
+DTSTAMP:20260101T053147Z
+DTSTART:20260904T075108Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌗 Third Quarter Moon
+TRANSP:OPAQUE
+UID:0136-20251231-223153-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20261201T060835Z
+DTSTAMP:20260101T053147Z
+DTSTART:20261201T060835Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌗 Third Quarter Moon
+TRANSP:OPAQUE
+UID:0137-20251231-223153-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20260410T045133Z
+DTSTAMP:20260101T053147Z
+DTSTART:20260410T045133Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌗 Third Quarter Moon
+TRANSP:OPAQUE
+UID:0138-20251231-223153-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20260707T192854Z
+DTSTAMP:20260101T053147Z
+DTSTART:20260707T192854Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌗 Third Quarter Moon
+TRANSP:OPAQUE
+UID:0139-20251231-223153-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20250205T080206Z
+DTSTAMP:20260101T053147Z
+DTSTART:20250205T080206Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌓 First Quarter Moon
+TRANSP:OPAQUE
+UID:0140-20251231-223153-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20260516T200058Z
+DTSTAMP:20260101T053147Z
+DTSTART:20260516T200058Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌑 New Moon
+TRANSP:OPAQUE
+UID:0141-20251231-223153-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20250101T012517Z
+DESCRIPTION:Saturn will be at "opposition" -- its closest approach to Ea
+ rth. It will be brighter this week than any other time of the year and w
+ ill be visible all night long. This is the best time to view and photogr
+ aph Saturn and its moons. A medium-sized or larger telescope will allow 
+ you to see Saturn's rings and a few of its brightest moons.\n\nFun fact:
+  Saturn's rings are relatively new. They coalesced around the same time 
+ that trees and sharks were making their first appearance on Earth some 4
+ 00 million years ago.
+DTEND;VALUE=DATE:20261005
+DTSTAMP:20260101T053147Z
+DTSTART;VALUE=DATE:20261004
+LAST-MODIFIED:20260101T032656Z
+SUMMARY:Saturn Crazy Bright
+TRANSP:OPAQUE
+UID:0142-20251231-223153-astrocal@cantonbecker.com
+URL;VALUE=URI:
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20250101T011113Z
+DESCRIPTION:Do: Reconnect with an old friend!\nDon't: Believe everything
+  you think.\n\nMercury Retrograde is of particular interest to *astrolog
+ ically* minded folks\, and some people who have to deal with communicati
+ ons technology. See URL for more info...
+DTEND;VALUE=DATE:20260630
+DTSTAMP:20260101T053147Z
+DTSTART;VALUE=DATE:20260629
+LAST-MODIFIED:20251231T222958Z
+SUMMARY:Mercury Retrograde Begins
+TRANSP:OPAQUE
+UID:0143-20251231-223153-astrocal@cantonbecker.com
+URL;VALUE=URI:https://cantonbecker.com/astronomy-calendar/mercury-retrog
+ rade
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:This is the date when night and day are most nearly the same
+  length. If you live in the northern hemisphere\, happy first day of spr
+ ing! In the southern hemisphere\, the vernal equinox corresponds to the 
+ first day of fall.
+DTEND:20260320T144514Z
+DTSTAMP:20260101T053147Z
+DTSTART:20260320T144514Z
+LAST-MODIFIED:20251231T223642Z
+SUMMARY:March Equinox
+TRANSP:OPAQUE
+UID:0144-20251231-223153-astrocal@cantonbecker.com
+URL;VALUE=URI:
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20250101T010230Z
+DESCRIPTION:The waxing gibbous moon will set shortly after midnight\, so
+  wait until then to look for meteors. It peaks this year on the night of
+  the 17th and morning of the 18th\n\nHere's a bit of history: The Leonid
+ s\, typically an average shower\, occasionally produces extraordinary me
+ teor storms. In 1966\, observers witnessed thousands of meteors per minu
+ te during a spectacular 15-minute period on November 17. Meteors seemed 
+ to fall like rain\, all streaming from the constellation Leo the Lion. T
+ his event left a lasting impression of Earth moving through space\, amid
+ st a dense meteor stream. While Leonid meteor storms recur approximately
+  every 33 to 34 years\, recent occurrences haven't matched the intensity
+  of 1966. Usually\, the Leonids peak at 10-15 meteors per hour and are m
+ ost active after midnight\, with the highest numbers just before dawn.\n
+ \nThe Leonids are unique for their roughly 33-year cyclonic peak\, with 
+ the last major event in 2001. (So maybe mark your calendars for November
+  2033?) The shower\, resulting from dust grains left by comet Tempel-Tut
+ tle\, discovered in 1865\, runs annually from November 6-30. While meteo
+ rs radiate from Leo\, they can be seen across the sky.
+DTEND;VALUE=DATE:20261119
+DTSTAMP:20260101T053147Z
+DTSTART;VALUE=DATE:20261117
+LAST-MODIFIED:20260101T033246Z
+SUMMARY:Leonids Meteor Shower
+TRANSP:OPAQUE
+UID:0145-20251231-223153-astrocal@cantonbecker.com
+URL;VALUE=URI:https://earthsky.org/astronomy-essentials/earthskys-meteor
+ -shower-guide/
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20261230T185925Z
+DTSTAMP:20260101T053147Z
+DTSTART:20261230T185925Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌗 Third Quarter Moon
+TRANSP:OPAQUE
+UID:0146-20251231-223153-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20260621T215519Z
+DTSTAMP:20260101T053147Z
+DTSTART:20260621T215519Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌓 First Quarter Moon
+TRANSP:OPAQUE
+UID:0147-20251231-223153-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20261010T155001Z
+DTSTAMP:20260101T053147Z
+DTSTART:20261010T155001Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌑 New Moon
+TRANSP:OPAQUE
+UID:0148-20251231-223153-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20271220T091049Z
+DTSTAMP:20260101T053147Z
+DTSTART:20271220T091049Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌗 Third Quarter Moon
+TRANSP:OPAQUE
+UID:0149-20251231-223153-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:This is the moon that keeps you company as we approach the l
+ ongest night of the year (in the northern hemisphere).
+DTEND:20251204T231400Z
+DTSTAMP:20260101T053147Z
+DTSTART:20251204T231400Z
+LAST-MODIFIED:20260101T033743Z
+SUMMARY:🌕 Super Full Moon (Long Nights Moon)
+TRANSP:OPAQUE
+UID:0150-20251231-223153-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20250101T010752Z
+DESCRIPTION:This year lands the Ursids right on top of the full moon. Gi
+ ven that it's a minor shower... probably best just to get some sleep ton
+ ight :)\n\nThe Ursids is a minor meteor shower producing about 5-10 mete
+ ors per hour. It is produced by dust grains left behind by comet Tuttle\
+ , which was first discovered in 1790. The shower runs annually from Dece
+ mber 17-25. It peaks this year on the the night of the 21st and morning 
+ of the 22nd. Meteors will radiate from the constellation Ursa Minor\, bu
+ t can appear anywhere in the sky.
+DTEND;VALUE=DATE:20261223
+DTSTAMP:20260101T053147Z
+DTSTART;VALUE=DATE:20261221
+LAST-MODIFIED:20260101T033619Z
+SUMMARY:Ursids Meteor Shower
+TRANSP:OPAQUE
+UID:0151-20251231-223153-astrocal@cantonbecker.com
+URL;VALUE=URI:
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20270619T004414Z
+DTSTAMP:20260101T053147Z
+DTSTART:20270619T004414Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌕 Full Moon
+TRANSP:OPAQUE
+UID:0152-20251231-223153-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20270907T183113Z
+DTSTAMP:20260101T053147Z
+DTSTART:20270907T183113Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌓 First Quarter Moon
+TRANSP:OPAQUE
+UID:0153-20251231-223153-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:This is the date when night and day are most nearly the same
+  length. If you live in the northern hemisphere\, happy first day of spr
+ ing! In the southern hemisphere\, the vernal equinox corresponds to the 
+ first day of fall.
+DTEND:20270320T202432Z
+DTSTAMP:20260101T053147Z
+DTSTART:20270320T202432Z
+LAST-MODIFIED:20251231T224049Z
+SUMMARY:March Equinox
+TRANSP:OPAQUE
+UID:0154-20251231-223153-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20271106T075955Z
+DTSTAMP:20260101T053147Z
+DTSTART:20271106T075955Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌓 First Quarter Moon
+TRANSP:OPAQUE
+UID:0155-20251231-223153-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20271029T133628Z
+DTSTAMP:20260101T053147Z
+DTSTART:20271029T133628Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌑 New Moon
+TRANSP:OPAQUE
+UID:0156-20251231-223153-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20250121T203045Z
+DTSTAMP:20260101T053147Z
+DTSTART:20250121T203045Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌗 Third Quarter Moon
+TRANSP:OPAQUE
+UID:0157-20251231-223153-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20250101T002449Z
+DESCRIPTION:This event is in your calendar because at some point you sub
+ scribed to Canton Becker's moon and astronomical events calendar. If you
+  are reading this on January 1\, 2027 and you ONLY see moon/solstice/equ
+ inox events from this point forward\, you may need to resubscribe:\n\nht
+ tps://cantonbecker.com/astronomy-calendar/
+DTEND;VALUE=DATE:20270102
+DTSTAMP:20260101T053147Z
+DTSTART;VALUE=DATE:20270101
+LAST-MODIFIED:20260101T050745Z
+SUMMARY:HAPPY NEW YEAR from your Astronomy Calendar
+TRANSP:OPAQUE
+UID:0158-20251231-223153-astrocal@cantonbecker.com
+URL;VALUE=URI:https://cantonbecker.com/astronomy-calendar/
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20260209T124303Z
+DTSTAMP:20260101T053147Z
+DTSTART:20260209T124303Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌗 Third Quarter Moon
+TRANSP:OPAQUE
+UID:0159-20251231-223153-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20260918T204341Z
+DTSTAMP:20260101T053147Z
+DTSTART:20260918T204341Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌓 First Quarter Moon
+TRANSP:OPAQUE
+UID:0160-20251231-223153-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20270220T232334Z
+DTSTAMP:20260101T053147Z
+DTSTART:20270220T232334Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌕 Full Moon
+TRANSP:OPAQUE
+UID:0161-20251231-223153-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20270330T005351Z
+DTSTAMP:20260101T053147Z
+DTSTART:20270330T005351Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌗 Third Quarter Moon
+TRANSP:OPAQUE
+UID:0162-20251231-223153-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20250101T011054Z
+DESCRIPTION:Time to review your computer backup strategy. It is not time
+  to buy new electronic gadgets.\n\nMercury Retrograde is of particular i
+ nterest to *astrologically* minded folks\, and some people who have to d
+ eal with communications technology. See URL for more info...
+DTEND;VALUE=DATE:20260226
+DTSTAMP:20260101T053147Z
+DTSTART;VALUE=DATE:20260225
+LAST-MODIFIED:20251231T222911Z
+SUMMARY:Mercury Retrograde Begins
+TRANSP:OPAQUE
+UID:0163-20251231-223153-astrocal@cantonbecker.com
+URL;VALUE=URI:https://cantonbecker.com/astronomy-calendar/mercury-retrog
+ rade
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20250101T003123Z
+DESCRIPTION:Who's Canton? He's the fellow who updates your astronomy cal
+ endar (full moons\, equinoxes\, meteor showers\, etc.) from his laptop i
+ n the high mountains (and dark skies) of Santa Fe\, New Mexico. It's his
+  birthday today!\n\nhttps://cantonbecker.com/astronomy-calendar/#credit\
+ n\nThis astronomy calendar is an effort of love and no reciprocity is ex
+ pected. But for the first time since the calendar started in 2007\, dona
+ tions are now welcomed if you'd like to help with hosting costs or buy C
+ anton a coffee. To donate\, or to say thank you\, or to report an error 
+ (!) please visit the link above.
+DTEND;VALUE=DATE:20260325
+DTSTAMP:20260101T053147Z
+DTSTART;VALUE=DATE:20260324
+LAST-MODIFIED:20260101T033815Z
+SUMMARY:Canton's Birthday!
+TRANSP:OPAQUE
+UID:0164-20251231-223153-astrocal@cantonbecker.com
+URL;VALUE=URI:https://cantonbecker.com/astronomy-calendar/#credit
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20270604T194015Z
+DTSTAMP:20260101T053147Z
+DTSTART:20270604T194015Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌑 New Moon
+TRANSP:OPAQUE
+UID:0165-20251231-223153-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20251007T034733Z
+DTSTAMP:20260101T053147Z
+DTSTART:20251007T034733Z
+LAST-MODIFIED:20251231T231228Z
+SUMMARY:🌕 Full Moon
+TRANSP:OPAQUE
+UID:0166-20251231-223153-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20250101T013655Z
+DESCRIPTION:Is that a plane landing in the western sky\, just after suns
+ et? No\, it's Venus at its greatest eastern elongation (farthest from th
+ e Sun and less washed out.)\n\nDid you know that Venus has phases\, like
+  the Moon? In binoculars you can often see its crescent shape. But you’l
+ l never see a truly “full” Venus: that happens when the planet is on the
+  far side of the Sun\, lost in its glare.
+DTEND;VALUE=DATE:20260816
+DTSTAMP:20260101T053147Z
+DTSTART;VALUE=DATE:20260815
+LAST-MODIFIED:20260101T032221Z
+SUMMARY:Venus\, the Evening Star
+TRANSP:OPAQUE
+UID:0167-20251231-223153-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20270915T230326Z
+DTSTAMP:20260101T053147Z
+DTSTART:20270915T230326Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌕 Full Moon
+TRANSP:OPAQUE
+UID:0168-20251231-223153-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20260820T024616Z
+DTSTAMP:20260101T053147Z
+DTSTART:20260820T024616Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌓 First Quarter Moon
+TRANSP:OPAQUE
+UID:0169-20251231-223153-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:The full eclipse is visible from the western United States a
+ nd Canada\, Japan\, eastern China\, and eastern Australasia.\n\nSpeaking
+  of China: the Lantern Festival (Yuanxiao Jie) occurs at the end of the 
+ lunar year\, concluding Chinese New Year festivities. The night sky is f
+ illed with colorful lanterns\, symbolizing good fortune and family reuni
+ on. Traditionally\, people celebrate by displaying lanterns\, solving ri
+ ddles written on them\, and eating sweet rice balls (tangyuan)\, symboli
+ zing unity and wholeness.\n\nAccording to legend\, the Jade Emperor\, ru
+ ler of heaven and usually celebrated for being a great friend to humanit
+ y\, became enraged when a town killed his favorite sacred goose. In his 
+ fury\, he planned to destroy the town with a storm of fire on the 15th l
+ unar day. The Jade Emperor's daughter\, sympathizing with the innocent p
+ eople\, warned them of her father's plan. The townspeople then lit lante
+ rns throughout the town and set off firecrackers to make it appear as if
+  the town was already burning. Fooled by this\, the Jade Emperor decided
+  not to send down the fire.\n\nPyromaniacs\, get in on the fun! Here's a
+  video that shows you how to make your own flying fire lantern: https://
+ www.youtube.com/watch?v=mHyAefvWpXA
+DTEND:20260303T113749Z
+DTSTAMP:20260101T053147Z
+DTSTART:20260303T113749Z
+LAST-MODIFIED:20251231T234115Z
+SUMMARY:🌕 Full Moon\, Total Lunar Eclipse\, and Lantern Festival
+TRANSP:OPAQUE
+UID:0170-20251231-223153-astrocal@cantonbecker.com
+URL;VALUE=URI:https://www.timeanddate.com/eclipse/lunar/2026-march-3
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20250212T135319Z
+DTSTAMP:20260101T053147Z
+DTSTART:20250212T135319Z
+LAST-MODIFIED:20251231T230004Z
+SUMMARY:🌕 Full Moon
+TRANSP:OPAQUE
+UID:0171-20251231-223153-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20261117T114745Z
+DTSTAMP:20260101T053147Z
+DTSTART:20261117T114745Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌓 First Quarter Moon
+TRANSP:OPAQUE
+UID:0172-20251231-223153-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20250102T133354Z
+DESCRIPTION:The Sun will beam down directly on the equator giving us jus
+ t about equal amounts of day and night in most parts of the world. North
+  of the equator\, this is your Autumnal Equinox. If you live south of th
+ e equator\, this is your Spring Equinox.\n\nAlso\, try balancing an egg 
+ on its end! Whether or not you succeed has nothing to do with the Equino
+ x\, but it's still a fun game to try on any day of the year. :)
+DTEND:20260923T000500Z
+DTSTAMP:20260101T053147Z
+DTSTART:20260923T000500Z
+LAST-MODIFIED:20251231T223709Z
+SUMMARY:September Equinox
+TRANSP:OPAQUE
+UID:0173-20251231-223153-astrocal@cantonbecker.com
+URL;VALUE=URI:
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20270122T121718Z
+DTSTAMP:20260101T053147Z
+DTSTART:20270122T121718Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌕 Full Moon
+TRANSP:OPAQUE
+UID:0174-20251231-223153-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20250306T163134Z
+DTSTAMP:20260101T053147Z
+DTSTART:20250306T163134Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌓 First Quarter Moon
+TRANSP:OPAQUE
+UID:0175-20251231-223153-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Vesak\, also known as 'Buddha Purnima' or 'Buddha Day\,' is 
+ celebrated on the day of the full moon in the month of Vesakha according
+  to the Asian lunar calendars. This observance typically falls in April 
+ or May in the Gregorian calendar.\n\nOn Vesak Day\, Buddhists around the
+  world commemorate events of significance to Buddhists of all traditions
+ : the birth\, enlightenment\, first sermon\, and the passing away of Gau
+ tama Buddha. Each of these events is believed to have occurred on the fu
+ ll moon.
+DTEND:20260501T172306Z
+DTSTAMP:20260101T053147Z
+DTSTART:20260501T172306Z
+LAST-MODIFIED:20251231T230606Z
+SUMMARY:🌕 Full Moon (Vesak Day)
+TRANSP:OPAQUE
+UID:0176-20251231-223153-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20260812T173639Z
+DTSTAMP:20260101T053147Z
+DTSTART:20260812T173639Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌑 New Moon
+TRANSP:OPAQUE
+UID:0177-20251231-223153-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20251029T162044Z
+DTSTAMP:20260101T053147Z
+DTSTART:20251029T162044Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌓 First Quarter Moon
+TRANSP:OPAQUE
+UID:0178-20251231-223153-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20270817T072835Z
+DTSTAMP:20260101T053147Z
+DTSTART:20270817T072835Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌕 Full Moon
+TRANSP:OPAQUE
+UID:0179-20251231-223153-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20250314T065435Z
+DTSTAMP:20260101T053147Z
+DTSTART:20250314T065435Z
+LAST-MODIFIED:20260101T035118Z
+SUMMARY:🌕 Full Moon
+TRANSP:OPAQUE
+UID:0180-20251231-223153-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20250101T003220Z
+DESCRIPTION:"Earth at Perihelion" refers to the point in Earth's orbit w
+ here it is nearest from the Sun\, a phenomenon that occurs annually. Dur
+ ing perihelion\, Earth will be at its minimum distance from the Sun\, wh
+ ich slightly intensifies the sunlight received but has a minimal impact 
+ on global temperatures due to Earth's axial tilt\, which creates seasona
+ l variations. This event coincides with winter in the Northern Hemispher
+ e and summer in the Southern Hemisphere.
+DTEND;VALUE=DATE:20260104
+DTSTAMP:20260101T053147Z
+DTSTART;VALUE=DATE:20260103
+LAST-MODIFIED:20260101T034317Z
+SUMMARY:Earth at Perihelion
+TRANSP:OPAQUE
+UID:0181-20251231-223153-astrocal@cantonbecker.com
+URL;VALUE=URI:https://www.timeanddate.com/astronomy/perihelion-aphelion-
+ solstice.html
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20250101T011200Z
+DESCRIPTION:This is primarily of interest to *astrologically* minded fol
+ ks. See URL for more info...
+DTEND;VALUE=DATE:20261114
+DTSTAMP:20260101T053147Z
+DTSTART;VALUE=DATE:20261113
+LAST-MODIFIED:20251231T223046Z
+SUMMARY:Mercury Retrograde Ends
+TRANSP:OPAQUE
+UID:0182-20251231-223153-astrocal@cantonbecker.com
+URL;VALUE=URI:https://cantonbecker.com/astronomy-calendar/mercury-retrog
+ rade
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20250914T103253Z
+DTSTAMP:20260101T053147Z
+DTSTART:20250914T103253Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌗 Third Quarter Moon
+TRANSP:OPAQUE
+UID:0183-20251231-223153-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20250101T004950Z
+DESCRIPTION:Whomp whomp. The full moon will outshine most of the meteors
+  this year \n\nThe Delta Aquariid shower burns from around July 18 to Au
+ gust 21. Shooting stars are rising in mid-evening\, up high around 2 a.m
+ . and low in the sky by dawn.\n\nFavoring the Southern Hemisphere and tr
+ opical Northern Hemisphere regions like the southern U.S.\, this shower 
+ produces 15 to 20 meteors per hour. Originating from debris left by come
+ ts Marsden and Kracht\, these meteors radiate near the star Skat in the 
+ Aquarius constellation. Unlike many showers\, the Delta Aquarids don't h
+ ave a sharp peak\, instead offering a steady display through late July a
+ nd early August. During early August\, they often coincide with the Pers
+ eids\, providing an enhanced experience\, particularly from southerly la
+ titudes.
+DTEND;VALUE=DATE:20260730
+DTSTAMP:20260101T053147Z
+DTSTART;VALUE=DATE:20260728
+LAST-MODIFIED:20260101T031455Z
+SUMMARY:Delta Aquariid Meteor Shower
+TRANSP:OPAQUE
+UID:0184-20251231-223153-astrocal@cantonbecker.com
+URL;VALUE=URI:https://earthsky.org/astronomy-essentials/everything-you-n
+ eed-to-know-delta-aquarid-meteor-shower/
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20250504T135140Z
+DTSTAMP:20260101T053147Z
+DTSTART:20250504T135140Z
+LAST-MODIFIED:20250103T125153Z
+SUMMARY:🌓 First Quarter Moon
+TRANSP:OPAQUE
+UID:0185-20251231-223153-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20260201T220910Z
+DTSTAMP:20260101T053147Z
+DTSTART:20260201T220910Z
+LAST-MODIFIED:20260101T052809Z
+SUMMARY:🌕 Full Moon (Snow)
+TRANSP:OPAQUE
+UID:0186-20251231-223153-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20250108T171823Z
+DESCRIPTION:This one devoured Mars! See link.
+DTEND:20250113T222651Z
+DTSTAMP:20260101T053147Z
+DTSTART:20250113T222651Z
+LAST-MODIFIED:20251231T225932Z
+SUMMARY:🌕 Full Moon
+TRANSP:OPAQUE
+UID:0187-20251231-223153-astrocal@cantonbecker.com
+URL;VALUE=URI:https://www.space.com/35281-january-full-moon.html
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20250322T152402Z
+DESCRIPTION:The waning crescent moon will not be much of a problem this 
+ year. Bonus\, you you don't have to wake up early for this one! The radi
+ ant point is highest in the sky just as darkness falls.\n\nThe cause of 
+ this shower – Comet 21P/Giacobini-Zinner – was at perihelion in March of
+  this year. Will we finally see a storm of Draconid meteors this year? Y
+ es please!\n\nThe radiant point for the Draconid meteor shower almost co
+ incides with the head of the constellation Draco the Dragon in the north
+ ern sky. That’s why you can view the Draconids best from the Northern He
+ misphere (and early in the Evening.)
+DTEND;VALUE=DATE:20261008
+DTSTAMP:20260101T053147Z
+DTSTART;VALUE=DATE:20261007
+LAST-MODIFIED:20260101T032755Z
+SUMMARY:Draconids Meteor Shower
+TRANSP:OPAQUE
+UID:0188-20251231-223153-astrocal@cantonbecker.com
+URL;VALUE=URI:https://earthsky.org/astronomy-essentials/earthskys-meteor
+ -shower-guide/
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20251231T232201Z
+DESCRIPTION:This is an above-average meteor shower\, capable of producin
+ g up to 40 meteors per hour at peak.\n\nThe shower runs January 1–5\, pe
+ aking overnight on January 3–4. This year it lands squarely on a supermo
+ on (doh!)\, washing out all but the brightest shooting stars.\n\nBest vi
+ ewing is after midnight from a dark location. Meteors radiate from the c
+ onstellation Boötes\, but can appear anywhere in the sky.\n\nThe Quadran
+ tids are a memorial to an extinct comet—likely the object known as 2003 
+ EH1.
+DTEND;VALUE=DATE:20260105
+DTSTAMP:20260101T053147Z
+DTSTART;VALUE=DATE:20260103
+LAST-MODIFIED:20251231T232742Z
+SUMMARY:Quadrantids Meteor Shower
+TRANSP:OPAQUE
+UID:0189-20251231-223153-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20251231T233559Z
+DESCRIPTION:This is the best time to try to spot Mercury this year\, whe
+ n Mercury is at its greatest western elongation. Look for it before sunr
+ ise\, low in the eastern sky.\n\nUnlike our other inner-planet neighbor 
+ Venus\, Mercury is hard to see with the naked eye... but it is visible. 
+ Are you up for the challenge?\n
+DTEND;VALUE=DATE:20260404
+DTSTAMP:20260101T053147Z
+DTSTART;VALUE=DATE:20260403
+LAST-MODIFIED:20251231T234416Z
+SUMMARY:Mercury Most Visible
+TRANSP:OPAQUE
+UID:0190-20251231-223153-astrocal@cantonbecker.com
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20260101T032556Z
+DESCRIPTION:This is very nearly a full lunar eclipse at 96%\, and it wil
+ l be at least somewhat visible to most of the population on earth (from 
+ Alaska to Egypt)
+DTEND:20260828T065100Z
+DTSTAMP:20260101T053147Z
+DTSTART:20260828T023300Z
+LAST-MODIFIED:20260101T032556Z
+SUMMARY:Partial Lunar Eclipse
+TRANSP:OPAQUE
+UID:0191-20251231-223153-astrocal@cantonbecker.com
+URL;VALUE=URI:https://www.timeanddate.com/eclipse/lunar/2026-august-28
+END:VEVENT
+END:VCALENDAR

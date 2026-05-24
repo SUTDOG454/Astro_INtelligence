@@ -1,0 +1,547 @@
+<h5 id="undergraduate-research-opportunities-programme-in-science">Undergraduate Research Opportunities Programme in Science</h5>
+<h3 id="the-mathematics-of-astrology">THE MATHEMATICS OF ASTROLOGY</h3>
+<h3 id="does-house-division-make-sense">DOES HOUSE DIVISION  MAKE SENSE?</h3>
+<h5 id="by-kevin-heng-ser-guan-department-of-physics">By Kevin Heng Ser Guan Department of Physics</h5>
+<h5 id="national-university-of-singapore">National University of Singapore</h5>
+<h5 id="supervisor-a-p-helmer-aslasken">Supervisor: A/P Helmer Aslasken</h5>
+<h5 id="department-of-mathematics-national-university-of-singapore">Department of Mathematics National University of Singapore</h5>
+<h5 id="semester-ii-2000-2001">Semester II 2000/2001</h5>
+<p>1</p>
+<h4 id="table-of-contents">Table of Contents</h4>
+<p>I. A Brief Overview of Astrology</p>
+<ul>
+<li>Introduction 2 - Different Genres 2 - Methodology of Astrology 2 - Geocentric Model vs. Heliocentric Model 3
+II. Formalism of Astrology</li>
+<li>Basic Terminology 4  - Great Circles on the Celestial Sphere 5
+III. The Planets  7</li>
+<li>Retrograde Movement of the Planets 9
+IV. The Zodiac - Constellations 10 - Zodiac 10 - Astrological Meaning of the Zodiac 11 - Problems With the Zodiac 12
+V. The Houses</li>
+<li>Terminology of House Division 14 - Astrological Meaning of the Houses 15 - Different Systems of House Division 16</li>
+</ul>
+<ol>
+<li>Equal House System  2. System of Campanus  3. System of Regiomontanus 4. System of Placidus</li>
+</ol>
+<ul>
+<li>Differences in Sizes of Houses During Course of Day 20 - Uneven Probability Density of Ascendant at Different Latitudes 21</li>
+</ul>
+<ol>
+<li>Theory 2. Derivation of V, the Speed of the Ecliptic When it Crosses the Horizon 3. Derivation of the Exact Form of the General Formula 4. Analysis of the ‘+’ and ‘−’ Roots 5. Graphs of V at Different Latitudes</li>
+</ol>
+<ul>
+<li>The Polar Problem in House Division 27 1. Ill-defined Ascendant and Descendant 2. No Ascendant / Stationary Ascendant 3. Ill-defined MC 4. Discontinuous Ascendant
+VI. References 36
+2</li>
+</ul>
+<h5 id="i-a-brief-overview-of-astrology">I. A Brief Overview of Astrology</h5>
+<ul>
+<li>Introduction  Astrology is the belief that there exists a meaningful relationship between the positions of celestial bodies and human experience, and that we can systematically determine this relationship.  A common misconception is to confuse astronomy with astrology.  Astronomy is the scientific study of the universe.  Astrology is “astromancy”, or divination by the stars.  An astronomer studies the stars using the scientific method.  An astrologer casts horoscopes to predict earthly events, like the fates of nations and individuals.    The only possible method to test the validity of astrological influences or predictions is using statistical studies.  This means gathering large samples of individuals, tabulating their character traits, and checking if there exists a correlation between these and their horoscopes.  This is not the focus of the project.  Instead, the aim is to highlight some mathematical problems in the formalism of astrology.  The focus is specifically on geometric problems encountered in house division.</li>
+<li>Different Genres  Astrology has many faces.  There is popular astrology, commonly found in newspapers.  There is also serious astrology, which is the casting and interpretation of horoscopes of individuals.  Serious astrology is itself sub-categorized.  Natal astrology deals with the horoscope calculated at the moment of birth.  Horary astrology determines the auspicious moments to make personal decisions.  Mundane or world astrology studies the fates of countries or nations.</li>
+<li>Methodology of Astrology  The input data an astrologer needs are the date, place and exact time of birth.  These will provide the material for the calculations needed to construct the individual’s horoscope.    A horoscope is nothing more than a map or diagram of the various planets’ positions at any one point in time, with respect to the earth.  The word “horoscope” is derived from the Greek word “horoskopos”, meaning “hour watcher”.  Basic ingredients of the horoscope include the sun-sign, the Ascendant, information on the Houses, the Aspects, etc.  The astrologer will then proceed to interpret the horoscope, and hence offer advice.
+3</li>
+<li>Geocentric Model vs. Heliocentric Model  The heliocentric model places the Sun at the centre of the solar system.  The geocentric model places the Earth at the centre of the solar system.  Technically, it is not wrong to adopt the geocentric model, as we would be merely considering different frames of references.  We live in a geocentric world.  Astrology is preoccupied with how the planets relate to an individual on Earth, and hence their relative positions.  Generally, the heliocentric model is good for explaining how things work in the solar system, in accordance with the laws of physics.  By contrast, the geocentric model is suitable for descriptive purposes.
+4</li>
+</ul>
+<h5 id="ii-formalism-of-astrology">II. Formalism of Astrology</h5>
+<ul>
+<li>Basic Terminology  Astrology deals with projective geometry, meaning distances to celestial bodies are inconsequential.  Only their relative positions on the celestial sphere are important.  In other words, only the angular differences from the Earth matter.  We need to define certain key terms to obtain a graphical idea of the celestial sphere.
+Earth
+Observer
+Celestial Equator Zenith
+North Celestial Pole
+South Celestial Pole Horizon
+<em>A schematic view of the celestial sphere</em></li>
+</ul>
+<ol>
+<li>Celestial Sphere  The celestial sphere is an imaginary dome around an observer on Earth.  The observer is at the centre of the dome, with all the visible celestial bodies on its surface.  It is a model of how the sky appears to us.  In reality, the various celestial bodies are not the same distance from the Earth.    2. Celestial Poles  The celestial poles are the centres of rotation of the celestial sphere.  They are called the north and south celestial poles (NCP and SCP).    3. Zenith  The zenith is the point on the celestial sphere straight overhead of an observer on the Earth.
+5</li>
+<li>Nadir  The nadir is the point on the celestial sphere that is directly opposite the zenith.</li>
+</ol>
+<ul>
+<li>Great Circles on the Celestial Sphere  A great circle is a circle on a sphere obtained by intersecting the sphere with a plane that passes through the center of the sphere.  There are certain important great circles on the celestial sphere.   1. Celestial Equator  The celestial equator is a circle that cuts the celestial sphere into two equal halves, with respect to the poles.  It lies above the terrestrial equator.  2. Horizon  The horizon is a circle that cuts the celestial sphere into two halves: one which is visible, and one which is not.  It is the “ground level” of the observer.  The plane of this great circle is perpendicular to a line joining the point of an observer on the Earth and the zenith, and cuts through the centre of the Earth.    3. Ecliptic  The ecliptic is the annual path of the Sun, with respect to the stars, as seen from a geocentric perspective.  The plane of this great circle always makes an angle of 23.5° with the plane of the celestial equator.  This tilt is of great importance, as it is responsible for the seasons on Earth.  4. Central Meridan  The central meridan is an imaginary arc which cuts through the north point on the horizon, the zenith, and the south point on the horizon.  5. Prime Vertical  The prime vertical is an imaginary arc which cuts through the east point on the horizon, the zenith and the west point on the horizon.
+6</li>
+</ul>
+<ol start="6">
+<li>Equinoxes and Solstices  Two great circles intersect at two points diametrically opposite each other.  For the celestial equator and the ecliptic, these are the equinoxes.  The solstices are the highest and lowest points on the ecliptic, with respect to the celestial equator.  We will also use these terms for the times when the Sun is at these points.  The spring or vernal equinox falls on March 21, while the autumnal equinox is on September 23.  At the equinoxes, the days and nights are of equal length.  The highest point, the summer solstice, falls on June 21, and is the longest day of the year for the northern hemisphere.  The lowest point, the winter solstice, is on December 22, and coincides with the shortest day of the year for the northern hemisphere.
+Earth Vernal Equinox
+Winter Solstice
+Autumnal Equinox Summer Solstice Ecliptic
+Celestial Equator
+Much of observational astronomy reduces to the analysis of these three great circles: ecliptic, horizon and celestial equator.
+7</li>
+</ol>
+<h5 id="iii-the-planets">III. The Planets</h5>
+<p>The planets in our solar system play an important role in astrology.  Analysis of them involves tracking their movement across the sky.  This is not a simple task, as their motions are varied – some take days or even weeks to record any changes in position.  Furthermore, only five of the planets are visible to the naked eye: Mercury, Venus, Mars, Jupiter and Saturn.  Uranus, Neptune and Pluto were discovered after the invention of the telescope, in 1781, 1846, and 1930, respectively.  Together with Earth, they make up the nine planets of our solar system.  It is interesting to note that when astrologers use the term “planets”, they include the Sun and Moon as well.  Specifically, the Sun and Moon are referred to as “luminaries”.    Listed below is a table of the planets, their astrological symbols and the corresponding  meanings, as claimed by astrologers.</p>
+<h5 id="-">.</h5>
+<p>Table of Astrological Characteristics of the Planets
+Sun
+(From  “Making Sense Of Astrology’”)
+Life force, self-esteem, power and ambition, authority (the father); heart, circulation, eyes.
+Moon
+Mercury Intellect, ability to adapt; nervous system, brain, speech organs.
+Venus Emotions, eroticism, artistic ability, relationships, world of art; organs of smell and touch.
+Mars Energy, desire, choleric temperament, courage, force, military and technical world; muscular system, blood, genitals.
+Sensitivity, inspiration, confusion, exaggeration; chaos, psychology.
+Force
+Subconscious
+Communication
+Harmony
+Energy
+8
+Fertility, metabolism, subconscious, consciousness, emotions (the mother); stomach, belly, uterus.
+Jupiter Philosophical and religious thought, nomadic nature, financial and judicial world; liver, lungs.
+Saturn Concentration, melancholic temperament, earth, soil, lonely places; bones, skin.
+Uranus Intuition, independence, engineering, revolution, occultism.
+Neptune
+Pluto Turning points, crisis, death.
+Expansion
+Concentration
+Crisis
+Inspiration
+Turning Point
+Unfortunately, the astrological meanings of the planets are derived from analogy, not from scientific study.  It is clear that the names of the planets coincide with the names of Greco-Roman gods from antiquity, and each of these gods possessed their own attributes and ruled certain domains of life.  The striking thing is that the attributes of the planets agree with the characteristics and attributes of the Greco-Roman gods.    For example, Mercury was commonly known as the god of commerce, and hence the planet Mercury rules commerce in astrology.  It is the same with Venus, the goddess of love.  The other analogies are derived similarly.    Another interesting point to note is that classical astrology worked with only five planets (besides the Sun and the Moon).  Only after the invention of the telescope did astrologers assimilate the other three planets into their works.
+9</p>
+<ul>
+<li>Retrograde Movement of the Planets  Most of the time, the planets in our solar system move eastwards across the sky.  However, they sometimes move westwards.  This is known as retrograde or “backwards” motion.  Take for example, Mars.  This is illustrated in the diagram below.
+orbit of Earth
+orbit of Mars
+e d c b
+a
+e d
+c b a
+Path of Mars as seen from Earth
+As the orbit of Mars around the Sun is much larger than the orbit of the Earth, the relative movement of Mars appears to be largely tangential.  The relative movement of the Earth can vary from being tangential to being normal to the orbit of Mars.  The tangential vs. normal movement results in retrograde motion.
+a. At point a, movement of the Earth is largely normal to Mars.  Hence, it moves “towards” Mars.  In turn, Mars seems to be moving “forward” (eastwards) across the sky.
+b. At point b, movement of Earth becomes more tangential, with respect to Mars.  It hence “catches up” with Mars.  The “forward” motion of Mars is retarded at this stage.
+c. At point c, Earth moves in a tangential path parallel to Mars.  Since the Earth has a higher orbital speed, it “out-races” Mars.  Hence, from the Earth, Mars appears to move “backwards” (westwards) across the sky at this stage.
+d. At point d, Earth starts to resume normal movement, and moves “away” from Mars.  Retrograde movement hence begins to diminish.
+e. At point e, Earth resumes normal movement, while Mars continues its tangential motion.  This creates the illusion from a geocentric view that Mars resumes its “forward movement” across the sky.
+This entire process, for Mars, takes about 4 months.  In the same way, other planets in the solar system exhibit retrograde behaviour, when seen from Earth.  The entire period for retrograde motion to occur also differs from planet to planet.  The seemingly arbitrary movements of the planets in the sky led the ancients to believe that they were directly influenced by the gods. Hence the role of the planets as determiners of fate was not an incredible notion in ancient times.
+10</li>
+</ul>
+<h5 id="iv-the-zodiac">IV. The Zodiac</h5>
+<ul>
+<li>Constellations  A constellation is a collection of stars, grouped together to form a recognizable figure.  Constellations are formed so that when seen from our position in space, the individual stars seem to be in each other’s vicinity.  For example, a bright star which is far away and a dim star which is much nearer to Earth can appear to be situated just next to each other.  In all, there are 88 constellations, according to the official division developed by the Belgian astronomer Eugene Delporte.  Examples include the Big Dipper, Ursa Major (Big Bear) and the Serpent.</li>
+<li>Zodiac  The zodiac is a twelve-part division of the sky in the neighbourhood of the ecliptic.  We can imagine this as a wide band stretched around the celestial sphere, and cut in half by the orbit of the Sun, as shown in the diagram below.  In astrology, these twelve parts are called signs.  Each of these parts has a size of 30°.
+Celestial Equator
+Ecliptic
+Aries Taurus
+Gemini
+Pisces
+Aquarius
+Capricorn
+The zodiac on the celestial sphere
+0°
+90°
+180°
+270°
+Aries
+Taurus
+Gemini Cancer
+Leo
+Virgo
+Libra
+Scorpio
+Sagittarius Capricorn
+Aquarius
+Pisces
+The Zodiac &amp; their astrological symbols
+A common misconception is to term the signs as “constellations”.  The twelve signs used by the astrologers are not the same as the 88 constellations in observational astronomy.  The constellations are by definition a pattern of stars, and their sizes differ greatly.  The signs, on the other hand, are pure geometrical constructs.
+11
+As the Sun makes its annual path around the ecliptic, it resides in each of the twelve signs, in turn.  An individual born during a certain time would take on the sign the Sun is in at that moment.  This is called the “sun sign” of the horoscope.  The individual is then supposed to take on the characteristics associated with the sign.</li>
+<li>Astrological Meaning of the Zodiac  Each of the signs in the zodiac is supposed to have certain astrological properties.  Listed below is a table of the characteristics of the signs, according to the astrologers:  Latin Name English Name  Characteristics
+Aries Ram Energy, activity, entrepreneurship. Taurus Bull Materialism, practical sense, perseverance. Gemini Twins Communication, social activities. Cancer Crab Social work, caring professions.
+Leo Lion Authority, leadership, vitality. Virgo Virgin Scientific, analytical ability. Libra Scales Artistic, sense of equilibrium, mediation.
+Scorpio Scorpion Sex, medicine, science, intensity. Sagittarius Archer Sports, idealism, religion, philosophy. Capricorn Goat Ambition, politics. Aquarius  Water Bearer Humane, intuitive.
+<em>Pisces Fishes Dreamer, altruistic. Short survey of the characteristics of the signs</em>
+(Taken from “Making Sense of Astrology”)  There also exist further divisions of the Zodiac.  Using perhaps a smart play of geometry, the ecliptic is further divided using a triangle, a square and a hexagon, as shown below:
+Aries
+Taurus
+Gemini Cancer
+Leo
+Virgo
+Libra
+Scorpio
+Sagittarius  Capricorn
+Aquarius
+Pisces</li>
+</ul>
+<ul>
+<li></li>
+</ul>
+<p>−
++
++
++
++</p>
+<ul>
+<li>−
+−
+−
+−
+−
+fire = Aries + Leo + Sagittarius earth = Taurus + Virgo + Capricorn air = Gemini + Libra + Aquarius        water = Cancer + Scorpio + Pisces
+cardinal = Aries + Cancer + Libra + Capricorn fixed = Taurus + Leo + Scorpio + Aquarius  mutable = Gemini + Virgo + Sagittarius + Pisces
+12
+The signs located on a triangle are connected with the ancient Greek natural elements of fire, earth, air and water.  The division according to the squares are the cardinal signs, the fixed signs, and the mutable signs.  The geometrical group formed by the inscribed hexagon are either positive or negative signs.  The positives signs are supposed to be masculine, while the negative signs are feminine.  Astrologers also use the positive and negative divisions as interpretation of introversion and extroversion, respectively.  Again, like the planets, the characteristics of the signs are based on analogy.  It is not hard to see that there is a clear connection between the characteristics and the image of the sign that is supposed to symbolize them.  Take for example, Aries, the Ram.  The sign is, according to astrology, energetic, active, impulsive, sprightly and violent.  These traits are clearly copied from the characteristics of the animal.  Another example is the sign Taurus, which is supposed to be slow, persistent, fertile.  It is like its earthly counterpart, the Bull.  The principle of analogy is connected to magical thinking in ancient times.  The assumption is made that in some sense an image has the characteristics of whatever it pictures.  This type of thinking was known as “cosmic sympathy”, a relation that connected strongly divergent things together.  However, analogy cannot be accepted by science as a justification for a claim.</li>
+</ul>
+<ul>
+<li>Problems with the Zodiac  Two systems of the zodiac developed.  The tropical zodiac is a division of the ecliptic, and uses the vernal equinox as its starting point.  Each subsequent division of 30° then makes a sign.  The sidereal zodiac is firmly connected with the constellations.  Western astrologers favour the tropical zodiac, while their Indian counterparts prefer the sidereal zodiac.  When the ancients first formulated the astrological zodiac, the constellations probably coincided with the twelve-part divisions in the sky.  This meant the tropical and sidereal zodiacs were in agreement.  However, a very slow process called precession shifts the vernal equinox between the stars.  This is because precession causes the Earth’s axis of rotation to “wobble”.    Since the celestial equator is perpendicular to this axis, it follows that the celestial equator shifts along with it.  The ecliptic is unaffected by precession.  Hence, the overall effect is that the points where the celestial equator and ecliptic intersect will change.  This ultimately causes the vernal equinox to shift.  Since the starting point of the tropical zodiac is the vernal equinox, it follows that the tropical zodiac will start shifting westwards.  This means the tropical and sidereal zodiacs will not agree with each other.  The effect of precession is not very noticeable, and amounts to a full sign every 2,000 years.
+13
+The Sun and the Moon both produce gravitational pulls on the Earth’s equatorial bulge.
+This is an attempt to reduce the tilt of the Earth’s axis.
+Hence, Earth’s rotation axis “wobbles”, and the vernal equinox shifts westward. Precession has a cycle of 26,000 years
+It is logical to deduce that astrology can only be as old as when the constellations coincided exactly with the zodiac (eg. when the constellation Gemini was in the sign Gemini, etc).  Specifically, this means the time when the vernal equinox was situated in the constellation of Aries.  The vernal equinox is now in Taurus, which means the zodiac is about 2,500 years old.  In fact, the oldest horoscope in existence dates back to about 400 B.C.
+14</li>
+</ul>
+<h5 id="v-the-houses">V. The Houses</h5>
+<p>Due to the slow movement of the zodiac, a horoscope drawn up during a certain time would be valid for all people born around that time.  The unique character of it would be absent.  Hence, in order to make astrology more personal, a local element was introduced in addition to the cosmic elements.  This local element is called house division.  Basically, the sky around an observer is divided into twelve parts, and these are termed houses.  Usually, the horizon will further divide these houses: half of them will be above the horizon, and the other half will be below.  The lines separating the houses are called cusps.  Each house covers a specific area of life, called “spheres of life”.  There are many different schools of thought on house division.  One way of dividing the sky is to use each of these great circles as a reference: celestial equator, prime vertical and ecliptic.  Another method of division is the use of semiarcs.  For simplicity, we shall consider the terminology associated with house division using the equal house system.</p>
+<ul>
+<li>Terminology of House Division   The horizon divides the ecliptic, and hence the zodiac, into two parts: a visible part above the horizon and an invisible part below the horizon.  Due to the daily movement of the Earth on its axis, the signs of the zodiac rise one by one above the eastern horizon.  Just like the Sun, each sign rises from the eastern horizon, reaches its highest point, and eventually sets in the western horizon.    According to the astrologers, there are four signs in each horoscope that play a very important role.  The point that rises at the eastern horizon is termed the Ascendant (Asc).  The point that sets in the western horizon is termed the Descendant (Desc).  Right in between them, is the Medium Caeli (MC), or literally the point “in the middle of the heavens”.  The counterpart of the MC under the Horizon is the Imum Caeli (IC) or the “lowest part of the heavens”.  At any moment, these four points will each reside in a sign, and the sign is given the corresponding term.  For example, if the Ascendant is in the sign Aries, then we say that Aries is the Ascendant.   The Asc, MC, Desc and IC form the basic corners of house division, and divide the sky into four sectors.  These four sectors are then trisected, creating twelve sectors, which are the houses.
+15
+MC
+IC
+Desc
+Asc
+I II
+III
+IV V V
+I V
+II
+VIII IX X
+X II
+X I
+MC
+Asc Desc
+IC
+S
+N
+E W
+Ecliptic / Zodiac Ecliptic / Zodiac
+Methodology of house division</li>
+<li>Astrological Meaning of the Houses  First, an astrologer will determine whether each of the houses contain a planet or a sign.  The characteristics of these planets and signs are then transferred to the spheres of life indicated by each of the houses.  Number of the House Characteristics
+I Personality, body type, the person, the ego. II Financial means, possessions, economics, wages. III Next of kin, brothers, sisters, neighbours. IV Parents, the home, ancestors, real estate, agriculture. V One’s own children, education, love life. VI Wage labour, military service, health. VII Social relations, marriage, politics, partners, enemies. VIII Death, burial and things connected with it, legacies, occultism
+and mysticism. IX Spiritual life, religions, philosophy, long travels. X Social status, profession, honour, fame. XI Friends, social life. XII Confinement, illness, seclusion, loneliness, secrets, crime.
+<em>Table of the astrological meanings of houses (Taken from “Making Sense of Astrology”)</em>
+For example, suppose the tenth house contains the planet Mercury and the sign Aries.  Mercury, the planet of the intellect, and Aries, the tempestuous sign, together indicates a sharp and militant mind.  Since they are both in the tenth house, this means the individual concerned will possess this characteristic in his profession or social status.
+16
+It is interesting to note that there is a connection between the houses and the signs.  For example, House II is oriented towards economics, like Taurus, the second sign of the zodiac.  House IX is concerned with spirituality, like the sign of Sagittarius.  The principle of the houses is partly copied from the signs, which perhaps explains why there are twelve houses.  In addition, three groups of four houses are distinguished: the cardinal houses (I, IV, VII, X), the succedent houses (II, V, VIII, XI), and the cadent houses (III, VI, IX, XII).  The houses in a group are presumed to have common characteristics.  Also, there exists a distinction between houses under the horizon (I through VI) and those above it (VII through XII).  The first six symbolize private life, the last six represent social life.  More planets in the first six houses mean the subject of the horoscope will be more extroverted.  Conversely, more planets in the last six houses point towards an increasing degree of introversion.    Furthermore, the location does not have to be the same in order to obtain an identical horoscope.  Horoscopes are extremely sensitive to differences in geographical longitude.  At 50° latitude for example, in order to have a longitudinal difference of one degree, it is necessary to travel about 70 kilometres east- or westwards.  At lower latitudes, the distances involved are larger, becoming 111 kilometres at the equator.  In the course of a day, the Ascendant undergoes a displacement of about one degree longitude in four minutes.  Due to this movement, the house configuration in Brussels is the same as that an hour before in Prague.  This means that the same horoscopes can be found in places that are a few thousand kilometres apart.</li>
+<li>Different Systems of House Division  A great difference of opinion exists between astrologers, when it comes to house division.  This is an important astrological problem.  As stated earlier, one way is to divide the sky using each of these great circles: celestial equator, prime vertical, and ecliptic.  These circles are divided into twelve equal parts, always starting in the east.  For divisions by the celestial equator and prime vertical, the points obtained are then projected onto the ecliptic, and the cusps are determined.  There is also the division using the semiarcs.  Here are a few important systems:  1. Equal House System
+This is a system based on a division of the ecliptic, and was used earlier to introduce the terminology of house division.  It is simple to calculate: just determine the Ascendent, and take exactly 30° for each house.  It is commonly used by astrologers in Great Britain, India and the United States of America.
+17</li>
+</ul>
+<ol start="2">
+<li>System of Campanus   This is a system based on the division of the prime vertical, named after the Italian astronomer/astrologer Giovanni Campano (who died in 1296).  The prime vertical is first divided into twelve equal parts, each of 30°.  The starting point is in the east, where celestial equator, horizon and prime vertical intersect.  These twelve points are then projected onto the ecliptic along great circles which start at the north point of the horizon.  The intersection of these circles with the ecliptic determine the cusps of the houses.
+semi-circle formed by  the prime vertical
+Ecliptic
+S N
+Division according to Campanus
+Horizon
+great circle formed  by division of prime vertical
+MC
+Asc
+Ecliptic</li>
+<li>System of Regiomontanus   This is a system based on a division of the celestial equator, named after the German astronomer/astrologer Regiomontanus (1436 – 1476).  The celestial equator is first divided into twelve equal parts, each of 30°.  These twelve points are then projected onto the ecliptic along great circles which start at the north point of the horizon.  The intersection of these circles with the ecliptic determine the cusps of the houses.
+great circle formed by division of  celestial equator
+Ecliptic
+Celestial Equator
+Horizon
+N S
+MC
+Asc
+Division according to Regiomontanus
+18</li>
+<li>System of Placidus  This is a system based on the division of the semiarcs, concocted by the Italian Franciscan friar and astrologer, Placidus de Titus (1603 – 1668).    i. Semiarcs A semiarc is a part of the arc along which a point travels during the day.  In particular, the part that is located between the horizon and central meridan is called a diurnal semiarc.  Semiarcs are formed by stars, planets or mathematical points that are sometimes above and sometimes below the horizon (circles 2 and 3), throughout the course of a day.  Points that are always above the horizon (circle 1) are termed circumpolar points.  No semiarcs can be formed using these and points always below the horizon (circle 4).  Note that all semiarcs are parallel to the celestial equator.
+Horizon
+1
+2
+3
+4</li>
+<li>Circumpolar point  2 and 3. Parts above horizon are semiarcs  4. Point always below the horizon
+ii. Division According to Placidus
+Horizon
+Celestial Equator
+Curve joining 1/3 division points of semiarcs
+Example  of a diurnal semiarc
+Ecliptic  circumpolar
+point 1. Each diurnal semiarc is trisected.  2. These division points are joined by a curve.  There will be two curves for the entire set of diurnal semiarcs.  3. The two curves intersect the ecliptic.  These intersection points form the cusps.   Note: no semiarcs exist above the circumpolar point shown in the diagram. Example of
+a cusp
+Curve joining 2/3 division points of semiarcs
+19
+iii. Problems With Systems Based on the Semiarcs  Other house systems based on a division of the semiarcs include the systems according to Alcabitius and Koch, and the topocentric system.  However, all the systems based on semiarcs share one major problem: none of them can be used at latitudes within the Arctic and Antarctic Circles.  In fact, at the poles there would be no semiarcs at all, since every point above the horizon would be a circumpolar point.</li>
+<li>In the Arctic regions, a portion of the ecliptic is circumpolar.  2. This means that the curves joining the divisions of the semiarcs will not be able to intersect this portion of the ecliptic.  3. Since these intersection points form the cusps, this means not all the houses can be defined.
+Portion of ecliptic above this point is circumpolar
+NCP
+L
+Let latitude be L.   Let co-latitude be C. Let angle between ecliptic and
+celestial equator be ε = 23.5°.  Hence, for divisions based on semiarcs to work, the following inequality must hold:
+C + ε  ≤  180° − 2L
+This reduces to L ≤ 66.5°.  Thus  the divisions based on semiarcs are only valid outside the polar regions
+L
+180° − 2L
+C
+ε
+this curve is not long enough to intersect the ecliptic
+According to “Recent Advances in Natal Astrology”, compiled by Geoffrey Dean, about 80% of individuals who seek help from astrologers show a preference for the system of Placidus.  Another 10% favour the equal house system, while the rest choose from the other house systems.  In addition, 90% of individuals who refer to online horoscopes prefer the system of Placidus.  Another 8% favour the Koch system, while 2% prefer the other house systems.  An interesting point to note is that the popularity of the Placidus system is due only to the easy availability of tables.  A much-used table was drawn up in about 1880, when astrology experienced a revival, and hence its success.
+20</li>
+</ol>
+<ul>
+<li>Differences in Sizes of Houses During Course of the Day  Seen from Earth, the celestial sphere rotates once on its axis during the course of the day.  The ecliptic turns together with the celestial sphere.  Therefore the sizes of the houses, and how they are divided, changes throughout the day.    The following diagrams show the movement of the ecliptic throughout the day for a latitude of 45°.  In the first and third segments, the ecliptic and celestial equator are oriented in such a way that the Ascendant and the Descendant are not exactly in the east and the west.    The second and fourth segments show the ecliptic and the celestial equator oriented in such a way that the Ascendant and the Descendant are exactly in the east and the west respectively.  It is clear that how the four sectors of the ecliptic are divided varies throughout the day.  It follows that the sizes of the houses change during the course of a day, for a given latitude.
+Asc
+MC
+Horizon
+The four sectors of the Ecliptic are divided unequally.  Hence the sizes of the houses will differ from each other.
+Ecliptic
+Celestial Equator
+23.5°
+W
+E
+MC
+Ecliptic
+Celestial Equator
+Vernal Equinox (VE)
+Autumnal Equniox (AE)
+Winter Solstice (WS)
+Summer Solstice (SS)
+VE
+AE
+SS
+WS
+Asc E W
+21
+MC
+MC
+VE
+AE
+SS
+WS
+WS
+AE
+VE
+SS
+The four segments show the daily motion of the ecliptic at six-hour intervals.
+Asc
+Asc
+W
+E
+E
+W</li>
+<li>Uneven Probability Density of Ascendant at    Different Latitudes  1. Theory  The problem of house division, at different latitudes, reduces to investigating the speed at which the ecliptic crosses the horizon.
+Eastern Horizon
+Ecliptic Angle ε =  23.5°
+Angle φ = angle between ecliptic and horizon
+Celestial Equator
+Vernal Equinox
+Angle L = 90° + lattitude
+22
+An analysis of the ecliptic can be made with the previous diagram.  Since this is the eastern horizon, the ecliptic is rising.  The intersections of the ecliptic, horizon and celestial equator form a spherical triangle.  Hence, a formula for the speed at which the ecliptic crosses the horizon can be derived, using spherical trigonometry.
+Side a
+Side b
+Side c
+Angle B
+Angle C
+Angle A I.  Cosine law for spherical triangles:   cos B  =  - cos A cos C   +  sin A sin C cos b
+II.  Sine law for spherical triangles:   sin B / sin b = sin C / sin c
+The spherical cosine and sine laws, stated above, apply in general to any spherical triangle.
+Let ε be A.  This is the angle between the ecliptic and celestial equator, and is always 23.5°.  Let φ be B, the angle between the ecliptic and horizon.  Let L be C, which is 90° plus latitude.  Let c be the distance along the ecliptic.
+Arc Length  =  Rθ                  = θ
+Radius R  =  1
+Angle θ
+We can assume that great circles in spherical geometry have unit radius.  Referring to the
+diagram above, the arc length is simply θ, and the circumference of a great circle is 2π.  When c goes from 0 to 2π, we will cover the entire ecliptic.  The point c = 0 coincides with the vernal equinox.
+23</li>
+</ul>
+<ol start="2">
+<li>Derivation of V, the Speed of the Ecliptic      When it Crosses the Horizon  Let the speed at which the celestial equator crosses the horizon be V0.  This is the uniform speed of rotation of the Earth on its own axis.   Let V be the speed at which the ecliptic crosses the horizon.  This is illustrated in the following diagram.
+V0 =  speed of celestial equator
+V = speed of ecliptic
+We will now derive a formula for V when the angle is φ.  Since speed is defined locally, we can use Euclidean geometry.  We will then use spherical trigonometry to determine how φ changes as the ecliptic moves along the horizon.
+ε
+φ L
+V0 V
+V sin L  = V0
+sin φ
+V = V0  sin L  sin φ
+V0 and sin L are constants, and hence do not change the form of the equation.  The problem then reduces to deriving an expression for sinφ.  This can be obtained using the spherical cosine and sine laws, and eliminating b from the equations.
+24</li>
+<li>Derivation of the Exact Form of the General Formula  This is the exact form of the general formula for V, the speed of the ecliptic when it crosses the horizon.
+sin b
+=
+sin φ  sin c
+sin L
+,
+cos b
+=
+cos φ  +   cos ε  cos L
+sin ε  sin L
+To eliminate b, we use  cos2b + sin 2b  = 1
+sin2b
+=
+sin2 φ  sin2c
+sin2L
+,
+cos2b
+=
+cos2φ   +   cos2ε  cos2L   +   2  cos ε  cos φ  cos L
+sin2ε  sin2L  Hence
+cos2φ  +   cos2ε  cos2L   +   2  cos ε  cos φ cos L   +   sin2ε  sin2φ  sin2c
+sin2ε  sin2L
+=
+1
+cos2φ  ( 1 − sin2ε  sin2c )   +   cos φ  ( 2 cos ε  cos L  )  + sin2 ε  sin2c  +   cos2ε  cos2L  −  sin2ε  sin2L  =  0
+The spherical sine and cosine laws give us
+.
+.
+cos φ can then be expressed as
+cos φ
+=
+− 2 cos ε  cos L  ±  [ 4 cos2ε  cos2 L  − 4 ( 1 − sin2ε  sin2c) ( sin2ε  sin2c   +  cos2ε  cos2 L  −  sin2ε  sin2 L  ) ]½
+2 ( 1 − sin2ε  sin2c )
+{ − cos ε  cos L  ±  [ cos2ε  cos2 L  − ( 1 − ( 1 − cos2c ) sin2ε  ) ( sin2ε  − cos2c sin2ε  + cos2 L  −
+sin2ε  cos2 L  − sin2ε  sin2 L  ) ]½ } / ( 1 − sin2ε  sin2c ) =
+=
+− cos ε  cos L  ±  [ cos2ε  cos2 L  −  (  cos2ε  + cos2c sin2ε  ) ( cos2 L  − cos2c sin2ε  ) ] ½
+( 1 − sin2ε  sin2c )
+{ − cos ε  cos L  ±  [ cos2ε  cos2 L  − cos2ε  cos2 L  + cos2c sin2ε  cos2ε   − cos2c cos2 L  sin2ε  +
+sin4 ε  cos4c )  ]½ } / ( 1 − sin2ε  sin2c ) =
+− cos ε  cos L  ±   sin ε  cos c [ cos2ε  − cos2 L  + sin2ε  cos2c )  ] ½
+=  ( 1 − sin2ε  sin2c )
+sin [ cos-1 (  cos φ ) ]
+V
+=
+V0 sin L
+=
+cos φ
+− cos ε cos L  ±  sin ε cos c [ sin2L  −  sin2ε sin2c )  ]½
+( 1 − sin2ε sin2c )
+,
+Hence
+and
+.
+Notice that there are two roots: ‘+’ and ‘−’.  The next step is to determine which root gives the correct graphical solution.
+25
+<em>4. Analysis of the ‘+’ and ‘−’ Roots   Taking l as the latitude, it is easy to deduce that: 1. At the vernal equinox (c = 0), φ = 66.5° − l 2. At the summer solstice (c = π/2), φ = 90° − l 3. At the autumnal equinox (c = π), φ = 113.5° − l 4. At the winter solstice (c = 3π/2), φ = 90° − l  It follows that for any l, φ is monotonically increasing between c = 0 and c = π, and we must use this property to determine if the ‘+’ or the ‘−’ root is the correct solution for V.  Let’s consider the case of l = 45°.  A graphical plot of the ‘+’ root reveals that φ, the angle between the ecliptic and the horizon, is monotonically increasing, between c = 0 and c = π.</em>
+<em>Graph of φ vs. c  (from c=0 to c=2π), for ‘+’ root</em>
+It follows that the graph of cos φ, for the ‘+’ root is monotonically decreasing, between  c = 0 and c = π.
+<em>Graph of cosφ vs. c (from c=0 to c=2π), for ‘+’ root</em>
+It is clear that only the ‘+’ root satisfies the given condition.
+26
+The ‘−’ root yields a monotonically increasing graph for cos φ, between c = 0 and c = π.
+<em>Graph of cosφ vs. c (from c=0 to c=2π), for ‘−’ root</em>
+The ‘+’ root is hence the desired solution, and the ‘−’ root is rejected.      5. Graphs of V at Various Latitudes  The speed of the ecliptic, when it crosses the horizon, varies at different latitudes.  This can be shown using graphs of V at different values of L.  For 45° latitude, the graph of 1/sinφ is:
+<em>Graph of 1/sinφ vs. c (from c=0 to c=2π), for 45° latitude</em>
+For 0° latitude, the graph of 1/sinφ is:
+<em>Graph of 1/sinφ vs. c (from c=0 to c=2π), for 0° latitude</em>
+27
+For 52° latitude (London), the graph of 1/sinφ is:
+<em>Graph of 1/sinφ vs. c (from c=0 to c=2π), for 52° latitude</em>
+Hence, the speed of the ecliptic, when it crosses the horizon, varies from place to place on Earth.  It follows that the probability density of the Ascendant is uneven at a given latitude, no matter which system of house division we use.  Assuming that the birth rate is fairly even, we can conclude that at that latitude there will be more people born with a certain Ascendant.  Since the Ascendant is supposedly an important part of the horoscope, the question to ask is do we really believe that character traits vary with latitude?</li>
+</ol>
+<ul>
+<li>The Polar Problem in House Division  The idea of a division of the zodiac in houses arose in the Greco-Roman world, where the zodiac stands high in the sky.  However, some serious problems arise when one considers the Arctic and Antarctic regions (66.5° latitude onwards).  They are collectively called the polar regions.  1. Ill-Defined Ascendant and Descendant  Since each system is based on the Ascendant and the Descendant, house division becomes a problem when these are ill-defined.  On the Arctic and Antarctic Circles, the ecliptic coincides with the horizon at a certain time of the day.  This means that the Ascendant and the Descendant are either everywhere or nowhere.  There is also no MC or IC.  Since these four points form the basis of house division, it follows that houses cannot be defined.
+28
+Dotted lines indicate the maximum range of daily motion by the ecliptic (±23.5°).  At a certain moment, the ecliptic will coincide with the horizon, as shown by the bold circle.
+zenith
+celestial equator
+horizon horizon coincides  with ecliptic
+Even when the ecliptic does not exactly coincide with the horizon, the situation becomes critical if these circles almost coincide.  The smallest inaccuracy in the time of birth can lead to huge differences in house division.   Take for example 66.5° latitude.  One minute before the ecliptic and horizon coincide, Houses X, XI, XII, IV, V and VI take up less than one-fourth of a degree.  Just two minutes later, this changes drastically: they now fill up 359.75°.  2. No Ascendant / Stationary Ascendant  Inside the polar regions, a part of the zodiac never rises above the horizon.  Hence, certain signs can never be Ascendant there.  Examples are northern Alaska, northern Norway or Siberia.  In these two places, the signs of Sagittarius and Capricorn never rise above the horizon, while the opposite signs, Gemini and Cancer, always remain below the horizon.  Therefore, people born there cannot have these four signs as their Ascendant.  One of the questions to ask is whether a noticeable number of people walk around in these regions without the characteristics of the signs of these Ascendants.    In the extreme case, on the north pole, the two intersections of the zodiac with the horizon remain forever the same (the vernal and autumnal equinoxes).  This means that the signs Aries through Virgo are permanently above and the signs Libra through Pisces are permanently below the horizon.  Not a single sign sets or rises, and the Ascendant is forever stationary.  The situation is similar at the south pole.
+29
+zenith
+Observer is at the north pole.  The ecliptic makes its daily rotation.  Note that the horizon and celestial equator coincide.
+In fact, no part of the ecliptic sets or rises.  Part of the ecliptic is permanently above the horizon, and the other part is permanently below the horizon.
+Ascendant
+Notice that the Ascendant neither rises nor set, and is forever stationary.
+ecliptic
+rotation</li>
+</ul>
+<ol start="3">
+<li>Ill-Defined MC  Above the Arctic Circle, there is a problem in determining the Midheaven.  If the MC is defined as the southernmost point of the zodiac, then it is under the horizon part of the time.  If it is defined as the highest point of the zodiac, then it happens to be at the northernmost point.
+Observer is very close to the north pole, hence horizon almost coincides with the celestial equator.  The bold dotted circles indicate maximum range of motion of ecliptic.
+±23.5°
+W
+E
+N S
+celestial equator
+horizon
+When ecliptic is in this position, MC follows the conventional definition: southernmost point of the zodiac.  It also happens to be the highest point of the zodiac.
+ecliptic
+But when ecliptic is in this position, the MC is ill-defined.  Is it the highest point of the zodiac, which makes it the northernmost point?  Or is it the southernmost point, which is under the horizon?
+MC?
+MC?
+MC
+30</li>
+<li>Discontinuous Ascendant In the polar regions, there is a discontinuity of the Ascendant at a certain moment.  Initially, the Ascendant is in the east.  In the course of the day, it will then move southwards along the horizon, until it is eventually situated in the south.  At the very next moment, the Ascendant will then “jump” to the north.  To understand this problem, we have to first understand how the “jump” occurs, using the “band” theory shown below.
+horizon
+celestial equator
+ecliptic
+“bands”
+motion
+“band”
+“strip”
+The daily motion of portions of the ecliptic can basically be reduced to the motion of “strips” on the celestial sphere.  The motion of these “strips” are confined to “bands”, as shown above.
+motion
+The signs in the zodiac are divisions of the ecliptic.  It follows that the daily motion of the signs are similar to the daily motion of the “strips”.  sign
+motion
+Let’s look at the situation in the polar regions.  Consider the “band” shown in the diagram on the left.  Notice that the “band” is never fully above or below the horizon.  It follows that two “strips” diametrically opposite each other will have the following properties:  i. When one “strip” rises, the opposing one sets.  ii. There will be a turning point when the rising “strip” begins to set, and the setting “strip” begins to rise.  This happens to be the intersection points of the central meridan with the horizon.  These two properties cause the a discontinuity: the Ascendant can “jump” to the opposite part of the sky.  Note that the “jump” is instantaneous.
+“band”
+31
+Notice that at any latitude, the highest and lowest point of the celestial equator with respect to the horizon is always in the north and the south.  It follows that the highest and lowest points of any “band” is at these two points.  This accounts for the fact that the turning point of the “strips” is along the central meridan.
+N S
+The table below shows the motion of the Ascendant, at 70° N, during the course of a day.  Time is measured in hours.  Distances are measured in degrees.  At any moment, there are two intersection points of the ecliptic with the horizon.  “East” indicates the distance between the vernal equinox and intersection of the ecliptic with the horizon (not necessarily the Ascendant).  We shall take the starting point of “East” as 42.5° east of north.  “South” indicates the distance between the vernal equinox and MC.  “Size” means the distance between the MC and the intersection point of the ecliptic and horizon we are considering.  Time  East Sign South  Sign Size 0 137.5 Leo 0.0 Aries 137.5 3 157.9 Virgo 47.5 Taurus 110.4 6 180.0 Libra 90.0 Cancer 90.0 9 202.1 Libra 132.5 Leo 69.9 12 222.5 Scorpio 180.0 Libra 42.5 14 233.8 Scorpio 212.2 Scorpio 21.6 14.5 236.0 Scorpio 219.9 Scorpio 16.1 15.0 237.8 Scorpio 227.5 Scorpio 10.4 15.5 239.03 Scorpio 234.85 Scorpio 4.18 15.6 239.16 Scorpio 236.31 Scorpio 2.85 15.7 239.24 Scorpio 237.77 Scorpio 1.47 15.75 239.26 Scorpio 238.49 Scorpio 0.77 15.8 239.27 Scorpio 239.21 Scorpio 0.06 15.85 239.27 Scorpio 239.94 Scorpio -0.67 15.90 239.24 Scorpio 240.66 Sagittarius  -1.41 15.95 239.21 Scorpio 241.37 Sagittarius -2.17 16.0 239.15 Scorpio 242.09 Sagittarius -2.94 16.5 237.3 Scorpio 249.2 Sagittarius -11.9 17.0 231.3 Scorpio 256.2 Sagittarius -24.9 18.0 180.0 Libra 270.0 Capricorn -90.0 19.0 128.7 Leo 283.8 Capricorn -155.1 19.5 122.7 Leo 290.8 Capricorn -168.1 20.0 120.85 Leo 297.91 Capricorn -177.06 20.05 120.80 Leo 298.63 Capricorn -177.83 20.10 120.76 Leo 299.35 Capricorn -178.59 20.15 120.74 Leo 300.07 Aquarius -179.33 20.20 120.73 Leo 300.79 Aquarius 179.94 20.25 120.74 Leo 301.51 Aquarius 179.23 20.30 120.76 Leo 302.23 Aquarius 178.53 20.4 120.84 Leo 303.69 Aquarius 177.15 20.5 120.97 Leo 305.15 Aquarius 175.82 21 122.2 Leo 312.5 Aquarius 169.7 22 126.2 Leo 327.8 Aquarius 158.4 23 131.5 Leo 343.7 Pisces 147.8 24 137.5 Leo 360.0 Aries 137.5
+<em>Table of the ecliptic at 70° N during one sidereal day (From “Making Sense of Astrology”)</em>
+32
+A larger figure for the “East” column means more of the ecliptic is above the horizon.  If the “East” figure increases as time passes, more of the ecliptic goes above the horizon.  This means the intersection point of the ecliptic being considered is rising.  If the “East” figure decreases, more of the ecliptic goes below the horizon, and the point is setting.  At 0h, we consider the point in the northeast.  From 0h to 15.80h, the “East” figure increases monotonically, which means the intersection point of the ecliptic with the horizon being considered is rising.  We thus consider this point as the Ascendant.  Between 15.80h and 15.90h some problems begin to surface.  Notice that at a certain moment during this period, the “East” and “West” figures will be the same: 239.27°.  This means that the Ascendant and MC will coincide.  In other words, the ecliptic, the horizon and the central meridan will intersect at the same point.  Consequently, Houses X to XII will be impossible to define.  Furthermore, the “East” figure starts to decrease between 15.80h and 15.90h.  This means the intersection point we have been considering will begin to set.  This occurs at the point where the ecliptic, the horizon and the central meridan intersect, which is in the south.  According to “band” theory, if the intersection point in the south begins to set, the intersection point in the north will start to rise.  Ultimately, this means the Ascendant has “jumped” from the south to the north.  Hence, there is a discontinuity of the Ascendant.  The situation can be further illustrated using schematic diagrams of the motion of the ecliptic shown below.  The range of motion of the ecliptic is confined between the bold sectors.  At 70° latitude, this means only eight signs can be Ascendant.
+<em>The course of the Ascendant at 70°N (From “Making Sense of Astrology”)</em>
+The cycle from Taurus to Aquarius takes 4.4 hours
+The cycle from Leo to Scorpio takes 19.6 hours
+“jump”
+18h 6h
+33
+Notice that the Ascendant spends more time in the region from Leo to Scorpio.  This ties in perfectly with the earlier section where we proved that the probability density of the Ascendant is uneven at any given latitude.    Recall that V is the speed of the ecliptic when it crosses the horizon.  Let θ be the angle between the planes of the ecliptic and the horizon.  When θ is zero, it means that the ecliptic and horizon coincide.  When θ is at a minimum, V is at a maximum.  A larger value of V means that the signs in the zodiac will rise at a higher speed.
+Winter solstice  motion
+S N
+θ
+θ is the angle between the planes of the ecliptic and the horizon.  When the winter
+solstice is in the south, θ is at a minimum.  V will subsequently be at a maximum.  At this moment, certain signs in the zodiac will then rise at a very high speed.
+Ecliptic  Celestial equator
+Horizon
+At any latitude, θ is a minimum at 18h.  At this moment, the winter solstice is in the south.  In the polar regions, the ecliptic and horizon will almost coincide.  Hence, in the period slightly before and slightly after 18h, several signs will rise at a very high speed.    For the diagram “The course of the Ascendant at 70° N”, the “fast signs” are Taurus, Aries, Pisces and Aquarius.  Out of the eight signs that can be Ascendant at 70° N, the Ascendant only spends 4.4 hours from Taurus through Aquarius.  Furthermore, notice that after the “jump” from Scorpio to Taurus, the zodiac rises in the reverse order, from Taurus to Aquarius.
+Ascendant moves towards the south.
+S N
+celestial equator
+horizon
+After the “jump” occurs, the Ascendant is situated in the north.  It then repeats its motion towards the south.
+ecliptic
+Notice that the zodiac rises in the reverse order.
+motion Asc motion motion
+34
+As we approach the Arctic Circle, the situation becomes critical.  The Ascendant will spend almost the entire 24 hours through one portion of the ecliptic (Cancer through Sagittarius).  The other portion (Gemini through Capricorn) is “swept through” almost instantaneously.
+The cycle from Gemini to Capricorn is almost instantaneous
+The cycle from Cancer to Sagittarius takes almost 24 hours
+<em>The course of the Ascendant at  the Arctic Circle (66.5°N)</em>
+“gap”
+“gap”
+The “gaps” shown in the diagram above are portions of the ecliptic that can never be Ascendant.  At the Arctic Circle, these “gaps” reduce to points.    As we approach the poles, the periods of the cycles even out.  This is because θ has the same value on both sides of the central meridan: ±23.5°.  Due to this symmetry, the period for each cycle, prior to the “jump”, will approach the same limit: 12 hours.
+S N θ
+Ecliptic  At the poles, the horizon and the celestial equator coincide
+θ At all times, θ = 23.5° due to symmetry. motion
+motion
+35
+The range of motion of the ecliptic reduces to two points, and the Ascendant “jumps” between these two points.  The “gaps” also widen till they cover almost the entire zodiac.
+At higher latitudes, the range of signs which can be Ascendant decreases.  In the limiting case, there are only two signs which can be Ascendant.
+“gap”
+“gap”
+<em>The course of the Ascendant near the poles</em>
+36</li>
+</ol>
+<h5 id="vi-miscellaneous">VI. Miscellaneous</h5>
+<ul>
+<li>References</li>
+</ul>
+<ol>
+<li>David A. Brannan, Matthew F. Esplen and Jeremy J. Gray, ‘Geometry’, Cambridge University Press, 1999.</li>
+<li>Ronny Martens and Tim Trachet, ‘Making Sense Of Astrology’,
+Prometheus Books, 1998.  3. Ove H. Sehested, ‘The Basics Of Astrology’ Volume 1, Uranus
+Publishing Co., 1973.</li>
+<li><a href="http://www.dyna.iperwtb.com/astrology/primer_7_1.html">www.dyna.iperwtb.com/astrology/primer_7_1.html</a></li>
+</ol>

@@ -1,0 +1,145 @@
+ZASP Utility for ZET 8 version 2	
+================================
+
+ZASP is an external utility program which sorts and creates HTML 
+formatted aspects lists for Astroprocessor ZET 8. At present ZET 
+calls ZASP transparently to create sorted aspects lists (this may
+change), so unless you want to know more about ZASP, e.g. because 
+you have a special requirement, you do not need to read this document.
+
+NEW IN VERSION 2: CSS styles sheet (zasp.css) allows formatting to be
+customized. 
+
+   
+Usage:
+-----
+
+ZASP  [ -s0 | -s1 | -s2 ] [-1 | -2] [-a<aspect-types-file>]   
+      [<aspects-file>]
+      
+where:
+
+-sN 
+	optional sort key. Currently supported keys are: 0 - by planet,
+	1 - by orb value, 2 - by aspect name. Omitting this parameter is
+	equivalent to -s0.
+	 
+-1  
+	forces single chart type sorting (optional).
+
+-2  
+	forces dual chart type sorting (optional).
+	
+-a<aspect-types-file> 
+	optional list of keys for sorting in aspect-name order. This
+	option is utilized only with the -s2 option.
+	
+<aspect-types-file> 
+	optional plain text file of aspects created by ZET 8. If this
+	option is missing the file [ZET]\Wrk\Aspects.txt is assumed.
+	
+	
+Notes:
+-----
+
+1.	The input file is by default assumed to be "[ZET]\Wrk\Aspects.txt".
+	Any file (in compatible format) can be sorted by including its
+	name as the last item in the command line.
+
+2.	The output file is by default "[ZET]\Wrk\Aspects.html". If an input
+	file name was specified, the output file has the same name but with
+	the extension ".html", and is written to the input file folder.
+	
+3.	A log file "zasp.log" is written to the [ZET] directory. If ZASP
+	seems to be misbehaving, examine this file to see if it is finding
+	the correct input file(s), etc.
+
+4.	Version 2 of ZASP uses a simple Cascading Style Sheet specification
+	for formatting the output HTML document. This is the file "zasp.css".
+	It should be kept in the same folder as the output from ZASP. You can
+	edit this file as desired.
+	
+5.	The options -1 and -2 are used to force a view on the aspects list.
+
+	Astrological aspects may or may not form an ordered pair. In the
+	case of most dual type (prognostic) charts an aspect A(<p1, p2>)
+	is an ordered pair, i.e. p1 refers to say a transiting planet
+	and p2 to a natal planet, and the aspect p1-A-p2 is NOT the same
+	as p2-A-p1. In other cases (e.g. natal charts) the aspect A(p1, p2)
+	does not form an ordered pair, and in these cases it is useful to
+	list all planets in aspect to another, e.g. for "Sun square Mars" 
+	to be handled as an attribute of both Sun and Mars when sorting
+	by planet name. 
+	
+	As the list of aspects produced by ZET treats all aspects as ordered, 
+	ZASP infers whether the aspects are or are not ordered by examining
+	the header of the input file, i.e. "Natal - Natal" implies unordered
+	aspects, and "Natal - Transit" and "Natal - any other chart type"
+	implies ordered. If it considers them unordered, it generates 
+	duplicates which are reversed. You can use these options to override
+	this default behavior.
+	
+6.	When sorting by aspect name, ZASP derives the sort order from ZET orb
+	table files (in the [ZET]\Aspects folder). When the aspects are inferred
+	to be unordered (and with the -1 option) the orb table file used is
+	Natal.asp. If the aspects are inferred as ordered (and with the -2 option)
+	the file used is Transit.asp. Any aspects not contained in the orb
+	table files are appended to the end of the aspect names sort order
+	as established from the orb table file.
+	
+    You can make ZASP read a custom aspect name order file by including 
+    its name in the -a option. The file name can be absolute or relative.
+     
+	The format of this file is plain text file, with aspect names in 
+	descending order, one per line, and each line is terminated by a 
+	semi-colon character, e.g.
+	
+	Conjunction;
+	Parallel; 
+    Oppoisition
+    Contraparallel;
+     : 
+
+7.	The planet ordered sort utilizes the ZET "planets.txt" file in the 
+	[ZET]\Language\XXX\ folder. Aspecting bodies not mentioned in this
+	file are appended to the end of this order.
+
+8.	Localization. ZASP is localized for Russian and English users, along
+	the lines of ZET. The UI language is discovered from "zetstart.log", 
+	thus if this file does not exist (very unlikely) ZASP processing may
+	be incorrect. Other localizations on request. 
+
+
+   
+Independent operation
+---------------------   
+
+1	Create a shortcut on the Windows Desktop to "zasp.exe" in the 
+    ZET folder.
+2	Right-click the shortcut, select Properties.
+3	Select the Shortcut tab, click "Change icon". In the Change Icon
+    dialog, Browse to the ZET folder, select "zasp.ico", and
+    click "OK". 
+4	In the Target field, enter the required command line paramters
+	(inside the quotation characters).
+5	In the Shortcut tab, select "Minimized" in the Run listbox.
+6	Click "OK" to close the dialogs.
+7   To run ZASP, double-click the Desktop shortcut. 
+
+
+History
+-------
+v1.0 Initial release for Russian and English users of ZET 7.
+v2.0 Updated for ZET 8.
+    
+
+
+Adrian Orlowski
+sunzoomsprk@yahoo.co.uk
+
+
+
+   	    
+   
+   
+    

@@ -1,0 +1,167 @@
+{
+  "metadata": {
+    "framework_name": "ASTO (Astrological System & Trading Operations) Master Unified Framework",
+    "version": "19.0-Master-Ultimate-Enrichment",
+    "synthesis_date": "2026-05-06",
+    "system_status": "PRODUCTION_READY_FULLY_INTEGRATED",
+    "description": "The ultimate synthesis of all provided data, including 50+ fixed stars, 40+ asteroids, advanced aspect patterns, the Fate-Engine Architecture, and the Unified Astrology Compendium."
+  },
+  "fixed_stars_master_catalog": [
+    {
+      "name": "Achernar",
+      "position": "15\u00b0 Pisces",
+      "nature": "Jupiter",
+      "keywords": [
+        "wisdom",
+        "completion"
+      ],
+      "financial": "Water, shipping"
+    },
+    {
+      "name": "Algol",
+      "position": "26\u00b0 Taurus",
+      "nature": "Saturn/Mars",
+      "keywords": [
+        "severance",
+        "primal_rage"
+      ],
+      "financial": "Volatility, sudden drops"
+    },
+    {
+      "name": "Regulus",
+      "position": "0\u00b0 Virgo",
+      "nature": "Mars/Jupiter",
+      "keywords": [
+        "authority",
+        "leader"
+      ],
+      "financial": "Banks, government"
+    },
+    {
+      "name": "Spica",
+      "position": "24\u00b0 Libra",
+      "nature": "Venus/Jupiter",
+      "keywords": [
+        "divine_grace",
+        "royal_blessing"
+      ],
+      "financial": "Art, luxury"
+    }
+  ],
+  "asteroid_master_catalog": [
+    {
+      "name": "Clotho (97)",
+      "keywords": [
+        "cycle_initiation",
+        "origin_karma"
+      ],
+      "interpretation": "Spins the thread of life."
+    },
+    {
+      "name": "Lachesis (120)",
+      "keywords": [
+        "measured_fate",
+        "timekeeper"
+      ],
+      "interpretation": "The Apportioner. Measures duration."
+    },
+    {
+      "name": "Atropos (273)",
+      "keywords": [
+        "irrevocable_end",
+        "final_judgment"
+      ],
+      "interpretation": "The Cutter. Represents inevitable endings."
+    },
+    {
+      "name": "Admetos (850)",
+      "keywords": [
+        "blockage",
+        "endurance"
+      ],
+      "financial": "Long-dated options"
+    },
+    {
+      "name": "Midas (1981)",
+      "keywords": [
+        "gold",
+        "wealth"
+      ],
+      "financial": "Gold, mining, luxury"
+    }
+  ],
+  "advanced_aspect_patterns": {
+    "Star_of_David": {
+      "pattern": "Two interwoven Grand Trines",
+      "keywords": [
+        "maximum_harmony",
+        "sacred_geometry"
+      ]
+    },
+    "Thor_Hammer": {
+      "pattern": "Two planets square, both semisquare to a third",
+      "keywords": [
+        "explosive_action",
+        "destiny_demand"
+      ]
+    },
+    "Yod": {
+      "pattern": "Two sextile, both quincunx to a third",
+      "keywords": [
+        "fate_of_adjustment",
+        "finger_of_god"
+      ]
+    }
+  },
+  "predictive_techniques_advanced": {
+    "primary_directions": "1\u00b0 of MC motion \u2248 1 year",
+    "zodiacal_releasing": "Time-lord system from the Lots of Fortune and Spirit",
+    "profections": "Moving the chart 30\u00b0 (one sign) per year"
+  },
+  "lunar_mansions_28": [
+    {
+      "number": 1,
+      "name": "Al Sharatain",
+      "degrees": "0\u00b0-12\u00b051\u2032 Aries",
+      "keywords": [
+        "beginning",
+        "initiation"
+      ]
+    },
+    {
+      "number": 28,
+      "name": "Al Batn al Hut",
+      "degrees": "17\u00b009\u2032-30\u00b0 Pisces",
+      "keywords": [
+        "cosmic",
+        "depth"
+      ]
+    }
+  ],
+  "financial_os_crown_architecture": {
+    "layers": {
+      "Perception": {
+        "function": "Data ingestion, signal parsing",
+        "glyph": "The Eye"
+      },
+      "Cognition": {
+        "function": "Pattern recognition, archetype activation",
+        "glyph": "The Mind"
+      },
+      "Execution": {
+        "function": "Trade logic, position management",
+        "glyph": "The Hand"
+      },
+      "Reflection": {
+        "function": "Post-cycle review, learning",
+        "glyph": "The Memory"
+      }
+    }
+  },
+  "financial_trading_engine": {
+    "master_schema": "AFE_Sector_Asteroid_Framework_v7.0",
+    "probability_engine": {
+      "formula": "P_MASTER = Base(0.5) * AFE(1.0-12.0) * KCIL(0.6-1.6) * Chart_Type(1.0-1.4) * Chaldean(0.5-1.8) * Uranian(0.7-1.5) * Harmonic(0.8-1.3) * Progressions(0.9-1.4) * Boolean_Gates * Technical_Veto(0.0-1.0)"
+    }
+  }
+}

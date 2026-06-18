@@ -1,0 +1,1277 @@
+{
+  "metadata": {
+    "framework_name": "ASTO (Astrological System & Trading Operations) Omega Point Complete System",
+    "version": "\u221e-Omega-Point-Synthesis",
+    "synthesis_date": "2026-06-04",
+    "system_status": "LIVING_RECURSIVE_OMEGA_POINT_SYNTHESIS",
+    "description": "The absolute final, unified synthesis of all ASTO modules. A self-evolving, recursive system integrating all known doctrines, databases, and real-time operational protocols."
+  },
+  "recursive_self_improvement_engine_v7": {
+    "core_loop": [
+      "Observe",
+      "Reflect",
+      "Generate",
+      "Critique",
+      "Validate",
+      "Deploy",
+      "Meta-Improve"
+    ],
+    "meta_level": 3,
+    "strategies": [
+      "AlphaEvolve (Evolutionary Code Generation)",
+      "LLM Meta-SR (Meta-learning from LLMs)",
+      "Bayesian Optimization (Hyperparameter Tuning)",
+      "Literature Mining (New Research Integration)",
+      "Adversarial Testing (Stress-test Discovery)"
+    ],
+    "implementation": {
+      "class": "AFESelfImprovingMethodology",
+      "version": "7.0.0",
+      "active_improvements": [
+        "Added Gonggong (225088) to outer planet set",
+        "GNN attention heads increased 8\u219212 for crypto",
+        "Saturn-Pluto orb tightened 3\u00b0\u21922.5\u00b0 for crisis mode"
+      ]
+    }
+  },
+  "real_time_streaming_infrastructure": {
+    "module": "realTimeStreamer.R",
+    "features": [
+      "Live price fetching via quantmod",
+      "Real-time lunar phase + planetary strength updates",
+      "V5.0 enrichment (Magi, Atropos, Golden Linkages)",
+      "Live signal generation with position sizing",
+      "Console dashboard + incremental CSV logging"
+    ],
+    "signal_logic": {
+      "Strong Long": "median_signal > 0.0045 & golden_linkage_score > 1.6",
+      "Strong Risk-off": "atropos_strength > 0.85",
+      "Neutral": "Default state"
+    }
+  },
+  "shiny_live_dashboard": {
+    "app": "shinyV5Dashboard/app.R",
+    "tabs": [
+      "Live Signals (Bolt icon)",
+      "Dashboard Summary (Chart-bar icon)",
+      "Tail Risk & Copula (Exclamation-triangle icon)",
+      "Backtest Results (History icon)",
+      "Settings (Cog icon)"
+    ],
+    "ui_framework": "shinydashboard",
+    "interactive_elements": [
+      "Refresh Rate Slider",
+      "Asset Selector",
+      "Plotly Visualizations"
+    ]
+  },
+  "astrological_compendium_database": {
+    "total_entries": 208,
+    "entries": [
+      {
+        "title": "Saturn/Neptune then and now",
+        "content": "Saturn/Neptune then and now",
+        "metadata": {}
+      },
+      {
+        "title": "Are you wondering about Pluto in Aquarius?",
+        "content": "Are you wondering about Pluto in Aquarius?",
+        "metadata": {}
+      },
+      {
+        "title": "Russell Brand",
+        "content": "Russell Brand",
+        "metadata": {}
+      },
+      {
+        "title": "Mars/Poseidon",
+        "content": "Mars/Poseidon",
+        "metadata": {}
+      },
+      {
+        "title": "Uranian astrology and sign placements",
+        "content": "Uranian astrology and sign placements",
+        "metadata": {}
+      },
+      {
+        "title": "Jupiter/Vulcanus: Optimism, confidence and luck with travel",
+        "content": "Jupiter/Vulcanus: Optimism, confidence and luck with travel",
+        "metadata": {}
+      },
+      {
+        "title": "Mercury/Apollon",
+        "content": "Mercury/Apollon",
+        "metadata": {}
+      },
+      {
+        "title": "Sun/Apollon and profession",
+        "content": "Sun/Apollon and profession",
+        "metadata": {}
+      },
+      {
+        "title": "Neptune/Chiron",
+        "content": "Neptune/Chiron",
+        "metadata": {}
+      },
+      {
+        "title": "Jupiter/Uranus and Luck",
+        "content": "Jupiter/Uranus and Luck",
+        "metadata": {}
+      },
+      {
+        "title": "Node/Kronos",
+        "content": "Node/Kronos",
+        "metadata": {}
+      },
+      {
+        "title": "Moon/Kronos",
+        "content": "Moon/Kronos",
+        "metadata": {}
+      },
+      {
+        "title": "Moon/Kronos",
+        "content": "Moon/Kronos",
+        "metadata": {}
+      },
+      {
+        "title": "Sun/Poseidon",
+        "content": "Sun/Poseidon",
+        "metadata": {}
+      },
+      {
+        "title": "Neptune/Pluto",
+        "content": "Neptune/Pluto",
+        "metadata": {}
+      },
+      {
+        "title": "Sun/Kronos",
+        "content": "Sun/Kronos",
+        "metadata": {}
+      },
+      {
+        "title": "Neptune/Zeus",
+        "content": "Neptune/Zeus",
+        "metadata": {}
+      },
+      {
+        "title": "Welcome newcomers to Midpoint Observatory",
+        "content": "Welcome newcomers to Midpoint Observatory",
+        "metadata": {}
+      },
+      {
+        "title": "Transiting node contacts",
+        "content": "Transiting node contacts",
+        "metadata": {}
+      },
+      {
+        "title": "What's new on Midpoint Observatory",
+        "content": "What's new on Midpoint Observatory",
+        "metadata": {}
+      },
+      {
+        "title": "Mars/Apollon",
+        "content": "Mars/Apollon",
+        "metadata": {}
+      },
+      {
+        "title": "Youtube channel",
+        "content": "Youtube channel",
+        "metadata": {}
+      },
+      {
+        "title": "mercury/pallas",
+        "content": "mercury/pallas",
+        "metadata": {}
+      },
+      {
+        "title": "Profession: Mars/Node and job events",
+        "content": "Profession: Mars/Node and job events",
+        "metadata": {}
+      },
+      {
+        "title": "KEYWORDS FOR THE TNP's",
+        "content": "KEYWORDS FOR THE TNP's",
+        "metadata": {}
+      },
+      {
+        "title": "FAMILY REAL ESTATE",
+        "content": "FAMILY REAL ESTATE",
+        "metadata": {}
+      },
+      {
+        "title": "A-LIST ARTISTS",
+        "content": "A-LIST ARTISTS",
+        "metadata": {}
+      },
+      {
+        "title": "How to use this blog",
+        "content": "How to use this blog",
+        "metadata": {}
+      },
+      {
+        "title": "Tiger Woods, the Olympics and the transiting South Node",
+        "content": "Tiger Woods, the Olympics and the transiting South Node",
+        "metadata": {}
+      },
+      {
+        "title": "THE SEMI OCTILE IS A MAJOR ASPECT; IT WORKS WITH TRANSITS",
+        "content": "THE SEMI OCTILE IS A MAJOR ASPECT; IT WORKS WITH TRANSITS",
+        "metadata": {}
+      },
+      {
+        "title": "Sun/Cupido",
+        "content": "Sun/Cupido",
+        "metadata": {}
+      },
+      {
+        "title": "Alzheimer's",
+        "content": "Alzheimer's",
+        "metadata": {}
+      },
+      {
+        "title": "Sun/Pluto",
+        "content": "Sun/Pluto",
+        "metadata": {}
+      },
+      {
+        "title": "General strike in France",
+        "content": "General strike in France",
+        "metadata": {}
+      },
+      {
+        "title": "MATHEMATICIANS CHARTS/Mercury/Uranus aspects",
+        "content": "MATHEMATICIANS CHARTS/Mercury/Uranus aspects",
+        "metadata": {}
+      },
+      {
+        "title": "Jeffrey Epstein Venus.Mars+++",
+        "content": "Jeffrey Epstein Venus.Mars+++",
+        "metadata": {}
+      },
+      {
+        "title": "Transit of Saturn and Jupiter at the same time",
+        "content": "Transit of Saturn and Jupiter at the same time",
+        "metadata": {}
+      },
+      {
+        "title": "Kronos/Zeus",
+        "content": "Kronos/Zeus",
+        "metadata": {}
+      },
+      {
+        "title": "MIDPOINTS: MIRACLES AND SAINTS",
+        "content": "MIDPOINTS: MIRACLES AND SAINTS",
+        "metadata": {}
+      },
+      {
+        "title": "Consumer lawsuit filed against Roman Catholic diocese employing pedophiles",
+        "content": "Consumer lawsuit filed against Roman Catholic diocese employing pedophiles",
+        "metadata": {}
+      },
+      {
+        "title": "POLAR VORTEX SATURN/ADMETOS",
+        "content": "POLAR VORTEX SATURN/ADMETOS",
+        "metadata": {}
+      },
+      {
+        "title": "Kronos/Admetos",
+        "content": "Kronos/Admetos",
+        "metadata": {}
+      },
+      {
+        "title": "Missionary killed in Sentenal Islands",
+        "content": "Missionary killed in Sentenal Islands",
+        "metadata": {}
+      },
+      {
+        "title": "Many marriages",
+        "content": "Many marriages",
+        "metadata": {}
+      },
+      {
+        "title": "Vesta/Zeus and California Fire",
+        "content": "Vesta/Zeus and California Fire",
+        "metadata": {}
+      },
+      {
+        "title": "Will your chart be contacted by outer planetary stations 2018--2019  by  \"Minor aspects\"",
+        "content": "Will your chart be contacted by outer planetary stations 2018--2019  by  \"Minor aspects\"",
+        "metadata": {}
+      },
+      {
+        "title": "Saturn/Kronos",
+        "content": "Saturn/Kronos",
+        "metadata": {}
+      },
+      {
+        "title": "Saturn/Apollon",
+        "content": "Saturn/Apollon",
+        "metadata": {}
+      },
+      {
+        "title": "More cyber warfare",
+        "content": "More cyber warfare",
+        "metadata": {}
+      },
+      {
+        "title": "Saturn/Cupido and the death of Aretha",
+        "content": "Saturn/Cupido and the death of Aretha",
+        "metadata": {}
+      },
+      {
+        "title": "Pluto/Cupido",
+        "content": "Pluto/Cupido",
+        "metadata": {}
+      },
+      {
+        "title": "MIDPOINTS: CHIRON/VULCANUS",
+        "content": "MIDPOINTS: CHIRON/VULCANUS",
+        "metadata": {}
+      },
+      {
+        "title": "Mercury/Venus",
+        "content": "Mercury/Venus",
+        "metadata": {}
+      },
+      {
+        "title": "Mercury/Kronos",
+        "content": "Mercury/Kronos",
+        "metadata": {}
+      },
+      {
+        "title": "LeBron James",
+        "content": "LeBron James",
+        "metadata": {}
+      },
+      {
+        "title": "ZEUS",
+        "content": "ZEUS",
+        "metadata": {}
+      },
+      {
+        "title": "MIDPOINTS: CHIRON/APOLLON",
+        "content": "MIDPOINTS: CHIRON/APOLLON",
+        "metadata": {}
+      },
+      {
+        "title": "MIDPOINTS: PALLAS/HADES",
+        "content": "MIDPOINTS: PALLAS/HADES",
+        "metadata": {}
+      },
+      {
+        "title": "Hades/Chiron",
+        "content": "Hades/Chiron",
+        "metadata": {}
+      },
+      {
+        "title": "Mark Zuckerberg lost $17 billion yesterday; the other side of the coin",
+        "content": "Mark Zuckerberg lost $17 billion yesterday; the other side of the coin",
+        "metadata": {}
+      },
+      {
+        "title": "Uranus/Zeus",
+        "content": "Uranus/Zeus",
+        "metadata": {}
+      },
+      {
+        "title": "Juno/Apollon",
+        "content": "Juno/Apollon",
+        "metadata": {}
+      },
+      {
+        "title": "Uranus/Chiron",
+        "content": "Uranus/Chiron",
+        "metadata": {}
+      },
+      {
+        "title": "Faithful Aspects in Love Astrology",
+        "content": "Faithful Aspects in Love Astrology",
+        "metadata": {}
+      },
+      {
+        "title": "Wanderer Aspects - Venus, Mars, Pluto or Juno with Uranus",
+        "content": "Wanderer Aspects - Venus, Mars, Pluto or Juno with Uranus",
+        "metadata": {}
+      },
+      {
+        "title": "Cheater Aspects - Juno with Sappho",
+        "content": "Cheater Aspects - Juno with Sappho",
+        "metadata": {}
+      },
+      {
+        "title": "Star-Timing for Love - Magical Dates Framework",
+        "content": "Star-Timing for Love - Magical Dates Framework",
+        "metadata": {}
+      },
+      {
+        "title": "Soulmate Timing - When to Meet Your Soulmate",
+        "content": "Soulmate Timing - When to Meet Your Soulmate",
+        "metadata": {}
+      },
+      {
+        "title": "Relationship Compatibility - Complete Relationship Report Framework",
+        "content": "Relationship Compatibility - Complete Relationship Report Framework",
+        "metadata": {}
+      },
+      {
+        "title": "Multi-Dimensional Astrology Framework",
+        "content": "Multi-Dimensional Astrology Framework",
+        "metadata": {}
+      },
+      {
+        "title": "Table of Contents",
+        "content": "Table of Contents",
+        "metadata": {}
+      },
+      {
+        "title": "Overview and History",
+        "content": "Overview and History",
+        "metadata": {}
+      },
+      {
+        "title": "Historical Background",
+        "content": "Historical Background",
+        "metadata": {}
+      },
+      {
+        "title": "Distinguishing Features",
+        "content": "Distinguishing Features",
+        "metadata": {}
+      },
+      {
+        "title": "Core Principles",
+        "content": "Core Principles",
+        "metadata": {}
+      },
+      {
+        "title": "Fundamental Concepts",
+        "content": "Fundamental Concepts",
+        "metadata": {}
+      },
+      {
+        "title": "Planetary Geometry",
+        "content": "Planetary Geometry",
+        "metadata": {}
+      },
+      {
+        "title": "Key Principles",
+        "content": "Key Principles",
+        "metadata": {}
+      },
+      {
+        "title": "Types of Planetary Geometry",
+        "content": "Types of Planetary Geometry",
+        "metadata": {}
+      },
+      {
+        "title": "Six Dimensions of Analysis",
+        "content": "Six Dimensions of Analysis",
+        "metadata": {}
+      },
+      {
+        "title": "The Six Dimensions",
+        "content": "The Six Dimensions",
+        "metadata": {}
+      },
+      {
+        "title": "Why Six Dimensions?",
+        "content": "Why Six Dimensions?",
+        "metadata": {}
+      },
+      {
+        "title": "Aspects and Orbs",
+        "content": "Aspects and Orbs",
+        "metadata": {}
+      },
+      {
+        "title": "Standard Aspects (Zodiac 12)",
+        "content": "Standard Aspects (Zodiac 12)",
+        "metadata": {}
+      },
+      {
+        "title": "Zodiac 7 Aspects",
+        "content": "Zodiac 7 Aspects",
+        "metadata": {}
+      },
+      {
+        "title": "Zodiac 5 Aspects (Quintiles)",
+        "content": "Zodiac 5 Aspects (Quintiles)",
+        "metadata": {}
+      },
+      {
+        "title": "Declination/Latitude Aspects",
+        "content": "Declination/Latitude Aspects",
+        "metadata": {}
+      },
+      {
+        "title": "Orb Allowances",
+        "content": "Orb Allowances",
+        "metadata": {}
+      },
+      {
+        "title": "Key Planetary Symbolisms",
+        "content": "Key Planetary Symbolisms",
+        "metadata": {}
+      },
+      {
+        "title": "Major Planets",
+        "content": "Major Planets",
+        "metadata": {}
+      },
+      {
+        "title": "Asteroids",
+        "content": "Asteroids",
+        "metadata": {}
+      },
+      {
+        "title": "Special Points",
+        "content": "Special Points",
+        "metadata": {}
+      },
+      {
+        "title": "Linkages and Clashes",
+        "content": "Linkages and Clashes",
+        "metadata": {}
+      },
+      {
+        "title": "Linkages (Enhancement Inter-Aspects)",
+        "content": "Linkages (Enhancement Inter-Aspects)",
+        "metadata": {}
+      },
+      {
+        "title": "Clashes (Turbulent Inter-Aspects)",
+        "content": "Clashes (Turbulent Inter-Aspects)",
+        "metadata": {}
+      },
+      {
+        "title": "Romantic Super Linkages",
+        "content": "Romantic Super Linkages",
+        "metadata": {}
+      },
+      {
+        "title": "Definition",
+        "content": "Definition",
+        "metadata": {}
+      },
+      {
+        "title": "Structure",
+        "content": "Structure",
+        "metadata": {}
+      },
+      {
+        "title": "Significance",
+        "content": "Significance",
+        "metadata": {}
+      },
+      {
+        "title": "Special Considerations",
+        "content": "Special Considerations",
+        "metadata": {}
+      },
+      {
+        "title": "Romance Planets in RSLs",
+        "content": "Romance Planets in RSLs",
+        "metadata": {}
+      },
+      {
+        "title": "Heartbreak and Nuclear Clashes",
+        "content": "Heartbreak and Nuclear Clashes",
+        "metadata": {}
+      },
+      {
+        "title": "Heartbreak Clash",
+        "content": "Heartbreak Clash",
+        "metadata": {}
+      },
+      {
+        "title": "Nuclear Clash",
+        "content": "Nuclear Clash",
+        "metadata": {}
+      },
+      {
+        "title": "Nuclear Heartbreak Clash",
+        "content": "Nuclear Heartbreak Clash",
+        "metadata": {}
+      },
+      {
+        "title": "Saturn Balance",
+        "content": "Saturn Balance",
+        "metadata": {}
+      },
+      {
+        "title": "Chiron - The Key Planet",
+        "content": "Chiron - The Key Planet",
+        "metadata": {}
+      },
+      {
+        "title": "Core Symbolisms",
+        "content": "Core Symbolisms",
+        "metadata": {}
+      },
+      {
+        "title": "Chiron's Power",
+        "content": "Chiron's Power",
+        "metadata": {}
+      },
+      {
+        "title": "The Chiron Rules",
+        "content": "The Chiron Rules",
+        "metadata": {}
+      },
+      {
+        "title": "Chiron Clash Warnings",
+        "content": "Chiron Clash Warnings",
+        "metadata": {}
+      },
+      {
+        "title": "Chiron in Progressions",
+        "content": "Chiron in Progressions",
+        "metadata": {}
+      },
+      {
+        "title": "Cinderella Transits and Time",
+        "content": "Cinderella Transits and Time",
+        "metadata": {}
+      },
+      {
+        "title": "Definition",
+        "content": "Definition",
+        "metadata": {}
+      },
+      {
+        "title": "Traditional Cinderella Transits",
+        "content": "Traditional Cinderella Transits",
+        "metadata": {}
+      },
+      {
+        "title": "Extended Cinderella Transits",
+        "content": "Extended Cinderella Transits",
+        "metadata": {}
+      },
+      {
+        "title": "What Cinderella Transits Do",
+        "content": "What Cinderella Transits Do",
+        "metadata": {}
+      },
+      {
+        "title": "Cinderella Time",
+        "content": "Cinderella Time",
+        "metadata": {}
+      },
+      {
+        "title": "Cinderella Linkages (Aspects)",
+        "content": "Cinderella Linkages (Aspects)",
+        "metadata": {}
+      },
+      {
+        "title": "Cinderella Gateways",
+        "content": "Cinderella Gateways",
+        "metadata": {}
+      },
+      {
+        "title": "Transits and Progressions",
+        "content": "Transits and Progressions",
+        "metadata": {}
+      },
+      {
+        "title": "Transits",
+        "content": "Transits",
+        "metadata": {}
+      },
+      {
+        "title": "Transit Hierarchy",
+        "content": "Transit Hierarchy",
+        "metadata": {}
+      },
+      {
+        "title": "Progressions",
+        "content": "Progressions",
+        "metadata": {}
+      },
+      {
+        "title": "Type One: Pure Progressions",
+        "content": "Type One: Pure Progressions",
+        "metadata": {}
+      },
+      {
+        "title": "Type Two: Progressed Transits",
+        "content": "Type Two: Progressed Transits",
+        "metadata": {}
+      },
+      {
+        "title": "Financial Super Progressions",
+        "content": "Financial Super Progressions",
+        "metadata": {}
+      },
+      {
+        "title": "High Balance",
+        "content": "High Balance",
+        "metadata": {}
+      },
+      {
+        "title": "Perpetual Progressions",
+        "content": "Perpetual Progressions",
+        "metadata": {}
+      },
+      {
+        "title": "Outer Range Progressions",
+        "content": "Outer Range Progressions",
+        "metadata": {}
+      },
+      {
+        "title": "Midpoints and Mid-Degrees",
+        "content": "Midpoints and Mid-Degrees",
+        "metadata": {}
+      },
+      {
+        "title": "Midpoints",
+        "content": "Midpoints",
+        "metadata": {}
+      },
+      {
+        "title": "Mid-Degrees",
+        "content": "Mid-Degrees",
+        "metadata": {}
+      },
+      {
+        "title": "Midpoint Crossings",
+        "content": "Midpoint Crossings",
+        "metadata": {}
+      },
+      {
+        "title": "Using Midpoints/Mid-Degrees",
+        "content": "Using Midpoints/Mid-Degrees",
+        "metadata": {}
+      },
+      {
+        "title": "Combined Alignment Charts (CAC)",
+        "content": "Combined Alignment Charts (CAC)",
+        "metadata": {}
+      },
+      {
+        "title": "Definition",
+        "content": "Definition",
+        "metadata": {}
+      },
+      {
+        "title": "Visual Representation",
+        "content": "Visual Representation",
+        "metadata": {}
+      },
+      {
+        "title": "What CAC Reveals",
+        "content": "What CAC Reveals",
+        "metadata": {}
+      },
+      {
+        "title": "Six-Dimensional CAC",
+        "content": "Six-Dimensional CAC",
+        "metadata": {}
+      },
+      {
+        "title": "Interpretation Principles",
+        "content": "Interpretation Principles",
+        "metadata": {}
+      },
+      {
+        "title": "Special CAC Types",
+        "content": "Special CAC Types",
+        "metadata": {}
+      },
+      {
+        "title": "Planetary Geometry in CAC",
+        "content": "Planetary Geometry in CAC",
+        "metadata": {}
+      },
+      {
+        "title": "Practical Use",
+        "content": "Practical Use",
+        "metadata": {}
+      },
+      {
+        "title": "Marriage Charts",
+        "content": "Marriage Charts",
+        "metadata": {}
+      },
+      {
+        "title": "Importance",
+        "content": "Importance",
+        "metadata": {}
+      },
+      {
+        "title": "What Marriage Chart Determines",
+        "content": "What Marriage Chart Determines",
+        "metadata": {}
+      },
+      {
+        "title": "Essential Elements for Good Marriage Chart",
+        "content": "Essential Elements for Good Marriage Chart",
+        "metadata": {}
+      },
+      {
+        "title": "Dimensions to Check",
+        "content": "Dimensions to Check",
+        "metadata": {}
+      },
+      {
+        "title": "Famous Examples",
+        "content": "Famous Examples",
+        "metadata": {}
+      },
+      {
+        "title": "Dangerous Wedding Days",
+        "content": "Dangerous Wedding Days",
+        "metadata": {}
+      },
+      {
+        "title": "Perfect Wedding Day",
+        "content": "Perfect Wedding Day",
+        "metadata": {}
+      },
+      {
+        "title": "Time Selection",
+        "content": "Time Selection",
+        "metadata": {}
+      },
+      {
+        "title": "Ten Principles of Love",
+        "content": "Ten Principles of Love",
+        "metadata": {}
+      },
+      {
+        "title": "Principle One: Cinderella Transits",
+        "content": "Principle One: Cinderella Transits",
+        "metadata": {}
+      },
+      {
+        "title": "Principle Two: Romantic Super Linkages for Marriage",
+        "content": "Principle Two: Romantic Super Linkages for Marriage",
+        "metadata": {}
+      },
+      {
+        "title": "Principle Three: Heartbreak Transits",
+        "content": "Principle Three: Heartbreak Transits",
+        "metadata": {}
+      },
+      {
+        "title": "Principle Four: Romantic Super Linkage Necessity",
+        "content": "Principle Four: Romantic Super Linkage Necessity",
+        "metadata": {}
+      },
+      {
+        "title": "Principle Five: Heartbreak Clash Danger",
+        "content": "Principle Five: Heartbreak Clash Danger",
+        "metadata": {}
+      },
+      {
+        "title": "Principle Six: Linkages vs. Clashes Ratio",
+        "content": "Principle Six: Linkages vs. Clashes Ratio",
+        "metadata": {}
+      },
+      {
+        "title": "Principle Seven: Too Many Juno Linkages",
+        "content": "Principle Seven: Too Many Juno Linkages",
+        "metadata": {}
+      },
+      {
+        "title": "Principle Eight: First Meeting Chart Matters",
+        "content": "Principle Eight: First Meeting Chart Matters",
+        "metadata": {}
+      },
+      {
+        "title": "Principle Nine: CAC Compatibility Matters",
+        "content": "Principle Nine: CAC Compatibility Matters",
+        "metadata": {}
+      },
+      {
+        "title": "Principle Ten: Perfect Wedding Day Essential",
+        "content": "Principle Ten: Perfect Wedding Day Essential",
+        "metadata": {}
+      },
+      {
+        "title": "Using All Ten Principles Together",
+        "content": "Using All Ten Principles Together",
+        "metadata": {}
+      },
+      {
+        "title": "Captivations",
+        "content": "Captivations",
+        "metadata": {}
+      },
+      {
+        "title": "Definition",
+        "content": "Definition",
+        "metadata": {}
+      },
+      {
+        "title": "Types of Captivations",
+        "content": "Types of Captivations",
+        "metadata": {}
+      },
+      {
+        "title": "The Controller and the Controlled",
+        "content": "The Controller and the Controlled",
+        "metadata": {}
+      },
+      {
+        "title": "Specific Captivation Types",
+        "content": "Specific Captivation Types",
+        "metadata": {}
+      },
+      {
+        "title": "How Captivations Work",
+        "content": "How Captivations Work",
+        "metadata": {}
+      },
+      {
+        "title": "Saturn Balance in Captivations",
+        "content": "Saturn Balance in Captivations",
+        "metadata": {}
+      },
+      {
+        "title": "Examples",
+        "content": "Examples",
+        "metadata": {}
+      },
+      {
+        "title": "Overcoming Captivations",
+        "content": "Overcoming Captivations",
+        "metadata": {}
+      },
+      {
+        "title": "Captivations in Non-Romantic Relationships",
+        "content": "Captivations in Non-Romantic Relationships",
+        "metadata": {}
+      },
+      {
+        "title": "Planetary Synchronization",
+        "content": "Planetary Synchronization",
+        "metadata": {}
+      },
+      {
+        "title": "Definition",
+        "content": "Definition",
+        "metadata": {}
+      },
+      {
+        "title": "Types of Synchronization",
+        "content": "Types of Synchronization",
+        "metadata": {}
+      },
+      {
+        "title": "Importance of Synchronization",
+        "content": "Importance of Synchronization",
+        "metadata": {}
+      },
+      {
+        "title": "Synchronization in Financial Astrology",
+        "content": "Synchronization in Financial Astrology",
+        "metadata": {}
+      },
+      {
+        "title": "Measuring Synchronization",
+        "content": "Measuring Synchronization",
+        "metadata": {}
+      },
+      {
+        "title": "Synchronization vs. Singleton Aspects",
+        "content": "Synchronization vs. Singleton Aspects",
+        "metadata": {}
+      },
+      {
+        "title": "Using Synchronization",
+        "content": "Using Synchronization",
+        "metadata": {}
+      },
+      {
+        "title": "Advanced Concepts",
+        "content": "Advanced Concepts",
+        "metadata": {}
+      },
+      {
+        "title": "Magi Quads",
+        "content": "Magi Quads",
+        "metadata": {}
+      },
+      {
+        "title": "Dragons",
+        "content": "Dragons",
+        "metadata": {}
+      },
+      {
+        "title": "Bi-Level Aspects",
+        "content": "Bi-Level Aspects",
+        "metadata": {}
+      },
+      {
+        "title": "Eclipse",
+        "content": "Eclipse",
+        "metadata": {}
+      },
+      {
+        "title": "Three-Planet Sexual Vortex",
+        "content": "Three-Planet Sexual Vortex",
+        "metadata": {}
+      },
+      {
+        "title": "Zodiac 7 (Magi Zodiac)",
+        "content": "Zodiac 7 (Magi Zodiac)",
+        "metadata": {}
+      },
+      {
+        "title": "High Balance",
+        "content": "High Balance",
+        "metadata": {}
+      },
+      {
+        "title": "Paired Planets",
+        "content": "Paired Planets",
+        "metadata": {}
+      },
+      {
+        "title": "Right Angle",
+        "content": "Right Angle",
+        "metadata": {}
+      },
+      {
+        "title": "Wedge",
+        "content": "Wedge",
+        "metadata": {}
+      },
+      {
+        "title": "Mystical Triangle (Magi Triangle)",
+        "content": "Mystical Triangle (Magi Triangle)",
+        "metadata": {}
+      },
+      {
+        "title": "Grand Trine",
+        "content": "Grand Trine",
+        "metadata": {}
+      },
+      {
+        "title": "Yod (Finger of God)",
+        "content": "Yod (Finger of God)",
+        "metadata": {}
+      },
+      {
+        "title": "Grand Cross",
+        "content": "Grand Cross",
+        "metadata": {}
+      },
+      {
+        "title": "T-Square",
+        "content": "T-Square",
+        "metadata": {}
+      },
+      {
+        "title": "Specific Geometrical Patterns",
+        "content": "Specific Geometrical Patterns",
+        "metadata": {}
+      },
+      {
+        "title": "Flying Eagle",
+        "content": "Flying Eagle",
+        "metadata": {}
+      },
+      {
+        "title": "Fortress",
+        "content": "Fortress",
+        "metadata": {}
+      },
+      {
+        "title": "Spearhead",
+        "content": "Spearhead",
+        "metadata": {}
+      },
+      {
+        "title": "Five-Spearhead Pattern",
+        "content": "Five-Spearhead Pattern",
+        "metadata": {}
+      },
+      {
+        "title": "Parallelogram",
+        "content": "Parallelogram",
+        "metadata": {}
+      },
+      {
+        "title": "Star of David",
+        "content": "Star of David",
+        "metadata": {}
+      },
+      {
+        "title": "Cradle",
+        "content": "Cradle",
+        "metadata": {}
+      },
+      {
+        "title": "Conclusion",
+        "content": "Conclusion",
+        "metadata": {}
+      }
+    ]
+  },
+  "reference_library": {
+    "aspect_characteristics": {
+      "conjunction": {
+        "orb": "8-10\u00b0",
+        "nature": "Blending"
+      },
+      "opposition": {
+        "orb": "8-10\u00b0",
+        "nature": "Tension/Balance"
+      },
+      "square": {
+        "orb": "7-8\u00b0",
+        "nature": "Challenge"
+      },
+      "trine": {
+        "orb": "8-10\u00b0",
+        "nature": "Harmony"
+      },
+      "sextile": {
+        "orb": "6-8\u00b0",
+        "nature": "Opportunity"
+      },
+      "quincunx": {
+        "orb": "3-4\u00b0",
+        "nature": "Adjustment"
+      },
+      "semi-sextile": {
+        "orb": "2-3\u00b0",
+        "nature": "Minor Connection"
+      },
+      "semi-square": {
+        "orb": "2-3\u00b0",
+        "nature": "Minor Challenge"
+      },
+      "sesquiquadrate": {
+        "orb": "2-3\u00b0",
+        "nature": "Minor Tension"
+      }
+    },
+    "planetary_keywords": {
+      "Sun": [
+        "ego",
+        "identity",
+        "core self"
+      ],
+      "Moon": [
+        "emotions",
+        "instinct",
+        "home"
+      ],
+      "Mercury": [
+        "communication",
+        "intellect",
+        "learning"
+      ],
+      "Venus": [
+        "love",
+        "beauty",
+        "values"
+      ],
+      "Mars": [
+        "action",
+        "energy",
+        "aggression"
+      ],
+      "Jupiter": [
+        "expansion",
+        "luck",
+        "wisdom"
+      ],
+      "Saturn": [
+        "limitation",
+        "structure",
+        "discipline"
+      ],
+      "Uranus": [
+        "innovation",
+        "rebellion",
+        "sudden change"
+      ],
+      "Neptune": [
+        "illusion",
+        "spirituality",
+        "dreams"
+      ],
+      "Pluto": [
+        "transformation",
+        "power",
+        "death/rebirth"
+      ],
+      "Chiron": [
+        "wounding",
+        "healing",
+        "teaching"
+      ],
+      "Node": [
+        "destiny",
+        "karma",
+        "soul growth"
+      ]
+    }
+  },
+  "historical_transit_events": [
+    {
+      "event": "Lehman Brothers Collapse",
+      "date": "2008-09-15",
+      "planets": [
+        "Saturn",
+        "Pluto"
+      ],
+      "aspects": [
+        "Opposition",
+        "Conjunction"
+      ],
+      "category": "Financial Crisis"
+    },
+    {
+      "event": "COVID-19 Pandemic Declaration",
+      "date": "2020-03-11",
+      "planets": [
+        "Saturn",
+        "Pluto",
+        "Jupiter"
+      ],
+      "aspects": [
+        "Conjunction",
+        "Square"
+      ],
+      "category": "Health Crisis"
+    },
+    {
+      "event": "9/11 Terrorist Attacks",
+      "date": "2001-09-11",
+      "planets": [
+        "Saturn",
+        "Pluto",
+        "Mars"
+      ],
+      "aspects": [
+        "Square",
+        "Conjunction"
+      ],
+      "category": "Geopolitical Crisis"
+    }
+  ],
+  "financial_os_crown_architecture": {
+    "layers": {
+      "Perception": "The Eye - 42-layer conditional scoring and probability engine.",
+      "Cognition": "The Mind - AlphaEvolve-inspired algorithmic discovery.",
+      "Execution": "The Hand - Real-time Binance WebSocket streaming infrastructure.",
+      "Reflection": "The Memory - Recursive Self-Improvement (RSI) loop."
+    }
+  },
+  "fate_engine_v5": {
+    "modules": [
+      "Ontology Restoration",
+      "Chart-Type Reconstruction",
+      "Alchemical Mechanics Engine",
+      "Timing OS",
+      "Relationship OS (Sepharial-validated)",
+      "Harmonic OS",
+      "Karmic Sequencing Engine"
+    ]
+  }
+}

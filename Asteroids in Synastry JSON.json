@@ -1,0 +1,132 @@
+{
+  "asteroids_in_synastry": {
+    "title": "Asteroids and Synastry",
+    "overview": {
+      "synastry_definition": "A branch of astrology that examines how the positions of planets in one person's birth chart relate to those in another person's natal chart. A tool for assessing compatibility in love and understanding relationship dynamics by comparing key elements like the Sun, Moon, Venus, Mars, and more.",
+      "purpose": "Helps identify areas of harmony, challenges, and attraction between individuals based on their astrological profiles",
+      "asteroid_role": "When it comes to synastry, asteroids can come handy when trying to understand the dynamics between two people"
+    },
+    "asteroids": {
+      "black_moon_lilith": {
+        "mythology": "Unleashed, raw feminine figure who has no master and is empowered, sexual and untamed",
+        "relevance": {
+          "for_longevity": "Overrated and not particularly relevant for longevity and compatibility",
+          "for_chemistry": "Definite indication of chemistry, especially with Venus-Lilith or Mars-Lilith contacts"
+        },
+        "synastry_effect": {
+          "component": "Sexual chemistry and exploration",
+          "experience": "You don't feel judged, shy, or self-conscious with your partner. Element of sexual spark and fun that keeps you interested and excited",
+          "value": "Would not give it more value than chemistry and sexual spark"
+        },
+        "common_contacts": [
+          "Venus-Lilith",
+          "Mars-Lilith"
+        ]
+      },
+      "chiron": {
+        "represents": "Wounding and healing",
+        "relevance": "Most definitely interesting in relationships. These themes are always present in important relationships",
+        "common_aspects": [
+          "Chiron conjunct personal planets",
+          "Hard or flowing contacts to personal planets",
+          "Chiron-Sun",
+          "Chiron-Moon",
+          "Chiron-Venus"
+        ],
+        "hard_aspects": {
+          "is_dealbreaker": false,
+          "chiron_moon": "Element of hunger that is quite noticeable. No matter how much love and closeness you experience, there seems to be a constant need for more",
+          "brings": "Healing, but with painful friction throughout the process",
+          "note": "Relationships thrive on friction, that is what keeps us interested"
+        },
+        "flowing_aspects": {
+          "brings": "Healing"
+        },
+        "requirements": "Both partners need to be mature and conscious to avoid projecting own pain on partner (especially with strong Chiron)",
+        "specific_meanings": {
+          "chiron_mars": "Can stand for a sexually healing relationship",
+          "chiron_sun": "Very often present in synastry of wedded partners"
+        }
+      },
+      "juno": {
+        "conflicting_interpretations": [
+          "Indication of 'wedded partner' asteroid",
+          "Indication of 'mistress'"
+        ],
+        "research_findings": {
+          "prominence": "Definitely prominent in wedded partners",
+          "most_frequent_aspects": [
+            "Juno-Sun",
+            "Juno-Juno conjunction",
+            "Juno-Juno opposition"
+          ],
+          "not_indication_of": [
+            "Mistress",
+            "Cheating",
+            "Betrayal"
+          ]
+        },
+        "specific_meanings": {
+          "juno_venus": "Common in synastry where there is a lot of attraction and appreciation",
+          "juno_sun_flowing": "Partner that represents an ideal",
+          "juno_vertex": "Very common",
+          "juno_north_node": "Very common"
+        },
+        "research_source": "http://astroinvestigators.com/pdf/marriagesyn.pdf"
+      },
+      "ceres": {
+        "represents": "Nurturance and care",
+        "prominence": "Often prominent in synastry, both from research and personal experience",
+        "common_aspects": {
+          "planets": [
+            "Sun",
+            "Moon",
+            "Jupiter"
+          ],
+          "aspect_types_personal_experience": [
+            "Trine",
+            "Sextile"
+          ],
+          "aspect_types_research": [
+            "Conjunction",
+            "Opposition"
+          ]
+        }
+      },
+      "vertex": {
+        "description": "So much romance around that one",
+        "common_contacts": [
+          "Vertex-Sun",
+          "Vertex-Jupiter",
+          "Vertex-North Node",
+          "Vertex-Ascendant"
+        ],
+        "research_findings": {
+          "wedded_partners": "Vertex aspects to North Node was a common one in wedded partners"
+        },
+        "personal_experience": {
+          "significant": "Aspects between Vertex and Sun to be significant in important relationships"
+        }
+      }
+    },
+    "summary": {
+      "most_relevant_for_longevity": [
+        "Chiron",
+        "Juno",
+        "Ceres",
+        "Vertex"
+      ],
+      "most_relevant_for_chemistry": [
+        "Black Moon Lilith"
+      ],
+      "common_in_wedded_partners": [
+        "Juno-Sun",
+        "Juno-Juno",
+        "Chiron-Sun",
+        "Vertex-North Node"
+      ]
+    },
+    "source": "https://www.lookupthestars.com/post/asteroids-and-synastry",
+    "author": "Julia Topaz"
+  }
+}

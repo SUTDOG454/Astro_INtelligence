@@ -1,0 +1,127 @@
+{
+  "metadata": {
+    "framework_name": "ASTO (Astrological System & Trading Operations) Complete System",
+    "version": "30.0-Ultimate-Complete-System",
+    "synthesis_date": "2026-05-06",
+    "system_status": "PRODUCTION_READY_ULTIMATE_SYNTHESIS",
+    "description": "The absolute final, unified synthesis of all ASTO modules, integrating the Fate-Engine, Financial OS Crown Architecture, RSI Engine, and Real-Time Infrastructure into a single, self-evolving complete system."
+  },
+  "core_architecture": {
+    "fate_engine": {
+      "purpose": "Production-grade specification for chart calculation, interpretation, and narrative synthesis.",
+      "modules": [
+        "Ontology Restoration",
+        "Chart-Type Reconstruction",
+        "Alchemical Mechanics Engine",
+        "Timing OS",
+        "Relationship OS",
+        "Harmonic OS",
+        "Karmic Sequencing Engine"
+      ]
+    },
+    "financial_os_crown": {
+      "layers": {
+        "Perception": "The Eye - Data ingestion and symbolic correspondence.",
+        "Cognition": "The Mind - Analysis, probability calculation, and strategy formulation.",
+        "Execution": "The Hand - Trade execution and order management.",
+        "Reflection": "The Memory - Post-trade analysis and recursive learning."
+      },
+      "symbolic_grammar": "Ten foundational design principles governing the system's logic."
+    }
+  },
+  "operational_engines": {
+    "financial_trading_engine_v7": {
+      "master_schema": "AFE_Sector_Asteroid_Framework_v7.0",
+      "probability_formula": "P_MASTER = Base(0.5) * AFE(1.0-12.0) * KCIL(0.6-1.6) * Chart_Type(1.0-1.4) * Chaldean(0.5-1.8) * Uranian(0.7-1.5) * Harmonic(0.8-1.3) * Progressions(0.9-1.4) * Boolean_Gates * Technical_Veto(0.0-1.0)",
+      "sector_matrix": [
+        "Tech",
+        "Financials",
+        "Healthcare",
+        "Staples"
+      ]
+    },
+    "relationship_os_master": {
+      "scoring_rubric": {
+        "positive_weights": {
+          "sepharial": [
+            3,
+            2,
+            1
+          ],
+          "modern_juno": [
+            4,
+            3,
+            2
+          ],
+          "house_overlay": [
+            3,
+            2,
+            1
+          ]
+        },
+        "negative_weights": {
+          "neptune_7th": -5,
+          "malefic_7th": -3,
+          "sun_moon_square": -4
+        },
+        "threshold": ">+8 points = long happy marriage"
+      },
+      "sexual_archetypes": "Full Robson sexuality framework integrated with sign-pair dynamics."
+    }
+  },
+  "intelligence_and_evolution": {
+    "rsi_engine": {
+      "loop": [
+        "Observe",
+        "Reflect",
+        "Generate",
+        "Validate"
+      ],
+      "meta_levels": [
+        "Feature/Model Improvement",
+        "Loop Optimization",
+        "Infinite Meta-Improvement"
+      ]
+    },
+    "alpha_evolve_discovery": {
+      "operators": [
+        "Mutation",
+        "Crossover",
+        "Selection"
+      ],
+      "llm_guidance": "Semantic evolution with domain knowledge embedding and bloat control."
+    },
+    "advanced_stats": {
+      "copulas": [
+        "Gaussian Mixture",
+        "Bayesian Vine",
+        "R-Vine"
+      ],
+      "tail_risk": "High-precision tail dependence modeling and risk flagging."
+    }
+  },
+  "infrastructure": {
+    "real_time_streaming": {
+      "binance_websocket": "Real-time price feed with automatic V5.0 enrichment.",
+      "live_dashboard": "Production-ready Shiny dashboard with live signals and risk alerts."
+    },
+    "validation_pipeline": {
+      "statistical_tests": [
+        "Chi-square",
+        "p-value validation",
+        "2x enrichment ratio"
+      ],
+      "unit_tests": "Comprehensive suite for data integrity and signal accuracy."
+    }
+  },
+  "astrological_compendium": {
+    "celestial_bodies": "50+ Fixed Stars, 40+ Asteroids, 12 Planets, 15 Dwarf Planets.",
+    "doctrines": [
+      "Hellenistic Aspect Dynamics",
+      "Medieval Sect Rejoicings",
+      "Uranian Midpoints",
+      "Vedic Timing Systems"
+    ],
+    "lunar_mansions": "28 Mansions for electional and magical timing."
+  }
+}

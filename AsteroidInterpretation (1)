@@ -1,0 +1,322 @@
+import React, { useState } from "react";
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { Badge } from "@/components/ui/badge";
+import { Progress } from "@/components/ui/progress";
+import { ChevronDown, ChevronUp, Wand2 } from "lucide-react";
+import { AspectStrengthScore } from "./AspectStrengthScore";
+
+interface AsteroidData {
+  id: number;
+  title: string;
+  category: string;
+  keywords: string[];
+  strength_score: number;
+  description: string;
+  house?: number;
+  sign?: string;
+  aspects?: Record<string, any>;
+  houses?: Record<string, any>;
+  signs?: Record<string, any>;
+  special_configurations?: Record<string, any>;
+  timing_systems?: Record<string, any>;
+  case_studies?: Array<any>;
+  rituals?: Record<string, any>;
+}
+
+interface AsteroidInterpretationProps {
+  asteroid: AsteroidData;
+  chartPosition?: {
+    house: number;
+    sign: string;
+    longitude: number;
+  };
+  onCrossReference?: (keyword: string) => void;
+}
+
+export const AsteroidInterpretation: React.FC<AsteroidInterpretationProps> = ({
+  asteroid,
+  chartPosition,
+  onCrossReference,
+}) => {
+  const [expandedSections, setExpandedSections] = useState<Record<string, boolean>>({
+    description: true,
+    position: chartPosition ? true : false,
+    aspects: false,
+    special: false,
+    timing: false,
+    rituals: false,
+  });
+
+  const toggleSection = (section: string) => {
+    setExpandedSections((prev) => ({
+      ...prev,
+      [section]: !prev[section],
+    }));
+  };
+
+  const getCategoryColor = (category: string) => {
+    const colors: Record<string, string> = {
+      "Fate & Karma": "bg-purple-900 text-purple-100",
+      Asteroids: "bg-indigo-900 text-indigo-100",
+      "Moirai System": "bg-violet-900 text-violet-100",
+      "Endings & Closure": "bg-gray-800 text-gray-100",
+    };
+    return colors[category] || "bg-slate-800 text-slate-100";
+  };
+
+  return (
+    <div className="space-y-4">
+      {/* Header */}
+      <Card className="border-purple-500/30 bg-gradient-to-r from-purple-950 to-indigo-950">
+        <CardHeader>
+          <div className="flex items-start justify-between">
+            <div className="flex-1">
+              <CardTitle className="text-2xl text-purple-100">{asteroid.title}</CardTitle>
+              <CardDescription className="text-purple-300/70">
+                Asteroid #{asteroid.id}
+              </CardDescription>
+            </div>
+                    <AspectStrengthScore
+                      score={asteroid.strength_score}
+                      maxScore={10}
+                      label="Strength"
+                    />
+          </div>
+
+          {/* Keywords */}
+          <div className="mt-4 flex flex-wrap gap-2">
+            <Badge className={getCategoryColor(asteroid.category)}>
+              {asteroid.category}
+            </Badge>
+            {asteroid.keywords.slice(0, 5).map((keyword) => (
+              <Badge
+                key={keyword}
+                variant="outline"
+                className="cursor-pointer border-purple-500/50 text-purple-300 hover:bg-purple-900/50"
+                onClick={() => onCrossReference?.(keyword)}
+              >
+                {keyword}
+              </Badge>
+            ))}
+            {asteroid.keywords.length > 5 && (
+              <Badge variant="outline" className="border-purple-500/50 text-purple-300">
+                +{asteroid.keywords.length - 5} more
+              </Badge>
+            )}
+          </div>
+        </CardHeader>
+      </Card>
+
+      {/* Main Content Tabs */}
+      <Tabs defaultValue="overview" className="w-full">
+        <TabsList className="grid w-full grid-cols-5 bg-slate-900">
+          <TabsTrigger value="overview">Overview</TabsTrigger>
+          {chartPosition && <TabsTrigger value="position">Position</TabsTrigger>}
+          <TabsTrigger value="aspects">Aspects</TabsTrigger>
+          <TabsTrigger value="special">Special</TabsTrigger>
+          <TabsTrigger value="rituals">Rituals</TabsTrigger>
+        </TabsList>
+
+        {/* Overview Tab */}
+        <TabsContent value="overview" className="space-y-4">
+          <Card className="border-purple-500/20 bg-slate-900/50">
+            <CardHeader>
+              <CardTitle className="text-lg text-purple-200">Overview</CardTitle>
+            </CardHeader>
+            <CardContent>
+              <p className="whitespace-pre-wrap text-slate-300 leading-relaxed">
+                {asteroid.description}
+              </p>
+            </CardContent>
+          </Card>
+        </TabsContent>
+
+        {/* Position Tab */}
+        {chartPosition && (
+          <TabsContent value="position" className="space-y-4">
+            <Card className="border-indigo-500/20 bg-slate-900/50">
+              <CardHeader>
+                <CardTitle className="text-lg text-indigo-200">Chart Position</CardTitle>
+              </CardHeader>
+              <CardContent className="space-y-6">
+                {/* House Interpretation */}
+                <div>
+                  <h4 className="mb-2 font-semibold text-indigo-300">
+                    House {chartPosition.house}
+                  </h4>
+                  <p className="text-slate-300">
+                    {asteroid.houses?.[`house_${chartPosition.house}`]?.interpretation ||
+                      "House interpretation not available."}
+                  </p>
+                </div>
+
+                {/* Sign Interpretation */}
+                <div>
+                  <h4 className="mb-2 font-semibold text-indigo-300">{chartPosition.sign}</h4>
+                  <p className="text-slate-300">
+                    {asteroid.signs?.[chartPosition.sign.toLowerCase()]?.interpretation ||
+                      "Sign interpretation not available."}
+                  </p>
+                </div>
+
+                {/* Exact Longitude */}
+                <div className="rounded-lg bg-slate-800/50 p-4">
+                  <p className="text-sm text-slate-400">Exact Longitude</p>
+                  <p className="text-xl font-mono text-indigo-300">
+                    {chartPosition.longitude.toFixed(2)}°
+                  </p>
+                </div>
+              </CardContent>
+            </Card>
+          </TabsContent>
+        )}
+
+        {/* Aspects Tab */}
+        <TabsContent value="aspects" className="space-y-4">
+          <Card className="border-cyan-500/20 bg-slate-900/50">
+            <CardHeader>
+              <CardTitle className="text-lg text-cyan-200">Aspect Interpretations</CardTitle>
+            </CardHeader>
+            <CardContent className="space-y-4">
+              {asteroid.aspects ? (
+                Object.entries(asteroid.aspects).map(([aspectName, aspectData]: [string, any]) => (
+                  <div key={aspectName} className="space-y-2 rounded-lg bg-slate-800/50 p-4">
+                    <div className="flex items-center justify-between">
+                      <h5 className="font-semibold text-cyan-300 capitalize">
+                        {aspectName.replace(/_/g, " ")}
+                      </h5>
+                      <AspectStrengthScore
+                        score={aspectData.strength_modifier * 10}
+                        maxScore={10}
+                      />
+                    </div>
+                    <p className="text-sm text-slate-300">{aspectData.interpretation}</p>
+                    <div className="flex flex-wrap gap-1">
+                      {aspectData.keywords?.map((kw: string) => (
+                        <Badge key={kw} variant="outline" className="text-xs">
+                          {kw}
+                        </Badge>
+                      ))}
+                    </div>
+                  </div>
+                ))
+              ) : (
+                <p className="text-slate-400">No aspect interpretations available.</p>
+              )}
+            </CardContent>
+          </Card>
+        </TabsContent>
+
+        {/* Special Configurations Tab */}
+        <TabsContent value="special" className="space-y-4">
+          <Card className="border-rose-500/20 bg-slate-900/50">
+            <CardHeader>
+              <CardTitle className="text-lg text-rose-200">Special Configurations</CardTitle>
+            </CardHeader>
+            <CardContent className="space-y-4">
+              {asteroid.special_configurations ? (
+                Object.entries(asteroid.special_configurations).map(
+                  ([configName, configData]: [string, any]) => (
+                    <div key={configName} className="space-y-2 rounded-lg bg-slate-800/50 p-4">
+                      <div className="flex items-center justify-between">
+                        <h5 className="font-semibold text-rose-300 capitalize">
+                          {configName.replace(/_/g, " ")}
+                        </h5>
+                        <AspectStrengthScore
+                          score={configData.strength_modifier * 10}
+                          maxScore={10}
+                        />
+                      </div>
+                      <p className="text-sm text-slate-300">{configData.interpretation}</p>
+                      <div className="flex flex-wrap gap-1">
+                        {configData.keywords?.map((kw: string) => (
+                          <Badge key={kw} variant="outline" className="text-xs">
+                            {kw}
+                          </Badge>
+                        ))}
+                      </div>
+                    </div>
+                  )
+                )
+              ) : (
+                <p className="text-slate-400">No special configurations available.</p>
+              )}
+            </CardContent>
+          </Card>
+        </TabsContent>
+
+        {/* Rituals Tab */}
+        <TabsContent value="rituals" className="space-y-4">
+          <Card className="border-amber-500/20 bg-slate-900/50">
+            <CardHeader>
+              <CardTitle className="flex items-center gap-2 text-lg text-amber-200">
+                <Wand2 className="h-5 w-5" />
+                Ritual Guidance
+              </CardTitle>
+            </CardHeader>
+            <CardContent className="space-y-6">
+              {asteroid.rituals ? (
+                Object.entries(asteroid.rituals).map(([ritualName, ritualData]: [string, any]) => (
+                  <div key={ritualName} className="space-y-3 rounded-lg bg-slate-800/50 p-4">
+                    <h5 className="font-semibold text-amber-300">{ritualData.title}</h5>
+                    <p className="text-sm text-slate-300">{ritualData.purpose}</p>
+
+                    {ritualData.materials && (
+                      <div>
+                        <p className="text-xs font-semibold text-amber-200">Materials:</p>
+                        <ul className="ml-4 list-disc space-y-1 text-sm text-slate-300">
+                          {ritualData.materials.map((material: string, idx: number) => (
+                            <li key={idx}>{material}</li>
+                          ))}
+                        </ul>
+                      </div>
+                    )}
+
+                    {ritualData.steps && (
+                      <div>
+                        <p className="text-xs font-semibold text-amber-200">Steps:</p>
+                        <ol className="ml-4 space-y-1 text-sm text-slate-300">
+                          {ritualData.steps.map((step: string, idx: number) => (
+                            <li key={idx} className="list-decimal">
+                              {step}
+                            </li>
+                          ))}
+                        </ol>
+                      </div>
+                    )}
+
+                    {ritualData.timing && (
+                      <p className="text-xs text-amber-200">
+                        <strong>Timing:</strong> {ritualData.timing}
+                      </p>
+                    )}
+                  </div>
+                ))
+              ) : (
+                <p className="text-slate-400">No rituals available.</p>
+              )}
+            </CardContent>
+          </Card>
+        </TabsContent>
+      </Tabs>
+
+      {/* Case Studies */}
+      {asteroid.case_studies && asteroid.case_studies.length > 0 && (
+        <Card className="border-green-500/20 bg-slate-900/50">
+          <CardHeader>
+            <CardTitle className="text-lg text-green-200">Case Studies</CardTitle>
+          </CardHeader>
+          <CardContent className="space-y-4">
+            {asteroid.case_studies.map((study: any, idx: number) => (
+              <div key={idx} className="space-y-2 rounded-lg bg-slate-800/50 p-4">
+                <h5 className="font-semibold text-green-300">{study.name}</h5>
+                <p className="text-sm text-slate-300">{study.description}</p>
+              </div>
+            ))}
+          </CardContent>
+        </Card>
+      )}
+    </div>
+  );
+};

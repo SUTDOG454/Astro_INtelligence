@@ -1,0 +1,605 @@
+{
+  "metadata": {
+    "title": "Unified Master Astrology Predictive Framework Synthesis",
+    "created_utc_date": "2026-04-01",
+    "scope": "Detailed framework extraction and normalization across dasha systems, general predictive techniques, tertiary progressions, lunar returns, solar returns, secondary progressions, and solar arc directions.",
+    "source_count": 7,
+    "source_urls": [
+      "https://www.skylinereadings.com/blog/advanced-astrology-8/dasha-systems-141",
+      "https://www.skylinereadings.com/blog/advanced-astrology-8/predictive-techniques-150",
+      "https://www.skylinereadings.com/blog/advanced-astrology-8/tertiary-progressions-96",
+      "https://www.skylinereadings.com/blog/advanced-astrology-8/lunar-returns-69",
+      "https://www.skylinereadings.com/blog/advanced-astrology-8/solar-return-charts-what-they-mean-for-your-year-123",
+      "https://www.skylinereadings.com/blog/advanced-astrology-8/secondary-progressions-deep-dive-168",
+      "https://www.skylinereadings.com/blog/advanced-astrology-8/solar-arc-directions-42?utm_source=perplexity"
+    ],
+    "objective": "Verify delineation steps, normalize terminology, synthesize overlapping procedures, merge fields of the same type, and export a source-grounded master JSON.",
+    "methodology": {
+      "retrieval": [
+        "Fetched full article text for all seven URLs.",
+        "Ran targeted question extraction to verify calculation, delineation, weighting, synthesis, interpretation, and reporting details."
+      ],
+      "normalization_policy": [
+        "Only statements supported by retrieved source text were included as explicit_source_grounded items.",
+        "Cross-source generalizations were marked as synthesized_normalization when they merge repeated structures across sources.",
+        "No external astrology doctrine was added beyond what appears in the source set."
+      ]
+    }
+  },
+  "normalization_rules": {
+    "field_merge_strategy": {
+      "calculation": "Merged formulas, cycles, constants, timing windows, location dependencies, and orb rules into one normalized calculation layer.",
+      "delineation": "Merged all reading workflows into a single multi-step pipeline, then attached method-specific emphases.",
+      "weighting": "Merged explicit priority rules, salience cues, orbs, angularity emphasis, convergence principles, and favorable/challenging combinations.",
+      "synthesis": "Merged all cross-technique integration instructions into one testimony/convergence framework.",
+      "interpretation": "Merged recurring interpretive targets: emotional themes, identity shifts, career, relationships, finance, timing, and psychological development.",
+      "reporting": "Merged all implied outputs into a standardized forecast/report format."
+    },
+    "term_normalization": {
+      "major_period": ["Mahadasha", "major period"],
+      "sub_period": ["Antardasha", "sub-period"],
+      "micro_period": ["Pratyantardasha", "micro-period"],
+      "return_chart": ["solar return", "lunar return"],
+      "progression_system": ["secondary progressions", "tertiary progressions"],
+      "direction_system": ["solar arc directions"],
+      "testimony": ["multiple indicators", "multiple witnesses", "convergence of methods"]
+    },
+    "verification_scale": {
+      "explicit": "Directly stated in source text.",
+      "partial": "Present but not stepwise or not fully parameterized.",
+      "absent": "Not found in retrieved source text."
+    }
+  },
+  "verification_matrix": {
+    "coverage_by_source": [
+      {
+        "method": "dasha_systems",
+        "source_url": "https://www.skylinereadings.com/blog/advanced-astrology-8/dasha-systems-141",
+        "calculation": "partial",
+        "delineation": "partial",
+        "weighting": "explicit",
+        "synthesis": "explicit",
+        "interpretation": "explicit",
+        "reporting": "partial",
+        "verified_delineation_elements": [
+          "identify current major period",
+          "inspect sub-period ruler",
+          "differentiate favorable vs challenging combinations",
+          "contextualize by life domain such as career, relationship, finance",
+          "confirm with Western transits where available",
+          "rectify birth time using past event correlation when needed"
+        ]
+      },
+      {
+        "method": "predictive_techniques_general",
+        "source_url": "https://www.skylinereadings.com/blog/advanced-astrology-8/predictive-techniques-150",
+        "calculation": "explicit",
+        "delineation": "explicit",
+        "weighting": "explicit",
+        "synthesis": "explicit",
+        "interpretation": "explicit",
+        "reporting": "explicit",
+        "verified_delineation_elements": [
+          "start from natal chart as foundation",
+          "layer transits, progressions, returns, eclipses, profections, and planetary returns",
+          "read solar return independently and against natal chart",
+          "look for overlapping themes across methods",
+          "translate overlap into practical preparation, timing, consciousness, and choice"
+        ]
+      },
+      {
+        "method": "tertiary_progressions",
+        "source_url": "https://www.skylinereadings.com/blog/advanced-astrology-8/tertiary-progressions-96",
+        "calculation": "explicit",
+        "delineation": "explicit",
+        "weighting": "explicit",
+        "synthesis": "explicit",
+        "interpretation": "explicit",
+        "reporting": "partial",
+        "verified_delineation_elements": [
+          "calculate progressed date using lunar-month-per-year rule",
+          "read tertiary Moon phase relative to progressed Sun",
+          "track house transitions",
+          "read aspects by progressed Moon, Mercury, Venus, Mars",
+          "assess progressed Ascendant",
+          "integrate with secondary progressions, solar arcs, and minor progressions"
+        ]
+      },
+      {
+        "method": "lunar_returns",
+        "source_url": "https://www.skylinereadings.com/blog/advanced-astrology-8/lunar-returns-69",
+        "calculation": "explicit",
+        "delineation": "explicit",
+        "weighting": "explicit",
+        "synthesis": "explicit",
+        "interpretation": "explicit",
+        "reporting": "explicit",
+        "verified_delineation_elements": [
+          "cast chart for exact Moon return",
+          "read return Ascendant",
+          "read Moon house placement",
+          "read aspects to return Moon",
+          "read angular planets and chart patterns",
+          "scan upcoming returns for intense months",
+          "integrate transits, progressed Moon, solar return, lunations, and other returns"
+        ]
+      },
+      {
+        "method": "solar_returns",
+        "source_url": "https://www.skylinereadings.com/blog/advanced-astrology-8/solar-return-charts-what-they-mean-for-your-year-123",
+        "calculation": "explicit",
+        "delineation": "explicit",
+        "weighting": "explicit",
+        "synthesis": "explicit",
+        "interpretation": "explicit",
+        "reporting": "explicit",
+        "verified_delineation_elements": [
+          "cast chart for exact Sun return time and location",
+          "read Ascendant, Sun, Moon, aspects, house emphasis, angular planets",
+          "compare return chart with natal chart",
+          "derive yearly themes and timing windows",
+          "break down into monthly and seasonal checkpoints"
+        ]
+      },
+      {
+        "method": "secondary_progressions",
+        "source_url": "https://www.skylinereadings.com/blog/advanced-astrology-8/secondary-progressions-deep-dive-168",
+        "calculation": "explicit",
+        "delineation": "explicit",
+        "weighting": "explicit",
+        "synthesis": "explicit",
+        "interpretation": "explicit",
+        "reporting": "explicit",
+        "verified_delineation_elements": [
+          "calculate progressed chart by day-for-year rule",
+          "read progressed Moon sign and house",
+          "read progressed Sun sign and chapter shifts",
+          "read Mercury, Venus, Mars development",
+          "read angles and sign changes",
+          "check retrograde/direct status changes",
+          "track aspects within one degree",
+          "integrate with transits, solar returns, and eclipse cycles"
+        ]
+      },
+      {
+        "method": "solar_arc_directions",
+        "source_url": "https://www.skylinereadings.com/blog/advanced-astrology-8/solar-arc-directions-42?utm_source=perplexity",
+        "calculation": "explicit",
+        "delineation": "explicit",
+        "weighting": "explicit",
+        "synthesis": "explicit",
+        "interpretation": "explicit",
+        "reporting": "explicit",
+        "verified_delineation_elements": [
+          "calculate progressed Sun position",
+          "derive solar arc",
+          "apply arc to all planets and points",
+          "read directed-to-natal aspects",
+          "read midpoint contacts",
+          "compare with transits and secondary progressions",
+          "time strongest manifestation near exactitude"
+        ]
+      }
+    ],
+    "global_verification_summary": {
+      "all_sources_include_interpretation": true,
+      "all_sources_include_some_form_of_delineation": true,
+      "all_sources_include_some_form_of_timing_or_calculation": true,
+      "weighting_rules_are_qualitative_not_numeric": true,
+      "most_articles_promote_multi-technique synthesis": true,
+      "reporting_outputs_are_mostly_forecast-oriented": true
+    }
+  },
+  "merged_framework": {
+    "process_order": [
+      "calculation_setup",
+      "chart_or_period_construction",
+      "core_delineation",
+      "salience_weighting",
+      "cross-method_synthesis",
+      "interpretation",
+      "forecast_reporting"
+    ],
+    "calculation": {
+      "common_steps": [
+        "Use exact birth data; several methods explicitly require precise birth time.",
+        "Preserve original birth time unless the method specifies a return chart or relocation context.",
+        "Calculate the method-specific reference chart or period first, then compare back to natal positions.",
+        "Use location-sensitive chart construction for return charts when the article specifies that the place of the return matters.",
+        "Apply precision standards because small deviations can shift timing by weeks, months, or years depending on method."
+      ],
+      "method_specific": {
+        "dasha_systems": {
+          "core_formula_or_rule": "Sequence is determined by birth Moon position; periods are fixed by system.",
+          "periods": {
+            "sun_years": 6,
+            "moon_years": 10,
+            "mars_years": 7,
+            "mercury_years": 17,
+            "jupiter_years": 16,
+            "venus_years": 20,
+            "saturn_years": 19,
+            "rahu_years": 18,
+            "ketu_years": 7,
+            "vimshottari_total_years": 120,
+            "yogini_total_years": 36,
+            "ashtottari_total_years": 108
+          },
+          "hierarchy": ["major period", "sub-period", "micro-period"],
+          "precision_notes": [
+            "Birth time sensitivity can shift dasha periods by months or years.",
+            "Birth time rectification through past-event correlation is recommended."
+          ]
+        },
+        "predictive_techniques_general": {
+          "timing_rules": [
+            "Secondary progressions use one day after birth equals one year of life.",
+            "Progressed Moon moves about one degree per month and cycles in 27-28 years.",
+            "Progressed Sun moves about one degree per year and changes sign about every 30 years.",
+            "Eclipse effects unfold over roughly six months, strongest within about one month before and after the eclipse.",
+            "Annual profections advance the Ascendant by one sign per year in a 12-year cycle.",
+            "Saturn return occurs about every 29 years.",
+            "Jupiter return occurs every 12 years.",
+            "Mars return occurs about every 2 years."
+          ]
+        },
+        "tertiary_progressions": {
+          "core_formula_or_rule": "One lunar month after birth equals one year of life.",
+          "base_calculation_days_per_year": 27.32,
+          "precise_sidereal_month_days": 27.321661,
+          "construction_steps": [
+            "Add one sidereal lunar month per year of life to birth date.",
+            "Keep birth time constant while advancing date.",
+            "Use high-precision ephemerides because small variations compound over decades."
+          ],
+          "orb_rules": {
+            "major_aspects": "1-2 degrees",
+            "minor_aspects": "30 minutes to 1 degree",
+            "applying_vs_separating": "Different interpretive weight is assigned."
+          }
+        },
+        "lunar_returns": {
+          "core_formula_or_rule": "Cast chart for exact moment transiting Moon returns to natal Moon degree and sign.",
+          "cycle_length": "about 27.3 days, with practical month-to-month variability around 26-29 days",
+          "mechanics": [
+            "Moon moves about 12-15 degrees per day.",
+            "Return location changes house placements.",
+            "Influence lasts until next lunar return."
+          ]
+        },
+        "solar_returns": {
+          "core_formula_or_rule": "Cast chart for exact moment Sun returns to natal degree and minute.",
+          "cycle_length": "annual",
+          "mechanics": [
+            "Return usually occurs within a day or two of birthday.",
+            "Chart is calculated for exact time and location of the return.",
+            "Mathematical precision of planetary positions, house cusps, and aspects is emphasized."
+          ]
+        },
+        "secondary_progressions": {
+          "core_formula_or_rule": "One day after birth equals one year of life.",
+          "construction_steps": [
+            "Start with exact birth date, time, and location.",
+            "Add one day for each year lived.",
+            "Calculate progressed chart using progressed date with original birth time and location.",
+            "Compare progressed chart with natal chart."
+          ],
+          "movement_rates": {
+            "progressed_moon": "about 1 degree per month; full cycle 27-28 years",
+            "progressed_sun": "about 1 degree per year; sign change about every 30 years",
+            "progressed_mercury": "up to 2 degrees per year",
+            "progressed_venus": "up to 1.25 degrees per year",
+            "progressed_mars": "about 0.5 degrees per year",
+            "progressed_ascendant": "about 1 degree per year"
+          },
+          "aspect_precision": "Track aspects forming within 1 degree."
+        },
+        "solar_arc_directions": {
+          "core_formula_or_rule": "One degree equals one year, using the progressed Sun arc for all chart points.",
+          "construction_steps": [
+            "Calculate progressed Sun position for target date.",
+            "Subtract natal Sun from progressed Sun to derive solar arc.",
+            "Apply same arc to every planet, house cusp, node, and major asteroid."
+          ],
+          "orb_rules": {
+            "major_aspects_general": "1 degree orb, about a 1-year window of influence",
+            "peak_manifestation": "strongest within about 6 months of exactitude",
+            "conjunctions_and_oppositions": "1 degree maximum",
+            "squares_and_trines": "45 minutes",
+            "sextiles_and_minor_aspects": "30 minutes"
+          }
+        }
+      }
+    },
+    "delineation": {
+      "unified_steps": [
+        {
+          "step": 1,
+          "name": "Establish foundational chart or timing map",
+          "description": "Start with the natal chart or natal timing basis, then construct the relevant predictive layer such as dasha periods, return chart, progression, or solar arc chart."
+        },
+        {
+          "step": 2,
+          "name": "Identify the primary timing container",
+          "description": "Determine the dominant annual, monthly, multi-year, or major-period frame: major dasha, solar return year, lunar return month, progressed Sun/Moon phase, or solar arc activation."
+        },
+        {
+          "step": 3,
+          "name": "Read the primary focal indicators",
+          "description": "Inspect the factors each method says carry the main message: Ascendant, Sun, Moon, house focus, period ruler, major aspects, or angular planets."
+        },
+        {
+          "step": 4,
+          "name": "Map the active life domains",
+          "description": "Translate house emphasis, planetary rulership, and thematic combinations into concrete domains such as career, relationships, finances, home, health, creativity, and inner development."
+        },
+        {
+          "step": 5,
+          "name": "Check modifying factors",
+          "description": "Assess sub-periods, exact aspects, angularity, conjunctions to angles, chart patterns, applying/separating status, retrograde changes, and relocation effects where relevant."
+        },
+        {
+          "step": 6,
+          "name": "Determine timing intensity and sequence",
+          "description": "Estimate when the theme is strongest using exact return windows, aspect exactitude, orb proximity, first-half versus second-half of year cues, or sub-period granularity."
+        },
+        {
+          "step": 7,
+          "name": "Cross-check with other predictive layers",
+          "description": "Look for reinforcement from transits, other progression systems, eclipses, profections, returns, or another timing method named in the articles."
+        },
+        {
+          "step": 8,
+          "name": "Convert into practical forecast guidance",
+          "description": "Frame the result as opportunities, challenges, preparation strategies, decision timing, emotional weather, or developmental lessons."
+        }
+      ],
+      "method_specific_emphases": {
+        "dasha_systems": [
+          "Identify current major period and sub-period.",
+          "Interpret each period by planetary themes and relevant life domain.",
+          "Refine with favorable or difficult period combinations.",
+          "Confirm using transits when integrating with Western methods."
+        ],
+        "predictive_techniques_general": [
+          "Read multiple methods together rather than in isolation.",
+          "Treat natal chart as seed/foundation.",
+          "Use convergence to build the final narrative."
+        ],
+        "tertiary_progressions": [
+          "Prioritize tertiary Moon phases, house changes, and Moon-related emotional development.",
+          "Read progressed Mercury, Venus, Mars, and Ascendant for subtle psychological shifts.",
+          "Interpret as unconscious or subliminal patterning more than dramatic event triggers."
+        ],
+        "lunar_returns": [
+          "Read return Ascendant first.",
+          "Then read Moon house placement.",
+          "Then read aspects to the return Moon.",
+          "Then read angular planets and patterns for monthly tone."
+        ],
+        "solar_returns": [
+          "Read Ascendant, Sun placement, Moon position, aspects, house emphasis, angular planets.",
+          "Compare with natal chart for annual activation.",
+          "Translate to yearly themes and likely timing through the year."
+        ],
+        "secondary_progressions": [
+          "Read progressed Moon for emotional focus and short-cycle development.",
+          "Read progressed Sun for major life chapter and identity evolution.",
+          "Read personal planets, angles, and retrograde shifts for nuanced development.",
+          "Track major progressed aspects and progressed lunations."
+        ],
+        "solar_arc_directions": [
+          "Read directed planet to natal point aspects.",
+          "Give special attention to Sun, Moon, Midheaven, Ascendant, Descendant, and natal chart rulers.",
+          "Include midpoint activations for advanced forecasting."
+        ]
+      }
+    },
+    "weighting": {
+      "normalized_priority_rules": [
+        "Convergence across multiple methods increases confidence; the sources call these testimonies or multiple witnesses.",
+        "Exact aspects carry more weight than loose ones.",
+        "Angular placements or planets on angles are emphasized in return work.",
+        "Primary timing rulers or focal indicators outrank secondary modifiers within each method.",
+        "Benefic or harmonious combinations are treated as smoother or more supportive; difficult combinations are treated as more challenging or effortful.",
+        "Major life chapter indicators receive more interpretive weight than subtle background indicators."
+      ],
+      "explicit_salience_by_method": {
+        "dasha_systems": [
+          "Major period sets overall theme.",
+          "Sub-period determines specific manifestation timing.",
+          "Benefic pairings such as Jupiter-Venus and Venus-Mercury are described as highly harmonious.",
+          "Difficult combinations such as Saturn-Mars or Mars-Saturn are described as intense/challenging."
+        ],
+        "predictive_techniques_general": [
+          "Confidence rises when several methods point to the same topic.",
+          "Solar return is presented as one of the most reliable annual methods.",
+          "Outer planet transits describe longer, major chapters; inner planet transits color shorter intervals."
+        ],
+        "tertiary_progressions": [
+          "Tighter orbs are recommended because the technique is subtle.",
+          "Major aspects use 1-2 degrees; minor aspects use 30 minutes to 1 degree.",
+          "Applying versus separating aspects carry different weight.",
+          "Progressed Moon and Ascendant are presented as especially significant."
+        ],
+        "lunar_returns": [
+          "Ascendant, Moon house, Moon aspects, angular placements, and distinctive patterns are prioritized.",
+          "Angular Moon placements are described as more intense.",
+          "Nearby eclipses and outer-planet activations increase monthly significance."
+        ],
+        "solar_returns": [
+          "Ascendant sets overall tone.",
+          "Sun placement indicates primary focus.",
+          "Moon shows emotional and domestic themes.",
+          "Angular planets represent the most significant influences and events.",
+          "Concentrations by house emphasize those life areas."
+        ],
+        "secondary_progressions": [
+          "Progressed Moon is described as perhaps the most noticeable progression.",
+          "Progressed Sun marks major decades-long chapters.",
+          "Progressed New and Full Moons are among the most important cycles.",
+          "Aspects within one degree are highlighted."
+        ],
+        "solar_arc_directions": [
+          "Major aspects usually use 1 degree or less.",
+          "Strongest manifestation occurs near exactitude.",
+          "Conjunctions/oppositions receive the largest allowed orb, then squares/trines, then sextiles/minor aspects.",
+          "Aspects to chart rulers and angles are prioritized."
+        ]
+      }
+    },
+    "synthesis": {
+      "core_principle": "Do not rely on one method in isolation; build a coherent forecast from overlapping indicators.",
+      "normalized_synthesis_steps": [
+        "Construct each method's forecast independently enough to preserve its own logic.",
+        "Extract repeating themes such as relationship change, professional growth, emotional restructuring, or spiritual development.",
+        "Rank themes higher when they appear in multiple methods or through multiple indicators within one method.",
+        "Use one method to answer 'what/where' and another to refine 'when/how intensely'.",
+        "Differentiate internal development signals from external triggers where the source set explicitly does so.",
+        "Resolve tension by stating both supportive and difficult signatures rather than forcing a single polarity.",
+        "Turn synthesis into forecast windows and practical choices."
+      ],
+      "explicit_cross_method_roles": {
+        "transits": "External triggers and current sky activation.",
+        "secondary_progressions": "Internal development and evolving psychological landscape.",
+        "tertiary_progressions": "Emotional rhythms and unconscious/subconscious patterning.",
+        "solar_returns": "Annual themes and yearly focus.",
+        "lunar_returns": "Monthly emotional weather and short-cycle focus.",
+        "solar_arc_directions": "Definitive turning points and internal timing precision.",
+        "dasha_systems": "Planetary period timing and event windows, especially when combined with transits."
+      },
+      "testimony_logic": {
+        "definition": "Multiple independent indicators pointing to the same life theme.",
+        "effect": "Raises confidence and forecast salience.",
+        "examples_from_sources": [
+          "A major progression plus a significant transit.",
+          "Solar arc aspect coinciding with relevant transit.",
+          "7th-house profection plus relationship-linked progressions and return emphasis.",
+          "Dasha period confirmed by a Western transit."
+        ]
+      }
+    },
+    "interpretation": {
+      "normalized_targets": [
+        "identity and life direction",
+        "emotional state and subconscious patterns",
+        "career and public role",
+        "relationships and partnerships",
+        "finances and resources",
+        "home and family",
+        "creativity and spirituality",
+        "timing of opportunities and challenges"
+      ],
+      "interpretive_modes": {
+        "developmental": "Many techniques are framed as revealing growth cycles rather than fixed fate.",
+        "timing_oriented": "Most techniques are used to identify when a theme is likely to peak or unfold.",
+        "psychological": "Progressions and lunar methods especially emphasize inner landscape and emotional evolution.",
+        "practical": "Articles frequently translate symbols into action areas such as career moves, relationships, investment decisions, therapy, or self-care."
+      },
+      "explicit_interpretive_patterns": [
+        "Return charts describe the tone of a bounded period: month or year.",
+        "Progressions describe evolving inner development and life chapters.",
+        "Solar arcs describe turning points and precise activation periods.",
+        "Dashas describe larger planetary conditions, with sub-periods refining outcomes.",
+        "General predictive technique guidance emphasizes empowerment, preparation, and conscious response rather than deterministic fate."
+      ]
+    },
+    "reporting": {
+      "normalized_output_schema": {
+        "timeframe_summary": "State the relevant period: annual, monthly, multi-year, or exact activation window.",
+        "dominant_themes": "List the main topics repeated across methods.",
+        "active_indicators": "Name the focal factors: Ascendant, Sun, Moon, period ruler, exact aspects, angular planets, etc.",
+        "supportive_factors": "Harmonious or favorable signatures.",
+        "challenging_factors": "Stressors, hard aspects, difficult combinations, or caution zones.",
+        "timing_windows": "When the effect is likely strongest: exactitude, first part of year, eclipse season, sub-period, next lunar return, etc.",
+        "practical_guidance": "Preparation, launch timing, reflection, journaling, therapy/inner work, relationship handling, or career strategy.",
+        "confidence_basis": "Explain which themes were repeated by multiple testimonies."
+      },
+      "reporting_patterns_explicit_in_sources": [
+        "Month-by-month or year-ahead style forecasting is repeatedly implied.",
+        "Reports should identify opportunities, challenges, and optimal timing.",
+        "Forecasting should support awareness, preparation, and empowerment rather than anxiety.",
+        "Some methods suggest follow-up practices such as journaling, meditation, ritual, or periodic check-ins."
+      ]
+    }
+  },
+  "method_profiles": [
+    {
+      "method": "dasha_systems",
+      "classification": "planetary period timing system",
+      "primary_use": ["long-range timing", "event windows", "career/relationship/finance timing"],
+      "core_delineation_focus": ["current major period", "sub-period ruler", "planetary themes by domain"],
+      "explicit_weighting": ["major period theme first", "sub-period refines manifestation", "benefic vs difficult combinations"],
+      "integration_role": "Used with Western transits for confirmation.",
+      "reporting_style": ["state current period", "forecast opportunities/challenges by domain", "highlight timing windows"],
+      "source_url": "https://www.skylinereadings.com/blog/advanced-astrology-8/dasha-systems-141"
+    },
+    {
+      "method": "predictive_techniques_general",
+      "classification": "umbrella synthesis framework",
+      "primary_use": ["multi-technique forecasting", "confidence building via testimonies"],
+      "core_delineation_focus": ["natal foundation", "transits", "progressions", "returns", "eclipses", "profections", "planetary returns", "dashas"],
+      "explicit_weighting": ["confidence rises when methods converge"],
+      "integration_role": "Defines the convergence/testimony logic for the whole master framework.",
+      "reporting_style": ["month-by-month insights", "opportunities", "challenges", "optimal timing", "preparation guidance"],
+      "source_url": "https://www.skylinereadings.com/blog/advanced-astrology-8/predictive-techniques-150"
+    },
+    {
+      "method": "tertiary_progressions",
+      "classification": "lunar-month-based progression system",
+      "primary_use": ["emotional rhythms", "subconscious development", "psychological timing"],
+      "core_delineation_focus": ["Moon phase", "house transitions", "Moon/Mercury/Venus/Mars aspects", "progressed Ascendant"],
+      "explicit_weighting": ["tight orbs", "Moon and Ascendant emphasized", "applying vs separating distinction"],
+      "integration_role": "Best used with secondary progressions, solar arcs, and transits.",
+      "reporting_style": ["inner development notes", "therapy/meditation timing", "relationship dynamic interpretation"],
+      "source_url": "https://www.skylinereadings.com/blog/advanced-astrology-8/tertiary-progressions-96"
+    },
+    {
+      "method": "lunar_returns",
+      "classification": "monthly return chart",
+      "primary_use": ["monthly emotional weather", "short-term timing", "family/relationship/home emphasis"],
+      "core_delineation_focus": ["return Ascendant", "Moon house", "Moon aspects", "angular planets", "patterns"],
+      "explicit_weighting": ["angular Moon stronger", "eclipses and outer planets amplify significance"],
+      "integration_role": "Monthly layer under annual themes and transits.",
+      "reporting_style": ["monthly forecast", "intention-setting", "journaling and ritual suggestions"],
+      "source_url": "https://www.skylinereadings.com/blog/advanced-astrology-8/lunar-returns-69"
+    },
+    {
+      "method": "solar_returns",
+      "classification": "annual return chart",
+      "primary_use": ["year-ahead themes", "annual life-area emphasis", "timing through the year"],
+      "core_delineation_focus": ["Ascendant", "Sun", "Moon", "aspects", "house emphasis", "angular planets", "natal comparison"],
+      "explicit_weighting": ["Ascendant sets tone", "angular planets most significant", "house concentrations emphasize domains"],
+      "integration_role": "Annual framework that can be broken down by months/seasons and compared against natal chart.",
+      "reporting_style": ["annual roadmap", "career/relationship/personal growth sections", "monthly/seasonal checkpoints"],
+      "source_url": "https://www.skylinereadings.com/blog/advanced-astrology-8/solar-return-charts-what-they-mean-for-your-year-123"
+    },
+    {
+      "method": "secondary_progressions",
+      "classification": "day-for-year progression system",
+      "primary_use": ["identity evolution", "emotional cycles", "life chapter changes"],
+      "core_delineation_focus": ["progressed Moon", "progressed Sun", "personal planets", "angles", "retrograde/direct shifts", "aspects", "progressed lunations"],
+      "explicit_weighting": ["progressed Moon very noticeable", "progressed Sun major chapter marker", "progressed New/Full Moons highly important", "1-degree aspect focus"],
+      "integration_role": "Internal development layer used with transits and solar returns.",
+      "reporting_style": ["current life chapter", "upcoming sign changes", "exact aspect watchlist", "journaling recommendations"],
+      "source_url": "https://www.skylinereadings.com/blog/advanced-astrology-8/secondary-progressions-deep-dive-168"
+    },
+    {
+      "method": "solar_arc_directions",
+      "classification": "uniform-arc directional system",
+      "primary_use": ["turning-point timing", "precise activation windows", "event forecasting"],
+      "core_delineation_focus": ["directed planet-to-natal aspects", "Sun/Moon emphasis", "angles", "midpoints"],
+      "explicit_weighting": ["tight orb hierarchy", "exactness strongest", "angles and rulers prioritized"],
+      "integration_role": "Pairs with transits for manifestation and with secondary progressions for gradual-vs-definitive distinction.",
+      "reporting_style": ["upcoming exact aspects", "meanings", "precise timing windows for decisions"],
+      "source_url": "https://www.skylinereadings.com/blog/advanced-astrology-8/solar-arc-directions-42?utm_source=perplexity"
+    }
+  ],
+  "source_grounding": {
+    "notes": [
+      "The articles are instructional/marketing hybrids and do not provide fully formal mathematical derivations for every system.",
+      "Where a method lacks a complete algorithm in the source, the master JSON preserves only the explicit operational rule stated in the article.",
+      "Weighting is primarily qualitative across the source set; no numeric scoring model is supplied by the articles."
+    ]
+  }
+}

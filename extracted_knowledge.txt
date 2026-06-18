@@ -1,0 +1,65 @@
+# Astrology Ontology Knowledge Base (Enriched)
+
+## Core Concepts (from Bepin Behari & Others)
+- **Astrology**: Wisdom of the Light. Science of luminaries. Cosmic drama.
+- **Esoteric Astrology**: Study of deeper human problems, causes of disparity, and inner principles of existence.
+- **Kala Purusa**: The Cosmic Man.
+- **Hiranyagarbha**: The Radiant Golden Egg / The Womb (represented by the 4th House).
+- **Polarisation**: Purusha (Male) and Prakriti (Female). Yin and Yang. Attraction and Repulsion.
+- **Akashic Records**: The memory of nature; a permanent record of every event in the history of creation.
+- **Aura**: A subtle quality or atmosphere emanating from a living being or object.
+
+## Zodiac Signs (Rashis)
+- **Aries (Mesha)**: The Ram. Pioneering, energetic, impulsive. Masculine/Positive, Cardinal, Fire.
+- **Taurus (Vrishabha)**: The Bull. Stable, sensual, persistent. Feminine/Negative, Fixed, Earth.
+- **Gemini (Mithuna)**: The Twins. Communicative, adaptable, intellectual. Masculine/Positive, Mutable, Air.
+- **Cancer (Karka)**: The Crab. Nurturing, emotional, protective. Feminine/Negative, Cardinal, Water.
+- **Leo (Simha)**: The Lion. Regal, creative, confident. Masculine/Positive, Fixed, Fire.
+- **Virgo (Kanya)**: The Virgin. Analytical, practical, service-oriented. Feminine/Negative, Mutable, Earth.
+- **Libra (Tula)**: The Scales. Balanced, diplomatic, just. Masculine/Positive, Cardinal, Air.
+- **Scorpio (Vrischika)**: The Scorpion. Intense, transformative, mysterious. Feminine/Negative, Fixed, Water.
+- **Sagittarius (Dhanu)**: The Archer. Adventurous, philosophical, optimistic. Masculine/Positive, Mutable, Fire.
+- **Capricorn (Makara)**: The Sea-Goat. Disciplined, ambitious, responsible. Feminine/Negative, Cardinal, Earth.
+- **Aquarius (Kumbha)**: The Water-Bearer. Innovative, humanitarian, independent. Masculine/Positive, Fixed, Air.
+- **Pisces (Meena)**: The Fish. Compassionate, artistic, spiritual. Feminine/Negative, Mutable, Water.
+
+## Planets (Grahas)
+- **Sun (Surya)**: The Spirit. Ego, vitality, core self.
+- **Moon (Chandra)**: The Psyche. Emotions, intuition, subconscious.
+- **Mars (Mangala)**: Action, energy, aggression, drive.
+- **Mercury (Budha)**: Communication, intellect, logic.
+- **Jupiter (Guru/Brihaspati)**: Expansion, wisdom, luck, philosophy.
+- **Venus (Shukra)**: Love, beauty, harmony, luxury.
+- **Saturn (Shani)**: Discipline, responsibility, karma, limitations.
+- **Rahu (North Node)**: Materialization, obsession, worldly desires.
+- **Ketu (South Node)**: Liberation, detachment, past life karma.
+- **Uranus**: Innovation, rebellion, sudden changes.
+- **Neptune**: Spirituality, dreams, illusion.
+- **Pluto**: Transformation, power, rebirth.
+- **Asteroids**: Ceres (productivity), Juno, Pallas, Vesta, Chiron (the wounded healer).
+
+## House Systems (Bhavas)
+- **Placidus**: Most common; time-space based; unequal house sizes; prone to distortion at high latitudes.
+- **Koch**: Advanced Placidus; uses birth place latitude more accurately; Midheaven starting point.
+- **Campanus**: Space-based; uses prime vertical; good for psychological understanding.
+- **Regiomontanus**: Time-based; celestial equator projected on ecliptic; similar to Placidus.
+- **Meridian**: Uses the East Point as the Ascendant; portrays how a person sees themselves.
+- **Porphyry**: Simple division of quadrants into three equal parts.
+- **Equal House**: Every house is 30°; starts from Ascendant degree.
+- **Whole Sign**: Every house is an entire sign; Ascendant sign is the 1st house.
+
+## Aspects (Drishti/Aspects)
+- **Harmonious (Benefic)**: Trine (120°), Sextile (60°), Semi-Sextile (30°).
+- **Inharmonious (Malefic/Hard)**: Opposition (180°), Square (90°), Quincunx (150°), Semi-Square (45°), Sesquiquadrate (135°).
+- **Conjunction (0°)**: Parent of all aspects; powerful and direct; character depends on planets involved.
+- **Cazimi**: Planet within 30' of the Sun; "in the heart of the Sun".
+- **Combust**: Planet within 31' to 3° of the Sun; energy integrated with the Sun.
+- **Applying vs. Separating**: Faster planet moving toward or away from exact aspect.
+
+## Technical Terms
+- **Accidental Dignity**: Planet in its house of natural rulership or near an angle.
+- **Anaretic Degree**: The final degree (29°-30°) of any sign; "degree of fate".
+- **Ayanamsha**: Difference between tropical and sidereal zodiacs (currently ~24°).
+- **Hyleg**: The giver of life; a well-aspected benefic in a hylegiacal place.
+- **Synastry**: The comparison of two horoscopes to analyze relationships.
+- **Vargas**: Divisional charts (D-1 Rashi, D-9 Navamsha, D-10 Dashamsha, etc.).

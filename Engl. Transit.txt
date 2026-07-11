@@ -1,0 +1,1805 @@
+// TR Transit - aspects to natal planets
+// Transit
+
+[JU.CNJ.AS]
+You will benefit from taking a more inward direction, turning away from the outward world a bit and allowing new ideas and information to filter through. A career point, after which you should let go a bit and expect a little regeneration.
+
+[JU.OPP.AS]
+This marks the advent of a good time as far as career and social life are concerned. A time of dues-paying is over; real accomplishment is possible now. You may have to sacrifice some of your personal life in order to gain this outward growth.
+
+[JU.SQR.AS]
+A time when job and family take up most of your time. You may find that friends and many personal interests fall by the wayside. This marks a time when your whole life path may be redefined and see you heading in a new career direction.
+
+[JU.SXT.AS]
+You will benefit from taking a more inward direction, turning away from the outward world a bit and allowing new ideas and information to filter through. A career point, after which you should expect to let go a bit and undergo a little regeneration.
+
+[JU.TRI.AS]
+You will benefit from taking a more inward direction, turning away from the outward world a bit and allowing new ideas and information to filter through. A career point, after which you should expect to let go a bit and undergo a little regeneration.
+
+[JU.CNJ.JU]
+A time of good fortune when things open up in a very natural way for you. Situations are almost tailor-made and it is easy to see which path is the one to take. Opportunities abound, and you may find yourself wanting (and able) to do almost everything.
+
+[JU.OPP.JU]
+Possibly a career turning-point that may require some careful thought and good judgment on your part. The current flow of events may dictate a path that runs against your best talents and abilities. Don't sell yourself short. Hang in there.
+
+[JU.SQR.JU]
+Your career may be at a rather delicate point and under a lot of pressure. It could be hard to find solutions or make the right decisions as to how to proceed. The whole process could be stopped up and sluggish. You may have to bide your time.
+
+[JU.SXT.JU]
+A time of good fortune when things open up in a very natural way for you. Situations are almost tailor-made, and it is easy to see which path is the one to take. Opportunities abound, and you may find yourself wanting (and able) to do almost everything.
+
+[JU.TRI.JU]
+A time of good fortune when things open up in a very natural way for you. Situations are almost tailor-made, and it is easy to see which path is the one to take. Opportunities abound, and you may find yourself wanting (and able) to do almost everything.
+
+[JU.CNJ.MA]
+Things are happening, and your career or path depends upon your own ambition and drive, which are strong now. Able to use good common horse-sense, you can feel trends and make the right moves. A time to get ahead by taking action.
+
+[JU.OPP.MA]
+A career decision, something that is obviously in your best interests, may go against feelings and emotions. You may have to ignore your feelings and put them aside in order to benefit from the current sequence of events. Possible resentment.
+
+[JU.SQR.MA]
+You may not feel like taking the obvious road to success that has opened in front of you. Good choices from a career standpoint may tend to ignore your feelings and ambitions. Your own basic drive may be at odds with the direction your life is taking.
+
+[JU.SXT.MA]
+Things are happening, and your career, or path depends upon your own ambition and drive, which are strong now. Able to use good common horse-sense, you can feel trends and make the right moves. A time to get ahead by taking action.
+
+[JU.TRI.MA]
+Things are happening, and your career, or path depends upon your own ambition and drive, which are strong now. Able to use good common horse-sense, you can feel trends and make the right moves. A time to get ahead by taking action.
+
+[JU.CNJ.MC]
+You make your way now by using practical vision and common sense. This could be some kind of high-water mark for your career, recognition, and so on. At the same time, a change of direction is in order, finding you in a gradual curve towards more inwardness.
+
+[JU.OPP.MC]
+This could be a time of challenge from a career standpoint. You may find yourself spending more interest and energy at home and with the family, and having less shine on the job. This home life will lay the foundation for greater confidence at work.
+
+[JU.SQR.MC]
+Your career is in flux, and you may be spending too much time on your own or with friends. Job and family may be suffering from a lack of attention. The way you live, and perhaps your career and basic life direction, may be changing.
+
+[JU.SXT.MC]
+You make your way now by using practical vision and common sense. This could be some kind of high-water mark for your career, recognition, and so on. At the same time, a change of direction is in order, finding you in a gradual curve towards more inwardness.
+
+[JU.TRI.MC]
+You make your way now by using practical vision and common sense. This could be some kind of high-water mark for your career, recognition, and so on. At the same time, a change of direction is in order, finding you in a gradual curve towards more inwardness.
+
+[JU.CNJ.ME]
+You find that you can really use your mind to make clear choices and think things through. Career decisions are straightforward and easy to make. You make your way through ideas, concepts, and your ability to communicate and express them to others.
+
+[JU.OPP.ME]
+Opportunities and obvious career decisions may go against your ideas on the subject. These easy solutions and possible alternatives may be a challenge to the way you think. Communication about your job may be difficult now.
+
+[JU.SQR.ME]
+Your ideas may not agree with the direction your career is taking. The price of success could mean that ideas and methods of communication you are happy with get ignored or set back. You may feel that you cannot communicate your thoughts.
+
+[JU.SXT.ME]
+You find that you can really use your mind to make clear choices and think things through. Career decisions are straightforward and easy to make. You make your way through ideas, concepts, and your ability to communicate and express them to others.
+
+[JU.TRI.ME]
+You find that you can really use your mind to make clear choices and think things through. Career decisions are straightforward and easy to make. You make your way through ideas, concepts, and your ability to communicate and express them to others.
+
+[JU.CNJ.MO]
+A time when support and recognition should be forthcoming from both the public and from family and friends. You feel at home in the world, and it more than takes care of you. You could have deep insights into your own feelings and inner, spiritual nature.
+
+[JU.OPP.MO]
+Career choices, decisions that should be made, may appear to go against or challenge your current sense of security and home environment. The easy way out may not be beneficial to your health and general wellbeing. Weigh alternatives with care.
+
+[JU.SQR.MO]
+Your career and life direction are putting some real pressure on your home and emotional life. Obviously you can't live without both, so some kind of self-control on your part is indicated. You may have trouble with subordinates or younger people.
+
+[JU.SXT.MO]
+Your home environment, friends, and surroundings in general get facilitated and receive encouragement. Your work or career is in real harmony with the rest of your life. You could gain from subordinates or younger people during this time.
+
+[JU.TRI.MO]
+Your home environment, friends, and surroundings in general get facilitated and receive encouragement. Your work or career is in real harmony with the rest of your life. You could gain from subordinates or younger people during this time.
+
+[JU.CNJ.NE]
+You will prosper by pursuing your ideals and most deep-seated dreams of how life could be. Don't be afraid to project that image, make those dreams real. Ideas of group cooperation and communion (mass images) could further your career.
+
+[JU.OPP.NE]
+The career path is open and clear, yet it may go against or challenge some of your ideals and life dreams. Choosing between the leadings of your intuition and the road to success is a toughie. Take care to cut a deal that is a fair compromise.
+
+[JU.SQR.NE]
+Continued success on the career level may point to your abandoning some of your hopes and dreams, your ideals. While success is important, don't throw the baby out with the bath water. Your ideals got you where you are. Try for a good compromise.
+
+[JU.SXT.NE]
+You will prosper by pursuing your ideals and most deep-seated dreams of how life could be. Don't be afraid to project that image, make those dreams real. Ideas of group cooperation and communion (mass images) could further your career.
+
+[JU.TRI.NE]
+You will prosper by pursuing your ideals and most deep-seated dreams of how life could be. Don't be afraid to project that image, make those dreams real. Ideas of group cooperation and communion (mass images) could further your career.
+
+[JU.CNJ.PL]
+You may find that both your personal growth and your career may depend upon how you can handle the very sensitive psychological material that could be coming up now. You will benefit from analytical insights, getting to the heart of things. Penetrating.
+
+[JU.OPP.PL]
+Your career choices may go against your own sensitivity and need for change and growth. You may have to struggle to balance these two real needs: success on one hand and personal growth on the other. This should be an interesting balancing act.
+
+[JU.SQR.PL]
+This could be a difficult situation. Your career and path to success seem to be running counter to your need for change and self-growth. Job requirements may stifle your sensitivity, hold you back from growing. Tread this one with care.
+
+[JU.SXT.PL]
+You may find that both your personal growth and your career may depend upon how you can handle the very sensitive psychological material that may be coming up now. You will benefit from analytical insights, getting to the heart of things. Penetrating.
+
+[JU.TRI.PL]
+You may find that both your personal growth and your career may depend upon how you can handle the very sensitive psychological material that may be coming up now. You will benefit from analytical insights, getting to the heart of things. Penetrating.
+
+[JU.CNJ.SA]
+A time to buckle down and consolidate your career. Your organizational abilities and sense of responsibility will be what guides you and proves successful. Your career could assume a much more determined and solid form. A firm foundation.
+
+[JU.OPP.SA]
+Opportunities may go against your own sense of security and responsibility. Career choices may require that you take a chance and neglect the home front. This is a tough call, and some compromise is perhaps the best way to a workable solution.
+
+[JU.SQR.SA]
+Your path or career may be at right angles with your own sense of security and responsibilities. A hard trade-off to figure. You can't win, so some negotiations are in order. Try to cut a path that includes both.
+
+[JU.SXT.SA]
+A real time to buckle down and consolidate your career. Your organizational abilities and sense of responsibility will be what guide you and prove successful. Your career could assume a much more determined and solid form -- a firm foundation.
+
+[JU.TRI.SA]
+A real time to buckle down and consolidate your career. Your organizational abilities and sense of responsibility will be what guide you and prove successful. Your career could assume a much more determined and solid form -- a firm foundation.
+
+[JU.CNJ.SU]
+A great time, when good fortune and plain old luck surround you. It is easy for you to make correct decisions, find the right path, and move forward where career and success are concerned. Life's problems seem manageable and easy to solve.
+
+[JU.OPP.SU]
+Opportunities appear all around you but always seem to challenge your status quo. You must decide whether the risk is worth the change it will bring about in your situation. The clear choice may go against your better interests.
+
+[JU.SQR.SU]
+You may be experiencing a bit of a crunch as your career direction (and path to success) squares off against your more personal interests. This may be a real test for you. Be careful not to blow an opportunity for success.
+
+[JU.SXT.SU]
+Everything may be pouring in at once, and it's all good news. Your career direction gets some encouragement, and life's problems should find easy solutions. You may benefit from an older person or one in authority. Life could assume a dreamlike stance.
+
+[JU.TRI.SU]
+Everything may be pouring in at once, and it's all good news. Your career direction gets some encouragement, and life's problems should find easy solutions. You may benefit from an older person or one in authority. Life could assume a dreamlike stance.
+
+[JU.CNJ.UR]
+A time to take risks and dare to be a little unconventional. You will prosper through new insights, inventions, and an independent point of view. Your career could open up by taking the road less travelled by, daring to be the oddball... new approaches.
+
+[JU.OPP.UR]
+Career choices, the obvious path that is opening up for you, may grate against your own sense of freedom and independence. Success and security at the expense of originality may be too great a price to pay. Some middle road could be found.
+
+[JU.SQR.UR]
+Career choices and direction seem to indicate a loss of freedom and originality on your part. You may feel stifled and forced to go along if you want to succeed. This could result in a situation building up to an explosive level. Tread with care.
+
+[JU.SXT.UR]
+A time to take risks and dare to be a little unconventional. You will prosper through new insights, inventions, and an independent point of view. Your career could open up by taking the road less travelled by, daring to be the oddball... new approaches.
+
+[JU.TRI.UR]
+A time to take risks and dare to be a little unconventional. You will prosper through new insights, inventions, and an independent point of view. Your career could open up by taking the road less travelled by, daring to be the oddball... new approaches.
+
+[JU.CNJ.VE]
+You may find yourself more than a little acquisitive, and your current appreciation for just about everything may lead you to overspend, indulge too much. You will make career gains by your ability to sense quality and choose accordingly.
+
+[JU.OPP.VE]
+What is a clear career decision (an easy solution) may go against your sense of values, how you feel about the matter. You may find yourself having to choose between your career and your sense of enjoyment, the things you love and appreciate.
+
+[JU.SQR.VE]
+Career decisions that point to real success may go against your sense of values. You may not be able to appreciate this particular way or road to success. The way life is going may seem to ignore much of what you love and appreciate.
+
+[JU.SXT.VE]
+You may find yourself more than a little acquisitive, and your current appreciation for just about everything may lead you to overspend, indulge too much. You will make career gains by your ability to sense quality and choose accordingly.
+
+[JU.TRI.VE]
+You may find yourself more than a little acquisitive, and your current appreciation for just about everything may lead you to overspend, indulge too much. You will make career gains by your ability to sense quality and choose accordingly.
+
+[MA.CNJ.AS]
+You can really communicate and convey yourself to others right now. You have a lot of energy and come across as assertive and dominant.
+
+[MA.OPP.AS]
+Trouble with partnerships or others may prevent you from appearing at your best.
+
+[MA.SQR.AS]
+You may be under a lot of pressure, at least in the way you appear to others. All is not in harmony between your emotions and the way you come across.
+
+[MA.SXT.AS]
+You can really communicate and convey yourself to others right now. You have a lot of energy and come across as assertive and dominant.
+
+[MA.TRI.AS]
+You can really communicate and convey yourself to others right now. You have a lot of energy and come across as assertive and dominant.
+
+[MA.CNJ.JU]
+A perfect time to be assertive and to move forward in your career decisions. You have all the drive and energy you could want, and it should be easy to channel it. The path is open and clear.
+
+[MA.OPP.JU]
+Emotional considerations may block or oppose how you proceed with a project or plan. Someone may get pushy or obscure the real choices and the right path.
+
+[MA.SQR.JU]
+Your emotional drive and sense of things may be at odds with your best interests, the way to proceed. You could make some bad decisions, be too generous, or squander your resources.
+
+[MA.SXT.JU]
+A perfect time to be assertive and to move forward in your career decisions. You have all the drive and energy you could want, and it should be easy to channel it. The path is open and clear.
+
+[MA.TRI.JU]
+A perfect time to be assertive and to move forward in your career decisions. You have all the drive and energy you could want, and it should be easy to channel it. The path is open and clear.
+
+[MA.CNJ.MA]
+A time of much energy and drive, perfect for starting something out or taking care of business. Very physical too. Exercise or romance is in order.
+
+[MA.OPP.MA]
+You could have an emotional eruption with someone, an old-fashioned standoff. Tempers may be hot, as push comes to shove. Self-control might be in order.
+
+[MA.SQR.MA]
+Harsh energy could leave you feeling emotionally blocked and frustrated. Don't try to push too hard. You are only fighting yourself. Wait this one out.
+
+[MA.SXT.MA]
+A time of much energy and drive, perfect for starting something out or taking care of business. Very physical too. Exercise or romance is in order.
+
+[MA.TRI.MA]
+A time of much energy and drive, perfect for starting something out or taking care of business. Very physical too. Exercise or romance is in order.
+
+[MA.CNJ.MC]
+You have a lot of energy to pour into practical and career decisions. You may appear commanding and assertive.
+
+[MA.OPP.MC]
+Your home and family life may be challenged by someone in authority. This could be job-related. There may be a Mexican standoff.
+
+[MA.SQR.MC]
+Harsh feelings could flare up on the job or with authority figures. Cool it, and let this one pass.
+
+[MA.SXT.MC]
+You have a lot of energy to pour into practical and career decisions. You may appear commanding and assertive.
+
+[MA.TRI.MC]
+You have a lot of energy to pour into practical and career decisions. You may appear commanding and assertive.
+
+[MA.CNJ.ME]
+You may be very forceful in what you say and think. With all of this emotional energy, you could speak or communicate very well. You have mental drive.
+
+[MA.OPP.ME]
+You may have words and possible hurt feelings with someone during this time. Emotional needs conflict with the way you think and communicate. Some form of gut-level opposition to your ideas.
+
+[MA.SQR.ME]
+Excessive emotional energy could produce flare-ups, harsh words, and arguments. Your mind is very sharp (on hair trigger) during this time and can cause as much harm as good.
+
+[MA.SXT.ME]
+You may be very forceful in what you say and think. With all of this emotional energy, you could speak or communicate very well. You have mental drive.
+
+[MA.TRI.ME]
+You may be very forceful in what you say and think. With all of this emotional energy, you could speak or communicate very well. You have mental drive.
+
+[MA.CNJ.MO]
+You have a lot of energy for improving your surroundings or life situations. You are very motivated to improve. There could be some hard feelings, especially from younger persons, if you become too aggressive.
+
+[MA.OPP.MO]
+You may have an emotional confrontation with someone younger than you. Your feelings, or the feelings of someone who supports you, may be hurt.
+
+[MA.SQR.MO]
+Emotional flare-ups, especially with younger people or those you spend time with are, possible right now. You could push too hard and damage your living situation or means of support.
+
+[MA.SXT.MO]
+You have a lot of energy for improving your surroundings or life situations. You are very motivated to improve. There could be some hard feelings, especially from younger persons, if you become too aggressive.
+
+[MA.TRI.MO]
+You have a lot of energy for improving your surroundings or life situations. You are very motivated to improve. There could be some hard feelings, especially from younger persons, if you become too aggressive.
+
+[MA.CNJ.NE]
+A strong drive to unify and simplify. You want something more imaginative and less mundane. A yearning for other worlds and for some more cosmic form of love.
+
+[MA.OPP.NE]
+Emotions, perhaps coming from another person or event, oppose your life dreams and stifle any imagination you may have. This can result in an emotional confrontation.
+
+[MA.SQR.NE]
+Don't do too much dreaming just now. It would be very easy for you to get carried away with some fancy or another. Your feelings are not in sync with your imagination. You may be hard to satisfy.
+
+[MA.SXT.NE]
+A strong drive to unify and simplify. You want something more imaginative and less mundane. A yearning for other worlds and for some more cosmic form of love.
+
+[MA.TRI.NE]
+A strong drive to unify and simplify. You want something more imaginative and less mundane. A yearning for other worlds and for some more cosmic form of love.
+
+[MA.CNJ.PL]
+A drive to probe and penetrate may find you examining and working through some strong internal changes. Push too hard and you could be too dominating and even oppressive to yourself and others.
+
+[MA.OPP.PL]
+A real power struggle could be in the wind. An emotional person or event challenges your sense of privacy and inner growth. Someone may get very personal with you.
+
+[MA.SQR.PL]
+Intense emotional drama is available if that is what you need. Your emotions are not in tune with the more sensitive and private areas of your life. Push on now and you risk some very turbulent emotional scenes.
+
+[MA.SXT.PL]
+A drive to probe and penetrate may find you examining and working through some strong internal changes. Push too hard and you could be too dominating, even oppressive, to yourself and others.
+
+[MA.TRI.PL]
+A drive to probe and penetrate may find you examining and working through some strong internal changes. Push too hard and you could be too dominating, even oppressive, to yourself and others.
+
+[MA.CNJ.SA]
+Irresistible force meets immovable object. Proceed with caution! There is a lot of energy available for disciplined work, but push too hard and you may break something.
+
+[MA.OPP.SA]
+The status quo may meet with some opposition. Someone's emotional state may block your own interests. Belligerence and opposition can be anticipated.
+
+[MA.SQR.SA]
+Relax. This is not an easy time. Your own drive and emotions are hard set against the way things are, your particular set of realities. Push on now and you risk breaking something. Be patient, and let this one blow over.
+
+[MA.SXT.SA]
+Irresistible force meets immovable object. Proceed with caution! There is a lot of energy available for disciplined work, but push too hard and you may break something.
+
+[MA.TRI.SA]
+Irresistible force meets immovable object. Proceed with caution! There is a lot of energy available for disciplined work, but push too hard and you may break something.
+
+[MA.CNJ.SU]
+You may be especially dynamic and assertive just now. There is a lot of energy and drive available, and you may have an urge to push forward.
+
+[MA.OPP.SU]
+You may have an emotional confrontation with someone older than you or with an authority figure. Your feelings and emotions may be running against your best interests.
+
+[MA.SQR.SU]
+Emotions may flare up or arguments occur that work against your own best interests. Be prepared, and walk softly.
+
+[MA.SXT.SU]
+You may be especially dynamic and assertive just now. There is a lot of energy and drive available.
+
+[MA.TRI.SU]
+You may be especially dynamic and assertive just now. There is a lot of energy and drive available.
+
+[MA.CNJ.UR]
+You feel like being different, trying something new and unusual. A perfect time for new ideas, a breakthrough in thinking, a novel approach.
+
+[MA.OPP.UR]
+Explosive arguments could lead to going your own way when someone or something tries to confine you. Your own sense of independence and freedom is being challenged.
+
+[MA.SQR.UR]
+Don't take chances or risks just now. Be satisfied with the ordinary and usual. Novel ideas or insights could be more damaging than useful. Hectic emotional energy.
+
+[MA.SXT.UR]
+You feel like being different, trying something new and unusual. A perfect time for new ideas, a breakthrough in thinking, a novel approach.
+
+[MA.TRI.UR]
+You feel like being different, trying something new and unusual. A perfect time for new ideas, a breakthrough in thinking, a novel approach.
+
+[MA.CNJ.VE]
+Your desires are strong and you will want to enjoy yourself. Spending is very possible. There is a basic drive to appreciate and taste life.
+
+[MA.OPP.VE]
+Others may oppose or confront your value system. Their push or drive may tend to conflict with the way you feel and do things. Your own desires may be ignored.
+
+[MA.SQR.VE]
+You may feel emotionally frustrated. Your feelings are going against much of what you value, so make way for possible difficulty. Your enjoyment of life may be temporarily blocked.
+
+[MA.SXT.VE]
+Your desires are strong, and you will want to enjoy yourself. Romance is very possible. There is a basic drive to appreciate and taste life.
+
+[MA.TRI.VE]
+Your desires are strong, and you will want to enjoy yourself. Romance is very possible. There is a basic drive to appreciate and taste life.
+
+[ME.CNJ.AS]
+You should be able to get your ideas across with ease. The makings for a bright and witty day. Your communication skills are at a high-water mark.
+
+[ME.OPP.AS]
+You find yourself other-oriented just now, with many thoughts and ideas for partnership, rather than doing things alone. Friends may find you less self-centered than usual.
+
+[ME.SQR.AS]
+You may have some difficulty speaking or getting your ideas and thoughts across to others. You might say the wrong thing.
+
+[ME.SXT.AS]
+You can really get your thoughts and ideas across. Good communication.
+
+[ME.TRI.AS]
+You can really get your thoughts and ideas across. Good communication.
+
+[ME.CNJ.JU]
+You are in a planning mood and are very clearheaded and able to view all the alternative paths. Go ahead and make those decisions. You can see the road ahead and will make the right choices.
+
+[ME.OPP.JU]
+Your thoughts and ideas may not mesh with the plans and methods of someone you meet with today. You could find yourself saying things against the way they do things. Your ideas may run counter to some plan of action.
+
+[ME.SQR.JU]
+You could find yourself mentally acute and in a problem-solving mood. However, there is a real possibility that the decisions you make today and the solutions you find may have to be re-done tomorrow.
+
+[ME.SXT.JU]
+A clear-minded insight into your own plans and methods is available to you. A very good time to communicate your goals and put them into words. A good time for decisions.
+
+[ME.TRI.JU]
+A clear-minded insight into your own plans and methods is available to you. A very good time to communicate your goals and put them into words. A good time for decisions.
+
+[ME.CNJ.MA]
+There is a lot of energy behind what you say and think. You can make quick and sharp decisions. Also there is the possibility of sharp words. You communicate with feeling and strength.
+
+[ME.OPP.MA]
+Steer clear of arguments and possible hard feelings. Your thoughts may not be in sync with your feelings, and this could result in a clash with someone today.
+
+[ME.SQR.MA]
+Your mind is very sharp now, with the result that you may be a bit irritable or say too much. Quick-witted you are, but this could also result in arguments and hard words.
+
+[ME.SXT.MA]
+Your mind is quick and sharp, and your words are the only weapon you will need today. You have insight into your emotions and drive, and you can talk about your feelings with great insight and fluidity.
+
+[ME.TRI.MA]
+Your mind is quick and sharp, and your words are the only weapon you will need today. You have insight into your emotions and drive, and you can talk about your feelings with great insight and fluidity.
+
+[ME.CNJ.MC]
+A time when you can put your practical insights into words and convey them to others. Communication with authority figures is enhanced now.
+
+[ME.OPP.MC]
+Communication, particularly with superiors or authority figures, could prove troublesome. You may not think like they do or may find that your thoughts even run opposite to theirs. Your thoughts may be more on home and family.
+
+[ME.SQR.MC]
+You may not be able to keep your mind on your job or whatever you're doing just now. It could be hard to make good job-related decisions.
+
+[ME.SXT.MC]
+Good practical job-related thoughts and ideas. The ability to communicate with superiors or describe what you see.
+
+[ME.TRI.MC]
+Good practical job-related thoughts and ideas. The ability to communicate with superiors or describe what you see.
+
+[ME.CNJ.ME]
+You are just plain witty now, and the ideas roll off your tongue. A real time for communicate -- by phone, by letter or in person. The mind is clear.
+
+[ME.OPP.ME]
+You could blurt out the wrong thing today or be unable to convey what you really intend to someone. Ideas and thoughts may not come with ease. Also, others may disagree with your ideas.
+
+[ME.SQR.ME]
+You will find that your mind and thoughts will be very intense just now. There could be a lot of pressure to make decisions that you will regret later. Plenty of nervous energy.
+
+[ME.SXT.ME]
+Your mind could be quite clear and natural just now. Ideas are flowing and could come with ease. You can talk, talk, talk.
+
+[ME.TRI.ME]
+Your mind could be quite clear and natural just now. Ideas are flowing and could come with ease. You can talk, talk, talk.
+
+[ME.CNJ.MO]
+You may find yourself analyzing your life situation and surroundings. Conversations of an inspiring kind may be in order with younger persons or others around you.
+
+[ME.OPP.MO]
+You may find yourself reflecting on your own youth or some event in the past. Communication with those around you, especially younger people, may be difficult or combative.
+
+[ME.SQR.MO]
+You may find that your ideas and thoughts run counter to what is going on around you, resulting in a lack of support or respect for what you think. There could be arguments, especially with younger persons.
+
+[ME.SXT.MO]
+You have a natural sense for communicating with others, especially those younger than yourself. Clear thoughts about the past may also be flowing in today.
+
+[ME.TRI.MO]
+You have a natural sense for communicating with others, especially those younger than yourself. Clear thoughts about the past may also be flowing in today.
+
+[ME.CNJ.NE]
+You find yourself at your most imaginative, at least when it comes to ideas and thoughts. Right now you have an opportunity to transcend the everyday thoughts and soar into more cosmic or eternal musings.
+
+[ME.OPP.NE]
+Someone you meet today may seem unrealistic and foggy-minded to you. In return, the person may find you lacking in sensitivity and imagination. You could find yourself the odd-man-out.
+
+[ME.SQR.NE]
+Not the clearest of times. There is the danger of foggy thinking and of your being misled or getting too carried away with some plan or idea. A lot of mental pressure.
+
+[ME.SXT.NE]
+A time for imagination and creativity when it comes to ideas and thinking. This, coupled with the ability to put your thoughts into words, allows you to captivate and spellbind. A good book or movie would be appreciated too.
+
+[ME.TRI.NE]
+A time for imagination and creativity when it comes to ideas and thinking. This, coupled with the ability to put your thoughts into words, allows you to captivate and spellbind. A good book or movie would be appreciated too.
+
+[ME.CNJ.PL]
+Sharp and penetrating insight into your own inner workings -- what is hidden or going on behind the scenes. Sherlock Holmes to the fore. Also good for research and analysis.
+
+[ME.OPP.PL]
+You may find someone you meet today is too secretive and underhanded for your taste. Your thoughts and ideas go against their secretive, power-oriented manner, and you are not afraid to tell them so.
+
+[ME.SQR.PL]
+You may be having some dark and secret thoughts. Sensitive areas of your mind may intrude and appear obsessive. You may be suspicious of someone.
+
+[ME.SXT.PL]
+In-depth discussions and probing conversations find you at your mental best. Your analytical abilities are at a high point.
+
+[ME.TRI.PL]
+In-depth discussions and probing conversations find you at your mental best. Your analytical abilities are at a high point.
+
+[ME.CNJ.SA]
+A good time for clear deliberation and problem-solving. You are in a serious frame of mind and find yourself dealing with matters of much concern and responsibility. A good time to reorganize.
+
+[ME.OPP.SA]
+Someone may tend to put the damper on what you say or think, or in some way manage to restrict your ability to communicate. You may have thoughts that differ with the establishment (the law).
+
+[ME.SQR.SA]
+You may feel mentally depressed or restricted. Perhaps this is not the time to try to solve any serious problems or make important decisions. It could be hard to think.
+
+[ME.SXT.SA]
+Put your mind to work and take care of any details that you may have, for mental discipline should come easily. Problems and obstacles that have heretofore been confounding should find easy explanations under your keen examination.
+
+[ME.TRI.SA]
+Put your mind to work and take care of any details that you may have, for mental discipline should come easily. Problems and obstacles that have heretofore been confounding should find easy explanations under your keen examination.
+
+[ME.CNJ.SU]
+You find yourself talkative and quick-witted today. Ideas are clear and easy to come by. This could be a good time for thinking over your own affairs. You may have a conversation with an older person or someone in authority.
+
+[ME.OPP.SU]
+Something you say or communicate may go against your own best interests. You could clash with an older person or one in authority. Someone may argue with you.
+
+[ME.SQR.SU]
+You may have a hard time being clearheaded right now. Thoughts and ideas that come may be inappropriate or misleading. A lot of nervous energy. Arguments are possible with an authority figure or someone older than yourself.
+
+[ME.SXT.SU]
+You are at your mental best with sharp ideas and clear thoughts. This is an excellent time to make decisions and take care of mental work.
+
+[ME.TRI.SU]
+You are at your mental best with sharp ideas and clear thoughts. This is an excellent time to make decisions and take care of mental work.
+
+[ME.CNJ.UR]
+You are full of wit and sharp insights. This could be a time for real breakthroughs in the idea department. You are in top form when it comes to mental activity.
+
+[ME.OPP.UR]
+Your thoughts and ideas may seem repressive and limiting to another today. They may find you old-fashioned or too staid. Or, you could find your own mind somewhat conservative, even boring.
+
+[ME.SQR.UR]
+Your mind is set on hair trigger just now and this could result in some hasty decisions, if not a few explosions. There may be a lot of tense energy and unusual thoughts. You could find yourself changing your mind again and again.
+
+[ME.SXT.UR]
+Quick answers, great wit, and a surplus of insights and solutions are at the ready. A good time to write and communicate with real originality. Inventions and breakthroughs are possible.
+
+[ME.TRI.UR]
+Quick answers, great wit, and a surplus of insights and solutions are at the ready. A good time to write and communicate with real originality. Inventions and breakthroughs are possible.
+
+[ME.CNJ.VE]
+Its easy to see what you value and care about. Your sense of appreciation is sharpened and in high focus. A good day to select those new house furnishings or to appraise your holdings.
+
+[ME.OPP.VE]
+You may have difficult thoughts or conversations with someone you love or care for, or your ideas may go against the values of someone who confronts you.
+
+[ME.SQR.VE]
+Your ideas and thoughts may run counter to accepted values, your own or those of others. You may find yourself in a disapproving mood. Decisions made now may have to be re-thought later. You could find yourself tense.
+
+[ME.SXT.VE]
+You have a clear vision into your own inner sense of values, how you appreciate and love. A good time to examine and think about what is important and of lasting value.
+
+[ME.TRI.VE]
+You have a clear vision into your own inner sense of values, how you appreciate and love. A good time to examine and think about what is important and of lasting value.
+
+[MO.CNJ.AS]
+Communicating (getting your message across to others) is at a high just now. Your timing should be perfect, and those around you should find you most spontaneous and alive.
+
+[MO.OPP.AS]
+Feeling more inward and more like sharing some time with your lover or with close friends. Perhaps not a time to be very outward or to try to present yourself to the world. You are feeling reflective rather than expressive just now.
+
+[MO.SQR.AS]
+Not a great time to attempt to get your ideas across to others. You may find yourself feeling blocked and unable to express yourself, in particularly in a group situation.
+
+[MO.SXT.AS]
+You can demonstrate great understanding and sensitivity to the needs of others just now and are in a good position to communicate concerning groups and society in general.
+
+[MO.TRI.AS]
+You can demonstrate great understanding and sensitivity to the needs of others just now and are in a good position to communicate concerning groups and society in general.
+
+[MO.CNJ.JU]
+You may find yourself serving to guide someone younger than you in matters of importance. Or, you may perceive how to proceed with plans and decisions in regard to your life situation.
+
+[MO.OPP.JU]
+Not perhaps the best time to make important decisions that affect your living situation or life circumstances. Others may challenge your authority or the direction you are taking. Events could conspire to make it difficult for you to act.
+
+[MO.SQR.JU]
+A time when you could make some wrong choices, in particular as they affect your living situation. You might feel cut off from your friends or be unable to make good decisions. An urge for social life that can quickly turn from good times to hard times.
+
+[MO.SXT.JU]
+A great time to be with others and to work together. You may be sought after as just the person for a particular job. Your management and directional abilities are in high focus.
+
+[MO.TRI.JU]
+A great time to be with others and to work together. You may be sought after as just the person for a particular job. Your management and directional abilities are in high focus.
+
+[MO.CNJ.MA]
+Everything points to your taking the initiative today. You could feel great support from those around you, or circumstances could dictate your taking action. You feel healthy and natural.
+
+[MO.OPP.MA]
+Circumstances may seem to conspire to irritate you or cause you to become emotional. Someone could challenge you or find a way to anger you. It could be difficult to remain calm and within control.
+
+[MO.SQR.MA]
+Other people, or the general circumstances in which you find yourself at present, may unite to irritate or anger you. You could find yourself getting over-emotional and flying off the handle. A difficult time to relax and remain calm.
+
+[MO.SXT.MA]
+You could find that you are appreciated or valued for your feelings or your ability to act and get things done. Someone understands how you feel and is sympathetic today.
+
+[MO.TRI.MA]
+You could find that you are appreciated or valued for your feelings or your ability to act and get things done. Someone understands how you feel and is sympathetic today.
+
+[MO.CNJ.MC]
+You are at your most practical when it comes to dealing and working with others. You know just what to do and can act without haste and emotion. You are called on to make use of your natural abilities and common sense.
+
+[MO.OPP.MC]
+Not the best time for career or vocational decisions and practical advice to others. Instead, you find yourself feeling more private and in a stay-at-home mood. A time to spend with loved ones and family.
+
+[MO.SQR.MC]
+A frustrating time both at home and at work. A tendency to make poor choices and decisions regarding both. Tensions are high, so perhaps just relaxing and waiting this one out might be in order.
+
+[MO.SXT.MC]
+Others value you for your ability to make practical decisions concerning group issues. You have a natural sense of what the public wants at this time. Clear decisions affecting others could be made now.
+
+[MO.TRI.MC]
+Others value you for your ability to make practical decisions concerning group issues. You have a natural sense of what the public wants at this time. Clear decisions affecting others could be made now.
+
+[MO.CNJ.ME]
+A good time to read a romantic book or take in a movie. Ideas and thoughts will have greater meaning and form just now. You may be very eloquent or forceful in speaking or communicating. People will understand just what you mean.
+
+[MO.OPP.ME]
+Others may disagree with what you say or think or in some way oppose your ideas and thoughts. Your current situation may demand some re-evaluation or otherwise challenge your ideas. It may be very hard for you to communicate what you mean to others.
+
+[MO.SQR.ME]
+Others may cut you off or make it difficult for you to express yourself today. You could find that you lack depth and feeling and the ability to move or communicate with others. Your ideas may not find the support you need.
+
+[MO.SXT.ME]
+You could be most persuasive with others, and eloquent in speech and communication. The situation is a natural for self-expression and lends itself to your particular ideas and thoughts. A good conversation with those you love is possible.
+
+[MO.TRI.ME]
+You could be most persuasive with others, and eloquent in speech and communication. The situation is a natural for self-expression and lends itself to your particular ideas and thoughts. A good conversation with those you love is possible.
+
+[MO.CNJ.MO]
+Your inner resources and emotions are accented. Expect a sense of support and good will from those around you. Perhaps you feel this is really you -- how you feel and are.
+
+[MO.OPP.MO]
+You may find yourself having emotional differences with someone. Those around you, or the situation you find yourself in, may not feel right to you. You could be challenged.
+
+[MO.SQR.MO]
+You may feel blocked or frustrated emotionally by someone or by your own life situation in general. You might feel that some avenues of support have been cut off or blocked. Arguments of an emotional kind could be easy to find.
+
+[MO.SXT.MO]
+A great time to reflect and understand your own situation, just how you feel about yourself. Emotions in particular, or the feelings of those around you, may be very clear. A nice time.
+
+[MO.TRI.MO]
+A great time to reflect and understand your own situation, just how you feel about yourself. Emotions in particular, or the feelings of those around you, may be very clear. A nice time.
+
+[MO.CNJ.NE]
+You may be able to bring a group together with words or ideas that transport others. Poetry and art may be possible now. Your whole world may seem trancelike or dreamy. Movies, books, and all forms of escape could prove very enjoyable.
+
+[MO.OPP.NE]
+Others may not appreciate your more dreamy and other-worldly qualities just now. Your image and ideals could be challenged by another who sees you as impractical and not down-to-earth. You may be caught between the devil and the deep blue sea.
+
+[MO.SQR.NE]
+You may find yourself unrealistic, in a dreamy mood and at odds with your more pragmatic duties. Friends may not appreciate or go along with your dreamy side just now. You may not be able to lose yourself in your imaginings.
+
+[MO.SXT.NE]
+Everything conspires to reveal you at your most elegant, particularly in social situations. You will have a grasp for abstract and spiritual ideas and the ability to present or communicate these to others.
+
+[MO.TRI.NE]
+Everything conspires to reveal you at your most elegant, particularly in social situations. You will have a grasp for abstract and spiritual ideas and the ability to present or communicate these to others.
+
+[MO.CNJ.PL]
+Deep and penetrating analysis, particularly with a group or in relation to your situation, may be in order. Others could seek you out for your psychological insight and understanding. This could be a time to make changes in your environment.
+
+[MO.OPP.PL]
+Someone could challenge you on a very sensitive issue, resulting in an argument or, at the least, a very intense discussion. You may touch upon very emotional parts of you and find yourself analyzing and psychologizing.
+
+[MO.SQR.PL]
+You may find yourself at odds with those around you or with your life situation regarding issues of great sensitivity -- very personal. Difficulties, blocks, and all manner of hot spots may be discovered and have to be worked through.
+
+[MO.SXT.PL]
+You may be sought after for your advice and counsel regarding very personal and emotional issues. You will be able to be understanding and handle this very volatile material. You are able to cut through the red tape and get at what is beneath and behind.
+
+[MO.TRI.PL]
+You may be sought after for your advice and counsel regarding very personal and emotional issues. You will be able to be understanding and handle this very volatile material. You are able to cut through the red tape and get at what is beneath and behind.
+
+[MO.CNJ.SA]
+A good time to consolidate and organize your affairs or rearrange your living situation. You could be seen by others as just the person to be put in charge of some project requiring a conservative mind. A tendency towards isolation and starkness.
+
+[MO.OPP.SA]
+You might like to ignore responsibilities and do some socializing, but realities may demand that you tend to business and forget your friends for the moment. The crowd may ignore you and leave you (old sober-sides) to take care of business.
+
+[MO.SQR.SA]
+You may feel left out or passed over just now. Your own requirements may appear to limit and separate you from where the rest of the gang is headed. A sense of isolation and loneliness is not unusual. This is of short duration.
+
+[MO.SXT.SA]
+You may find yourself being put to good use by your friends, or it could be that circumstances force you to reorganize and be more conservative. All of this should go rather smoothly. Your more taciturn qualities are to the fore and found to be valuable.
+
+[MO.TRI.SA]
+You may find yourself being put to good use by your friends, or it could be that circumstances force you to reorganize and be more conservative. All of this should go rather smoothly. Your more taciturn qualities are to the fore and found to be valuable.
+
+[MO.CNJ.SU]
+This is a time when you can expect a little boost, some sort of extra support or recognition from those around you. You may feel that you are in touch and in harmony with others; the lines of communication are open. The support you need is there.
+
+[MO.OPP.SU]
+You may find yourself somewhat at odds with those around you today. You may be unable to get the support you require or find that some of your supply lines have been diminished or cut off. Someone may challenge you.
+
+[MO.SQR.SU]
+Perhaps a sense of challenge or blockage just now. You may not find the support you flowing to you. Some sort of temporary obstacle may appear. You may feel frustrated.
+
+[MO.SXT.SU]
+There is a chance to understand those around you and to have a special time with someone you love. General good feeling and a sense of support and harmony make this a happy time.
+
+[MO.TRI.SU]
+There is a chance to understand those around you and to have a special time with someone you love. General good feeling and a sense of support and harmony make this a happy time.
+
+[MO.CNJ.UR]
+Others may find you especially witty and eccentric just now. You may have insights or breakthroughs in regard to your living situation or life circumstances. Others value you for your independence and unique qualities.
+
+[MO.OPP.UR]
+Others could challenge your nonconforming attitude in some situation which results in opposition and blockage. Not perhaps a good time for you to try out new things or break away from the old routine. Your own surroundings work against you in this.
+
+[MO.SQR.UR]
+You may find yourself at odds with others regarding matters of convention. You may be going against tradition and being too independent for group approval. You could get carried away under this kind of pressure and make mistakes you may regret.
+
+[MO.SXT.UR]
+Everything conspires to value and bring out your more unique and unusual qualities. You may find that someone close to you understands and is supportive of your eccentricities. You could come up with new solutions or inventions.
+
+[MO.TRI.UR]
+Everything conspires to value and bring out your more unique and unusual qualities. You may find that someone close to you understands and is supportive of your eccentricities. You could come up with new solutions or inventions.
+
+[MO.CNJ.VE]
+You may be moved to appreciate and discover the beauty in your life and in those around you. At the same time, everything could take on added value and importance. Be careful that you don't overspend or indulge too much just now. Enjoy.
+
+[MO.OPP.VE]
+Someone may challenge your values or good taste. Or, you could find it difficult to be appreciative of others at this time. Not the best time to shop, choose colors, and so on. You may not find much support for your particular tastes and values.
+
+[MO.SQR.VE]
+A strong urge for the social life may find you out and about. However, you will walk a fine line today between good company and disapproval, so beware. You could find yourself working against the values of another, going against the flow.
+
+[MO.SXT.VE]
+You may be able to enjoy and value your own life situation today or feel especially kind towards a friend or loved one. Someone may compliment you on your tastes or belongings.
+
+[MO.TRI.VE]
+You may be able to enjoy and value your own life situation today or feel especially kind towards a friend or loved one. Someone may compliment you on your tastes or belongings.
+
+[NE.CNJ.AS]
+After this time, you will find it much easier to express and communicate your inner dreams and ideals to others. A sense of imagination and unity previously limited to your mind becomes a reality for you and is carried through to your person.
+
+[NE.OPP.AS]
+You tend to idealize others, in particular your partners and relationships, during this time period. It is dawning on you that a spirit of community and togetherness is preferable to personal differences.
+
+[NE.SQR.AS]
+You could feel much more intuitive and psychic than heretofore possible. You may sense and feel things that others do not. It is not a time when you are at your most practical; you lose yourself in home and family.
+
+[NE.SXT.AS]
+A dreamy manner or appearance, plus the ability to enchant others, finds this a time when mysticism and idealism seem to really be living in you.
+
+[NE.TRI.AS]
+A dreamy manner or appearance, plus the ability to enchant others, finds this a time when mysticism and idealism seem to really be living in you.
+
+[NE.CNJ.JU]
+You could find yourself pursuing more spiritual directions or finding someone who can guide you to realizing your inner dreams and ideals. Your path is toward cooperation and union with others, even at the expense of the practical and selfish.
+
+[NE.OPP.JU]
+It could be easy for high-sounding ideas and false ideals to mislead you into making career or vocational decisions that are wrong for you. Be careful that you don't involve yourself in some plan to misguide or deceive another.
+
+[NE.SQR.JU]
+A time when false optimism and high-falootin' ideals may wind up affecting your career. It could be easy to make career moves now that are the result of deception, yours or somebody else's. Your imagination carries you in a wrong direction
+
+[NE.SXT.JU]
+Your career could become almost ideal, or you could find yourself taking an interest in more spiritual and mystical matters. The direction of your life could turn more to questions of religion and world unity. Occult and esoteric subjects may concern you.
+
+[NE.TRI.JU]
+Your career could become almost ideal, or you could find yourself taking an interest in more spiritual and mystical matters. The direction of your life could turn more to questions of religion and world unity. Occult and esoteric subjects may concern you.
+
+[NE.CNJ.MA]
+You may find that you have intuitive and psychic abilities that have never surfaced before. An urge may exist to be more devoted to high ideals and to making your dreams real. You may feel emotions of a religious nature. Don't get carried away.
+
+[NE.OPP.MA]
+Your imagination and fancied ideals may mislead you to the point of motivating you in a wrong direction. Your real feelings could be obscured by some supposed spiritual or humanitarian ideal. Later you may feel you did the wrong thing.
+
+[NE.SQR.MA]
+Your current crop of dreams and ideals may not feel right to you or may seem to go against all that normally motivates you. It may be easy to be misled and to find yourself pouring energy and effort into directions that will bring no return.
+
+[NE.SXT.MA]
+Moody, even dreamy, during this period of time. Your emotions and feelings could reach heights that are close to ecstatic. It is easy for you to find the proper motivation to fulfill your ideals or make your dreams into reality.
+
+[NE.TRI.MA]
+Moody, even dreamy, during this period of time. Your emotions and feelings could reach heights that are close to ecstatic. It is easy for you to find the proper motivation to fulfill your ideals or make your dreams into reality.
+
+[NE.CNJ.MC]
+Your goals and ideals are uplifted during this period and take on a more spiritual or mystical dimension than heretofore. Your work may take on some higher purpose, or you may find yourself feeling more community-oriented. Great aspirations and goals.
+
+[NE.OPP.MC]
+You could feel much more intuitive and psychic than heretofore possible. You may sense and feel things that others do not. Not a time when you are at your most practical; you lose yourself in home and family.
+
+[NE.SQR.MC]
+You tend to idealize others -- in particular, your partners and relationships -- during this time period. It is dawning on you that a spirit of community and togetherness is preferable to personal differences.
+
+[NE.SXT.MC]
+Your career could take a turn toward the idealistic, or you could find yourself developing a practical sense for making your dreams a reality. Uplifting for the career.
+
+[NE.TRI.MC]
+Your career could take a turn toward the idealistic, or you could find yourself developing a practical sense for making your dreams a reality. Uplifting for the career.
+
+[NE.CNJ.ME]
+A time of inspiration and creativity, especially if you like to write or speak -- communication of all kinds. You are able to put your dreams and ideals into words. Could also be a time when you are a fuzzy thinker about practical decisions.
+
+[NE.OPP.ME]
+It could be easy to get carried away and to ignore facts or think in a fuzzy or deluded manner. Your ideals (what you imagine for yourself) may be challenged by the ideas and thoughts of others. Communications could become blurred.
+
+[NE.SQR.ME]
+A long dreamy time when you find it easy to lose yourself in one flight of fancy or another, often at the expense of rational thinking and good judgment. Normally clear ideas are fuzzy now, and it is hard to be logical or consistent.
+
+[NE.SXT.ME]
+You are at your most poet, able to put your dreams and ideals into words and communicate them through speaking and writing. Your whole mental environment takes on an almost other-worldly hue during this time. Your muse wakes.
+
+[NE.TRI.ME]
+You are at your most poet, able to put your dreams and ideals into words and communicate them through speaking and writing. Your whole mental environment takes on an almost other-worldly hue during this time. Your muse wakes.
+
+[NE.CNJ.MO]
+A time during which you may be able to carry your ideals and dreams into reality to make your home and environment reflect your inner desires and become as you dreamed it could be. You may find that you can escape with your friends, those who support you.
+
+[NE.OPP.MO]
+A tendency to escape or withdraw into your imagination at the expense of your friends and supporters. You may be unrealistic, taken with dreams, psychic matters, and the like. Your living situation or a younger person may challenge your dreaminess.
+
+[NE.SQR.MO]
+You could get the wrong idea, develop false ideals, and let your imagination carry you away to the point that those who support and care for you are neglected or hurt. Walk a careful line when it comes to dreams versus realities. The dreams can be bad.
+
+[NE.SXT.MO]
+An opportunity to use your imagination to improve your living environment or beautify your surroundings. You may feel very idealistic about your friends, especially someone who is younger or who could use your help. Others give you ideal support.
+
+[NE.TRI.MO]
+An opportunity to use your imagination to improve your living environment or beautify your surroundings. You may feel very idealistic about your friends, especially someone who is younger or who could use your help. Others give you ideal support.
+
+[NE.CNJ.NE]
+A dream world where ideals are real and reality is as we always dreamed it would be. The dewdrop slips into the shining sea. A sense of unity and world communion.
+
+[NE.OPP.NE]
+A time of real change when many give up or accept life on new terms. There is the possibility of taking a more active part (consciously) in life, a sense of sharing the creative force, the experience of becoming one with the creative force, the creator.
+
+[NE.SQR.NE]
+A time when dreams, fantasies, and the urge to be free of this hard world could themselves be a fantasy that deceives and misleads you. Your own goals and ideals may be stressed and challenged.
+
+[NE.SXT.NE]
+A time to reach beyond the physical into the realm of myths and dreams. You may have the sensation of being awake within your own dream, and reality may be like you dreamed it could be. This is a time for visions and seeing the unity beyond differences.
+
+[NE.TRI.NE]
+A time to reach beyond the physical into the realm of myths and dreams. You may have the sensation of being awake within your own dream, and reality may be like you dreamed it could be. This is a time for visions and seeing the unity beyond differences.
+
+[NE.CNJ.PL]
+A sense of devotion and the spiritual. A time to explore your own inner resources and psychic sensitivities. The psychological world takes on the qualities of a living dream. A journey to the essence or beginnings of life (regeneration).
+
+[NE.OPP.PL]
+Your dreams and ideals may conspire to ignore and push aside the need in you for real inner growth and transformation. If you get too carried away or lost in the dream world, you can expect to be
+hauled back by some very personal inner confrontations.
+
+[NE.SQR.PL]
+A tendency to become unrealistic and overimaginative may lead you to ignore and deny your own need for inner growth and personal change. Your current ideals may tell you that analysis and sensitivity are not where it's at. A wrong message.
+
+[NE.SXT.PL]
+Your own inner psychology and vulnerabilities are open to you now, almost as if in a waking dream. A renewed interest in exploring the realm of dreams and imagination finds you getting to the heart of your secrets and sensitive areas.
+
+[NE.TRI.PL]
+Your own inner psychology and vulnerabilities are open to you now, almost as if in a waking dream. A renewed interest in exploring the realm of dreams and imagination finds you getting to the heart of your secrets and sensitive areas.
+
+[NE.CNJ.SA]
+Problems could lose some of their definition and appear less difficult now. You might have a sense of living in a dream world or of being awake in your own dream. Everything seems less solid and definite. The spirit world seems real and possible.
+
+[NE.OPP.SA]
+Misguided idealism and false spirituality could find you ignoring responsibilities in favor of a lot of high-sounding talk. You might find yourself losing your resolve or determination to take care of business and get things accomplished.
+
+[NE.SQR.SA]
+There could be a tendency to view your accomplishments as having almost no substance during this time. A false set of ideals may mislead you and cause you to neglect your responsibilities and get lost in what will amount to a bunch of nothing.
+
+[NE.SXT.SA]
+The problems and responsibilities of life may be seen in a new light, as part of a larger drama you are living (almost like a dream). You are able to handle difficulties more easily, seeing them as part of a larger story.
+
+[NE.TRI.SA]
+The problems and responsibilities of life may be seen in a new light, as part of a larger drama you are living (almost like a dream). You are able to handle difficulties more easily, seeing them as part of a larger story.
+
+[NE.CNJ.SU]
+A time during which you bring imagination and new ideals to your ambitions and life direction. You could get carried away and lose sight of the practical, day-to-day realities in your quest for religious, philosophical, and mystical understanding.
+
+[NE.OPP.SU]
+This marks a time when you could easily get carried away or even deluded with respect to your own goals and ambitions. A tendency to overimagining and dreaming. If you spend all of your time at the sideshow, the main tent will be gone.
+
+[NE.SQR.SU]
+Your idealism and the dreams you dream right now may end up costing you in terms of lost ambitions and setbacks in your life goals. Escape could be at the expense of a reality that you have planned and worked for. Delusion is in the air.
+
+[NE.SXT.SU]
+You find that you are able to bring more imagination to bear on your goals and ambitions now. You might find your ideals taking a more spiritual turn, thus involving you more in community and religious projects.
+
+[NE.TRI.SU]
+You find that you are able to bring more imagination to bear on your goals and ambitions now. You might find your ideals taking a more spiritual turn, thus involving you more in community and religious projects.
+
+[NE.CNJ.UR]
+A time when insights and ideas flow together and add up to form a larger reality. A sense of unity and connection as everything merges together and works. It is almost like a big dream, like being out of the body. A vision.
+
+[NE.OPP.UR]
+Ideals and dreams conflict with your need to be different and perhaps unconventional. Being slavish to established ideals could result in a loss of freedom and insight. Be aware that lofty ideals do not automatically guarantee honesty.
+
+[NE.SQR.UR]
+A (perhaps) rugged time when it is easy for you to get lost in the clouds and lose sight of your own intrinsic originality and independence. You could deceive yourself in matters concerning personal freedom and real insight.
+
+[NE.SXT.UR]
+Insights into your deeper, more spiritual nature are available to you during this period of time. You may be able to discover whole new areas of your psyche or mind that have been closed up to now. Insights into dreams and ideals.
+
+[NE.TRI.UR]
+Insights into your deeper, more spiritual nature are available to you during this period of time. You may be able to discover whole new areas of your psyche or mind that have been closed up to now. Insights into dreams and ideals.
+
+[NE.CNJ.VE]
+A time to appreciate philosophy, religion, and all that is mystical. Your value system and the way you care for others may shoot up a notch to a higher plane. Imaginative purchases and acquisitions are at an all-time high. Not a very practical time.
+
+[NE.OPP.VE]
+Others may not appreciate your expressed ideals and goals or may challenge them. You could find it easy to get carried away and be indiscriminate or lose hold of your sense of values. You could do something that goes against your own sense of good taste.
+
+[NE.SQR.VE]
+Your current bout of idealism may carry you away to the point of damaging or obscuring your true life values. Probably not the best time to make aesthetic or value judgments, since your ability to appreciate may be blurred or unrealistic.
+
+[NE.SXT.VE]
+An appreciation for ideas and thoughts that are quite other-worldly is upon you. It is easy for you to love and be compassionate and to value what life offers. You have a sense of unity and brotherhood that will stay with you. A renewed set of values.
+
+[NE.TRI.VE]
+An appreciation for ideas and thoughts that are quite other-worldly is upon you. It is easy for you to love and be compassionate and to value what life offers. You have a sense of unity and brotherhood that will stay with you. A renewed set of values.
+
+[PL.CNJ.AS]
+You may find yourself becoming intensely personal and passionate in the way you appear or come on to others. You will develop a more direct method of communication, getting to the very heart of things.
+
+[PL.OPP.AS]
+Your relationships (partnerships, lovers) are now very intense and ever so personal. In fact, they are capable of transforming you at the most basic level. A time of real inner growth through other people, the social life.
+
+[PL.SQR.AS]
+Home and job come under intense scrutiny and pressure as you find yourself digging into everything that is most personal and private about yourself. A time to get down to basics and strip away all that is nonessential. Not much of a social time.
+
+[PL.SXT.AS]
+You express great intensity and passion in the way you appear and express yourself to others. You almost transfix those who meet you with your fixedness and sense of power.
+
+[PL.TRI.AS]
+You express great intensity and passion in the way you appear and express yourself to others. You almost transfix those who meet you with your fixedness and sense of power.
+
+[PL.CNJ.JU]
+Intense focus on your career can find you mercilessly cutting back and getting down to the bare essentials regarding the path or direction you are taking with your life. You will have a sense of being almost driven to pursue your course and succeed.
+
+[PL.OPP.JU]
+Career opportunities and choices go dead against what you feel in your gut to be right. Your own sense of honesty and sensitivity squares off with some possible moves that could lead you nowhere or, worse, lead you astray.
+
+[PL.SQR.JU]
+Your career can end up at right angles to your own inner sensitivities and need for growth and change. Emotional material welling up from within you may challenge and threaten the current path you travel, causing you to stop and consider it with care.
+
+[PL.SXT.JU]
+A time during which your career (life path) undergoes a certain amount of change and transformation. You find yourself uninterested in sidetracks -- what is not essential. You can really home in on how to solve problems and get where you want to go.
+
+[PL.TRI.JU]
+A time during which your career (life path) undergoes a certain amount of change and transformation. You find yourself uninterested in sidetracks -- what is not essential. You can really home in on how to solve problems and get where you want to go.
+
+[PL.CNJ.MA]
+Be careful that you don't become some sort of speed demon, for intense (passionate) feelings and drive will be at your command for a good long time. You could find yourself driven to dig and search deep within the human passions, deep in the psyche.
+
+[PL.OPP.MA]
+A very emotional time during which you can find your basic drive and energy ramming up against questions of security, power, and deep insecurity. You don't feel like dealing with some of the very hot psychological issues that keep springing up.
+
+[PL.SQR.MA]
+Power struggle may well be the keyword here. You could find yourself pushing against a need for greater sensitivity and inner growth. Push could come to shove, and you may end up driving against your own inadequacies and vulnerability.
+
+[PL.SXT.MA]
+A time when you may feel very passionate, or during which your feelings, emotions, and basic life urges undergo change and possibly transformation. You feel more personal and direct and find that you waste less time with hurt feelings than before.
+
+[PL.TRI.MA]
+A time when you may feel very passionate, or during which your feelings, emotions, and basic life urges undergo change and possibly transformation. You feel more personal and direct and find that you waste less time with hurt feelings than before.
+
+
+[PL.CNJ.MC]
+A deep inner change affecting your career goals and the way you set about fulfilling them. A time of intense mental and psychological change, during which you see how your inner self works. A mental transformation.
+
+[PL.OPP.MC]
+Home and family come under intense scrutiny and pressure as you find yourself digging into everything that is most personal and private about yourself. A time to get down to basics and strip away all that is nonessential. Not much of a social time.
+
+
+[PL.SQR.MC]
+Your relationships (partnerships, lovers) are now very intense and ever-so-personal. In fact, they are capable of transforming you at the most basic level. A time of real inner growth through other people, the social life. Job and family may suffer.
+
+[PL.SXT.MC]
+Your career is aided via a burst of intense concentration. You focus right through what is unessential and settle on the heart of the matter. Vocational decisions are furthered.
+
+[PL.TRI.MC]
+Your career is aided via a burst of intense concentration. You focus right through what is unessential and settle on the heart of the matter. Vocational decisions are furthered.
+
+[PL.CNJ.ME]
+If you think that you might lose your mind under the current mental pressure, probably not. However, you will be intensely examining ideas, thoughts, and concepts with an eye to getting rid of unwanted dross. Searching, research, detective work, and such.
+
+[PL.OPP.ME]
+A time when your inner and personal thoughts and experiences cannot be put into words, or had best not be. Ideas and communication in general may tend to be superficial, deliberately avoiding anything of substance or controversy.
+
+[PL.SQR.ME]
+A crazy time when you may feel under a lot of mental pressure. You may be unable to put some of your insecurity and sense of change into words, to communicate them. A tendency to probe and analyze may not fit in with your normal way of thinking.
+
+[PL.SXT.ME]
+Your mental energies (ideas, thoughts, and so on) may undergo some transformation or change, a natural sense of growth and development. Concentrating and getting down to really essential ideas are facilitated during this time period.
+
+[PL.TRI.ME]
+Your mental energies (ideas, thoughts, and so on) may undergo some transformation or change, a natural sense of growth and development. Concentrating and getting down to really essential ideas are facilitated during this time period.
+
+[PL.CNJ.MO]
+A time of great change and evolution, in particular regarding your home life and surroundings -- your support system. You may draw a whole new environment around you after boiling down the current situation to the bare essentials.
+
+[PL.OPP.MO]
+Your tendency to analyze, to probe, and generally to get at the heart of things finds itself at loggerheads with your living and support system. Others may resent your persistent prying and digging, and confrontations can be expected.
+
+[PL.SQR.MO]
+Sensitive matters of extreme vulnerability may tend to intrude on your home life and environment. You could be unable to share all the changes you may be experiencing with those around you. Someone may be unable or unwilling to support your feelings.
+
+[PL.SXT.MO]
+Your support system (family, home, those who give you nourishment) becomes more secure. You are able to dispense with some of the unessentials and develop what is most basic and true in your environment. You encourage better support.
+
+[PL.TRI.MO]
+Your support system (family, home, those who give you nourishment) becomes more secure. You are able to dispense with some of the unessentials and develop what is most basic and true in your environment. You encourage better support.
+
+[PL.CNJ.NE]
+A time of intense soul-searching during which you examine your ideals and goals with an eye to separating the wheat from the chaff. You could take an interest in world unity and a more communal type of existence. Search for pure ideals, pure vision.
+
+[PL.OPP.NE]
+Ideals and dreams tend to take a back seat to your current need for security and privacy. A growing sense of vulnerability could lead to behavior that goes against much of what you believe in -- your own stated goals.
+
+[PL.SQR.NE]
+Your ideals and dreams are locked in combat with your need for inner growth and transformation. Sensitivities that continue to pop up don't fit in with your avowed set of aims and goals. The resulting friction requires a careful compromise.
+
+[PL.SXT.NE]
+A time to really examine and analyze your dreams and ideals. It can be easy now to separate the wheat from the chaff and get rid of much of the "pie in the sky" stuff you have bought along the way. The results are solid goals that support you.
+
+[PL.TRI.NE]
+A time to really examine and analyze your dreams and ideals. It can be easy now to separate the wheat from the chaff and get rid of much of the "pie in the sky" stuff you have bought along the way. The results are solid goals that support you.
+
+[PL.CNJ.PL]
+The symbol of the phoenix -- complete burning and regeneration or transformation.
+
+[PL.OPP.PL]
+A time of extreme vulnerability during which deep and profound change and transformation can take place. Rebirth.
+
+[PL.SQR.PL]
+A time when all that is personal, sensitive, and secret will come storming out of the closet to confront you. A cornucopia of emotional vulnerabilities for you to cope with. Change is the easiest thing to do. Let it flow and let it go.
+
+[PL.SXT.PL]
+Continual discovery, persistent search, and continual change and transformation keep you on the move and growing. You are able to penetrate and get to the very heart of things; thus research and the like would be good.
+
+[PL.TRI.PL]
+Continual discovery, persistent search, and continual change and transformation keep you on the move and growing. You are able to penetrate and get to the very heart of things; thus research and the like would be good.
+
+[PL.CNJ.SA]
+A time when you are intensely concerned with matters of personal security and responsibility. Any project or enterprise will be examined in minute detail to determine if it is sound and well put together. A sense of being driven to find the facts.
+
+[PL.OPP.SA]
+Inner searching and a sense of being vulnerable and exposed could tempt you to drop your responsibilities and spend more time on personal growth. It may be difficult to concentrate on your duties during this time of psychological sensitivity.
+
+[PL.SQR.SA]
+Your sense of responsibility and sheer determination may not allow you to admit any feelings of vulnerability and sensitivity that may be coming to your attention. A power struggle could result, and a careful compromise may have to be found.
+
+[PL.SXT.SA]
+A time of change that finds you examining your foundations, responsibilities, and basic security. You can dispense with all that is unsound or superficial, leaving only that which has been properly determined or solid. Get down to the nitty-gritty.
+
+[PL.TRI.SA]
+A time of change that finds you examining your foundations, responsibilities, and basic security. You can dispense with all that is unsound or superficial, leaving only that which has been properly determined or solid. Get down to the nitty-gritty.
+
+[PL.CNJ.SU]
+An ultra-intense time, during which you may eliminate a lot that is superficial and unessential in your life. A deep and lasting change in your ambition and life goals could evolve. A time of very hard work, cutting through appearances down to the quick.
+
+[PL.OPP.SU]
+Power struggles, with authorities in particular, can be one sign of this aspect. Your need for constant inner change and growth may end up setting you back as much as it helps. Your ambitions and basic life direction could be challenged.
+
+[PL.SQR.SU]
+A time when your basic life direction and sense of purpose may be tested by sensitive and very personal matters. Questions of vulnerability and insecurity may hound you, trying to force you off your slated path. You may have to tread with care.
+
+[PL.SXT.SU]
+You could receive some help in the form of a real drive towards realizing your inner self and your life ambitions. You are able to cut through a lot that is unessential and get on with the real work. Also, a special relationship with an authority figure or teacher.
+
+[PL.TRI.SU]
+You could receive some help in the form of a real drive towards realizing your inner self and your life ambitions. You are able to cut through a lot that is unessential and get on with the real work. Also, a special relationship with an authority figure or teacher.
+
+[PL.CNJ.UR]
+You may become fiercely independent and rebellious, defying rules and conventions, especially as regard psychological mores and taboos. You could find yourself gaining insights into everything secret and psychological, breaking accepted rules.
+
+[PL.OPP.UR]
+A time of legitimate tension when your need for security and privacy is challenged by all that is rebellious and unconventional within you. A need for deep self-examination cuts into any sense of freedom and independence you may have.
+
+[PL.SQR.UR]
+Your own fears and insecurities come up against the rebel in you, with potentially explosive results. The independent side of you cares little for your feelings about matters of protection and security. Result: A real power struggle to negotiate.
+
+[PL.SXT.UR]
+A time to break the mold and try what is unconventional, but with real passion or persistence. You may be relentless in your quest to discover new insights, trying new and different things. A much more independent and adventurous you results.
+
+[PL.TRI.UR]
+A time to break the mold and try what is unconventional, but with real passion or persistence. You may be relentless in your quest to discover new insights, trying new and different things. A much more independent and adventurous you results.
+
+[PL.CNJ.VE]
+Stand by to cut loose a lot of dead wood, in particular as regards what you appreciate and value -- your value system. This could be a permanent change that leaves you appreciating only the essential and lasting things.
+
+[PL.OPP.VE]
+You may not appreciate how others insist on getting personal, or your own prying and inner diggings may not be enjoyed. The intensely sensitive psychological material you are coming up with rubs the wrong way, upsetting your own value system.
+
+[PL.SQR.VE]
+An intense time, during which your need for inner growth and change may not agree with how you feel, your current value system. You may not appreciate all of the intensely personal stuff that is boiling up, coming to your attention.
+
+[PL.SXT.VE]
+A natural transformation of your values (the way you appreciate and love yourself and others) is taking place. You may cease to waste time (and money) acquiring that which is worthless, and may develop an eye for that which is lasting and worthwhile.
+
+[PL.TRI.VE]
+A natural transformation of your values (the way you appreciate and love yourself and others) is taking place. You may cease to waste time (and money) acquiring that which is worthless, and may develop an eye for that which is lasting and worthwhile.
+
+[SA.CNJ.AS]
+This marks a major life change. It is the end of an interest in the outward and social world and the start of a more inward journey during which you absorb and take in new information. Letting go of past success is a necessity.
+
+[SA.OPP.AS]
+This time marks the end of a number of years of hard work, a kind of apprenticeship on your part. Now you begin to move upward and outward. Go for it! A number of very successful years are coming now, during which the world should bend to your lead.
+
+[SA.SQR.AS]
+A time when you may feel your style is severely cramped, particularly concerning relationships and your own basic worth and self-image. It may be hard to convey yourself and to communicate with others. A lot is happening!
+
+[SA.SXT.AS]
+Outer circumstances tend to work in your favor. You may find that you are more organized than before, able to reach new levels of self-discipline. A smooth time during which events seem to arrange themselves to your advantage.
+
+[SA.TRI.AS]
+Outer circumstances tend to work in your favor. You may find that you are more organized than before, able to reach new levels of self-discipline. A smooth time during which events seem to arrange themselves to your advantage.
+
+[SA.CNJ.JU]
+Here is an opportunity to bring some discipline and determination to the way you are going, your life's path or your career. Now you can be selective and practical when it comes to your direction. A good time to start a business with a firm foundation.
+
+[SA.OPP.JU]
+Circumstances may block or challenge your path or career. Progress or growth may slow or seem nonexistent. It could be difficult to make decisions, get a sense of direction, and solve problems. Another person could stand in your way.
+
+[SA.SQR.JU]
+Events make it difficult to make good decisions concerning career and life direction. The danger of building on unsound foundations or expanding too fast is present. You could feel up tight and blocked on all sides... unable to move forward. Patience.
+
+[SA.SXT.JU]
+Outer circumstances and the flow of events make it easy for you to make clear decisions, see the road ahead, and move forward. Things seem to fall in place, and progress is easy. Be careful not to overextend or bite off more than you can chew.
+
+[SA.TRI.JU]
+Outer circumstances and the flow of events make it easy for you to make clear decisions, see the road ahead, and move forward. Things seem to fall in place, and progress is easy. Be careful not to overextend or bite off more than you can chew.
+
+[SA.CNJ.MA]
+A time during which you could accomplish a lot through sheer discipline -- control of your energy and drive. You may find yourself turning out any emotional pockets and working with your feelings a lot. A very strong time. Don't push too hard.
+
+[SA.OPP.MA]
+Emotional challenge, probably offered from someone close to you, may mark this time period. Circumstances may press you and tend to bring out the rebel in you. You could feel frustrated and thwarted by events. Self-control is in order.
+
+[SA.SQR.MA]
+Not an easy period for most of us. Events conspire to work against our own ambition and drive, bringing obstacles and slowing progress to a halt. Easy to overdo, strain, and explode under these aspects, so take it easy. Bide your time.
+
+[SA.SXT.MA]
+Circumstances may urge you to great effort and hard work. Things are working with rather than against you, so don't hold back. However, don't overdo and try to go too far too fast. Let things take their natural course, which should be an easy one now.
+
+[SA.TRI.MA]
+Circumstances may urge you to great effort and hard work. Things are working with rather than against you, so don't hold back. However, don't overdo and try to go too far too fast. Let things take their natural course, which should be an easy one now.
+
+[SA.CNJ.MC]
+This is a high-water mark as far as outward and social success is concerned, a kind of peak after which you should turn your attention to consolidating what you have set in motion up to this point. A more inward time is to come in a few years.
+
+[SA.OPP.MC]
+A new start. Several years of self-examination and inner learning are coming to an end. Now you begin to feel a growing confidence in everything you do. You have found yourself in one sense or another and are on the move toward building a real future.
+
+[SA.SQR.MC]
+This could be a difficult time both at home and on the job, so settle back and take it slowly. The going may be less than easy, for you are making a lot of changes. You are entering a new stage of life, and it could take a while to get into it.
+
+[SA.SXT.MC]
+A time during which you are at your best in regard to practical matters and work-related affairs. Events may line up in your favor and push you over the top to new heights. A promotion or recognition for past accomplishments could be forthcoming.
+
+[SA.TRI.MC]
+A time during which you are at your best in regard to practical matters and work-related affairs. Events may line up in your favor and push you over the top to new heights. A promotion or recognition for past accomplishments could be forthcoming.
+
+[SA.CNJ.ME]
+A time to organize and discipline your mind and methods of communication. Perhaps a time for serious thinking, getting down to the essential thoughts. School (studies of all kinds) are in order. A time for perspiration in the idea department.
+
+[SA.OPP.ME]
+Mental organization and discipline may fall apart or be challenged during this time. Communication may be difficult or work at cross purposes. Hard to write or exchange letters, share ideas with others, or write that book. A lot of mental energy stirring.
+
+[SA.SQR.ME]
+A lot of mental energy churning around, but it may be hard to put it to work. Circumstances may prove difficult regarding communication, writing, ideas, and the like. Things can get tight, and you may find it hard to think or study during this time.
+
+[SA.SXT.ME]
+Your mind may be very clear now and your thoughts brought to a sharp focus. Easy to organize your thoughts, and communication of all kinds is furthered. Write that book, take that course. Your thoughts count now, so use your mind. Communicate.
+
+[SA.TRI.ME]
+Your mind may be very clear now and your thoughts brought to a sharp focus. Easy to organize your thoughts, and communication of all kinds is furthered. Write that book, take that course. Your thoughts count now, so use your mind. Communicate.
+
+[SA.CNJ.MO]
+A time for deep probing, during which you may be forced to witness and work through some of your more inward and emotional issues -- getting to know yourself psychologically. This could result in a serious relationship, perhaps even marriage.
+
+[SA.OPP.MO]
+This could be a time when everything around you (your living situation) seems to be in flux and even turmoil. You may feel opposed and challenged by others. Working through problems acted out with others will be the order of the day and hard to avoid.
+
+[SA.SQR.MO]
+A touch-and-go time when it comes to your emotions and the environment in which you find yourself. You may be up against it for a while, as things get tight and progress is slowed. Your emotional life may slow to a trickle or be completely blocked. Patience.
+
+[SA.SXT.MO]
+A good time, when your efforts really pay off and things seem to run smoothly. Now you have an ability for sustained work that allows you to coordinate and organize like never before. Bring to fruition uncompleted tasks or character development.
+
+[SA.TRI.MO]
+A good time, when your efforts really pay off and things seem to run smoothly. Now you have an ability for sustained work that allows you to coordinate and organize like never before. Bring to fruition uncompleted tasks or character development.
+
+[SA.CNJ.NE]
+You could be forced to re-define your ideals and reshape your self-image. Making your dreams real (and seeing that reality is all you dreamed it could be) is your focus now. You may find your intuition and sense of truth deepening.
+
+[SA.OPP.NE]
+The world may appear to challenge and oppose your dreams and ideals. Harsh reality may seem to ridicule you, and this could come through another person. You will have to hang onto your dreams and uphold your self-image in this rather rough weather.
+
+[SA.SQR.NE]
+Could be a difficult time in terms of your self-image, dreams, and ideals. A close examination may find you separating the wheat from the chaff when it comes to realistic ideas and dreams of what can be. Your imagination may feel blocked and stagnant.
+
+[SA.SXT.NE]
+Circumstances should work together to help bring out your ideals, make it easier to make your dreams real. You may find yourself examining and testing ideals, separating the wheat from the chaff. All in all, a good time to project your image.
+
+[SA.TRI.NE]
+Circumstances should work together to help bring out your ideals, make it easier to make your dreams real. You may find yourself examining and testing ideals, separating the wheat from the chaff. All in all, a good time to project your image.
+
+[SA.CNJ.PL]
+You will probably be reviewing a lot of very sensitive psychological material. Although you may not be able to notice any change, this is a chance to organize your thoughts and build new habits that will bring orderly change in the future.
+
+[SA.OPP.PL]
+Circumstances may appear to work against you and bring very sensitive issues to the fore. Changes you want to make or are making may be challenged by someone close to you or by events. This could heat up and be an explosive time.
+
+[SA.SQR.PL]
+Not an easy time unless you like walking on eggs. Outer events could manage to challenge you at every turn by bringing up very sensitive issues, one after another. You may have to move ever so gently and with patience to avoid explosions and anger.
+
+[SA.SXT.PL]
+A good time to make some changes and reach new levels. A lot of personal and sensitive psychological material may be surfacing, but you can handle it and turn it to your advantage. You may look back on these months as very transformative.
+
+[SA.TRI.PL]
+A good time to make some changes and reach new levels. A lot of personal and sensitive psychological material may be surfacing, but you can handle it and turn it to your advantage. You may look back on these months as very transformative.
+
+[SA.CNJ.SA]
+A major life event that marks the end of a formative period and the beginning of more independence. You are on your own, and this marks the start of increased responsibility and accountability. A time for deep thought, review of self, a new chance.
+
+[SA.OPP.SA]
+A major time of change, where circumstances manage to get our attention and some sort of challenge or turning-point is to be expected. Our response here depends upon how we have acted thus far and may foretell the flow of events for years to come.
+
+[SA.SQR.SA]
+This could be a somewhat difficult time, when circumstances may block you or bring you to a standstill. It is easy now to work at cross-purposes to your own interests. A good time to step back and re-evaluate your aims and goals. This may take some time.
+
+[SA.SXT.SA]
+Outer circumstances are favorable, and it should be easy for you to push forward in projects and in all aspects of your life. Things may seem almost magical in the way they work out in your favor. A great time to organize and get things accomplished.
+
+[SA.TRI.SA]
+Outer circumstances are favorable, and it should be easy for you to push forward in projects and in all aspects of your life. Things may seem almost magical in the way they work out in your favor. A great time to organize and get things accomplished.
+
+[SA.CNJ.SU]
+A crucial time during which, depending upon what age this takes place, you may reach new highs of determination and accomplishment. This will bring great discipline and a concentration or focus that could make or break you -- the ability to work hard.
+
+[SA.OPP.SU]
+This may be a difficult time period during which you may experience opposition and blockage from events, others and the situation in general. A turning-point. An opportunity to take control and become more disciplined. A chance to see your own problems.
+
+[SA.SQR.SU]
+Circumstances may affect you in a very direct manner. The great wheel of change may appear to move at a snail's pace or grind to a halt. A time during which everything you do may seem more difficult and require great effort. Could be tough.
+
+[SA.SXT.SU]
+A time during which circumstances bend to your will and things have a way of working out smoothly. Here is a real opportunity to complete and work out difficulties and projects that require both long-term effort and a high degree of discipline.
+
+[SA.TRI.SU]
+A time during which circumstances bend to your will and things have a way of working out smoothly. Here is a real opportunity to complete and work out difficulties and projects that require both long-term effort and a high degree of discipline.
+
+[SA.CNJ.UR]
+A time to channel and put into practice new insights, ideas, inventions, and the like. At the same time, your more rebellious and independent side may come under better control. Your practical solutions to day-to-day problems are organized and solid.
+
+[SA.OPP.UR]
+Circumstances may conspire to limit and hinder your sense of independence and originality. It could be hard to find easy solutions to problems right now. Conservative forces or events may challenge or oppose your ideas and sense of freedom.
+
+[SA.SQR.UR]
+This may not be an easy time, for events and circumstances may conspire to block your sense of freedom and independence. Someone challenges your ideas, finds them unconventional. It may not be easy to find new and suitable solutions to problems now.
+
+[SA.SXT.UR]
+Events may make it easy for you to be original, have breakthroughs, and find new solutions to old problems. You may find yourself able to implement your ideas and put them into practice. Independence, originality, and eccentricity are to the fore.
+
+[SA.TRI.UR]
+Events may make it easy for you to be original, have breakthroughs, and find new solutions to old problems. You may find yourself able to implement your ideas and put them into practice. Independence, originality, and eccentricity are to the fore.
+
+[SA.CNJ.VE]
+You can expect some sort of major re-evaluation of your likes and dislikes, how and what you enjoy or appreciate about yourself and life -- your value system. You may find that your appreciation for the quality of everything is stronger. Re-appraisal.
+
+[SA.OPP.VE]
+Could be a damper on your ability to enjoy or appreciate yourself and your life during this time. You may disagree with or even find yourself at odds with the value system of someone close to you. Financial and aesthetic matters could be under siege.
+
+[SA.SQR.VE]
+A time to be patient and tread a little lightly when it comes to indulgence and overextending yourself. Things could be tight. You may find it hard to appreciate or enjoy very much just now, and times may find you feeling lonely and at odds with life.
+
+[SA.SXT.VE]
+Circumstances may augment and stimulate appreciation and enjoyment of your life situation. Your system of values may deepen, providing you with a better sense of discrimination and good taste. Purchasing, selecting colors, and so on are at a high.
+
+[SA.TRI.VE]
+Circumstances may augment and stimulate appreciation and enjoyment of your life situation. Your system of values may deepen, providing you with a better sense of discrimination and good taste. Purchasing, selecting colors, and so on are at a high.
+
+[SU.CNJ.AS]
+A vital day with much energy and lots of action. You may feel very focussed and even a bit radiant. You could find yourself in the limelight or able to really communicate and get yourself across to others.
+
+[SU.OPP.AS]
+You may experience opposition to the way you present yourself. Someone could challenge your sense of identity. You may not be able to communicate or get yourself across as well as you wish.
+
+[SU.SQR.AS]
+You may lack any real sense of yourself today, or be unable to communicate or convey your ideas. You tend to feel that your personality lacks any vitality. An authority figure could be hard to connect with now.
+
+[SU.SXT.AS]
+You may appear very at ease and loose today. Everything seems to be working together, and you may find yourself expressive and able to communicate well.
+
+[SU.TRI.AS]
+You may appear very at ease and loose today. Everything seems to be working together, and you may find yourself expressive and able to communicate well.
+
+[SU.CNJ.JU]
+A good day to solve problems and make important decisions. You will find a way around almost any obstacle and are in control and able to guide yourself with ease. Your sense of inner direction is good and should lead to opportunities.
+
+[SU.OPP.JU]
+You may find opposition from others today to some plan of action or project of yours. Your own approach may be frustrated or blocked. Or, you might find yourself struggling with someone older (an authority) or even with yourself and goals.
+
+[SU.SQR.JU]
+Not a great day to make plans or decisions. It could be hard to figure out the right move. You may feel frustrated as to where you are headed in life just now. Someone older or in authority may disapprove of your actions or decisions.
+
+[SU.SXT.JU]
+A very lucky day for making plans or decisions and finding your way through just about any problem you may discover. You feel successful and able to cope. Good advice from a guide or older person may be forthcoming. A good day.
+
+[SU.TRI.JU]
+A very lucky day for making plans or decisions and finding your way through just about any problem you may discover. You feel successful and able to cope. Good advice from a guide or older person may be forthcoming. A good day.
+
+[SU.CNJ.MA]
+A good day, with lots of energy and ambition. This is the day to start new projects or push forward with those already in motion. You may enjoy a sense of creating your own opportunities. Someone older or in authority may be a motivating force.
+
+[SU.OPP.MA]
+You may find yourself at odds with someone today, in particular at the gut or emotional level. Feelings could run strong, and this may require presence of mind and real patience in order to avoid a flare-up.
+
+[SU.SQR.MA]
+Frustration, especially in getting things accomplished, may set today's mood. You could fly off the handle with very little provocation, so exercise some control and be ready for a possible emotional overload.
+
+[SU.SXT.MA]
+A good day to get things done. Good eye-hand coordination and sustained effort make almost any task run well. You may feel like exercising or getting out and about. Emotions are very present but within control.
+
+[SU.TRI.MA]
+A good day to get things done. Good eye-hand coordination and sustained effort make almost any task run well. You may feel like exercising or getting out and about. Emotions are very present but within control.
+
+[SU.CNJ.MC]
+A good day for practical ideas and planning about to your work or vocation. You may receive some recognition or special attention regarding to your particular skills and abilities.
+
+[SU.OPP.MC]
+You could experience challenge or even downright opposition when it comes to matters of your job or practical skills. Someone may challenge or question your authority. You may find yourself oriented more to the family and home at this point.
+
+[SU.SQR.MC]
+Perhaps a frustrating day regarding practical or job-related activities. You may find yourself going against authority or making some rather poor business decisions.
+
+[SU.SXT.MC]
+A very good day for job-related events. You may shine in your particular job or find that promotion or practical insights come with ease. You could represent or speak for your company or communicate about your skills.
+
+[SU.TRI.MC]
+A very good day for job-related events. You may shine in your particular job or find that promotion or practical insights come with ease. You could represent or speak for your company or communicate about your skills.
+
+[SU.CNJ.ME]
+A day for thinking and ideas. You may feel like talking a bit more than usual, exploring new ideas or getting happily lost in a conversation. There will be an urge to communicate. Also, perhaps a short trip or a special phone call is in order.
+
+[SU.OPP.ME]
+You may find yourself somewhat argumentative today. For instance, you could disagree with ideas or find communication with others difficult or fouled up. You may clash with someone older or in authority over ideas. Words may be exchanged.
+
+[SU.SQR.ME]
+Don't be surprised if you are not in top mental gear today. You could find yourself struggling to communicate or being easily misunderstood. Hard words are possible with an authority figure or an older person.
+
+[SU.SXT.ME]
+New ways to communicate or an easy manner will make conversations and interactions go well today. You may find yourself more talkative and facile than otherwise. A dialogue with an older person may take place.
+
+[SU.TRI.ME]
+New ways to communicate or an easy manner will make conversations and interactions go well today. You may find yourself more talkative and facile than otherwise. A dialogue with an older person may take place.
+
+[SU.CNJ.MO]
+A good day to spend with a loved one. Emotions are up, and you may even find yourself pondering a bit on the meaning of life. You feel at one with your situation. All in all, a productive and potentially satisfying day.
+
+[SU.OPP.MO]
+An important relationship, perhaps a younger person or someone in your near environment, may come into focus today. There could be an emotional overtone to all of this that may require understanding and flexibility on your part.
+
+[SU.SQR.MO]
+You may have a sense of circumstances working against you or feel a lack of support and love from those around you. You could clash with younger people or old habits. Your support system (environment) may feel stressed.
+
+[SU.SXT.MO]
+A nice day that should just flow along. In particular, you will do well in activities that include children, younger people, and your home and surroundings. You could feel real support and harmony at this time for circumstances and those around you.
+
+[SU.TRI.MO]
+A nice day that should just flow along. In particular, you will do well in activities that include children, younger people, and your home and surroundings. You could feel real support and harmony at this time for circumstances and those around you.
+
+[SU.CNJ.NE]
+Today you may feel very dreamy and imaginative. A good book or movie might take on added importance. You could find yourself ignoring the practical in favor of considering your more eternal prospects for the moment.
+
+[SU.OPP.NE]
+Others may oppose or challenge your own life dreams and imagination. You may find yourself going head-to-head with someone older over matters of honesty and integrity. You could fear being deceived or misled, or you could question the motives of authorities.
+
+[SU.SQR.NE]
+Perhaps an ultra-mundane day, lacking in imagination or much, if any, escape. It is not likely that you will lose yourself in a great book or movie. You may feel separated and not a part of everything around you.
+
+[SU.SXT.NE]
+Let yourself dream today. These days don't come too often, so don't ignore this opportunity to let your imagination loose. Perhaps a good book or movie will take on that more-than-real dimension. Consider the stars.
+
+[SU.TRI.NE]
+Let yourself dream today. These days don't come too often, so don't ignore this opportunity to let your imagination loose. Perhaps a good book or movie will take on that more-than-real dimension. Consider the stars.
+
+[SU.CNJ.PL]
+This could be an action-filled day when time seems to slow down as you encounter some of your more sensitive areas. This kind of intensity and vulnerability points to inner change and growth, especially that related to goals or someone older.
+
+[SU.OPP.PL]
+Your own inner need for change and growth may be threatened by someone older or by circumstances. There could be some underhanded or devious goings-on behind the scenes as well. Tension of a psychological or political nature may be present.
+
+[SU.SQR.PL]
+A very superficial day. It may not be possible for you to penetrate to anything remotely meaningful or moving. Perhaps a sense of the artificial, the repetitive, the senseless. You can't seem to get beneath the surface.
+
+[SU.SXT.PL]
+Real insight into your own inner workings or psychology could surface today, and in a manageable form. You may be in the mood for deep and penetrating conversations or thoughts.
+
+[SU.TRI.PL]
+Real insight into your own inner workings or psychology could surface today, and in a manageable form. You may be in the mood for deep and penetrating conversations or thoughts.
+
+[SU.CNJ.SA]
+You may well be reminded of your various responsibilities today. A good time to get down to the nitty-gritty and take care of some business you have postponed. Obligations may come to your attention. A meeting with someone older or in authority.
+
+[SU.OPP.SA]
+Obstacles to self-discipline or to your sense of organization may appear. You could be frustrated by someone in this regard, or external events might pile up and be thrust upon you. Authorities and red tape may stand between you and your goals.
+
+[SU.SQR.SA]
+It may be hard to organize or persevere today. Everything may seem to be falling apart and coming unglued. Don't force things. Be patient and let the chaos blow itself out. Clashes with authorities or someone older over responsibilities are possible.
+
+[SU.SXT.SA]
+Today you will be able to tackle tasks that require real discipline or organization. You find yourself in a very practical mood and working with, instead of against, yourself. You may have some serious or contemplative moments.
+
+[SU.TRI.SA]
+Today you will be able to tackle tasks that require real discipline or organization. You find yourself in a very practical mood and working with, instead of against, yourself. You may have some serious or contemplative moments.
+
+[SU.CNJ.SU]
+This is the start of a new year cycle. Why not reserve some time today to celebrate and enjoy yourself? There could be a window in time that opens now, making insights possible. Take a look. Also, one of these days is a happy birthday!
+
+[SU.OPP.SU]
+An important relationship, perhaps an older person or someone in authority, may come into focus today. There could be some tension or sense of opposition requiring compromise or negotiation on your part. An opportunity for understanding and even growth.
+
+[SU.SQR.SU]
+You may find it very easy to overdo or work at cross purposes to yourself just now. This can result in a frustrating and stressful day. There is a sense of testing the limits.
+
+[SU.SXT.SU]
+An easy, calm day that should find everything running in a smooth manner. Ideas and interaction with authority figures or older people may be in the fore. Working with -- rather than against -- the flow should be easy to do.
+
+[SU.TRI.SU]
+An easy, calm day that should find everything running in a smooth manner. Ideas and interaction with authority figures or older people may be in the fore. Working with -- rather than against -- the flow should be easy to do.
+
+[SU.CNJ.UR]
+Today could bring the unexpected or find you in a very unusual mood. It may be that you feel like getting away from the routine and just doing something different. New insights or breakthroughs are possible with authorities or someone older.
+
+[SU.OPP.UR]
+Someone may oppose you and frustrate your sense of independence today. You may feel squelched or thwarted in a relationship, be it romantic, a friendship, or job related. New ideas and insights may be slow to come just now. Someone older may stifle you.
+
+[SU.SQR.UR]
+A tough day to solve problems or to look for insights and solutions. You may feel that your originality and independence are stifled or just not available to you. Someone older may tend to stifle your freedom.
+
+[SU.SXT.UR]
+Take a little trip, or get outside today. You may want to break that routine and try something new or different right now. You may discover insights into day-to-day problems that will be of great value later.
+
+[SU.TRI.UR]
+Take a little trip, or get outside today. You may want to break that routine and try something new or different right now. You may discover insights into day-to-day problems that will be of great value later.
+
+[SU.CNJ.VE]
+Be careful that you don't go on a spending spree, for you may appreciate the beauty and value of everything you encounter today. You could feel loving and warm to those around you, and you are appreciative of your own life and self, in general.
+
+[SU.OPP.VE]
+You may come face-to-face today with someone who has very different values than you do. You could find yourself cast in an opposing position, and this might require compromise and understanding on your part. You may not appreciate authority now.
+
+[SU.SQR.VE]
+Don't pick out that new car today, because your sense of value may be stressed. You may be unable to appreciate or value people and things now. Your tastes may offend someone older or in authority.
+
+[SU.SXT.VE]
+A very nice day, perhaps filled with some renewed appreciation for all that is beautiful and fine. A sense of value and valuing that may find you lavishing affection on those near you. You might feel love or value for an older person.
+
+[SU.TRI.VE]
+A very nice day, perhaps filled with some renewed appreciation for all that is beautiful and fine. A sense of value and valuing that may find you lavishing affection on those near you. You might feel love or value for an older person.
+
+[UR.CNJ.AS]
+A time that can mean great change for you personally, during which you break away from the past and try new and different ways of presenting yourself. Breakthroughs in personal relations, perhaps through unconventional behavior and appearance, may occur.
+
+[UR.OPP.AS]
+A time for discovering others or for finding yourself able to respond to friends or lovers and enter into relationships with a renewed sense of love and compassion. Real breakthroughs, willingness to try new and different approaches to relationships.
+
+[UR.SQR.AS]
+Sudden insight into your job, family, and sense of security. You could be asserting more independence, perhaps at the expense of your friends and relationships -- engrossed in your personal and domestic scene.
+
+[UR.SXT.AS]
+New means of self-expression and communication are possible. You may find yourself changing your appearance, moving toward the more unconventional and less traditional. Eccentricities and a different manner of presenting yourself may be in order.
+
+[UR.TRI.AS]
+New means of self-expression and communication are possible. You may find yourself changing your appearance, moving toward the more unconventional and less traditional. Eccentricities and a different manner of presenting yourself may be in order.
+
+[UR.CNJ.JU]
+Career insight and breakthroughs are possible. You might discover that unconventional solutions to life's problems or new directions and paths are in order. You could find a teacher or guide, a new approach to your career, and so on.
+
+[UR.OPP.JU]
+A restless time, which could find you trying new and unexpected ideas at the expense of the status quo, especially your career. You may feel like breaking out, getting away from the path you have taken up to now. Sudden breaks from the routine.
+
+[UR.SQR.JU]
+An urge on your part to rebel or break away could affect your career direction or vocation. Your wish to be independent, to try new things, and so on comes at an inappropriate time and could cause real tensions at work.
+
+[UR.SXT.JU]
+Breakthroughs in your career could open up during this time, making it possible for you to solve problems and reach new levels of accomplishment. Improved solutions, insights, and approaches make this an opportunity not to be passed over.
+
+[UR.TRI.JU]
+Breakthroughs in your career could open up during this time, making it possible for you to solve problems and reach new levels of accomplishment. Improved solutions, insights, and approaches make this an opportunity not to be passed over.
+
+[UR.CNJ.MA]
+A time during which insights into your emotions or drive may be forthcoming. You may discover new and unconventional feelings, or bursts of temper or other emotions may occur. A time of emotional breakthrough and discovery.
+
+[UR.OPP.MA]
+Unexpected behavior and an urge to be independent could find you ignoring your feelings and much of what has motivated you up to now, taking you off in a different direction. Your unusual behavior could provoke others, cause emotional confrontation.
+
+[UR.SQR.MA]
+A possibly explosive time during which a rebellious urge within you presents an emotional challenge. You may have to resist attempts to divert your drive and energy in directions that will take you nowhere. A lot of heavy energy.
+
+[UR.SXT.MA]
+A time during which you are unusually motivated or driven in new and unexpected directions. You could receive unexpected backing and, in general, your efforts are successful and reach new heights of originality. New and unexpected emotions may come up.
+
+[UR.TRI.MA]
+A time during which you are unusually motivated or driven in new and unexpected directions. You could receive unexpected backing and, in general, your efforts are successful and reach new heights of originality. New and unexpected emotions may come up.
+
+[UR.CNJ.MC]
+A powerful time of change, during which you may have great insight into your career. You could change jobs or suddenly find a way to transform and improve your current job. A certain amount of mental tension can be expected, so bear with it.
+
+[UR.OPP.MC]
+Sudden insight into your home, family, and sense of security. You could be asserting more independence, perhaps at the expense of your job or career by spending more time away from it, engrossed in your personal and domestic scene.
+
+[UR.SQR.MC]
+A time for discovering others or for finding yourself able to respond to friends and lovers and enter into relationships with a renewed sense of love and compassion. Real breakthroughs, a willingness to try new and different approaches to relationships.
+
+[UR.SXT.MC]
+Insights and breakthroughs regarding career. A time during which new ideas and approaches in management, and all practical vision are possible. Perhaps a new-found independence and originality manifests itself in your working environment.
+
+[UR.TRI.MC]
+Insights and breakthroughs regarding career. A time during which new ideas and approaches in management, and all practical vision are possible. Perhaps a new-found independence and originality manifests itself in your working environment.
+
+[UR.CNJ.ME]
+A time when you could achieve real breakthroughs in the form of ideas, communications, and the mind in general. Computers and electronics may suddenly become important. Insight into your own mental workings, original thoughts, and the like.
+
+[UR.OPP.ME]
+You could be under considerable mental tension or feel hemmed in by an overly conservative mental atmosphere. You may feel compelled to change your mind now and have new thoughts and forms of expression. Bucking other people's ideas may be in order.
+
+[UR.SQR.ME]
+A tendency to act suddenly, without thought or consideration. A lot of mental tension or worry stemming from a rebellion against ideas, the way you think and communicate. An urge to break out of old mental patterns that could be destructive.
+
+[UR.SXT.ME]
+A time to have new thoughts and sudden insights and to get an unexpected boost in the way you think, speak, or write. Communications are facilitated, connections of all kinds, news, and so on, are furthered, often at the expense of tradition, established order.
+
+[UR.TRI.ME]
+A time to have new thoughts and sudden insights and to get an unexpected boost in the way you think, speak, or write. Communications are facilitated, connections of all kinds, news, and so on, are furthered, often at the expense of tradition, established order.
+
+[UR.CNJ.MO]
+A time when the new and unexpected may figure in your living situation or surroundings. An insight about your support system, your mother, or other females may be important. You could discover a student or a younger person that opens to you.
+
+[UR.OPP.MO]
+A (perhaps) difficult time when you could find yourself feeling rebellious and independent regarding your current situation or surroundings. Your erratic behavior could bring you in opposition to a group or younger person or just strain relationships.
+
+[UR.SQR.MO]
+An urge to change and try new things may challenge and upset your domestic scene or support system. In this case, your tendency to rebel acts at cross-purposes to those who care for you. A no-win situation that requires treading a fine line on your part.
+
+[UR.SXT.MO]
+You could receive unexpected help or support from those around you especially someone younger or a woman. A time when you may get insights into your living situation or support system. New ideas about your past history, new approaches to established facts.
+
+[UR.TRI.MO]
+You could receive unexpected help or support from those around you especially someone younger or a woman. A time when you may get insights into your living situation or support system. New ideas about your past history, new approaches to established facts.
+
+[UR.CNJ.NE]
+A time of discoveries and insights, in particular as they relate to your most inner dreams, visions, and ideals. New ways to feel union and communion with life, and also some new escapes. Your imagination really opens up and breaks through.
+
+[UR.OPP.NE]
+A time of independence when you may try new and different things that don't necessarily go with your established ideals and image of yourself. You could rebel against sentimentality, too much dreaming, and any "pie in the sky" you bought in the past.
+
+[UR.SQR.NE]
+You could find yourself struggling to overthrow everything that is dreamy or other-worldly in you, perhaps even undermining your real dreams and ideals. Don't throw the baby out with the bath water. Perhaps your rebelliousness can be kept in tow.
+
+[UR.SXT.NE]
+There is the possibility of new visions or sudden insights into your self-image or into your ideals and dreams. A time to reshape and renew your philosophy or religion, during which your imagination is at full tilt. Breakthroughs in compassion and communion.
+
+[UR.TRI.NE]
+There is the possibility of new visions or sudden insights into your self-image or into your ideals and dreams. A time to reshape and renew your philosophy or religion, during which your imagination is at full tilt. Breakthroughs in compassion and communion.
+
+[UR.CNJ.PL]
+A time when personal insight into your most secret and personal psychological self may be possible. Breaking with what went before, you may find new ways to transform yourself. Penetrating to the heart, opening up what is sealed.
+
+[UR.OPP.PL]
+A time when you may feel rebellious and act out a need for freedom, especially from any psychological and deep-seated feelings of insecurity and vulnerability. You have no interest in self-analysis, deep conversations, gossip, and the like.
+
+[UR.SQR.PL]
+An urge to rebel against all that is hidden, private, and secret about yourself. Your independence could be at the price of superficiality, denying opportunities for inner change and growth. Internal pressures could burst out of the closet.
+
+[UR.SXT.PL]
+A time of sudden insights (maybe jolts) into some of the most sensitive and vulnerable areas of your inner self and psychology. Breakthroughs regarding inner growth and transformation. A time during which you reach new levels in understanding life and death.
+
+[UR.TRI.PL]
+A time of sudden insights (maybe jolts) into some of the most sensitive and vulnerable areas of your inner self and psychology. Breakthroughs regarding inner growth and transformation. A time during which you reach new levels in understanding life and death.
+
+[UR.CNJ.SA]
+New ways to organize and discipline yourself are possible now. Here is an opportunity to get some insight into some of your problems and responsibilities that may prove of great value in the years to come. Break up old habits, get out of ruts, and so on.
+
+[UR.OPP.SA]
+A tendency to break away from routine, ignore responsibilities, try new and different things. This unusual behavior on your part could challenge your sense of order and discipline, sending you into a time when you are unpredictable, even unstable.
+
+[UR.SQR.SA]
+Go slowly just now. A tendency toward change and the unexpected or new could affect your sense of security. A rebellious mood might find you wanting to ignore responsibilities and go against what you have built or established. Something could break.
+
+[UR.SXT.SA]
+A time for new accomplishments, during which insights and breakthroughs in organization and determination are in order. A revolution within the established order, when new ideas and ways to do and use things become clear. Facilitation.
+
+[UR.TRI.SA]
+A time for new accomplishments, during which insights and breakthroughs in organization and determination are in order. A revolution within the established order, when new ideas and ways to do and use things become clear. Facilitation.
+
+[UR.CNJ.SU]
+A time of real breakthroughs, when insights into your self and your ambitions will be possible. This is a time when authority figures and older people, especially men, may figure in your life. The discovery of a teacher or vision of the future is possible.
+
+[UR.OPP.SU]
+A time when considerable tension could accumulate, with release coming in the form of unexpected bursts of temper that may well involve other people. You may find yourself feeling rebellious, challenging those in authority or the established order.
+
+[UR.SQR.SU]
+You may have to control an urge to rebel and be different that could set your ambitions and goals back a step. An inner struggle between your sense of purpose or direction and a need for independence and freedom makes this a possibly tense time.
+
+[UR.SXT.SU]
+A time during which you may be able to break through and move ahead with your ambitions and general life's purpose. You could receive unexpected help from someone older or from authority figures. A man or teacher could appear.
+
+[UR.TRI.SU]
+A time during which you may be able to break through and move ahead with your ambitions and general life's purpose. You could receive unexpected help from someone older or from authority figures. A man or teacher could appear.
+
+[UR.CNJ.UR]
+An important event that marks a time during which you can have the experience of taking a greater role in the creation of life itself. You become one with the creative force to a marked extent.
+
+[UR.OPP.UR]
+Coming around the 42nd year, it's no wonder this aspect has been called one of "forty-tude." It often signifies an attempt to reverse the current life direction, to "stop the world, I want to get off" and redirect toward more personal, religious issues.
+
+[UR.SQR.UR]
+A period of pressure and tension relating to your sense of independence and freedom. You may find yourself curbing a tendency within to rebel and actually finding freedom this time by pursuing more established routes.
+
+[UR.SXT.UR]
+A surge of independence, a need for freedom, and an interest in trying new and different things may take hold of you. Unusual or unconventional behavior, an interest in the exotic or in eccentric friends. Breaking away, turning over the apple cart.
+
+[UR.TRI.UR]
+A surge of independence, a need for freedom, and an interest in trying new and different things may take hold of you. Unusual or unconventional behavior, an interest in the exotic or in eccentric friends. Breaking away, turning over the apple cart.
+
+[UR.CNJ.VE]
+New and (perhaps) unusual ways of appreciating and loving may be possible now. You may discover something new about love or may adopt a different and unconventional value system for a time.
+
+[UR.OPP.VE]
+A time during which you could be unappreciative of much of your life, especially your standards and value system. Freedom and independence come to the fore, possibly provoking independent and unusual behavior in you. You may not be appreciated for this.
+
+[UR.SQR.VE]
+Your value system may receive a challenge from a new independent streak that wants to break away and try new things. You may not appreciate the urge to upset and change things that is trying to assert itself. This leads to tension.
+
+[UR.SXT.VE]
+A time during which you discover new and different reasons or ways to enjoy and appreciate life. A kind of mini-revolution may find you altering your value system, allowing you to like new things. A new approach to love and compassion.
+
+[UR.TRI.VE]
+A time during which you discover new and different reasons or ways to enjoy and appreciate life. A kind of mini-revolution may find you altering your value system, allowing you to like new things. A new approach to love and compassion.
+
+[VE.CNJ.AS]
+You appear perhaps more charming and refined than usual. Now could be the time to make that date, apply for the job, or otherwise make yourself known.
+
+[VE.OPP.AS]
+Other people may not appreciate the way you come on or present yourself. You may find yourself caring too much about what others think of you.
+
+[VE.SQR.AS]
+Your manner may not be warm or loving at the moment. Perhaps not the best time to present yourself to others or take a job interview.
+
+[VE.SXT.AS]
+You appear perhaps more charming and refined than usual. Now could be the time to make that date, apply for the job, or otherwise make yourself known.
+
+[VE.TRI.AS]
+You appear perhaps more charming and refined than usual. Now could be the time to make that date, apply for the job, or otherwise make yourself known.
+
+[VE.CNJ.JU]
+You may find yourself very appreciative of your career and practical skills. You might enjoy solving puzzles and problems, finding solutions, and so on. A renewed appreciation for your work may be apparent to your superiors -- in fact, to everybody.
+
+[VE.OPP.JU]
+You may not appreciate someone's methods, the way they get things done. Someone in authority may have very different values from yours.
+
+[VE.SQR.JU]
+Correct choices (the best path for you) may be at odds with your sense of values. You may not appreciate the easy way or clear-cut option, and may choose instead a more difficult path.
+
+[VE.SXT.JU]
+The good life, and all that is fine and luxurious, may be what you value just now. You could enjoy making your own way and finding solutions to whatever problems you have.
+
+[VE.TRI.JU]
+The good life, and all that is fine and luxurious, may be what you value just now. You could enjoy making your own way and finding solutions to whatever problems you have.
+
+[VE.CNJ.MA]
+You may find yourself looking for a little romance today or at least enjoying some emotional release. You can appreciate feelings and movement. You may want to just get out and walk or exercise.
+
+[VE.OPP.MA]
+You may not appreciate the emotional energy of someone you meet. They could appear aggressive or pushy. You don't like the way a situation feels at the gut level.
+
+[VE.SQR.MA]
+You may not feel like being very emotional and might tend to ignore any emotional needs that you might have. Your sense of values may be in conflict with your feelings.
+
+[VE.SXT.MA]
+You may find yourself looking for a little romance today or at least enjoying some emotional release. You can appreciate feelings and movement. You may want to just get out and walk or exercise.
+
+[VE.TRI.MA]
+You may find yourself looking for a little romance today or at least enjoying some emotional release. You can appreciate feelings and movement. You may want to just get out and walk or exercise.
+
+[VE.CNJ.MC]
+You could be in the limelight, especially with superiors or in relation to your work. You may find that you enjoy your job or the responsibility it entails more than usual.
+
+[VE.OPP.MC]
+Your love of home and family may conflict with your job or with authorities. You may tend to discount career opportunities just at the moment.
+
+[VE.SQR.MC]
+You may find some of your values at odds with your own best interests. You may not appreciate tradition or someone older in authority.
+
+[VE.SXT.MC]
+You could be in the limelight, especially with superiors or in relation to your work. You may find that you enjoy your job or the responsibility it entails more than usual.
+
+[VE.TRI.MC]
+You could be in the limelight, especially with superiors or in relation to your work. You may find that you enjoy your job or the responsibility it entails more than usual.
+
+[VE.CNJ.ME]
+Perhaps a time to think and study, for you have a real appreciation for ideas and thoughts. You may find yourself enjoying a long conversation, writing a letter, or making a special phone call.
+
+[VE.OPP.ME]
+You may not like the ideas or thoughts of someone who confronts you. What they say may seem inappropriate or be unappreciated.
+
+[VE.SQR.ME]
+You may not place much value on ideas and thoughts. Something that someone says or communicates to you may be unappreciated or taken the wrong way.
+
+[VE.SXT.ME]
+Perhaps a time to think and study, for you have a real appreciation for ideas and thoughts. You may find yourself enjoying a long conversation, writing a letter, or making a special phone call.
+
+[VE.TRI.ME]
+Perhaps a time to think and study, for you have a real appreciation for ideas and thoughts. You may find yourself enjoying a long conversation, writing a letter, or making a special phone call.
+
+[VE.CNJ.MO]
+A good time for surrounding yourself with friends and younger people and for having a good time. You appreciate your particular situation and enjoy support from those around you.
+
+[VE.OPP.MO]
+You may find yourself with a different set of values and at odds with younger people or with your surroundings. You may not like the way they are or what they represent.
+
+[VE.SQR.MO]
+You may not appreciate your surroundings, or someone younger than you does not measure up. Your values may be at odds (just for the moment) with those around you.
+
+[VE.SXT.MO]
+A good time for surrounding yourself with friends and younger people and for having a good time. You appreciate your particular situation and enjoy support from those around you.
+
+[VE.TRI.MO]
+A good time for surrounding yourself with friends and younger people and for having a good time. You appreciate your particular situation and enjoy support from those around you.
+
+[VE.CNJ.NE]
+You may enjoy a good movie or book or feel like escaping from day-to-day realities for a while. You can appreciate an imaginative approach and may value communal or futuristic ideas.
+
+[VE.OPP.NE]
+You may not appreciate someone's unrealistic approach to a situation. Their general fogginess and impractical attitude may find you at odds with them.
+
+[VE.SQR.NE]
+You prefer the simple, ordinary virtues and don't appreciate any form of other-worldliness or escapism. Not the best time to read a book or take in a movie.
+
+[VE.SXT.NE]
+You may enjoy a good movie or book or feel like escaping from day-to-day realities for a while. You can appreciate an imaginative approach and may value communal or futuristic ideas.
+
+[VE.TRI.NE]
+You may enjoy a good movie or book or feel like escaping from day-to-day realities for a while. You can appreciate an imaginative approach and may value communal or futuristic ideas.
+
+[VE.CNJ.PL]
+You may enjoy probing into your inner workings or some good solid gossip. You value your darker, more secretive areas and don't mind working through some sensitive problems.
+
+[VE.OPP.PL]
+You don't appreciate the secretive and overly private approach of someone you encounter. You may not care to work through their inner goings-on just at the moment.
+
+[VE.SQR.PL]
+You value what is above-board and straightforward and have a particular aversion to what is secret, intense, and private. You do not enjoy gossip or nosy neighbors just now.
+
+[VE.SXT.PL]
+You may enjoy probing into your inner workings or some good solid gossip. You value your darker, more secretive areas and don't mind working through some sensitive problems.
+
+[VE.TRI.PL]
+You may enjoy probing into your inner workings or some good solid gossip. You value your darker, more secretive areas and don't mind working through some sensitive problems.
+
+[VE.CNJ.SA]
+You feel a love of order and law -- an appreciation for responsibilities and duty. Problems are valued for the lessons they represent, rather than perceived as obstacles.
+
+[VE.OPP.SA]
+Someone important or in authority may oppose your values and put a damper on your desires. You may be unable to appreciate their attitude or understand their problems.
+
+[VE.SQR.SA]
+You may tend to ignore or fail to appreciate the law or what you know to be the truth. Your values may run counter to established tradition.
+
+[VE.SXT.SA]
+You feel a love of order and law -- an appreciation for responsibilities and duty. Problems are valued for the lessons they represent, rather than perceived as obstacles.
+
+[VE.TRI.SA]
+You feel a love of order and law -- an appreciation for responsibilities and duty. Problems are valued for the lessons they represent, rather than perceived as obstacles.
+
+[VE.CNJ.SU]
+You are in a (perhaps) rare mood of self-enjoyment and can appreciate your own better qualities. You may see value in or feel love for an older person or someone in authority.
+
+[VE.OPP.SU]
+You may find yourself at odds with someone you care about or someone in authority over questions of values. You may not appreciate what they represent.
+
+[VE.SQR.SU]
+You may find some of your values at odds with your own best interests. You may not appreciate tradition or someone older or in authority.
+
+[VE.SXT.SU]
+You are in a (perhaps) rare mood of self-enjoyment and can appreciate your own better qualities. You may see value in or feel love for an older person or someone in authority.
+
+[VE.TRI.SU]
+You are in a (perhaps) rare mood of self-enjoyment and can appreciate your own better qualities. You may see value in or feel love for an older person or someone in authority.
+
+[VE.CNJ.UR]
+Independence, as well as anything unusual or different, is valued. You may enjoy getting away from routine and doing something completely different for a change.
+
+[VE.OPP.UR]
+Someone unexpected may confront you or you may not like their independence or eccentricity. You may not appreciate their very different perspective or attitude.
+
+[VE.SQR.UR]
+You may not value something extraordinary or unusual. Instead, you find yourself appreciating what is quite normal or ordinary.
+
+[VE.SXT.UR]
+Independence, as well as anything unusual or different, is valued. You may enjoy getting away from routine and doing something completely different for a change.
+
+[VE.TRI.UR]
+Independence, as well as anything unusual or different, is valued. You may enjoy getting away from routine and doing something completely different for a change.
+
+[VE.CNJ.VE]
+Your taste in art and appreciation in general are heightened. Perhaps a good time to select furnishings, colors, and so on -- the finer things of life. Your sense of value is to the fore. A great time just to sit back and enjoy what you have, to live life.
+
+[VE.OPP.VE]
+Someone with a different set of values than your own may confront you. That person's taste may run counter to yours. There could be a mutual lack of appreciation.
+
+[VE.SQR.VE]
+You may experience dissatisfaction with what you have or find around you. You could feel unloved or be unloving.
+
+[VE.SXT.VE]
+Your taste in art and appreciation in general are heightened. Perhaps a good time to select furnishings, colors, and so on -- the finer things of life. Your sense of value is to the fore. A great time to just sit back and enjoy what you have, to live life.
+
+[VE.TRI.VE]
+Your taste in art and appreciation in general are heightened. Perhaps a good time to select furnishings, colors, and so on -- the finer things of life. Your sense of value is to the fore. A great time to just sit back and enjoy what you have, to live life.

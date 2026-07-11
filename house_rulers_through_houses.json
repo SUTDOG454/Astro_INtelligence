@@ -1,0 +1,466 @@
+{
+  "house_rulers_through_houses": {
+    "framework_metadata": {
+      "version": "1.0",
+      "created_date": "2026-02-21",
+      "description": "Complete interpretation guide for house rulers placed in houses",
+      "scope": "144 combinations (12 house rulers × 12 house placements)",
+      "usage": "Essential technique for chart synthesis—shows how life areas connect"
+    },
+    "methodology": {
+      "what_is_house_ruler": "The planet that rules the sign on the house cusp",
+      "example": "If Gemini is on 7th house cusp, Mercury is the 7th house ruler",
+      "dual_rulership": "Signs with two rulers (Scorpio, Aquarius, Pisces) can use both traditional and modern",
+      "interpretation_principle": "House ruler's placement shows WHERE and HOW that house's themes manifest",
+      "synthesis": "Ruler's condition (sign, dignity, aspects) modifies expression"
+    },
+    "first_house_ruler": {
+      "description": "Ruler of Ascendant shows life direction, where self-expression naturally flows",
+      "in_1st": {
+        "interpretation": "Self-contained, independent, identity is the focus, personal power, may be self-absorbed but authentic",
+        "keywords": "Self-directed, authentic, independent, personal focus, strong identity",
+        "examples": "Strong personality, knows who they are, self-made person"
+      },
+      "in_2nd": {
+        "interpretation": "Identity through resources, defines self by what they build/own, values and self-worth linked, financial focus",
+        "keywords": "Self-worth through possessions, material identity, building security",
+        "examples": "Entrepreneur, focuses on building wealth, identity tied to material success"
+      },
+      "in_3rd": {
+        "interpretation": "Identity through communication, defines self through ideas and learning, siblings important, restless mind",
+        "keywords": "Communicator, learner, teacher, writer, sibling relationships",
+        "examples": "Writer, teacher, always learning, identifies through intellectual pursuits"
+      },
+      "in_4th": {
+        "interpretation": "Identity from roots, family shapes self-concept, private person, home is sanctuary, late bloomer",
+        "keywords": "Private, family-oriented, rooted, traditional, home-focused",
+        "examples": "Family business, identifies with heritage, private person despite outer persona"
+      },
+      "in_5th": {
+        "interpretation": "Identity through creativity and joy, defines self through children/creative work, playful, romantic nature",
+        "keywords": "Creative, playful, romantic, expressive, child-like joy",
+        "examples": "Artist, performer, parent as primary identity, creative self-expression"
+      },
+      "in_6th": {
+        "interpretation": "Identity through work and service, defines self by daily efforts, health-focused, humble, perfectionist",
+        "keywords": "Worker, server, healer, perfectionist, health-conscious",
+        "examples": "Workaholic, healthcare worker, defines self through service and routine"
+      },
+      "in_7th": {
+        "interpretation": "Identity through relationships, needs others to know self, partnership-oriented, may lose self in others",
+        "keywords": "Relational, partnership-focused, other-oriented, mirror-seeking",
+        "examples": "Serial monogamist, business partner, knows self through relationships"
+      },
+      "in_8th": {
+        "interpretation": "Identity through transformation, defines self through crisis/intensity, psychological focus, power dynamics",
+        "keywords": "Transformative, intense, psychological, powerful, crisis-forged",
+        "examples": "Therapist, researcher, phoenix energy, transformed through crisis"
+      },
+      "in_9th": {
+        "interpretation": "Identity through beliefs and exploration, defines self philosophically, traveler, teacher, seeker",
+        "keywords": "Philosophical, exploring, teaching, traveling, meaning-seeking",
+        "examples": "Professor, traveler, always expanding horizons, philosophical identity"
+      },
+      "in_10th": {
+        "interpretation": "Identity through career and public role, defines self by achievements, ambitious, public persona",
+        "keywords": "Ambitious, public, achievement-focused, career-oriented, status-seeking",
+        "examples": "Career is identity, public figure, known for accomplishments"
+      },
+      "in_11th": {
+        "interpretation": "Identity through groups and ideals, defines self through friendships/causes, humanitarian, future-focused",
+        "keywords": "Humanitarian, friendly, group-oriented, idealistic, networker",
+        "examples": "Activist, networker, identifies with causes, friend-focused"
+      },
+      "in_12th": {
+        "interpretation": "Identity is hidden or spiritual, defines self privately or spiritually, may feel lost, mystical, escapist",
+        "keywords": "Spiritual, hidden, mystical, private, self-undoing or self-transcending",
+        "examples": "Spiritual seeker, artist, may struggle with self-definition, works behind scenes"
+      }
+    },
+    "second_house_ruler": {
+      "description": "Shows where and how money, resources, and self-worth are developed",
+      "in_1st": {
+        "interpretation": "Makes money through personal efforts, self is the resource, appearance/personality attracts wealth",
+        "keywords": "Self-made wealth, personal resources, appearance creates value"
+      },
+      "in_2nd": {
+        "interpretation": "Natural money-maker, focused on building wealth, values are clear and strong, financial stability important",
+        "keywords": "Financial focus, material builder, clear values, security-oriented"
+      },
+      "in_3rd": {
+        "interpretation": "Makes money through communication/teaching, siblings may help financially, local business, intellectual resources",
+        "keywords": "Communication income, teaching, writing, local business, sibling resources"
+      },
+      "in_4th": {
+        "interpretation": "Makes money through home/family/real estate, inheritance possible, family business, emotional security = financial",
+        "keywords": "Real estate, family business, inheritance, home-based income"
+      },
+      "in_5th": {
+        "interpretation": "Makes money through creativity/speculation/children, artistic income, gambling (careful!), joyful resources",
+        "keywords": "Creative income, speculation, children bring resources, artistic work"
+      },
+      "in_6th": {
+        "interpretation": "Makes money through daily work and service, health industry, steady earned income through labor",
+        "keywords": "Service income, healthcare, daily labor, earned wealth"
+      },
+      "in_7th": {
+        "interpretation": "Makes money through partnerships, spouse brings wealth, business partnerships, contracts, consulting",
+        "keywords": "Partnership income, spouse's money, consulting, contracts"
+      },
+      "in_8th": {
+        "interpretation": "Makes money through other people's resources, inheritance, investments, insurance, banking, joint finances",
+        "keywords": "Inheritance, investments, others' money, banking, shared resources"
+      },
+      "in_9th": {
+        "interpretation": "Makes money through travel/education/publishing, foreign wealth, teaching higher subjects, philosophical work",
+        "keywords": "Travel income, education, publishing, foreign business, philosophical work"
+      },
+      "in_10th": {
+        "interpretation": "Makes money through career and public status, high earning potential, wealth through reputation and achievement",
+        "keywords": "Career income, high status work, public success brings wealth"
+      },
+      "in_11th": {
+        "interpretation": "Makes money through groups/networks/friends, social connections bring opportunities, community work, technology",
+        "keywords": "Network income, friends help, group work, technology, social capital"
+      },
+      "in_12th": {
+        "interpretation": "Makes money behind scenes, secret income, spiritual/healing work, charities, hidden resources, overseas",
+        "keywords": "Hidden income, spiritual work, overseas, institutions, behind-scenes"
+      }
+    },
+    "third_house_ruler": {
+      "description": "Shows where communication, learning, siblings, and short travel manifest",
+      "in_1st": {
+        "interpretation": "Communicative personality, identifies as communicator, siblings affect identity, restless, curious",
+        "keywords": "Communicative self, curious, restless, sibling influence on identity"
+      },
+      "in_2nd": {
+        "interpretation": "Communicates about values/money, makes money through communication, practical thinking, siblings affect finances",
+        "keywords": "Money through communication, practical mind, financial discussions"
+      },
+      "in_4th": {
+        "interpretation": "Family communications important, talks about home/past, siblings are family, studies at home",
+        "keywords": "Family communications, home learning, emotional discussions"
+      },
+      "in_5th": {
+        "interpretation": "Creative communication, playful mind, talks to children, teaches for joy, artistic writing",
+        "keywords": "Creative writing, playful communication, teaching children"
+      },
+      "in_7th": {
+        "interpretation": "Communicates with partners, relationships involve learning, spouse is like sibling, contracts and negotiations",
+        "keywords": "Partnership communication, spousal discussions, contracts"
+      },
+      "in_8th": {
+        "interpretation": "Deep/psychological communication, talks about taboo topics, research, investigative mind, transformative learning",
+        "keywords": "Psychological talk, research, taboo subjects, depth communication"
+      },
+      "in_9th": {
+        "interpretation": "Studies higher subjects, travel for learning, teaching, publishing, siblings may live far away",
+        "keywords": "Higher education, publishing, teaching, travel for learning"
+      },
+      "in_10th": {
+        "interpretation": "Career in communication, public speaker, known for ideas, professional writer/teacher",
+        "keywords": "Communication career, public speaking, known for writing/teaching"
+      },
+      "in_11th": {
+        "interpretation": "Group communications, friends are like siblings, networks for learning, social media, idealistic communication",
+        "keywords": "Group communication, friendship conversations, social media, networks"
+      },
+      "in_12th": {
+        "interpretation": "Hidden communications, spiritual learning, psychology, secret information, behind-scenes writing, isolation for study",
+        "keywords": "Spiritual study, secret info, psychology, hidden learning"
+      }
+    },
+    "fourth_house_ruler": {
+      "description": "Shows where home, family, roots, and emotional foundation manifest",
+      "in_1st": {
+        "interpretation": "Family affects identity strongly, carry family on shoulders, home-oriented personality, private nature",
+        "keywords": "Family identity, homebody, private, roots shape self"
+      },
+      "in_7th": {
+        "interpretation": "Family through partnership, home with partner, creates family with spouse, partner becomes family",
+        "keywords": "Partnership home, spouse is family, builds family through marriage"
+      },
+      "in_8th": {
+        "interpretation": "Family secrets, transformation at home, power dynamics in family, inheritance of property, emotional intensity",
+        "keywords": "Family secrets, home transformation, property inheritance, intense family"
+      },
+      "in_9th": {
+        "interpretation": "Family from abroad, moves far from home, foreign family, philosophical family, home in foreign land",
+        "keywords": "Foreign home, expatriate, philosophical family, distant from roots"
+      },
+      "in_10th": {
+        "interpretation": "Family business becomes career, public family, parent as authority, home life is public, family name important",
+        "keywords": "Family business, public family, parental authority, family legacy"
+      },
+      "in_11th": {
+        "interpretation": "Friends are family, communal living, group home, family involved in causes, future-focused family",
+        "keywords": "Friends as family, group living, community home, progressive family"
+      },
+      "in_12th": {
+        "interpretation": "Hidden family matters, family secrets, spiritual family, may be separated from family, healing family wounds",
+        "keywords": "Family secrets, spiritual home, family separation, ancestral healing"
+      }
+    },
+    "fifth_house_ruler": {
+      "description": "Shows where creativity, romance, children, and joy manifest",
+      "in_1st": {
+        "interpretation": "Creative personality, identifies as artist/parent, playful, romantic, expressive, childlike",
+        "keywords": "Creative identity, artistic self, playful, romantic nature"
+      },
+      "in_7th": {
+        "interpretation": "Creative partnerships, romantic relationships, children through partner, artistic collaborations",
+        "keywords": "Romantic partnerships, creative collaborations, partner's children"
+      },
+      "in_8th": {
+        "interpretation": "Intense creativity, transformative art, passionate romance, children transform life, deep creative process",
+        "keywords": "Intense creativity, passionate romance, transformative children"
+      },
+      "in_10th": {
+        "interpretation": "Creative career, children affect career, public creativity, known for artistic work or children",
+        "keywords": "Creative career, public art, children affect career, artistic recognition"
+      },
+      "in_11th": {
+        "interpretation": "Creative with groups, children through friends, artistic causes, community creativity, hopes for children",
+        "keywords": "Group creativity, community art, children and friendships"
+      },
+      "in_12th": {
+        "interpretation": "Secret creativity, spiritual art, hidden children issues, creative isolation, mystical romance",
+        "keywords": "Hidden art, spiritual creativity, secret romance, mystical children"
+      }
+    },
+    "sixth_house_ruler": {
+      "description": "Shows where health, work, service, and daily routines manifest",
+      "in_1st": {
+        "interpretation": "Health affects identity, workaholic, service-oriented person, perfectionist, identifies through work",
+        "keywords": "Work identity, health-focused, service-oriented, perfectionist"
+      },
+      "in_7th": {
+        "interpretation": "Works with partners, spouse affects health, service through relationships, healthcare for others",
+        "keywords": "Partnership work, health through others, service to spouse"
+      },
+      "in_8th": {
+        "interpretation": "Deep healing work, transformative service, health through crisis, psychological healing, surgery possible",
+        "keywords": "Healing work, transformative health, psychological service"
+      },
+      "in_10th": {
+        "interpretation": "Healthcare career, service as profession, public service, known for work ethic, work is calling",
+        "keywords": "Service career, healthcare profession, work is public, vocational service"
+      },
+      "in_11th": {
+        "interpretation": "Service to groups, community healthcare, friends affect health, group work habits, humanitarian service",
+        "keywords": "Community service, group healthcare, humanitarian work"
+      },
+      "in_12th": {
+        "interpretation": "Healing work behind scenes, spiritual health, institutional work, chronic health issues, sacrificial service",
+        "keywords": "Spiritual healing, institutional service, hidden work, chronic health"
+      }
+    },
+    "seventh_house_ruler": {
+      "description": "Shows where partnerships, marriage, and one-on-one relationships manifest",
+      "in_1st": {
+        "interpretation": "Partners shape identity, relationship-oriented, needs others to know self, attracts partnerships",
+        "keywords": "Relational identity, partner-dependent, relationship-focused"
+      },
+      "in_2nd": {
+        "interpretation": "Partner affects finances, makes money through partnerships, values partnership, marriage improves resources",
+        "keywords": "Partnership finances, spouse's money, business partnerships"
+      },
+      "in_4th": {
+        "interpretation": "Partner becomes family, home life with spouse, family of origin affects marriage, domestic partnerships",
+        "keywords": "Spouse is family, domestic partnership, family-oriented marriage"
+      },
+      "in_5th": {
+        "interpretation": "Creative partnerships, romantic focus, children with partner, joyful marriage, artistic collaborations",
+        "keywords": "Romantic marriage, creative partnerships, children together"
+      },
+      "in_7th": {
+        "interpretation": "Marriage is destiny, partnership is life focus, serial monogamist, business partnerships, natural diplomat",
+        "keywords": "Marriage focus, partnership destiny, relationship-oriented"
+      },
+      "in_8th": {
+        "interpretation": "Intense partnerships, transformative relationships, shared resources, power dynamics, sexual bonding",
+        "keywords": "Intense marriage, transformative relationships, shared resources"
+      },
+      "in_9th": {
+        "interpretation": "Foreign spouse, meets partner through travel/education, philosophical partnerships, teacher-student dynamic",
+        "keywords": "Foreign marriage, travel partnerships, philosophical spouse"
+      },
+      "in_10th": {
+        "interpretation": "Marriage affects career, public partnerships, spouse's status matters, business partnerships, power couple",
+        "keywords": "Career marriage, public partnership, spouse affects status"
+      },
+      "in_11th": {
+        "interpretation": "Marry a friend, platonic element in marriage, group partnerships, community involvement with spouse",
+        "keywords": "Friendship marriage, group partnerships, community couples"
+      },
+      "in_12th": {
+        "interpretation": "Secret relationships, spiritual partnerships, karmic marriage, hidden aspects of partnership, sacrificial love",
+        "keywords": "Karmic marriage, secret relationships, spiritual partnership"
+      }
+    },
+    "eighth_house_ruler": {
+      "description": "Shows where transformation, shared resources, intimacy, and crisis manifest",
+      "in_1st": {
+        "interpretation": "Transformed through crisis, intense personality, sexual magnetism, powerful presence, phoenix rising",
+        "keywords": "Crisis shapes self, intense personality, transformative identity"
+      },
+      "in_2nd": {
+        "interpretation": "Money through others, inheritance likely, transformative finances, shared resources, banking/investments",
+        "keywords": "Inheritance, others' money, investment income, financial transformation"
+      },
+      "in_5th": {
+        "interpretation": "Transformed through children, creative power, passionate romance, deep creative process, risky creativity",
+        "keywords": "Children transform, intense creativity, passionate art"
+      },
+      "in_7th": {
+        "interpretation": "Transformed through partnerships, intense relationships, shared resources in marriage, power dynamics",
+        "keywords": "Transformative marriage, intense partnerships, shared power"
+      },
+      "in_10th": {
+        "interpretation": "Career transformation, public crisis and rebirth, power in career, known for transformation, crisis management",
+        "keywords": "Career crisis/rebirth, public transformation, power career"
+      },
+      "in_11th": {
+        "interpretation": "Transformed through groups, powerful friendships, group resources, revolutionary causes, collective transformation",
+        "keywords": "Group transformation, powerful friends, collective change"
+      },
+      "in_12th": {
+        "interpretation": "Deep spiritual transformation, hidden crisis, karmic resolution, spiritual emergence, dissolution and rebirth",
+        "keywords": "Spiritual crisis, karmic transformation, deep healing"
+      }
+    },
+    "ninth_house_ruler": {
+      "description": "Shows where philosophy, higher education, travel, and meaning manifest",
+      "in_1st": {
+        "interpretation": "Philosophical identity, born teacher, natural wisdom, optimistic, identifies through beliefs, explorer",
+        "keywords": "Philosophical self, teacher identity, wise, optimistic"
+      },
+      "in_3rd": {
+        "interpretation": "Philosophy through learning, teaching locally, writes philosophy, publishes, communicates wisdom",
+        "keywords": "Teaching, writing philosophy, publishing, intellectual wisdom"
+      },
+      "in_7th": {
+        "interpretation": "Philosophical partnerships, teacher-spouse, learns through relationships, foreign partner, shared beliefs",
+        "keywords": "Philosophical marriage, teacher partner, shared beliefs"
+      },
+      "in_10th": {
+        "interpretation": "Philosophy as career, professor, public teacher, known for wisdom, travels for career, international career",
+        "keywords": "Teaching career, professor, public wisdom, international work"
+      },
+      "in_11th": {
+        "interpretation": "Philosophical groups, idealistic friendships, teaches in community, progressive beliefs, humanitarian philosophy",
+        "keywords": "Idealistic friends, group philosophy, humanitarian beliefs"
+      },
+      "in_12th": {
+        "interpretation": "Spiritual philosophy, mystical beliefs, contemplative wisdom, religious seclusion, universal compassion",
+        "keywords": "Mystical wisdom, spiritual philosophy, contemplative, universal love"
+      }
+    },
+    "tenth_house_ruler": {
+      "description": "Shows where career, public reputation, and achievement manifest",
+      "in_1st": {
+        "interpretation": "Career is identity, ambitious, achievement-oriented, public person, known personality, self-made success",
+        "keywords": "Career identity, ambitious, public self, achievement focus"
+      },
+      "in_4th": {
+        "interpretation": "Family business as career, private career, works from home, family legacy, late-life success, real estate career",
+        "keywords": "Family business, home career, private success, real estate"
+      },
+      "in_7th": {
+        "interpretation": "Career through partnerships, spouse affects career, consulting, public relations, partnership-based success",
+        "keywords": "Partnership career, consulting, spouse helps career"
+      },
+      "in_8th": {
+        "interpretation": "Career in psychology/research/crisis, transformative work, power career, behind-scenes success, investigative work",
+        "keywords": "Psychology career, research, investigation, transformative work"
+      },
+      "in_10th": {
+        "interpretation": "Career is everything, extremely ambitious, destined for success, public recognition, legacy builder",
+        "keywords": "Career focused, very ambitious, public success, legacy"
+      },
+      "in_11th": {
+        "interpretation": "Career with groups, humanitarian work, social success, network career, hopes and career aligned, future-focused",
+        "keywords": "Humanitarian career, network success, group work, progressive career"
+      },
+      "in_12th": {
+        "interpretation": "Career behind scenes, spiritual work, hospital/institution career, secret success, works in isolation",
+        "keywords": "Behind-scenes career, spiritual work, institutional, hidden success"
+      }
+    },
+    "eleventh_house_ruler": {
+      "description": "Shows where friends, groups, hopes, and community manifest",
+      "in_1st": {
+        "interpretation": "Friendly personality, identifies with causes, community-oriented, friend-focused, idealistic self",
+        "keywords": "Friendly, idealistic, community identity, humanitarian"
+      },
+      "in_5th": {
+        "interpretation": "Playful friendships, creative groups, friends through hobbies, party host, children and friends mix",
+        "keywords": "Playful friends, creative groups, social creativity"
+      },
+      "in_7th": {
+        "interpretation": "Spouse is best friend, partnerships through friends, business networks, platonic element in marriage",
+        "keywords": "Friendship marriage, network partnerships, friendly spouse"
+      },
+      "in_10th": {
+        "interpretation": "Career through networks, public friendship groups, hopes and career aligned, community leader, social success",
+        "keywords": "Network career, community leadership, public groups"
+      },
+      "in_11th": {
+        "interpretation": "Deep friendships, life is about community, humanitarian, hope-focused, idealistic causes, social change agent",
+        "keywords": "Deep friendships, humanitarian, social causes, idealistic"
+      },
+      "in_12th": {
+        "interpretation": "Spiritual community, hidden friendships, secret groups, friends from past lives, isolated from community",
+        "keywords": "Spiritual groups, secret friends, karmic friendships"
+      }
+    },
+    "twelfth_house_ruler": {
+      "description": "Shows where spirituality, hidden matters, self-undoing, and transcendence manifest",
+      "in_1st": {
+        "interpretation": "Spiritual personality, mysterious self, hidden depths, may feel invisible, mystical identity, escapist",
+        "keywords": "Spiritual self, mysterious, hidden identity, mystical"
+      },
+      "in_4th": {
+        "interpretation": "Family secrets, spiritual home, hidden family matters, ancestral healing, karma from family, private spiritual life",
+        "keywords": "Family secrets, spiritual home, ancestral karma, private mysticism"
+      },
+      "in_7th": {
+        "interpretation": "Secret relationships, karmic partnerships, spiritual spouse, hidden enemies in partnerships, self-undoing through others",
+        "keywords": "Karmic marriage, secret relationships, spiritual partnerships"
+      },
+      "in_10th": {
+        "interpretation": "Career behind scenes, spiritual/helping career, institutions, secret career aspects, self-undoing through ambition",
+        "keywords": "Behind-scenes career, spiritual work, institutional, hidden ambitions"
+      },
+      "in_11th": {
+        "interpretation": "Spiritual groups, hidden friends, karma through community, secret societies, universal compassion, idealistic mysticism",
+        "keywords": "Spiritual community, secret groups, karmic friendships"
+      },
+      "in_12th": {
+        "interpretation": "Deeply spiritual, mystical, may live in isolation, spiritual calling, transcendent experiences, karmic completion",
+        "keywords": "Deep spirituality, mystical, isolated, transcendent, karmic"
+      }
+    },
+    "synthesis_principles": {
+      "multiple_factors": "Consider ruler's sign, dignity, aspects, and house for complete picture",
+      "house_connections": "Shows which life areas naturally connect and inform each other",
+      "life_narrative": "House rulers create a story of how life areas interweave",
+      "timing": "When ruler is activated by transit/progression, both houses activate",
+      "emphasis": "Multiple rulers in one house shows major life emphasis there",
+      "empty_houses": "House ruler shows how empty house expresses"
+    },
+    "practical_application": {
+      "chart_reading_sequence": [
+        "1. Identify all house rulers",
+        "2. Note which houses have multiple rulers placed in them (emphasis)",
+        "3. Check for mutual reception (two rulers in each other's signs)",
+        "4. Examine dignity of rulers",
+        "5. Note aspects to rulers",
+        "6. Synthesize story of how life areas connect"
+      ],
+      "timing_activations": "Transit to house ruler activates both the ruled house and the house it's in",
+      "rectification": "House ruler placements can help rectify birth time"
+    }
+  }
+}

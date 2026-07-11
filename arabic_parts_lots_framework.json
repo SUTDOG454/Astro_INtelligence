@@ -1,0 +1,446 @@
+{
+  "arabic_parts_and_lots": {
+    "framework_metadata": {
+      "version": "1.0",
+      "created_date": "2026-02-21",
+      "tradition": "Hellenistic and Medieval astrology",
+      "description": "Derived sensitive points calculated from three chart factors",
+      "total_lots_included": 45,
+      "usage": "Add depth and specificity to natal, horary, and electional charts"
+    },
+    "calculation_methodology": {
+      "general_formula": "Lot = Ascendant + Planet A - Planet B",
+      "day_night_variation": "Many lots reverse for nocturnal charts",
+      "hermetic_lots": "Use same formula day and night",
+      "zodiacal_position": "Calculate in absolute longitude, convert to sign/degree",
+      "house_position": "Note which house the calculated lot falls in",
+      "interpretation": "Lot's house position shows where that life area manifests"
+    },
+    "major_lots": {
+      "lot_of_fortune": {
+        "symbol": "⊕",
+        "importance": "Most important lot after Ascendant",
+        "calculation": {
+          "day_chart": "ASC + Moon - Sun",
+          "night_chart": "ASC + Sun - Moon",
+          "example": "If ASC 15° Aries, Moon 20° Taurus, Sun 10° Gemini (day): 15 + 50 - 70 = -5 = 355° = 25° Pisces"
+        },
+        "meaning": {
+          "primary": "Material fortune, body, health, external success",
+          "secondary": "What the universe gives you, natural gifts and advantages",
+          "keywords": "Luck, prosperity, health, inheritance, physical body"
+        },
+        "interpretation_by_house": {
+          "1st_house": "Personal magnetism, natural luck, health and vitality, success through self",
+          "2nd_house": "Financial luck, natural resources, earns money easily, values aligned with fortune",
+          "3rd_house": "Lucky in communication, siblings bring fortune, local opportunities, mind as resource",
+          "4th_house": "Family brings fortune, inheritance likely, property luck, emotional foundation supports success",
+          "5th_house": "Children bring joy, creative fortune, gambling luck (use caution), romance leads to prosperity",
+          "6th_house": "Health through work, daily routines bring luck, service path to prosperity, pets beneficial",
+          "7th_house": "Partnership brings fortune, marriage improves circumstances, success through others",
+          "8th_house": "Other people's money, inheritance strong, transformation brings resources, deep connections profitable",
+          "9th_house": "Foreign travel fortunate, higher education pays off, philosophy and wisdom attract success",
+          "10th_house": "Career success, public recognition, achievement brings material reward, status and fortune linked",
+          "11th_house": "Friends bring opportunities, group involvement fortunate, hopes fulfilled, community support",
+          "12th_house": "Hidden blessings, spiritual wealth over material, fortune through solitude, karmic gifts"
+        },
+        "aspects_to_fortune": {
+          "benefics": "Jupiter or Venus aspecting Fortune magnifies luck and prosperity",
+          "malefics": "Saturn or Mars aspecting Fortune creates obstacles but builds character",
+          "ruler": "Condition of Fortune's ruler shows how fortune manifests"
+        },
+        "zodiacal_releasing": "Used as primary timing lord in Hellenistic astrology",
+        "progressed_fortune": "Can progress Lot of Fortune to time major fortune changes"
+      },
+      "lot_of_spirit": {
+        "symbol": "☉",
+        "importance": "Second most important lot, complement to Fortune",
+        "calculation": {
+          "day_chart": "ASC + Sun - Moon",
+          "night_chart": "ASC + Moon - Sun"
+        },
+        "meaning": {
+          "primary": "Actions, character, will, internal development, soul's purpose",
+          "secondary": "What you actively do and achieve through your own efforts",
+          "keywords": "Will, character, actions, reputation, soul purpose, effort"
+        },
+        "interpretation_by_house": {
+          "1st_house": "Self-directed, strong will, personal agency, acts from authentic self",
+          "2nd_house": "Builds character through values, reputation based on resources, acts to acquire",
+          "3rd_house": "Thinks and communicates purposefully, sibling relationships shape character, learning is purpose",
+          "4th_house": "Private inner work, family shapes character, emotional intelligence as purpose",
+          "5th_house": "Creative expression as purpose, joyful action, children shape character, heart-led will",
+          "6th_house": "Character through service, work ethic defines self, health-conscious actions, daily discipline",
+          "7th_house": "Character developed through relationships, acts for others, partnership shapes will",
+          "8th_house": "Transformative will, character forged in crisis, deep psychological work, power through change",
+          "9th_house": "Philosophical character, acts on beliefs, teaching shapes identity, wisdom through experience",
+          "10th_house": "Public character, reputation earned through action, career defines purpose, visible integrity",
+          "11th_house": "Character in community, collective action, friendship shapes will, humanitarian purpose",
+          "12th_house": "Spiritual will, hidden character, acts from unconscious, sacrifice shapes soul"
+        },
+        "fortune_spirit_relationship": {
+          "complementary": "Fortune = what you're given, Spirit = what you do with it",
+          "balance": "Integrated person has both in harmony",
+          "conflict": "Square or opposition shows tension between gifts and efforts"
+        }
+      },
+      "lot_of_eros": {
+        "alternative_names": ["Lot of Love", "Part of Eros"],
+        "calculation": {
+          "day_and_night": "ASC + Venus - Spirit"
+        },
+        "meaning": {
+          "primary": "Erotic love, passionate desire, romantic attraction",
+          "keywords": "Passion, sexual attraction, romantic love, desire, longing"
+        },
+        "interpretation_guidelines": "Shows where and how passionate love manifests, differs from Venus (general love) by focusing on eros and desire"
+      },
+      "lot_of_marriage": {
+        "alternative_names": ["Part of Marriage"],
+        "calculation": {
+          "male_day_chart": "ASC + Venus - Saturn",
+          "male_night_chart": "ASC + Saturn - Venus",
+          "female_day_chart": "ASC + Saturn - Venus",
+          "female_night_chart": "ASC + Venus - Saturn"
+        },
+        "meaning": {
+          "primary": "Marriage potential, type of spouse, marriage timing",
+          "keywords": "Marriage, committed partnership, spouse characteristics"
+        },
+        "interpretation_by_house": {
+          "1st_house": "Early marriage, identity tied to partnership, spouse changes self-image",
+          "7th_house": "Traditional marriage house, natural placement, partnership-oriented",
+          "10th_house": "Public marriage or marriage affects career, may marry for status",
+          "11th_house": "Marry a friend, group involvement through spouse, companionate marriage"
+        },
+        "timing": "Transits and progressions to Lot of Marriage can time marriage or significant relationship events"
+      },
+      "lot_of_children": {
+        "alternative_names": ["Part of Children"],
+        "calculation": {
+          "day_and_night": "ASC + Jupiter - Saturn"
+        },
+        "meaning": {
+          "primary": "Children, fertility, parenting, creative offspring",
+          "keywords": "Children, fertility, parenting, legacy through offspring"
+        },
+        "interpretation": {
+          "house_position": "Where children manifest in life or life area affected by children",
+          "sign": "Nature of relationship with children",
+          "aspects": "Jupiter/Venus aspects = fertility, Saturn/Mars aspects = challenges or delays"
+        }
+      },
+      "lot_of_necessity": {
+        "alternative_names": ["Part of Necessity", "Lot of Constraint"],
+        "calculation": {
+          "day_and_night": "ASC + Fortune - Mercury"
+        },
+        "meaning": {
+          "primary": "Constraints, necessity, what cannot be avoided",
+          "keywords": "Fate, necessity, unavoidable circumstances, karmic constraints"
+        },
+        "interpretation": "Shows areas of life where one faces necessary limitations or fated circumstances"
+      },
+      "lot_of_courage": {
+        "alternative_names": ["Part of Courage", "Part of Mars"],
+        "calculation": {
+          "day_chart": "ASC + Fortune - Mars",
+          "night_chart": "ASC + Mars - Fortune"
+        },
+        "meaning": {
+          "primary": "Courage, bravery, where one shows strength",
+          "keywords": "Bravery, valor, strength, assertiveness"
+        }
+      },
+      "lot_of_victory": {
+        "alternative_names": ["Part of Victory"],
+        "calculation": {
+          "day_and_night": "ASC + Jupiter - Spirit"
+        },
+        "meaning": {
+          "primary": "Success, victory, winning, achievement",
+          "keywords": "Victory, success, triumph, achievement"
+        }
+      },
+      "lot_of_nemesis": {
+        "alternative_names": ["Part of Nemesis", "Lot of Downfall"],
+        "calculation": {
+          "day_and_night": "ASC + Fortune - Saturn"
+        },
+        "meaning": {
+          "primary": "Downfall, nemesis, where one faces greatest challenges",
+          "keywords": "Obstacles, enemies, downfall, karmic debts"
+        },
+        "interpretation": "Not purely negative—shows where one must work hardest, karmic lessons"
+      },
+      "lot_of_basis": {
+        "alternative_names": ["Part of Foundation"],
+        "calculation": {
+          "day_and_night": "ASC + Fortune - Spirit"
+        },
+        "meaning": {
+          "primary": "Foundation of life, core security, fundamental support",
+          "keywords": "Foundation, security, basis, fundamental support"
+        }
+      },
+      "lot_of_exaltation": {
+        "alternative_names": ["Part of Exaltation"],
+        "calculation": {
+          "day_and_night": "ASC + 19° Aries - Sun"
+        },
+        "meaning": {
+          "primary": "Peak achievement, exaltation, highest expression",
+          "keywords": "Exaltation, peak, highest achievement, glory"
+        },
+        "note": "19° Aries is Sun's degree of exaltation"
+      },
+      "lot_of_death": {
+        "alternative_names": ["Part of Death"],
+        "calculation": {
+          "day_chart": "ASC + 8th house cusp - Moon",
+          "night_chart": "ASC + Moon - 8th house cusp"
+        },
+        "meaning": {
+          "primary": "Death, endings, transformation, what must die",
+          "keywords": "Death, endings, transformation, letting go"
+        },
+        "ethical_note": "Never predict actual death time—interpret as psychological death/rebirth",
+        "interpretation": "Area of life requiring transformation or letting go"
+      }
+    },
+    "professional_and_career_lots": {
+      "lot_of_profession": {
+        "calculation": {
+          "day_chart": "ASC + Mercury - Saturn",
+          "night_chart": "ASC + Saturn - Mercury"
+        },
+        "meaning": "Career path, profession, vocation",
+        "use": "Complements 10th house and MC analysis"
+      },
+      "lot_of_accomplishment": {
+        "calculation": "ASC + Sun - Saturn",
+        "meaning": "Achievement, accomplishment, what one builds"
+      },
+      "lot_of_reputation": {
+        "calculation": "ASC + Spirit - MC",
+        "meaning": "Public reputation, how others see achievements"
+      }
+    },
+    "relationship_lots": {
+      "lot_of_wedding": {
+        "calculation": "ASC + Venus - Jupiter",
+        "meaning": "Wedding ceremony, marriage celebration"
+      },
+      "lot_of_divorce": {
+        "calculation": "ASC + Venus - Saturn",
+        "meaning": "Separation, divorce potential, relationship endings",
+        "note": "Active by transit can indicate relationship stress"
+      },
+      "lot_of_siblings": {
+        "calculation": "ASC + Saturn - Jupiter",
+        "meaning": "Siblings, sibling relationships, competition"
+      },
+      "lot_of_fathers": {
+        "calculation": {
+          "day_chart": "ASC + Sun - Saturn",
+          "night_chart": "ASC + Saturn - Sun"
+        },
+        "meaning": "Father, father figures, paternal inheritance"
+      },
+      "lot_of_mothers": {
+        "calculation": {
+          "day_chart": "ASC + Moon - Venus",
+          "night_chart": "ASC + Venus - Moon"
+        },
+        "meaning": "Mother, mother figures, maternal inheritance"
+      }
+    },
+    "health_and_body_lots": {
+      "lot_of_sickness": {
+        "calculation": "ASC + Saturn - Mars",
+        "meaning": "Health vulnerabilities, chronic illness areas, vitality challenges"
+      },
+      "lot_of_surgery": {
+        "calculation": "ASC + Mars - Saturn",
+        "meaning": "Surgery, invasive medical procedures, cuts and wounds"
+      },
+      "lot_of_death_and_killing": {
+        "calculation": "ASC + Mars - 8th house cusp",
+        "meaning": "Danger, violence, life-threatening situations",
+        "ethical_note": "Use with extreme caution and never for prediction"
+      }
+    },
+    "wealth_and_material_lots": {
+      "lot_of_commerce": {
+        "calculation": "ASC + Fortune - Mercury",
+        "meaning": "Business, trade, commerce, merchant activities"
+      },
+      "lot_of_debt": {
+        "calculation": "ASC + 12th house cusp - Saturn",
+        "meaning": "Debt, financial obligations, what is owed"
+      },
+      "lot_of_friends": {
+        "calculation": "ASC + Fortune - 11th house cusp",
+        "meaning": "Friendships, social connections, community support"
+      }
+    },
+    "spiritual_and_philosophical_lots": {
+      "lot_of_faith": {
+        "calculation": "ASC + Mercury - Moon",
+        "meaning": "Faith, belief, religious inclination"
+      },
+      "lot_of_religion": {
+        "calculation": "ASC + Venus - Moon",
+        "meaning": "Religious practice, devotion, spiritual path"
+      },
+      "lot_of_god": {
+        "calculation": "ASC + Sun - Moon",
+        "meaning": "Divine connection, spiritual identity, relationship with God/Source"
+      },
+      "lot_of_daemon": {
+        "calculation": {
+          "day_chart": "ASC + Moon - Sun",
+          "night_chart": "ASC + Sun - Moon"
+        },
+        "meaning": "Guardian spirit, spiritual guide, inner genius",
+        "note": "Ancient concept of personal guardian spirit, not demonic"
+      }
+    },
+    "specialized_lots": {
+      "lot_of_accusation": {
+        "calculation": "ASC + Saturn - Mars",
+        "meaning": "Legal troubles, accusations, conflicts with authority"
+      },
+      "lot_of_treachery": {
+        "calculation": "ASC + Mars - Neptune",
+        "meaning": "Betrayal, deception, hidden enemies"
+      },
+      "lot_of_friends_and_foes": {
+        "calculation": "ASC + Fortune - 11th house cusp",
+        "meaning": "Who helps and who hinders"
+      },
+      "lot_of_travel": {
+        "calculation": "ASC + 9th house cusp - 9th house ruler",
+        "meaning": "Travel, journeys, foreign lands"
+      },
+      "lot_of_education": {
+        "calculation": "ASC + Mercury - Jupiter",
+        "meaning": "Learning, education, knowledge acquisition"
+      },
+      "lot_of_boldness": {
+        "calculation": "ASC + Fortune - Mars",
+        "meaning": "Courage, audacity, taking risks"
+      },
+      "lot_of_discovery": {
+        "calculation": "ASC + Uranus - Mercury",
+        "meaning": "Innovation, discovery, breakthrough insights"
+      },
+      "lot_of_passion": {
+        "calculation": "ASC + Venus - Mars",
+        "meaning": "Passion, desire, what drives you emotionally"
+      }
+    },
+    "interpretation_guidelines": {
+      "priority_analysis": [
+        "1. Calculate Fortune and Spirit first—these are foundational",
+        "2. Add relevant life-area lots based on question (marriage lot for relationship question)",
+        "3. Check lot's house position (primary interpretation)",
+        "4. Check lot's sign (modifies expression)",
+        "5. Check lot's ruler (who governs this area)",
+        "6. Check aspects to lot (activations and influences)",
+        "7. Check transits/progressions to lot (timing)"
+      ],
+      "ruler_of_lot": {
+        "description": "The planet ruling the sign the lot falls in governs that area",
+        "example": "Lot of Marriage in Taurus—Venus rules marriage matters",
+        "interpretation": "Examine that planet's condition, house, aspects to understand lot's expression"
+      },
+      "aspects_to_lots": {
+        "tight_orbs": "Use 3-5° orbs for aspects to lots",
+        "benefics": "Jupiter/Venus improving lot's expression",
+        "malefics": "Saturn/Mars creating challenges or delays",
+        "angles": "Lots conjunct angles are most powerful"
+      },
+      "timing_with_lots": {
+        "transits": "Outer planet transits to lots can time events in that life area",
+        "progressions": "Progressed planets to lots activate that area",
+        "solar_returns": "Lot positions in solar return show annual themes",
+        "profections": "Profection year to house containing important lot activates that area"
+      },
+      "synastry_with_lots": {
+        "fortune_fortune": "Comparing Fortune positions shows material compatibility",
+        "spirit_spirit": "Comparing Spirit positions shows purpose alignment",
+        "marriage_planets": "Partner's planets to your Lot of Marriage shows marriage dynamics",
+        "cross_lots": "Partner's Venus to your Lot of Eros shows romantic activation"
+      },
+      "horary_usage": {
+        "fortune": "Always calculate in horary for material outcomes",
+        "specialized_lots": "Use lots specific to question (Lot of Commerce for business question)"
+      },
+      "electional_usage": {
+        "favorable_placement": "Place relevant lots in strong houses for elections",
+        "example": "Lot of Marriage in 7th house for wedding election"
+      }
+    },
+    "advanced_techniques": {
+      "derived_lots": {
+        "description": "Calculate lots from lots",
+        "example": "Lot of Children from Lot of Marriage: Marriage + Jupiter - Saturn"
+      },
+      "lot_releasing": {
+        "description": "Zodiacal releasing from Spirit used for timing in Hellenistic astrology",
+        "complexity": "Advanced technique requiring specialized knowledge"
+      },
+      "annual_profections_to_lots": {
+        "description": "Profecting important lots through houses for annual themes"
+      },
+      "modern_lot_variations": {
+        "note": "Some modern astrologers create new lots for contemporary issues",
+        "examples": "Lot of Social Media, Lot of Cryptocurrency, etc.",
+        "caution": "Use traditional lots first, modern variations experimental"
+      }
+    },
+    "ethical_considerations": {
+      "death_lots": "Never predict death times—interpret psychologically",
+      "treachery_lots": "Don't create paranoia—frame as awareness",
+      "divorce_lots": "Don't predict divorce—show relationship challenges",
+      "free_will": "Lots show potentials, not certainties"
+    },
+    "practical_application": {
+      "natal_consultation": {
+        "essential": "Fortune, Spirit",
+        "add_as_relevant": "Marriage, Children, Profession based on client questions"
+      },
+      "relationship_reading": {
+        "use": "Lot of Eros, Marriage, Wedding, Divorce (carefully)"
+      },
+      "career_reading": {
+        "use": "Lot of Profession, Accomplishment, Reputation, Commerce"
+      },
+      "timing_consultation": {
+        "method": "Transit and progression to relevant lots"
+      }
+    },
+    "calculation_example": {
+      "example_chart": {
+        "ascendant": "15° Aries (15°)",
+        "sun": "10° Gemini (70°)",
+        "moon": "20° Taurus (50°)",
+        "chart_type": "Day chart (Sun above horizon)"
+      },
+      "fortune_calculation": {
+        "formula": "ASC + Moon - Sun (day chart)",
+        "calculation": "15° + 50° - 70° = -5°",
+        "adjustment": "Add 360° when negative: -5° + 360° = 355°",
+        "result": "355° = 25° Pisces",
+        "interpretation": "Lot of Fortune in 12th house Pisces—fortune through spiritual matters, hidden blessings"
+      },
+      "spirit_calculation": {
+        "formula": "ASC + Sun - Moon (day chart)",
+        "calculation": "15° + 70° - 50° = 35°",
+        "result": "35° = 5° Taurus",
+        "interpretation": "Lot of Spirit in 2nd house Taurus—purpose involves building material security and values"
+      }
+    }
+  }
+}

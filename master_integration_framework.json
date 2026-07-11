@@ -1,0 +1,361 @@
+{
+  "astrology_master_framework": {
+    "framework_metadata": {
+      "version": "1.0",
+      "created_date": "2026-02-21",
+      "description": "Comprehensive Western tropical astrology framework integrating natal, synastry, predictive, and sexual archetype analysis",
+      "framework_components": [
+        "natal_chart_framework",
+        "synastry_compatibility_framework",
+        "predictive_techniques_framework",
+        "sexual_archetypes_framework"
+      ],
+      "usage": "Complete astrological consultation system"
+    },
+    "framework_architecture": {
+      "core_structure": {
+        "level_1_foundation": {
+          "component": "Natal Chart",
+          "file": "natal_chart_framework.json",
+          "description": "Individual birth chart - the foundation for all other analysis",
+          "required_for": ["synastry", "predictive", "sexual_archetypes"],
+          "key_elements": [
+            "Planetary placements",
+            "Houses",
+            "Aspects",
+            "Ascendant/Midheaven",
+            "Chart synthesis"
+          ]
+        },
+        "level_2_relationship": {
+          "component": "Synastry & Compatibility",
+          "file": "synastry_framework.json",
+          "description": "Two-chart comparison for relationship analysis",
+          "depends_on": ["natal_chart_framework"],
+          "key_elements": [
+            "Interaspects",
+            "House overlays",
+            "Composite chart",
+            "Midpoints",
+            "Special indicators (Vertex, Nodes, asteroids)"
+          ]
+        },
+        "level_2_timing": {
+          "component": "Predictive Techniques",
+          "file": "predictive_framework.json",
+          "description": "Timing methods for forecasting life events",
+          "depends_on": ["natal_chart_framework"],
+          "key_elements": [
+            "Transits",
+            "Progressions",
+            "Solar returns",
+            "Profections",
+            "Firdaria",
+            "Solar arcs"
+          ]
+        },
+        "level_3_specialized": {
+          "component": "Sexual Archetypes",
+          "file": "sexual_archetypes_framework.json",
+          "description": "Deep dive into sexual/intimate expression patterns",
+          "depends_on": ["natal_chart_framework", "synastry_framework"],
+          "activation_required": true,
+          "key_elements": [
+            "Zodiac sexual themes",
+            "Asteroid sexual associations",
+            "5th/8th house emphasis",
+            "Venus/Mars/Pluto dynamics"
+          ]
+        }
+      }
+    },
+    "data_flow_and_integration": {
+      "natal_to_synastry": {
+        "description": "How natal charts feed into relationship analysis",
+        "data_mapping": {
+          "natal_planets": "→ synastry_interaspects",
+          "natal_houses": "→ synastry_house_overlays",
+          "natal_ascendant": "→ synastry_angle_contacts",
+          "natal_midheaven": "→ synastry_career_compatibility",
+          "natal_nodes": "→ synastry_karmic_connections",
+          "natal_asteroids": "→ synastry_asteroid_contacts"
+        },
+        "required_fields": [
+          "person_a.natal_chart_reference",
+          "person_b.natal_chart_reference"
+        ]
+      },
+      "natal_to_predictive": {
+        "description": "How natal charts feed into timing analysis",
+        "data_mapping": {
+          "natal_planets": "→ transit_targets",
+          "natal_angles": "→ progressed_angles",
+          "natal_houses": "→ transit_house_locations",
+          "natal_aspects": "→ progressed_aspects_to_natal"
+        },
+        "calculation_methods": {
+          "secondary_progressions": "Day-for-year from birth date",
+          "solar_arcs": "Add progressed Sun arc to all natal points",
+          "solar_return": "Chart for Sun return to natal degree",
+          "profections": "Advance Ascendant 1 sign per year"
+        }
+      },
+      "natal_to_sexual_archetypes": {
+        "description": "How natal placements activate sexual themes",
+        "activation_triggers": {
+          "primary": [
+            "Planets in 5th house",
+            "Planets in 8th house",
+            "Scorpio placements",
+            "Venus-Mars aspects",
+            "Venus-Pluto aspects",
+            "Mars-Pluto aspects"
+          ],
+          "secondary": [
+            "Lilith placements",
+            "Eros, Vesta, Juno positions",
+            "Strong aspects to sexual planets",
+            "8th house ruler placement"
+          ]
+        },
+        "interpretation_logic": {
+          "step_1": "Identify sexual signature indicators in natal chart",
+          "step_2": "Determine activation strength (strong/moderate/subtle)",
+          "step_3": "Apply relevant zodiac archetype themes",
+          "step_4": "Integrate asteroid associations if present",
+          "step_5": "Synthesize healthy vs shadow expressions"
+        }
+      },
+      "synastry_to_sexual_compatibility": {
+        "description": "How relationship dynamics inform sexual compatibility",
+        "data_mapping": {
+          "venus_mars_aspects": "→ sexual_chemistry_score",
+          "5th_house_overlays": "→ romance_and_pleasure",
+          "8th_house_overlays": "→ deep_intimacy_potential",
+          "pluto_contacts": "→ intensity_and_power_dynamics",
+          "lilith_contacts": "→ taboo_and_obsession_themes",
+          "eros_psyche": "→ soul_mate_indicators"
+        }
+      },
+      "predictive_to_synastry": {
+        "description": "Timing relationship developments",
+        "applications": [
+          "Transits to synastry composite chart",
+          "Progressions activating relationship points",
+          "Solar returns for relationship year themes",
+          "Profections highlighting relationship houses"
+        ],
+        "timing_relationship_events": {
+          "meeting": "Transits to Venus, 7th house, Descendant, Vertex",
+          "commitment": "Saturn, Jupiter transits; profections to 7th house",
+          "challenges": "Saturn, Pluto transits to synastry points",
+          "breakup": "Uranus, Saturn afflictions; 7th house profection year"
+        }
+      }
+    },
+    "comprehensive_consultation_workflow": {
+      "step_1_natal_foundation": {
+        "action": "Generate complete natal chart for each individual",
+        "output": "natal_chart_framework.json",
+        "analysis_includes": [
+          "Core identity (Sun, Moon, Rising)",
+          "Planetary placements and aspects",
+          "House emphasis",
+          "Chart patterns",
+          "Elemental/modal balance",
+          "Strengths and challenges"
+        ]
+      },
+      "step_2_relationship_analysis": {
+        "condition": "If analyzing a relationship",
+        "action": "Generate synastry analysis",
+        "input": ["person_a_natal_chart", "person_b_natal_chart"],
+        "output": "synastry_analysis.json",
+        "analysis_includes": [
+          "Compatibility scores",
+          "Interaspects",
+          "House overlays",
+          "Composite chart",
+          "Special indicators",
+          "Relationship themes and advice"
+        ]
+      },
+      "step_3_timing_analysis": {
+        "condition": "If forecasting or timing questions",
+        "action": "Generate predictive analysis",
+        "input": ["natal_chart", "current_date", "forecast_period"],
+        "output": "predictive_astrology.json",
+        "analysis_includes": [
+          "Current transits",
+          "Progressions",
+          "Solar return",
+          "Profections",
+          "Integrated timeline"
+        ]
+      },
+      "step_4_specialized_analysis": {
+        "sexual_archetypes": {
+          "condition": "If sexual/intimate themes requested or 5th/8th houses emphasized",
+          "action": "Generate sexual archetype analysis",
+          "input": ["natal_chart", "activation_indicators"],
+          "output": "sexual_archetype_analysis.json",
+          "sensitivity": "High - requires consent and appropriate context"
+        }
+      },
+      "step_5_synthesis_and_report": {
+        "action": "Integrate all analyses into comprehensive consultation",
+        "deliverable_formats": [
+          "Written report (PDF/DOCX)",
+          "Interactive dashboard (web app)",
+          "API response (JSON)",
+          "Verbal consultation guide"
+        ]
+      }
+    },
+    "technical_implementation_guide": {
+      "database_schema": {
+        "tables": [
+          {
+            "table": "users",
+            "fields": ["user_id", "name", "birth_data", "created_at"]
+          },
+          {
+            "table": "natal_charts",
+            "fields": ["chart_id", "user_id", "chart_data_json", "calculated_at"]
+          },
+          {
+            "table": "synastry_analyses",
+            "fields": ["analysis_id", "person_a_chart_id", "person_b_chart_id", "synastry_data_json", "created_at"]
+          },
+          {
+            "table": "predictive_analyses",
+            "fields": ["analysis_id", "chart_id", "forecast_start", "forecast_end", "predictive_data_json", "created_at"]
+          }
+        ]
+      },
+      "api_endpoints": {
+        "natal": {
+          "POST /api/natal/calculate": "Calculate natal chart",
+          "GET /api/natal/{chart_id}": "Retrieve natal chart",
+          "PUT /api/natal/{chart_id}": "Update natal chart"
+        },
+        "synastry": {
+          "POST /api/synastry/analyze": "Generate synastry analysis",
+          "GET /api/synastry/{analysis_id}": "Retrieve synastry analysis"
+        },
+        "predictive": {
+          "POST /api/predictive/forecast": "Generate forecast",
+          "GET /api/predictive/{analysis_id}": "Retrieve forecast"
+        }
+      },
+      "calculation_libraries": {
+        "recommended": [
+          "Swiss Ephemeris (high-precision calculations)",
+          "Astro.js (JavaScript)",
+          "Astropy (Python)",
+          "Kerykeion (Python, modern)",
+          "astro-seek API (web service)"
+        ]
+      }
+    },
+    "interpretation_hierarchy": {
+      "priority_order": [
+        "1. Sun, Moon, Ascendant (Core trinity)",
+        "2. Personal planets (Mercury, Venus, Mars)",
+        "3. Angular houses (1st, 4th, 7th, 10th)",
+        "4. Major aspects (especially exact, <1° orb)",
+        "5. Social planets (Jupiter, Saturn)",
+        "6. Special points (Nodes, Vertex, Chiron)",
+        "7. Outer planets (Uranus, Neptune, Pluto)",
+        "8. Asteroids (Juno, Vesta, Pallas, Ceres, Eros, Lilith)",
+        "9. Minor aspects and midpoints",
+        "10. Fixed stars (only if prominent)"
+      ],
+      "weight_factors": {
+        "angular_placement": "×2.0 multiplier",
+        "exact_aspect": "×1.5 multiplier (<1° orb)",
+        "dignity": "×1.3 multiplier (planet in domicile/exaltation)",
+        "retrograde": "×1.2 multiplier (internalized energy)"
+      }
+    },
+    "quality_assurance": {
+      "validation_rules": [
+        "Birth time accuracy: ±5 minutes affects house cusps",
+        "Orb limits: Major aspects 8-10°, minor aspects 2-3°",
+        "House system consistency across all analyses",
+        "Aspect counting: Use applying vs separating logic",
+        "Rectification: Note when birth time is approximate"
+      ],
+      "interpretation_standards": [
+        "Balance positive and challenging interpretations",
+        "Avoid fatalistic language",
+        "Emphasize growth and potential",
+        "Provide actionable guidance",
+        "Respect client's free will and agency"
+      ]
+    },
+    "use_case_examples": {
+      "romantic_compatibility_consultation": {
+        "frameworks_used": ["natal", "synastry", "sexual_archetypes", "predictive"],
+        "workflow": [
+          "Generate both natal charts",
+          "Run complete synastry analysis",
+          "Assess sexual archetype compatibility (if appropriate)",
+          "Check current transits to relationship points",
+          "Provide relationship forecast"
+        ]
+      },
+      "life_forecast_consultation": {
+        "frameworks_used": ["natal", "predictive"],
+        "workflow": [
+          "Review natal chart",
+          "Calculate all predictive techniques for period",
+          "Identify converging timing themes",
+          "Provide integrated timeline with recommendations"
+        ]
+      },
+      "personal_growth_consultation": {
+        "frameworks_used": ["natal", "predictive", "sexual_archetypes (optional)"],
+        "workflow": [
+          "Deep dive into natal chart patterns",
+          "Identify growth areas and strengths",
+          "Current transits supporting growth",
+          "Progressed chart evolution",
+          "Specific recommendations for timing"
+        ]
+      }
+    },
+    "ethical_guidelines": {
+      "consent_and_privacy": [
+        "Obtain consent for sexual archetype analysis",
+        "Protect client birth data and personal information",
+        "Never share synastry analysis without both parties' consent"
+      ],
+      "interpretation_ethics": [
+        "Avoid predictions of death, illness, or catastrophe",
+        "Frame challenges as opportunities for growth",
+        "Respect client's cultural and spiritual context",
+        "Acknowledge limitations of astrology",
+        "Encourage professional help when needed (therapy, medical, legal)"
+      ],
+      "professional_boundaries": [
+        "Astrology is not a substitute for professional advice",
+        "Maintain appropriate consultant-client relationship",
+        "Continuing education and skill development",
+        "Acknowledge when issues are outside your expertise"
+      ]
+    },
+    "future_enhancements": {
+      "planned_additions": [
+        "Vedic/Sidereal integration option",
+        "Horary astrology framework",
+        "Electional astrology framework",
+        "Medical astrology indicators",
+        "Mundane/political astrology",
+        "Asteroid belt expansion (Centaurs, TNOs)",
+        "Arabic Parts/Lots framework",
+        "Detailed fixed stars database"
+      ]
+    }
+  }
+}

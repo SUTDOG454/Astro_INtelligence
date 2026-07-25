@@ -1,0 +1,578 @@
+{
+  "fixed_stars_database": {
+    "database_metadata": {
+      "version": "1.0",
+      "created_date": "2026-02-21",
+      "scope": "Major fixed stars used in Western astrology",
+      "total_stars": 50,
+      "usage": "Conjunction orb 1-2° for major stars, 0.5-1° for minor",
+      "note": "Fixed stars move approximately 1° every 72 years due to precession"
+    },
+    "orb_guidelines": {
+      "first_magnitude": "2° orb (brightest stars like Regulus, Spica)",
+      "second_magnitude": "1.5° orb",
+      "third_magnitude": "1° orb",
+      "fourth_magnitude": "0.5° orb",
+      "planetary_nature": "Stars with Jupiter/Venus nature have wider influence",
+      "critical_degrees": "Stars at critical degrees (0°, 29°) are extra powerful",
+      "angles": "Strongest when conjunct Ascendant, MC, Descendant, IC",
+      "luminaries": "Very significant with Sun or Moon",
+      "planets": "Moderate significance with planets",
+      "progression_note": "Progressed planets to fixed stars are highly significant"
+    },
+    "interpretation_principles": {
+      "conjunction_primary": "Only conjunction aspect used (opposition sometimes by ancient authors)",
+      "planetary_nature": "Stars have planetary natures that blend with conjunct planet",
+      "mythology": "Constellation myths inform interpretation",
+      "visibility": "Bright stars have stronger influence",
+      "benefic_malefic": "Stars classified as fortunate, challenging, or mixed",
+      "synthesis": "Blend star nature with planet nature and house placement"
+    },
+    "royal_stars": {
+      "description": "Four Persian Royal Stars, ancient guardians of heaven",
+      "regulus": {
+        "constellation": "Leo (Heart of the Lion)",
+        "current_position": "29° Leo 58' (2025)",
+        "movement": "Moving into Virgo by 2026",
+        "magnitude": 1.35,
+        "nature": "Mars-Jupiter",
+        "status": "Most Royal Star—'Heart of the Lion'",
+        "keywords": [
+          "Success",
+          "Leadership",
+          "Military honors",
+          "Power",
+          "Fame",
+          "Nobility",
+          "Courage",
+          "Ambition",
+          "Royal favor",
+          "Vengeance if crossed"
+        ],
+        "interpretation": {
+          "positive": "Success, fame, honor, power, leadership, rises to prominence, military glory, royal connections, courage, magnanimous spirit",
+          "negative": "Violence if revenge sought, loss of power through arrogance, disgrace from heights, must avoid vengeance",
+          "traditional_saying": "'Success if revenge is avoided'",
+          "planetary_conjunctions": {
+            "sun": "Leadership, fame, honors, power, public success, military achievements",
+            "moon": "Popularity, public favor, emotional courage, protective instincts, may be too bold",
+            "mercury": "Brilliant mind, strategic thinking, fame through communication, commanding voice",
+            "venus": "Glamorous, royal partnerships, passionate love, artistic fame",
+            "mars": "Warrior energy amplified, military success, courageous action, must control anger",
+            "jupiter": "Extreme good fortune, expansion, wisdom, success in law/religion, benevolent leadership",
+            "saturn": "Heavy responsibility, earned authority, serious leadership, falls from grace possible",
+            "ascendant": "Natural leader, commanding presence, courageous personality, destined for recognition",
+            "mc": "Career success and fame, public leadership, honors and awards, prominent position"
+          },
+          "historical_note": "Traditional star of kings, generals, and leaders. Marks 0° of tropical zodiac's 5th sign (Leo)",
+          "modern_note": "Entering Virgo—leadership moving from pride to service"
+        }
+      },
+      "aldebaran": {
+        "constellation": "Taurus (Eye of the Bull)",
+        "current_position": "9° Gemini 56' (2025)",
+        "magnitude": 0.85,
+        "nature": "Mars",
+        "status": "Watcher of the East, Royal Star",
+        "keywords": [
+          "Integrity",
+          "Courage",
+          "Eloquence",
+          "Steadfastness",
+          "Success through action",
+          "Military honor",
+          "Danger",
+          "Violence"
+        ],
+        "interpretation": {
+          "positive": "Eloquence, courage, honor, integrity, military success, popularity, steadfast determination, achieves through merit",
+          "negative": "Violence, danger from quarrels, aggressive nature, involvement in accidents or violence, loses through overconfidence",
+          "traditional_saying": "'Honor through integrity'",
+          "planetary_conjunctions": {
+            "sun": "Courage, military honors, danger from quarrels, eloquent, steadfast",
+            "moon": "Popular, eloquent, emotional courage, may attract danger",
+            "mercury": "Quick mind, sharp tongue, eloquent speaker, strategic thinking",
+            "venus": "Passionate love, attracts partners through courage, artistic success",
+            "mars": "Warrior amplified, danger of violence, accidents, military success or injury",
+            "ascendant": "Courageous, eloquent, attractive, honors but also dangers",
+            "mc": "Career involving courage, public eloquence, honors with risks"
+          }
+        }
+      },
+      "antares": {
+        "constellation": "Scorpius (Heart of the Scorpion)",
+        "current_position": "9° Sagittarius 54' (2025)",
+        "magnitude": 0.96,
+        "nature": "Mars-Jupiter",
+        "status": "Watcher of the West, Royal Star",
+        "alternative_names": ["Cor Scorpii"],
+        "keywords": [
+          "Obsession",
+          "Recklessness",
+          "Passion",
+          "Success",
+          "Destruction",
+          "Malevolence",
+          "Adventure",
+          "Power"
+        ],
+        "interpretation": {
+          "positive": "Success, honor, adventurous spirit, powerful energy, passionate pursuit, wealth, recognition",
+          "negative": "Reckless behavior, self-destructive tendencies, obsessive nature, malevolent if crossed, sudden reversals, violence",
+          "traditional_saying": "'Great success with a tendency to self-destruct'",
+          "rivalry": "Opposes Aldebaran (rival stars in ancient Persia)",
+          "planetary_conjunctions": {
+            "sun": "Adventurous, passionate, reckless at times, military success, sudden rises and falls",
+            "moon": "Emotional intensity, passionate nature, sudden changes, obsessive feelings",
+            "mercury": "Obsessive thinking, strategic mind, reckless decisions, sharp intelligence",
+            "venus": "Obsessive love, passionate relationships, sudden romantic reversals",
+            "mars": "Extreme danger of violence, reckless action, military prowess or injury, accidents",
+            "jupiter": "Success but with reckless expansion, legal issues, philosophical extremes",
+            "ascendant": "Intense personality, adventurous, charismatic but reckless",
+            "mc": "Career success with sudden reversals, public scandals possible, power and risk"
+          }
+        }
+      },
+      "fomalhaut": {
+        "constellation": "Piscis Austrinus (Mouth of the Southern Fish)",
+        "current_position": "3° Pisces 59' (2025)",
+        "magnitude": 1.16,
+        "nature": "Venus-Mercury",
+        "status": "Watcher of the South, Royal Star",
+        "keywords": [
+          "Idealism",
+          "Spirituality",
+          "Poetry",
+          "Fame",
+          "Immortality",
+          "Downfall through malice",
+          "Ethics",
+          "Creativity"
+        ],
+        "interpretation": {
+          "positive": "Great success, fame, immortal reputation, poetic gifts, idealistic vision, spiritual wisdom, ethical integrity",
+          "negative": "Fall from grace through lack of integrity, destroyed by own malice, fame brings downfall if unethical",
+          "traditional_saying": "'Success with virtue, downfall through malice'",
+          "planetary_conjunctions": {
+            "sun": "Fame, success, spiritual ideals, poetry, must maintain ethics or fall",
+            "moon": "Emotional idealism, psychic gifts, popularity, spiritual sensitivity",
+            "mercury": "Poetic genius, idealistic communication, spiritual writing, inspired thoughts",
+            "venus": "Artistic genius, beautiful love, spiritual romance, musical gifts, ethical partnerships",
+            "jupiter": "Extreme idealism, spiritual success, philosophical wisdom, must stay ethical",
+            "neptune": "Mystical gifts amplified, spiritual channel, artistic genius, beware self-deception",
+            "ascendant": "Idealistic, poetic, spiritual personality, magnetic but must stay ethical",
+            "mc": "Fame through arts or spirituality, public honors, ethical career or public fall"
+          }
+        }
+      }
+    },
+    "first_magnitude_stars": {
+      "spica": {
+        "constellation": "Virgo (Ear of Wheat)",
+        "current_position": "23° Libra 58' (2025)",
+        "magnitude": 0.98,
+        "nature": "Venus-Mars (or Venus-Jupiter per some authors)",
+        "keywords": [
+          "Success",
+          "Protection",
+          "Gifts",
+          "Honors",
+          "Artistry",
+          "Scientific ability",
+          "Wealth",
+          "Recognition"
+        ],
+        "interpretation": {
+          "positive": "Fortunate star! Success, honor, wealth, artistic gifts, scientific ability, protection, recognition, lasting achievements",
+          "negative": "Rare—some say sudden rises can lead to sudden falls, but generally fortunate",
+          "note": "One of the most fortunate fixed stars",
+          "planetary_conjunctions": {
+            "sun": "Success, honor, wealth, artistic talent, scientific ability, lasting fame",
+            "moon": "Popularity, emotional gifts, psychic ability, nurturing success",
+            "venus": "Artistic genius, beautiful partnerships, aesthetic gifts, wealth through arts",
+            "jupiter": "Extreme good fortune, success in higher endeavors, philosophical wisdom, wealth",
+            "mercury": "Brilliant mind, scientific ability, literary success, clear communication",
+            "ascendant": "Successful, artistic, protected, honored personality",
+            "mc": "Career success, honors, awards, public recognition, artistic/scientific achievement"
+          }
+        }
+      },
+      "arcturus": {
+        "constellation": "Boötes (The Herdsman)",
+        "current_position": "24° Libra 22' (2025)",
+        "magnitude": -0.05,
+        "nature": "Mars-Jupiter",
+        "keywords": [
+          "Honor",
+          "Riches",
+          "Leadership",
+          "Prosperity",
+          "Travel",
+          "Fame",
+          "Justice",
+          "Guardian"
+        ],
+        "interpretation": {
+          "positive": "Honor, prosperity, leadership, protection, travel success, fame through merit, justice",
+          "challenges": "Stubbornness, contentious nature at times",
+          "planetary_conjunctions": {
+            "sun": "Honor, prosperity, leadership positions, travel opportunities",
+            "jupiter": "Great fortune, expansion, prosperity, philosophical leadership",
+            "ascendant": "Protective, prosperous, leadership qualities",
+            "mc": "Career honor, public success, leadership roles"
+          }
+        }
+      },
+      "vega": {
+        "constellation": "Lyra (The Lyre)",
+        "current_position": "15° Capricorn 27' (2025)",
+        "magnitude": 0.03,
+        "nature": "Venus-Mercury",
+        "keywords": [
+          "Artistic gifts",
+          "Musical talent",
+          "Charisma",
+          "Idealism",
+          "Popularity",
+          "Refinement"
+        ],
+        "interpretation": {
+          "positive": "Artistic ability especially music, charisma, refined tastes, idealistic, popularity",
+          "note": "Star of Orpheus—music, poetry, the arts",
+          "planetary_conjunctions": {
+            "venus": "Musical genius, artistic gifts, refined love, aesthetic mastery",
+            "mercury": "Literary gifts, poetic ability, musical mind",
+            "neptune": "Mystical artistic channeling, music from the spheres"
+          }
+        }
+      },
+      "capella": {
+        "constellation": "Auriga (The Charioteer)",
+        "current_position": "21° Gemini 59' (2025)",
+        "magnitude": 0.08,
+        "nature": "Mercury-Mars",
+        "keywords": [
+          "Curiosity",
+          "Learning",
+          "Research",
+          "Innovation",
+          "Herding",
+          "Nurturing",
+          "Honor"
+        ],
+        "interpretation": {
+          "positive": "Love of learning, curious mind, research ability, nurturing leadership, honors in arts and science",
+          "note": "The Goat Star—associated with nurturing and protection",
+          "planetary_conjunctions": {
+            "mercury": "Brilliant curious mind, research ability, learning capacity",
+            "jupiter": "Academic success, philosophical learning, teaching ability"
+          }
+        }
+      },
+      "rigel": {
+        "constellation": "Orion (Left Foot of Orion)",
+        "current_position": "16° Gemini 58' (2025)",
+        "magnitude": 0.18,
+        "nature": "Jupiter-Saturn (or Jupiter-Mars)",
+        "keywords": [
+          "Inventiveness",
+          "Mechanical ability",
+          "Success",
+          "Honor",
+          "Wealth",
+          "Quick mind"
+        ],
+        "interpretation": {
+          "positive": "Inventive, mechanical ability, technical skills, success, honors, wealth, fortunate",
+          "planetary_conjunctions": {
+            "mercury": "Inventive mind, technical ability, mechanical genius",
+            "uranus": "Revolutionary inventions, breakthrough innovations"
+          }
+        }
+      },
+      "betelgeuse": {
+        "constellation": "Orion (Right Shoulder of Orion)",
+        "current_position": "28° Gemini 53' (2025)",
+        "magnitude": 0.45,
+        "nature": "Mars-Mercury",
+        "keywords": [
+          "Success",
+          "Fortune",
+          "Martial honors",
+          "Everlasting fame",
+          "Quick judgment",
+          "Rashness"
+        ],
+        "interpretation": {
+          "positive": "Lasting success and fame, good fortune, honors, quick intelligence",
+          "challenges": "Can be rash, hasty decisions",
+          "note": "Red supergiant, might go supernova (astrologers watching!)",
+          "planetary_conjunctions": {
+            "sun": "Fame, honors, success, quick mind but hasty at times",
+            "mars": "Military success, warrior energy, strategic ability but rash"
+          }
+        }
+      },
+      "sirius": {
+        "constellation": "Canis Major (Dog Star)",
+        "current_position": "14° Cancer 13' (2025)",
+        "magnitude": -1.46,
+        "nature": "Jupiter-Mars",
+        "keywords": [
+          "Ambition",
+          "Pride",
+          "Success",
+          "Fame",
+          "Passion",
+          "Heat",
+          "Dog days",
+          "Devotion"
+        ],
+        "interpretation": {
+          "positive": "Ambition, success, honors, fame, passionate devotion, loyalty, achievement",
+          "challenges": "Excessive pride, burned by ambition, impatience, aggression",
+          "note": "Brightest star in night sky, heliacal rising marked Egyptian New Year",
+          "planetary_conjunctions": {
+            "sun": "Great ambition, success possible but beware pride, honors and fame",
+            "jupiter": "Great success, fortunate, expansion, honors, careful with pride",
+            "mars": "Passionate ambition, aggressive success drive, warrior nature"
+          }
+        }
+      }
+    },
+    "second_magnitude_stars": {
+      "algol": {
+        "constellation": "Perseus (Medusa's Head)",
+        "current_position": "26° Taurus 18' (2025)",
+        "magnitude": 2.1,
+        "nature": "Saturn-Jupiter (some say Saturn-Mars)",
+        "keywords": [
+          "Misfortune",
+          "Violence",
+          "Decapitation",
+          "Loss",
+          "Danger",
+          "Evil reputation",
+          "Transformation",
+          "The dark feminine"
+        ],
+        "interpretation": {
+          "positive": "Transformation through facing shadow, power from trauma, reclaiming the dark feminine (modern interpretation)",
+          "negative": "Traditional: Most malefic star. Violence, decapitation, strangulation, mob violence, disasters, evil outcomes",
+          "modern_reframe": "Algol represents trauma and the power that comes from facing it. Not inherently evil, but marks intense transformation through difficulty",
+          "mythology": "Medusa's severed head—represents female rage, victimization, and transformation",
+          "planetary_conjunctions": {
+            "sun": "Traditionally dangerous. Modern: power through trauma, must face shadow self",
+            "moon": "Traditionally: suffering, violence. Modern: emotional intensity, trauma healing",
+            "venus": "Traditionally: relationship violence. Modern: transforming relationship wounds",
+            "mars": "Extreme danger traditionally. Modern: transforming rage into power",
+            "ascendant": "Traditionally misfortune. Modern: powerful transformative presence, faces trauma",
+            "mc": "Traditionally public disgrace. Modern: public transformation, advocacy for victims"
+          },
+          "eclipses": "Algol eclipsed by transits considered very difficult",
+          "modern_note": "Many successful people have Algol prominent—it indicates transformation through difficulty, not pure evil"
+        }
+      },
+      "pleiades": {
+        "constellation": "Taurus (Seven Sisters)",
+        "current_position": "29° Taurus 56' (2025)",
+        "magnitude": 1.2,
+        "nature": "Moon-Mars",
+        "keywords": [
+          "Accidents",
+          "Violence",
+          "Blindness",
+          "Disgrace",
+          "Ambition",
+          "Emotional intensity"
+        ],
+        "interpretation": {
+          "positive": "Ambition, emotional intensity, sisterhood, collective feminine power",
+          "negative": "Accidents especially to eyes, violence, disgrace, judgment errors, emotional wounds",
+          "note": "Sight problems traditionally associated with this star cluster",
+          "mythology": "Seven sisters pursued by Orion, protected by Zeus",
+          "planetary_conjunctions": {
+            "sun": "Ambition but beware accidents and sight issues",
+            "moon": "Emotional sensitivity, sisterhood themes, beware emotional wounds",
+            "mars": "Accident-prone, must be careful especially with machinery/vehicles"
+          }
+        }
+      },
+      "scheat": {
+        "constellation": "Pegasus",
+        "current_position": "29° Pisces 30' (2025)",
+        "magnitude": 2.44,
+        "nature": "Mars-Mercury",
+        "keywords": [
+          "Danger",
+          "Drowning",
+          "Accidents",
+          "Suicide",
+          "Extreme despair",
+          "Misfortune"
+        ],
+        "interpretation": {
+          "negative": "One of the most difficult stars. Danger, especially drowning, accidents, suicide risk, extreme despair, misfortune",
+          "note": "Requires psychological support and grounding practices",
+          "planetary_conjunctions": {
+            "moon": "Emotional extremes, depression risk, suicidal ideation possible—therapeutic support essential",
+            "ascendant": "Difficulty in life, depression-prone, requires strong support system"
+          },
+          "modern_counseling_note": "If prominent, ensure client has mental health support. Never catastrophize but be aware of vulnerability"
+        }
+      },
+      "deneb_algedi": {
+        "constellation": "Capricornus (Tail of the Goat)",
+        "current_position": "23° Aquarius 36' (2025)",
+        "magnitude": 2.85,
+        "nature": "Saturn-Jupiter",
+        "keywords": [
+          "Justice",
+          "Beneficence",
+          "Fortune",
+          "Flexibility",
+          "Transformation"
+        ],
+        "interpretation": {
+          "positive": "Fortunate despite initial challenges, justice, beneficence, ability to transform difficulties",
+          "note": "Marks transformation point from Capricorn's climb to Aquarius's vision"
+        }
+      },
+      "ras_alhague": {
+        "constellation": "Ophiuchus (Head of the Serpent Bearer)",
+        "current_position": "22° Sagittarius 34' (2025)",
+        "magnitude": 2.08,
+        "nature": "Saturn-Venus",
+        "keywords": [
+          "Healing",
+          "Medicine",
+          "Wisdom",
+          "Serpent power",
+          "Transformation",
+          "Misfortune overcome"
+        ],
+        "interpretation": {
+          "positive": "Healing ability, medical/herbal knowledge, wisdom, transformation, overcoming misfortune",
+          "note": "Ophiuchus is the 'lost' 13th constellation, the Healer",
+          "planetary_conjunctions": {
+            "mercury": "Medical knowledge, healing through communication",
+            "chiron": "Wounded healer archetype amplified",
+            "neptune": "Spiritual healing, shamanic abilities"
+          }
+        }
+      }
+    },
+    "interpretation_by_conjunction": {
+      "with_sun": {
+        "general": "Fixed star power blends with core identity and life purpose",
+        "timing": "Most significant during year of exact conjunction or within 1° by progression",
+        "fame_potential": "Royal stars and first magnitude stars grant fame/recognition",
+        "challenge": "Malefic stars create identity struggles or public challenges"
+      },
+      "with_moon": {
+        "general": "Fixed star affects emotions, instincts, public persona",
+        "sensitivity": "Emotional sensitivity to star's nature (Algol = trauma sensitivity)",
+        "popularity": "Fortunate stars grant popularity and public favor",
+        "challenge": "Malefic stars affect emotional wellbeing"
+      },
+      "with_mercury": {
+        "general": "Fixed star colors thinking, communication, learning",
+        "gifts": "Spica/Rigel grant intellectual or literary gifts",
+        "challenges": "Algol or other malefics affect mental health or communication difficulties"
+      },
+      "with_venus": {
+        "general": "Fixed star affects love, relationships, values, artistry",
+        "artistic_gifts": "Vega, Spica grant artistic/musical abilities",
+        "relationship_dynamics": "Royal stars create passionate relationships (Antares = obsessive)"
+      },
+      "with_mars": {
+        "general": "Fixed star affects action, courage, aggression, accidents",
+        "danger": "Algol, Antares, Pleiades with Mars = accident risk, violence potential",
+        "military": "Regulus, Aldebaran grant military honors",
+        "action": "Must channel energy constructively"
+      },
+      "with_jupiter": {
+        "general": "Fixed star's effects expanded and philosophized",
+        "fortune": "Amplifies fortunate stars (Spica, Regulus = great success)",
+        "excess": "Can amplify negative stars into excess (Antares = reckless expansion)"
+      },
+      "with_saturn": {
+        "general": "Fixed star's lessons become karmic, serious, enduring",
+        "delay": "Delays star's promises but makes them lasting",
+        "challenge": "Amplifies difficult stars (Algol = severe lessons)",
+        "mastery": "Can master star's energy through discipline"
+      },
+      "with_outer_planets": {
+        "uranus": "Revolutionary expression of star, sudden events related to star nature",
+        "neptune": "Spiritual/mystical connection to star, dissolution of star themes",
+        "pluto": "Transformative intensity of star, power dynamics around star matters"
+      },
+      "with_angles": {
+        "ascendant": "Star affects personality, physical body, life path—very powerful",
+        "mc": "Star affects career, reputation, public life—most visible",
+        "descendant": "Star affects partnerships, attracts partners with star qualities",
+        "ic": "Star affects home, family, roots, inner foundation"
+      },
+      "with_nodes": {
+        "north_node": "Star's qualities are growth direction, evolutionary path",
+        "south_node": "Star's qualities are comfortable but must transcend"
+      }
+    },
+    "timing_with_fixed_stars": {
+      "natal_activation": "Stars within 1° of natal planets/angles are always active",
+      "transits": {
+        "outer_planets": "Saturn, Uranus, Neptune, Pluto transits to natal star conjunctions are major life events",
+        "jupiter": "Activates star's promise, opportunities related to star",
+        "mars": "Triggers star events, can be accidents with malefic stars",
+        "eclipses": "Eclipses conjunct fixed stars are extremely powerful"
+      },
+      "progressions": {
+        "progressed_sun": "Takes ~30 years to move 1°, major activation when exact",
+        "progressed_moon": "Monthly activation as Moon progresses",
+        "progressed_angles": "Life-changing as angles progress to stars"
+      },
+      "solar_returns": {
+        "star_on_angle": "Star prominent in year's themes if on solar return angle",
+        "star_with_planet": "Planet conjunct star in solar return activates that year"
+      }
+    },
+    "constellation_meanings": {
+      "andromeda": "The chained maiden—bondage, sacrifice, rescue, victimization and liberation",
+      "orion": "The hunter—pursuit, conquest, skill, aggression, masculine power",
+      "perseus": "The hero—slaying monsters, facing shadows, heroic action",
+      "hercules": "The strongman—strength, trials, labors, endurance",
+      "cygnus": "The swan—transformation, grace, death and rebirth, beauty",
+      "aquila": "The eagle—vision, height, perspective, spiritual sight",
+      "lyra": "The lyre—music, poetry, arts, harmony, Orphic mysteries",
+      "draco": "The dragon—wisdom, serpent power, ancient knowledge, guardian"
+    },
+    "practical_application": {
+      "natal_analysis": {
+        "priority": "Check angles and luminaries first for star conjunctions",
+        "tight_orbs": "Only use 1-2° orbs",
+        "impact": "Stars on angles or luminaries are life-defining",
+        "minor_planets": "Stars with minor planets less significant unless star is extremely bright"
+      },
+      "predictive_work": {
+        "transits": "Note when outer planets transit to natal star conjunctions",
+        "progressions": "Major life events when angles or luminaries progress to stars",
+        "eclipses": "Extremely significant if eclipse conjuncts natal star conjunction"
+      },
+      "synastry": {
+        "partner_star": "Partner's planet conjunct your star conjunction is significant",
+        "shared_stars": "Both having same star prominent creates bond"
+      },
+      "electional": {
+        "avoid": "Don't elect with malefic stars on angles",
+        "use": "Elect with fortunate stars rising for success"
+      }
+    },
+    "ethical_guidelines": {
+      "algol_sensitivity": "Never catastrophize Algol—frame as transformation through difficulty",
+      "malefic_stars": "Present challenges as growth opportunities, not doom",
+      "scheat_caution": "If prominent, ensure mental health support—never predict suicide",
+      "client_fear": "Clients often fear fixed stars—educate rather than frighten",
+      "balanced_interpretation": "Present both positive and challenging potentials"
+    }
+  }
+}

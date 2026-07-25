@@ -1,0 +1,56 @@
+category,id,title,life_phrase,keywords,interpretation,citation
+sign,Aries,Aries,I am.,initiative;impulsive;pioneering;direct;impatient,"Aries is the mover — self-assertive, action-first. Values directness; learns through starting and leading. Lessons: channel impulse into sustained leadership.",citeturn3view0
+sign,Taurus,Taurus,I possess / I build.,steadiness;material security;sensuality;stubbornness;craftsmanship,"Taurus aims for stability and quality; focuses on resources, the body and values; strength in persistence.",citeturn3view1
+sign,Gemini,Gemini,I think / I communicate.,information;versatility;curiosity;verbal dexterity;inconsistent,"Gemini organizes and transmits information; adaptable and curious, thrives on exchange.",citeturn2view0
+sign,Cancer,Cancer,I nurture / I protect.,home;feeling;memory;instinct;protective,"Cancer concerns security and emotional bonds; instinctive, relational, and protective.",citeturn2view0
+sign,Leo,Leo,I will be seen / I create.,authority;self-expression;generosity;drama;pride,Leo is expressive and regal; seeks recognition and creative leadership.,citeturn2view0
+sign,Virgo,Virgo,I analyze / I refine.,detail;service;critique;organization;healing,Virgo discriminates and perfects; excels in systems and service; shadow in hyper-critique.,citeturn2view0
+sign,Libra,Libra,I relate / I balance.,partnership;aesthetics;diplomacy;indecision;fairness,Libra mediates and values harmony; oriented to relationships and balance.,citeturn2view0
+sign,Scorpio,Scorpio,I transform / I possess.,intensity;depth;secrecy;regeneration;power,Scorpio probes transformation through crisis and intimacy; themes of control and rebirth.,citeturn2view0
+sign,Sagittarius,Sagittarius,I explore / I teach.,expansion;philosophy;freedom;bluntness;adventure,"Sagittarius quests for meaning through travel, belief and teaching; expansive and candid.",citeturn2view0
+sign,Capricorn,Capricorn,I structure / I achieve.,ambition;discipline;authority;restraint;status,Capricorn builds through time and structure; practical and reputation-focused.,citeturn2view0
+sign,Aquarius,Aquarius,I innovate / I detach.,originality;humanitarianism;eccentricity;detachment;intellect,"Aquarius reframes social forms; idealistic and inventive, values collective progress.",citeturn2view0
+sign,Pisces,Pisces,I dissolve / I union.,empathy;imagination;surrender;transcendence;boundary-blurring,Pisces dissolves boundaries and senses whole patterns; mystical and compassionate; risk of escapism.,citeturn2view0
+house,1st,House 1st,"Self, appearance, identity",,"Self, appearance, identity. Detailed cusp variations are on site.",citeturn0search3
+house,2nd,House 2nd,"Values, possessions, resources",,"Values, possessions, resources. Detailed cusp variations are on site.",citeturn0search3
+house,3rd,House 3rd,"Communication, siblings, immediate environment",,"Communication, siblings, immediate environment. Detailed cusp variations are on site.",citeturn0search3
+house,4th,House 4th,"Home, roots, family, private life",,"Home, roots, family, private life. Detailed cusp variations are on site.",citeturn0search3
+house,5th,House 5th,"Creativity, children, romance",,"Creativity, children, romance. Detailed cusp variations are on site.",citeturn0search3
+house,6th,House 6th,"Work, routine, health",,"Work, routine, health. Detailed cusp variations are on site.",citeturn0search3
+house,7th,House 7th,Partnerships & one-to-one relations,,Partnerships & one-to-one relations. Detailed cusp variations are on site.,citeturn0search3
+house,8th,House 8th,"Shared resources, transformation",,"Shared resources, transformation. Detailed cusp variations are on site.",citeturn0search3
+house,9th,House 9th,"Philosophy, long trips, higher learning",,"Philosophy, long trips, higher learning. Detailed cusp variations are on site.",citeturn0search3
+house,10th,House 10th,"Public role, career, reputation",,"Public role, career, reputation. Detailed cusp variations are on site.",citeturn0search3
+house,11th,House 11th,"Groups, friends, hopes",,"Groups, friends, hopes. Detailed cusp variations are on site.",citeturn0search3
+house,12th,House 12th,"Solitude, hidden enemies, surrender",,"Solitude, hidden enemies, surrender. Detailed cusp variations are on site.",citeturn0search3
+planet,Sun,Sun,"identity, will, life-force",,"identity, will, life-force. See site planetary pages for nuance.",citeturn0search9turn2view0
+planet,Moon,Moon,"needs, habits, emotions",,"needs, habits, emotions. See site planetary pages for nuance.",citeturn0search9turn2view0
+planet,Mercury,Mercury,"communication, thought, commerce",,"communication, thought, commerce. See site planetary pages for nuance.",citeturn0search9turn2view0
+planet,Venus,Venus,"values, relationships, aesthetics",,"values, relationships, aesthetics. See site planetary pages for nuance.",citeturn0search9turn2view0
+planet,Mars,Mars,"drive, assertion, courage",,"drive, assertion, courage. See site planetary pages for nuance.",citeturn0search9turn2view0
+planet,Jupiter,Jupiter,"expansion, belief, luck",,"expansion, belief, luck. See site planetary pages for nuance.",citeturn0search9turn2view0
+planet,Saturn,Saturn,"limits, structure, responsibility",,"limits, structure, responsibility. See site planetary pages for nuance.",citeturn0search9turn2view0
+planet,Uranus,Uranus,"innovation, rebellion, sudden change",,"innovation, rebellion, sudden change. See site planetary pages for nuance.",citeturn0search9turn2view0
+planet,Neptune,Neptune,"ideals, dreams, dissolution",,"ideals, dreams, dissolution. See site planetary pages for nuance.",citeturn0search9turn2view0
+planet,Pluto,Pluto,"transformation, power, regeneration",,"transformation, power, regeneration. See site planetary pages for nuance.",citeturn0search9turn2view0
+aspect,Conjunction,Conjunction,0° - blending/amplification; context dependent,,0° - blending/amplification; context dependent. Aspect patterns are important.,citeturn3view0
+aspect,Sextile,Sextile,"60° - opportunity, easy coordination",,"60° - opportunity, easy coordination. Aspect patterns are important.",citeturn3view0
+aspect,Square,Square,"90° - tension, friction, productive challenge",,"90° - tension, friction, productive challenge. Aspect patterns are important.",citeturn3view0
+aspect,Trine,Trine,"120° - harmony, natural flow",,"120° - harmony, natural flow. Aspect patterns are important.",citeturn3view0
+aspect,Opposition,Opposition,"180° - polarity, projection, relational tension",,"180° - polarity, projection, relational tension. Aspect patterns are important.",citeturn3view0
+aspect,Quincunx,Quincunx,"150° - adjustment, irritation",,"150° - adjustment, irritation. Aspect patterns are important.",citeturn3view0
+element,Fire,Fire,"Aries, Leo, Sagittarius",,"Fire element: Aries, Leo, Sagittarius.",citeturn2view0
+element,Earth,Earth,"Taurus, Virgo, Capricorn",,"Earth element: Taurus, Virgo, Capricorn.",citeturn2view0
+element,Air,Air,"Gemini, Libra, Aquarius",,"Air element: Gemini, Libra, Aquarius.",citeturn2view0
+element,Water,Water,"Cancer, Scorpio, Pisces",,"Water element: Cancer, Scorpio, Pisces.",citeturn2view0
+modality,Cardinal,Cardinal,"initiation: Aries,Cancer,Libra,Capricorn",,"initiation: Aries,Cancer,Libra,Capricorn",citeturn2view0
+modality,Fixed,Fixed,"sustainability: Taurus,Leo,Scorpio,Aquarius",,"sustainability: Taurus,Leo,Scorpio,Aquarius",citeturn2view0
+modality,Mutable,Mutable,"adaptability: Gemini,Virgo,Sagittarius,Pisces",,"adaptability: Gemini,Virgo,Sagittarius,Pisces",citeturn2view0
+dignity,Domicile/Exaltation,Domicile & Exaltation,"Essential dignities: domicile, exaltation, triplicity, terms, faces",domicile;exaltation;triplicity;terms;faces,AstralTwelve discusses classical dignities and refers to Almuten/Lord of the Geniture methods for strength.,citeturn2view0turn0search9
+asteroid,Chiron,Chiron,asteroid-role,,Chiron used as additional nuance in natal readings on site.,citeturn0search9
+asteroid,Ceres,Ceres,asteroid-role,,Ceres used as additional nuance in natal readings on site.,citeturn0search9
+asteroid,Pallas,Pallas,asteroid-role,,Pallas used as additional nuance in natal readings on site.,citeturn0search9
+asteroid,Juno,Juno,asteroid-role,,Juno used as additional nuance in natal readings on site.,citeturn0search9
+asteroid,Vesta,Vesta,asteroid-role,,Vesta used as additional nuance in natal readings on site.,citeturn0search9
+asteroid,Eros,Eros,asteroid-role,,Eros used as additional nuance in natal readings on site.,citeturn0search9
+asteroid,Psyche,Psyche,asteroid-role,,Psyche used as additional nuance in natal readings on site.,citeturn0search9

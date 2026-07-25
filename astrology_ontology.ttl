@@ -1,0 +1,274 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix astro: <http://www.astrologyontology.org/ontology#> .
+
+astro:AstrologyOntology rdf:type owl:Ontology ;
+    rdfs:label "Astrology Ontology" ;
+    rdfs:comment "A comprehensive and enriched ontology for astrological concepts, drawing from Bepin Behari's Esoteric Astrology, standard Western and Vedic traditions, and various specialized texts." .
+
+# Core Classes
+astro:AstrologyConcept rdf:type owl:Class ;
+    rdfs:label "Astrology Concept" ;
+    rdfs:comment "A general concept within the domain of astrology." .
+
+astro:CelestialBody rdf:type owl:Class ;
+    rdfs:label "Celestial Body" ;
+    rdfs:comment "A celestial body or point used in astrological calculations." ;
+    rdfs:subClassOf astro:AstrologyConcept .
+
+astro:ZodiacSystem rdf:type owl:Class ;
+    rdfs:label "Zodiac System" ;
+    rdfs:comment "A system for dividing the ecliptic into zodiacal signs." ;
+    rdfs:subClassOf astro:AstrologyConcept .
+
+astro:ZodiacSign rdf:type owl:Class ;
+    rdfs:label "Zodiac Sign" ;
+    rdfs:comment "One of the twelve divisions of the zodiac." ;
+    rdfs:subClassOf astro:AstrologyConcept .
+
+astro:Planet rdf:type owl:Class ;
+    rdfs:label "Planet" ;
+    rdfs:comment "A celestial body or point used in astrological calculations." ;
+    rdfs:subClassOf astro:CelestialBody .
+
+astro:Asteroid rdf:type owl:Class ;
+    rdfs:label "Asteroid" ;
+    rdfs:comment "Small planetary bodies, often found in the belt between Mars and Jupiter, used in modern astrology." ;
+    rdfs:subClassOf astro:CelestialBody .
+
+astro:LunarNode rdf:type owl:Class ;
+    rdfs:label "Lunar Node" ;
+    rdfs:comment "The points where the Moon's orbit intersects the ecliptic." ;
+    rdfs:subClassOf astro:CelestialBody .
+
+astro:HouseSystem rdf:type owl:Class ;
+    rdfs:label "House System" ;
+    rdfs:comment "A method for dividing the astrological chart into twelve houses." ;
+    rdfs:subClassOf astro:AstrologyConcept .
+
+astro:House rdf:type owl:Class ;
+    rdfs:label "House" ;
+    rdfs:comment "One of the twelve divisions of the astrological chart representing areas of life." ;
+    rdfs:subClassOf astro:AstrologyConcept .
+
+astro:Nakshatra rdf:type owl:Class ;
+    rdfs:label "Nakshatra" ;
+    rdfs:comment "One of the 27 lunar mansions in Vedic astrology." ;
+    rdfs:subClassOf astro:AstrologyConcept .
+
+astro:Aspect rdf:type owl:Class ;
+    rdfs:label "Aspect" ;
+    rdfs:comment "An angular relationship between two planets or points in an astrological chart." ;
+    rdfs:subClassOf astro:AstrologyConcept .
+
+astro:Dignity rdf:type owl:Class ;
+    rdfs:label "Dignity" ;
+    rdfs:comment "A measure of a planet's strength or favorable placement." ;
+    rdfs:subClassOf astro:AstrologyConcept .
+
+astro:Debility rdf:type owl:Class ;
+    rdfs:label "Debility" ;
+    rdfs:comment "A measure of a planet's weakness or unfavorable placement." ;
+    rdfs:subClassOf astro:AstrologyConcept .
+
+astro:Guna rdf:type owl:Class ;
+    rdfs:label "Guna" ;
+    rdfs:comment "One of the three fundamental qualities of nature (Sattwa, Rajas, Tamas)." ;
+    rdfs:subClassOf astro:AstrologyConcept .
+
+astro:Element rdf:type owl:Class ;
+    rdfs:label "Element" ;
+    rdfs:comment "One of the classical elements (Fire, Earth, Air, Water)." ;
+    rdfs:subClassOf astro:AstrologyConcept .
+
+astro:Modality rdf:type owl:Class ;
+    rdfs:label "Modality" ;
+    rdfs:comment "One of the three qualities (Cardinal, Fixed, Mutable)." ;
+    rdfs:subClassOf astro:AstrologyConcept .
+
+astro:PredictiveTechnique rdf:type owl:Class ;
+    rdfs:label "Predictive Technique" ;
+    rdfs:comment "A method used in astrology to forecast events or analyze timing." ;
+    rdfs:subClassOf astro:AstrologyConcept .
+
+astro:Varga rdf:type owl:Class ;
+    rdfs:label "Varga" ;
+    rdfs:comment "Divisional charts in Vedic astrology." ;
+    rdfs:subClassOf astro:AstrologyConcept .
+
+# Subclasses for Specialized Concepts
+astro:HarmoniousAspect rdf:type owl:Class ;
+    rdfs:label "Harmonious Aspect" ;
+    rdfs:subClassOf astro:Aspect .
+
+astro:InharmoniousAspect rdf:type owl:Class ;
+    rdfs:label "Inharmonious Aspect" ;
+    rdfs:subClassOf astro:Aspect .
+
+# Object Properties
+astro:hasRuler rdf:type owl:ObjectProperty ;
+    rdfs:label "has ruler" ;
+    rdfs:domain astro:ZodiacSign ;
+    rdfs:range astro:Planet .
+
+astro:isInSign rdf:type owl:ObjectProperty ;
+    rdfs:label "is in sign" ;
+    rdfs:domain astro:Planet ;
+    rdfs:range astro:ZodiacSign .
+
+astro:hasAspectTo rdf:type owl:ObjectProperty ;
+    rdfs:label "has aspect to" ;
+    rdfs:domain astro:CelestialBody ;
+    rdfs:range astro:CelestialBody .
+
+astro:hasDignityIn rdf:type owl:ObjectProperty ;
+    rdfs:label "has dignity in" ;
+    rdfs:domain astro:Planet ;
+    rdfs:range astro:ZodiacSign .
+
+astro:hasDebilityIn rdf:type owl:ObjectProperty ;
+    rdfs:label "has debility in" ;
+    rdfs:domain astro:Planet ;
+    rdfs:range astro:ZodiacSign .
+
+astro:isSubdivisionOf rdf:type owl:ObjectProperty ;
+    rdfs:label "is subdivision of" ;
+    rdfs:domain astro:Nakshatra ;
+    rdfs:range astro:ZodiacSign .
+
+astro:associatedWithGuna rdf:type owl:ObjectProperty ;
+    rdfs:label "associated with Guna" ;
+    rdfs:domain astro:AstrologyConcept ;
+    rdfs:range astro:Guna .
+
+astro:associatedWithElement rdf:type owl:ObjectProperty ;
+    rdfs:label "associated with Element" ;
+    rdfs:domain astro:ZodiacSign ;
+    rdfs:range astro:Element .
+
+astro:associatedWithModality rdf:type owl:ObjectProperty ;
+    rdfs:label "associated with Modality" ;
+    rdfs:domain astro:ZodiacSign ;
+    rdfs:range astro:Modality .
+
+# Data Properties
+astro:hasSymbol rdf:type owl:DatatypeProperty ;
+    rdfs:label "has symbol" ;
+    rdfs:domain astro:AstrologyConcept ;
+    rdfs:range xsd:string .
+
+astro:hasMeaning rdf:type owl:DatatypeProperty ;
+    rdfs:label "has meaning" ;
+    rdfs:domain astro:AstrologyConcept ;
+    rdfs:range xsd:string .
+
+astro:hasDescription rdf:type owl:DatatypeProperty ;
+    rdfs:label "has description" ;
+    rdfs:domain astro:AstrologyConcept ;
+    rdfs:range xsd:string .
+
+astro:hasKeyword rdf:type owl:DatatypeProperty ;
+    rdfs:label "has keyword" ;
+    rdfs:domain astro:AstrologyConcept ;
+    rdfs:range xsd:string .
+
+astro:hasDegreeRange rdf:type owl:DatatypeProperty ;
+    rdfs:label "has degree range" ;
+    rdfs:domain [ rdf:type owl:Class ; owl:unionOf (astro:ZodiacSign astro:Nakshatra astro:Aspect) ] ;
+    rdfs:range xsd:string .
+
+# Individuals (Expanded with new knowledge)
+
+### Asteroids
+astro:Ceres rdf:type astro:Asteroid ;
+    rdfs:label "Ceres" ;
+    astro:hasMeaning "Productivity, nurturing, agriculture, resourcefulness." ;
+    astro:hasKeyword "Nurturing", "Growth" .
+
+astro:Chiron rdf:type astro:Asteroid ;
+    rdfs:label "Chiron" ;
+    astro:hasMeaning "The wounded healer, where we have deep wounds and the potential for profound healing." ;
+    astro:hasKeyword "Healing", "Wound" .
+
+### Specialized Concepts
+astro:AkashicRecords rdf:type astro:AstrologyConcept ;
+    rdfs:label "Akashic Records" ;
+    astro:hasMeaning "The memory of nature; a permanent record of every event in the history of creation." ;
+    astro:hasDescription "Sanskrit term referring to the etheric substratum of the universe." .
+
+astro:AnareticDegree rdf:type astro:AstrologyConcept ;
+    rdfs:label "Anaretic Degree" ;
+    astro:hasMeaning "The final degree (29°-30°) of any sign, often called the degree of fate." ;
+    astro:hasDescription "Indicates fundamental issues with which one must deal." .
+
+astro:Cazimi rdf:type astro:AstrologyConcept ;
+    rdfs:label "Cazimi" ;
+    astro:hasMeaning "A planet within 30' of the Sun; 'in the heart of the Sun'." ;
+    astro:hasDescription "The Sun, representing the ego, engulfs the energies of a cazimi planet." .
+
+### House Systems (Detailed)
+astro:PlacidusHouseSystem rdf:type astro:HouseSystem ;
+    rdfs:label "Placidus" ;
+    astro:hasDescription "Time-space based; most common today; unequal house sizes; struggles at high latitudes." ;
+    astro:hasKeyword "Psychological Interpretation", "Popular" .
+
+astro:KochHouseSystem rdf:type astro:HouseSystem ;
+    rdfs:label "Koch" ;
+    astro:hasDescription "Advanced Placidus; uses birth place latitude more accurately; Midheaven starting point." ;
+    astro:hasKeyword "Technical Accuracy" .
+
+astro:CampanusHouseSystem rdf:type astro:HouseSystem ;
+    rdfs:label "Campanus" ;
+    astro:hasDescription "Space-based; uses prime vertical; good for psychological understanding; usable globally." ;
+    astro:hasKeyword "Space-based", "Psychological" .
+
+astro:WholeSignHouseSystem rdf:type astro:HouseSystem ;
+    rdfs:label "Whole Signs" ;
+    astro:hasDescription "Ancient system; each sign is one house; Ascendant sign is the 1st house." ;
+    astro:hasKeyword "Ancient", "Transit Analysis" .
+
+### Aspects (Detailed)
+astro:TrineAspect rdf:type astro:HarmoniousAspect ;
+    rdfs:label "Trine" ;
+    astro:hasDegreeRange "120 degrees" ;
+    astro:hasMeaning "Active, idealistic, harmonious flow of energy." .
+
+astro:SquareAspect rdf:type astro:InharmoniousAspect ;
+    rdfs:label "Square" ;
+    astro:hasDegreeRange "90 degrees" ;
+    astro:hasMeaning "Combative, energizing, creates tension and dynamic energy." .
+
+astro:QuincunxAspect rdf:type astro:InharmoniousAspect ;
+    rdfs:label "Quincunx (Inconjunct)" ;
+    astro:hasDegreeRange "150 degrees" ;
+    astro:hasMeaning "Requires adjustment, creates awkwardness, related to health and accidents." .
+
+# More specific relationships and metadata
+astro:Aries astro:associatedWithElement astro:FireElement ;
+    astro:associatedWithModality astro:CardinalModality .
+
+astro:Sun astro:hasSymbol "☉" ;
+    astro:hasMeaning "The Spirit, ego, vitality." .
+
+# Esoteric concepts from Bepin Behari
+astro:KalaPurusa rdf:type astro:AstrologyConcept ;
+    rdfs:label "Kala Purusa" ;
+    astro:hasMeaning "The Cosmic Man, universal archetype of humanity." .
+
+astro:Hiranyagarbha rdf:type astro:AstrologyConcept ;
+    rdfs:label "Hiranyagarbha" ;
+    astro:hasMeaning "The Radiant Golden Egg, cosmic womb, related to the 4th House." .
+
+# Synastry
+astro:Synastry rdf:type astro:PredictiveTechnique ;
+    rdfs:label "Synastry" ;
+    astro:hasMeaning "The comparison of two horoscopes to analyze relationships." ;
+    astro:hasKeyword "Relationship Astrology" .
+
+# Nakshatras (Individuals from previous step remain valid, can be further enriched)
+astro:AshwiniNakshatra astro:hasMeaning "Pioneering, healing, swiftness." .
+
+# Final Metadata
+astro:AstrologyOntology rdfs:comment "Updated with information from standard Western texts (Aspects, House Systems) and specialized glossaries." .

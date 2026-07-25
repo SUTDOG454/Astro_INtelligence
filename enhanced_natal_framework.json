@@ -1,0 +1,856 @@
+{
+  "enhanced_natal_chart_framework": {
+    "framework_metadata": {
+      "version": "2.0_Enhanced",
+      "created_date": "2026-02-21",
+      "integration_sources": [
+        "Original comprehensive framework",
+        "Benebell Wen quick reference system",
+        "Oreate evolutionary/classical synthesis 2026"
+      ],
+      "enhancement_features": [
+        "Theatrical metaphor interpretation",
+        "Evolutionary zodiac narrative",
+        "Essential dignities scoring",
+        "Sect analysis (diurnal/nocturnal)",
+        "Medical correspondences",
+        "Moon phase integration",
+        "Expanded asteroid meanings"
+      ]
+    },
+    "birth_data": {
+      "date": "YYYY-MM-DD",
+      "time": "HH:MM:SS",
+      "timezone": "UTC+/-HH:MM",
+      "location": {
+        "city": "",
+        "country": "",
+        "latitude": 0.0,
+        "longitude": 0.0
+      }
+    },
+    "chart_metadata": {
+      "chart_id": "",
+      "generated_date": "YYYY-MM-DD",
+      "house_system": "Placidus|Whole Sign|Equal|Koch",
+      "zodiac_system": "Tropical|Sidereal",
+      "sect": "diurnal|nocturnal",
+      "sect_determination": "Sun above horizon = Diurnal, Sun below horizon = Nocturnal"
+    },
+    "theatrical_framework": {
+      "description": "Oreate theatrical metaphor for chart interpretation",
+      "signs": "Stage settings / Environmental backgrounds (Atmosphere)",
+      "houses": "Specific life scenes (Where events take place)",
+      "planets": "Protagonists / Actors (Psychological functions)",
+      "aspects": "Dialogue / Interaction modes (Energy networks)",
+      "interpretation_approach": "View the chart as a drama with planets as actors performing on the stage set by signs, within specific scenes (houses), interacting through aspects"
+    },
+    "planetary_placements": [
+      {
+        "planet": "Sun",
+        "symbol": "☉",
+        "type": "personal",
+        "sign": "",
+        "house": 0,
+        "degree": 0.0,
+        "retrograde": false,
+        "sign_change_duration": "22-23 days",
+        "core_meaning": "Self, Identity, Willpower, Pater (Father), Adulthood/Maturation",
+        "benebell_keywords": "Music, Sports, Self, Will",
+        "life_stage": "Adulthood, Maturation",
+        "ruler_of": "Leo",
+        "sect_status": "diurnal|nocturnal|neutral",
+        "sect_notes": "In diurnal charts: well-placed above horizon. In nocturnal charts: Moon takes precedence",
+        "essential_dignity": {
+          "domicile": "Leo (+5)",
+          "exaltation": "Aries (+4)",
+          "detriment": "Aquarius (-5)",
+          "fall": "Libra (-4)",
+          "current_dignity_score": 0
+        },
+        "interpretation": {
+          "planet_in_sign": "",
+          "planet_in_house": "",
+          "combined": "",
+          "evolutionary_theme": ""
+        }
+      },
+      {
+        "planet": "Moon",
+        "symbol": "☽",
+        "type": "personal",
+        "sign": "",
+        "house": 0,
+        "degree": 0.0,
+        "retrograde": false,
+        "sign_change_duration": "2 days",
+        "core_meaning": "Emotions, Mater (Mother), Subconscious Influences, Childhood/Past Life",
+        "benebell_keywords": "Emotive, Mother, Subconscious",
+        "life_stage": "Childhood, Past Life",
+        "ruler_of": "Cancer",
+        "sect_status": "neutral_great_windfall",
+        "sect_notes": "In nocturnal charts: well-placed above horizon. In diurnal charts: Sun takes precedence. Moon is neutral but creates 'great windfall' opportunities",
+        "moon_phase": {
+          "phase_type": "New|Waxing Crescent|First Quarter|Waxing Gibbous|Full|Waning Gibbous|Last Quarter|Waning Crescent",
+          "phase_interpretation": {
+            "new_moon": "Opportunity, New Beginning, Sowing",
+            "waxing_moon": "Growth, Ambition, Love, Increase, Gains",
+            "full_moon": "Amplify, Empower, Defend",
+            "waning_moon": "Harvest, Release, Banish, Remove, Cessation, Sever"
+          },
+          "current_phase": ""
+        },
+        "essential_dignity": {
+          "domicile": "Cancer (+5)",
+          "exaltation": "Taurus (+4)",
+          "detriment": "Capricorn (-5)",
+          "fall": "Scorpio (-4)",
+          "current_dignity_score": 0
+        },
+        "interpretation": {
+          "planet_in_sign": "",
+          "planet_in_house": "",
+          "combined": "",
+          "evolutionary_theme": ""
+        }
+      },
+      {
+        "planet": "Mercury",
+        "symbol": "☿",
+        "type": "personal",
+        "sign": "",
+        "house": 0,
+        "degree": 0.0,
+        "retrograde": false,
+        "sign_change_duration": "7-8 days",
+        "core_meaning": "Communications, Intellect, Thought Process, Influence",
+        "benebell_keywords": "Money and Commerce, Negotiating Business Deals",
+        "life_stage": "Thought Process Development",
+        "ruler_of": "Gemini (diurnal), Virgo (nocturnal)",
+        "sect_status": "neutral",
+        "essential_dignity": {
+          "domicile": "Gemini (+5), Virgo (+5)",
+          "exaltation": "Virgo (+4)",
+          "detriment": "Sagittarius (-5), Pisces (-5)",
+          "fall": "Pisces (-4)",
+          "current_dignity_score": 0
+        },
+        "interpretation": {
+          "planet_in_sign": "",
+          "planet_in_house": "",
+          "combined": "",
+          "evolutionary_theme": ""
+        }
+      },
+      {
+        "planet": "Venus",
+        "symbol": "♀",
+        "type": "personal",
+        "sign": "",
+        "house": 0,
+        "degree": 0.0,
+        "retrograde": false,
+        "sign_change_duration": "18-19 days",
+        "core_meaning": "Love, Alliances, Romance, Beauty, Values",
+        "benebell_keywords": "Fashion & Beauty, Coming-of-Age",
+        "life_stage": "Coming-of-Age",
+        "ruler_of": "Libra (diurnal), Taurus (nocturnal)",
+        "sect_status": "neutral_great_windfall",
+        "sect_notes": "Venus is neutral but creates 'great windfall' opportunities regardless of sect",
+        "essential_dignity": {
+          "domicile": "Taurus (+5), Libra (+5)",
+          "exaltation": "Pisces (+4)",
+          "detriment": "Aries (-5), Scorpio (-5)",
+          "fall": "Virgo (-4)",
+          "current_dignity_score": 0
+        },
+        "interpretation": {
+          "planet_in_sign": "",
+          "planet_in_house": "",
+          "combined": "",
+          "evolutionary_theme": ""
+        }
+      },
+      {
+        "planet": "Mars",
+        "symbol": "♂",
+        "type": "personal",
+        "sign": "",
+        "house": 0,
+        "degree": 0.0,
+        "retrograde": false,
+        "sign_change_duration": "57-58 days",
+        "core_meaning": "Energy, Drive, Ambition, Impulse, Passion",
+        "benebell_keywords": "Conquest, Conflicts, Soldier, Engaging in Warfare",
+        "life_stage": "Age 40-60",
+        "ruler_of": "Aries (diurnal), Scorpio (nocturnal)",
+        "sect_status": "challenge_in_diurnal_neutral_in_nocturnal",
+        "sect_notes": "Mars is challenging in diurnal charts, neutral in nocturnal charts",
+        "essential_dignity": {
+          "domicile": "Aries (+5), Scorpio (+5)",
+          "exaltation": "Capricorn (+4)",
+          "detriment": "Libra (-5), Taurus (-5)",
+          "fall": "Cancer (-4)",
+          "current_dignity_score": 0
+        },
+        "interpretation": {
+          "planet_in_sign": "",
+          "planet_in_house": "",
+          "combined": "",
+          "evolutionary_theme": ""
+        }
+      },
+      {
+        "planet": "Jupiter",
+        "symbol": "♃",
+        "type": "social",
+        "sign": "",
+        "house": 0,
+        "degree": 0.0,
+        "retrograde": false,
+        "sign_change_duration": "361 days (~1 year)",
+        "core_meaning": "Luck, Success, Prosperity, Growth, Optimism, Philosophy",
+        "benebell_keywords": "Hunter, Ambitious Acquisitions",
+        "life_stage": "Age 60-70",
+        "ruler_of": "Sagittarius (diurnal), Pisces (nocturnal)",
+        "sect_status": "great_windfall_in_diurnal_neutral_in_nocturnal",
+        "sect_notes": "Jupiter creates 'great windfall' in diurnal charts, neutral in nocturnal",
+        "essential_dignity": {
+          "domicile": "Sagittarius (+5), Pisces (+5)",
+          "exaltation": "Cancer (+4)",
+          "detriment": "Gemini (-5), Virgo (-5)",
+          "fall": "Capricorn (-4)",
+          "current_dignity_score": 0
+        },
+        "interpretation": {
+          "planet_in_sign": "",
+          "planet_in_house": "",
+          "combined": "",
+          "evolutionary_theme": ""
+        }
+      },
+      {
+        "planet": "Saturn",
+        "symbol": "♄",
+        "type": "social",
+        "sign": "",
+        "house": 0,
+        "degree": 0.0,
+        "retrograde": false,
+        "sign_change_duration": "2.5 years",
+        "core_meaning": "Duty, Limitations, Discipline, Structure, Responsibility, Challenges",
+        "benebell_keywords": "Knowledge, Traditional Corporate, Melancholy, Apathy, Ennui",
+        "life_stage": "Twilight Years",
+        "ruler_of": "Aquarius (diurnal), Capricorn (nocturnal)",
+        "sect_status": "neutral_in_diurnal_challenge_in_nocturnal",
+        "sect_notes": "Saturn is neutral in diurnal charts, challenging in nocturnal charts",
+        "essential_dignity": {
+          "domicile": "Capricorn (+5), Aquarius (+5)",
+          "exaltation": "Libra (+4)",
+          "detriment": "Cancer (-5), Leo (-5)",
+          "fall": "Aries (-4)",
+          "current_dignity_score": 0
+        },
+        "interpretation": {
+          "planet_in_sign": "",
+          "planet_in_house": "",
+          "combined": "",
+          "evolutionary_theme": ""
+        }
+      },
+      {
+        "planet": "Uranus",
+        "symbol": "♅",
+        "type": "generational",
+        "sign": "",
+        "house": 0,
+        "degree": 0.0,
+        "retrograde": false,
+        "sign_change_duration": "7 years",
+        "core_meaning": "Innovation, Change, Rebellion, Creativity, Upheavals",
+        "benebell_keywords": "Unconventional, Individuality, Arts & Literature, Cultural Pulse of Era",
+        "life_stage": "Cultural Influence",
+        "ruler_of": "Aquarius (modern)",
+        "essential_dignity": {
+          "domicile": "Aquarius (modern) (+5)",
+          "exaltation": "Scorpio (modern) (+4)",
+          "detriment": "Leo (-5)",
+          "fall": "Taurus (-4)",
+          "current_dignity_score": 0
+        },
+        "interpretation": {
+          "planet_in_sign": "",
+          "planet_in_house": "",
+          "combined": "",
+          "evolutionary_theme": ""
+        }
+      },
+      {
+        "planet": "Neptune",
+        "symbol": "♆",
+        "type": "generational",
+        "sign": "",
+        "house": 0,
+        "degree": 0.0,
+        "retrograde": false,
+        "sign_change_duration": "14 years",
+        "core_meaning": "Dreams, Intuition, Spirituality, Imagination, Inspiration",
+        "benebell_keywords": "Dreamer, Poetry, Music, Sensitivity, Compassion, Influence of Generation",
+        "life_stage": "Generational Influence",
+        "ruler_of": "Pisces (modern)",
+        "essential_dignity": {
+          "domicile": "Pisces (modern) (+5)",
+          "exaltation": "Cancer (modern) (+4)",
+          "detriment": "Virgo (-5)",
+          "fall": "Capricorn (-4)",
+          "current_dignity_score": 0
+        },
+        "interpretation": {
+          "planet_in_sign": "",
+          "planet_in_house": "",
+          "combined": "",
+          "evolutionary_theme": ""
+        }
+      },
+      {
+        "planet": "Pluto",
+        "symbol": "♇",
+        "type": "generational",
+        "sign": "",
+        "house": 0,
+        "degree": 0.0,
+        "retrograde": false,
+        "sign_change_duration": "15-26 years",
+        "core_meaning": "Transformation, Power Dynamics, Rebirth, Death/Rebirth",
+        "benebell_keywords": "Curve Ball, Drama, Uncertainty, Chaos, Destruction, Disquiet Mind, Waste, Undermine, Upheaval in House",
+        "life_stage": "Deep Transformation",
+        "ruler_of": "Scorpio (modern)",
+        "note": "In astrology, Pluto is still considered a planet",
+        "essential_dignity": {
+          "domicile": "Scorpio (modern) (+5)",
+          "exaltation": "Aries (modern) (+4)",
+          "detriment": "Taurus (-5)",
+          "fall": "Libra (-4)",
+          "current_dignity_score": 0
+        },
+        "interpretation": {
+          "planet_in_sign": "",
+          "planet_in_house": "",
+          "combined": "",
+          "evolutionary_theme": ""
+        }
+      }
+    ],
+    "angles": {
+      "ascendant": {
+        "sign": "",
+        "degree": 0.0,
+        "description": "Self, Identity, Thesis - First Impressions",
+        "house_cusp": 1
+      },
+      "ic": {
+        "sign": "",
+        "degree": 0.0,
+        "description": "Family; Roots; Home - Inner Foundation",
+        "house_cusp": 4
+      },
+      "descendant": {
+        "sign": "",
+        "degree": 0.0,
+        "description": "Love, Relationships, Business Partners - The Other",
+        "house_cusp": 7
+      },
+      "midheaven": {
+        "sign": "",
+        "degree": 0.0,
+        "description": "Career, Social Status - Public Image",
+        "house_cusp": 10
+      }
+    },
+    "houses": [
+      {
+        "house_number": 1,
+        "cusp_sign": "",
+        "cusp_degree": 0.0,
+        "ruling_planet": "",
+        "life_area": "Self, Identity, Thesis",
+        "benebell_keywords": "Self-image, physical appearance, personal identity",
+        "theatrical_role": "Scene of self-presentation and personal emergence",
+        "planets_in_house": [],
+        "interpretation": ""
+      },
+      {
+        "house_number": 2,
+        "cusp_sign": "",
+        "cusp_degree": 0.0,
+        "ruling_planet": "",
+        "life_area": "Wealth; Livelihood, Acquisitions, Finances",
+        "benebell_keywords": "Money, possessions, values, self-worth",
+        "theatrical_role": "Scene of resource building and material security",
+        "planets_in_house": [],
+        "interpretation": ""
+      },
+      {
+        "house_number": 3,
+        "cusp_sign": "",
+        "cusp_degree": 0.0,
+        "ruling_planet": "",
+        "life_area": "Short Travels, Communication, Thought Plane, Siblings",
+        "benebell_keywords": "Communication, siblings, short trips, learning",
+        "theatrical_role": "Scene of mental exchange and early education",
+        "planets_in_house": [],
+        "interpretation": ""
+      },
+      {
+        "house_number": 4,
+        "cusp_sign": "",
+        "cusp_degree": 0.0,
+        "ruling_planet": "",
+        "life_area": "Family; Roots; Home",
+        "benebell_keywords": "Home, family, roots, private life, heritage, parents, city",
+        "theatrical_role": "Scene of emotional foundation and ancestry",
+        "planets_in_house": [],
+        "interpretation": ""
+      },
+      {
+        "house_number": 5,
+        "cusp_sign": "",
+        "cusp_degree": 0.0,
+        "ruling_planet": "",
+        "life_area": "Recreation, Hobbies, Procreation, Fertility",
+        "benebell_keywords": "Creativity, romance, children, self-expression, enjoyment, good deeds",
+        "theatrical_role": "Scene of creative joy and self-expression",
+        "planets_in_house": [],
+        "interpretation": ""
+      },
+      {
+        "house_number": 6,
+        "cusp_sign": "",
+        "cusp_degree": 0.0,
+        "ruling_planet": "",
+        "life_area": "Day-to-Day Job; Health and Wellness",
+        "benebell_keywords": "Health, work, daily routines, service, vitality, servitude, labors",
+        "theatrical_role": "Scene of daily refinement and service",
+        "planets_in_house": [],
+        "interpretation": ""
+      },
+      {
+        "house_number": 7,
+        "cusp_sign": "",
+        "cusp_degree": 0.0,
+        "ruling_planet": "",
+        "life_area": "Love, Relationships, Business Partners",
+        "benebell_keywords": "Partnerships, marriage, one-on-one relationships, diplomacy, spouse",
+        "theatrical_role": "Scene of equal partnership and mirroring",
+        "planets_in_house": [],
+        "interpretation": ""
+      },
+      {
+        "house_number": 8,
+        "cusp_sign": "",
+        "cusp_degree": 0.0,
+        "ruling_planet": "",
+        "life_area": "Changes, Crisis, Releases, Endings",
+        "benebell_keywords": "Transformation, shared resources, intimacy, death/rebirth, cycles",
+        "theatrical_role": "Scene of deep transformation and shared power",
+        "planets_in_house": [],
+        "interpretation": ""
+      },
+      {
+        "house_number": 9,
+        "cusp_sign": "",
+        "cusp_degree": 0.0,
+        "ruling_planet": "",
+        "life_area": "Spirituality, Longer Voyages; Continued Education",
+        "benebell_keywords": "Higher education, philosophy, travel, spirituality, journey, divination, mystic",
+        "theatrical_role": "Scene of philosophical expansion and higher truth",
+        "planets_in_house": [],
+        "interpretation": ""
+      },
+      {
+        "house_number": 10,
+        "cusp_sign": "",
+        "cusp_degree": 0.0,
+        "ruling_planet": "",
+        "life_area": "Career, Social Status",
+        "benebell_keywords": "Career, reputation, public image, life goals, advancement, reputation",
+        "theatrical_role": "Scene of public achievement and legacy",
+        "planets_in_house": [],
+        "interpretation": ""
+      },
+      {
+        "house_number": 11,
+        "cusp_sign": "",
+        "cusp_degree": 0.0,
+        "ruling_planet": "",
+        "life_area": "Friends; Hopes; Gifts, Community Involvement",
+        "benebell_keywords": "Friendships, community, groups, aspirations, humanitarian, teacher",
+        "theatrical_role": "Scene of collective vision and friendship",
+        "planets_in_house": [],
+        "interpretation": ""
+      },
+      {
+        "house_number": 12,
+        "cusp_sign": "",
+        "cusp_degree": 0.0,
+        "ruling_planet": "",
+        "life_area": "Challenges, Loss, Enemies; Suffering",
+        "benebell_keywords": "Subconscious, spirituality, hidden matters, solitude, seclusion, dangers",
+        "theatrical_role": "Scene of transcendence and hidden realms",
+        "planets_in_house": [],
+        "interpretation": ""
+      }
+    ],
+    "zodiac_signs_enhanced": {
+      "aries": {
+        "dates": "March 21 - April 19",
+        "element": "Fire",
+        "modality": "Cardinal",
+        "ruler": "Mars",
+        "benebell_keywords": "Leadership, Domineering, Achievement, Force",
+        "evolutionary_archetype": "The Bold Traveler / Newborn",
+        "evolutionary_theme": "Survival and Impulse",
+        "evolutionary_challenge": "Managing raw, unrestrained aggression",
+        "evolutionary_phase": "Phase 1: Emergence",
+        "traits": "Conquest, Leadership, Life, The Self, Spirit, Goal-oriented, Takes charge, Initiates order, Active"
+      },
+      "taurus": {
+        "dates": "April 20 - May 20",
+        "element": "Earth",
+        "modality": "Fixed",
+        "ruler": "Venus",
+        "benebell_keywords": "Drive, Acquisitions, Stubbornness, Possessiveness, Reliability",
+        "evolutionary_archetype": "The Builder / Preserver",
+        "evolutionary_theme": "Material Security",
+        "evolutionary_challenge": "Overcoming habit and dependency on comfort",
+        "evolutionary_phase": "Phase 2: Consolidation",
+        "traits": "Wealth, Possessions, Reactive, Nurturers, Builders, Seeks to maintain order"
+      },
+      "gemini": {
+        "dates": "May 21 - June 20",
+        "element": "Air",
+        "modality": "Mutable",
+        "ruler": "Mercury",
+        "benebell_keywords": "Communications, Charisma, Persuasiveness, Intellect, Wit",
+        "evolutionary_archetype": "The Explorer / Student",
+        "evolutionary_theme": "Intellectual Curiosity",
+        "evolutionary_challenge": "Transforming superficiality into comprehension",
+        "evolutionary_phase": "Phase 3: Expansion",
+        "traits": "Persuasion, Charm, Siblings, Communication, The Queen, Duality, Thought Plane"
+      },
+      "cancer": {
+        "dates": "June 21 - July 22",
+        "element": "Water",
+        "modality": "Cardinal",
+        "ruler": "Moon",
+        "benebell_keywords": "Nurture, Feeling, Emotional Sensitivity, Intuition, Moodiness",
+        "evolutionary_archetype": "The Nurturer / Subjective Self",
+        "evolutionary_theme": "Emotional Foundation",
+        "evolutionary_challenge": "Finding inner authority beyond family roots",
+        "evolutionary_phase": "Phase 4: Internalization",
+        "traits": "Nurturing, Emotive, Heritage, Parents, City, Intuit, Leaders, Goal-oriented"
+      },
+      "leo": {
+        "dates": "July 23 - August 22",
+        "element": "Fire",
+        "modality": "Fixed",
+        "ruler": "Sun",
+        "benebell_keywords": "Benevolence, Leadership, Arrogance, Optimism, Glory, Confidence",
+        "evolutionary_archetype": "The Sovereign / Creative Child",
+        "evolutionary_theme": "Self-Expression",
+        "evolutionary_challenge": "Ego-driven vanity vs. authentic heart-radiance",
+        "evolutionary_phase": "Phase 5: Individuation",
+        "traits": "Passion, Fortitude, Enjoyment, Good Deeds, Children, Recreation"
+      },
+      "virgo": {
+        "dates": "August 23 - September 22",
+        "element": "Earth",
+        "modality": "Mutable",
+        "ruler": "Mercury",
+        "benebell_keywords": "Details, Meticulous, Analytical, Fussiness, Conservative, Judgmental",
+        "evolutionary_archetype": "The Alchemist / Craftsman",
+        "evolutionary_theme": "Purification and Service",
+        "evolutionary_challenge": "Perfectionism stalling true contribution",
+        "evolutionary_phase": "Phase 6: Refinement",
+        "traits": "Details, Intellect, Vitality, Servitude, Labors, Health"
+      },
+      "libra": {
+        "dates": "September 23 - October 22",
+        "element": "Air",
+        "modality": "Cardinal",
+        "ruler": "Venus",
+        "benebell_keywords": "Balance, Peace, Tact, Self-Indulgent, Indecisiveness, Diplomacy",
+        "evolutionary_archetype": "The Diplomat / Mirror",
+        "evolutionary_theme": "Social Balance",
+        "evolutionary_challenge": "Maintaining self-identity within partnerships",
+        "evolutionary_phase": "Phase 7: Relationship",
+        "traits": "Diplomacy, Balance, Spouse, Marriage, Love, Relationships"
+      },
+      "scorpio": {
+        "dates": "October 23 - November 21",
+        "element": "Water",
+        "modality": "Fixed",
+        "ruler": "Mars (traditional), Pluto (modern)",
+        "benebell_keywords": "Strong will, Fearless, Intensity, Confrontations, Drama",
+        "evolutionary_archetype": "The Phoenix / Strategist",
+        "evolutionary_theme": "Intimacy and Power",
+        "evolutionary_challenge": "Releasing control for spiritual rebirth",
+        "evolutionary_phase": "Phase 8: Transformation",
+        "traits": "Unique, Individualist, Cycles, Transformation, Death, Changes, Crisis"
+      },
+      "sagittarius": {
+        "dates": "November 22 - December 21",
+        "element": "Fire",
+        "modality": "Mutable",
+        "ruler": "Jupiter",
+        "benebell_keywords": "Cosmopolitan, Restlessness, Peripatetic, Adventure",
+        "evolutionary_archetype": "The Seeker / Philosopher",
+        "evolutionary_theme": "Philosophical Expansion",
+        "evolutionary_challenge": "Integrating intuition with natural law",
+        "evolutionary_phase": "Phase 9: Meaning",
+        "traits": "Peripatetic, Opportunities, Journey, King, Divination, Mystic, Spirituality"
+      },
+      "capricorn": {
+        "dates": "December 22 - January 19",
+        "element": "Earth",
+        "modality": "Cardinal",
+        "ruler": "Saturn",
+        "benebell_keywords": "Stability, Achievement, Pragmatism, Results-oriented",
+        "evolutionary_archetype": "The Elder / Architect",
+        "evolutionary_theme": "Structural Integrity",
+        "evolutionary_challenge": "Leading from the True Self vs. Societal Masks",
+        "evolutionary_phase": "Phase 10: Actualization",
+        "traits": "Status, Pragmatism, Advancement, Reputation, Career, Social Status"
+      },
+      "aquarius": {
+        "dates": "January 20 - February 18",
+        "element": "Air",
+        "modality": "Fixed",
+        "ruler": "Saturn (traditional), Uranus (modern)",
+        "benebell_keywords": "Eccentric, Unconventional, Humanitarian, Social Involvement",
+        "evolutionary_archetype": "The Visionary / Rebel",
+        "evolutionary_theme": "Collective Awakening",
+        "evolutionary_challenge": "Detachment vs. genuine human connection",
+        "evolutionary_phase": "Phase 11: Collective",
+        "traits": "Pro Bono Publico, Community, Humanitarian, Teacher, Friends, Hopes"
+      },
+      "pisces": {
+        "dates": "February 19 - March 20",
+        "element": "Water",
+        "modality": "Mutable",
+        "ruler": "Jupiter (traditional), Neptune (modern)",
+        "benebell_keywords": "Self-sacrificing, Intuitive, Hyper-sensitive to criticism, Compassion",
+        "evolutionary_archetype": "The Mystic / Dreamer",
+        "evolutionary_theme": "Universal Dissolution",
+        "evolutionary_challenge": "Maintaining boundaries in a state of Oneness",
+        "evolutionary_phase": "Phase 12: Transcendence",
+        "traits": "Chameleon, Seclusion, Suffering, Dangers, Challenges, Loss"
+      }
+    },
+    "elements_and_modalities": {
+      "fire": {
+        "signs": ["Aries", "Leo", "Sagittarius"],
+        "description": "Creations - Motivated, Creative, Great executive potential, Stubborn, Willful, Opportunistic, Opinionated, Inspirational, Confident, Enthusiastic, Explorers, Trailblazers",
+        "count": 0,
+        "planets": []
+      },
+      "earth": {
+        "signs": ["Taurus", "Virgo", "Capricorn"],
+        "description": "Resources - Loyal, methodical, pragmatic, Down-to-earth, reliable, Utilitarian, Stable, Goal-oriented, Materialist",
+        "count": 0,
+        "planets": []
+      },
+      "air": {
+        "signs": ["Gemini", "Libra", "Aquarius"],
+        "description": "Thoughts - Analytical, Inquisitive, Detached, Social, Indecisive, Needs to share and express thoughts, Thinkers",
+        "count": 0,
+        "planets": []
+      },
+      "water": {
+        "signs": ["Cancer", "Scorpio", "Pisces"],
+        "description": "Emotions - Sensitive, Charismatic, Strong people skills, Empathetic, Intuitive, Intensely emotional, Tenderhearted, Artistic, Psychic, Self-protective, Self-sacrificial",
+        "count": 0,
+        "planets": []
+      },
+      "cardinal": {
+        "signs": ["Aries", "Cancer", "Libra", "Capricorn"],
+        "description": "Initiative - Leaders, Goal-oriented, Takes charge, Initiates order, Active",
+        "count": 0,
+        "planets": []
+      },
+      "fixed": {
+        "signs": ["Taurus", "Leo", "Scorpio", "Aquarius"],
+        "description": "Order - Reactive, Nurturers, Builders, Seeks to maintain order",
+        "count": 0,
+        "planets": []
+      },
+      "mutable": {
+        "signs": ["Gemini", "Virgo", "Sagittarius", "Pisces"],
+        "description": "Progress - Proactive, Progressive, Seeks out change, Pioneers",
+        "count": 0,
+        "planets": []
+      }
+    },
+    "nodes_and_points": {
+      "north_node": {
+        "sign": "",
+        "house": 0,
+        "degree": 0.0,
+        "description": "Northern Node: Key to Happiness; Growth Potential",
+        "interpretation": ""
+      },
+      "south_node": {
+        "sign": "",
+        "house": 0,
+        "degree": 0.0,
+        "description": "Southern Node: Desires; Weaknesses; Obstacles to Success",
+        "interpretation": ""
+      }
+    },
+    "asteroids_and_points": {
+      "chiron": {
+        "sign": "",
+        "house": 0,
+        "degree": 0.0,
+        "sign_change_duration": "2-8 years",
+        "description": "Wounds, Healing Capabilities; Areas of Overcompensation",
+        "interpretation": ""
+      },
+      "ceres": {
+        "sign": "",
+        "house": 0,
+        "degree": 0.0,
+        "sign_change_duration": "3-4 months",
+        "description": "Resources from Environment for Success; Community Activism",
+        "interpretation": ""
+      },
+      "lilith": {
+        "sign": "",
+        "house": 0,
+        "degree": 0.0,
+        "description": "Female Empowerment; Rebellion; Subversive Behavior",
+        "interpretation": ""
+      },
+      "vesta": {
+        "sign": "",
+        "house": 0,
+        "degree": 0.0,
+        "sign_change_duration": "2 months",
+        "description": "Sex and Sexuality; Sexual Healing",
+        "interpretation": ""
+      }
+    },
+    "medical_astrology": {
+      "description": "Classical medical correspondences by zodiac sign",
+      "correspondences": {
+        "aries": "Head",
+        "taurus": "Neck, Throat",
+        "gemini": "Lungs, Hands, Arms",
+        "cancer": "Stomach, Breasts",
+        "leo": "Heart, Upper Back",
+        "virgo": "Intestines, Digestive System",
+        "libra": "Kidneys, Lower Back",
+        "scorpio": "Reproductive Organs, Bladder",
+        "sagittarius": "Thighs, Hips, Liver",
+        "capricorn": "Knees, Bones, Skin",
+        "aquarius": "Ankles, Circulatory System",
+        "pisces": "Feet, Lymphatic System"
+      },
+      "planetary_health_indications": []
+    },
+    "essential_dignities_summary": {
+      "description": "Classical dignity scoring system",
+      "scoring": {
+        "domicile": "+5 (At home - strongest position)",
+        "exaltation": "+4 (Honored guest - very favorable)",
+        "triplicity": "+3 (Supportive environment)",
+        "detriment": "-5 (In exile - weakened)",
+        "fall": "-4 (Weakened position)"
+      },
+      "total_dignity_score": 0,
+      "strongest_planets": [],
+      "weakest_planets": []
+    },
+    "advanced_techniques": {
+      "antiscion": {
+        "description": "Reflection Mapping - Shadow points across solstice axis",
+        "calculated_points": []
+      },
+      "horary_markers": {
+        "description": "Light Transmission - Applying aspects and receptions",
+        "indicators": []
+      },
+      "vedic_influences": {
+        "description": "Nakshatra Star Points - Lunar mansions",
+        "nakshatras": []
+      }
+    },
+    "aspects": [],
+    "aspect_patterns": [],
+    "chart_synthesis": {
+      "dominant_element": "",
+      "dominant_modality": "",
+      "chart_shape": "",
+      "sect_analysis": {
+        "sect_type": "diurnal|nocturnal",
+        "sect_light": "Sun|Moon",
+        "benefic_in_sect": "",
+        "malefic_out_of_sect": "",
+        "interpretation": ""
+      },
+      "evolutionary_narrative": "",
+      "key_themes": [],
+      "strengths": [],
+      "challenges": []
+    },
+    "interpretive_sections": {
+      "identity_and_drives": {
+        "title": "Core Identity & Life Purpose",
+        "content": "",
+        "key_placements": [],
+        "evolutionary_phase": ""
+      },
+      "emotional_nature": {
+        "title": "Emotional Landscape",
+        "content": "",
+        "key_placements": [],
+        "moon_phase_influence": ""
+      },
+      "communication_style": {
+        "title": "Communication & Thinking",
+        "content": "",
+        "key_placements": []
+      },
+      "relationships": {
+        "title": "Love & Relationships",
+        "content": "",
+        "key_placements": []
+      },
+      "energy_and_action": {
+        "title": "Drive & Assertion",
+        "content": "",
+        "key_placements": []
+      },
+      "growth_and_expansion": {
+        "title": "Growth & Philosophy",
+        "content": "",
+        "key_placements": []
+      },
+      "discipline_and_challenges": {
+        "title": "Structure & Lessons",
+        "content": "",
+        "key_placements": []
+      },
+      "career_and_ambition": {
+        "title": "Career & Public Life",
+        "content": "",
+        "key_placements": []
+      },
+      "outer_self": {
+        "title": "Rising Sign & First Impressions",
+        "content": "",
+        "key_placements": []
+      }
+    }
+  }
+}

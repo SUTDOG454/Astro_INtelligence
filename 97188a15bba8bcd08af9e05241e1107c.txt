@@ -1,0 +1,112 @@
+**Multi-timeframe (MTF) indicator integration** is a powerful enhancement for the **AstroStrategyMA + meta-labeling** setup in Jesse. It allows the primary model (astro signals + MA timing) and the secondary meta-model to incorporate higher-timeframe context for trend alignment, regime detection, and improved signal filtering. This reduces false positives, enhances risk-adjusted performance, and provides richer features for SHAP/Shapiq analysis (e.g., higher-order interactions between daily astro signals and higher-TF trend strength).
+
+### Jesse's MTF Architecture
+Jesse natively supports **multiple timeframes and symbols** in a single strategy with built-in **look-ahead bias protection**. Key methods:
+
+- **`self.candles`**: Primary (trading) timeframe candles (e.g., 15m).
+- **`self.get_candles(timeframe: str, length: int = None)`**: Fetch candles for any other timeframe. Jesse handles data loading, alignment, and warm-up automatically.
+- **Anchor Timeframe Utility**: `jesse.utils.anchor_timeframe(tf)` — recommends a higher timeframe (commonly 4–6× your trading TF, e.g., 1D for 4H trading).
+- **Routes Configuration**: Define multiple timeframes/symbols in `routes.py` for optimized data loading during backtests/live trading.
+
+Jesse ensures that higher-TF candles are only updated when a new one completes, preventing future leakage.
+
+### Implementation in AstroStrategyMA
+**1. Configuration (routes.py)**
+```python
+from jesse.enums import Timeframe
+
+routes = [
+    {'exchange': 'Binance', 'symbol': 'BTC-USDT', 'timeframe': Timeframe.MIN15, 'strategy': 'AstroStrategyMA'},
+    # Add higher TFs if needed for parallel loading
+]
+```
+
+**2. Strategy Code (AstroStrategyMA/__init__.py)**
+```python
+import jesse.indicators as ta
+from jesse import utils
+import numpy as np
+
+class AstroStrategyMA(Strategy):
+    def __init__(self):
+        super().__init__()
+        # Hyperparameters for MTF (optimize via Optuna)
+        self.hp['htf'] = '1D'          # Higher timeframe
+        self.hp['htf_ma_fast'] = 9
+        self.hp['htf_ma_slow'] = 21
+        self.htf_candles = None
+
+    def before(self):
+        """Pre-compute MTF indicators"""
+        # Fetch higher timeframe candles
+        self.htf_candles = self.get_candles(self.hp['htf'])
+        
+        # Cache key MTF indicators
+        self.htf_trend = self.get_htf_trend()
+        self.htf_adx = ta.adx(self.htf_candles, period=14)
+        self.htf_rsi = ta.rsi(self.htf_candles, period=14)
+        self.htf_atr_pct = ta.atr(self.htf_candles, 14) / self.close  # Normalized
+
+        if self.ml_mode in ["gather", "deploy"]:
+            self.features = self.ml_features()
+
+    def get_htf_trend(self) -> str:
+        """Simple higher-TF trend filter"""
+        fast_ma = ta.ema(self.htf_candles, self.hp['htf_ma_fast'])
+        slow_ma = ta.ema(self.htf_candles, self.hp['htf_ma_slow'])
+        return "bull" if fast_ma > slow_ma else "bear"
+
+    def ml_features(self) -> dict:
+        """Enrich with MTF features for meta-labeling"""
+        base = {
+            # ... existing astro + LTF indicators
+            "htf_trend_aligned": 1 if self.htf_trend == "bull" else 0,  # or -1 for bear
+            "htf_adx": self.htf_adx,
+            "htf_rsi_centered": (self.htf_rsi - 50) / 50,
+            "htf_atr_pct": self.htf_atr_pct,
+            "htf_ma_dist": (self.price - ta.ema(self.htf_candles, 50)) / ta.ema(self.htf_candles, 50),
+            
+            # Cross-timeframe interactions (great for Shapiq)
+            "astro_htf_adx_interact": self.astro_signal_strength * self.htf_adx,
+            "ma_cross_htf_trend": self.is_bull_trend_start * (1 if self.htf_trend == "bull" else 0),
+        }
+        return base
+
+    def should_long(self):
+        # Primary astro + LTF MA
+        if not (self.is_bull_astro_signal and self.is_bull_trend_start):
+            return False
+        # MTF filter: Require higher-TF alignment
+        return self.htf_trend == "bull" and self.htf_adx > 25
+```
+
+### Multi-Angle Benefits & Use Cases
+- **Trend Filtering**: Higher-TF alignment (e.g., daily bull trend) significantly improves win rate for astro signals, which are often daily-biased.
+- **Regime Detection**: MTF ADX/RSI/Bollinger helps the meta-model learn when astro edges are stronger (e.g., high higher-TF ADX + specific aspects).
+- **Feature Richness for ML**: MTF indicators create strong higher-order interactions detectable via TreeSHAP-IQ/Shapiq (e.g., astro × LTF MA × HTF volatility).
+- **Entry/Exit Precision**: Use HTF for bias, LTF (15m) for timing, and very short TF for execution if needed.
+- **Risk Management**: Adjust stop-loss/take-profit based on HTF ATR or structure.
+
+**Common MTF Setups**:
+- Trading TF: 15m/1H
+- Anchor/HTF: 4H or 1D
+- Context TF: 1W (for major regimes)
+
+### Nuances, Edge Cases & Best Practices
+- **Warm-up & Data**: Ensure sufficient warmup candles (`config['warmup_candles']`). `get_candles()` returns properly aligned data.
+- **Performance**: Pre-compute in `before()` or `after()`. Caching reduces overhead. For many TFs, optimize routes.
+- **Look-Ahead Protection**: Jesse manages this automatically when using `get_candles()`.
+- **Overfitting Risk**: MTF features add dimensionality — use SHAP/Shapiq to prune and Optuna for periods. Validate with walk-forward and regime splits.
+- **Non-Stationarity**: Normalize MTF indicators (e.g., % distances, z-scores) and monitor drift.
+- **Crypto Specifics**: Higher TFs help filter noise in 24/7 markets; test across bull/bear (e.g., 2021 vs. 2022).
+- **Visualization**: Use Jesse's indicator charts (v1.2+) to plot MTF lines on the main chart for debugging.
+
+### Implications for Astro Pipeline
+- **Meta-Labeling Synergy**: MTF features help the secondary model better predict when primary astro + MA signals will succeed (e.g., strong daily trend amplifies planetary alignments).
+- **Hybrid Edge**: Combines cyclical astro data with fractal market structure — a natural fit for financial astrology research.
+- **Optimization**: Add MTF hyperparameters (TF choice, periods, alignment thresholds) to Optuna runs.
+- **Advanced Extensions**: Multi-symbol MTF (correlations), dynamic TF selection, or custom MTF indicators.
+
+This integration follows proven MTF principles (higher TF for direction, lower for timing) while leveraging Jesse's strengths. It should yield more robust signals, better drawdown control, and clearer interpretability insights.
+
+If you'd like a full code skeleton, specific MTF indicator recommendations (e.g., Ichimoku, SuperTrend on HTF), help with Optuna integration for MTF params, or Shapiq analysis ideas for MTF features, provide more details (e.g., primary timeframe, target assets)! Thorough out-of-sample and Monte Carlo validation is essential.

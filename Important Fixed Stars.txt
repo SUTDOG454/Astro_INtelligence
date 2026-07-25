@@ -1,0 +1,636 @@
+// ST Fixed Stars
+// Important Fixed Stars
+// http://www.astrologycom.com/fixedstars.html
+//
+
+[8880] Kerb
+Keywords: Danger of being jilted by a lover
+Effect: Neutral
+Character: Mars/ Mercury
+
+[ 188] Difda, Deneb Kaitos
+Keywords: Laziness, self destruction, nervousness, illness, inhibitions, loss
+Effect: Unfortunate
+Character: Saturn
+
+[  39] Algenib
+Keywords: Ambition, vanity, intuition, enthusiasm, bad judgment
+Effect: Unfortunate
+Character: Mars/ Mercury
+
+[8162] Alderamin
+Keywords: Gravity, sternness, judgement, severe trials, poetry, drama
+Effect: Fortunate
+Character: Saturn/ Jupiter
+
+[  15] Alpheratz
+Keywords: Grace, popularity, independence, honours
+Effect: Fortunate
+Character: Venus
+
+[ 539] Baten Kaitos
+Keywords: Isolation, depression, accidents, emigration, shipwrecks
+Effect: Unfortunate
+Character: Saturn
+
+[ 897] Acamar
+Keywords: Success in public office, ecclesiastical success
+Effect: Fortunate
+Character: Jupiter
+
+[ 596] Alrisha
+Keywords: Unifying influence with groups
+Effect: Fortunate
+Character: Mars/ Mercury
+
+[ 337] Mirach
+Keywords: Good fortune through marriage, beauty, love talent
+Effect: Fortunate
+Character: Venus
+
+[ 553] Sharatan
+Keywords: Violence, defeat, accidents, injury, danger, honours
+Effect: Neutral
+Character: Mars/ Saturn
+
+[ 617] Hamal
+Keywords: Violence, cruelty, brutality, also the "Healer"
+Effect: Unfortunate
+Character: Mars/ Saturn
+
+[ 168] Schedir
+Keywords: Astrology, mysticism, writing
+Effect: Fortunate
+Character: Saturn/ Venus
+
+[ 603] Almach
+Keywords: Success in Venusian occupations, artistic ability, popularity
+Effect: Fortunate
+Character: Venus
+
+[ 911] Menkar
+Keywords: Disease, throat trouble, disgrace, ruin, injury from beasts, unjustified enmities
+Effect: Unfortunate
+Saturn/ Venus
+
+[1136] Rana
+Keywords: Love of knowledge, science, much travel, many changes, position of authority, accidents at sea, drowning
+Effect: Fortunate
+Character: Saturn
+Comment: part of "The River", a constellation traversing several Signs
+
+[1231] Zaurak
+Keywords: Melancholy, fear of death and suicidal tendencies
+Effect: Unfortunate
+Character: Saturn
+
+[ 936] Caput Algol *
+The Demon's Head
+Keywords: Strangulation, beheading, danger to throat and neck, murder, violence, the "Evil One"
+Effect: Very Unfortunate
+Saturn/ Jupiter
+
+[M45] Pleiades
+The Seven Sisters
+Keywords: Accidents, blindness, violence, homosexuality, feminine power
+Effect: Unfortunate
+Constellation of 7 stars (refer Alcyone)
+
+[1165] Alcyone *
+Central star of the Pleiades
+Keywords: Ambition, honour and glory. Trouble with opposite sex
+Effect: Neutral
+Character: Moon/ Jupiter
+
+[1346] Hyades *
+Keywords: Scandal, violence, disgrace, imprisonment
+Effect: Unfortunate
+Character: Saturn/ Mercury
+
+[1457] Aldebaran *
+Bull's North Eye
+Keywords: A Royal Star. The archangel Michael, the Watcher of the East. Eloquence, high honours, integrity, popularity, courage, war mongering, agitation
+Effect: Unfortunate
+Character: Mars
+
+[1666] Cursa
+Keywords: Currents of Fate, fluctuating emotions, irreversible changes to rhythm of life, sense of oblivion
+Effect: Fortunate
+Character: Saturn
+
+[1713] Rigel *
+Orion's Foot
+Keywords: Technical and artistic ability, inventiveness, humour, honours, riches, happiness
+Effect: Fortunate
+Character: Jupiter/ Mars
+
+[1790] Bellatrix *
+Orion's Left Shoulder
+Keywords: Loquaciousness, accidents, sudden dishonour
+Effect: Unfortunate
+Character: Mars/ Mercury
+
+[1708] Capella
+Keywords: Inquisitiveness, open mindedness, powerful friends
+Effect: Fortunate
+Character: Mars/ Mercury
+
+[1956] Phact
+Keywords: Talent in art or science
+Effect: Fortunate
+Character: Venus/ Mercury/ Uranus
+
+[1791] El Nath
+Keywords: Luck, fortune, success, quarrels, headstrong
+Effect: Fortunate
+Character: Mars
+
+[1903] Alnilam *
+Keywords: Brief fame, quick temper, scandal
+Effect: Fortunate
+Character: Jupiter/ Saturn
+
+[1910] Al Hecka *
+Keywords: Honours, wealth, power, greed, aggression
+Effect: Fortunate
+Character: Mars
+
+[ 424] Polaris *
+The Pole Star
+Keywords: Sickness, trouble, loss, affliction, spiritual powers
+Effect: Unfortunate
+Character: Saturn/ Venus
+
+[2061] Betelgeuse *
+Orion's Right Shoulder
+Keywords: Calamities, danger, violence
+Effect: Unfortunate
+Character: Mars/ Mercury
+
+[2216] Propus
+Keywords: Over confidence, pride, shamelessness violence
+Effect: Unfortunate
+Character: Saturn
+
+[2421] Alhena
+Keywords: Almeisan, the shining one Acute sensitivity, creative imagination, artistic skills, writing, injuries to feet
+Effect: Fortunate
+Character: Mercury/ Venus/ Jupiter
+
+[2484] Alzirr
+Keywords: Hunting, besieging towns, the revenge of princes, trouble, disgrace, sickness, loss of fortune, affliction, danger to knees
+Effect: Unfortunate
+Character: Mercury/ Venus/ Jupiter
+
+[2491] Sirius *
+the Dog Star, the Sun of the Sun, the central Sun of our Galaxy
+Keywords: Ambition, pride, emotionality, fame, leadership, wealth, fires, drought, danger through impetuosity
+Effect: Fortunate
+Character: Jupiter/ Mars
+
+[2326] Canopus *
+Keywords: Voyages, piety, scandal, violence
+Effect: Unfortunate
+Character: Saturn/ Jupiter
+
+[2891] Castor *
+Keywords: Sudden fame or loss, distinction, keen mind, violence, mischief
+Effect: Unfortunate
+Character: Saturn/ Mars/ Venus
+
+[2990] Pollux *
+Caput Hercules
+Keywords: Contemplative speculation, audacity, astrology, ruin, disgrace, death, calamity, the "Heartless Judge"
+Effect: Unfortunate
+Mars/ Moon/ Uranus
+
+[2943] Procyon *
+Keywords: Violence, sudden success then disaster, occult, politics, dissipation
+Effect: Unfortunate
+Character: Mars/ Mercury
+
+[3569] Talitha
+Keywords: Quiet, prudent, suspicious, mistrustful, self-controlled, great anger when roused
+Effect: Neutral
+Character: Saturn/ Mars
+
+[M44] The Aselli
+The Asses
+Keywords: Death by fever, fire, hanging, beheading, or violent catastrophe, ruin, disgrace, wounds, hurts to face, eye trouble, blindness, imprisonment, great changes in society
+Position: Nebulous Cluster in 1st decan of Leo
+Effect: Unfortunate
+Character: Mars/ Moon
+
+[3429] Praesaepe *
+Keywords: Inner drive, reclusive, blindness, murder, tragedy, fires
+Effect: Unfortunate
+Character: Mars/ Moon
+
+[3449] North Asellus *
+Asellus Borealis
+Keywords: Patience, beneficence and courage, heroic and defiant leader
+Effect: Fortunate
+Character: Sun/ Mars
+
+[3461] South Asellus *
+Asellus Australis
+Keywords: Military preferment, blindness, eye trouble, shipwreck, mass murder, horrors, self-willed, uncooperative
+Effect: Unfortunate
+Character: Sun/ Mars
+
+[4434] Giansar
+Keywords: Penetrating and analytical mind, travel and many friends, craft, ingenuity, and valour, but danger of robbery and accidental poisoning
+Effect: Neutral
+Character: Saturn/ Mars
+
+[3572] Acubens
+Keywords: Astrology, writing, perseverance, domestic problems, poison, liars
+Effect: Fortunate
+Character: Saturn/ Mercury
+
+[4301] Dubhe
+Keywords: Astrology, arrogance, psychic, destruction
+Effect: Fortunate
+Character: Mars
+
+[4295] Merak
+Keywords: Prudent, restrained, mistrustful, self-controlled (but angry when roused), love of command, power to achieve, good with animals
+Effect: Fortunate
+Character: Saturn/ Mercury/ Mars
+
+[3873] Ras Elased Australis
+Algenubi
+Keywords: Cruel, heartless, bold, bombastic, brutish, destructive, artistic appreciation. power of expression, spiritual gifts, leadership
+Effect: Neutral
+Character: Saturn/ Mars
+
+[D142] "Own Worst Enemy"
+An unfortunate degree.
+Keywords: No freedom to act on one's own behalf
+Position: 22° Leo
+Effect: Unfortunate
+
+[3748] Alphard *
+Keywords: Sudden death by poison or drowning. Problems with law, love affairs, drugs
+Effect: Unfortunate
+Character: Saturn/ Venus
+
+[4031] Adhafera
+Keywords: Crime, lying and stealing, suicide
+Effect: Unfortunate
+Character: Saturn/ Mercury
+
+[3975] Al Jabhah *
+Keywords: Wealth, sound judgement, cleverness, prone to violence, self-seeking, danger, loss, mutiny
+Effect: Neutral
+Character: Saturn/ Mercury
+
+[3982] Regulus *
+Lion's Heart
+Keywords: The most Royal Star. Raphael, the Healing Archangel, the Watcher of the North. Nobility, ambition, alertness, great power, status, leadership, sudden downfall, accidents, violence
+Effect: Fortunate
+Character: Mars/ Jupiter/ Uranus
+
+[4247] Praecipua
+Keywords: Generous, noble, peaceful, fearless nature, with the ability to undertake prominent and responsible positions
+Effect: Fortunate
+Character: Jupiter/ Mars
+
+[5291] Thuban
+Keywords: Prospectors of gold and silver or those who are ministers of money; burning to death in own house
+Effect: Fortunate
+Character: Saturn/ Mars
+
+[4357] Zosma
+Keywords: Keen intellect, depression, fearful, unhappy, feels restricted, loss in childhood
+Effect: Fortunate
+Character: Saturn/ Venus
+
+[5054] Mizar
+Keywords: Connected with fires of a catastrophic extent and mass calamities
+Effect: Unfortunate
+Character: Saturn/ Venus
+
+[4534] Denebola *
+Keywords: Criticism, perseverance, control, lack of imagination, honours, undesirable associates, mental illness, happiness turns to despair, disease, natural disasters, catastrophes
+Effect: Neutral
+Character: Saturn/ Venus
+
+[4737] Coma Berenices *
+Keywords: Eye problems
+Effect: Fortunate
+Character: Moon/ Venus
+
+[4382] Labrum
+Keywords: Honours, riches, ambition, psychic, chronic illness, dishonest income
+Effect: Fortunate
+Character: Mercury/ Venus
+
+[5191] Alkaid
+Benetnash
+Keywords: Associated with death and mourning, war, natural catastrophes
+Effect: Unfortunate
+Character: Moon/ Mercury/ Saturn
+
+[5020] Markeb
+Keywords: Voyages, educational work, broad knowledge, piety
+Effect: Fortunate
+Character: Saturn/ Jupiter
+
+[4689] Zaniah
+Keywords: Order, congeniality, lovable nature, refinement, honour
+Effect: Very Fortunate
+Character: Mercury/ Venus
+
+[4932] Vindemiatrix
+Keywords: Falsity, folly, disgrace, stealing, widowhood, depression, witch-hunts, mysticism & the occult
+Effect: Unfortunate
+Character: Saturn/ Mercury
+
+[4757] Algorab
+Keywords: Scavenging, destructiveness, repulsiveness, malevolence, fiendishness and lying, suicide, greed, injuries
+Effect: Unfortunate
+Character: Mars/ Saturn
+
+[5533] Merga
+Keywords: Guardians, ministers of state, custodians, treasurers, force behind the scenes, hidden masters, economists, architects, designers, "The Sickle"
+Effect: Fortunate
+Character: Mercury/ Saturn
+
+[5435] Seginus *
+Keywords: Business, astrology, law, loss through friends, deceitful, shameless
+Effect: Fortunate
+Character: Mercury/ Saturn/ Venus
+
+[5235] Mufrid
+Keywords: Prosperity from work, planning, strong desires, a tendency to excess, a fondness for rural pursuits, occultism
+Effect: Fortunate
+Character: Mercury/ Saturn
+
+[NGC3372] Foramen
+Keywords: Prosperity, leadership, ear & eye trouble, indecision, shipwreck
+Effect: Fortunate
+Character: Saturn/ Jupiter
+
+[5056] Spica *
+Keywords: Wealth, fame, honour, glamour, the "Fortunate One"
+Effect: Very Fortunate
+Character: Venus/ Mars
+
+[5340] Arcturus *
+Keywords: Inspiration, fame, honour, benefits through travel, success through work
+Effect: Very Fortunate
+Character: Jupiter/ Mars
+
+[5681] Princeps *
+Keywords: Ability to research keen, studious and profound mind, business, government, law, science, arts, lies
+Effect: Fortunate
+Character: Mercury/ Saturn
+
+[5359] Khambalia
+Keywords: Deep research of any kind, police investigation, espionage and esoteric subjects
+Effect: Fortunate
+Character: Mercury/ Mars
+
+[4730] Acrux
+Keywords: Interest in astrology and spirituality, metaphysics, sacrifice
+Effect: Occult
+Character: Jupiter
+
+[5793] Alphecca *
+Keywords: Honour, dignity, literate, brilliant, poetic, scandals, betrayal in love, sorrow through children
+Effect: Fortunate
+Character: Venus/ Mercury
+
+[5288] Menken
+Keywords: Wisdom, astronomy, divination, medicine, botany and music
+Effect: Fortunate
+Character: Venus/ Mercury
+
+[5531] South Scale *
+Zuben Algenubi
+Keywords: Loss, theft, betrayal, abuse, venereal disease, poisoning, drowning, anguish, revenge, criminality
+Effect: Unfortunate
+Character: Saturn/ Mars
+
+[D229] Serpentis
+the "Accursed Degree"
+Keywords: A malefic degree, tragedy, misfortune, the "Accursed Degree". This degree does not precess.
+Position: 19° Scorpio
+Effect: Unfortunate
+Character: Mars/ Saturn
+
+[5685] North Scale *
+Zuben Alschemali
+Keywords: Honours, wealth, distinction, brilliant mind, success in sports, politics, war, religion, writing, tragedy, violence, melancholy
+Effect: Fortunate
+Character: Jupiter/ Mercury/ Mars
+
+[5854] Alpha Serpentis *
+Unukalhai
+Keywords: Success followed by fall, suicide, insanity, accidents, success in war, politics, writing, problems in love, forgery, shipwreck, loss, earthquake
+Effect: Unfortunate
+Character: Saturn/ Mars
+
+[5267] Agena
+Keywords: Good health, high morals, disillusion through love, success with the masses
+Effect: Fortunate
+Character: Venus/ Jupiter
+
+[5459] Bungula
+Keywords: Occult and philosophical learning, self analysis, honours, stubborn, cruel
+Effect: Fortunate
+Character: Venus/ Jupiter
+
+[6148] Kornephoros
+Keywords: Fixity of purpose, strength of character, ardent nature and dangerous passions
+Effect: Neutral
+Character: Mercury
+
+[6056] Yed Prior *
+Keywords: Success in astrology & 9th house matters, shrewd
+Effect: Fortunate
+Character: Saturn/ Venus
+
+[6149] Marfic
+Keywords: Passionate, blindly good-hearted, easily seduced, healer with herbs
+Effect: Neutral
+Character: Saturn/ Venus
+
+[6134] Antares *
+Heart of the Scorpion
+Keywords: A Royal Star. The Archangel Oriel, the Watcher of the West. Spirit of adventure, obstinacy, injuries to eyes, honours, sudden loss, stubborn, suspicious, violent, several marriages
+Effect: Fortunate
+Character: Mars/Jupiter/ Mercury
+
+[6536] Rastaban *
+Keywords: Impulsive, honourable, good for astrology, government, writing, sports, finance, the arts, accidents, wounds, blindness, criminality
+Effect: Unfortunate
+Character: Saturn/ Mars/ Jupiter
+
+[6378] Sabik
+Keywords: Wastefulness and lost energy, perverted moral, success in evil deeds
+Effect: Unfortunate
+Character: Saturn/ Venus
+
+[6217] Atria
+Keywords: Just, truthful, righteous and benevolent, interest in architecture and freemasonry
+Effect: Very Fortunate
+Character: Mercury/ Jupiter
+
+[6556] Ras Alhague
+Keywords: Trouble with women, drugs, poisoning, hallucination, medicines, infections, mystical healing
+Effect: Fortunate
+Character: Saturn/Venus
+
+[6508] Lesath
+Keywords: Danger, desperation, immorality and malevolence, connected with acid poisons, accidents, catastrophes, operations
+Effect: Unfortunate
+Character: Mercury/ Mars
+
+[6705] Etamin
+Keywords: Liking solitude, good concentration, dishonour, downfall and loss of prestige, esoteric and philosophical studies
+Effect: Neutral
+Character: Mars/ Moon
+
+[M8] Spiculum
+Keywords: Eye trouble, blindness, depression, hopelessly doomed, morbid religious outlook, no concern for human life
+Effect: Unfortunate
+Character: Mars/ Moon
+
+[6746] Alnasl
+Keywords: Eye trouble, blindness (or bad eyesight)
+Effect: Unfortunate
+Character: Mars/ Moon
+
+[6812] Polis
+Keywords: Martial desires, high ambitions, domination, keen perception, success
+Effect: Very Fortunate
+Character: Jupiter/ Mars
+
+[6913] Kaus Borealis
+Keywords: Promoters of idealistic and humane ideas, promoters of mental stimuli, enterprise and a sense of justice
+Effect: Fortunate
+Character: Mercury/ Mars
+
+[M22] Facies
+Keywords: Blindness, violent death, leadership, war, coldness, detached, perfectionist, earthquakes
+Effect: Unfortunate
+Character: Sun/ Mars
+
+[7001] Vega *
+Keywords: Luck in politics, artistic talent, fleeting fame, double dealing, generosity, practicality
+Effect: Fortunate
+Character: Venus/ Mercury
+
+[7106] Sheliak
+Keywords: Artistic talent, sexual adventures, disgrace, gaudiness, independent thought, trouble with authority, death by violence
+Effect: Fortunate
+Character: Venus/ Mercury
+
+[7235] Dheneb
+Keywords: Martial Arts, ability to command, liberality, beneficence
+Effect: Very Fortunate
+Character: Mars/ Jupiter
+
+[7790] Peacock
+Keywords: Vanity and love of display, together with a long life and sometimes fame
+Effect: Fortunate
+Character: Venus/ Mercury/ Saturn
+
+[7597] Terebellum
+Keywords: Strength and power, rise in life, riches, cunning, disgrace
+Effect: Fortunate
+Character: Venus/ Saturn
+
+[7525] Tarazed
+Keywords: Spoil and plunder, imagination, strong passions, will, clairvoyance, fame, powerful mind
+Effect: Fortunate
+Character: Mars/ Jupiter
+
+[7479] Sham
+Keywords: Combative, opinionated, jealousy, danger of death in battle
+Effect: Unfortunate
+Character: Mars/ Venus
+
+[7417] Albireo
+Keywords: Contemplative, cultured, artistic, congenial appearance and disposition
+Effect: Fortunate
+Character: Venus/ Mercury
+
+[7557] Altair *
+Keywords: The Eagle Sudden but ephemeral fortune, impulsiveness, courage, accidents, astrology, writing
+Effect: Neutral
+Character: Mars/ Jupiter
+
+[7747] Algedi *
+Keywords: Giedi Prima Beneficence, peculiar events, love affairs, great good fortune
+Effect: Neutral
+Character: Venus/ Mars
+
+[7822] Bos
+Keywords: Keen intellect, good for business, military, analysis
+Effect: Fortunate
+Character: Saturn/ Venus
+
+[7950] Albali
+Keywords: Danger, persecution and even death, but also said to give good fortune
+Effect: Neutral
+Character: Mars/ Mercury
+
+[8260] Castra
+Keywords: Destructiveness, uncontrollable temper, malevolence
+Effect: Unfortunate
+Character: Saturn/ Jupiter
+
+[8278] Nashira *
+Keywords: Writing, government, religion, overcomes evil
+Effect: Fortunate
+Character: Saturn/ Jupiter
+
+[8131] Kitalpha
+Keywords: Gives friendship and sagacity but frivolity and love of pleasure
+Effect: Neutral
+Character: Mercury/ Venus
+
+[8232] Sadalsuud *
+Keywords: Astrology, occult, government, business, psychic, visionary, original
+Effect: Fortunate
+Character: Saturn/ Mercury
+
+[7949] Gienah
+Keywords: Soar to great heights, potential of sudden downfall
+Effect: Neutral
+Character: Venus/ Mercury
+
+[8728] Fomalhaut *
+Keywords: A Royal Star. Archangel Gabriel, the Watcher of the South. Congenital birth defects, magic, fame, occult, faith, "Star of Alchemy", addiction, undesirable associates
+Effect: Fortunate
+Character: Venus/ Mercury/ Neptune
+
+[7924] Deneb Adige *
+Keywords: Intelligent, creative, original, naive, astrology, writing, the public, dog bites
+Effect: Fortunate
+Character: Venus/ Mercury
+
+[8709] Skat
+Keywords: Good fortune, personal charm, lasting happiness, psychic interests, sensitivity, occult interests, many friends
+Effect: Fortunate
+Character: Saturn/ Jupiter
+
+[ 472] Achernar
+Keywords: Sudden success in public office, religious benefits, access to another realm
+Effect: Fortunate
+Character: Saturn
+Comment: "the mouth of the River" a constellation extending over several Signs.
+
+[8781] Markab *
+Keywords: Violence, honours and riches, "Star of Sorrow", literary, legal problems, accidents
+Effect: Unfortunate
+Character: Mars/ Mercury/ Venus
+
+[8775] Scheat *
+Keywords: Imprisonment, murder, suicide, drowning, extreme misfortune
+Effect: Unfortunate
+Character: Mars/ Mercury
+

@@ -1,0 +1,560 @@
+(c) Copyright 2002 - 2006 Hamish Saunders and Angela Thomas
+All rights reserved
+
+==================================
+DIRECTED PLANETS IN HOUSES
+INTERPRETATIONS RESOURCE
+==================================
+
+IMPORTANT
+---------
+Use 10pt Courier New font to edit this resource.
+Do not use tab spaces, bold, italic or underline characters.
+Do not use bullets.
+Only left alignment is allowed.
+Only standard alpha-numeric characters are allowed.
+
+Valid Planet Names
+------------------
+Earth, Sun, Moon, Mercury, Venus, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto
+Moon's North Node, Moon's South Node
+Ascendant, Midheaven, Vertex, East Point,
+Co-Ascendant, Polar Ascendant
+Chiron, Ceres, Pallas, Juno, Vesta
+Vulcan, Cupido, Hades, Zeus, Kronos, Apollon, Admetos, Vulkanus, Poseidon, Transpluto
+Part of Fortune, Bary Centre, Galactic Centre
+Black Moon, Priapus, Black Sun, Diamond, Vernal Point.
+
+Valid House Names
+-----------------
+1st House, 2nd House, 3rd House
+4th House, 5th House, 6th House
+7th House, 8th House, 9th House
+10th House, 11th House, 12th House
+
+Format
+------
+Refer to Janus Help index (edit / interpretations)
+for more information.
+
+
+Progressed Sun
+==================
+
+#Sun in 1st House
+During this period ^you are/Name is/Name is^ more vital, [energised,energized] and self-expressive. ^You present/He presents/She presents^ an authoritative and confident manner and ^have/has/has^ the ability to make an impact on the world through self-motivation and ambition. It is possible that ^you/he/she^ will gain a measure of recognition during this life phase. A person of importance may influence ^you/him/her^ now.
+$End
+
+#Sun in 2nd House
+A person of authority or prominence could influence ^you/Name/Name^ financially during this period. ^You/He/She^ may experience an increase in business confidence and make some bold financial moves.
+$End
+
+#Sun in 3rd House
+During this period ^you have/Name has/Name has^ increased confidence expressing ^your/his/her^ ideas and communicating with influential and powerful people. There can be added force and authority in ^your/his/her^ communications.
+$End
+
+#Sun in 4th House
+During this period ^your/his/her^ focus is on family and domestic matters. There may be a significant change in residence or issues to deal with in the family.
+$End
+
+#Sun in 5th House
+During this period ^your/his/her^ creative powers get a boost. ^You/He/She^ may take an increasing interest in artistic activities or ^your/his/her^ social life becomes busier. Children may play a more important role in ^your/his/her^ life at this time.
+$End
+
+#Sun in 6th House
+Throughout this period ^your/his/her^ work and health matters dominate ^your/his/her^ thinking. At work, ^you are/he is/she is^ acknowledged for ^your/his/her^ skills. A boss or someone of significance could give ^you/him/her^ more responsibilities.
+$End
+
+#Sun in 7th House
+During this period partnerships dominate ^your/his/her^ thinking. ^You/He/She^ may form a personal relationship or business partnership now.
+$End
+
+#Sun in 8th House
+During this time ^you/he/she^ may find ^yourself/himself/herself^ involved in business arrangements with others, which could entail sharing resources or borrowing money.
+$End
+
+#Sun in 9th House
+During this period ^you have/he has/she has^ a desire to travel or increase ^your/his/her^ knowledge through study. Another possibility is that ^your/his/her^ beliefs and outlooks may be re-shaped by someone with a commanding and self-assured personality.
+$End
+
+#Sun in 10th House
+Vocational successes are likely now. ^You/He/She^ could receive acknowledgements and recognition in ^your/his/her^ profession from people with influence and power. ^Your/His/Her^ position in life and status may improve during this period.
+$End
+
+#Sun in 11th House
+During this period ^you/he/she^ may receive the patronage of influential or prominent people. ^Your/His/Her^ friends are likely to play a more prominent role in ^your/his/her^ life at this time.
+$End
+
+#Sun in 12th House
+During this period ^you are/he is/she is^ inclined to take more of a back seat and shun the glare of publicity. There is the desire for periods of seclusion and retreat.
+$End
+
+Progressed Moon
+==================
+
+#Moon in 1st House
+During this period, ^you are/he is/she is^ concerned with ^your/his/her^ own needs and personal security. Domestic, family and real-estate matters are likely to occupy ^your/his/her^ mind. At this time, ^you/he/she^ can achieve personal goals through self-motivation and applied efforts.
+$End
+
+#Moon in 2nd House
+During this phase ^you are/he is/she is^ concerned with ^your/his/her^ material and financial security. ^You have/He has/She has^ the capability now to concentrate on building up ^your/his/her^ resources.
+$End
+
+#Moon in 3rd House
+^Your/His/Her^ capabilities as a communicator intensify now. ^You/He/She^ can hone ^your/his/her^ communication skills and generally keep ^your/his/her^ mind occupied. There may be increasing contact with siblings and community activities.
+$End
+
+#Moon in 4th House
+^Your/His/Her^ home and family structure is in focus now; a change of domestic arrangements or place of residence is possible. Issues from ^your/his/her^ past that require addressing can surface during this phase.
+$End
+
+#Moon in 5th House
+During this period ^your/his/her^ creative powers are strong and ^you/he/she^ could develop artistic abilities. Children may feature in ^your/his/her^ life at this time.
+$End
+
+#Moon in 6th House
+Throughout this period ^you strive/he strives/she strives^ to [organise,organize] ^your/his/her^ work environment and make it more efficient. ^You become/He becomes/She becomes^ more health conscious now.
+$End
+
+#Moon in 7th House
+This is an important period for dealing with any relationship issues. Interesting and stimulating people may come into ^your/his/her^ life now.
+$End
+
+#Moon in 8th House
+This is not an easy period as a rule; ^you/he/she^ may feel anxious and worried about things for no apparent reason.
+$End
+
+#Moon in 9th House
+During this period travel, higher learning and spiritual matters occupy ^your/his/her^ mind.
+$End
+
+#Moon in 10th House
+During this period vocational matters occupy ^your/his/her^ mind. ^You are/He is/She is^ likely to think a lot about long-term plans and life direction.
+$End
+
+#Moon in 11th House
+During this period it's who ^you know/he knows/she knows^ rather than what ^you know/he knows/she knows^ that matters now. ^Your/His/Her^ social life will be more active now.
+$End
+
+#Moon in 12th House
+During this period ^your/his/her^ inclination is to shun the limelight and keep pretty much to ^yourself/himself/herself^. In fact, ^you/he/she^ can be very productive throughout this period by just quietly working away in seclusion.
+$End
+
+Progressed Mercury
+==================
+
+#Mercury in 1st House
+At this time, ^you have/he has/she has^ an increased capability to make an impact as a communicator. ^You/He/She^ can expect to be taken notice of and heard now.
+$End
+
+#Mercury in 2nd House
+Business, financial or commercial matters may occupy ^your/his/her^ mind more now. This can be a good time for learning about money.
+$End
+
+#Mercury in 3rd House
+Anticipate increased intellectual activity during this period. ^Your/His/Her^ communications tend to have more of a flow to them now and others quickly understand ^your/his/her^ ideas.
+$End
+
+#Mercury in 4th House
+Discussions within the family and the home are lively now. Stimulating people may visit ^your/his/her^ home during this period. ^You/He/She^ could come into contact with someone from ^your/his/her^ past.
+$End
+
+#Mercury in 5th House
+During this period ^your/his/her^ thoughts are inclined to be about love, romance, creative activity and children.
+$End
+
+#Mercury in 6th House
+During this period ^you are/he is/she is^ likely to be busy at work. This could be a good time for making ^your/his/her^ work environment more efficient. ^Your/His/Her^ thoughts are often on health now too.
+$End
+
+#Mercury in 7th House
+Relationship matters occupy ^your/his/her^ mind during this period. ^You/He/She^ will be thinking about the dynamics between ^yourself/himself/herself^ and others.
+$End
+
+#Mercury in 8th House
+During this period ^your/his/her^ mind is focused on finding answers to life's big questions. At times, ^you/he/she^ may feel anxious and worried about things for no apparent reason.
+$End
+
+#Mercury in 9th House
+This planet position is often associated with an increase in international communications, or an interest in educational, philosophical or spiritual subjects. Travel may feature in ^your/his/her^ life now.
+$End
+
+#Mercury in 10th House
+During this period ^you are/he is/she is^ likely to reflect on ^your/his/her^ career and general direction in life.
+$End
+
+#Mercury in 11th House
+Expect increased communications with friends and lively discussions within group situations during this period.
+$End
+
+#Mercury in 12th House
+During this period ^you/he/she^ may feel compelled to go into retreat to do intellectual work in seclusion.
+$End
+
+
+Progressed Venus
+==================
+
+#Venus in 1st House
+During this period physical appearance and personal style is important to ^you/him/her^. ^You relate/He relates/She relates^ well to people now and ^are/is/is^ more outgoing socially.
+$End
+
+#Venus in 2nd House
+^Your/His/Her^ financial situation is likely to be quite good during this period. This can be a good time for investing.
+$End
+
+#Venus in 3rd House
+In general, relations with ^your/his/her^ relatives and [neighbours,neighbors] should be good now. Intellectually, ^your/his/her^ mind is inclined towards harmony and beauty, or love and art.
+$End
+
+#Venus in 4th House
+During this period ^you/he/she^ can expect relations with ^your/his/her^ family to be good in general. This is also a good time for enhancing or beautifying ^your/his/her^ home.
+$End
+
+#Venus in 5th House
+In general, ^your/his/her^ social life goes up a gear or two during this period. Also, ^your/his/her^ interest in the arts and music increases. Relations with children can be very good now.
+$End
+
+#Venus in 6th House
+With this placement of Venus, anticipate a general [harmonising,harmonizing] of the work environment. Co-workers seem to get on well with ^you/him/her^ now.
+$End
+
+#Venus in 7th House
+This is a time when ^your/his/her^ social life becomes a bit of a whirl. Others are attracted to ^you and seek your/him and seek his/her and seek her^ company. This can be an excellent time for bringing harmony into relationships.
+$End
+
+#Venus in 8th House
+This placement of Venus can show ^you/him/her^ how to deal effectively with any loss situations, including financial or emotional losses. Business opportunities may present themselves now.
+$End
+
+#Venus in 9th House
+[Travelling,Traveling] during this period can be enjoyable and pleasurable. Benefits may come to ^you/him/her^ from overseas connections. This can be a good time to be involved in learning or philosophy.
+$End
+
+#Venus in 10th House
+During this period ^your/his/her^ reputation and status in life gets a boost. There can be professional opportunities and gains. Influential people, especially women, [favour,favor] ^you/him/her^ now.
+$End
+
+#Venus in 11th House
+During this period ^your/his/her^ friends are important to ^you and your/him and his/her and her^ social life should be busy.
+$End
+
+#Venus in 12th House
+Compassion for those who are suffering or less fortunate than ^you/him/her^ comes easily to ^you/him/her^ now. ^You/He/She^ can [empathise,empathize] with others. ^You enjoy/He enjoys/She enjoys^ extended periods in seclusion.
+$End
+
+
+Progressed Mars
+==================
+
+#Mars in 1st House
+^You present/Name presents/Name presents^ a direct and assertive personality to others during this period. ^Your/His/Her^ actions are bold and courageous. Take care with accidents and injury.
+$End
+
+#Mars in 2nd House
+During this period there may be disputes and arguments over money, or losses caused through mismanagement of finances.
+$End
+
+#Mars in 3rd House
+Arguments with [neighbours,neighbors] or relatives are a possibility during this period.
+$End
+
+#Mars in 4th House
+Disputes between family members are possible during this period.
+$End
+
+#Mars in 5th House
+Creative and/or sports oriented people can achieve a lot through increased [vigour,vigor] and effort now. However, guard against sports related injuries, caused through over-exertion or recklessness. Arguments in love affairs are also possible.
+$End
+
+#Mars in 6th House
+This is the classic "occupational injury" syndrome, so ^you need/he needs/she needs^ to take care at work. Arguments with co-workers or employees are a possibility during this period.
+$End
+
+#Mars in 7th House
+This period can bring dynamic and energetic people into ^your/his/her^ life. Arguments within partnerships or marriages are not uncommon. There can be a risk of relationship break-ups or altercations with complete strangers.
+$End
+
+#Mars in 8th House
+Conflicts and disputes are possible during this period in regard to shared resources and finances. Care needs to be taken in physically risky environments.
+$End
+
+#Mars in 9th House
+Disputes over matters of outlook and philosophy can be a problem now. In extreme cases, religious intolerance may be evident. Added care may be necessary if [travelling,traveling] in foreign countries, as there can be a risk of accidents or aggressive encounters.
+$End
+
+#Mars in 10th House
+At this time, ^you need/he needs/she needs^ to guard ^your/his/her^ reputation, as there is a risk that hasty or reckless actions could result in a fall from grace. ^You are/he is/She is^ likely to be busier and more ambitious in ^your/his/her^ professional life now.
+$End
+
+#Mars in 11th House
+Disputes with friends are a possibility now. ^You need/He needs/She needs^ to take care that ^you don't/he doesn't/she doesn't^ alienate others or undermine ^your/his/her^ friendships.
+$End
+
+#Mars in 12th House
+During this period ^your/his/her^ drive is slightly weaker than ^you are/he is/she is^ used to. ^You/He/She^ may have a tendency to worry.
+$End
+
+
+
+
+Progressed Jupiter
+==================
+
+#Jupiter in 1st House
+During this period ^your/his/her^ focus shifts to personal growth and expansion. ^Your/His/Her^ outlook on life is optimistic and positive on the whole.
+$End
+
+#Jupiter in 2nd House
+During this period ^your/his/her^ focus shifts to personal wealth and material expansion. ^Your/His/Her^ financial outlook is optimistic and positive on the whole.
+$End
+
+#Jupiter in 3rd House
+During this phase ^your/his/her^ relations with brothers and sisters should be relatively harmonious. This is an excellent time for learning new things and expanding ^your/his/her^ knowledge.
+$End
+
+#Jupiter in 4th House
+Family matters are well-aspected now and any difficulties that may exist within the family can be worked out more easily.
+$End
+
+#Jupiter in 5th House
+^Your/His/Her^ creative capabilities are enhanced at this time and ^you/he/she^ could enjoy artistic successes. ^Your/His/Her^ social life will be more active now.
+$End
+
+#Jupiter in 6th House
+During this period ^your/his/her^ focus will be on succeeding in ^your/his/her^ work and improving ^your/his/her^ overall health and fitness.
+$End
+
+#Jupiter in 7th House
+During this period important and influential people can come into ^your/his/her^ life and have a positive effect. Some people establish significant personal unions during this phase. Partnerships formed now are generally successful.
+$End
+
+#Jupiter in 8th House
+An interest in esoteric subjects can surface now. Also, this period can bring money through inheritances or legacies.
+$End
+
+#Jupiter in 9th House
+^Your/His/Her^ focus shifts to an interest philosophical and metaphysical subjects. There may be increased travel.
+$End
+
+#Jupiter in 10th House
+Professional success and acknowledgement is possible now.
+$End
+
+#Jupiter in 11th House
+During this phase ^your/his/her^ focus is to cultivate good connections and friends.
+$End
+
+#Jupiter in 12th House
+This is a period in which ^your/his/her^ attention will tend to be turned inward and ^you/he/she^ will be quite content with the simple pleasures of life.
+$End
+
+
+Progressed Saturn
+=================
+
+#Saturn in 1st House
+^Your/His/Her^ primary motivation now is to find out more about ^yourself/himself/herself^ and to determine what ^your/his/her^ priorities are.
+$End
+
+#Saturn in 2nd House
+^Your/His/Her^ focus now is to ensure ^your/his/her^ financial affairs are in order.
+$End
+
+#Saturn in 3rd House
+^Your/His/Her^ focus is now on communicating clearly and sorting out issues with siblings.
+$End
+
+#Saturn in 4th House
+^Your/His/Her^ primary focus now is on domestic and family matters. ^You/He/She^ may have to accept more responsibility in ^your/his/her^ family.
+$End
+
+#Saturn in 5th House
+^Your/His/Her^ focus is now on affairs of the heart and acting responsibly in love.
+$End
+
+#Saturn in 6th House
+With Saturn now in this house, ^your/his/her^ attention will be on ^your/his/her^ work and health.
+$End
+
+
+#Saturn in 7th House
+With Saturn now in this house, ^your/his/her^ attention will be on ^your/his/her^ relationships.
+$End
+
+#Saturn in 8th House
+With Saturn now in this house, ^your/his/her^ attention will be on esoteric and occult matters.
+$End
+
+#Saturn in 9th House
+With Saturn now in this house, ^your/his/her^ attention will be on seeking answers to life's puzzles. Metaphysical and religious matters interest ^you/him/her^ now.
+$End
+
+#Saturn in 10th House
+With Saturn now in this house, ^your/his/her^ attention will be on professional matters. ^You/He/She^ will work harder now than ever and shoulder more responsibility.
+$End
+
+#Saturn in 11th House
+With Saturn now in this house, ^your/his/her^ attention will be on ^your/his/her^ friends and their interests or concerns and perhaps their problems. Some friendships will end now.
+$End
+
+#Saturn in 12th House
+With Saturn now in this house, ^your/his/her^ focus will be on addressing personal fears and limiting beliefs. ^You/He/She^ may also feel a bit lost or lonely.
+$End
+
+
+Progressed Uranus
+=================
+
+#Uranus in 1st House
+With Uranus now in this house, ^your/his/her^ attention will be on asserting ^your/his/her^ own individuality and being more true to ^yourself/himself/herself^.
+$End
+
+#Uranus in 2nd House
+With Uranus now in this house, expect a change in financial circumstances.
+$End
+
+#Uranus in 3rd House
+With Uranus now in this house, expect a change in ^your/his/her^ relationship with ^your/his/her^ siblings.
+$End
+
+#Uranus in 4th House
+With Uranus now in this house, expect a change in ^your/his/her^ family or domestic arrangements.
+$End
+
+#Uranus in 5th House
+With Uranus now in this house, expect a change in ^your/his/her^ approach to love and romantic matters.
+$End
+
+#Uranus in 6th House
+With Uranus now in this house, expect a change in ^your/his/her^ approach to work and health matters.
+$End
+
+#Uranus in 7th House
+With Uranus now in this house, expect a change in ^your/his/her^ approach to relationships and long-term partnerships.
+$End
+
+#Uranus in 8th House
+With Uranus now in this house, expect a change in ^your/his/her^ approach to shared resources. ^You/He/She^ may become either more or less receptive to sharing material things.
+$End
+
+#Uranus in 9th House
+With Uranus now in this house, ^your/his/her^ outlooks and philosophies on life will be inclined to change.
+$End
+
+#Uranus in 10th House
+With Uranus now in this house, ^your/his/her^ career path will tend to be unpredictable and changeable.
+$End
+
+#Uranus in 11th House
+With Uranus now in this house, friendships now will tend to begin and end suddenly. ^You/He/She^ will be attracted to independent and progressively minded people and groups.
+$End
+
+#Uranus in 12th House
+With Uranus now in this house, ^you/he/she^ may be inclined to suddenly go into hiding or seclusion. Sometimes, secrets can suddenly be exposed.
+$End
+
+
+Progressed Neptune
+==================
+
+#Neptune in 1st House
+With Neptune now in this house, ^you/he/she^ will tend to present a somewhat dreamy, mysterious and elusive persona to the world. Care is needed with the effects of alcohol and drugs.
+$End
+
+#Neptune in 2nd House
+With Neptune now in this house, ^you/he/she^ may experience some degree of financial uncertainty or instability. This is not the best time for investing, because there is a danger of deception or unforeseen complications. Get-rich-quick schemes in particular should be avoided.
+$End
+
+#Neptune in 3rd House
+With Neptune now in this house, ^your/his/her^ thinking is inspired and imaginative, but also it can be confused and impractical.
+$End
+
+#Neptune in 4th House
+With Neptune now in this house, ^your/his/her^ home-life will not seem straightforward or certain. There may be domestic instability and misunderstandings within the family.
+$End
+
+#Neptune in 5th House
+With Neptune now in this house, there may be deception or disappointments in love, or artistic expression.
+$End
+
+#Neptune in 6th House
+With Neptune now in this house, job satisfaction may be wished for, but hard to [realise,realize] now. Care may be needed with respect to the effects of drugs and alcohol on health.
+$End
+
+#Neptune in 7th House
+With Neptune now in this house, ^you/he/she^ will have a tendency to [idealise,idealize] ^your/his/her^ partners or partnerships in general. If ^you are/he is/she is^ in a relationship, there is some danger of undermining influences or even deception in the union. New relationships should be entered into slowly, as there is a risk of deceit or false conduct.
+$End
+
+#Neptune in 8th House
+With Neptune now in this house, esoteric and metaphysical subjects are likely to become more of an interest and focus in ^your life/his/her^.
+$End
+
+#Neptune in 9th House
+With Neptune now in this house, ^your/his/her^ interest in spiritual, religious and philosophical subjects becomes more intense.
+$End
+
+#Neptune in 10th House
+With Neptune now in this house, ^you/he/she^ may experience uncertainty regarding ^your/his/her^ direction in life and professional goals.
+$End
+
+#Neptune in 11th House
+With Neptune now in this house, ^you/he/she^ may experience uncertainty and confusion regarding ^your/his/her^ goals and ideals. A friend may disappoint ^you/him/her^.
+$End
+
+#Neptune in 12th House
+With Neptune now in this house, ^you/he/she^ will probably feel the need for more solitude and time out from the busyness of daily living. ^You/He/She^ may feel inspired to help those who are needy and down on their luck.
+$End
+
+
+Progressed Pluto
+================
+
+#Pluto in 1st House
+With Pluto now in this house, ^you/he/she^ may seek to dominate others in ^your/his/her^ environment and experience power struggles as a consequence.
+$End
+
+#Pluto in 2nd House
+With Pluto now in this house, ^your/his/her^ attitudes towards possessions and money are likely to change quite radically.
+$End
+
+#Pluto in 3rd House
+With Pluto now in this house, ^your/his/her^ attitudes towards learning are likely to change quite radically.
+$End
+
+#Pluto in 4th House
+With Pluto now in this house, ^your/his/her^ attitudes towards to ^your/his/her^ family are likely to change quite significantly.
+$End
+
+#Pluto in 5th House
+With Pluto now in this house, ^your/his/her^ attitudes towards children could change significantly. If ^you've/he's/she's^ never been a parent ^you/he/she^ may wish to become one. Alternatively, if ^you are/he is/she is^ a parent ^your/his/her^ relationship with ^your/his/her^ children may change; for instance, a child may leave home.
+$End
+
+#Pluto in 6th House
+With Pluto now in this house, ^your/his/her^ attitudes to work is likely to change quite significantly. ^You/He/She^ may become intensely passionate about a particular line of work, or ^you/he/she^ could find it difficult to deal with changing work practices.
+$End
+
+#Pluto in 7th House
+With Pluto now in this house, ^your/his/her^ relationships - especially close intimate ones - will undergo significant change and transformation.
+$End
+
+#Pluto in 8th House
+With Pluto now in this house, ^you/he/she^ will be concerned about shared resources. ^You/He/She^ may experience power struggles with others over shared possessions or legacies. Expect an increasing interest in occult and esoteric matters.
+$End
+
+#Pluto in 9th House
+With Pluto now in this house, ^your/his/her^ outlooks on life and beliefs undergo radical change and transformation. ^You/He/She^ could become more passionate about philosophical matters or religion.
+$End
+
+
+#Pluto in 10th House
+With Pluto now in this house, ^you have/he has/she has^ a real chance at making ^your/his/her^ mark on the world and gaining a measure of recognition and renown.
+$End
+
+#Pluto in 11th House
+With Pluto now in this house, ^your/his/her^ friendships and alliances will change quite significantly. New friends replace old ones.
+$End
+
+#Pluto in 12th House
+With Pluto now in this house, ^you/he/she^ may feel compelled to undertake long periods in meditation and retreat.
+$End

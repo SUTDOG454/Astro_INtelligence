@@ -1,0 +1,383 @@
+{
+  "metadata": {
+    "framework_name": "ASTO (Astrological System & Trading Operations) Unified Framework",
+    "version": "10.0-Unified",
+    "synthesis_date": "2026-05-05",
+    "components": {
+      "sectors": 11,
+      "subsectors": 47,
+      "asteroids": 18,
+      "chart_types": 18,
+      "timing_layers": 9,
+      "conditional_layers": 42,
+      "event_templates": 27
+    },
+    "status": "PRODUCTION_READY_FULLY_INTEGRATED"
+  },
+  "core_astrology": {
+    "planets": {
+      "sun": {
+        "keywords": [
+          "identity",
+          "self",
+          "vitality",
+          "ego",
+          "purpose",
+          "conscious will",
+          "life force"
+        ]
+      },
+      "moon": {
+        "keywords": [
+          "emotions",
+          "instincts",
+          "habit",
+          "security",
+          "unconscious",
+          "nurturing"
+        ]
+      },
+      "mercury": {
+        "keywords": [
+          "mind",
+          "communication",
+          "intellect",
+          "learning",
+          "expression"
+        ]
+      },
+      "venus": {
+        "keywords": [
+          "love",
+          "values",
+          "beauty",
+          "art",
+          "harmony",
+          "relationships"
+        ]
+      },
+      "mars": {
+        "keywords": [
+          "action",
+          "desire",
+          "energy",
+          "assertion",
+          "courage",
+          "conflict"
+        ]
+      },
+      "jupiter": {
+        "keywords": [
+          "expansion",
+          "luck",
+          "abundance",
+          "wisdom",
+          "growth",
+          "philosophy"
+        ]
+      },
+      "saturn": {
+        "keywords": [
+          "discipline",
+          "structure",
+          "responsibility",
+          "limitation",
+          "maturity"
+        ]
+      },
+      "uranus": {
+        "keywords": [
+          "innovation",
+          "sudden change",
+          "freedom",
+          "awakening",
+          "unconventional"
+        ]
+      },
+      "neptune": {
+        "keywords": [
+          "spirituality",
+          "illusion",
+          "dreams",
+          "transcendence",
+          "inspiration"
+        ]
+      },
+      "pluto": {
+        "keywords": [
+          "transformation",
+          "power",
+          "rebirth",
+          "depth",
+          "intensity"
+        ]
+      },
+      "chiron": {
+        "keywords": [
+          "wound",
+          "healing",
+          "teacher",
+          "bridge",
+          "initiation"
+        ]
+      }
+    },
+    "houses": {
+      "1": {},
+      "2": {},
+      "3": {},
+      "4": {},
+      "5": {},
+      "6": {},
+      "7": {},
+      "8": {},
+      "9": {},
+      "10": {},
+      "11": {},
+      "12": {}
+    },
+    "signs": {
+      "aries": {
+        "keywords": [
+          "assertive",
+          "pioneering",
+          "courageous",
+          "impulsive"
+        ],
+        "type": "commanding"
+      },
+      "taurus": {
+        "keywords": [
+          "stable",
+          "sensual",
+          "patient",
+          "possessive"
+        ],
+        "type": "commanding"
+      },
+      "gemini": {
+        "keywords": [
+          "communicative",
+          "curious",
+          "adaptable",
+          "superficial"
+        ],
+        "type": "commanding"
+      },
+      "cancer": {
+        "keywords": [
+          "nurturing",
+          "emotional",
+          "protective",
+          "moody"
+        ],
+        "type": "commanding"
+      },
+      "leo": {
+        "keywords": [
+          "creative",
+          "generous",
+          "dramatic",
+          "proud"
+        ],
+        "type": "commanding"
+      },
+      "virgo": {
+        "keywords": [
+          "analytical",
+          "practical",
+          "service-oriented",
+          "critical"
+        ],
+        "type": "commanding"
+      },
+      "libra": {
+        "keywords": [
+          "harmonious",
+          "diplomatic",
+          "indecisive",
+          "relational"
+        ],
+        "type": "obeying"
+      },
+      "scorpio": {
+        "keywords": [
+          "intense",
+          "transformative",
+          "secretive",
+          "passionate"
+        ],
+        "type": "obeying"
+      },
+      "sagittarius": {
+        "keywords": [
+          "philosophical",
+          "optimistic",
+          "adventurous",
+          "reckless"
+        ],
+        "type": "obeying"
+      },
+      "capricorn": {
+        "keywords": [
+          "ambitious",
+          "disciplined",
+          "responsible",
+          "pessimistic"
+        ],
+        "type": "obeying"
+      },
+      "aquarius": {
+        "keywords": [
+          "innovative",
+          "humanitarian",
+          "detached",
+          "unconventional"
+        ],
+        "type": "obeying"
+      },
+      "pisces": {
+        "keywords": [
+          "compassionate",
+          "spiritual",
+          "escapist",
+          "artistic"
+        ],
+        "type": "obeying"
+      }
+    }
+  },
+  "symmetries": {
+    "antiscia": {
+      "definition": "Reflection across Cancer-Capricorn axis",
+      "formula": "180 - longitude",
+      "orb": "1.0 degree (Locked)",
+      "pairs": {
+        "aries": "virgo",
+        "taurus": "leo",
+        "gemini": "cancer",
+        "libra": "pisces",
+        "scorpio": "aquarius",
+        "sagittarius": "capricorn"
+      }
+    },
+    "contra_antiscia": {
+      "definition": "Reflection across Aries-Libra axis",
+      "formula": "360 - longitude",
+      "orb": "1.0 degree (Strict)"
+    }
+  },
+  "financial_framework": {
+    "master_schema": "AFE_Sector_Asteroid_Framework_v7.0",
+    "probability_engine": {
+      "formula": "P_MASTER = Base(0.5) * AFE(1.0-12.0) * KCIL(0.6-1.6) * Chart_Type(1.0-1.4) * Chaldean(0.5-1.8) * Uranian(0.7-1.5) * Harmonic(0.8-1.3) * Progressions(0.9-1.4) * Boolean_Gates * Technical_Veto(0.0-1.0)",
+      "thresholds": {
+        "high_conviction": 0.85,
+        "moderate": 0.7,
+        "avoid": 0.7
+      }
+    },
+    "sector_mapping": {
+      "Technology": {
+        "asteroid": "Pallas",
+        "multiplier": 1.35
+      },
+      "Financials": {
+        "asteroid": "Karma",
+        "multiplier": 1.2
+      },
+      "Healthcare": {
+        "asteroid": "Chiron",
+        "multiplier": 1.3
+      },
+      "Staples": {
+        "asteroid": "Ceres",
+        "multiplier": 1.15
+      }
+    },
+    "event_templates": {
+      "CER-001": {
+        "name": "Ceres Retrograde",
+        "sector": "Consumer_Staples",
+        "p_threshold": 0.75
+      },
+      "PAL-001": {
+        "name": "Pallas Mars",
+        "sector": "Industrials"
+      },
+      "JUN-001": {
+        "name": "Juno Union",
+        "sector": "Financials"
+      }
+    }
+  },
+  "synastry_framework": {
+    "title": "Universal Antiscion Synastry Analysis Framework v3.0",
+    "scoring": {
+      "tight": {
+        "orb": "0.5-1.0",
+        "weight": 1.0
+      },
+      "moderate": {
+        "orb": "1.0-2.0",
+        "weight": 0.9
+      },
+      "wide": {
+        "orb": "2.0-3.0",
+        "weight": 0.5
+      },
+      "exact": {
+        "orb": "0.08",
+        "multiplier": 1.5
+      }
+    },
+    "archetypes": {
+      "hidden_harmony": [
+        "secret_understanding",
+        "shadow_support",
+        "mirror_selves",
+        "karmic_recognition"
+      ],
+      "unconscious_conflict": [
+        "shadow_projection",
+        "hidden_resentment",
+        "secret_competition",
+        "mirror_wounds"
+      ]
+    }
+  },
+  "advanced_methodologies": {
+    "fixed_stars": [
+      "Fomalhaut",
+      "Pollux",
+      "Alnilam",
+      "Antares",
+      "Spica",
+      "Sirius",
+      "Algol"
+    ],
+    "arabic_parts": [
+      "Fortune",
+      "Spirit",
+      "Eros",
+      "Necessity",
+      "Marriage"
+    ],
+    "harmonics": [
+      "H5 (Creativity)",
+      "H7 (Inspiration)",
+      "H9 (Destiny)"
+    ],
+    "esoteric": {
+      "rays": [
+        "Ray 1: Will",
+        "Ray 2: Love",
+        "Ray 3: Intellect",
+        "Ray 4: Harmony",
+        "Ray 5: Knowledge",
+        "Ray 6: Devotion",
+        "Ray 7: Order"
+      ]
+    }
+  }
+}

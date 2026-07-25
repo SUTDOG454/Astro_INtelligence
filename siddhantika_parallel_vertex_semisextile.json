@@ -1,0 +1,476 @@
+{
+  "siddhantika_aspects_collection": {
+    "source": "http://www.siddhantika.com",
+    "pages": [
+      "http://www.siddhantika.com/interpretations/parallel-aspects",
+      "http://www.siddhantika.com/interpretations/vertex-in-astrology",
+      "http://www.siddhantika.com/interpretations/semi-sextile-aspects"
+    ],
+
+    "parallel_aspects": {
+      "title": "Parallel Aspects in Natal Charts",
+      "source_url": "http://www.siddhantika.com/interpretations/parallel-aspects",
+      "category": "Declination Aspects",
+
+      "overview": {
+        "description": "Parallel aspects are based on declination — the distance of a planet north or south of the celestial equator — rather than the standard ecliptic longitude used for major aspects. Two planets are parallel when they share the same degree of declination, regardless of their zodiac position.",
+        "nature": "A parallel is generally interpreted as similar to a conjunction in effect — it reinforces and intensifies the combined energy of the two planets involved.",
+        "contraparallel": "When two planets are at the same degree of declination but one is north and the other is south, this is called a contraparallel, which acts similarly to an opposition.",
+        "in_synastry": "When planets form an aspect to one another in synastry and are also parallel to each other, the parallel acts to reinforce that aspect. Parallels in synastry are read as easy, natural, and spontaneous connections between the two energies represented — even easier than the conjunction, with a spontaneous affinity.",
+        "saturn_parallel_note": "Saturn parallels to personal planets tend to be a little easier than Saturn conjunctions in synastry. The Saturn person is less inclined to criticism or control; the stabilizing influence of Saturn is more prominent.",
+        "yin_yang_note": "When the planets involved are yin and yang (such as Sun with Moon, Moon with Mars, Venus with Mars), parallels create wonderful, harmonious connections.",
+        "important_note": "All aspects should be read within the context of the full natal chart. Interpretations are a starting point only."
+      },
+
+      "planet_aspects": {
+        "sun_aspects": {
+          "sun_parallel_moon": {
+            "aspect": "Sun Parallel Moon",
+            "interpretation": "The foundations of early life experiences and the nature of the family of origin play a large role in your life. There is great restlessness and a need for emotional foundations in order to accomplish much else. You eventually figure this out and get what you need, as you have great untapped capacity for emotional integration. With the acquisition of positive habits and a stable home life, all else is good."
+          },
+          "sun_parallel_mercury": {
+            "aspect": "Sun Parallel Mercury",
+            "interpretation": "You place great importance on the mental faculty but may yourself be quite nervous and temperamental. Fixing the world's problems starts with fixing your own physical and psychological instability. Once this is achieved, you are able to offer others a clarity of vision that is quite helpful in sorting out the details of normal cause and effect — in your life and in the lives of others."
+          },
+          "sun_parallel_venus": {
+            "aspect": "Sun Parallel Venus",
+            "interpretation": "You like to put your whole heart into whatever you do. In the long run your winning attitude and positive approach to life brings you prominence — by endurance if nothing else."
+          },
+          "sun_parallel_mars": {
+            "aspect": "Sun Parallel Mars",
+            "keywords": ["willpower", "physical vitality", "assertive identity", "drive to achieve"]
+          },
+          "sun_parallel_jupiter": {
+            "aspect": "Sun Parallel Jupiter",
+            "keywords": ["confident optimism", "generosity", "natural leadership", "expansive self-expression"]
+          },
+          "sun_parallel_saturn": {
+            "aspect": "Sun Parallel Saturn",
+            "keywords": ["disciplined identity", "structured ambition", "sense of duty", "maturity through effort"]
+          },
+          "sun_parallel_uranus": {
+            "aspect": "Sun Parallel Uranus",
+            "keywords": ["original self-expression", "independence", "inventive identity", "unconventional path"]
+          },
+          "sun_parallel_neptune": {
+            "aspect": "Sun Parallel Neptune",
+            "keywords": ["idealistic identity", "creative vision", "spiritual purpose", "sensitive self-expression"]
+          },
+          "sun_parallel_pluto": {
+            "aspect": "Sun Parallel Pluto",
+            "keywords": ["intense identity", "transformative willpower", "magnetic authority", "compulsive drive"]
+          },
+          "sun_parallel_midheaven": {
+            "aspect": "Sun Parallel Midheaven",
+            "interpretation": "A certain sparkle comes from you when you are in a position of authority. You are drawn toward circumstances that increase your responsibility. As long as you are aware that you attract obligations in the process of moving upward in social status, the amount of public visibility you receive is by conscious design. This gives you a feeling of control and choice."
+          }
+        },
+
+        "moon_aspects": {
+          "moon_parallel_mercury": {
+            "aspect": "Moon Parallel Mercury",
+            "interpretation": "The mode of your communication is emotional. You have a mind that can easily absorb the basic messages from the environment and give out the feeling of being generally interested in everything. You have the ability to convey some aspect of your personality with every bit of information you release."
+          },
+          "moon_parallel_venus": {
+            "aspect": "Moon Parallel Venus",
+            "keywords": ["emotional warmth", "nurturing affection", "sensitivity to beauty", "harmonious feelings"]
+          },
+          "moon_parallel_mars": {
+            "aspect": "Moon Parallel Mars",
+            "keywords": ["emotional drive", "instinctive action", "passionate feelings", "protective instinct"]
+          },
+          "moon_parallel_jupiter": {
+            "aspect": "Moon Parallel Jupiter",
+            "keywords": ["emotional generosity", "nurturing optimism", "intuitive growth", "expansive feelings"]
+          },
+          "moon_parallel_saturn": {
+            "aspect": "Moon Parallel Saturn",
+            "keywords": ["emotional discipline", "reserved sensitivity", "structured inner world", "cautious nurturing"]
+          },
+          "moon_parallel_uranus": {
+            "aspect": "Moon Parallel Uranus",
+            "keywords": ["emotional independence", "instinctive originality", "unpredictable moods", "freedom in feelings"]
+          },
+          "moon_parallel_neptune": {
+            "aspect": "Moon Parallel Neptune",
+            "keywords": ["psychic sensitivity", "emotional idealism", "vivid dreams", "compassionate nature"]
+          },
+          "moon_parallel_pluto": {
+            "aspect": "Moon Parallel Pluto",
+            "interpretation": "Your instinctive consciousness is attuned to a vastness of symbols that gives you a compulsively driven nature. You have a need to replicate patterns that you saw around you when you were quite young in order to feel comfortable. This can give your family of origin an inordinate influence in your life as an adult, but you will study this feature of yourself and work at freeing yourself from your past. This gives you a mechanism for self-transformation."
+          },
+          "moon_parallel_north_node": {
+            "aspect": "Moon Parallel North Node of the Moon",
+            "interpretation": "You quite naturally connect with a deep quality in other people's emotional nature. When you are at your best, you have the capacity to put other people at ease. You develop the most progressive aspects of your nature through the manner in which you deal with family issues."
+          }
+        },
+
+        "mercury_aspects": {
+          "mercury_parallel_venus": {
+            "aspect": "Mercury Parallel Venus",
+            "keywords": ["charming communication", "aesthetic thinking", "graceful expression", "pleasing speech"]
+          },
+          "mercury_parallel_mars": {
+            "aspect": "Mercury Parallel Mars",
+            "keywords": ["sharp mind", "assertive communication", "mental drive", "quick thinking"]
+          },
+          "mercury_parallel_jupiter": {
+            "aspect": "Mercury Parallel Jupiter",
+            "keywords": ["expansive intellect", "philosophical thinking", "broad learning", "optimistic communication"]
+          },
+          "mercury_parallel_saturn": {
+            "aspect": "Mercury Parallel Saturn",
+            "keywords": ["disciplined thinking", "methodical mind", "structured communication", "serious intellect"]
+          },
+          "mercury_parallel_uranus": {
+            "aspect": "Mercury Parallel Uranus",
+            "keywords": ["inventive mind", "original thinking", "quick insight", "unconventional ideas"]
+          },
+          "mercury_parallel_neptune": {
+            "aspect": "Mercury Parallel Neptune",
+            "keywords": ["imaginative thinking", "intuitive communication", "poetic mind", "psychic perception"]
+          },
+          "mercury_parallel_pluto": {
+            "aspect": "Mercury Parallel Pluto",
+            "keywords": ["penetrating intellect", "obsessive research", "transformative thinking", "probing communication"]
+          }
+        },
+
+        "venus_aspects": {
+          "venus_parallel_mars": {
+            "aspect": "Venus Parallel Mars",
+            "keywords": ["magnetic attraction", "romantic and sexual harmony", "passionate love nature", "natural chemistry"]
+          },
+          "venus_parallel_jupiter": {
+            "aspect": "Venus Parallel Jupiter",
+            "keywords": ["generous affection", "abundant love", "joyful relationships", "artistic expansion"]
+          },
+          "venus_parallel_saturn": {
+            "aspect": "Venus Parallel Saturn",
+            "keywords": ["loyal affection", "committed relationships", "structured love", "disciplined beauty"]
+          },
+          "venus_parallel_uranus": {
+            "aspect": "Venus Parallel Uranus",
+            "keywords": ["unconventional love", "freedom in relationships", "original aesthetics", "exciting attraction"]
+          },
+          "venus_parallel_neptune": {
+            "aspect": "Venus Parallel Neptune",
+            "keywords": ["idealized love", "spiritual affection", "romantic imagination", "compassionate beauty"]
+          },
+          "venus_parallel_pluto": {
+            "aspect": "Venus Parallel Pluto",
+            "keywords": ["intense love", "magnetic attraction", "transformative relationships", "obsessive affection"]
+          }
+        },
+
+        "deep_sensitivity_note": {
+          "note": "There is a deep sensitivity within those with strong parallel aspects to the affairs of others, and this can at times upset their equilibrium."
+        }
+      }
+    },
+
+    "vertex_in_astrology": {
+      "title": "Vertex in Astrology",
+      "source_url": "http://www.siddhantika.com/interpretations/vertex-in-astrology",
+      "category": "Sensitive Points / Chart Angles",
+
+      "overview": {
+        "definition": "The Vertex is a point located in the western hemisphere of a chart (the right-hand side) that represents the intersection of the ecliptic and the prime vertical. In astrology, it is considered an auxiliary Descendant.",
+        "anti_vertex": "The Anti-Vertex is the point that is exactly opposite the Vertex, found on the eastern side of the chart.",
+        "technical_description": "The vertex/anti-vertex is theoretical to the same degree that the Ascendant and Midheaven are. The Ascendant is where the ecliptic intersects the horizon; the Vertex is where the ecliptic intersects the prime vertical.",
+        "symbol": "Vx",
+        "third_angle": "Some astrologers refer to the Vertex as the 'third angle' of a chart.",
+        "house_position": "The Vertex falls usually between the fifth and eighth houses, on the western side of the chart. The Anti-Vertex is 180 degrees opposite.",
+        "birth_time_required": "As with the Ascendant and Midheaven, an exact birth time is necessary to calculate the Vertex. There is no point working with it without one.",
+        "debate": "Use of the Vertex in astrology is debated — some astrologers swear by it, others question its validity.",
+        "general_associations": [
+          "Karmic or fated connection",
+          "Point of wish fulfillment",
+          "Activated at major turning points in life",
+          "Most notably activated when meeting a significant other or ending a significant relationship",
+          "Some believe it is triggered when there is a birth or death"
+        ]
+      },
+
+      "esoteric_interpretation": {
+        "occidental_side": "The occidental (right/western) side of the horoscope is co-dependent and other-directed, so the Vertex represents characteristics, attributes, qualities, and skills to be cultivated in this lifetime through the demand and urging of other people.",
+        "esoteric_theory": "In esoteric astrology, the Vertex may indicate the Ray energy to be cultivated in this lifetime — a shift in the personality, astral, or mental body.",
+        "transits_and_progressions": "When there are transits or progressed aspects to the Vertex, the qualities of the Vertex sign will be emphasized.",
+        "favorable_aspects": "Under favorable aspects, we are drawn by people (indicated by House position) to express the aptitudes of the Vertex sign.",
+        "afflicted_aspects": "Under afflictions, we seem to have problems with the Vertex sign energy."
+      },
+
+      "activations": {
+        "three_triggers": ["Transits", "People", "Places"],
+        "transits": {
+          "description": "Transits to the Vertex can bring inner and outer events corresponding to a pivotal point, a significant encounter with another, or a sudden change of perception.",
+          "orb_advice": "Keeping orbs tight and sticking mainly to the conjunction will bring more consistent results.",
+          "conjunction_vs_trine": "A transiting conjunction from Mars would likely be more noticeable than a transiting trine from Uranus, although sometimes that is not the case.",
+          "magnitude": "The magnitude of the effect depends on the prominence of the Vertex itself, its relationship to other factors in the chart, and the occurrence of other transits.",
+          "outer_planet_timing": {
+            "jupiter": "Every ~12 years",
+            "saturn": "Every ~28-29 years",
+            "uranus": "Every ~84 years",
+            "neptune_pluto": "May never conjunct the Vertex in a single lifetime"
+          }
+        },
+        "people_synastry": {
+          "description": "When one person's inner planets or asteroids (Sun through Jupiter), angles, nodes, Vertex, or certain Arabic parts conjunct the Vertex, there can be a feeling of fate, destiny, or rightness/wrongness about the encounter.",
+          "effect": "Something in the contact with that person may have the ability to create profound change in the native, over a long or short period of time.",
+          "conjunction_vs_opposition": "The change may be perceived as pleasing or acrimonious — the conjunction often reflecting the former, the opposition the latter.",
+          "yin_yang_connections": "When someone's Sun or Moon conjuncts another person's Vertex, it suggests a deep, significant relationship that feels fated — often transformative, pushing both toward personal growth and greater self-awareness.",
+          "not_always_romantic": "Vertex-activated relationships are not always romantic — they can also indicate profound friendships, mentor-mentee relationships, or pivotal encounters with strangers."
+        },
+        "places_relocation": {
+          "description": "Our location on the planet can awaken the Vertex as seen through relocation charts and astrocartography. When we relocate, the Vertex may become more prominent by changing house or aspect to an angle.",
+          "relocation_vertex": "The relocation Vertex can signify places where meaningful encounters of a particular nature seem to happen more consistently."
+        }
+      },
+
+      "house_axis_interpretations": {
+        "description": "The house positions of the Vertex/Anti-Vertex offer clues as to where turning points, meetings with destiny, or fateful encounters are likely to occur in life.",
+        "axes": [
+          {
+            "axis": "5th / 11th House",
+            "vertex_in_5th": "Fateful romantic or creative encounters (5th house)",
+            "anti_vertex_in_11th": "Through contacts with friends or groups (11th house)"
+          },
+          {
+            "axis": "6th / 12th House",
+            "vertex_in_6th": "The turning point could affect day-to-day living or the link between psyche and soma (6th house)",
+            "anti_vertex_in_12th": "Through contact with those in the helping professions, those less fortunate, or through dreams and creative fantasies (12th house)"
+          },
+          {
+            "axis": "7th / 1st House",
+            "vertex_in_7th": "Sudden epiphanies could radically affect socially significant partnerships (7th house)",
+            "anti_vertex_in_1st": "Through an experience of projecting ourselves out into the world (1st house)"
+          },
+          {
+            "axis": "8th / 2nd House",
+            "vertex_in_8th": "Fated encounters touching themes of shared resources, death, sexuality, and transformation",
+            "anti_vertex_in_2nd": "Affecting personal values, self-worth, and material resources"
+          }
+        ]
+      },
+
+      "vertex_in_signs": {
+        "aries": "Fated encounters with assertive, independent individuals; destiny linked to courage and leadership",
+        "taurus": "Fated encounters through stability, beauty, and resources; destiny linked to material and sensory values",
+        "gemini": "Fated encounters through communication, learning, and connection; destiny linked to mental agility",
+        "cancer": "Fated encounters through home, family, and emotional bonds; destiny linked to nurturing and belonging",
+        "leo": "Fated encounters through creativity, romance, and self-expression; destiny linked to heart-centered leadership",
+        "virgo": "Fated encounters through service, health, and analysis; destiny linked to discernment and refinement",
+        "libra": "Fated encounters through partnership, balance, and beauty; destiny linked to cooperation and fairness",
+        "scorpio": "Fated encounters through intensity, transformation, and depth; destiny linked to power and rebirth",
+        "sagittarius": "Fated encounters through philosophy, travel, and expansion; destiny linked to truth and freedom",
+        "capricorn": "Fated encounters through ambition, authority, and structure; destiny linked to mastery and responsibility",
+        "aquarius": "Fated encounters through groups, innovation, and humanity; destiny linked to collective progress",
+        "pisces": "Fated encounters through compassion, spirituality, and dissolution; destiny linked to transcendence"
+      },
+
+      "vertex_in_synastry": {
+        "description": "The Vertex is perhaps most widely used in synastry. It is often activated during major relationship milestones and can indicate soul connections and karmic relationships.",
+        "key_connections": [
+          "One person's planet conjunct the other's Vertex",
+          "Vertex conjunct Ascendant, Descendant, Midheaven, or IC",
+          "Inner planets (Sun through Jupiter) conjunct the Vertex",
+          "Nodes conjunct the Vertex"
+        ],
+        "vertex_vs_nodes": "While the Nodes represent the soul's karmic journey and lessons over a lifetime, the Vertex highlights external, often surprising events that act as catalysts for growth.",
+        "orb_advice": "Conjunctions are the most powerful. Squares and oppositions can also be significant, highlighting challenges and opportunities for growth."
+      },
+
+      "progressions_to_vertex": {
+        "description": "Progressions reveal how the natal chart changes over time. Progressed planets — especially the progressed Moon — can bring transformative energy when they conjunct the Vertex.",
+        "solar_return": "If a planet in the solar return chart aligns with the natal Vertex, it highlights themes of connection and transformation for that year.",
+        "note": "Students are encouraged to consider progressions, converse progressions, and directions, in addition to transits."
+      }
+    },
+
+    "semi_sextile_aspects": {
+      "title": "Semi-Sextile Aspects in Natal Charts",
+      "source_url": "http://www.siddhantika.com/interpretations/semi-sextile-aspects",
+      "category": "Minor Aspects",
+
+      "overview": {
+        "description": "The semi-sextile is a minor aspect of 30 degrees, formed when two planets are one sign apart. It is a gentle, subtle aspect that tends to operate quietly in the background of the personality.",
+        "degrees": 30,
+        "nature": "Minor / subtle",
+        "relationship_to_adjacent_signs": "Because semi-sextile planets are always in adjacent signs, they are in signs of different elements and modalities, creating a mild friction that is neither harmonious like a sextile nor challenging like a square."
+      },
+
+      "planet_aspects": {
+        "sun_aspects": {
+          "sun_semi_sextile_moon": {
+            "aspect": "Sun Semi-Sextile Moon",
+            "interpretation": "You instinctively gravitate towards situations and environments that are well-balanced, and you veer away from melodrama, emotionalism, male chauvinism, and other extremes."
+          },
+          "sun_semi_sextile_mercury": {
+            "aspect": "Sun Semi-Sextile Mercury",
+            "interpretation": "You appreciate the ability of the human mind to develop clear and precise understanding of nature. You are a big supporter of improving educational standards, and you may also promote improved methods and standards in the education of young children."
+          },
+          "sun_semi_sextile_venus": {
+            "aspect": "Sun Semi-Sextile Venus",
+            "interpretation": "Most likely if you move into a new house or apartment, pictures will be on the walls and flowers in vases on the tables very soon. You feel very uncomfortable in environments that lack at least a small degree of charm and beauty."
+          },
+          "sun_semi_sextile_mars": {
+            "aspect": "Sun Semi-Sextile Mars",
+            "interpretation": "When you set your mind to do something, it will get done. You have the strength and sufficient energy and ambition to meet whatever obstacles you may encounter. Your strength may not be your most salient characteristic or be flamboyant, but you do have the energy and drive to effectively apply to things that are really important to you."
+          },
+          "sun_semi_sextile_jupiter": {
+            "aspect": "Sun Semi-Sextile Jupiter",
+            "interpretation": "Periodically good opportunities and benefits come to you and assist you on your path in life. These 'lucky breaks' are not frequent but they are very helpful. You are usually able to distinguish the real opportunities from the unrealistic ones or the scams."
+          },
+          "sun_semi_sextile_saturn": {
+            "aspect": "Sun Semi-Sextile Saturn",
+            "interpretation": "When you meet challenges and obstacles, you have the resourcefulness and discipline to bear down and focus on these challenges. Most likely you are not an ascetic, but you are willing to let go of comforts or habits when needed."
+          },
+          "sun_semi_sextile_uranus": {
+            "aspect": "Sun Semi-Sextile Uranus",
+            "interpretation": "You occasionally need a chance to let your hair down and be less reserved than usual. When you allow yourself the opportunity, you can be very innovative and original — perhaps more than others, and even you, thought was possible."
+          },
+          "sun_semi_sextile_neptune": {
+            "aspect": "Sun Semi-Sextile Neptune",
+            "interpretation": "You have dreams and fantasies. Whether your dreams involve travel, success, meeting certain people, or other things, they are your personal dreams. Your life will be more fulfilling if you take practical steps, even if they are very small steps, to realize these dreams. The choice is yours."
+          },
+          "sun_semi_sextile_pluto": {
+            "aspect": "Sun Semi-Sextile Pluto",
+            "interpretation": "Like many other people, you have a need to do something in life that is prompted by your deepest yearnings and intuition rather than taking the expedient and safe path. A concrete example is whether to take a secure job that pays well or pursue a career you feel compelled to pursue. These dilemmas are not unusual and there is no easy way to resolve them, but you must not ignore the voice deep within you that at times drives you to break normal routines and pursue an area you feel drawn to."
+          }
+        },
+
+        "moon_aspects": {
+          "moon_semi_sextile_mercury": {
+            "aspect": "Moon Semi-Sextile Mercury",
+            "keywords": ["emotional communication", "intuitive thinking", "sensitivity to language", "inner voice expression"]
+          },
+          "moon_semi_sextile_venus": {
+            "aspect": "Moon Semi-Sextile Venus",
+            "keywords": ["gentle affection", "emotional warmth", "aesthetic sensitivity", "soft relational style"]
+          },
+          "moon_semi_sextile_mars": {
+            "aspect": "Moon Semi-Sextile Mars",
+            "keywords": ["instinctive drive", "emotional energy", "protective assertiveness", "subtle competitive edge"]
+          },
+          "moon_semi_sextile_jupiter": {
+            "aspect": "Moon Semi-Sextile Jupiter",
+            "keywords": ["emotional generosity", "instinctive optimism", "nurturing wisdom", "broad emotional sensitivity"]
+          },
+          "moon_semi_sextile_saturn": {
+            "aspect": "Moon Semi-Sextile Saturn",
+            "interpretation": "You are not afraid of solitude. When necessary, you are content to be alone with a book, a project of some kind, or on a walk. You are not a hermit, but you have the capacity to withdraw — and this is a good and healthy quality that helps give you balance, perspective, a peaceful disposition, and wisdom."
+          },
+          "moon_semi_sextile_uranus": {
+            "aspect": "Moon Semi-Sextile Uranus",
+            "interpretation": "Like most people, you enjoy being free-spirited and childish on occasion and you enjoy zany comedy or other entertainments to periodically break the usual routine. This may not be one of your strongest or most conspicuous traits, but it is one aspect of your personality."
+          },
+          "moon_semi_sextile_neptune": {
+            "aspect": "Moon Semi-Sextile Neptune",
+            "interpretation": "You benefit greatly by periodically giving yourself time to be in an inspirational environment — whether that be a church, a beautiful natural setting, or by listening to beautiful music."
+          },
+          "moon_semi_sextile_pluto": {
+            "aspect": "Moon Semi-Sextile Pluto",
+            "keywords": ["deep emotional undercurrents", "instinctive transformation", "subtle compulsive patterns", "unconscious power"]
+          }
+        },
+
+        "mercury_aspects": {
+          "mercury_semi_sextile_venus": {
+            "aspect": "Mercury Semi-Sextile Venus",
+            "keywords": ["graceful communication", "aesthetic appreciation in thinking", "charming speech", "pleasing ideas"]
+          },
+          "mercury_semi_sextile_mars": {
+            "aspect": "Mercury Semi-Sextile Mars",
+            "keywords": ["assertive thinking", "direct communication", "mental initiative", "sharp debate"]
+          },
+          "mercury_semi_sextile_jupiter": {
+            "aspect": "Mercury Semi-Sextile Jupiter",
+            "keywords": ["broad thinking", "philosophical curiosity", "educational interest", "optimistic communication"]
+          },
+          "mercury_semi_sextile_saturn": {
+            "aspect": "Mercury Semi-Sextile Saturn",
+            "keywords": ["disciplined thinking", "careful communication", "methodical analysis", "structured ideas"]
+          },
+          "mercury_semi_sextile_uranus": {
+            "aspect": "Mercury Semi-Sextile Uranus",
+            "keywords": ["inventive mind", "sudden insights", "unconventional thinking", "mental originality"]
+          },
+          "mercury_semi_sextile_neptune": {
+            "aspect": "Mercury Semi-Sextile Neptune",
+            "keywords": ["imaginative thinking", "dreamy communication", "psychic perception", "poetic mind"]
+          },
+          "mercury_semi_sextile_pluto": {
+            "aspect": "Mercury Semi-Sextile Pluto",
+            "keywords": ["penetrating mind", "obsessive research", "investigative thinking", "subtle mental power"]
+          }
+        },
+
+        "venus_aspects": {
+          "venus_semi_sextile_mars": {
+            "aspect": "Venus Semi-Sextile Mars",
+            "keywords": ["subtle sexual tension", "gentle romantic drive", "mild attraction", "soft chemistry"]
+          },
+          "venus_semi_sextile_jupiter": {
+            "aspect": "Venus Semi-Sextile Jupiter",
+            "keywords": ["generous affection", "abundance in love", "joyful aesthetic", "expansive social nature"]
+          },
+          "venus_semi_sextile_saturn": {
+            "aspect": "Venus Semi-Sextile Saturn",
+            "keywords": ["loyal love", "reserved affection", "structured beauty", "committed values"]
+          },
+          "venus_semi_sextile_uranus": {
+            "aspect": "Venus Semi-Sextile Uranus",
+            "keywords": ["unconventional tastes", "need for freedom in love", "original aesthetic", "subtle excitement"]
+          },
+          "venus_semi_sextile_neptune": {
+            "aspect": "Venus Semi-Sextile Neptune",
+            "keywords": ["idealized love", "romantic imagination", "spiritual affection", "subtle enchantment"]
+          },
+          "venus_semi_sextile_pluto": {
+            "aspect": "Venus Semi-Sextile Pluto",
+            "keywords": ["subtle intensity in love", "transformative values", "magnetic attraction", "quiet obsession"]
+          }
+        },
+
+        "mars_aspects": {
+          "mars_semi_sextile_jupiter": {
+            "aspect": "Mars Semi-Sextile Jupiter",
+            "keywords": ["energetic optimism", "driven expansion", "subtle ambition", "athletic enthusiasm"]
+          },
+          "mars_semi_sextile_saturn": {
+            "aspect": "Mars Semi-Sextile Saturn",
+            "keywords": ["disciplined drive", "cautious action", "structured initiative", "patient assertiveness"]
+          },
+          "mars_semi_sextile_uranus": {
+            "aspect": "Mars Semi-Sextile Uranus",
+            "keywords": ["sudden action", "inventive drive", "unconventional initiative", "restless energy"]
+          },
+          "mars_semi_sextile_neptune": {
+            "aspect": "Mars Semi-Sextile Neptune",
+            "keywords": ["inspired action", "subtle drive", "spiritual energy", "motivated by ideals"]
+          },
+          "mars_semi_sextile_pluto": {
+            "aspect": "Mars Semi-Sextile Pluto",
+            "keywords": ["intense drive", "subtle power struggles", "compulsive action", "transformative energy"]
+          }
+        },
+
+        "sun_semi_sextile_pluto_extended": {
+          "note": "The Sun semi-sextile Pluto calls on a need to do something prompted by deepest yearnings rather than taking the expedient or safe path. The tension between the secure choice and the compelled choice is a recurring theme — and must not be ignored."
+        },
+
+        "moon_semi_sextile_neptune_extended": {
+          "note": "Periodically seeking time in an inspirational environment — a church, a beautiful natural setting, or beautiful music — greatly benefits those with Moon semi-sextile Neptune. Your life will be more fulfilling when you take practical steps, even very small ones, to realize your dreams. The choice is yours."
+        }
+      },
+
+      "key_principles": [
+        "The semi-sextile is a minor aspect operating subtly in the background of the personality",
+        "Planets in semi-sextile are always in adjacent signs — different elements and modalities — creating mild friction",
+        "The effect is gentle and often overlooked, but can add nuance to character",
+        "Semi-sextile interpretations represent latent tendencies that may not be obvious without careful chart analysis",
+        "All semi-sextile interpretations should be considered within the context of the full natal chart"
+      ]
+    }
+  }
+}

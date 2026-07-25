@@ -1,0 +1,3528 @@
+(c) Copyright 2006 Hamish Saunders and Angela Thomas
+All rights reserved
+
+========================
+DIRECTED TO NATAL MIDPOINTS
+INTERPRETATIONS RESOURCE
+========================
+
+IMPORTANT
+---------
+Use 10pt Courier New font to edit this resource.
+Do not use tab spaces, bold, italic or underline characters.
+Do not use bullets.
+Only left alignment is allowed.
+Only standard alpha-numeric characters are allowed.
+
+Valid Planet Names and their order
+----------------------------------
+Earth, Sun, Moon, Mercury, Venus, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto
+Moon's North Node, Moon's South Node
+Ascendant, Midheaven, Vertex, East Point,
+Co-Ascendant, Polar Ascendant
+Chiron, Ceres, Pallas, Juno, Vesta
+Vulcan, Cupido, Hades, Zeus, Kronos, Apollon, Admetos, Vulkanus, Poseidon, Transpluto
+Part of Fortune, Bary Centre, Galactic Centre
+Black Moon, Priapus, Black Sun, Diamond, Vernal Point.
+
+Format
+------
+Refer to Janus Help index (edit / interpretations)
+for more information.
+
+Style
+-----
+planet = midpoint axis (planet/planet)
+
+
+
+
+----Sun midpoints
+
+
+#Sun = Moon/Mercury
+Perceptive and observant. Intellectual creativity and flexibility. The ability to relate well to others. Business activity.
+$End
+
+#Sun = Moon/Venus
+Doing things from the heart and with feeling. An attentive and affectionate nature. Forming close personal connections with others. Artistic creativity.
+$End
+
+#Sun = Moon/Mars
+Emotionally direct and honest. The need to be busy and active. Industrious and fruitful activity. Supportive and productive partnerships.
+$End
+
+#Sun = Moon/Jupiter
+A positive and confident manner. Opportunities for advancement. High expectations. Social and material advantages.
+$End
+
+#Sun = Moon/Saturn
+Self-reliant and self-sufficient. Feelings of isolation or standing alone in life. The necessity to take responsibility for self and actions.
+$End
+
+#Sun = Moon/Uranus
+Strong-willed, defiant and reactive tendencies. Spontaneous and unpredictable [behaviour,behavior]. The desire to [realise,realize] personal objectives at all cost. Changeable emotional states. Nervous tension.
+$End
+
+#Sun = Moon/Neptune
+Physical sensitivity. Depleted energy or reduced motivation. The undermining of relationships. A receptivity to spiritual and psychic influences. Inspired creativity.
+$End
+
+#Sun = Moon/Pluto
+Intense and single-minded objectives. Obsessive or fanatical inclinations. Reactive and compulsive tendencies which can lead to relationship difficulties. Emotional manipulation. Power struggles.
+$End
+
+#Sun = Moon/Moon's North Node
+Assuming leadership roles within unions. Cultivating personal ties. Adaptability within relationships. Productive activity; creative and fruitful teamwork.
+$End
+
+#Sun = Moon/Ascendant
+Assessing and responding to the needs of others. Cultivating personal connections. Sensitivity to environmental influences.
+$End
+
+#Sun = Moon/Midheaven
+Instinctively knowing what course of action to take in a given situation. Acknowledging the influence of important people in the [realisation,realization] of personal objectives.
+$End
+
+#Sun = Mercury/Venus
+Visually and aesthetically aware; artistic understanding. An enjoyment of social activity. Flirtatiousness. Discussions about love or art.
+$End
+
+#Sun = Mercury/Mars
+Mental alertness. An active and restless mind. Direct in dealing with people. Argumentativeness within self or others. Critical and abrupt in manner.
+$End
+
+#Sun = Mercury/Jupiter
+An expressive and lucid communicator. A hearty sense of [humour,humor]. Exposure to a wide range of experiences. Opportunities for advancement. Can be prone to big ideas and exaggeration.
+$End
+
+#Sun = Mercury/Saturn
+A realistic outlook on life. Serious and inflexible thinking. An inclination to think and say bad things. Difficulty expressing self.
+$End
+
+#Sun = Mercury/Uranus
+Original and intuitive thinking. Intellectual flexibility. Mentally alert and astute. An interest in reforms and innovations. Open to new and progressive ideas or methods. [Impulsive and unpredictable behaviour,behavior].
+$End
+
+#Sun = Mercury/Neptune
+Imaginative and creative thinking and writing. The ability to become inspired. Instinctive decision making. Potential misunderstandings and misconceptions.
+$End
+
+#Sun = Mercury/Pluto
+Persuasive and effective communication. The ability to win people over through speech or writing. Intense discussions or arguments.
+$End
+
+#Sun = Mercury/Moon's North Node
+Establishing connections with like-minded people. A desire for mentally stimulating contacts. Shared interests and ideologies. Business affairs.
+$End
+
+#Sun = Mercury/Ascendant
+A busy personal and work environment. Active discussions and negotiations. Business activity.
+$End
+
+#Sun = Mercury/Midheaven
+Thinking about personal or professional objectives. Considering and discussing viable options with others.
+$End
+
+#Sun = Venus/Mars
+A passionate nature. The power of attraction. Sexual magnetism. Adventures in love. Creative flair - artistic skill or appreciation.
+$End
+
+#Sun = Venus/Jupiter
+An attractive and appealing personality. Being well-liked by others. Successful and fortunate connections. Materialistic tendencies. Disadvantages through self-indulgence and extravagance.
+$End
+
+#Sun = Venus/Saturn
+Difficulties in love. The inability to feel completely satisfied. Feelings of emotional loneliness. Separative influences.
+$End
+
+#Sun = Venus/Uranus
+Free-spirited. Physical and emotional excitability. Passing attractions. Unexpected experiences in love. Artistic originality. Bursts of creativity.
+$End
+
+#Sun = Venus/Neptune
+A highly romantic nature. Idealistic notions with regards to love and partnerships. Secret desires and wishes. Unrealistic expectations. Potential artistic inspiration.
+$End
+
+#Sun = Venus/Pluto
+Sexual magnetism. Compulsive tendencies and desires. Intensity of feeling. Potential power struggles in relationships.
+$End
+
+#Sun = Venus/Moon's North Node
+A warm-hearted and vibrant nature towards others. The ability to cultivate harmonious and pleasant connections. Enjoying the company of creative people.
+$End
+
+#Sun = Venus/Ascendant
+An attractive and appealing personality. Expressions of love and affection with others. Harmonious relationships.
+$End
+
+#Sun = Venus/Midheaven
+Harmonious self-expression. Personal charm and appeal. A positive self-image. An aesthetic sense. Social activity.
+$End
+
+#Sun = Mars/Jupiter
+Self-motivation and initiative. Enterprising and constructive activity. Success through own efforts. Feeling fulfilled.
+$End
+
+#Sun = Mars/Saturn
+Weakened willpower and energy. Subjection to tests of strength and endurance. Challenging experiences. Laborious activity. Increased responsibilities. Separative influences.
+$End
+
+#Sun = Mars/Uranus
+Quick reflexes, actions and reactions. Sudden bursts of energy and motivation. A risk taker. Potential injury and accident proneness.
+$End
+
+#Sun = Mars/Neptune
+Difficulty meeting challenges. A lack of motivation and resilience. The tendency to give up easily. Exposure to deceptive influences. Susceptible to intoxicants.
+$End
+
+#Sun = Mars/Pluto
+The desire to achieve specific goals. High motivation. Compulsive inclinations. The capability to work long hours. Physical stamina. The tendency to proceed in a forceful or pushy manner.
+$End
+
+#Sun = Mars/Moon's North Node
+The desire to join forces with others. Competing with or against other people. Difficulties in associations caused by arrogance or ego clashes.
+$End
+
+#Sun = Mars/Ascendant
+Displaying a direct and assertive personality. Ambitious and motivated to achieve personal desires. Aggressive and reactive tendencies. Potential conflict.
+$End
+
+#Sun = Mars/Midheaven
+A competitive nature. The ability to delegate or instruct. Personal or professional ambition. A risk of damaging reputation through arrogant acts.
+$End
+
+#Sun = Jupiter/Saturn
+Fluctuating levels of confidence. Difficulty maintaining positions of power and authority. Knowing when to move on; to exit from a situation or depart.
+$End
+
+#Sun = Jupiter/Uranus
+An eagerness for new and stimulating experiences. Resourceful and mentally flexible. Sudden opportunities and successes. Applying new ideas and techniques successfully. Intuitiveness.
+$End
+
+#Sun = Jupiter/Neptune
+Idealistic motivations. High hopes and expectations. The ability to inspire or to be inspired. Fluctuating vitality and weakened resolve. Potential gullibility and naivety.
+$End
+
+#Sun = Jupiter/Pluto
+Aspiring to positions of influence or prominence. The pursuit of achievement and success. A risk of losses through arrogance or greed.
+$End
+
+#Sun = Jupiter/Moon's North Node
+An ease of self-expression in the company of others. The capability to readily integrate and to be a vital member of a group or association. Alliances which further personal objectives.
+$End
+
+#Sun = Jupiter/Ascendant
+Making a good impression on others. Self-confident and self-promoting. A generous spirit. Furthering personal interests. Affluent connections.
+$End
+
+#Sun = Jupiter/Midheaven
+[Recognising,Recognizing] a good thing and when to act on it. An excellent sense of timing. Lucrative ventures. Successful decisions. Affluent contacts.
+$End
+
+#Sun = Saturn/Uranus
+Strong inner and physical tensions. The urge to be free of imposed restraints. Confronting others and being confronted. Sudden losses and separations. Accident proneness.
+$End
+
+#Sun = Saturn/Neptune
+Fluctuating levels of vitality and motivation. Innate sensitivity. A susceptibility to inner and external influences. A sacrificing nature.
+$End
+
+#Sun = Saturn/Pluto
+Facing personal tests and difficulties. Gaining experience through overcoming obstacles. Inflexibility; taking a hard-line approach. A loss or separation.
+$End
+
+#Sun = Saturn/Moon's North Node
+Reclusive tendencies. Difficulty integrating with others. Expressing or experiencing negative attitudes in company. Taking on positions of responsibility. Potential estrangements.
+$End
+
+#Sun = Saturn/Ascendant
+A serious outlook. Reserve and restraint in the presence of others. Feeling compromised and frustrated. Circumstantial limitations and restrictions. Testing experiences. Separative influences.
+$End
+
+#Sun = Saturn/Midheaven
+Self-reliance. A strong sense of purpose. Difficulties in career or vocation. Testing experiences. Separative influences.
+$End
+
+#Sun = Uranus/Neptune
+Inspiration. Physical sensitivity. The tendency to become suddenly drained of energy. Fluctuating willpower. Instability.
+$End
+
+#Sun = Uranus/Pluto
+Resourcefulness. The ability to work under pressure. A willingness to try new things. Restlessness and impatience. Sudden or unsettling incidents. A proneness to physical exhaustion and stress.
+$End
+
+#Sun = Uranus/Moon's North Node
+Progressive and influential alliances. Associating stimulating and original people. Changeable connections. Sudden or unexpected incidents within relationships or within groups of people.
+$End
+
+#Sun = Uranus/Ascendant
+Quick responses and reflexes. The tendency to be constantly on the go and mobile. A stimulating personal environment. Association with interesting and progressively-minded people.
+$End
+
+#Sun = Uranus/Midheaven
+An innovative nature. Exercising strong willpower in order to achieve goals and objectives. Physical restlessness. The tendency to become agitated suddenly.
+$End
+
+#Sun = Neptune/Pluto
+Physical sensitivity. Fluctuating energy levels. States of confusion; weakness of will. Psychic awareness and perception. A creative intelligence. Imaginative and inspired activity.
+$End
+
+#Sun = Neptune/Moon's North Node
+Inspiring others and being inspired. Sensitivity and empathy within relationships. Unrealistic expectations of others. Potential disappointments.
+$End
+
+#Sun = Neptune/Ascendant
+Physical sensitivity. Being susceptible to environmental influences. The tendency to yield easily - or go along with things. The state of feeling vulnerable and exposed. A risk of being undermined or [victimised,victimized] by others.
+$End
+
+#Sun = Neptune/Midheaven
+Professional dissatisfaction or despondency. Weakened vitality and willpower. Confusion and uncertainty. Disillusionment with authority figures.
+$End
+
+#Sun = Pluto/Moon's North Node
+Assuming leading and dominant positions in relationships or groups. Contending with forceful people. Intense personal relationships. Potential power struggles.
+$End
+
+#Sun = Pluto/Ascendant
+Personal magnetism and charisma. The ability to make an impact on others. The desire to take charge or control of the environment. Potential power struggles and confrontations.
+$End
+
+#Sun = Pluto/Midheaven
+The motivation to succeed and to gain recognition. [Specialised,Specialized] areas of interest and [expertise,expertize]. Domineering [behaviour,behavior] in self or others. Compulsive and manipulative tendencies.
+$End
+
+#Sun = Moon's North Node/Ascendant
+Cultivating influential relationships. Shared interests and experiences. Forming important social connections.
+$End
+
+#Sun = Moon's North Node/Midheaven
+Initiating contacts with important people. Cultivating connections with those who share mutual goals and ambitions. Influential relationships.
+$End
+
+#Sun = Ascendant/Midheaven
+The desire for acknowledgement and recognition. Self-confidence. Taking pride in personal achievements. Being conscious of health and vitality. Contacts with influential people.
+$End
+
+
+
+----Moon midpoints
+
+
+#Moon = Sun/Mercury
+Sharing impressions, thoughts and feelings with others. Cultivating an emotional rapport and an ease of communication.
+$End
+
+#Moon = Sun/Venus
+An attractive and alluring personality. Feelings of love and devotion. An enjoyment of social activity. The tendency to over-indulge in the good things in life.
+$End
+
+#Moon = Sun/Mars
+Self-motivation. Taking care of others and situations effectively. Productiveness. Emotionally reactive or aggressive tendencies.
+$End
+
+#Moon = Sun/Jupiter
+Feeling positive and happy. Giving and receiving support and encouragement. A sense of harmony in domestic and family life. Emotional and physical well-being.
+$End
+
+#Moon = Sun/Saturn
+Self-reliance. Serious experiences and difficulties in family life. A feeling of duty and responsibility. Emotional and physical estrangements.
+$End
+
+#Moon = Sun/Uranus
+An intuitive and perceptive nature. Adapting to changeable circumstances. Contending with the unexpected. Agitation and anxiety.
+$End
+
+#Moon = Sun/Neptune
+Inspiring others and being inspired. A vivid imagination. The need for personal connection with others. Feeling confused and uncertain. Insecurity. A sensitive constitution.
+$End
+
+#Moon = Sun/Pluto
+An intense emotional life. Feeling at the mercy of powerful forces or people. Family and domestic dramas. Dominating personalities. Manipulating others or being manipulated.
+$End
+
+#Moon = Sun/Moon's North Node
+Forming and cultivating important personal connections. Supportive relationships. The ability to deal with the public and cater to people's needs.
+$End
+
+#Moon = Sun/Ascendant
+Contacts with important and influential people. Being supported and supporting others in the pursuit of goals and ambitions. Consciousness of physical health and emotional well-being.
+$End
+
+#Moon = Sun/Midheaven
+An instinctive awareness of goals and aspirations. Forming important and supportive relationships. The need to be appreciated or acknowledged by others.
+$End
+
+#Moon = Mercury/Venus
+An attractive and pleasant manner. Attentive and sensitive to the needs of others. Expressions of affection. Discussing intimate or emotional matters. Sociability.
+$End
+
+#Moon = Mercury/Mars
+Sharp instincts. Acutely perceptive. The ability to keep a mental note of a lot of things. The need to speak out and discuss matters of personal importance.
+$End
+
+#Moon = Mercury/Jupiter
+An intelligent and fertile mind. Environments which are conducive to learning and intellectual stimulation. Instinctively making good decisions. Communicating with women and family members.
+$End
+
+#Moon = Mercury/Saturn
+Being sensitive to negative criticism. Communication difficulties and misunderstandings with others. Feeling sad and thinking about separation.
+$End
+
+#Moon = Mercury/Uranus
+Intuitively ascertaining the thoughts and feelings of others. The ability to deal with matters practically. Versatility. Receptive to new and stimulating ideas.
+$End
+
+#Moon = Mercury/Neptune
+Creative and inspired thinking. Sensitive to the opinions and moods of others. Potential misconceptions and misunderstandings with others. Dependencies.
+$End
+
+#Moon = Mercury/Pluto
+Communicating with emotional intensity. Receptive to others' opinions and persuasions. Emotional and mental power struggles. Manipulative influences. Potential family dramas.
+$End
+
+#Moon = Mercury/Moon's North Node
+Discussing emotional issues with others. Personal dialogues. Listening and responding to others. Good communication within the family circle.
+$End
+
+#Moon = Mercury/Ascendant
+Sensitivity and receptivity to the ideas and criticisms of others. Listening and responding to other people. A fluent and articulate communicator. Quickly assimilating and adapting to the needs of the environment.
+$End
+
+#Moon = Mercury/Midheaven
+A perceptive and observant nature. Drawing conclusions about people or situations. Giving and receiving support to others. Defining personal or professional objectives.
+$End
+
+#Moon = Venus/Mars
+Passionate feelings; a demonstrative nature. Attracting others and being attracted. Instinctive creativity. Fluctuating moods and desires.
+$End
+
+#Moon = Venus/Jupiter
+Supporting others and being supported by loved ones. Entertaining at home; parties and social events. Emotional contentment and happiness. Artistic appreciation and ability.
+$End
+
+#Moon = Venus/Saturn
+Difficulty achieving emotional satisfaction and intimacy. Unfulfilled emotional and physical desires. The necessity to take responsibility for personal needs.
+$End
+
+#Moon = Venus/Uranus
+A love of spontaneity. Flirtatiousness. Tendency to become suddenly bored and distracted. Emotional volatility. Sudden mood changes.
+$End
+
+#Moon = Venus/Neptune
+Emotional sensitivity. A hopeful nature. Infatuations. Being supportive and loving toward others. The need to care or feel cared for. Potential relationship disappointments.
+$End
+
+#Moon = Venus/Pluto
+Intense feelings and passions. Potential power struggles in relationships. Emotional manipulation. Possessiveness. Dramas in love and family life.
+$End
+
+#Moon = Venus/Moon's North Node
+Loving and supportive relationships. Happily taking care of others and being taken care of. Happiness and emotional contentment within personal unions.
+$End
+
+#Moon = Venus/Ascendant
+An attractive and accommodating personality. Adapting easily to the needs of others. A pleasant and responsive nature. Contacts with creative people. Sociability.
+$End
+
+#Moon = Venus/Midheaven
+Personal magnetism and attraction. A sincere and devoted nature. Connections with loving and supportive people. Intimate attachments.
+$End
+
+#Moon = Mars/Jupiter
+Emotional exuberance and confidence. Successful activity. Creativity and resourcefulness. Acting with integrity.
+$End
+
+#Moon = Mars/Saturn
+Emotional defensiveness and distrust. Contending with repressive and depressive elements. Negative mood swings. Feelings of intense frustration and inertia. Difficult and challenging personal or family dynamics.
+$End
+
+#Moon = Mars/Uranus
+Quick reflexes and reactions. The ability to sense danger and to act swiftly. Instinctively knowing when and when not to take risks. Emotional agitation and volatility. Suddenly changing energy levels.
+$End
+
+#Moon = Mars/Neptune
+Idealistic urges and motives. Fluctuating levels of self-confidence and motivation. Difficulty fending off negative energies or emotions. Moodiness and evasiveness.
+$End
+
+#Moon = Mars/Pluto
+Extreme feelings and reactions. The tendency to be pushy and domineering. The power to draw upon inner resources when security or survival is threatened. Contending with aggression or manipulation.
+$End
+
+#Moon = Mars/Moon's North Node
+Cooperative efforts. The need to foster team spirit when working together. Emotionally reactive and aggressive tendencies within associations.
+$End
+
+#Moon = Mars/Ascendant
+Emotionally reactive and confrontational. A needy and demanding personality. Arguing and sparring with others. The ability to respond quickly to threatening situations within the environment or within relationships.
+$End
+
+#Moon = Mars/Midheaven
+Acting under emotional stress. Assertive and self-promoting; the need to achieve personal goals. Emotionally reactive and combative.
+$End
+
+#Moon = Jupiter/Saturn
+Heeding cautionary instincts. Managing personal affairs wisely. Adapting to changes in relationships. Changing fortunes. Fluctuating financial circumstances.
+$End
+
+#Moon = Jupiter/Uranus
+Emotional enthusiasm and excitability. Instinctively knowing when things will turn out well - and as expected. Adapting quickly and easily to change.
+$End
+
+#Moon = Jupiter/Neptune
+A sensitive and compassionate nature. Trusting and having faith. Believing anything is possible. Taking risks without considering the consequences. Feelings of disappointment.
+$End
+
+#Moon = Jupiter/Pluto
+Passionate and emotional responses. Ambitious activity. Successful and powerful people. Materialistic tendencies.
+$End
+
+#Moon = Jupiter/Moon's North Node
+A good natured and happy soul. Sociability. Emotionally satisfying relationships. Mutually supportive ties. Adapting to the needs of others.
+$End
+
+#Moon = Jupiter/Ascendant
+An open, caring and warm-hearted personality. An appreciation of emotional honesty. Feelings of contentment. Enjoying the company of women or family members.
+$End
+
+#Moon = Jupiter/Midheaven
+High expectations. A generous and supportive nature. Displaying a positive outlook. The tendency to look on the bright side. Successful activity.
+$End
+
+#Moon = Saturn/Uranus
+Emotional restraint and frustration. Feeling compromised or restricted. Difficulty releasing inner tensions. Unsettling experiences in personal and domestic life.
+$End
+
+#Moon = Saturn/Neptune
+Acute emotional sensitivity. Introversion. Feelings of sadness and despondency. Vulnerability and insecurity. Tenuous relationships. Sacrifices.
+$End
+
+#Moon = Saturn/Pluto
+Emotional strength. The need to take responsibility for others. Contending with restrictive and repressive influences. Significant personal sacrifices. Separative influences.
+$End
+
+#Moon = Saturn/Moon's North Node
+Emotional reserve and restraint. Difficulty establishing and maintaining inner connections. Feeling excluded or cut off from others. Testing relationships. An emotional loss or separation.
+$End
+
+#Moon = Saturn/Ascendant
+Self-reliance. Emotionally reserved and cautious. The tendency to withdraw from others. Contending with difficult or restrictive environments. Unresponsiveness in self or others.
+$End
+
+#Moon = Saturn/Midheaven
+Sensitive to restrictive or controlling influences. Striving for emotional security and stability. Feeling weighed down with responsibilities. Personal sacrifices. Despondency.
+$End
+
+#Moon = Uranus/Neptune
+A tendency to rely on instinct and intuition. An active inner life and imagination. Inspirational states. [Destabilising,Destabilizing] personal and emotional experiences.
+$End
+
+#Moon = Uranus/Pluto
+Doing things with emotional intensity and conviction. Compulsive and erratic [behaviour,behavior]. Disruptive and destructive elements. Family dramas.
+$End
+
+#Moon = Uranus/Moon's North Node
+Emotional excitability within associations. Spontaneous and stimulating connections. Feeling at ease in the company of original and innovative people.
+$End
+
+#Moon = Uranus/Ascendant
+Responding to the moods of others and the environment. Spontaneous actions and reactions. A changeable and at times erratic personality. Excitability or instability in personal relationships.
+$End
+
+#Moon = Uranus/Midheaven
+A marked desire for independence. The need for variety and stimulation. The tendency to become quickly agitated and irritated. Feeling on edge and emotionally unsettled. Provoking and being provoked.
+$End
+
+#Moon = Neptune/Pluto
+A deeply sensitive nature. Perceptive and insightful. Profound [realizations,realisations]. Experiencing emotional highs and lows. Extreme reactions.
+$End
+
+#Moon = Neptune/Moon's North Node
+Empathic responses. A caring and compassionate nature. Difficulty maintaining connections at an emotional level. Instability and changeability within associations. Despondency within relationships.
+$End
+
+#Moon = Neptune/Ascendant
+An acutely sensitive personality. Instinctive and empathic responses. Difficulty warding off negative energies. The tendency to feel emotionally and physically drained. A risk of being naive.
+$End
+
+#Moon = Neptune/Midheaven
+Trusting personal instincts. Devotional and idealistic. Creative inspirations. A lack of direction and motivation. Emotional disappointments and misconceptions.
+$End
+
+#Moon = Pluto/Moon's North Node
+Profound emotional experiences. Intense feelings within relationships. Potential power struggles or manipulation in partnerships and family dynamics.
+$End
+
+#Moon = Pluto/Ascendant
+A magnetic personality. The need to feel in control of personal environments. Compulsive tendencies. Sensing potential threats or negative energies. Power struggles within relationships.
+$End
+
+#Moon = Pluto/Midheaven
+Commitment to personal and professional aspirations. Being guided by inner conviction. Extreme ambition. Intense emotional reactions or responses. Potential emotional manipulation and coercion.
+$End
+
+#Moon = Moon's North Node/Ascendant
+An accommodating and protective personality. Instinctively knowing what others need. Forming and cultivating close personal ties. Giving and receiving support in relationships.
+$End
+
+#Moon = Moon's North Node/Midheaven
+Sensitive and receptive to the needs and aspirations of others. Connecting with people who can influence and assist in the [realisation,realization] of goals and objectives. Supporting others and being supported.
+$End
+
+#Moon = Ascendant/Midheaven
+A sensitive nature; responding and adapting to the here and now. Receptive to the needs of others and the environment. Forming emotional connections with others.
+$End
+
+
+
+----Mercury midpoints
+
+
+#Mercury = Sun/Moon
+An alert and enquiring mind. Displaying a balanced perspective. Communicating with others; talking about relationship issues. Formulating plans jointly.
+$End
+
+#Mercury = Sun/Venus
+Creative thinking. Artistic trains of thought. Discussing relationship matters and heartfelt issues. Social interaction.
+$End
+
+#Mercury = Sun/Mars
+Mental activity. Presenting and defending ideas. Challenging the viewpoints of others. Physically restless. Impatience. A risk of injury in transport modes.
+$End
+
+#Mercury = Sun/Jupiter
+A positive and optimistic outlook. Confidence in personal skills and abilities. Far-reaching prospects. [Recognising,Recognizing] opportunities. Mobility.
+$End
+
+#Mercury = Sun/Saturn
+Viewing life seriously or realistically. Sober [realisations,realizations]. A risk of alienating self through negative attitudes.
+$End
+
+#Mercury = Sun/Uranus
+Mental activity and stimulation. Exploring new ideas. Cleverness and ingenuity. Making decisions intuitively. Assessing and assimilating situations quickly. $End
+
+#Mercury = Sun/Neptune
+Inspired and imaginative thinking. Idealistic trains of thought. Perceptive and insightful. Sensitive to the thoughts and opinions of others. Potential misunderstandings.
+$End
+
+#Mercury = Sun/Pluto
+Deep and insightful thinking. Intensive focus and sustained mental application. An influential communicator. Dictating to others or being dictated to.
+$End
+#Mercury = Sun/Moon's North Node
+Forming interesting and stimulating connections. Active and lively communications within associations. Voicing ideas and opinions with others.
+$End
+
+#Mercury = Sun/Ascendant
+Confidently expressing ideas and thoughts. Conversant and articulate. Making personal observations and assessments. Active business or social contacts.
+$End
+
+#Mercury = Sun/Midheaven
+Making important or far-reaching decisions. Evaluating personal experiences. An intellectual approach to life. Social or business connections.
+$End
+
+#Mercury = Moon/Venus
+Intellectual receptivity and creativity. Discussing intimate feelings with others. Speaking with heart and soul. Communicating with women or family members.
+$End
+
+#Mercury = Moon/Mars
+Emotionally charged communications. Speaking openly and candidly. Instinctive responses and reactions. Potential arguments.
+$End
+
+#Mercury = Moon/Jupiter
+A positive outlook. An ease of communication with others. Influential social or business contacts. [Recognising,Recognizing] opportunities to advance personal interests.
+$End
+
+#Mercury = Moon/Saturn
+Applying reason over emotion. A realistic outlook and approach. Knowing when to take responsibility. Serious considerations involving personal or family life.
+$End
+
+#Mercury = Moon/Uranus
+Intuitive and instinctive comprehension. Mentally astute and receptive. Assessing, assimilating and responding to situations. Spontaneous plans and decisions.
+$End
+
+#Mercury = Moon/Neptune
+An active and vivid imagination. Creative thinking. The tendency to day-dream or allow the mind to wander. Knowing how to deal with sensitive situations or people. Potential disappointments.
+$End
+
+#Mercury = Moon/Pluto
+Intense mental activity. Having strong feelings about specific issues and effectively communicating them to others. Discussing deeply felt concerns.
+$End
+
+#Mercury = Moon/Moon's North Node
+Discussing personal matters within relationships. Cultivating an intellectual rapport with others. Emotionally sensitive and receptive to the thoughts and ideas of others.
+$End
+
+#Mercury = Moon/Ascendant
+Receptive and sensitive to the thoughts and advice of others. Becoming close to others by sharing ideas, opinions and feelings together. Observant and sensitive to environmental influences.
+$End
+
+#Mercury = Moon/Midheaven
+Thinking and reflecting about personal direction and profession. The ability to comprehend and adapt to the needs of the moment. Instinctively knowing what is right for self.
+$End
+
+#Mercury = Venus/Mars
+Discussing relationship issues. Intimate dialogues. An emotionally expressive communicator. Speaking directly from the heart. Artistic expressions.
+$End
+
+#Mercury = Venus/Jupiter
+A cheerful outlook. Delighting in mental stimulation. Making decisions in a positive state of mind. An ease of communication with others. Social activity.
+$End
+
+#Mercury = Venus/Saturn
+Understanding the reality of an emotional situation. Difficulty discussing intimate feelings; reticence and reluctance. Mentally demanding creative work.
+$End
+
+#Mercury = Venus/Uranus
+A creative and original intellect. Spontaneous interactions and conversations. Discussing intimate feelings excitedly. Active communication. Quick attractions and distractions.
+$End
+
+#Mercury = Venus/Neptune
+A creative and imaginative intellect. Hopeful and expectant attitudes. Idealistic ideas about love and partnership. Potential disappointments.
+$End
+
+#Mercury = Venus/Pluto
+Discussing relationship dynamics and confronting emotional issues. Intense communication. Obsessing about something or someone. Fixations.
+$End
+
+#Mercury = Venus/Moon's North Node
+Discussing relationship dynamics; intimate dialogues with another. Knowing how enjoy the good things in life with others. Sociability; mixing with creative people.
+$End
+
+#Mercury = Venus/Ascendant
+An attractive and stimulating personality. The ability to say the right thing. Displaying a genuine interest in the affairs of others. Discussing love and partnership matters. Social activity.
+$End
+
+#Mercury = Venus/Midheaven
+Thinking and speaking from the heart. Artistic ideas and aspirations. Decisions based on personal tastes and preferences. Knowing what is wanted in love and personal relationships.
+$End
+
+#Mercury = Mars/Jupiter
+A constructive intellect; knowing and doing the right thing. Successful decisions, initiatives and enterprises. Strategic planning.
+$End
+
+#Mercury = Mars/Saturn
+Intellectual persistence and determination. A tough talker and negotiator. Adopting a firm and aggressive stance. Not knowing what to think - and do - about a situation. The tendency to become locked into negative trains of thought.
+$End
+
+#Mercury = Mars/Uranus
+Innovative in thought and action. Exploring alternative ways and methods. Thriving on mental and physical challenges. Spontaneous decisions. Nervous stress.
+$End
+
+#Mercury = Mars/Neptune
+Inspired thinking. Imaginative perception. The potential for impractical and unrealistic plans and ideas. Indecisiveness. Contending with deceptive influences.
+$End
+
+#Mercury = Mars/Pluto
+Thriving on intellectual challenges. A sharp and inquisitive mind. A passionate interest in specific subjects. Mental and physical exhaustion.
+$End
+
+#Mercury = Mars/Moon's North Node
+Communicating with others directly and assertively. Mental and physical connections. [Realising,Realizing] plans and enterprises together with others. $End
+
+#Mercury = Mars/Ascendant
+Communicating directly to others. Speaking up for self and others. An assertive communicator. The ability to withstand opposition from others.
+$End
+
+#Mercury = Mars/Midheaven
+Ambitious ideas and aspirations. Decisive and direct in communications. Heated and lively discussions. The tendency to become irritable and reactive when under stress.
+$End
+
+#Mercury = Jupiter/Saturn
+Knowing when to expand and when to consolidate. Constructive thinking. [Recognising,Recognizing] when change is necessary and timely. Fluctuating between optimistic and pessimistic outlooks.
+$End
+
+#Mercury = Jupiter/Uranus
+Progressive and constructive thinking. [Recognising,Recognizing] and seizing good opportunities. Intellectually resourceful and flexible.
+$End
+
+#Mercury = Jupiter/Neptune
+Idealistic thinking. Hopeful and expectant attitudes. Having faith. Calculating the odds; speculative tendencies.
+$End
+
+#Mercury = Jupiter/Pluto
+A confident and convincing communicator. Strategic planning; thinking about large-scale projects. Campaigning for a cause.
+$End
+
+#Mercury = Jupiter/Moon's North Node
+Sharing similar ideas and outlooks with other people. Open communication within relationships. Beneficial social connections - ease of interaction with others.
+$End
+
+#Mercury = Jupiter/Ascendant
+A positive and expressive personality. Communicating openly and freely with others. [Recognising,Recognizing] the value of what others have to say. Giving and receiving good advice.
+$End
+
+#Mercury = Jupiter/Midheaven
+A positive manner and outlook. Affirmative thinking. Successful planning and beneficial outcomes. Achieving goals through sound [judgement,judgment] and constructive reasoning.
+$End
+
+#Mercury = Saturn/Uranus
+A stubborn and contradictory nature. Rigid and inflexible thinking. Suddenly changing circumstances that require quick and tough decisions.
+$End
+
+#Mercury = Saturn/Neptune
+Self-doubt and defeatist attitudes. Imagining things are worse than they really are. Ideas and ideals that need to be tempered and grounded. Potential sacrifices.
+$End
+
+#Mercury = Saturn/Pluto
+A tough talker and negotiator. Inflexible attitudes. Difficult and reluctant compromises. Persisting despite the odds; [realising,realizing] that some things are just 'mind over matter'.
+$End
+
+#Mercury = Saturn/Moon's North Node
+Making decisions independently of others. Working hard to reach consensus within associations. Potential misunderstandings and miscommunications.
+$End
+
+#Mercury = Saturn/Ascendant
+A detached and observant nature. Knowing what to say and what not to say. Testing environmental conditions; a tendency to withdraw or retreat.
+$End
+
+#Mercury = Saturn/Midheaven
+Viewing life seriously and from a personal perspective. Questioning and evaluating personal and professional direction. The potential for defeatist attitudes and pessimistic thinking.
+$End
+
+#Mercury = Uranus/Neptune
+A creative and imaginative intelligence. Original and idealistic thinking. Receptive to alternative ideas and belief systems. The potential for unrealistic and bizarre ideas. Mental confusion.
+$End
+
+#Mercury = Uranus/Pluto
+Progressive thoughts and plans. Investigating new ideas and ways of doing things. Thriving on intellectual challenge. Contending with mental pressure and stress.
+$End
+
+#Mercury = Uranus/Moon's North Node
+Connections with stimulating and progressively-minded people. Intuitively knowing what others are thinking and are about to say. Sharing new and exciting experiences with others.
+$End
+
+#Mercury = Uranus/Ascendant
+A spontaneous, independent and free-thinking nature. An interest in the new and the different. Assessing situations quickly and accurately. Relating thoughts and ideas as they come to mind. A hectic or busy environment.
+$End
+
+#Mercury = Uranus/Midheaven
+A progressive outlook on life. Seeing things from a different angle or perspective. Thriving on intellectual stimulation. Lively discussion and communication.
+$End
+
+#Mercury = Neptune/Pluto
+A passionate and idealistic outlook. Intense [realisations,realizations]. The tendency to obsess about something or someone. Confused mental states.
+$End
+
+#Mercury = Neptune/Moon's North Node
+Discussing sensitive issues with others. Idealistic thoughts and expectations within associations. The potential for misunderstandings. Concealing things from others.
+$End
+
+#Mercury = Neptune/Ascendant
+Instinctively knowing what others are thinking and feeling. Sensitive to environmental influences. Being easily influenced by the ideas and comments of others. Misunderstandings.
+$End
+
+#Mercury = Neptune/Midheaven
+Imaginative thinking and perception. Susceptible and receptive to the advice and suggestions of others. Indecision; the tendency to doubt self and abilities. Potential misunderstandings and mistakes.
+$End
+
+#Mercury = Pluto/Moon's North Node
+Dynamic and intense communications within associations. Speaking emphatically and with conviction. Working under pressure with others.
+$End
+
+#Mercury = Pluto/Ascendant
+An persuasive personality. The ability to express ideas and opinions convincingly. Capturing the attention of others through [skilful,skillful] communication. Intense discussions with those in the environment.
+$End
+
+#Mercury = Pluto/Midheaven
+A dynamic communicator. Passionate and all-consuming interests. Speaking with conviction. Exposure to influential people and thinking. Fanaticism.
+$End
+
+#Mercury = Moon's North Node/Ascendant
+Thought-provoking discussions. Conversing with others and exchanging personal viewpoints. Sharing ideas, opinions and perspectives. Showing an interest in what others have to say.
+$End
+
+#Mercury = Moon's North Node/Midheaven
+Forming relationships based on mutual interests and aspirations. [Recognising,Recognizing] meaningful and trusted associations. Stimulating connections within others. Active discussions and communications.
+$End
+
+#Mercury = Ascendant/Midheaven
+A natural and fluent communicator. Observant and articulate. Alert and receptive to environmental stimuli. Knowing what to do at any given moment; living by one's wits. An adaptable and mobile nature.
+$End
+
+
+
+----Venus midpoints
+
+
+#Venus = Sun/Moon
+Inner harmony and balance. Happiness and contentment within relationships. A talent for keeping the peace. Creative activity. Enjoying social activity.
+$End
+
+
+#Venus = Sun/Mercury
+An attractive manner. A pleasant conversationalist. Talking about personal and intimate matters. Creative thoughts and ideas. Sociability.
+$End
+
+#Venus = Sun/Mars
+Personal charisma and charm. Strong physical and emotional attractions. The enjoyment being active and vital. Impulsive and indulgent tendencies.
+$End
+
+#Venus = Sun/Jupiter
+Gestures of goodwill. Displays of affection. Happy and satisfying relationships. An active social life. Enjoying life and all its pleasures. Extravagance.
+$End
+
+#Venus = Sun/Saturn
+Appreciating the simple things in life. A sense of loyalty and responsibility to loved ones. Emotional restraint. Testing experiences.
+$End
+
+#Venus = Sun/Uranus
+The enjoyment of stimulating personal and social relationships. Spontaneous, demonstrative and affectionate [behaviour,behavior]. Original creative expression. Easily bored or distracted.
+$End
+
+#Venus = Sun/Neptune
+A soft-hearted and compassionate nature. Sentimentality; devotion to loved ones. Inspired creativity. Potential disappointments.
+$End
+
+#Venus = Sun/Pluto
+Personal charisma and charm. A passionate nature intent on achieving desires. Commitment to loved ones. Obsessing about someone or something.
+$End
+
+#Venus = Sun/Moon's North Node
+Warm-hearted and beneficial connections. Affectionate ties. A talent for maintaining positive relations with others.
+$End
+
+#Venus = Sun/Ascendant
+Self-confidence and charm. Acknowledging others and being acknowledged. Physical and emotional connections. Creative talent or appreciation.
+$End
+
+#Venus = Sun/Midheaven
+An attractive and romantic nature. Knowing how to enjoy life. Happiness and [fulfilment,fulfillment]. Beneficial social connections.
+$End
+
+#Venus = Moon/Mercury
+Feeling young at heart. Discussing intimate feelings with others. Sensitive to the thoughts and wishes of others. Social connections and contacts.
+$End
+
+#Venus = Moon/Mars
+Pursuing what is needed to feel secure and happy. Impulsive attractions. Instinctive creative expression.
+$End
+
+#Venus = Moon/Jupiter
+A loving, supportive and generous nature. Harmonious and successful relationships. The desire for emotional and financial security.
+$End
+
+#Venus = Moon/Saturn
+Testing experiences in love and partnership. Difficulty attaining emotional security. Repressed desires. Enjoying time spent alone.
+$End
+
+#Venus = Moon/Uranus
+Spontaneous and adventurous inclinations. Emotional enthusiasm and excitability. Artistic originality and flair.
+$End
+
+#Venus = Moon/Neptune
+Perception and compassion. Devotion to loved ones. Difficulty containing the emotions and desires. The potential for unmet expectations.
+$End
+
+#Venus = Moon/Pluto
+Passionate responses. Intense feelings and desires. Commitment to family and loved ones. Obsessive and compulsive tendencies.
+$End
+
+#Venus = Moon/Moon's North Node
+Valuing family and female connections. Closeness and intimacy within relationships. Warm-hearted and supportive ties.
+$End
+
+#Venus = Moon/Ascendant
+Doing things with pleasure and from the heart. Valuing personal ties and connections with family and females. Appreciating the good things in life.
+$End
+
+#Venus = Moon/Midheaven
+Giving and receiving support within close ties or with family members. Emotional happiness and devotion. Creative activity.
+$End
+
+#Venus = Mercury/Mars
+A demonstrative, vocal and demanding nature. Discussing intimate and personal feelings. Knowing what to say and do in order to get what is wanted. Impulsive decisions.
+$End
+
+#Venus = Mercury/Jupiter
+A constructive and creative intellect. Enthusing over that which delights and pleases. Enthusiastic communication with others; enjoying intimate discussions.
+$End
+
+#Venus = Mercury/Saturn
+Difficulty expressing intimate emotions. Feeling awkward or tongue-tied. The ability to apply reason over emotion in matters of the heart. Detachment.
+$End
+
+#Venus = Mercury/Uranus
+Creative versatility and ingenuity. Abstract ideas. Taking pleasure in being spontaneous. Doing fun things on the spur of the moment.
+$End
+
+#Venus = Mercury/Neptune
+Wishful thinking. Soft-hearted and easily influenced by the ideas and words of others. The tendency to think and assume the best of people. Unrealistic expectations.
+$End
+
+#Venus = Mercury/Pluto
+Passionately expressing what is felt and thought. The ability to be persuasive and charming. Obsessions and fixations.
+$End
+
+#Venus = Mercury/Moon's North Node
+Entertaining conversations with others. Intimate discussions within associations. Enjoying good company and mixing socially.
+$End
+
+#Venus = Mercury/Ascendant
+Enjoying stimulating company and environments. A playful and charming nature. A busy social calendar. Sharing warm feelings with others. Intimate discussions.
+$End
+
+#Venus = Mercury/Midheaven
+Knowing how to enjoy being in the moment. Positive and clear intentions. Acknowledging the true value of something or someone.
+$End
+
+#Venus = Mars/Jupiter
+Enjoying and living life to 'the max'. Easily getting what is wanted or desired. Productive and constructive initiatives. Fruitful enterprises.
+$End
+
+#Venus = Mars/Saturn
+The state of feeling emotionally detached; frustrated and suppressed passion. Resignation and defeat. Difficulty coming to terms with losses and separations.
+$End
+
+#Venus = Mars/Uranus
+Demonstrative and spontaneous affections. Emotional excitability and impulsiveness. Creative and enterprising energy.
+$End
+
+#Venus = Mars/Neptune
+Creative inspiration - artistic or musical appreciation. A tendency to hide or mask intentions and desires. Evasive and escapist tendencies.
+$End
+
+#Venus = Mars/Pluto
+A passionate and demanding nature. Intense and dynamic emotional experiences. Obsessions and fixations.
+$End
+
+#Venus = Mars/Moon's North Node
+Magnetic appeal; attracting others and being attracted. Dynamic and productive relationships. An active social life.
+$End
+
+#Venus = Mars/Ascendant
+Pursuing and attaining desires. Impulsive attractions and attachments. Busy, creative and industrious environments. Strong emotions and reactions between people.
+$End
+
+#Venus = Mars/Midheaven
+Actively pursuing aims and desires. The inclination to seek immediate satisfaction or gratification. Impulsive attachments. Creative activity.
+$End
+
+#Venus = Jupiter/Saturn
+Living within one's means. Changes of heart; fluctuating desires and affections. Setbacks and adjustments in relationships.
+$End
+
+#Venus = Jupiter/Uranus
+Changing affections and desires. Impulse spending. A love of surprise and spontaneity. Good luck and good timing. Creative originality.
+$End
+
+#Venus = Jupiter/Neptune
+A soft-hearted romantic. Wishing power. Potential naivety and emotional gullibility. Susceptible to seduction. Unmet expectations and disappointments.
+$End
+
+#Venus = Jupiter/Pluto
+Social activity. Living the 'high life'. Excessive and extravagant tendencies. Material acquisitions.
+$End
+
+#Venus = Jupiter/Moon's North Node
+Enjoying good company. Happy and fulfilling social and emotional ties. Contacts with well-connected and wealthy people. Appreciating others and being appreciated.
+$End
+
+#Venus = Jupiter/Ascendant
+Making a good impression on others. Warm, generous and open-hearted. Affluent connections. Indulgence and extravagance.
+$End
+
+#Venus = Jupiter/Midheaven
+Appreciating what life has to offer. Opportunities to advance personal desires. Prospering materially and socially.
+$End
+
+#Venus = Saturn/Uranus
+States of friction and emotional disharmony. Feeling uptight and tense. Contending with unexpected emotional or relationship issues.
+$End
+
+#Venus = Saturn/Neptune
+Taking pleasure in the simple things of life. Making sacrifices for loved ones. Feeling insecure or uncertain about someone or something.
+$End
+
+#Venus = Saturn/Pluto
+Emotional restraint; feeling blocked or restricted. Difficult and strained interactions. Divisiveness through a lack of tolerance and compromise. Appreciating simplicity.
+$End
+
+#Venus = Saturn/Moon's North Node
+Enjoying periods of solitude. Emotional reserve. Difficulties reconciling problems with others. Strained interactions.
+$End
+
+#Venus = Saturn/Ascendant
+Enjoying periods of peace and quiet. Sensitive to the disapproval of others. Shielding oneself from negative environmental influences. Feeling and being inaccessible.
+$End
+
+#Venus = Saturn/Midheaven
+Working hard to achieve what is wanted and desired. Feeling awkward and self-conscious. Difficulties expressing intimate feelings and affections.
+$End
+
+#Venus = Uranus/Neptune
+Sudden changes of heart. Being easily influenced and swayed emotionally. Confusion and disorientation. Sudden artistic inspiration.
+$End
+
+#Venus = Uranus/Pluto
+Drama or upheaval in emotional or love life. Sudden fixations and obsessions. Pioneering creative activity.
+$End
+
+#Venus = Uranus/Moon's North Node
+Impulsive attractions attachments. Sudden changes of heart. Enjoying the company of unconventional or progressive people. Adapting to different social scenes.
+$End
+
+#Venus = Uranus/Ascendant
+Flirtatious and adventurous [behaviour,behavior]. Sudden romantic encounters. Socially gregarious and adaptable. Enjoying stimulating environments and contacts.
+$End
+
+#Venus = Uranus/Midheaven
+Flirtatiousness; emotional excitability. Pursuing an object of desire. Impulsive attractions and liaisons. Creative flair and originality.
+$End
+#Venus = Neptune/Pluto
+Emotional intensity and passion. Being consumed or obsessed with someone or something. Creative vision and inspiration.
+$End
+
+#Venus = Neptune/Moon's North Node
+Emotional sensitivity and empathy within relationships. Feeling at ease in the company of creative and artistic people. Potential disappointments.
+$End
+
+#Venus = Neptune/Ascendant
+Sensitive and susceptible to environmental influences. Being easily swayed or influenced by another. Misdirected desires and affections.
+$End
+
+#Venus = Neptune/Midheaven
+Empathy and compassion towards loved ones. Highs and lows in emotional or relationship life. Disappointments. Creative vision and inspiration.
+$End
+
+#Venus = Pluto/Moon's North Node
+Personal magnetism. Charming others and being charmed. Intense attractions. Obsessive about something or someone.
+$End
+
+#Venus = Pluto/Ascendant
+Making one's presence felt and intentions known. Dynamic and intense partnerships. Commitment. Obsessions and compulsions.
+$End
+
+#Venus = Pluto/Midheaven
+Personal magnetism. Intense experiences. Deep and personally meaningful connections.
+$End
+
+#Venus = Moon's North Node/Ascendant
+Harmonious interactions within the environment. The desire for personal or intimate connections. Affectionate bonds. Cultivating a wide circle of social connections.
+$End
+
+#Venus = Moon's North Node/Midheaven
+Happy and harmonious connections. Delighting in spending special moments with others. Sincerity within relationships.
+$End
+
+#Venus = Ascendant/Midheaven
+An appreciation and enjoyment of the beautiful things in life. An active social life. Intimacy and affection. A loving disposition.
+$End
+
+
+
+----Mars midpoints
+
+
+#Mars = Sun/Moon
+A physical approach to life. Taking the initiative and meeting personal challenges. The power to assert and defend. Quick actions and reactions. Directness in relationships.
+$End
+
+#Mars = Sun/Mercury
+Planning and pursuing clear objectives. Thriving on challenge. Impulsive thoughts and actions. Asserting personal view points.
+$End
+
+#Mars = Sun/Venus
+Doing things out of love and with pleasure. Enjoying emotional and physical connections with others. Initiating social activity and contacts.
+$End
+
+#Mars = Sun/Jupiter
+Pursuing personal objectives with self-confidence and enthusiasm. Successful personal ventures. Accomplishing goals by taking decisive and affirmative action.
+$End
+
+#Mars = Sun/Saturn
+Taking personal responsibility for actions and non-actions. Alternating between determination and resignation. Necessary and reluctant compromises.
+$End
+
+#Mars = Sun/Uranus
+A sense of immediacy. Impulsive or spontaneous actions and reactions. The will and courage to instigate reforms. A motivator and agitator. Impatience.
+$End
+
+#Mars = Sun/Neptune
+Physical sensitivity and weakness. Low vitality, stamina and energy. Despondency and apathy. Idealistic enterprises.
+$End
+
+#Mars = Sun/Pluto
+An intense, passionate and motivated nature. Being intent on achieving specific objectives. Working under pressure. Ruthless intentions.
+$End
+
+#Mars = Sun/Moon's North Node
+Taking an active and leading role within associations. Vital and energetic partnerships. Pursuing mutual goals.
+$End
+
+#Mars = Sun/Ascendant
+A confident and assertive personality. Displaying initiative and self-motivation. Direct in manner and approach with the ability to get things done. Active and busy environments.
+$End
+
+
+#Mars = Sun/Midheaven
+Promoting and pursuing personal and professional aspirations. Acting with clarity of intent and direction. A high degree of motivation and initiative.
+$End
+
+#Mars = Moon/Mercury
+Rapidly assessing and responding to the needs of a situation. Instinctively knowing the right course of action to take. Touches of moodiness and irritability.
+$End
+
+#Mars = Moon/Venus
+Doing things from the heart and with good intentions. Protective and nurturing instincts. Happily doing things for loved ones and the family.
+$End
+
+#Mars = Moon/Jupiter
+Enthusiasm and motivation. Confidently taking charge of situations. Enterprising and ambitious activity. Seizing opportunities.
+$End
+
+#Mars = Moon/Saturn
+Demonstrating self-reliance. Acting with caution and vigilance. Being poised for action. The desire to free oneself from unhappy emotional situations. Separative influences.
+$End
+
+#Mars = Moon/Uranus
+Emotionally excitable and spontaneous. Defiantly doing what feels right. Impulsive and erratic [behaviour,behavior]. Irritability and agitation.
+$End
+
+#Mars = Moon/Neptune
+Idealistic motivations. Fluctuating levels of energy, motivation and incentive. Only accomplishing things when in the right mood. Lowered [defences,defenses] and immunity.
+$End
+
+#Mars = Moon/Pluto
+Acting with intent, feeling and conviction. Pursing personal desires and ambitions with zeal. Finding the ways and means to get what is wanted. Fixations and obsessions.
+$End
+
+#Mars = Moon/Moon's North Node
+The desire to form personal associations. A motivating force within personal relationships. Dynamic partnerships. Energetic teamwork.
+$End
+
+#Mars = Moon/Ascendant
+A direct manner. Making feelings known to others. An emotional response to environmental influences. Potential confrontations within relationships.
+$End
+
+#Mars = Moon/Midheaven
+Trusting - and acting on instincts. Having a strong feeling about people or situations. Forming dynamic connections. Impulsive and reactive tendencies.
+$End
+
+#Mars = Mercury/Venus
+A demonstrative and passionate nature. Making one's intentions known. Flirtatious and playful [behaviour,behavior]. Pursuing social and pleasurable activities.
+$End
+
+#Mars = Mercury/Jupiter
+A confident and direct communicator. Making intentions clear. Acting on good ideas. Achieving desired results. Constructive plans and initiatives.
+$End
+
+#Mars = Mercury/Saturn
+Thinking things through carefully before taking action. The pressure to meet deadlines. Heated arguments and disagreements. A tough talker - or negotiator.
+$End
+
+#Mars = Mercury/Uranus
+Trusting and acting on intuition. Implementing original plans and ideas. Taking decisive action. Thriving on new challenges.
+$End
+
+#Mars = Mercury/Neptune
+Instinctively knowing what to do. A perceptive and insightful nature. Imaginative and inspired activity. Conflicts arising from misunderstandings.
+$End
+
+#Mars = Mercury/Pluto
+Decisive in thought, speech and action. Strategic and tactical planning. Aiming for accuracy and precision. A dynamic and persuasive communicator. Challenging others and being challenged.
+$End
+
+#Mars = Mercury/Moon's North Node
+Energetic and mentally stimulating connections. Achieving results in teamwork through decisive planning and action. Lively discussions within associations.
+$End
+
+#Mars = Mercury/Ascendant
+A direct and forthright communicator. The desire to make thoughts and intentions known. Discussing issues as they arise. Determining the best course of action to take.
+$End
+
+#Mars = Mercury/Midheaven
+Exercising good [judgement,judgment] and setting plans in motion. Knowing what is desired and how to achieve it - ambitious ventures. Initiative and motivation.
+$End
+
+#Mars = Venus/Jupiter
+Appreciating and celebrating the good things in life. Giving generously from the heart. Enjoying social activity. Pursuing and satisfying desires. Acquisition.
+$End
+
+#Mars = Venus/Saturn
+Demonstrating distaste or displeasure about something or someone. Frustrated desires and passions. Emotional repression. Dissatisfaction and potential conflict within relationships.
+$End
+
+#Mars = Venus/Uranus
+Doing enjoyable activities on the spur of the moment. Fleeting attractions and flirtations. Becoming quickly [enamoured,enamored] with someone or something.
+$End
+
+#Mars = Venus/Neptune
+Inspired creative initiatives. Enjoying social activity and entertainment. Becoming infatuated with someone or by something. Pursuing unrealistic hopes.
+$End
+
+#Mars = Venus/Pluto
+A passionate and demonstrative nature. Strong powers of intent and desire. Magnetic attractions. Acting under compulsion. A risk of being emotionally aggressive and reactive.
+$End
+
+#Mars = Venus/Moon's North Node
+Attracting others through personal charm and magnetism. Participating in lively social activities with others. Stimulating creative circles.
+$End
+
+#Mars = Venus/Ascendant
+A magnetic personality. An affectionate and demonstrative nature. Outgoing and socially active. A spontaneous and fun-loving disposition.
+$End
+
+#Mars = Venus/Midheaven
+Confidently pursuing goals. Doing things out of love with a willingness to please others. Passionate desires and responses. Seeking instant gratification.
+$End
+
+#Mars = Jupiter/Saturn
+Persisting with [endeavours,endeavors] despite setbacks and obstacles. Contending with frustrations and delays. Taking calculated risks. Tempered actions and decisions.
+$End
+
+#Mars = Jupiter/Uranus
+Acting on hunches. Sudden bursts of energy and enthusiasm. Confidently taking on challenges. Forward-thinking and productive initiatives. Timely actions.
+$End
+
+#Mars = Jupiter/Neptune
+Hoping and believing that initiatives set in motion will turn out as planned. Idealistic pursuits. A risk of unwise speculations; impractical ventures.
+$End
+
+#Mars = Jupiter/Pluto
+High-powered energy and initiatives. Demonstrating uncompromising intent. Accentuated confidence in self and abilities. Acquisition and accomplishment.
+$End
+
+#Mars = Jupiter/Moon's North Node
+Initiating advantageous connections. Working happily and industriously together with others. Productive and enterprising collaboration.
+$End
+
+#Mars = Jupiter/Ascendant
+A confident and exuberant personality. Good natured and good [humoured,humored]. A generous nature. Profitable activity and connections.
+$End
+
+#Mars = Jupiter/Midheaven
+Taking affirmative action. Seizing the right moment. [Recognising,Recognizing] advantages and opportunities. Productive and fruitful ventures and relationships.
+$End
+
+#Mars = Saturn/Uranus
+Tests of strength and 'staying power'. Fighting against limiting and obstructive conditions. Intense frustration. Inviting and inciting reaction. Accidents.
+$End
+
+#Mars = Saturn/Neptune
+Struggling to meet demands and challenges. Difficulty sustaining a course of action. Fluctuating levels of motivation and incentive. Depleted energy.
+$End
+
+#Mars = Saturn/Pluto
+Giving total commitment and energy to the task at hand. Determining a strategic and precise mode of attack. Controlling others and being controlled. Difficulty suppressing anger.
+$End
+
+#Mars = Saturn/Moon's North Node
+Contending with demanding and problematic relationships. Testing associations. Doing things out of duty for others. Separative influences.
+$End
+
+#Mars = Saturn/Ascendant
+Confronting issues as they arise. Fighting against negative and depressive influences. The state of being directly at odds with others in the environment. Separative influences.
+$End
+
+#Mars = Saturn/Midheaven
+Confronting and tackling challenges. Pursuing clearly defined goals. Hindrances. Giving in to the demands of another or a situation. Separative trends and influences.
+$End
+
+#Mars = Uranus/Neptune
+Acting on intuition and instinct. Going with the flow to avoid conflict. Weakened resistance. Fluctuating energy and motivation. Feeling emotionally and physically drained.
+$End
+
+
+#Mars = Uranus/Pluto
+Exploring alternative ways of doing things. Exceptional drive and ambition. The relentless pursuit of desires. Compulsive urges. Contending with coercion and manipulation.
+$End
+
+#Mars = Uranus/Moon's North Node
+Actively seeking new and stimulating connections. Shared challenges with others. Disruptive and contentious influences within associations.
+$End
+
+#Mars = Uranus/Ascendant
+A volatile and reactive nature. Self-motivated and self-assertive. Acting on intuitive impulses. Quick reflexes. A reluctance to make compromises. Contending with high stress environments.
+$End
+
+#Mars = Uranus/Midheaven
+Acting independently of others. Moving from one challenge to the next. Courageous and adventurous. Highly reactive. Quick to go on to the offensive and the defensive.
+$End
+
+#Mars = Neptune/Pluto
+Idealistic motivations. Weakened motivation and determination. The tendency to feel physically drained. A risk of secret and covert actions.
+$End
+
+#Mars = Neptune/Moon's North Node
+Pursuing joint ideals and beliefs. Demonstrating compassionate care of others. Picking up on negative undercurrents within associations. Disappointments.
+$End
+
+#Mars = Neptune/Ascendant
+Susceptibility and gullibility. Struggling to fend-off negative environmental influences. Fluctuating degrees of self-motivation. The tendency to do things in a roundabout way. Hidden agendas.
+$End
+
+#Mars = Neptune/Midheaven
+Uncertainty as to where and how to channel personal energies. Easily diverted and distracted. Fluctuating between being pro-active and passive. Idealistic ventures.
+$End
+
+#Mars = Pluto/Moon's North Node
+Intense and dynamic associations. Forcing issues regardless of the repercussions. Dictating to others and being dictated to. Battles of will. Defiance.
+$End
+
+#Mars = Pluto/Ascendant
+An intense and dynamic personality. The power to achieve ambitions. Taking risks regardless of the consequences. Dominating or being dominated by others. Power struggles within relationships.
+$End
+
+#Mars = Pluto/Midheaven
+Strong inner compulsions. Pursuing goals with passion and conviction. Ambitious enterprises. Intense conflicts and confrontations with others.
+$End
+
+#Mars = Moon's North Node/Ascendant
+Working together and achieving results as a team. Sharing similar ambitions with others. Actively cultivating personal connections.
+$End
+
+#Mars = Moon's North Node/Midheaven
+The desire to unite with like-minded people. The ability to take charge of situations and to motivate others. Knowing what is wanted and how to achieve it.
+$End
+
+#Mars = Ascendant/Midheaven
+Thriving on personal or professional challenges. High degrees of motivation and initiative. An ambitious and [wilful,willful] nature. Quick reflexes. The power to assert, attack and defend. Accident proneness.
+$End
+
+
+
+----Jupiter midpoints
+
+#Jupiter = Sun/Moon
+High expectations. An essentially positive outlook. Optimism, confidence and resilience. Fruitful and advantageous connections. Mutually satisfying relationships.
+$End
+
+#Jupiter = Sun/Mercury
+A constructive intellect. Doing things in a positive frame of mind. [Recognising,Recognizing] opportunities; the ability to plan things well and to appreciate the larger picture.
+$End
+
+#Jupiter = Sun/Venus
+The capacity to enjoy life. A generous heart and spirit. Giving and receiving with love. Satisfying and loving connections. Social ease and integration.
+$End
+
+#Jupiter = Sun/Mars
+A self-assured and direct manner. Confidently taking the initiative and seizing opportunities. Success in personal ventures.
+$End
+
+#Jupiter = Sun/Saturn
+Overcoming obstacles through constructive and positive efforts. The ability to persist when faced with challenges. Self-reliance. Financial restraint.
+$End
+
+#Jupiter = Sun/Uranus
+A forward-thinking and confident attitude. Ingenuity. Embracing new and alternative ideas and methods. Faith in personal abilities; knowing that ventures will work out well.
+$End
+
+#Jupiter = Sun/Neptune
+High expectations. Embracing life whole-heartedly. Envisaging potentialities. A risk of losing a sense of perspective and objectivity. Pipe dreams. Complacency.
+$End
+
+#Jupiter = Sun/Pluto
+Personal conviction. Commitment to specific causes. An entrepreneurial spirit. Confidently forging ahead; demonstrating what it takes to achieve goals. Striving for material and financial security.
+$End
+
+#Jupiter = Sun/Moon's North Node
+Cultivating important and influential connections. The ability to mix well and integrate with others. Social or business associations. Successful collaboration.
+$End
+
+#Jupiter = Sun/Ascendant
+A vibrant and enthusiastic personality. Displaying faith in self and personal abilities. Self-promotion. Acknowledging others and being acknowledged. Influential and advantageous contacts.
+$End
+
+#Jupiter = Sun/Midheaven
+A positive self-image. Self-assured and optimistic. [Recognising,Recognizing] good opportunities. Constructive inclinations and ventures. Advancing personally and professionally.
+$End
+
+#Jupiter = Moon/Mercury
+A perceptive and constructive mind. Enjoying mental stimulation. The ability to see the bigger picture. [Utilising,Utilizing] talents to personal advantage. Foresight; preparing and planning in advance.
+$End
+
+#Jupiter = Moon/Venus
+A warm-hearted and generous soul. Giving and receiving. Enjoying life and its pleasures. Emotional and physical well-being. Material comforts.
+$End
+
+#Jupiter = Moon/Mars
+A positive and pro-active attitude. High motivation and enthusiasm. Doing what feels right. Initiating enterprises. Satisfied desires and ambitions.
+$End
+
+#Jupiter = Moon/Saturn
+Self-contained and self-sufficient. High personal standards and principles. [Recognising,Recognizing] the benefits of taking things slowly and cautiously. The necessity for patience and tolerance. A periodic need for solitude.
+$End
+
+#Jupiter = Moon/Uranus
+Embracing change. Perceptive and highly intuitive. [Recognising,Recognizing] [favourable,favorable] circumstances and conditions. Emotionally spontaneous and buoyant.
+$End
+
+#Jupiter = Moon/Neptune
+A highly sensitive and emotional temperament. Empathic qualities. A giving and caring nature. A Good Samaritan. Compassion and empathy. Immoderation. Unrealistic expectations.
+$End
+
+#Jupiter = Moon/Pluto
+The compulsion to succeed in ventures and ambitions. Great expectations and personal accomplishments. An enterprising and resilient nature. Materialistic tendencies; acquisitions.
+$End
+
+#Jupiter = Moon/Moon's North Node
+Sociability. Beneficial associations. Positive connections. A harmonious and supportive manner in personal relationships.
+$End
+
+#Jupiter = Moon/Ascendant
+A receptive and accommodating personality. Good deeds and positive responses within relationships. Assessing the needs of others and situations correctly. An active social life.
+$End
+
+#Jupiter = Moon/Midheaven
+Inner and emotional happiness. An essentially hopeful and optimistic approach to life. Social awareness. A supportive and generous nature.
+$End
+
+#Jupiter = Mercury/Venus
+Abundant creative energy. The ability to [recognise,recognize] and appreciate quality. Ease of communication with others. Satisfying desires. Indulgences and extravagances.
+$End
+
+#Jupiter = Mercury/Mars
+An enthusiastic communicator. Confidently expressing thoughts and ideas. Offering opinions and suggestions. Productive initiatives. [Recognising,Recognizing] and seizing opportunities.
+$End
+
+#Jupiter = Mercury/Saturn
+Firm opinions and convictions. Achieving results through disciplined activity and persistence. Focusing the mind and carrying out plans and ideas successfully. The ability to offer constructive solutions to problems.
+$End
+
+#Jupiter = Mercury/Uranus
+Intellectual ingenuity. A constructive thinker. Innovative and expansive plans and ideas. Correctly anticipating future trends. Involvement in reforms and improvements.
+$End
+
+#Jupiter = Mercury/Neptune
+A perceptive nature. Instinctively and successfully assessing situations. Envisaging likely potentials and outcomes. A hopeful and expectant nature. Having faith and belief that anything is possible.
+$End
+
+#Jupiter = Mercury/Pluto
+A clever strategist. Presenting a convincing case or point of view. Successfully influencing the thinking of others. Intense drive and determination. [Recognising,Recognizing] and seizing opportunities.
+$End
+
+#Jupiter = Mercury/Moon's North Node
+Open, frank and stimulating communications with others. Intellectual and business connections. Enjoying meeting and [socialising,socializing] with others.
+$End
+
+#Jupiter = Mercury/Ascendant
+An enthusiastic communicator. Successfully getting ideas and opinions across. Stimulating and beneficial social, intellectual and business contacts. Environments that encourage free participation in discussions.
+$End
+
+#Jupiter = Mercury/Midheaven
+Knowing how to make the most of personal and professional opportunities. Confidently pursuing goals and aspirations. Good social, business and intellectual connections.
+$End
+
+#Jupiter = Venus/Mars
+A highly sensual and excitable nature. A pronounced desire for pleasure and enjoyment. Generous and extravagant impulses. Satisfying the desires and passions. Indulging self and others. Immoderation.
+$End
+
+#Jupiter = Venus/Saturn
+Complexities within relationship life. Fluctuating emotional states and degrees of satisfaction. Tolerating compromises. Enjoying simple pleasures and balancing duty and pleasure.
+$End
+
+#Jupiter = Venus/Uranus
+A bubbly and enthusiastic manner. Flirtatious [behaviour,behavior]. Instant attraction and gratification. Sudden extravagances. Impulse buying.
+$End
+
+#Jupiter = Venus/Neptune
+High hopes and emotional expectations. Wishing power. Giving with love and compassion. Trusting that things will turn out well. Indulgence. Potential gullibility or disillusionment.
+$End
+
+#Jupiter = Venus/Pluto
+A deep capacity for love and affection. An intense passionate nature. Extreme feelings and desires. Potential extravagance and indulgence.
+$End
+
+#Jupiter = Venus/Moon's North Node
+Enjoying social interactions. Feeling at ease in the company of other people. Giving and receiving within relationships. Beneficial connections.
+$End
+
+#Jupiter = Venus/Ascendant
+Personal charm and appeal. Enjoying an active social life. Affluent ties and connections. Extravagance and indulgence. Pampering or being pampered. Material acquisitions.
+$End
+
+#Jupiter = Venus/Midheaven
+A positive self-image. Affluent ties and connections. Influential social contacts. [Benefitting,Benefiting] through the support and generosity of others. Prosperity. Indulgent or extravagant tendencies.
+$End
+
+#Jupiter = Mars/Saturn
+Tackling challenges constructively. Demonstrating the single intent to overcome difficulties. Firm resolve and determination. Hard won accomplishments.
+$End
+
+#Jupiter = Mars/Uranus
+Progressive and productive initiatives and ventures. Intuitively gauging the right time to take action. High motivation. Resourcefulness. Acting on the strength of convictions.
+$End
+
+#Jupiter = Mars/Neptune
+[Channelling,Channeling] energies into ventures whose outcomes may be uncertain. Discovering that plans do not always turn out as anticipated. Living in hope and expectation. Changing fortunes and material circumstances.
+$End
+
+#Jupiter = Mars/Pluto
+Directing energies into expansion, development and improvement. Large-scale and long term projects. Material and financial investments. Taking effective measures to ensure success.
+$End
+
+#Jupiter = Mars/Moon's North Node
+Productive and constructive activity in conjunction with others. Joint successes and achievements. Fruitful ventures.
+$End
+
+#Jupiter = Mars/Ascendant
+An enthusiastic and enterprising personality. Demonstrating faith in oneself and one's abilities. Constructive initiatives. Successful activity.
+$End
+
+#Jupiter = Mars/Midheaven
+An enterprising and ambitious nature. Reaping the rewards of initiative and motivation. Knowing what is wanted - and getting it. The constructive use of willpower and energy.
+$End
+
+#Jupiter = Saturn/Uranus
+Determining the best way to rise above adversity. Overcoming difficult or [gruelling,grueling] tests and circumstances. Significant or decisive changes.
+Separative influences. Potential losses.
+$End
+
+#Jupiter = Saturn/Neptune
+Heightened physical and emotional sensitivity. Susceptible to exhaustion and bouts of low of vitality. Fluctuating levels of optimism. Benefits from periodic solitude.
+$End
+
+#Jupiter = Saturn/Pluto
+Quietly and competently getting on with the task at hand. The necessity to conserve financial and material assets. Losses through over-extending resources.
+$End
+
+#Jupiter = Saturn/Moon's North Node
+Willingly making sacrifices and compromises for others. Loyalty towards kin. [Favouring,Favoring] the company of mature and experienced people. Enjoying time alone.
+$End
+
+#Jupiter = Saturn/Ascendant
+An unpretentious nature. Contentment with the simple things in life. Tolerating restrictive and difficult environmental conditions. [Recognising,Recognizing] the need to have personal space.
+$End
+
+#Jupiter = Saturn/Midheaven
+Being aware of responsibilities and [endeavouring,endeavoring] to meet them. Tolerating 'short-term pains for long-term gains'. Fluctuating financial and material circumstances.
+$End
+
+#Jupiter = Uranus/Neptune
+Trusting instincts and hunches. Flashes of intuition. The belief and faith that plans will eventuate as anticipated. Unexpected advantages coming 'out of the blue'. Periodic indulgence.
+$End
+
+#Jupiter = Uranus/Pluto
+Exploring alternative and viable ways of doing things. Confidently taking on large-scale projects. Exceptional drive and motivation. Successfully initiating reforms. Lucrative ventures.
+$End
+
+#Jupiter = Uranus/Moon's North Node
+Cultivating a wide variety of friends and acquaintances in life. Enjoying spontaneous social events and activities. Satisfying and stimulating relationships.
+$End
+
+#Jupiter = Uranus/Ascendant
+Intuitively and accurately assessing situations - then responding accordingly. Enjoying doing things on the spur-of-the-moment. [Benefitting,Benefiting] from cooperative alliances. Adapting well to unexpected situations.
+$End
+
+#Jupiter = Uranus/Midheaven
+Fortunate turning points. Demonstrating the will and conviction to achieve what is wanted. Confidently pursuing aims and objectives. Resourcefulness and ingenuity. Foresight.
+$End
+
+#Jupiter = Neptune/Pluto
+Profound insights. A receptive, compassionate and generous soul. Idealism, conviction and faith. Believing that things will turn out well - and as expected. Compulsive tendencies. Immoderation.
+$End
+
+#Jupiter = Neptune/Moon's North Node
+Gullibility and naivety within relationships. Coming into contact with opportunists and speculators. The tendency to trust others too readily. The need for discernment and discrimination within connections.
+$End
+
+#Jupiter = Neptune/Ascendant
+Assuming the best of people. Disappointments through indiscriminately accepting others at face value. Deceiving others and being deceived. Losses through dishonesty and ungrounded speculations.
+$End
+
+#Jupiter = Neptune/Midheaven
+High hopes and expectations. Anticipating positive outcomes; believing that anything is possible. An idealistic and speculative nature. A risk of falling victim to scams and get-rich-quick schemes.
+$End
+
+#Jupiter = Pluto/Moon's North Node
+Powerful and wealthy people. Beneficial and influential connections in life. Shared prosperity. Fated unions that have positive spin-offs. Partnerships that have a profound impact. Successes in the public sector.
+$End
+
+#Jupiter = Pluto/Ascendant
+An intense and magnetic presence. Making a positive impact upon the environment. Dynamic and beneficial relationships. Lucrative ventures; large-scale investments. Generosity.
+$End
+
+#Jupiter = Pluto/Midheaven
+A passionate and ambitious individual. The desire to succeed at all cost. Gaining positions of power and influence. Pronounced commitment and dedication to aims and aspirations. Material acquisitions.
+$End
+
+#Jupiter = Moon's North Node/Ascendant
+A social orientation. The desire and ability to interact easily with others. The enjoyment of meeting others; cultivating personal ties. Jovial company. Profitable associations.
+$End
+
+#Jupiter = Moon's North Node/Midheaven
+Fortunate connections. Connecting with kindred spirits. Satisfying and beneficial relationships. Cultivating personal or professional ties. An active social life.
+$End
+
+#Jupiter = Ascendant/Midheaven
+Living for the moment and appreciating one's good fortune. Displaying a positive attitude and constructive approach to matters. Self-assurance and self-confidence. High expectations of self and others. Optimism. Valuing truth and honesty.
+$End
+
+
+
+----Saturn midpoints
+
+
+#Saturn = Sun/Moon
+A serious nature. Establishing self-reliance and self-hood. Coming to grips with hard realities. Making personal sacrifices and compromises. Separative influences.
+$End
+
+#Saturn = Sun/Mercury
+A realist with the ability to learn from life-experience. Serious discussions, plans and decisions. The potential for being locked into negative trains of thought. Breaking-off communication with another. Separative influences.
+$End
+
+#Saturn = Sun/Venus
+Controlled passion. Emotional restraint. Difficulties within intimate relationships. Achieving desires through patience. Potential compromises. Separative influences in love.
+$End
+
+#Saturn = Sun/Mars
+Hard-earned achievements. The need to take responsibility for actions and non-actions. Accepting - or resisting - circumstantial limitations. Defensive or offensive action. Frustration with self and circumstances.
+$End
+
+#Saturn = Sun/Jupiter
+A slow and steady advancement through dedication and discipline. The temptation to give in when the 'going gets tough'. Defeatist attitudes.
+$End
+
+#Saturn = Sun/Uranus
+Conforming under duress. Displays of [wilfulness,willfulness] and inflexibility. The urge to break free of constraint and restrictive influences. Difficulty controlling reactive or volatile tendencies.
+$End
+
+#Saturn = Sun/Neptune
+Passivity. Being prone to periods of inertia, despondency or negativity. Depleted vitality. Difficulties being consistent and reliable.
+$End
+
+#Saturn = Sun/Pluto
+Persisting against the odds. Dealing with situations decisively and conclusively. Enforced concessions and separations. Thwarted plans and intentions.
+$End
+
+#Saturn = Sun/Moon's North Node
+Reluctance. The disinclination or the inability to connect with others. Distrust within personal associations. The need to take time out. Separative influences.
+$End
+
+#Saturn = Sun/Ascendant
+Solitary inclinations. Restraint and reserve. The inability to integrate easily with others. Difficulty gaining acknowledgement when it is due. Separative trends or inclinations.
+$End
+
+#Saturn = Sun/Midheaven
+A serious individual. A single-minded and realistic approach to aims and aspirations. Patience and perseverance. An occasional need for solitude and privacy.
+$End
+
+#Saturn = Moon/Mercury
+Instinctively [recognising,recognizing] the reality or severity of a situation. Reticence. Difficulties expressing thoughts and feelings - or discussing personal issues. Miscommunications.
+$End
+
+#Saturn = Moon/Venus
+Simplicity and modesty. Understated displays of affection. Difficulty attaining emotional closeness and intimacy within relationships. Unresponsiveness in self or others.
+$End
+
+#Saturn = Moon/Mars
+Dealing with personal problems directly and efficiently. Working through challenges. Persistence. Contending with delays and frustrations.
+$End
+
+#Saturn = Moon/Jupiter
+Dealing with problems constructively. Economy and restraint. Tolerating and accepting less than the 'norm'. Modest conditions. Worries within the family. Anxiety.
+$End
+
+#Saturn = Moon/Uranus
+Emotional tensions and repressions. The desire to break-free from restrictive or limiting circumstances. Abrupt severances. Difficulty containing and controlling the emotions.
+$End
+
+#Saturn = Moon/Neptune
+Acute sensitivity. Emotional vulnerability. Difficulty shielding self from negative influences. Despondency. The tendency to give up hope easily.
+$End
+
+#Saturn = Moon/Pluto
+The tendency to bottle-up fears and emotions. [Harbouring,Harboring] sensitivities and doubts. Compulsive traits. A tense and complex emotional or family life. Separative influences.
+$End
+
+#Saturn = Moon/Moon's North Node
+Loyalty and duty towards relationships of a personal and emotional nature. Family responsibilities. Difficulties with or through women, the family or the public. The potential for falling out with others.
+$End
+
+#Saturn = Moon/Ascendant
+Shyness. Difficulty interacting with others. A lack of sensitivity and responsiveness within relationships. Contending with restrictive environmental influences. Separative inclinations.
+$End
+
+#Saturn = Moon/Midheaven
+Inner and emotional repressions. Testing connections with others. Serious commitment to aims and aspirations. Dedication. Contending with personal or professional responsibilities. Potential sacrifices.
+$End
+
+#Saturn = Mercury/Venus
+A conscientious and considerate nature. Discussing love and relationship issues; the tendency to take matters of the heart seriously. Time-consuming creative pursuits and interests.
+$End
+
+#Saturn = Mercury/Mars
+Thinking and saying mean things about others. Inviting negative responses by reactive and aggressive [behaviour,behavior]. Contentious issues. Focusing the mind in order to meet deadlines.
+$End
+
+#Saturn = Mercury/Jupiter
+A realistic and constructive outlook. Exercising commonsense. Resolving problems practically and effectively. Knowing how to make the best of a difficult situation.
+$End
+
+#Saturn = Mercury/Uranus
+Seriously considering viable alternatives. Reactive [behaviour,behavior]. Enforcing change or being forced to adapt to change. Rebelling against adverse or depressing conditions.
+$End
+
+#Saturn = Mercury/Neptune
+Fearing or dreading the worst - and the unknown. Distrust and cynicism. Difficulty differentiating between illusion and reality.
+$End
+
+#Saturn = Mercury/Pluto
+Intensive and time-consuming projects or research. Strong fixations and convictions. Diligently working through mental challenges. Contending with manipulative and controlling influences.
+$End
+
+#Saturn = Mercury/Moon's North Node
+Difficulty expressing and exchanging thoughts and ideas within relationships. Reticence. Being fearful of saying the wrong thing or reluctantly saying what needs to be said. Serious discussions.
+$End
+
+#Saturn = Mercury/Ascendant
+Discretion; confiding in others - or being confided in. Difficulty saying openly what needs to be said. Miscommunications and misunderstandings. A lack of response in self or others. Separative thoughts.
+$End
+
+#Saturn = Mercury/Midheaven
+Serious appraisals. Clarifying personal and professional priorities. Sobering experiences; making hard or critical decisions. Solitary inclinations. Despondency.
+$End
+
+#Saturn = Venus/Mars
+Working hard for what is wanted or wished for. Frustrated passions and repressed desires. Challenges and difficulties in love and emotional life. Controlling or separative influences within relationships.
+$End
+
+#Saturn = Venus/Jupiter
+Experiencing reality checks in love. Unhappiness within intimate relationships. Unwanted sacrifices and compromises; having to settle for less than desired. Financial worries and difficulties.
+$End
+
+#Saturn = Venus/Uranus
+Frustrated desires and passions. Disruptions to relationship stability. Contending with restrictive or controlling influences. Dampened enthusiasm and spontaneity.
+$End
+
+#Saturn = Venus/Neptune
+Unfulfilled longings and desires. Emotional anguish through insensitivity and neglect. Heartache. Deceiving others or being deceived.
+$End
+
+#Saturn = Venus/Pluto
+Repressed passion. Unsatisfied desires. Control and manipulation within love relationships. Being denied or denying affection. Enforced compromises.
+$End
+
+#Saturn = Venus/Moon's North Node
+Testing experiences within intimate or love relationships. Contending with issues of control. Emotional detachment.
+$End
+
+#Saturn = Venus/Ascendant
+Difficulty establishing and maintaining intimate contact with others. Modesty and simplicity. Contending with issues of control and distrust within relationships. Separative influences.
+$End
+
+#Saturn = Venus/Midheaven
+A restrained or controlled emotional life. Understated displays of affection. Duty and loyalty towards loved ones. Contending with restrictive and inhibitive influences within relationships.
+$End
+
+#Saturn = Mars/Jupiter
+Fluctuating degrees of confidence, motivation and enthusiasm. Missing good chances through hesitation. Facing the challenge of getting ventures 'off the ground'. Frustrated efforts.
+$End
+
+#Saturn = Mars/Uranus
+Confronting challenges which test personal strength and stamina. Contending with strenuous and tough conditions. Thwarted plans and intentions. Obstructive and restrictive influences. Accident proneness.
+$End
+
+#Saturn = Mars/Neptune
+Difficulty exercising control. The tendency to lack motivation and to become easily side-tracked. Dampened enthusiasm. Contending with restrictive or debilitating conditions. Evasiveness. Separative influences.
+$End
+
+#Saturn = Mars/Pluto
+Dedication; the desire to meet and master challenges. The tendency to push self and others - to the limit. A risk of exhaustion and depletion. Exposure to controlling influences. Suppressed aggression. Accidents and injuries.
+$End
+
+#Saturn = Mars/Moon's North Node
+Consolidating relationships in order to achieve shared goals. Focused activity and disciplined teamwork. Controlling others or being controlled. Conflict within relationships. Decisive separations.
+$End
+
+#Saturn = Mars/Ascendant
+The necessity to take responsibility for self and personal actions. Doing what needs to be done out of duty or loyalty. Becoming frustrated when prevented from following own initiatives. Separative influences.
+$End
+
+#Saturn = Mars/Midheaven
+Persisting against the odds. Accountability for actions taken and not taken. The necessity to reassess personal goals or vocational objectives. Defeatist attitudes. Sacrifices. Terminating a course of action.
+$End
+
+#Saturn = Jupiter/Uranus
+Missed opportunities. Losses through hesitation or through not taking the next step; doubting one's intuition. Cautious speculations.
+$End
+
+#Saturn = Jupiter/Neptune
+Guarded optimism; the necessity to be realistic and discerning with ventures. Paying the consequences of unwise speculations. Difficulty [realising,realizing] ideals and wishes.
+$End
+
+#Saturn = Jupiter/Pluto
+Working hard to attain credibility and influence. Personal gain through perseverance and dedicated effort. Contending with obstacles and setbacks. Financial losses through over-extending resources.
+$End
+
+#Saturn = Jupiter/Moon's North Node
+Strengthening and consolidating connections through patient [endeavour,endeavor] and compromise. The desire for honesty and trustworthiness within relationships. A periodic need for time alone.
+$End
+
+#Saturn = Jupiter/Ascendant
+Knowing how far to extend self; when to give and when to hold back. Learning to make concessions - or to 'go without'. Problems within relationships through a lack of mutual trust and honesty. Detachment in self or others.
+$End
+
+#Saturn = Jupiter/Midheaven
+Losses through momentary hesitation. The tendency to let things slide or to give up when the going gets tough. Feeling subdued or burdened. Success through focused and disciplined efforts. Patiently achieving aspirations.
+$End
+
+#Saturn = Uranus/Neptune
+Tenuous security. [Recognising,Recognizing] that nothing is permanent or guaranteed. Attempting to install safeguards against failure and disorder. A fear of loss. Significant separations.
+$End
+
+#Saturn = Uranus/Pluto
+Contending with significant change; stepping into the unknown. Enforced adjustments and rearrangements. Coming to breaking points - or breakthroughs. Attempting to restrain compulsive tendencies. Serious and decisive separations.
+$End
+
+#Saturn = Uranus/Moon's North Node
+Shared challenges. Pulling resources together in order to overcome difficulties and problems. Conflicts through inflexibility. Disruptive and restrictive influences within associations. Enforced compromises or sacrifices. Separation and detachment.
+$End
+
+#Saturn = Uranus/Ascendant
+Learning when to play it safe - and when to take risks or chances. A dislike of being restricted or compromised. Controlling others or being controlled. Tension and conflict within relationships. Sudden and timely departures and separations.
+$End
+#Saturn = Uranus/Midheaven
+Knowing when to maintain a stance - and when to back down. Tests of courage and ingenuity. Conflicts through selfishness and insensitivity. Delayed reactions. Sudden and timely departures.
+$End
+
+#Saturn = Neptune/Pluto
+Subjection to negative mind-sets and feelings of insecurity. Suspicion and [scepticism,skepticism]. The necessity to submit - or accept defeat. States of anguish and despondency. Loss situations.
+$End
+
+#Saturn = Neptune/Moon's North Node
+Maintaining reservations about certain people or associations. Encountering hidden agendas within connections. Miscalculating others. A risk of being 'sucked in' by another - or by a scam. Undermining and separative influences.
+$End
+
+#Saturn = Neptune/Ascendant
+Feelings of distrust. Exposure to negative environmental influences. Guarded [behaviour,behavior]. The necessity to protect and shield self against pessimistic people. Evasive and separative tendencies.
+$End
+
+#Saturn = Neptune/Midheaven
+Anxieties and uncertainties. Tentatively embarking upon a course of action. Trials and tribulations in the pursuit of ideals and goals. Patient [endeavour,endeavor].
+$End
+
+#Saturn = Pluto/Moon's North Node
+Conceding under pressure from others. Operating under duress within relationships. Reluctant submission; enforced concessions or compliance. Decisive separations.
+$End
+
+#Saturn = Pluto/Ascendant
+Being at the mercy of another person - or a stronger force. Dealing with - or deflecting environmental pressures. Controlling others or being controlled. Manipulative tendencies within relationships. Decisive separations.
+$End
+
+#Saturn = Pluto/Midheaven
+Commitment to a personal or professional cause. [Labour-intensive,Labor-intensive] activity. Dedication. Knowing the limits of personal endurance; how far to push self. Restrictive or oppressive influences.
+$End
+
+#Saturn = Moon's North Node/Ascendant
+Difficulties and worries within close relationships. Defining relationship boundaries. Controlling influences within associations. Repressive and negative tendencies in self or others. Separative influences.
+$End
+
+#Saturn = Moon's North Node/Midheaven
+Solitary inclinations. Defining personal and professional priorities. Knowing who can be relied upon and trusted when required. Testing relationships. Controlling others or being controlled. Significant separations.
+$End
+
+#Saturn = Ascendant/Midheaven
+Introspection. Serious decisions and appraisals. Taking responsibility for self, actions and non-actions. Persistence and patience. Being aware of circumstantial compromises and environmental limitations. Defeatist attitudes. Withdrawing from people and situations. Separative influences.
+$End
+
+
+----Uranus midpoints
+
+
+#Uranus = Sun/Moon
+Thriving on change and stimulation. Ingenuity. A progressive and contemporary outlook. Inner tensions. Erratic and unpredictable [behaviour,behavior]. Sudden departures or separations within relationships. An independent streak.
+$End
+
+#Uranus = Sun/Mercury
+An independent and progressive thinker. The desire for intellectual stimuli and new experiences. Mental flexibility and versatility. Keeping up to date with things. An unpredictable nature.
+$End
+
+#Uranus = Sun/Venus
+Creative originality and spontaneity. Impulsive attachments. Unexpected or exciting events in love or social life. The making and breaking of intimate connections.
+$End
+
+#Uranus = Sun/Mars
+A highly independent streak. Asserting the need for self-expression and autonomy. The desire for new challenges. Sudden displays of will and determination. Stress related tension. Accident proneness.
+$End
+
+#Uranus = Sun/Jupiter
+A confident and adventurous spirit. Enjoying new experiences in life. A good intuition and sense of timing. Seizing opportunities. Sudden indulgences and expenditures.
+$End
+
+#Uranus = Sun/Saturn
+Self-reliance and resourcefulness. Knowing when to 'play it safe' - and when to take risks. Rebelling against restrictive people and situations. Letting go and moving on. Separative trends.
+$End
+
+#Uranus = Sun/Neptune
+Enthusiastically pursuing idealistic or creative objectives. Upsetting and [destabilising,destabilizing] experiences. States of disorientation and confusion.
+$End
+
+#Uranus = Sun/Pluto
+An extremely independent and self-willed individual. [Channelling,Channeling] creative energy into pioneering ventures. Breaking new ground. The compulsion to [reorganise,reorganize] personal circumstances. Manipulative influences.
+$End
+
+#Uranus = Sun/Moon's North Node
+Stimulating friendships. Connections with free-thinking and unconventional people. Making and breaking associations quickly. Unexpected experiences with others.
+$End
+
+#Uranus = Sun/Ascendant
+An assertive and confident manner. Making a strong impression on others. Responding quickly to environmental influences. Rebelling against restrictive influences and people. Provoking others or being provoked.
+$End
+
+#Uranus = Sun/Midheaven
+An intuitive awareness of goals. The motivation to accomplish unique objectives in life. Trying new things. Contending with stressful work and domestic conditions. Unexpected incidents.
+$End
+
+#Uranus = Moon/Mercury
+A perceptive and intuitive nature. The ability to think and respond quickly. Being constantly on the go - attending to domestic and family needs. High mobility. Mental and emotional stress.
+$End
+
+#Uranus = Moon/Venus
+Artistic or creative innovation. Appreciating what is trendy and 'in vogue'. An active social life. Flirtation; the desire for fun and pleasure. Unpredictable mood swings or changes of heart.
+$End
+
+#Uranus = Moon/Mars
+Sudden bursts of activity. Industriousness. Doing things on the spur of the moment. Responding immediately to provocation or challenge. Exchanges of crossfire. Emotional stress and agitation.
+$End
+
+#Uranus = Moon/Jupiter
+Intuitively sensing when to seize opportunities and initiate ventures. A fortunate sense of timing. Emotionally spontaneous and generous.
+$End
+
+#Uranus = Moon/Saturn
+Difficulty adjusting to changes. Coping under duress. A dislike of disruption to established routines. The desire to break free from restrictive people and circumstances. Worry and anxiety.
+$End
+
+#Uranus = Moon/Neptune
+Intuitively sensing and understanding the needs and troubles of others. Empathic responses. Instinctive reactions. The tendency to become suddenly and emotionally overwhelmed. Emotional anxiety.
+$End
+
+#Uranus = Moon/Pluto
+Taking things to extremes. Intense reactions to people and situations. Drawing upon inner strength and resources when tested or challenged. Erratic and aggressive [behaviour,behavior]. Dramas in personal and domestic life.
+$End
+
+#Uranus = Moon/Moon's North Node
+Personal and family ties which are prone to flux and change. Quick affiliations; being aware of an instant rapport with others. Coming into contact with a wide variety of people.
+$End
+
+#Uranus = Moon/Ascendant
+Responding instinctively and spontaneously to environmental influences. Changes of mood triggered by other people and situations. Unpredictable and changeable personal relationships - or family dynamics.
+$End
+
+#Uranus = Moon/Midheaven
+Acting spontaneously and instinctively. A quickly responsive and reactive nature. Aspirations which are subject to change. Unpredictability in self or others. Anxiety attacks.
+$End
+
+#Uranus = Mercury/Venus
+Creative ingenuity. Bursts of artistic originality. A highly perceptive and intuitive nature - quick on the uptake. Vivacious and flirtatious [behaviour,behavior]. Impulsive attractions.
+$End
+
+#Uranus = Mercury/Mars
+Assessing situations swiftly. A quick and resourceful intellect. Having a ready answer, especially when 'put on the spot'. Rapid reply and retaliation.  Provoking others or being provoked. Accident and injury proneness.
+$End
+
+#Uranus = Mercury/Jupiter
+Intellectual ingenuity. Open-minded and mentally resourceful. Exposure to new or alternative ideas. An ideas person able to stimulate the minds of others. Successful activity.
+$End
+
+#Uranus = Mercury/Saturn
+Sudden mental blocks. Difficulty focusing or concentrating the mind for long periods at a time. Exposure to intolerant and inflexible attitudes. Knowing when to extricate self from negative situations or people. Separative influences.
+$End
+
+#Uranus = Mercury/Neptune
+Intuitive flashes. Acute perception. The pursuit of inspirational ideas and idealistic notions. The potential for irrational thinking and confused [behaviour,behavior]. Sudden states of disorientation. Escapist tendencies.
+$End
+
+#Uranus = Mercury/Pluto
+An impressive and persuasive communicator. Displaying the power of conviction and intent. Extremist views. Contending with build-ups of physical and emotional stress and pressure.
+$End
+
+#Uranus = Mercury/Moon's North Node
+Brainstorming sessions with others. Exploring new concepts or techniques. Innovative contributions within groups and associations. Active communication within relationships.
+$End
+
+#Uranus = Mercury/Ascendant
+An ideas person. Expressing original thoughts and opinions. Keeping up to date and informed about current affairs and developments. Changeable and hectic environments. High mobility.
+$End
+
+#Uranus = Mercury/Midheaven
+Displaying an individual perspective. Original thoughts and ideas. Sudden shifts in personal and professional direction. Tension and stress within work and domestic life.
+$End
+
+#Uranus = Venus/Mars
+A passionate and excitable nature. Being prone to love (or lust) at first sight. Spontaneous and erratic [behaviour,behavior]. Periodic extravagances. Originality in creative expression.
+$End
+
+#Uranus = Venus/Jupiter
+Taking pleasure in being spontaneous. An attractive and vivacious nature. Flirtatiousness. The state of anticipation and expectation. A hectic social life. Impulsive extravagances and indulgences - impulse buying.
+$End
+
+#Uranus = Venus/Saturn
+Experiencing tension and conflict in emotional or love relationships. States of dissatisfaction and irritability. The desire to break free from restrictive and controlling influences. Separative influences.
+$End
+
+#Uranus = Venus/Neptune
+Sudden attractions and infatuations. [Mesmerising,Mesmerizing] others or being [mesmerised,mesmerized]. Creative inspiration and originality. Disenchantment with someone or something. Escapist tendencies.
+$End
+
+#Uranus = Venus/Pluto
+Sudden and obsessive desires. Electrifying and magnetic attractions. Emotional or sexual tensions. Dramas and turmoil within relationships. Erratic or extremist [behaviour,behavior].
+$End
+
+#Uranus = Venus/Moon's North Node
+Spontaneous attractions and flirtations. Enjoying stimulating company; the ability to connect with others easily. Being drawn to independent and unusual people.
+$End
+
+#Uranus = Venus/Ascendant
+Instant attractions. Responding quickly to that which stimulates and appeals. A flirtatious and vivacious personality. Enjoying a busy and hectic social life. $End
+
+#Uranus = Venus/Midheaven
+A spontaneous and affectionate individual. Short-lived attractions - fleeting romantic encounters. A busy social life. Connecting with stimulating and exciting people.
+$End
+
+#Uranus = Mars/Jupiter
+An intuitive sense of timing. Independent and ambitious initiatives. An entrepreneurial spirit. Successfully implementing new methods or techniques. $End
+
+#Uranus = Mars/Saturn
+Intense frustration. Restraint and repression. Exposure to volatile and challenging influences. The potential for being caught off-guard or suddenly disadvantaged. Decisive separations.
+$End
+
+#Uranus = Mars/Neptune
+Difficulty [combatting,combating] undermining influences. Weakened [defences,defenses]. A lack of [vigour,vigor] and get-up-and-go. Fluctuating degrees of determination and motivation.
+$End
+
+#Uranus = Mars/Pluto
+The capability to cope with build-ups of stress and pressure. A force to be reckoned with. Extreme willpower and conviction. Challenging others and being challenged - 'meeting your match'. High risk and dangerous situations.
+$End
+
+#Uranus = Mars/Moon's North Node
+Intense spurts of activity. Multi-tasking. Managing and coordinating others. Periodic tensions and clashes of will with others. Flare-ups and arguments.
+$End
+
+#Uranus = Mars/Ascendant
+An assertive and volatile nature. Quick reflexes. Responding and acting swiftly to imminent threat or discord within the environment. Reactive and erratic [behaviour,behavior]. Accident proneness.
+$End
+
+#Uranus = Mars/Midheaven
+Self-promoting and self-assertive. The ability to adjust quickly to sudden disruptions to plans. Exploring viable alternatives. A volatile and provocative nature. Unpredictability in self and circumstances.
+$End
+
+#Uranus = Jupiter/Saturn
+Changing quickly from positive attitudes to negative attitudes and vice versa. Erratic [behaviour,behavior]. Struggling to maintain a sense of perspective and balance. Unstable material and financial conditions.
+$End
+
+#Uranus = Jupiter/Neptune
+Awakening to the reality and impossibility of a situation - and understanding the full implications. Tenuous and unstable conditions. Sudden financial losses through unwise speculations.
+$End
+
+#Uranus = Jupiter/Pluto
+An opportunist and strategist. Intuitively [recognising,recognizing] the right time to invest in something - or when to pull out (anticipating future trends). Involvement in large-scale, reformatory projects. Commitment and dedication. $End
+
+#Uranus = Jupiter/Moon's North Node
+Associating with a wide cross-section of people. The ability to find common ground with others and to quickly establish a rapport. Lively interactions.
+$End
+
+#Uranus = Jupiter/Ascendant
+An expressive and buoyant personality. Enjoying the freedom to come and go at will - an independent spirit. Making changes in lifestyle and residence for the better. Improving personal circumstances.
+$End
+
+#Uranus = Jupiter/Midheaven
+An intuitive and fortuitous sense of timing. [Recognising,Recognizing] and seizing opportune moments. Ambitious enterprises. A positive change of direction or career.
+$End
+
+#Uranus = Saturn/Neptune
+General instability and uncertainty. [Destabilising,Destabilizing] influences which come about suddenly. Sudden emotional and physical depletion. Enervating and debilitating circumstances.
+$End
+
+#Uranus = Saturn/Pluto
+The desire to be free of compounding pressures and stress. Defiance; erratic [behaviour,behavior]. Extreme intolerance in self and others. Enforced critical adjustments. Breakthroughs as a result of intense struggle.
+$End
+
+#Uranus = Saturn/Moon's North Node
+Tensions and worries within personal associations and family ties. Difficulty integrating on a sustainable basis. Disruptions within established unions.
+$End
+#Uranus = Saturn/Ascendant
+An unpredictable and calculating personality. Displays of defiance and provocation. Challenging others or being challenged. Extreme reactions. Separative trends and influences.
+$End
+
+#Uranus = Saturn/Midheaven
+Knowing what it takes to achieve important goals - applying discipline and focus. The pursuit of unique and original aspirations. Highly resourceful and industrious. Being prone to states of anxiety.
+$End
+
+#Uranus = Neptune/Pluto
+Intuitive and perceptive - the potential for developing clairvoyant and psychic abilities. Being fascinated and intrigued with metaphysical branches of knowledge. Witnessing synchronistic events.
+$End
+
+#Uranus = Neptune/Moon's North Node
+Difficulty integrating with others on a sustainable basis. Instability and unreliability within relationships. Undermining and [destabilising,destabilizing] influences within associations.
+$End
+
+#Uranus = Neptune/Ascendant
+An intuitive and empathic personality. Being readily influenced by others; a susceptible and receptive nature. Contending with undermining and deceptive currents. Unexpected disappointments.
+$End
+
+#Uranus = Neptune/Midheaven
+Pursuing unique and idealistic aspirations. Moving freely - and in accordance with inner directives. Undermining influences. Sudden changes in direction. Uncertainty and instability within self and circumstance.
+$End
+
+#Uranus = Pluto/Moon's North Node
+Relationships which impact significantly or which radically alter one's course in life. Stimulating and dynamic connections. Witnessing the power of united energy. Enforced separations.
+$End
+
+#Uranus = Pluto/Ascendant
+An imposing and [wilful,willful] personality. Radical and extreme [behaviour,behavior] in self or others. Sudden challenges and upheavals within the environment. Power struggles.
+$End
+
+#Uranus = Pluto/Midheaven
+A dynamic and magnetic individual. Demonstrating an intuitive awareness of future trends and cycles. Profound [realisations,realizations]. Independent or radical initiatives. Unexpected and fateful events.
+$End
+
+#Uranus = Moon's North Node/Ascendant
+Stimulating personal connections. Cultivating ties with people from all walks of life. Adapting or reacting to disruptive environmental influences. Unpredictability within associations. Stressful relationships.
+$End
+
+#Uranus = Moon's North Node/Midheaven
+Taking on challenges or risks together with others. Stimulating and motivating each other. Unpredictability within associations. Sudden events which change relationship dynamics.
+$End
+
+#Uranus = Ascendant/Midheaven
+Individualistic tendencies. A highly independent and resourceful nature. A constant need for freedom of movement and expression. Restlessness. Unpredictability of self and circumstances. Sudden adjustments and interventions. Upsetting experiences. The tendency to 'stress out'.
+$End
+
+
+
+----Neptune midpoints
+
+
+#Neptune = Sun/Moon
+Idealism. Creative vision and inspiration. Empathic and sensitive to the needs of others. A reflective and contemplative nature. Vulnerability. The tendency to become emotionally and physically drained. Inner confusion. Uncertainty or disappointment within partnerships.
+$End
+
+#Neptune = Sun/Mercury
+Inspired thinking and activity. Creative vision. The tendency to lack clarity, discrimination and mental focus. Clouded [judgement,judgment]. Potential misunderstandings.
+$End
+
+#Neptune = Sun/Venus
+A soft-hearted and devotional nature. Making sacrifices for loved ones. Creative vision and inspiration. Disenchantment with someone or something. Disappointment with another.
+$End
+
+#Neptune = Sun/Mars
+Lethargy; fluctuating levels of vitality and motivation. Feeling physically and mentally depleted. Decreased incentive and initiative. Disappointments. [Endeavouring,Endeavoring] to [realise,realize] personal ideals - or a vision. $End
+
+#Neptune = Sun/Jupiter
+Believing that anything is possible - high hopes and wishes. The need to keep expectations in perspective. The potential for misplaced confidence and trust. Disappointments. Depleted finances; over expenditure.
+$End
+
+#Neptune = Sun/Saturn
+Focusing energies into specific ideals. Making sacrifices in order to [realise,realize] personal objectives. Feelings of self-doubt; defeatist attitudes and insecurities. The tendency to lack resolve and stamina.
+$End
+
+#Neptune = Sun/Uranus
+Losing sight of what is trying to be achieved. Being easily distracted - or confused. The tendency to become emotionally churned up about things. Fluctuating levels of vitality and willpower.
+$End
+
+#Neptune = Sun/Pluto
+A deeply sensitive nature. Living life passionately and idealistically. Struggling to stay on top of things - to master the odds. A sense of powerlessness.
+$End
+
+#Neptune = Sun/Moon's North Node
+Distrust within associations. Deceiving others or being deceived. Difficulty integrating with others or feeling totally at ease within groups and connections.
+$End
+
+#Neptune = Sun/Ascendant
+A sensitive nature. The state of feeling vulnerable or exposed. The tendency to become physically and emotionally drained. Susceptible to environmental influences.
+$End
+
+#Neptune = Sun/Midheaven
+Idealistic - or unrealistic objectives. Obscure plans and intentions. Inner confusion and uncertainty. A lack of confidence in self and abilities. Potential mistakes and misunderstandings.
+$End
+
+#Neptune = Moon/Mercury
+A sensitive and imaginative nature. Instinctively picking up on the thoughts and feelings of others. Overly receptive to what others have to say. Misunderstandings within emotional or family relationships.
+$End
+
+#Neptune = Moon/Venus
+Emotional empathy and sensitivity. Compassion. Devotional towards family and loved ones. Becoming infatuated with someone or something. Potential disenchantment. A betrayal of trust. Emotional disappointment.
+$End
+
+#Neptune = Moon/Mars
+Idealistic motivations. Difficulty clearly defining what is wanted or needed. Periodic despondency. Suffering from a lack of energy and enthusiasm. Emotional and physical depletion. A tendency to give up hope.
+$End
+
+#Neptune = Moon/Jupiter
+A sensitive and generous soul. Envisaging a wide range of possibilities. Successful creative activity. Potential indifference and apathy if things do not turn out as expected. Wasteful or extravagant tendencies.
+$End
+
+#Neptune = Moon/Saturn
+Making personal sacrifices. The need to focus on personal responsibilities and priorities. Potential despondency. Feeling empty and drained. Difficulty curtailing fears and insecurities; negative inner states.
+$End
+
+#Neptune = Moon/Uranus
+A chaotic emotional life. A tendency to get side-tracked and distracted. States of confusion. Erratic [behaviour,behavior]. Feeling emotionally drained; the sudden depletion of energy and willpower.
+$End
+
+#Neptune = Moon/Pluto
+A deeply sensitive and empathic nature. Events which impact and imprint at an emotional level. Power plays and undermining influences within the family circle. Despondency; feelings of hopelessness.
+$End
+
+#Neptune = Moon/Moon's North Node
+Empathy and compassion within personal and family relationships. Sensitive to the needs of others and vice versa. Idealism within associations. Instability and unreliability within connections - or domestic arrangements.
+$End
+
+#Neptune = Moon/Ascendant
+An instinctive and perceptive nature. Absorbing impressions from others and the environment. Highly sensitive and responsive. Feelings of distrust. Susceptible to environmental influences. Undermining others - or being undermined.
+$End
+
+#Neptune = Moon/Midheaven
+A reflective and contemplative nature. Innate sensitivity and empathy. Difficulty trusting instincts - potential misconceptions. Vulnerability and insecurity. Contending with undermining currents.
+$End
+
+#Neptune = Mercury/Venus
+Creative inspiration. Artistic perception and appreciation. An insightful and delightful nature. A risk of misjudging others or of being misjudged. Irresponsible and neglectful [behaviour,behavior]. Emotional disappointment.
+$End
+
+#Neptune = Mercury/Mars
+A creative and imaginative intellect. The tendency to become overly excited and carried away with ideas. Dreaming and scheming. Difficulty manifesting plans; unrealistic thoughts and intentions. Potential miscommunications and disputes.
+$End
+
+#Neptune = Mercury/Jupiter
+A creative intelligence. A fertile and, at times, overactive imagination. Inspired communication. A risk of deceiving others or of being deceived. Misunderstandings and disappointments. Unrealistic thoughts and expectations.
+$End
+
+#Neptune = Mercury/Saturn
+Difficulty distinguishing fact from fiction. Ventures and plans which end up being a waste of time. [Recognising,Recognizing] the futility of a situation; hopelessness.
+$End
+
+#Neptune = Mercury/Uranus
+Ingenuity and inspiration. The ability to see things differently from others - offering unique or alternative perspectives. A risk of dispersing energies quickly; mental and emotional depletion. A sensitive nervous system.
+$End
+
+#Neptune = Mercury/Pluto
+A penetrating and perceptive intellect. Profound insights. Subtle manipulation - indirect ways of getting what is wanted. An inspired and dynamic communicator. Potential dishonesty - contending with unfair accusations.
+$End
+
+#Neptune = Mercury/Moon's North Node
+Idealism and inspired thinking within associations. Sensitivity and vulnerability within connections. States of uncertainty. Potential misunderstandings within relationships. Disappointments.
+$End
+
+#Neptune = Mercury/Ascendant
+A receptive and perceptive nature. Difficulty keeping on top of things due to [disorganisation,disorganization] or mismanagement. Unreliability within relationships.
+$End
+
+#Neptune = Mercury/Midheaven
+Being motivated by idealistic thoughts and ideas. Moments of indecision and vacillation. Unrealistic aims and aspirations. Instability in professional and domestic life. Escapism.
+$End
+
+#Neptune = Venus/Mars
+A highly sensual and emotional nature. The potential for succumbing to seduction and desire. Infatuations; passionate entanglements. Emotional vulnerability. Disenchantment and regrets within relationships. Potential betrayal.
+$End
+
+#Neptune = Venus/Jupiter
+Living in hope. Giving whole-heartedly and unconditionally. Unrealistic desires and expectations. Dissatisfaction and disappointment within relationships. Indulgence and extravagance.
+$End
+
+#Neptune = Venus/Saturn
+Unfulfilled longings and desires. Difficulty attaining and sustaining closeness with others. Dampened enthusiasm and hopes. Potential disappointments and sacrifices. Sincere devotion and loyalty to loved ones.
+$End
+
+#Neptune = Venus/Uranus
+Flirtatious [behaviour,behavior]. Enticing others or being enticed. Secret infatuations. The potential for emotional turmoil and chaos. Instability and confusion within relationships. Inspired artistic originality.
+$End
+
+#Neptune = Venus/Pluto
+A deeply emotional and sensitive nature. Experiencing 'highs and lows' in emotional or relationship life. Obsessing about another; secret infatuations. Excessive and indulgent tendencies.
+$End
+
+#Neptune = Venus/Moon's North Node
+Romantic inclinations. Affection and empathy within relationships. Infatuations. The potential for unfulfilled passions and desires. Exposure to dishonesty and distrust in relationships or friendships.
+$End
+
+#Neptune = Venus/Ascendant
+An attractive and alluring personality. Enjoying harmonious and tranquil environments. Susceptible and vulnerable to environmental influences. Potential distrust and disillusionment within relationships. Disappointments.
+$End
+
+#Neptune = Venus/Midheaven
+An empathic, warm-hearted and compassionate nature. A sensitive and gentle soul. Vulnerability. A risk of cultivating unrealistic expectations of another. Undermining currents within relationships. Potential deception and dishonesty.
+$End
+
+#Neptune = Mars/Jupiter
+Unrealistic ventures; starting enterprises whose outcomes are uncertain. [Endeavouring,Endeavoring] to have faith and belief in self and abilities. The potential for unwise speculations.
+$End
+
+#Neptune = Mars/Saturn
+The tendency to become readily discouraged; suffering from a lack of conviction and belief in self. Feeling depleted and sapped of energy. Decreased incentive and motivation. Significant losses and sacrifices.
+$End
+
+#Neptune = Mars/Uranus
+Difficulty keeping up with the demands of situations. Fluctuating levels of courage and determination. Irrational and erratic [behaviour,behavior]. Yielding under duress. The sudden depletion of energy and motivation.
+$End
+
+#Neptune = Mars/Pluto
+Intimidating others or being intimidated. Veiled threats. Manipulative currents. Using whatever means necessary to get what is wanted. Extremist tendencies. The potential for misdirecting personal power and energies.
+$End
+
+#Neptune = Mars/Moon's North Node
+Difficulties integrating easily with others - having to work hard to establish a sense of belonging and team-spirit. Inconsistency in collaborative ventures. Contending with deceptive and negative undercurrents within relationships.
+$End
+
+#Neptune = Mars/Ascendant
+A lack of confidence, motivation and incentive. The tendency to shy away from harsh or aggressive situations and influences. A risk of being taken advantage of - or readily swayed and influenced by others. Dubious associations.
+$End
+
+#Neptune = Mars/Midheaven
+Pursuing creative or idealistic aspirations. Inspired actions. The potential for cultivating unrealistic hopes and beliefs. A risk of misdirecting energies. The undermining of personal and professional initiatives and ambitions.
+$End
+
+#Neptune = Jupiter/Saturn
+Fluctuating levels of confidence and success. Material and financial instability; uncertainty regarding personal security. Feeling 'out of luck' - or readily discouraged. Distrust. Reluctant sacrifices. Separative influences.
+$End
+
+#Neptune = Jupiter/Uranus
+Instinctive and intuitive responses. Trusting one's [judgement,judgment] and intuition. Believing that anything is possible. Being confident that things will work out well. Taking a chance - or a risk. Blind faith and trust.
+$End
+
+#Neptune = Jupiter/Pluto
+Contending with deceptive or coercive undercurrents. Manipulating others or being manipulated. Exploitation. Unwise speculations. The potential for underhanded activity. Financial mismanagement or misfortune.
+$End
+
+#Neptune = Jupiter/Moon's North Node
+Seeking harmony within relationships - assuming the best of others and potentially accepting people at 'face value'. Shared optimism and idealism. Trusting others too readily. The potential for falling prey to undermining and deceptive influences.
+$End
+
+#Neptune = Jupiter/Ascendant
+An idealistic and buoyant nature. Believing that anything is possible. Potential uncertainty and unreliability within contacts. Feeling 'out of luck' or let down by others. Unwise risks or dubious speculations.
+$End
+
+#Neptune = Jupiter/Midheaven
+Genuinely believing that anything is possible. Envisaging fortunate turns of events. Naivety and gullibility. The potential for overextending self and resources - financial instability. Indulgence and extravagance.
+$End
+
+#Neptune = Saturn/Uranus
+The desire to escape from tense and stressful situations - avoidance. The necessity to give in - or to accept that 'what will be, will be'. Helpless and hopeless situations. Witnessing unavoidable changes.
+$End
+
+#Neptune = Saturn/Pluto
+Contending with deceptive and manipulative energies and influences. Emotional distress and anguish through dishonesty. Undermining forces that [destabilise,destabilize] personal security. Angst. Painful separations.
+$End
+
+#Neptune = Saturn/Moon's North Node
+Periodically seeking sanctuary and seclusion away from others. Difficulties establishing and maintaining reliable and enduring relationships. Influences which undermine connections and family ties.
+$End
+
+#Neptune = Saturn/Ascendant
+Appearing more composed and in control than the case may be. Guarded [behaviour,behavior]. The experience of being personally disadvantaged or undermined by others - or environmental influences. Suffering in silence or in private.
+$End
+
+#Neptune = Saturn/Midheaven
+Standing tenaciously by an ideal, despite setbacks and delays. Making sacrifices to [realise,realize] aspirations. Having few illusions about certain realities. Recycling phases of uncertainty, insecurity and fear (of loss).
+$End
+
+#Neptune = Uranus/Pluto
+Profound humanitarian and idealistic causes. Being passionately caught up in collective issues. Fanaticism. Confused notions and intentions. Over-extending self and dissipating resources. Picking up on negative undercurrents.
+$End
+
+#Neptune = Uranus/Moon's North Node
+Gullibility and instability within associations. Feeling [defenceless,defenseless] against the will of another - or others. Disruptive and undermining elements within partnerships. Deliberately misleading others or being misled. Distrust and dishonesty.
+$End
+
+#Neptune = Uranus/Ascendant
+An intuitive and instinctive sense of timing and of the 'moment'. Assimilating and adapting to environmental influences. A highly sensitive and responsive nature. The tendency to waver or hesitate; to suddenly doubt self and abilities.
+$End
+
+#Neptune = Uranus/Midheaven
+Inspiration. Sudden bursts of idealism alternating with periods of despondency. Difficulty clarifying and [realising,realizing] aspirations. Dampened enthusiasm. Feeling ineffectual and disempowered.
+$End
+
+#Neptune = Pluto/Moon's North Node
+Contending with deceptive and manipulative influences within relationships. Discovering that some people are not necessarily as they seem. Potential dishonesty and instability. Diminishing trust and commitment.
+$End
+
+#Neptune = Pluto/Ascendant
+Finding the means and ways to get what is wanted; be that secretly or indirectly. Gullibility; being deeply disappointed and misled. The greater the risk - the greater the loss. Disempowerment.
+$End
+
+#Neptune = Pluto/Midheaven
+An individual with 'vision' and intent; intense [realisations,realizations]. A risk of seriously miscalculating others - or a situation. The potential for 'falling prey' to illusion and deception. Misleading others or being misled.
+$End
+
+#Neptune = Moon's North Node/Ascendant
+Forming misconceptions about others - and vice versa. Uncertainty within and about relationships. Difficulty shielding self from negative and draining people. Dishonesty and distrust within relationships.
+$End
+
+#Neptune = Moon's North Node/Midheaven
+Connecting with others at an inner and spiritual level - strong emotional and empathic bonds. Coming together for idealistic causes and aims. The potential for disappointing or hurtful experiences. Neglecting others or being neglected.
+$End
+
+#Neptune = Ascendant/Midheaven
+The idealist. A visionary or dreamer. An empathic and compassionate nature. Sensitivity and receptivity. Moments of feeling unsure of self and abilities; surfacing insecurities and uncertainties. Evasive and escapist tendencies. Difficulty 'seeing through' someone or - in [recognising,recognizing] 'a scam'.
+$End
+
+
+
+----Pluto midpoints
+
+#Pluto = Sun/Moon
+A passionate nature. Total commitment to significant goals. Depth of feeling and response. Conclusive endings and new beginnings to chapters in life. Compulsive and obsessive tendencies. Manipulating others or being manipulated. Potential power struggles.
+$End
+
+#Pluto = Sun/Mercury
+Depth of perception and insight. Intense mental activity; the urge to investigate and uncover. A skilled and dynamic communicator. Persuasiveness.
+$End
+
+#Pluto = Sun/Venus
+A passionate nature. Personal magnetism and charisma. Intensified emotions and desires. Difficulties in relationships through possessiveness. Obsessive and compulsive tendencies.
+$End
+
+#Pluto = Sun/Mars
+Ruthlessly pursuing goals and ambitions. Pushing self relentlessly; potential exhaustion. A preference for 'calling the shots'. Power struggles due to a lack of compromise and tolerance. Compulsive [behaviour,behavior].
+$End
+
+#Pluto = Sun/Jupiter
+A relentless striving for personal gain or advancement. Fortunate turning points. Large-scale enterprises and investments. A risk of over-extending self and resources.
+$End
+
+#Pluto = Sun/Saturn
+Commitment and dedication to long-term projects. Facing significant personal tests; an intense struggle against the odds. Controlling and manipulating others - or vice versa. Thwarted goals and desires. Enforced restrictions and separations.
+$End
+
+#Pluto = Sun/Uranus
+A passionate and self-determining individual. Confronting the new or unfamiliar directly. Volatile and reactive [behaviour,behavior]. Dominating others or being dominated. Enforced adjustments.
+$End
+
+#Pluto = Sun/Neptune
+Commitment to personal ideals and beliefs. Obsessions and infatuations. Deeply impressionable and vulnerable to external influences. Intense emotional experiences. A risk of losing touch with reality and with powers of discernment.
+$End
+
+#Pluto = Sun/Moon's North Node
+Influential and powerful connections. Undertaking large-scale projects with others; commitment to specific causes. Intense and dynamic teamwork. Manipulating others or being manipulated; employing coercive tactics. Potential power struggles.
+$End
+
+#Pluto = Sun/Ascendant
+Personal magnetism. Cultivating influential and powerful contacts. Dominating others or being dominated. Power plays and power struggles. An awareness of forces outside of personal control.
+$End
+
+#Pluto = Sun/Midheaven
+An authoritative and influential individual. Commitment and dedication to significant aspirations. Inner conviction. Profound [realisations,realizations]. Significant turning points and realignments. Critical adjustments.
+$End
+
+#Pluto = Moon/Mercury
+Acute perception and depth of feeling. Profound [realisations,realizations] and discoveries. Manipulation; knowing how to draw the appropriate emotional responses in others. Subjection to emotional and mental pressure.
+$End
+
+#Pluto = Moon/Venus
+Emotional intensity. Overwhelming feelings of passion - the desire for meaningful relationships. A deep commitment to loved ones. Compulsive and obsessive tendencies. Manipulating others or being manipulated.
+$End
+
+#Pluto = Moon/Mars
+All consuming ambitions pursued with passionate intent. Compulsive stirrings and urges. Industrious and high-powered activity. Power struggles within personal associations and domestic life.
+$End
+
+#Pluto = Moon/Jupiter
+Living life with passion and enthusiasm. An intense desire for financial security and personal satisfaction. Large-scale ventures or investments. Influential and powerful connections. Total dedication to a cause.
+$End
+
+#Pluto = Moon/Saturn
+Solitary inclinations. Feeling emotionally distanced from others (or the family). Conclusive breaks from the past. Contending with deep-rooted insecurities. Suppressed emotions and passions.
+$End
+
+#Pluto = Moon/Uranus
+Emotional intensity and at times volatility. An undeniable need for freedom of expression and experience. Extreme mood swings. Enforced changes and personal readjustments.
+$End
+
+#Pluto = Moon/Neptune
+A deeply sensitive and vulnerable nature. Intense emotional experiences. Extreme reactions and responses. Difficulty fending off negative or manipulative forces. States of confusion and instability.
+$End
+
+#Pluto = Moon/Moon's North Node
+Intense personal and family dynamics - feeling deeply bound or connected to significant people. Emotional commitment and support within relationships. Potential dramas and power struggles within partnerships.
+$End
+
+#Pluto = Moon/Ascendant
+A compulsive personality. Deeply caring or protective towards close ties or family members. Intense emotional reactions and responses. Power struggles and manipulation within relationships.
+$End
+
+#Pluto = Moon/Midheaven
+A passionate nature. Profound inner [realisations,realizations]. Commitment to significant aspirations. Drama in domestic and family life. Contending with manipulative energies. Enforced and at times necessary separations.
+$End
+
+#Pluto = Mercury/Venus
+A charming and persuasive nature. Acutely perceptive and discerning. Knowing how to easily get what is wanted. Obsessive and possessive tendencies within relationships. Talking about intimate or love matters incessantly.
+$End
+
+#Pluto = Mercury/Mars
+A compelling and impassioned communicator. Thriving on mental challenge - or argument. Desiring to always have the 'last word'. Dominating others or being dominated. Provocation and retaliation. Extreme impatience or intolerance.
+$End
+
+#Pluto = Mercury/Jupiter
+Intellectual prowess. A gifted and dynamic communicator. Successfully articulating ideas and plans. Presenting a convincing case or argument. Lucrative or successful business ventures.
+$End
+
+#Pluto = Mercury/Saturn
+A serious and deeply contemplative nature. Preoccupation; the tendency to become locked into particular trains of thought. Inflexible or rigid thinking. A risk of being consumed by negative ideas.
+$End
+
+#Pluto = Mercury/Uranus
+Intense mental activity. Intellectually resourceful and dynamic. Picking up new concepts quickly and astutely. Being prone to strong convictions and fixed attitudes. Exploring alternative ideas or methods. Mental irritability and exhaustion.
+$End
+
+#Pluto = Mercury/Neptune
+A penetrating and perceptive mind. Profound insights. A commitment to personal ideals and beliefs. The tendency to conceal things from others. Contending with manipulative or deceptive influences.
+$End
+
+#Pluto = Mercury/Moon's North Node
+A convincing communicator with the power of conviction. Holding the attention of others. Intense discussions. Dominating others or being dominated. Power struggles and verbal disputes within relationships.
+$End
+
+#Pluto = Mercury/Ascendant
+An influential and dynamic communicator. Displaying the power of conviction. Intense discussions and debates with others. The potential for being intolerant of others' ideas. Verbal disputes - conflict within the environment.
+$End
+
+#Pluto = Mercury/Midheaven
+The power of intent and conviction. Commitment and dedication to specific ambitions. Intense mental activity. Maintaining an exclusive focus on particular aims. Fixations.
+$End
+
+#Pluto = Venus/Mars
+A deeply passionate and sensual nature. Charisma. Obsessing about someone - or something. Compulsive urges; giving in to temptation. Being overwhelmed by desire and the power of love. Intense attractions.
+$End
+
+#Pluto = Venus/Jupiter
+A passionate, generous and loving nature. Powerful and intense attractions. All-consuming experiences in love and partnership. Affluent and influential connections. Excessive and indulgent qualities.
+$End
+
+#Pluto = Venus/Saturn
+Intense loyalty towards loved ones. Feeling uncomfortable with overt displays of affection and intimacy. Emotional and sexual restraint. Suppressive tendencies. Contending with manipulation and control issues within relationships.
+$End
+
+#Pluto = Venus/Uranus
+Sudden and compulsive attractions. Love or lust at first sight; obsessing about someone or something. Intense and fleeting infatuations. Intense or dramatic relationships.
+$End
+
+#Pluto = Venus/Neptune
+An intense and obsessive emotional life. Deep and long lasting infatuations and fixations. The potential for being overwhelmed by emotion - obsessing about someone or something. Disappointment or dramas within relationships.
+$End
+
+#Pluto = Venus/Moon's North Node
+Powerful and magnetic attractions. A charming and charismatic nature. The transformation of self and others through the power of love and intimate relationships. Significant experiences. Obsessive or compulsive tendencies.
+$End
+
+#Pluto = Venus/Ascendant
+Personal magnetism and charisma. Coming into contact with powerful people. Intense and passionate relationships. Manipulating others or being manipulated. Compulsive tendencies in love.
+$End
+
+#Pluto = Venus/Midheaven
+A magnetic and charming nature. The ability to get what is wanted. Easily manipulating others or being easily manipulated. Fixating over something or someone. Obsessive tendencies.
+$End
+
+#Pluto = Mars/Jupiter
+The power of conviction and positive intent. Increased energy and enthusiasm. Being capable and competent in handling large-scale ventures. Dynamic and high-powered activity. Lucrative and long-term investments.
+$End
+
+#Pluto = Mars/Saturn
+Demonstrating the will and intent to meet specific challenges; to overcome an arduous situation. Build ups of stress and aggression which are prone to powerful release. Decisive separations. Exposure to forces outside of personal control.
+$End
+
+#Pluto = Mars/Uranus
+A courageous spirit - exercising tremendous determination to battle the odds. Quick reactions to impending threat or danger. Contending with forces outside of personal control. Aggression and impatience. Accident proneness.
+$End
+
+#Pluto = Mars/Neptune
+Powerlessness; the inability to take decisive action. Feeling bereft of physical strength and resistance. Negative repercussions through coercive and deceptive tactics.
+$End
+
+#Pluto = Mars/Moon's North Node
+Dynamic and ambitious relationships. Intensive collaboration. Working under pressure in order to achieve specific goals and deadlines. High performance and high-powered activity. Commitment to a group cause.
+$End
+
+#Pluto = Mars/Ascendant
+A pushy and demanding personality. An uncompromising will - refusing to concede or back down. A risk of inciting negative reactions from others in the environment. Potential coercion and manipulation.
+$End
+
+#Pluto = Mars/Midheaven
+A highly driven and ambitious individual. Setting and accomplishing specific goals. Pushing self to meet deadlines and specific targets. High-powered activity.
+$End
+
+#Pluto = Jupiter/Saturn
+Extreme gains and losses; attempting to strike a balance between expanding and consolidating. [Endeavouring,Endeavoring] to break even. Commitment and focus to large-scale projects. Intensive and time-consuming activity. Dramatic shifts or severances.
+$End
+
+#Pluto = Jupiter/Uranus
+Taking significant risks; trusting intuitive prompts. Commitment to far-reaching ventures and enterprises. Changing fortunes. Exploring viable alternatives. An unforeseen turn in circumstances.
+$End
+
+#Pluto = Jupiter/Neptune
+Commitment and devotion to specific causes and ideals. Great expectations - or assumptions. Being consumed by idealistic and speculative notions. A risk of losing everything; of being blinded by 'greed and power'.
+$End
+
+#Pluto = Jupiter/Moon's North Node
+Connecting with powerful and affluent people. Forming prominent and influential contacts. Extensive and exclusive connections. Groups and [organisations,organizations] committed to social improvement.
+$End
+
+#Pluto = Jupiter/Ascendant
+Successful and high-powered activity. Powerful and influential partnerships. Large-scale ventures; lucrative investments. Financial or social enterprises.
+$End
+
+#Pluto = Jupiter/Midheaven
+Deeply passionate and motivated to achieve specific aims and aspirations. [Recognising,Recognizing] long-term trends and (financial) cycles. Significant investments. Advancement and promotion.
+$End
+
+#Pluto = Saturn/Uranus
+Contending with considerable pressure and force. Tough experiences - facing harsh realities. Inflexibility and defiance in self or others. Sudden separations through forces beyond personal control. Enforced sacrifices and compromises.
+$End
+
+#Pluto = Saturn/Neptune
+Acute sensitivity and vulnerability. Feeling emotionally and physically weakened and depleted. Incapacitation. Surfacing insecurities and fears. Contending with - or giving in to - overwhelming pressures. Exposure to forces outside of personal control.
+$End
+
+#Pluto = Saturn/Moon's North Node
+[Recognising,Recognizing] relationships which are important; enduring ties. Contending with controlling or manipulative influences within connections. Being compelled to spend periods alone. Separative influences.
+$End
+
+#Pluto = Saturn/Ascendant
+Oppressive or destructive environmental influences. Contending with power and control issues within partnerships. The state of being severely compromised or distressed. Enforced restrictions.
+$End
+
+#Pluto = Saturn/Midheaven
+Intense introspection. Facing a difficult advancement fraught with obstacles and challenges. Conclusive turning points. Enforced sacrifices and compromises. Separative influences.
+$End
+
+#Pluto = Uranus/Neptune
+Intense idealism and inspiration. The state of being [defenceless,defenseless] and powerless in the face of adversity. Contending with forces and currents outside of personal control. Extremes of emotion - confusion or chaos.
+$End
+
+#Pluto = Uranus/Moon's North Node
+Dynamic connections with independent people. Progressive initiatives. Passionately sharing new discoveries with others. Sudden fixations for intense and brief periods of time. Potential clashes of will and power struggles within relationships.
+$End
+
+#Pluto = Uranus/Ascendant
+A fiercely independent nature. Self-assertive and compulsive tendencies. Contending with significant challenges and pressures. Upsetting environmental events. Enforced adjustments.
+$End
+
+#Pluto = Uranus/Midheaven
+A dynamic and driven individual. Doing what it takes to meet demands and deadlines. Commitment to specific aims and aspirations. Compulsive tendencies. Contending with extreme build-ups of pressure and stress.
+$End
+
+#Pluto = Neptune/Moon's North Node
+Depressive or manipulative influences within relationships. Coercing and undermining others - or vice versa. Contending with doubt and suspicion within associations. The potential for destructive power struggles.
+$End
+
+#Pluto = Neptune/Ascendant
+A deeply sensitive nature. The tendency to yield or surrender. A sense of helplessness and futility. Contending with overwhelming environmental pressures. Instability. A betrayal of trust which impacts profoundly.
+$End
+
+#Pluto = Neptune/Midheaven
+Deeply impressionable and sensitive. Commitment to idealistic aims and ambitions. Periodic confusion with regard to direction. The potential for unwise risks and speculations. Manipulating and deceiving others - or vice versa.
+$End
+
+#Pluto = Moon's North Node/Ascendant
+Intense personal dynamics and relationships. Dominating others or being dominated; a force to be reckoned with - or to reckon with. Potential power plays and power struggles.
+$End
+
+#Pluto = Moon's North Node/Midheaven
+High-powered and dynamic connections and activity. Excelling through joint [endeavour,endeavor] and participation. Significant accomplishments with colleagues or partners. Combining forces for a specific aim.
+$End
+
+#Pluto = Ascendant/Midheaven
+A passionate and intense nature. Displaying an intense or domineering personality. Being accustomed to 'getting your own way'. Commitment to significant aspirations. Powerful and dynamic relationships. The tendency to become obsessed or consumed by something or someone. Potential power struggles.
+$End
+
+
+
+----Moon's North Node midpoints
+
+
+#Moon's North Node = Sun/Moon
+Forming significant unions. A knack for forming and cultivating connections. Satisfying experiences within groups or clubs. A supportive and consistent member. Strong family ties and bonds.
+$End
+
+#Moon's North Node = Sun/Mercury
+A confident and articulate communicator. Relating well to others. Entering into conversations and discussing day-to-day affairs. Arranging and doing things together. Potential business connections.
+$End
+
+#Moon's North Node = Sun/Venus
+Displaying personal charm and appeal. A busy social life. Enjoying parties or social events. Forming intimate and heart-felt connections.
+$End
+
+#Moon's North Node = Sun/Mars
+Working well in conjunction with others. High motivation and high performance. Accomplishing joint tasks with other people. Energetic and resolute collaboration.
+$End
+
+#Moon's North Node = Sun/Jupiter
+Generous and supportive friendships and alliances. Satisfying and rewarding relationships. Successful activity in conjunction with others. Cultivating influential or affluent connections.
+$End
+
+#Moon's North Node = Sun/Saturn
+Feeling shy or awkward; difficulty integrating with others. Testing or strained relationships. Controlling others or being controlled. Making sacrifices for others. Separative influences.
+$End
+
+#Moon's North Node = Sun/Uranus
+Stimulating connections. Associating with progressive or free-thinking people. Sporadic involvement in group activity. The potential for reactive and upsetting [behaviour,behavior] within relationships.
+$End
+
+#Moon's North Node = Sun/Neptune
+Heightened sensitivity within relationships. Empathy between others. Mixing with creative and inspiring individuals. Fragile connections; uncertainty or disappointment within personal ties.
+$End
+
+#Moon's North Node = Sun/Pluto
+Intense personal relationships. Sharing similar goals and convictions. Working together under pressure. Manipulating others - or being manipulated. Potential power struggles.
+$End
+
+#Moon's North Node = Sun/Ascendant
+A vibrant and confident personality. Forming influential contacts. Acknowledging others within the environment - and being acknowledged. Coming into contact with strong personalities.
+$End
+
+#Moon's North Node = Sun/Midheaven
+Dynamic personal or professional relationships; sharing ambitious aims or aspirations. Contacts with influential individuals. Connecting with the 'right' people at the right time.
+$End
+
+#Moon's North Node = Moon/Mercury
+Thinking along the same lines as others; being on the same wavelength. Discussing personal thoughts and feelings within relationships. Forming emotional and mentally stimulating connections.
+$End
+
+#Moon's North Node = Moon/Venus
+Comforting others and catering to their needs. Supportive and loving personal and family connections. Playing the role of peacemaker within relationships. Creative and artistic liaisons.
+$End
+
+#Moon's North Node = Moon/Mars
+Associating with dynamic and industrious people. Ambitious and productive unions. Contending with emotional reactions and impatience in self or others. Potential conflict.
+$End
+
+
+#Moon's North Node = Moon/Jupiter
+Generosity and good will within personal associations and with family members. Prosperous and profitable relationships. Social activity; connecting easily with others.
+$End
+
+#Moon's North Node = Moon/Saturn
+Shyness; emotional reserve within associations. Testing personal relationships and family ties. Experiencing a strong sense of responsibility towards others - or else, feeling burdened by another. Separative influences.
+$End
+
+#Moon's North Node = Moon/Uranus
+Lively and spontaneous personal connections. Associating with progressive and emotionally stimulating people. Intuitive links with others. The potential for stressful relationships or family dynamics.
+$End
+
+#Moon's North Node = Moon/Neptune
+Compassion and empathy within personal relationships. Caring for others and sensing their needs. Connections with idealistic and inspirational people. Depending on others - and being depended on.
+$End
+
+#Moon's North Node = Moon/Pluto
+Intense interactions within personal and family dynamics. Contending with manipulative or obsessive tendencies within self or others. Power struggles in relationships - or within families.
+$End
+
+#Moon's North Node = Moon/Ascendant
+An emotionally caring and sensitive nature. Sensing and accommodating to the needs of others. Perceiving the mood of the environment; instinctively picking up on what others are feeling.
+$End
+
+#Moon's North Node = Moon/Midheaven
+Devotion to family members and close personal ties. Supporting others and being supported - especially in the pursuit of aims and aspirations. Unified efforts and involvement.
+$End
+
+#Moon's North Node = Mercury/Venus
+Mixing within artistic and creative circles. A highly active social life - and calendar. Knowing how to have fun with others. Superficial or light-hearted acquaintances.
+$End
+
+#Moon's North Node = Mercury/Mars
+Lively and heated discussions with others. Taking an active interest in people's opinions or points of view. Potential arguments and disagreements.
+$End
+
+#Moon's North Node = Mercury/Jupiter
+A natural conversationalist; ease of communication with others. Connections with intelligent and amusing people. Open and frank communications within relationships.
+$End
+
+#Moon's North Node = Mercury/Saturn
+Serious discussions; the tendency to [labour,labor] a point. The potential for negative trains of thought; for thinking or saying unkind things about others. Separative influences.
+$End
+
+#Moon's North Node = Mercury/Uranus
+Connecting with interesting and free-thinking people. Intuitively knowing what others are thinking - or what they are about to say. Stimulating relationships. Active communication with others.
+$End
+
+#Moon's North Node = Mercury/Neptune
+Empathy and compassion within relationships. Psychic perception; sensing the thoughts and moods of others. Contending with deceptive or undermining influences within associations.
+$End
+
+#Moon's North Node = Mercury/Pluto
+A dynamic and compelling communicator capable of swaying other people's thinking. Intense discussions. Working under pressure with others - sustained mental activity.
+$End
+
+#Moon's North Node = Mercury/Ascendant
+Maintaining active communication with others. An enquiring mind; curious and inquisitive about other people's affairs. Stimulating personal friendships and quickly changing alliances.
+$End
+
+#Moon's North Node = Mercury/Midheaven
+Intellectually stimulating connections with others; discussing shared goals or aspirations. An astute and perceptive nature. Making intelligent assessments with or about others.
+$End
+
+#Moon's North Node = Venus/Mars
+Intimate physical and emotional unions. Passionate responses and desires. Sensuality. Impulsive love connections. Potential conflict and jealousy within partnerships.
+$End
+
+#Moon's North Node = Venus/Jupiter
+Generosity and kindness within relationships. A happily giving nature; indulging others and being indulged. Shared prosperity. Mixing with creative and artistic people. Enjoying an active social life.
+$End
+
+#Moon's North Node = Venus/Saturn
+Difficulty establishing intimate relationships. Emotional and sexual restraint. Making sincere sacrifices for loved ones. Separative influences. A loyal friend or companion.
+$End
+
+
+#Moon's North Node = Venus/Uranus
+Spontaneous and flirtatious [behaviour,behavior]. Instant attractions; the sudden stirring of emotion and desire. Exciting liaisons. Potential instability within relationships.
+$End
+
+#Moon's North Node = Venus/Neptune
+Idealistic notions about love and partnership. Seducing others or being seduced. Dependencies within relationships. Potential disenchantment with another - or others.
+$End
+
+#Moon's North Node = Venus/Pluto
+Passionate liaisons. Intense and dramatic unions. Potential power struggles in love or relationship-life. Contending with jealousy and possessiveness in self or another.
+$End
+
+#Moon's North Node = Venus/Ascendant
+A charming and pleasant personality. The enjoyment of giving and sharing within relationships. Appreciating others - and being appreciated. Enjoying a busy social life.
+$End
+
+#Moon's North Node = Venus/Midheaven
+A loving and devoted individual. Cultivating intimate relationships. Connecting with creative people. Mixing within artistic circles. Enjoying an active social life.
+$End
+
+#Moon's North Node = Mars/Jupiter
+Connecting with highly motivated people. Achieving desired results in enterprises through combined effort. Prosperous partnerships. Profitable and rewarding associations.
+$End
+
+#Moon's North Node = Mars/Saturn
+Difficulty sustaining and maintaining associations. The desire to sort out and deal with relationship conflicts. Inhibitive and restrictive connections. Separative influences.
+$End
+
+#Moon's North Node = Mars/Uranus
+Shared ambitious ventures. Resourceful and motivated relationships - high-powered and energetic activity. The potential for stressful and volatile influences within connections.
+$End
+
+#Moon's North Node = Mars/Neptune
+Difficulty coping with relationship demands. Influences which actively undermine associations; the inability to fend off negative elements. Associating with creative people - shared idealism and inspiration.
+$End
+
+#Moon's North Node = Mars/Pluto
+Dynamic and intense relationships; high-powered activity. Competitive and large-scale projects. Connecting with powerful and ambitious people. The potential for ruthless and manipulative associations.
+$End
+
+#Moon's North Node = Mars/Ascendant
+An assertive nature; taking charge of others and situations. Significant achievements within associations. Industrious and ambitious teamwork. Intimidating others within the environment - or being intimidated.
+$End
+
+#Moon's North Node = Mars/Midheaven
+A domineering nature; taking charge of situations. Energetic and enterprising teamwork. Getting what is wanted through assertive and potentially assertive tactics.
+$End
+
+#Moon's North Node = Jupiter/Saturn
+Sharing good times and tough times with others - and within the family circle. [Recognising,Recognizing] the advantages and disadvantages of certain relationships. The breakdown of connections through a lack of trust and respect. Separative influences.
+$End
+
+#Moon's North Node = Jupiter/Uranus
+Optimism and excitability within associations. Connecting with positive and progressive people. Mutually rewarding and interesting friendships. Beneficial ties.
+$End
+
+#Moon's North Node = Jupiter/Neptune
+Being sensitive and compassionate to the needs of others. Placing blind faith or trust in others; potential disappointment. Unrealistic expectations within friendships and relationships.
+$End
+
+#Moon's North Node = Jupiter/Pluto
+Participating in big projects or schemes with others. Successful and influential relationships. Potential disharmony through manipulative and coercive tactics.
+$End
+
+#Moon's North Node = Jupiter/Ascendant
+Forming positive and beneficial connections. Being well thought of and respected by friends and acquaintances. Generous and prosperous partnerships. Successful alliances.
+$End
+
+#Moon's North Node = Jupiter/Midheaven
+Advantageous personal or professional relationships. Successful and profitable teamwork. Gaining positive support from others and from family members. Connecting with optimistic and forward-thinking people.
+$End
+
+#Moon's North Node = Saturn/Uranus
+Stressful and tense connections. Contending with issues of restriction and freedom within relationships. Incompatibility. A proneness to separations and sudden break-ups.
+$End
+
+#Moon's North Node = Saturn/Neptune
+Exposure to negative influences which undermine and [destabilise,destabilize] associations. The tendency to feel ineffectual in the company of others. Depressive elements within relationships. Separative influences.
+$End
+
+#Moon's North Node = Saturn/Pluto
+Combining forces with others to achieve specific or [specialised,specialized] goals; demonstrating intense focus and concentration. Experiencing 'control and power' issues within relationships. Manipulative tendencies in self or others. Separative influences.
+$End
+
+#Moon's North Node = Saturn/Ascendant
+Solitary inclinations. Withdrawing or retreating from negative environmental influences and people. Repressive and controlling relationships. Separative tendencies.
+$End
+
+#Moon's North Node = Saturn/Midheaven
+Combining forces to achieve significant objectives; time-consuming personal or professional aspirations. Connections which can 'help or hinder' advancement in life. Testing experiences with others. Separative influences.
+$End
+
+#Moon's North Node = Uranus/Neptune
+Instinctively knowing what people are thinking. Associations involved in idealistic and progressive causes. Events which [destabilise,destabilize] relationships. Contending with uncertainty and unpredictability with others.
+$End
+
+#Moon's North Node = Uranus/Pluto
+Connecting with innovative and high-powered people. Working and thriving under pressure with others; being focused on attaining on specific objectives. The potential for disruptive or volatile elements within associations.
+$End
+
+#Moon's North Node = Uranus/Ascendant
+An assertive personality. Connecting with progressive and independent people; advocates for change and reform. Thriving on stimulation within relationships. Adjusting to shifts and changes with others - and within the environment.
+$End
+
+#Moon's North Node = Uranus/Midheaven
+Being intent on achieving personal or professional objectives - regardless of how it affects others. Clashes of will and intolerance within associations. Difficulties working and collaborating with others. Strained relationships.
+$End
+
+#Moon's North Node = Neptune/Pluto
+Connecting with spiritual or idealistic people. Psychic activity; being on the same wavelength as others. Sharing profound insights. Deep feelings of compassion within relationships. The potential for manipulative and deceptive currents within associations.
+$End
+
+#Moon's North Node = Neptune/Ascendant
+An impressionable and idealistic nature. Compassionate and empathic connections. Sensitive and vulnerable to the influence of others. Undermining currents within the environment - and partnerships.
+$End
+
+#Moon's North Node = Neptune/Midheaven
+Associating with idealistic and spiritual individuals. Developing an inner and empathic connection with others. Dependencies within relationships. Deceptive influences within personal or professional associations.
+$End
+
+#Moon's North Node = Pluto/Ascendant
+A magnetic personality. Powerful attractions and connections. Intense and dynamic relationships. Connecting with influential and powerful people. Manipulating others within the environment or being manipulated.
+$End
+
+#Moon's North Node = Pluto/Midheaven
+A dynamic and persuasive individual. Forming influential and powerful connections. The intense pursuit of goals and aspirations with others. Obsessive tendencies; fanatical teamwork. Potential power struggles.
+$End
+
+#Moon's North Node = Ascendant/Midheaven
+Acknowledging the integral part people play in life. [Recognising,Recognizing] significant relationships that are made; when and where they happen. Cultivating personal or professional alliances. Kinship and companionship.
+$End
+
+
+
+----Ascendant midpoints
+
+
+#Ascendant = Sun/Moon
+A strong personality. Being conscious of the need to connect with others; forming significant contacts and ties. Observing the reactions and actions of others within the environment. Forming physical and emotional bonds.
+$End
+
+#Ascendant = Sun/Mercury
+A natural conversationalist; having certain opinions on things. Active communication with others. Observing what is happening within the environment. Being alert and aware to what is going on.
+$End
+
+#Ascendant = Sun/Venus
+An attractive and pleasant personality. Having the ability to easily get what is wanted. An affectionate nature. Intimate contacts and connections. Enjoying an active social life.
+$End
+
+#Ascendant = Sun/Mars
+An assertive personality. Taking on challenges. Knowing how to achieve personal goals and ambitions. A risk of adopting a bossy manner. Pushing others or being pushed. Constant activity within the environment. Potential accident proneness.
+$End
+
+#Ascendant = Sun/Jupiter
+A positive and enthusiastic personality. Confidence in self and abilities. [Recognising,Recognizing] advantages and good fortune. Beneficial and influential people within the environment. Indulgent or extravagant tendencies.
+$End
+
+#Ascendant = Sun/Saturn
+A serious personality. Difficulty relating - and interacting with others. Low confidence in self; being easily discouraged. Personal and environmental restrictions. Bouts of tiredness and low motivation. Controlling and separative influences.
+$End
+
+#Ascendant = Sun/Uranus
+A [wilful,willful] and assertive personality. Highly independent and demanding traits. Observing and reacting to environmental situations quickly. Spontaneous interactions and contacts. Impatience. Potential accident proneness.
+$End
+
+#Ascendant = Sun/Neptune
+Soothing and empathic qualities. Going with the flow. Passivity and vulnerability. Picking up on environmental influences. The need to be alert to undermining or deceptive influences in self or others.
+$End
+
+#Ascendant = Sun/Pluto
+A charismatic personality. The desire to make one's presence and intentions known. Dominating others or being dominated. Becoming obsessed or fixated over something or someone. Potential power struggles within the environment.
+$End
+
+#Ascendant = Sun/Moon's North Node
+Personal charisma; a confident personality. Displaying an authoritative presence. Leading others and taking charge. Forming important bonds and friendships. Ambitious and influential connections.
+$End
+
+#Ascendant = Sun/Midheaven
+Displaying a healthy and constructive attitude; confidence in self and skills. Pursuing clear-cut aims and goals. Taking pride in doing a good job. Making a [favourable,favorable] impression on others.
+$End
+
+#Ascendant = Moon/Mercury
+A perceptive and thoughtful nature. Being alert and receptive to others and environmental influences. Discussing personal feelings with others. Keeping in regular contact with close ties and family members.
+$End
+
+#Ascendant = Moon/Venus
+An attractive and caring personality. Affectionate responses; devotion within close relationships and family ties. Catering to the needs of others. Adapting to environmental conditions.
+$End
+
+#Ascendant = Moon/Mars
+An assertive personality. Being accustomed to taking charge - or directing those within the personal environment. Displaying a competent and efficient nature. A busy personal and domestic life. Potential impatience and emotional reactions.
+$End
+
+#Ascendant = Moon/Jupiter
+A kind and generous nature. Personal contentment and emotional satisfaction. Positive people - and influences - within the environment. Beneficial or affluent connections. Successful activity.
+$End
+
+#Ascendant = Moon/Saturn
+A reserved personality. Exercising restraint; withdrawing from others. Being aware of personal responsibilities. Making sincere sacrifices when required. Contending with negative or restrictive environmental conditions. Separative influences.
+$End
+
+#Ascendant = Moon/Uranus
+An emotional and unpredictable nature. Independent and [wilful,willful] tendencies. Being easily stressed or anxious. Hectic and changeable environments. Emotional volatility and excitability within self or others. Domestic or family tensions.
+$End
+
+#Ascendant = Moon/Neptune
+An empathic and compassionate nature. Instinctively sensing the mood of others - and the environment. Heightened sensitivity. Contending with negative and emotionally draining people.
+$End
+
+#Ascendant = Moon/Pluto
+A passionate nature. Compulsive or obsessive traits. A risk of bottling things up; emotional repression. A tendency to take things to extremes. Manipulating others or being manipulated. Personal or family power struggles.
+$End
+
+#Ascendant = Moon/Moon's North Node
+Instinctively assessing situations. [Recognising,Recognizing] the importance of emotional ties and companionship. Inner attachment within relationships and with family members. A naturally caring and protective personality. Making others feel at ease within the environment.
+$End
+
+#Ascendant = Moon/Midheaven
+A sensitive and gentle nature. The ability to make others feel relaxed and at ease. Supporting others and being supported. Formulating aims and aspirations; tending to personal needs and projects.
+$End
+
+#Ascendant = Mercury/Venus
+A pleasant conversationalist; building a rapport with others. Ease of communication and interaction. Discussing heart-felt matters or issues. Artistic and creative friendships. Sociability. Fleeting attractions.
+$End
+
+#Ascendant = Mercury/Mars
+Quickly assessing situations and knowing what to do in most instances. Taking charge of the environment. Verbally forthright and aggressive. Touches of impatience. Potential accident proneness.
+$End
+
+#Ascendant = Mercury/Jupiter
+Displaying a positive outlook and manner. A good communicator and listener. Giving sound advice - appreciating different points of view. Knowing the right thing to say - at any given moment. Constructive and productive contacts.
+$End
+
+#Ascendant = Mercury/Saturn
+Keenly observant and cautious within the environment. Reliable and conscientious [behaviour,behavior]. Succinct and serious communications. The potential for negative trains of thought and attitudes. Separative influences.
+$End
+
+#Ascendant = Mercury/Uranus
+An observant nature; watching people and being aware of what is happening within the environment. Knowing what to do or say in a given situation. Restlessness and unpredictability. Contending with frenetic energy.
+$End
+
+#Ascendant = Mercury/Neptune
+An attentive and empathic personality. Sensing the mood of the environment. Compassionate responses. Idealistic trains of thought; envisaging a multitude of possibilities. The potential for misleading others or for being misled.
+$End
+
+#Ascendant = Mercury/Pluto
+A dynamic communicator. Getting a message across effectively. Astutely assessing what is taking place within the environment. Dictating to others - or being dictated to. Manipulating people and situations to get what is wanted.
+$End
+
+#Ascendant = Mercury/Moon's North Node
+A communicative personality. A skilled [organiser,organizer] - and net-worker. Cultivating and maintaining contact with many people; an active social life. Sharing interests, plans and ideas with others.
+$End
+
+#Ascendant = Mercury/Midheaven
+Intellectual flexibility. Thinking about personal aims and aspirations. Making the right decisions for self. [Analysing,Analyzing] situations carefully. Being alert to what is happening within the environment.
+$End
+
+#Ascendant = Venus/Mars
+A charismatic and alluring personality. [Recognising,Recognizing] personal powers of attraction in self and others. Intimate and passionate encounters. Mixing within creative circles and environments.
+$End
+
+#Ascendant = Venus/Jupiter
+Displaying a positive and harmonious outlook on life. Contentment. A generous nature; a love of giving and sharing. Beneficial contacts. Indulging others and being indulged. Extravagance or indulgence.
+$End
+
+#Ascendant = Venus/Saturn
+An emotionally reserved and aloof nature. Making sacrifices for loved ones. The desire for trust and respect within relationships. Difficulties integrating with others in the environment. Separative influences.
+$End
+
+#Ascendant = Venus/Uranus
+A spontaneous and bubbly personality. Impulsiveness; loving the element of surprise. Knowing how to have fun. Sudden attractions. Mixing with creative people. Responding and reacting to environmental influences.
+$End
+
+#Ascendant = Venus/Neptune
+A soft-hearted personality. Vulnerability and susceptibility in emotional or intimate relationships. Infatuations. Contending with deceptive and undermining influences. Potential disappointments.
+$End
+
+#Ascendant = Venus/Pluto
+Personal charm and charisma. An intense and attractive personality. Compulsive urges and desires. A passionate mode of expression. The potential for power struggles in love - and dramas within the environment.
+$End
+
+#Ascendant = Venus/Moon's North Node
+Natural charm and friendliness. Connecting easily with people within the environment. Appreciating others and being appreciated. Cultivating close and intimate relationships. A love of giving and sharing. An active social life.
+$End
+
+#Ascendant = Venus/Midheaven
+An attractive and sincere nature. Appreciating others - and being appreciated. Cultivating positive contacts. Beneficial relationships and family connections. Creative aspirations.
+$End
+
+#Ascendant = Mars/Jupiter
+Self-confidence and self-motivation. An enthusiastic and adventurous personality. Taking pride in personal achievements. An enterprising and decisive nature; constructive initiatives. Industrious and productive environments.
+$End
+
+#Ascendant = Mars/Saturn
+Facing harsh realities about people and situations. Learning to 'toughen up' and to put on a brave face - despite fears and inhibitions. Being forced to take responsibility for actions and non-actions. Separative influences.
+$End
+
+#Ascendant = Mars/Uranus
+A highly reactive and volatile nature. The tendency to do things in an agitated state - 'stressing out' quickly. Aggressive traits. Competitive and combative [behaviour,behavior]. Accident prone environments.
+$End
+
+#Ascendant = Mars/Neptune
+Inspired activity. A sensitive and vulnerable nature. Confused actions and states of uncertainty. The tendency to lose sight of goals; a lack of clarity and incentive. Deceptive environmental influences. Disappointing others and being disappointed.
+$End
+
+#Ascendant = Mars/Pluto
+A forceful and domineering personality. Being seen as a force to be reckoned with. Directing and manipulating others - or vice versa. Intense power struggles within partnerships and within the environment.
+$End
+
+#Ascendant = Mars/Moon's North Node
+An assertive personality. Being skilled at taking charge of situations and people. [Organising,Organizing] and delegating others. Industrious teamwork; busy environments. Rallying together to accomplish specific tasks. Productive relationships.
+$End
+
+#Ascendant = Mars/Midheaven
+An ambitious personality. A competitive and enthusiastic nature. Pursuing clearly defined aims and aspirations. [Organising,Organizing] and directing others. Energetic and industrious relationships.
+$End
+
+#Ascendant = Jupiter/Saturn
+Guarded optimism. Good times and tough times; an awareness of the cycles of change; of increase and decrease. Alternating between positive and negative attitudes and actions. Fluctuating financial circumstances.
+$End
+
+#Ascendant = Jupiter/Uranus
+An optimistic and spontaneous personality. Keeping a finger on the pulse of things; an awareness of future trends. Intuitively ascertaining the needs of others and the environment. Stimulating and fulfilling contacts.
+$End
+
+#Ascendant = Jupiter/Neptune
+Believing anything is possible. An idealistic and expectant nature. Compassion. Being vulnerable and susceptible to environmental influences. The potential for disappointing others and for being disappointed.
+$End
+
+#Ascendant = Jupiter/Pluto
+A charismatic and magnetic personality. Being intent on achieving success. Large-scale investments and ventures. Cultivating influential relationships. A risk of over-extending self and resources.
+$End
+
+#Ascendant = Jupiter/Moon's North Node
+A positive personality. Successful relationships; ease of interaction with others. Connecting with affluent or generous people in the environment. [Recognising,Recognizing] opportune moments.
+$End
+
+#Ascendant = Jupiter/Midheaven
+Inner contentment. An optimistic personality. Appreciating and [recognising,recognizing] the good things in life. Satisfied ambitions. Conducive environments. Fortunate and influential relationships.
+$End
+
+#Ascendant = Saturn/Uranus
+Coming to terms with the reality of a difficult situation. Adopting a tough stance. Contending with tension and stress within the environment. Sudden conflicts within relationships. Separative influences.
+$End
+
+#Ascendant = Saturn/Neptune
+An acutely sensitive disposition - physically and emotionally. The tendency to worry or [agonise,agonize] over problems - real or imagined. Contending with restrictive and undermining situations; negative environmental influences. Elusive and escapist tendencies.
+$End
+
+#Ascendant = Saturn/Pluto
+Dealing with serious matters. Adopting a hard-line approach. Contending with difficult and negative environments - or people. Controlling and manipulating others - and vice versa. Decisive separations. Significant sacrifices and compromises.
+$End
+
+#Ascendant = Saturn/Moon's North Node
+A shy and reclusive personality. Testing and restrictive relationships - and environments. Being weighed down with responsibility and duty - in work and family life. Separative influences.
+$End
+
+#Ascendant = Saturn/Midheaven
+A reserved and cautious personality. Contending with difficult issues and critical turning points. Slow progress and advancement. Controlling and restrictive environments. Separative influences.
+$End
+
+
+#Ascendant = Uranus/Neptune
+An progressive and idealistic personality. Being sensitive and vulnerable to external stimuli. The need to protect and shield oneself from negative people and environmental influences. Upsetting or undermining experiences.
+$End
+
+#Ascendant = Uranus/Pluto
+An intense and restless personality. A compulsive urge to make changes. Contending with stress and pressure; unpredictability within the environment. Erratic and fanatical [behaviour,behavior] - in self or in others.
+$End
+
+#Ascendant = Uranus/Moon's North Node
+Initiating contacts with stimulating and free-thinking people. Disruptive individuals and influences within the environment. Displays of irritability and intolerance within relationships. Strained family dynamics.
+$End
+
+#Ascendant = Uranus/Midheaven
+A lively and independent spirit. Quick reactions to environmental influences. Intuitively [recognising,recognizing] when change is necessary or imminent. Being prepared for any eventuality. Stimulating aspirations and contacts.
+$End
+
+#Ascendant = Neptune/Pluto
+Intense idealism. Deep faith and belief in self and abilities. Being aware of (spiritual) forces more powerful than self. Being attuned to those within the environment - empathy and sensitivity. Being easily influenced or swayed by others.
+$End
+
+#Ascendant = Neptune/Moon's North Node
+A highly sensitive personality. Vulnerable and susceptible to environmental influences. Contending with undermining currents within relationships. Potential misunderstandings or deception.
+$End
+
+#Ascendant = Neptune/Midheaven
+Questioning the viability and validity of choices or current direction. Bouts of uncertainty and self-doubt. Undermining currents within relationships. Disappointing others and being disappointed. Escapist tendencies.
+$End
+
+#Ascendant = Pluto/Moon's North Node
+An intense and magnetic personality. Connecting with influential or powerful people. Dynamic and high-powered activity in conjunction with others. The potential for manipulating others or being manipulated. Power struggles.
+$End
+
+#Ascendant = Pluto/Midheaven
+An intense and charismatic personality. Displaying the power of conviction. Aspiring positions of power and status. Influencing people within the environment. Profound [realisations,realizations]. Compulsive tendencies.
+$End
+
+#Ascendant = Moon's North Node/Midheaven
+A sociable and interactive personality. Forming significant relationships at a personal or professional level. Cultivating an inner rapport with others; achieving aspirations jointly. Being on the same wavelength with others in the environment.
+$End
+
+
+
+----Midheaven midpoints
+
+
+#Midheaven = Sun/Moon
+Inner balance - the state of feeling 'at one' with self. Devotion to aims and aspirations; knowing what direction to pursue. Mutual respect and support within close ties and relationships. Compatibility.
+$End
+
+#Midheaven = Sun/Mercury
+A self-aware individual. Knowing and speaking one's own mind. Adopting a rational and logical approach to matters. Keeping up to date with current affairs. Business activity. Contracts and agreements.
+$End
+
+#Midheaven = Sun/Venus
+A loving and devoted nature. Inner harmony. Appreciating the beautiful things in life. Sociability; mixing with creative people. Enjoying time spent with loved ones. Personal or professional happiness.
+$End
+
+#Midheaven = Sun/Mars
+A competitive spirit. Demonstrating the will and ambition to achieve personal or professional aims. The active and energetic pursuit of aspirations.
+$End
+
+#Midheaven = Sun/Jupiter
+Successful initiatives. An optimistic and forward-thinking person. Opportunities to expand and broaden personal or professional aspirations. The potential for material or financial gains.
+$End
+
+#Midheaven = Sun/Saturn
+A solitary and self-contained nature. Persistent and conscientious [behaviour,behavior]. Contending with obstacles and restrictions in personal or professional life. Potential bouts of tiredness.
+$End
+
+#Midheaven = Sun/Uranus
+A progressive outlook on life. Self-determining and individualistic tendencies. Acting on intuitive impulses. Thriving on challenge and stimulation. Changeable personal or professional circumstances.
+$End
+
+#Midheaven = Sun/Neptune
+Idealistic aspirations. Difficulty sustaining a course of action. A sensitive physique and constitution. Potential bouts of exhaustion or depleted energy. Escapist tendencies.
+$End
+
+#Midheaven = Sun/Pluto
+Personal magnetism. The passionate pursuit of goals and aspirations; extreme ambition. Potential power struggles; coercion and manipulation. A significant or dramatic turn of events.
+$End
+
+#Midheaven = Sun/Moon's North Node
+Joining forces with others to achieve ambitious goals and aspirations. Healthy connections and ties. Being proud of joint accomplishments.
+$End
+
+#Midheaven = Sun/Ascendant
+A self-aware and self-confident individual. Being conscious of personal or professional objectives. Clarity of intent and purpose. Intelligent and influential contacts and relationships.
+$End
+
+#Midheaven = Moon/Mercury
+A reflective and contemplative nature. Thinking about personal and professional needs and aspirations. Inner [realisations,realizations]. Instinctively making the right decisions for oneself.
+$End
+
+#Midheaven = Moon/Venus
+A deeply caring and nurturing nature. Being aware of the needs of others. Intimacy within relationships - sincere love and trust. Giving and receiving support - at personal and professional level.
+$End
+
+#Midheaven = Moon/Mars
+Passionately pursuing goals and aspirations. A busy domestic and vocational life. Dynamic and productive relationships. Encouraging and supporting others - and vice versa.
+$End
+
+#Midheaven = Moon/Jupiter
+Enthusiastically pursuing personal and professional aspirations. Cultivating connections with supportive and generous people. Prosperous relationships. Materialistic tendencies. Potential indulgence.
+$End
+
+#Midheaven = Moon/Saturn
+A self-contained individual. Emotional restraint. Contending with depressive and restrictive influences in professional and family life. An awareness of responsibilities. Potential sacrifices.
+$End
+
+#Midheaven = Moon/Uranus
+A highly excitable and reactive nature. Pursuing independent initiatives and aspirations. Unpredictability within domestic and work environments. Erratic [behaviour,behavior] in self or others.
+$End
+
+#Midheaven = Moon/Neptune
+Idealistic aims and aspirations. Empathic and sensitive responses. The need to protect oneself from draining and undermining influences and people. Uncertainty regarding path or direction in life.
+$End
+
+#Midheaven = Moon/Pluto
+An emotionally intense nature; the tendency to become fixated or obsessed by something or someone. Ambitious ventures and [endeavours,endeavors]. Potential dramas and power struggles in domestic life or career.
+$End
+
+#Midheaven = Moon/Moon's North Node
+A sensitive and caring nature. Supporting others and being supported - in personal or professional aspirations. Catering to the needs of family members. Being aware of strong emotional bonds within relationships.
+$End
+
+#Midheaven = Moon/Ascendant
+A supportive and caring individual. Catering to the needs and welfare of others. Sensitive to environmental influences. An instinctive awareness of personal and professional aspirations.
+$End
+
+#Midheaven = Mercury/Venus
+A creative intellect. [Recognising,Recognizing] the true value of something or someone. [Analysing,Analyzing] and discussing relationship dynamics. Knowing how to enjoy life. Social activity.
+$End
+
+#Midheaven = Mercury/Mars
+A decisive individual. Knowing how to achieve personal and professional ambitions. Assessing situations quickly. A talent for [organisation,organization] and delegation. A clear and succinct communicator.
+$End
+
+#Midheaven = Mercury/Jupiter
+A positive self-image and outlook.. Advancing personal or professional interests. Receiving encouragement and support when required. [Recognising,Recognizing]opportunities.
+$End
+
+#Midheaven = Mercury/Saturn
+Self-preoccupation; serious considerations and appraisals. Focusing on personal or professional aspirations. Mentally demanding and challenging intellectual work. Difficulties through defeatist attitudes. Separative influences.
+$End
+
+#Midheaven = Mercury/Uranus
+Ingenuity; an explorative and experimental individual. Looking at alternative ways of doing things. Inventive and progressive initiatives. Formulating personal decisions or conclusions independently of others.
+$End
+
+#Midheaven = Mercury/Neptune
+Idealistic goals and aspirations. Envisaging endless possibilities. Uncertainty regarding career or direction in life. Potential despondency or aimlessness. Creative pursuits.
+$End
+
+#Midheaven = Mercury/Pluto
+A sharp and penetrating intellect. A person with vision and an awareness of long-term goals and aspirations. A dynamic and persuasive communicator. Pursuing positions of power or status.
+$End
+
+#Midheaven = Mercury/Moon's North Node
+Cultivating an intellectual rapport with others. Discussing ideas and opinions; being interested in other people's points of view. Keeping informed and up to date with current affairs. Business deals and transactions.
+$End
+
+#Midheaven = Mercury/Ascendant
+Knowing what is important for oneself - at a personal and professional level. [Analysing,Analyzing] and assessing situations; making informed and intelligent decisions. Active communication within the environment.
+$End
+
+#Midheaven = Venus/Mars
+A passionate and demonstrative nature. An impetuous streak; the desire for adventures of the heart. Ardently pursuing personal or professional aspirations. Creative activity.
+$End
+
+#Midheaven = Venus/Jupiter
+A cheerful and buoyant nature. [Recognising,Recognizing] moments of good fortune. Loving and generous relationships. Creative aspirations. Enjoying an active social life. Potential extravagance and indulgences.
+$End
+
+#Midheaven = Venus/Saturn
+Difficult and testing experiences in love or relationship life. Emotional and physical restraint. Inner and emotional dissatisfaction - withdrawing from another. Separative influences.
+$End
+
+#Midheaven = Venus/Uranus
+A demonstrative and flirtatious nature. Romantic adventures and encounters. Sudden and instant attractions - to something and someone. Unpredictability within intimate relationships. Sociability.
+$End
+
+#Midheaven = Venus/Neptune
+A soft-hearted and sentimental nature. Infatuations; a risk of fostering unrealistic romantic expectations. Vulnerability. The hiding of one's true feelings for fear of being hurt. Creative inspiration.
+$End
+
+#Midheaven = Venus/Pluto
+A deeply sensual nature. Intense and magnetic attractions. Compulsive [behaviour,behavior] in self or others. Obsessing about someone or something. Potential jealousy and dramas in love life.
+$End
+
+#Midheaven = Venus/Moon's North Node
+An attractive individual. Loving another with heart and soul. Appreciating sincerity within relationships. Valuing personal or professional connections. Mixing with creative and artistic individuals.
+$End
+
+#Midheaven = Venus/Ascendant
+A loving individual. Appreciating others and being appreciated. Harmonious connections; forming close and intimate bonds. An active social life. Creative aspirations.
+$End
+
+#Midheaven = Mars/Jupiter
+A highly motivated individual. Constructive and industrious aspirations. Confidence in self and abilities. Ambitious ventures. Entrepreneurial skill and talent. Creating one's own fortune and good luck.
+$End
+
+#Midheaven = Mars/Saturn
+Struggling against the odds. Testing and demanding experiences, personally or professionally. The necessity to take responsibility for actions and non-actions. Time-consuming aspirations. The potential for decisive separations.
+$End
+
+#Midheaven = Mars/Uranus
+A highly individualistic streak. Acting on impulse and without thought of the likely consequences. Making split-second decisions. Unpredictability and volatility in self or others. Sudden experiences. Accident proneness.
+$End
+
+#Midheaven = Mars/Neptune
+A despondent nature; giving up hope or belief easily. Waning enthusiasm and motivation. Difficulty sustaining a course of action. Evasive and escapist tendencies. Personal or professional worries.
+$End
+
+#Midheaven = Mars/Pluto
+Driving power and fanaticism; the dynamic pursuit of specific goals and aspirations. Powerful and influential connections. Obsessive and compulsive tendencies. Potential power struggles.
+$End
+
+#Midheaven = Mars/Moon's North Node
+Thriving on teamwork and collaboration. Competitive team spirit; actively working towards the [realisation,realization] of mutual goals and aspirations. Productive and pro-active initiatives.
+$End
+
+#Midheaven = Mars/Ascendant
+A strong personality. Drive and ambition. Motivating others and being motivated. Being accustomed to delegating - and to getting one's own way. Potential conflict within the environment. Accident proneness.
+$End
+
+#Midheaven = Jupiter/Saturn
+Self-preoccupation. The tendency to ponder over direction in life. Weighing things up; looking at the pros and cons of situations. Fluctuating levels of self-confidence and self-control. Separative influences.
+$End
+
+#Midheaven = Jupiter/Uranus
+A free and adventurous spirit. Enthusiastically embracing life; seeking new and exciting experiences. Intuitively [recognising,recognizing] the right moment to take action. Satisfied ambitions.
+$End
+
+#Midheaven = Jupiter/Neptune
+Idealistic goals and aspirations. Compassion and empathy. Indecision with regard to direction. Unrealistic expectations. Gullibility and susceptibility. The potential for unwise speculations or investments.
+$End
+
+#Midheaven = Jupiter/Pluto
+An ambitious and influential individual. Successful and strategic ventures and aspirations. Materialistic acquisitions. Cultivating advantageous and powerful connections. Status conscious.
+$End
+
+#Midheaven = Jupiter/Moon's North Node
+A generous spirit. The tendency to be well thought of by others. Generous and affluent connections and alliances. Successfully achieving shared aspirations. Satisfying and rewarding relationships.
+$End
+
+#Midheaven = Jupiter/Ascendant
+High hopes and expectations. [Recognising,Recognizing] the good in people and situations. The ability to make people feel relaxed and at ease within the environment. Successful ventures.
+$End
+
+#Midheaven = Saturn/Uranus
+Inner tension and anxiety. Contending with distractions and sudden diversions. Personal or professional conflict and friction. Strained domestic circumstances. Struggling to maintain control of a situation. Decisive separations.
+$End
+
+#Midheaven = Saturn/Neptune
+Recycling bouts of anxiety and distrust. Contending with undermining and [destabilising,destabilizing] personal or professional conditions. Difficulty maintaining a position or course of action.
+$End
+
+#Midheaven = Saturn/Pluto
+Struggling to overcome difficulties and restrictions. Facing personal or professional challenges and demands. Unrelenting focus and commitment to specific goals. Fanatical tendencies. Dramatic and decisive separations.
+$End
+
+#Midheaven = Saturn/Moon's North Node
+A self-contained and self-reliant individual. Reclusive tendencies. Contending with restrictive influences and negative people. Controlling others and being controlled. Difficult family or professional experiences. Separative influences.
+$End
+
+#Midheaven = Saturn/Ascendant
+Recycling fears and anxieties. Contending with harsh realities and testing experiences. Difficulties within the family or profession. The tendency to retreat from negative environments and people. Separative influences.
+$End
+
+#Midheaven = Uranus/Neptune
+Acute sensitivity. Knowing and sensing what people are feeling - and what motivates them. Unusual and idealistic aspirations. Changeable vocational or domestic conditions. Assessing and assimilating new experiences.
+$End
+
+#Midheaven = Uranus/Pluto
+Being intent on accomplishing specific goals and aspirations. Intuitively seizing the moment. Potential instability within domestic and professional life. Contending with disruptive and manipulative influences.
+$End
+
+#Midheaven = Uranus/Moon's North Node
+Combining forces with others to bring about change and to achieve mutual objectives. Uniting for a particular cause. Pursuing original and innovative aspirations in conjunction with others.
+$End
+
+#Midheaven = Uranus/Ascendant
+An independent and unpredictable personality. Progressive and reformatory aspirations. Unsettling others within the environment - or being unsettled. Personal or professional instability. Contending with disruptive elements.
+$End
+
+#Midheaven = Neptune/Pluto
+Profound inner [realisations,realizations]. Spiritual or psychic awareness. Visionary powers. A deeply secretive nature. Contending with undermining and manipulative influences within professional or domestic life. Escapism.
+$End
+
+#Midheaven = Neptune/Moon's North Node
+A sensitive individual. Cultivating empathy and compassion within connections. Vulnerability and susceptibility. Retreating from negative people and situations. Distrust within personal and professional relationships.
+$End
+
+#Midheaven = Neptune/Ascendant
+A highly sensitive and emotional individual. Vulnerable and susceptible to external influences. Potential instability within domestic or relationship life. Professional uncertainty or dissatisfaction. Escapist tendencies.
+$End
+
+#Midheaven = Pluto/Moon's North Node
+Forming powerful and influential connections. Combining forces to achieve specific aspirations; dynamic and intense collaboration. Potential manipulation in self or others. Power struggles.
+$End
+
+#Midheaven = Pluto/Ascendant
+A charismatic individual. A passionate and dedicated nature; commitment to specific goals and aspirations. Potential power struggles within the environment. Obsessive tendencies.
+$End
+
+#Midheaven = Moon's North Node/Ascendant
+Acknowledging the importance of other people. Assisting others and being assisted. Cultivating an inner rapport and mutual respect within relationships. Collaborative team efforts; pursuing shared aspirations.
+$End
+

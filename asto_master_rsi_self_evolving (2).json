@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "framework_name": "ASTO (Astrological System & Trading Operations) Master Unified Framework",
+    "version": "25.0-Master-RSI-Self-Evolving",
+    "synthesis_date": "2026-05-06",
+    "system_status": "PRODUCTION_READY_FULLY_INTEGRATED",
+    "description": "The ultimate synthesis of all provided data, including Recursive Self-Improvement (RSI), AlphaEvolve-inspired algorithmic discovery, and self-evolving architecture for the AFE methodology."
+  },
+  "recursive_self_improvement_engine": {
+    "core_loop": [
+      "Observe",
+      "Reflect",
+      "Generate",
+      "Validate"
+    ],
+    "meta_levels": {
+      "Level_1": "System improves its own features, models, and rules.",
+      "Level_2": "System improves the improvement loop itself (convergence, regression risk).",
+      "Level_3": "Theoretically infinite meta-improvement bounded by compute."
+    },
+    "lenses_of_improvement": [
+      "Change Targets",
+      "Adaptation Timing",
+      "Mechanisms & Drivers",
+      "Operating Contexts",
+      "Evidence & Safeguards"
+    ]
+  },
+  "alpha_evolve_algorithmic_discovery": {
+    "evolutionary_operators": {
+      "Mutation": "Node replacement, subtree insertion, parameter perturbation.",
+      "Crossover": "Subtree exchange, module combination, hybrid synthesis.",
+      "Selection": "Elitist + tournament selection based on 5-year Sharpe ratio."
+    },
+    "llm_guided_evolution": {
+      "semantic_guidance": [
+        "Domain knowledge embedding",
+        "Bloat control",
+        "Interpretability requirement"
+      ],
+      "evaluation": "Generate candidate code \u2192 Compile/Execute \u2192 Score vs. Complexity."
+    }
+  },
+  "self_evolving_architecture": {
+    "technical_paths": {
+      "Model_Level": "Online learning with EWC for catastrophic forgetting prevention.",
+      "Context_Evolution": "Mem0-style memory systems for permanent, queryable knowledge.",
+      "Meta_Learning": "MAML for few-shot adaptation to new instruments.",
+      "Architecture_Level": "NAS for GNN structures and dynamic layer expansion."
+    },
+    "dynamic_expansion_triggers": [
+      "New instrument volume > $1B/day",
+      "Regime detection confidence < 60%",
+      "Novel pattern frequency > 5%"
+    ]
+  },
+  "automl_methodology_optimization": {
+    "bayesian_optimization": {
+      "search_space": "500+ hyperparameters (Aspect Orbs, Dignity Weights, Confluence Thresholds).",
+      "surrogate_model": "Gaussian Process (GP) with Matern kernel."
+    },
+    "hierarchical_planning": "Composition graph for Astro Feature Engineering, ML Architecture, and Risk Management."
+  },
+  "financial_trading_engine": {
+    "master_schema": "AFE_Sector_Asteroid_Framework_v7.0",
+    "probability_engine": {
+      "formula": "P_MASTER = Base(0.5) * AFE(1.0-12.0) * KCIL(0.6-1.6) * Chart_Type(1.0-1.4) * Chaldean(0.5-1.8) * Uranian(0.7-1.5) * Harmonic(0.8-1.3) * Progressions(0.9-1.4) * Boolean_Gates * Technical_Veto(0.0-1.0)"
+    }
+  }
+}

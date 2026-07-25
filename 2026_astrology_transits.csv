@@ -1,0 +1,96 @@
+date,time,event,type
+2026-01-06,8:38 am PT,Venus cazimi 16°22 Capricorn,cazimi
+2026-01-09,2:31 am PT,Mars cazimi 19°09 Capricorn,cazimi
+2026-01-09,9:36 am PT,Venus 20°11 Capricorn opposes Jupiter Rx 20°11 Cancer,aspect
+2026-01-13,,Venus enters Capricorn,ingress
+2026-01-14,,Sun enters Capricorn,ingress
+2026-01-16,,Mars enters Capricorn,ingress
+2026-01-17,,Mercury enters Capricorn,ingress
+2026-01-19,9:53 pm PT,Saturn 27°33 Pisces sextiles Uranus Rx 27°33 Taurus,aspect
+2026-01-21,7:59 am PT,Mercury cazimi 1°37 Aquarius,cazimi
+2026-01-23,2:27 am PT,Pluto cazimi 3°25 Aquarius,cazimi
+2026-01-26,9:31 am PT,Neptune enters Aries,ingress
+2026-01-27,3:00 pm PT,Mars conjoins Pluto 3°34 Aquarius,aspect
+2026-02-03,,Mercury enters Aquarius,ingress
+2026-02-06,,Venus enters Aquarius,ingress
+2026-02-11,11:05 pm PT,Mercury conjoins the North Node 9°05 Pisces,aspect
+2026-02-13,4:11 pm PT,Saturn enters Aries,ingress
+2026-02-13,,Sun enters Aquarius,ingress
+2026-02-17,4:11 am PT,Solar eclipse 28°49 Aquarius,eclipse
+2026-02-17,5:44 am PT,Venus conjoins the North Node 8°56 Pisces,aspect
+2026-02-20,7:24 am PT,Saturn conjoins Neptune 0°44 Aries,aspect
+2026-02-22,12:02 pm PT,Venus 15°31 Pisces trines Jupiter Rx 15°31 Cancer,aspect
+2026-02-25,,Mercury retrograde starts in Pisces (until March 20),retrograde
+2026-02-27,5:52 am PT,Sun conjoins the North Node 8°58 Pisces,aspect
+2026-02-27,8:20 am PT,Mars 27°42 Aquarius squares Uranus 27°42 Taurus,aspect
+2026-03-03,3:33 am PT,Lunar eclipse 12°54 Virgo,eclipse
+2026-03-07,3:03 am PT,Mercury cazimi 16°52 Pisces,cazimi
+2026-03-13,2:57 pm PT,Mars conjoins the North Node 8°55 Pisces,aspect
+2026-03-17,10:53 am PT,Mercury Rx conjoins the North Node 8°58 Pisces,aspect
+2026-03-18,9:08 am PT,Venus 15°10 Aries squares Jupiter 15°10 Cancer,aspect
+2026-03-21,4:59 pm PT,Mars 15°16 Pisces trines Jupiter 15°16 Cancer,aspect
+2026-03-22,4:17 am PT,Neptune cazimi 1°50 Aries,cazimi
+2026-03-22,10:28 pm PT,Mercury conjoins the North Node 8°46 Pisces,aspect
+2026-03-25,1:51 am PT,Saturn cazimi 4°43 Aries,cazimi
+2026-03-28,2:40 pm PT,Saturn 5°09 Aries sextiles Pluto 5°09 Aquarius,aspect
+2026-04-12,10:28 pm PT,Mars conjoins Neptune 2°39 Aries,aspect
+2026-04-13,1:19 am PT,Venus 16°47 Taurus sextiles Jupiter 16°47 Cancer,aspect
+2026-04-16,8:09 am PT,Chiron cazimi 26°38 Aries,cazimi
+2026-04-19,3:38 pm PT,Mars conjoins Saturn 7°51 Aries,aspect
+2026-04-20,4:17 am PT,Mercury conjoins Saturn 7°55 Aries,aspect
+2026-04-20,2:30 pm PT,Mercury conjoins Mars 8°36 Aries,aspect
+2026-04-25,5:51 pm PT,Uranus enters Gemini,ingress
+2026-04-29,6:33 pm PT,Venus 7°09 Gemini squares the lunar nodes 7°09 Pisces/Virgo,aspect
+2026-05-14,7:34 am PT,Mercury cazimi 23°48 Taurus,cazimi
+2026-05-19,9:13 am PT,Mercury 4°52 Gemini squares the lunar nodes,aspect
+2026-05-22,7:24 am PT,Uranus cazimi 1°30 Gemini,cazimi
+2026-05-25,9:02 pm PT,Mars 5°25 Taurus squares Pluto Rx 5°25 Aquarius,aspect
+2026-06-02,,Jupiter enters Cancer,ingress
+2026-06-08,,Venus enters Cancer,ingress
+2026-06-09,12:55 pm PT,Venus conjoins Jupiter 25°46 Cancer,aspect
+2026-06-12,3:13 am PT,Uranus 2°42 Gemini squares the lunar nodes,aspect
+2026-06-15,,Sun enters Gemini,ingress
+2026-06-19,2:20 pm PT,Chiron enters Taurus,ingress
+2026-06-21,,Mars enters Taurus,ingress
+2026-06-22,,Mercury enters Cancer,ingress
+2026-06-29,,Mercury retrograde starts in Cancer (until July 23),retrograde
+2026-06-29,9:34 pm PT,Mars 0°58 Gemini squares the lunar nodes,aspect
+2026-06-29,10:51 pm PT,Jupiter enters Leo,ingress
+2026-07-03,11:05 pm PT,Mars conjoins Uranus 3°52 Gemini,aspect
+2026-07-04,,Venus enters Leo,ingress
+2026-07-07,,Mercury retrogrades in Gemini,ingress
+2026-07-10,12:35 am PT,Venus conjoins the South Node 0°39 Virgo,aspect
+2026-07-12,6:31 pm PT,Mercury cazimi 20°42 Cancer,cazimi
+2026-07-15,1:59 pm PT,Uranus 4°23 Gemini sextiles Neptune Rx 4°23 Aries,aspect
+2026-07-17,11:04 pm PT,Uranus 4°29 Gemini trines Pluto Rx 4°29 Aquarius,aspect
+2026-07-20,12:26 am PT,Jupiter 4°22 Leo trines Neptune Rx 4°22 Aries,aspect
+2026-07-20,7:54 am PT,Jupiter 4°26 Leo opposes Pluto Rx 4°26 Aquarius,aspect
+2026-07-21,3:47 am PT,Jupiter 4°37 Leo sextiles Uranus 4°37 Gemini,aspect
+2026-07-22,10:02 pm PT,Neptune Rx 4°20 Aries sextiles Pluto Rx 4°20 Aquarius,aspect
+2026-07-26,5:50 pm PT,"North Node enters Aquarius, South Node enters Leo",nodal shift
+2026-07-29,5:11 am PT,Jupiter cazimi 6°24 Leo,cazimi
+2026-08-12,10:45 am PT,Solar eclipse 20°01 Leo,eclipse
+2026-08-17,2:53 am PT,Mars 3°59 Cancer squares Neptune Rx 3°59 Aries,aspect
+2026-08-17,9:10 am PT,Venus 10°37 Libra sextiles Jupiter 10°37 Leo,aspect
+2026-08-22,3:03 pm PT,Sun conjoins the South Node 29°49 Leo,aspect
+2026-08-25,2:05 am PT,Mercury conjoins the South Node 29°50 Leo,aspect
+2026-08-27,10:10 am PT,Mercury cazimi 4°27 Virgo,cazimi
+2026-08-27,9:12 pm PT,Lunar eclipse 4°53 Pisces,eclipse
+2026-08-31,3:40 pm PT,Jupiter 13°41 Leo trines Saturn Rx 13°41 Aries,aspect
+2026-09-01,3:01 am PT,Mars 13°39 Cancer squares Saturn Rx 13°39 Aries,aspect
+2026-09-15,7:11 pm PT,Neptune Rx 3°16 Aries sextiles Pluto Rx 3°16 Aquarius,aspect
+2026-09-17,6:51 pm PT,Chiron Rx enters Aries,ingress
+2026-10-03,,Venus retrograde starts in Scorpio/Libra (until Nov 13),retrograde
+2026-10-03,3:39 am PT,Mars 3°06 Leo opposes Pluto Rx 3°06 Aquarius,aspect
+2026-10-23,8:50 pm PT,Venus cazimi 0°45 Scorpio,cazimi
+2026-10-24,,Mercury retrograde starts in Scorpio (until Nov 13),retrograde
+2026-10-25,2:11 am PT,Venus Rx enters Libra,ingress
+2026-11-04,2:46 am PT,Venus Rx 24°43 Libra sextiles Jupiter 24°43 Leo,aspect
+2026-11-04,6:37 am PT,Mercury cazimi 12°11 Scorpio,cazimi
+2026-11-12,12:37 am PT,Jupiter conjoins the South Node 25°32 Leo,aspect
+2026-11-14,10:11 am PT,Mars conjoins the South Node 25°12 Leo,aspect
+2026-11-28,3:50 am PT,Venus 26°40 Libra sextiles Jupiter 26°40 Leo,aspect
+2026-11-29,3:20 am PT,Uranus Rx 3°31 Gemini trines Pluto 3°31 Aquarius,aspect
+2026-12-01,9:37 pm PT,Mercury 23°50 Scorpio squares the lunar nodes,aspect
+2026-12-04,11:36 am PT,Mars 3°18 Virgo squares Uranus Rx 3°18 Gemini,aspect
+2026-12-29,3:05 pm PT,Venus 21°28 Scorpio squares the lunar nodes,aspect

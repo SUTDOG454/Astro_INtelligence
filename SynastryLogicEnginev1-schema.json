@@ -1,0 +1,516 @@
+{
+	"type": "object",
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"description": "JSON schema generated with JSONBuddy https://www.json-buddy.com",
+	"properties": {
+		"aspect_weights": {
+			"type": "object",
+			"properties": {
+				"conjunction": {
+					"type": "integer"
+				},
+				"contraparallel": {
+					"type": "integer"
+				},
+				"opposition": {
+					"type": "integer"
+				},
+				"parallel": {
+					"type": "integer"
+				},
+				"quincunx": {
+					"type": "integer"
+				},
+				"semisextile": {
+					"type": "integer"
+				},
+				"semisquare": {
+					"type": "integer"
+				},
+				"sesquiquadrate": {
+					"type": "integer"
+				},
+				"sextile": {
+					"type": "integer"
+				},
+				"square": {
+					"type": "integer"
+				},
+				"trine": {
+					"type": "integer"
+				}
+			}
+		},
+		"clash_rules": {
+			"type": "object",
+			"properties": {
+				"heartbreak_clash": {
+					"type": "object",
+					"properties": {
+						"planet_pairs": {
+							"type": "array",
+							"items": {
+								"oneOf": [
+									{
+										"type": "array",
+										"items": {
+											"oneOf": [ { "type": "string" } ]
+										}
+									}
+								]
+							}
+						},
+						"required_aspects": {
+							"type": "array",
+							"items": {
+								"oneOf": [ { "type": "string" } ]
+							}
+						},
+						"score_penalty": {
+							"type": "integer"
+						}
+					}
+				},
+				"nuclear_clash": {
+					"type": "object",
+					"properties": {
+						"planet_pairs": {
+							"type": "array",
+							"items": {
+								"oneOf": [
+									{
+										"type": "array",
+										"items": {
+											"oneOf": [ { "type": "string" } ]
+										}
+									}
+								]
+							}
+						},
+						"required_aspects": {
+							"type": "array",
+							"items": {
+								"oneOf": [ { "type": "string" } ]
+							}
+						},
+						"score_penalty": {
+							"type": "integer"
+						}
+					}
+				},
+				"saturn_clash": {
+					"type": "object",
+					"properties": {
+						"planet_pairs": {
+							"type": "array",
+							"items": {
+								"oneOf": [
+									{
+										"type": "array",
+										"items": {
+											"oneOf": [ { "type": "string" } ]
+										}
+									}
+								]
+							}
+						},
+						"required_aspects": {
+							"type": "array",
+							"items": {
+								"oneOf": [ { "type": "string" } ]
+							}
+						},
+						"score_penalty": {
+							"type": "integer"
+						}
+					}
+				}
+			}
+		},
+		"compatibility_categories_output": {
+			"type": "object",
+			"properties": {
+				"0-39": {
+					"type": "string"
+				},
+				"100+": {
+					"type": "string"
+				},
+				"40-54": {
+					"type": "string"
+				},
+				"55-69": {
+					"type": "string"
+				},
+				"70-84": {
+					"type": "string"
+				},
+				"85-99": {
+					"type": "string"
+				}
+			}
+		},
+		"geometry_rules": {
+			"type": "object",
+			"properties": {
+				"destiny_geometry": {
+					"type": "object",
+					"properties": {
+						"patterns": {
+							"type": "array",
+							"items": {
+								"oneOf": [ { "type": "string" } ]
+							}
+						},
+						"score_bonus": {
+							"type": "integer"
+						}
+					}
+				},
+				"romantic_geometry": {
+					"type": "object",
+					"properties": {
+						"patterns": {
+							"type": "array",
+							"items": {
+								"oneOf": [ { "type": "string" } ]
+							}
+						},
+						"score_bonus": {
+							"type": "integer"
+						}
+					}
+				},
+				"sexual_geometry": {
+					"type": "object",
+					"properties": {
+						"patterns": {
+							"type": "array",
+							"items": {
+								"oneOf": [ { "type": "string" } ]
+							}
+						},
+						"score_bonus": {
+							"type": "integer"
+						}
+					}
+				}
+			}
+		},
+		"linkage_rules": {
+			"type": "object",
+			"properties": {
+				"cinderella_linkage": {
+					"type": "object",
+					"properties": {
+						"planet_pairs": {
+							"type": "array",
+							"items": {
+								"oneOf": [
+									{
+										"type": "array",
+										"items": {
+											"oneOf": [ { "type": "string" } ]
+										}
+									}
+								]
+							}
+						},
+						"required_aspects": {
+							"type": "array",
+							"items": {
+								"oneOf": [ { "type": "string" } ]
+							}
+						},
+						"score_bonus": {
+							"type": "integer"
+						}
+					}
+				},
+				"financial_linkage": {
+					"type": "object",
+					"properties": {
+						"planet_pairs": {
+							"type": "array",
+							"items": {
+								"oneOf": [
+									{
+										"type": "array",
+										"items": {
+											"oneOf": [ { "type": "string" } ]
+										}
+									}
+								]
+							}
+						},
+						"required_aspects": {
+							"type": "array",
+							"items": {
+								"oneOf": [ { "type": "string" } ]
+							}
+						},
+						"score_bonus": {
+							"type": "integer"
+						}
+					}
+				},
+				"romantic_linkage": {
+					"type": "object",
+					"properties": {
+						"planet_pairs": {
+							"type": "array",
+							"items": {
+								"oneOf": [
+									{
+										"type": "array",
+										"items": {
+											"oneOf": [ { "type": "string" } ]
+										}
+									}
+								]
+							}
+						},
+						"required_aspects": {
+							"type": "array",
+							"items": {
+								"oneOf": [ { "type": "string" } ]
+							}
+						},
+						"score_bonus": {
+							"type": "integer"
+						}
+					}
+				},
+				"sexual_linkage": {
+					"type": "object",
+					"properties": {
+						"planet_pairs": {
+							"type": "array",
+							"items": {
+								"oneOf": [
+									{
+										"type": "array",
+										"items": {
+											"oneOf": [ { "type": "string" } ]
+										}
+									}
+								]
+							}
+						},
+						"required_aspects": {
+							"type": "array",
+							"items": {
+								"oneOf": [ { "type": "string" } ]
+							}
+						},
+						"score_bonus": {
+							"type": "integer"
+						}
+					}
+				}
+			}
+		},
+		"midpoint_rules": {
+			"type": "object",
+			"properties": {
+				"destiny_midpoints": {
+					"type": "object",
+					"properties": {
+						"activators": {
+							"type": "array",
+							"items": {
+								"oneOf": [ { "type": "string" } ]
+							}
+						},
+						"midpoints": {
+							"type": "array",
+							"items": {
+								"oneOf": [ { "type": "string" } ]
+							}
+						},
+						"score_bonus": {
+							"type": "integer"
+						}
+					}
+				},
+				"romantic_midpoints": {
+					"type": "object",
+					"properties": {
+						"activators": {
+							"type": "array",
+							"items": {
+								"oneOf": [ { "type": "string" } ]
+							}
+						},
+						"midpoints": {
+							"type": "array",
+							"items": {
+								"oneOf": [ { "type": "string" } ]
+							}
+						},
+						"score_bonus": {
+							"type": "integer"
+						}
+					}
+				},
+				"sexual_midpoints": {
+					"type": "object",
+					"properties": {
+						"activators": {
+							"type": "array",
+							"items": {
+								"oneOf": [ { "type": "string" } ]
+							}
+						},
+						"midpoints": {
+							"type": "array",
+							"items": {
+								"oneOf": [ { "type": "string" } ]
+							}
+						},
+						"score_bonus": {
+							"type": "integer"
+						}
+					}
+				}
+			}
+		},
+		"module": {
+			"type": "string"
+		},
+		"planet_weights": {
+			"type": "object",
+			"properties": {
+				"Ascendant": {
+					"type": "integer"
+				},
+				"Chiron": {
+					"type": "integer"
+				},
+				"Jupiter": {
+					"type": "integer"
+				},
+				"Mars": {
+					"type": "integer"
+				},
+				"Moon": {
+					"type": "integer"
+				},
+				"Neptune": {
+					"type": "integer"
+				},
+				"Pluto": {
+					"type": "integer"
+				},
+				"Saturn": {
+					"type": "integer"
+				},
+				"Sun": {
+					"type": "integer"
+				},
+				"Uranus": {
+					"type": "integer"
+				},
+				"Venus": {
+					"type": "integer"
+				}
+			}
+		},
+		"relationship_categories": {
+			"type": "object",
+			"properties": {
+				"destiny": {
+					"type": "array",
+					"items": {
+						"oneOf": [ { "type": "string" } ]
+					}
+				},
+				"emotional": {
+					"type": "array",
+					"items": {
+						"oneOf": [ { "type": "string" } ]
+					}
+				},
+				"financial": {
+					"type": "array",
+					"items": {
+						"oneOf": [ { "type": "string" } ]
+					}
+				},
+				"karmic": {
+					"type": "array",
+					"items": {
+						"oneOf": [ { "type": "string" } ]
+					}
+				},
+				"romantic": {
+					"type": "array",
+					"items": {
+						"oneOf": [ { "type": "string" } ]
+					}
+				},
+				"sexual": {
+					"type": "array",
+					"items": {
+						"oneOf": [ { "type": "string" } ]
+					}
+				}
+			}
+		},
+		"scoring_model": {
+			"type": "object",
+			"properties": {
+				"base_score": {
+					"type": "integer"
+				},
+				"clash_weight": {
+					"type": "number"
+				},
+				"destiny_weight": {
+					"type": "number"
+				},
+				"emotional_weight": {
+					"type": "number"
+				},
+				"financial_weight": {
+					"type": "number"
+				},
+				"karmic_weight": {
+					"type": "number"
+				},
+				"romance_weight": {
+					"type": "number"
+				},
+				"sexual_weight": {
+					"type": "number"
+				}
+			}
+		},
+		"settings": {
+			"type": "object",
+			"properties": {
+				"max_orb_magi": {
+					"type": "integer"
+				},
+				"max_orb_major": {
+					"type": "integer"
+				},
+				"max_orb_midpoint": {
+					"type": "integer"
+				},
+				"max_orb_minor": {
+					"type": "integer"
+				},
+				"max_orb_parallel": {
+					"type": "number"
+				},
+				"weighting_model": {
+					"type": "string"
+				}
+			}
+		},
+		"version": {
+			"type": "string"
+		}
+	}
+}

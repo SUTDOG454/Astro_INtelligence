@@ -1,0 +1,176 @@
+{
+  "metadata": {
+    "framework_name": "ASTO (Astrological System & Trading Operations) Master Unified Framework",
+    "version": "16.0-Master-Ultimate",
+    "synthesis_date": "2026-05-05",
+    "system_status": "PRODUCTION_READY_FULLY_INTEGRATED",
+    "description": "The ultimate synthesis of all provided data, including granular midpoint interpretations, expanded chart types, and full financial/astrological integration."
+  },
+  "ontology": {
+    "classes": [
+      {
+        "class": "CelestialBody",
+        "subclasses": [
+          "Planet",
+          "DwarfPlanet",
+          "Asteroid",
+          "Centaur",
+          "TNO",
+          "FixedStar",
+          "HypotheticalPlanet"
+        ]
+      },
+      {
+        "class": "Point",
+        "subclasses": [
+          "SensitivePoint",
+          "ArabicPart",
+          "LunarNode",
+          "Vertex",
+          "Midpoint"
+        ]
+      },
+      {
+        "class": "Division",
+        "subclasses": [
+          "Sign",
+          "House",
+          "Decan",
+          "Duad",
+          "Nakshatra"
+        ]
+      },
+      {
+        "class": "Relationship",
+        "subclasses": [
+          "Aspect",
+          "AspectPattern",
+          "Transit",
+          "Progression",
+          "SynastryLink"
+        ]
+      },
+      {
+        "class": "Timing",
+        "subclasses": [
+          "LunarPhase",
+          "Eclipse",
+          "SarosCycle",
+          "CinderellaTime"
+        ]
+      }
+    ]
+  },
+  "midpoint_compendium": {
+    "sun_midpoints": {
+      "Sun=Sun/Moon": "Re-affirmation of desire to establish partnership.",
+      "Sun=Sun/Mercury": "Mind and common sense, power of intellect.",
+      "Sun=Sun/Venus": "Romance, love relationship, illumination of beauty.",
+      "Sun=Sun/Mars": "Will to live, vitality, vigour, activity.",
+      "Sun=Sun/Jupiter": "Health, joy, success, recognition.",
+      "Sun=Sun/Saturn": "Awareness of responsibility, testing path.",
+      "Sun=Sun/Uranus": "Independent, revolutionary spirit.",
+      "Sun=Sun/Neptune": "Sensitivity, imagination, aesthetics.",
+      "Sun=Sun/Pluto": "Power needs, control, new perspectives.",
+      "Sun=Moon/Mercury": "Natural communicator, perceptive, articulate, talent for public work.",
+      "Sun=Moon/Venus": "Vibrant personality, heart-centered, affectionate, artistic creativity.",
+      "Sun=Moon/Mars": "Emotionally direct, honest, industrious, energetic, desire to succeed.",
+      "Sun=Moon/Jupiter": "Approachable, friendly, easy-going, optimism, social advantages.",
+      "Sun=Moon/Saturn": "Self-reliant, feelings of isolation, responsibility, sobering times.",
+      "Sun=Moon/Uranus": "Independent streak, strong-willed, spontaneous, nervous tension.",
+      "Sun=Moon/Neptune": "Physical sensitivity, mediumistic, inspired creativity, illusions.",
+      "Sun=Moon/Pluto": "Intense, single-minded, obsessive, power struggles, deep awareness.",
+      "Sun=Mercury/Venus": "Visually aware, appreciation of beauty, artistic understanding, flirtatiousness.",
+      "Sun=Mercury/Mars": "Mentally alert, active mind, courage in speech, argumentative, impulsive.",
+      "Sun=Mercury/Jupiter": "Expressive communicator, broadminded, success in vocation, orator."
+    }
+  },
+  "master_chart_types": [
+    {
+      "id": "natal_chart",
+      "label": "Natal Chart",
+      "core_purpose": "Maps core personality, life themes, needs, and karma.",
+      "interaction": {
+        "feeds_into": [
+          "synastry",
+          "composite",
+          "davison",
+          "persona",
+          "asteroid",
+          "fixed_star",
+          "draconic"
+        ]
+      }
+    },
+    {
+      "id": "persona_chart",
+      "label": "Persona Chart",
+      "core_purpose": "Explores ego masks and sub-personalities of each natal planet.",
+      "interaction": {
+        "derived_from": [
+          "natal_chart"
+        ],
+        "feeds_into": [
+          "synastry",
+          "composite"
+        ]
+      }
+    },
+    {
+      "id": "asteroid_chart",
+      "label": "Asteroid Chart",
+      "core_purpose": "Tracks minor bodies for nuanced soul-level themes.",
+      "interaction": {
+        "overlays_with": [
+          "natal",
+          "synastry",
+          "composite",
+          "harmonic"
+        ]
+      }
+    }
+  ],
+  "financial_trading_engine": {
+    "master_schema": "AFE_Sector_Asteroid_Framework_v7.0",
+    "probability_engine": {
+      "formula": "P_MASTER = Base(0.5) * AFE(1.0-12.0) * KCIL(0.6-1.6) * Chart_Type(1.0-1.4) * Chaldean(0.5-1.8) * Uranian(0.7-1.5) * Harmonic(0.8-1.3) * Progressions(0.9-1.4) * Boolean_Gates * Technical_Veto(0.0-1.0)",
+      "thresholds": {
+        "100_percent": 0.85,
+        "50_percent": 0.7,
+        "avoid": 0.7
+      }
+    },
+    "sector_asteroid_matrix": {
+      "Technology": {
+        "primary": "Pallas",
+        "multiplier": 1.35
+      },
+      "Financials": {
+        "primary": "Karma",
+        "multiplier": 1.2
+      },
+      "Healthcare": {
+        "primary": "Chiron",
+        "multiplier": 1.3
+      }
+    }
+  },
+  "hellenistic_and_medieval_doctrine": {
+    "aspect_doctrine": {
+      "applying_vs_separating": "Applying is future/powerful; Separating is past/inherent",
+      "right_left_aspects": "Dexter (right) is stronger; Sinister (left) is weaker",
+      "overcoming": "Superior position dominates interaction",
+      "aversion": "Signs cannot 'see' each other, no direct influence"
+    },
+    "sect_detailed": {
+      "day_chart": {
+        "primary_benefic": "Jupiter",
+        "primary_malefic": "Mars"
+      },
+      "night_chart": {
+        "primary_benefic": "Venus",
+        "primary_malefic": "Saturn"
+      }
+    }
+  }
+}

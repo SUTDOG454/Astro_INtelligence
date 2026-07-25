@@ -1,0 +1,454 @@
+{
+  "consultation_templates": {
+    "template_metadata": {
+      "version": "1.0",
+      "created_date": "2026-02-21",
+      "purpose": "Ready-to-use consultation frameworks for professional astrologers",
+      "scope": "Templates for common consultation types with talking points and structure"
+    },
+    "natal_chart_consultation": {
+      "consultation_type": "Complete natal chart reading",
+      "duration": "90-120 minutes",
+      "structure": {
+        "opening": {
+          "time": "5 minutes",
+          "talking_points": [
+            "Welcome and introduce yourself",
+            "Explain what natal astrology is and isn't (potentials, not fate)",
+            "Ask about client's astrology knowledge level",
+            "Set expectations: 'We'll cover your core personality, relationships, career, and life purpose'",
+            "Ask client's main questions or areas of focus",
+            "Confirm birth data accuracy"
+          ]
+        },
+        "section_1_big_three": {
+          "time": "15-20 minutes",
+          "title": "Your Core Identity: Sun, Moon, and Rising",
+          "talking_points": [
+            "Sun sign and house: 'This is your core identity, life purpose, what you're here to express'",
+            "Moon sign and house: 'This is your emotional nature, what you need to feel secure, your inner child'",
+            "Rising sign: 'This is how you appear to others, your approach to life, your life path'",
+            "Explain any conflicts or harmony between these three",
+            "Use evolutionary zodiac narrative if appropriate",
+            "Apply theatrical metaphor: 'Your Sun is the actor, in the sign's atmosphere, on the house's stage'"
+          ],
+          "client_reflection": "Ask: 'Does this resonate with how you see yourself and how others see you?'"
+        },
+        "section_2_relationships": {
+          "time": "15 minutes",
+          "title": "Love and Relationships",
+          "talking_points": [
+            "Venus sign and house: 'This is what you value, how you love, what attracts you'",
+            "Mars sign and house: 'This is what you desire, your passion, your sexual expression'",
+            "7th house and its ruler: 'This describes your ideal partner and partnership style'",
+            "Venus-Mars aspects: chemistry and compatibility style",
+            "Challenging aspects: 'These show relationship lessons you're learning'",
+            "If applicable: Sexual archetype themes from 5th/8th house emphasis"
+          ],
+          "questions_to_ask": [
+            "'What patterns do you notice in your relationships?'",
+            "'Does the description of your 'ideal partner' (7th house) match who you actually attract?'"
+          ]
+        },
+        "section_3_career": {
+          "time": "15 minutes",
+          "title": "Career and Life Direction",
+          "talking_points": [
+            "MC sign: 'This is your public reputation, career direction, legacy'",
+            "10th house ruler placement: 'This shows where your career manifests'",
+            "2nd house and ruler: 'This is how you make money, your resources'",
+            "6th house: 'This is your daily work style, health, service'",
+            "Vocational indicators: planets in 10th, MC ruler, Saturn",
+            "Sun-Saturn aspects: authority and career development timeline",
+            "Jupiter placements: expansion and opportunity areas"
+          ],
+          "practical_guidance": "Discuss specific career fields that match chart patterns"
+        },
+        "section_4_life_purpose": {
+          "time": "10-15 minutes",
+          "title": "Life Purpose and Growth Direction",
+          "talking_points": [
+            "North Node sign and house: 'This is your growth direction, what you're developing'",
+            "South Node: 'These are your natural gifts and comfort zone you're evolving beyond'",
+            "Saturn sign and house: 'These are your major life lessons and where you build mastery'",
+            "Chart ruler placement: 'This ties your whole chart together, showing life direction'",
+            "Dominant element/modality: 'This is your natural operating style'",
+            "Major aspect patterns: T-square, Grand Trine, etc."
+          ]
+        },
+        "section_5_challenges_and_growth": {
+          "time": "10-15 minutes",
+          "title": "Challenges and Growth Opportunities",
+          "talking_points": [
+            "Difficult aspects: frame as growth opportunities, not problems",
+            "Saturn placements: lessons and mastery timeline",
+            "Chiron: 'This is your wound and your healing gift'",
+            "Challenging planet placements: 'These are areas requiring conscious development'",
+            "12th house themes: shadow work and transcendence",
+            "Always frame positively: 'Every challenge is an opportunity for growth'"
+          ],
+          "therapeutic_note": "If serious trauma indicators (Pluto-Moon square, 12th house emphasis, etc.), suggest professional therapy support"
+        },
+        "section_6_timing_preview": {
+          "time": "10 minutes",
+          "title": "Current Timing and Near Future",
+          "talking_points": [
+            "Major current transits affecting chart",
+            "Saturn cycle position (pre/post Saturn return)",
+            "Jupiter transits: opportunities in next year",
+            "Progressed Moon: current emotional focus",
+            "Annual profection: this year's focus house",
+            "Upcoming eclipses: activation points"
+          ],
+          "bridge_to_predictive": "If client wants more timing work, offer separate predictive consultation"
+        },
+        "closing": {
+          "time": "10 minutes",
+          "talking_points": [
+            "Ask: 'What resonated most? What surprised you?'",
+            "Summarize key themes: 'Your main gifts are..., your challenges are..., your path forward involves...'",
+            "Answer remaining questions",
+            "Provide actionable guidance based on chart",
+            "Offer recording or written report",
+            "Discuss follow-up consultation options (timing, relationship synastry, etc.)",
+            "Thank client and close"
+          ]
+        }
+      },
+      "post_consultation": {
+        "written_report": "Send PDF summary with key points, chart image, and any recommendations",
+        "recording": "Provide consultation recording within 24-48 hours",
+        "follow_up": "Email check-in after 1 week to see if questions arose"
+      }
+    },
+    "synastry_consultation": {
+      "consultation_type": "Relationship compatibility reading",
+      "duration": "60-90 minutes",
+      "prerequisites": "Both partners' accurate birth data",
+      "structure": {
+        "opening": {
+          "time": "5 minutes",
+          "talking_points": [
+            "Welcome both partners (if present) or explain reading for absent partner",
+            "Explain synastry: 'We compare your charts to see how you interact energetically'",
+            "Set expectations: show strengths, challenges, and growth opportunities",
+            "Ask relationship status and main concerns",
+            "Assure confidentiality if one partner absent"
+          ]
+        },
+        "section_1_individual_summaries": {
+          "time": "10 minutes",
+          "title": "Individual Relationship Styles",
+          "talking_points": [
+            "Person A's Venus/Mars/7th house: relationship needs and style",
+            "Person B's Venus/Mars/7th house: relationship needs and style",
+            "Point out similarities and differences",
+            "'You both need X' or 'One needs Y while the other needs Z'"
+          ]
+        },
+        "section_2_major_connections": {
+          "time": "15-20 minutes",
+          "title": "Your Connection: Major Aspects",
+          "priority_aspects": [
+            "Sun-Moon aspects: emotional compatibility",
+            "Venus-Mars aspects: romantic and sexual chemistry",
+            "Moon-Moon: emotional understanding",
+            "Sun-Sun: identity compatibility or competition",
+            "Venus-Venus: shared values",
+            "Saturn contacts: commitment and lessons",
+            "Outer planet contacts: transformative dynamics"
+          ],
+          "interpretation_guidelines": [
+            "Start with harmonious aspects (trines, sextiles) to build positive frame",
+            "Present challenging aspects (squares, oppositions) as 'growth areas'",
+            "Explain double whammies: 'This connection goes both ways, so it's especially powerful'",
+            "Use practical examples: 'This means when she's upset, you might feel...'",
+            "Check for aspect chains connecting multiple planets"
+          ]
+        },
+        "section_3_house_overlays": {
+          "time": "15 minutes",
+          "title": "How You Experience Each Other",
+          "talking_points": [
+            "Person A's planets in Person B's houses:",
+            "Focus on personal planets (Sun, Moon, Venus, Mars, Mercury)",
+            "Emphasize 1st, 4th, 5th, 7th, 8th, 10th, 11th house overlays",
+            "Person B's planets in Person A's houses:",
+            "Explain: 'When your Venus is in their 7th house, they see you as their ideal partner'",
+            "'Your Sun in their 5th house means you bring them joy and creativity'",
+            "Check for reciprocal overlays: both in each other's 7th, etc."
+          ]
+        },
+        "section_4_composite_chart": {
+          "time": "10 minutes",
+          "title": "The Relationship Itself",
+          "talking_points": [
+            "Composite Sun: 'This is the heart of your relationship, its purpose'",
+            "Composite Moon: 'This is the emotional climate between you'",
+            "Composite Venus: 'This is how love expresses in the relationship'",
+            "Composite Mars: 'This is how you handle conflict and passion'",
+            "Composite Saturn: 'These are the relationship's challenges and lessons'",
+            "Composite 7th house: 'This is how the relationship presents to others'"
+          ]
+        },
+        "section_5_compatibility_scores": {
+          "time": "5 minutes",
+          "title": "Compatibility Assessment",
+          "provide": [
+            "Overall compatibility score (1-10)",
+            "Emotional compatibility",
+            "Intellectual compatibility",
+            "Sexual compatibility",
+            "Long-term potential",
+            "Explain: 'These scores are guidelines, not destiny. Every relationship takes work.'"
+          ]
+        },
+        "section_6_strengths_and_challenges": {
+          "time": "10-15 minutes",
+          "title": "Your Relationship's Gifts and Growth Areas",
+          "strengths": [
+            "List 3-5 major strengths from chart analysis",
+            "Example: 'Strong emotional understanding (Moon trine Moon)'",
+            "Example: 'Passionate chemistry (Venus conjunct Mars)'",
+            "Example: 'Shared values and goals (Jupiter-Saturn harmony)'"
+          ],
+          "challenges": [
+            "List 2-4 main challenges",
+            "Frame as growth opportunities: 'This square means you'll grow through...'",
+            "Provide practical advice for each challenge",
+            "Example: 'Mars square Mars means you might compete or clash. Try: channeling this into playful competition or separate activities for individual expression.'"
+          ]
+        },
+        "section_7_relationship_timing": {
+          "time": "5-10 minutes",
+          "title": "Relationship Timing and Development",
+          "talking_points": [
+            "Current transits to relationship points",
+            "Composite chart transits",
+            "Saturn cycles in relationship",
+            "Upcoming eclipses affecting relationship houses",
+            "If asked about marriage: check 7th house progressions, Lot of Marriage transits"
+          ]
+        },
+        "closing": {
+          "time": "10 minutes",
+          "talking_points": [
+            "Summary: 'Your relationship's core dynamic is...'",
+            "Answer questions from both partners",
+            "Emphasize: 'Astrology shows potentials. Your choices and commitment create the reality.'",
+            "Provide actionable relationship advice based on charts",
+            "Discuss follow-up options (timing for relationship events, etc.)",
+            "Thank clients"
+          ]
+        }
+      },
+      "ethical_considerations": [
+        "Never predict breakup or divorce—present challenges only",
+        "If one partner is absent, maintain confidentiality",
+        "If relationship is toxic (severe Pluto-Moon, Mars-Pluto hard aspects), gently suggest counseling",
+        "Emphasize free will and personal responsibility",
+        "Don't take sides if both present"
+      ]
+    },
+    "predictive_consultation": {
+      "consultation_type": "Timing and forecast reading",
+      "duration": "60-90 minutes",
+      "structure": {
+        "opening": {
+          "time": "5 minutes",
+          "talking_points": [
+            "Ask about specific questions or time periods of interest",
+            "Explain multiple timing techniques: 'We'll look at transits, progressions, and solar return'",
+            "Set expectations: astrology shows timing of themes, not guaranteed events",
+            "Ask about past major events to validate timing techniques"
+          ]
+        },
+        "section_1_past_validation": {
+          "time": "10 minutes",
+          "title": "Validating Timing in Your Past",
+          "method": [
+            "Check major transits for past 2-3 years",
+            "Note Saturn/Uranus/Neptune/Pluto transits to angles or personal planets",
+            "Ask if client remembers what was happening during those times",
+            "Build trust by demonstrating timing accuracy",
+            "Example: 'In March 2023, Pluto was exactly on your Venus. Did something intense happen in relationships?'"
+          ]
+        },
+        "section_2_current_transits": {
+          "time": "15 minutes",
+          "title": "Current Energies and Themes",
+          "cover": [
+            "All current outer planet transits (Jupiter through Pluto)",
+            "Current eclipse impacts",
+            "Progressed Moon sign and house",
+            "Annual profection house",
+            "Solar return chart for current year",
+            "Emphasize themes that multiple techniques confirm"
+          ]
+        },
+        "section_3_next_12_months": {
+          "time": "20 minutes",
+          "title": "The Year Ahead",
+          "month_by_month": [
+            "Note significant transit dates",
+            "Highlight best times for: new beginnings, important decisions, romance, career moves",
+            "Note challenging periods and how to navigate",
+            "Check for Saturn returns, Jupiter returns, nodal returns",
+            "Solar return analysis for upcoming birthday"
+          ],
+          "provide_written": "Month-by-month summary of key dates and themes"
+        },
+        "section_4_major_life_cycles": {
+          "time": "10-15 minutes",
+          "title": "Long-Term Cycles and Themes",
+          "cover": [
+            "Saturn cycle position (approaching/past Saturn return, square, opposition)",
+            "Jupiter 12-year cycle",
+            "Uranus opposition (age 40-42)",
+            "Neptune square (late 30s-early 40s)",
+            "Progressed Sun sign changes (major 30-year chapters)",
+            "North Node return (every 18.5 years)"
+          ]
+        },
+        "section_5_specific_questions": {
+          "time": "15-20 minutes",
+          "title": "Timing Your Questions",
+          "common_questions": {
+            "career_change": "Check transits to 10th house, MC, 10th ruler, Saturn, Jupiter",
+            "relationship": "Check 7th house, Venus, Lot of Marriage, progressed Venus",
+            "moving": "Check 4th house, IC, transits to Moon",
+            "pregnancy": "Check 5th house, Jupiter-Moon contacts, progressed Moon in 5th",
+            "financial": "Check 2nd house, 8th house, Jupiter transits",
+            "health": "Check 6th house, progressed planets in 6th, Mars-Saturn transits"
+          },
+          "provide_specific_timing": "Give 2-3 optimal timing windows for client's goals"
+        },
+        "closing": {
+          "time": "10 minutes",
+          "talking_points": [
+            "Summarize major themes for next year",
+            "Provide list of key dates",
+            "Emphasize both opportunities and challenges",
+            "Remind: 'You have free will within these cycles'",
+            "Suggest: 'Let's check in again in 6-12 months to see how things unfolded'",
+            "Answer remaining questions"
+          ]
+        }
+      },
+      "deliverables": [
+        "Written timeline with key dates",
+        "Monthly themes summary",
+        "Best timing windows for specific goals",
+        "Consultation recording"
+      ]
+    },
+    "short_question_consultation": {
+      "consultation_type": "Single-question focused reading",
+      "duration": "30 minutes",
+      "best_for": [
+        "Career decision timing",
+        "Relationship question",
+        "Should I move?",
+        "Health concern",
+        "Quick timing question"
+      ],
+      "structure": {
+        "opening": {
+          "time": "3 minutes",
+          "get_clear_question": "What is your specific question? (More specific = better answer)"
+        },
+        "natal_factors": {
+          "time": "10 minutes",
+          "examine": "Relevant natal chart factors for question",
+          "example": "For career question: Sun, MC, 10th house, Saturn, Jupiter, 2nd house"
+        },
+        "timing_analysis": {
+          "time": "12 minutes",
+          "check": [
+            "Current transits to relevant factors",
+            "Progressions",
+            "Solar return",
+            "Provide specific timing: 'Best window is...'",
+            "Caution periods: 'Avoid this time because...'"
+          ]
+        },
+        "answer_and_guidance": {
+          "time": "5 minutes",
+          "provide": [
+            "Direct answer to question",
+            "Practical guidance",
+            "Timing recommendations",
+            "Follow-up suggestions if needed"
+          ]
+        }
+      }
+    },
+    "consultation_best_practices": {
+      "before_consultation": {
+        "preparation": [
+          "Study chart for at least 1 hour before meeting",
+          "Prepare key talking points",
+          "Check current transits",
+          "Have chart printed or on large screen",
+          "Test recording equipment",
+          "Prepare quiet, professional space",
+          "Have water available"
+        ]
+      },
+      "during_consultation": {
+        "communication_skills": [
+          "Speak clearly and avoid jargon (or explain it)",
+          "Ask if client understands before moving on",
+          "Watch client's body language for engagement",
+          "Pause for client questions and reflections",
+          "Balance listening and teaching",
+          "Take brief notes of client's feedback",
+          "Manage time to cover all sections"
+        ],
+        "ethical_guidelines": [
+          "Never predict death or severe illness",
+          "Frame challenges as growth opportunities",
+          "Respect client's free will",
+          "Don't give medical, legal, or financial advice",
+          "Suggest professional help when appropriate",
+          "Maintain confidentiality",
+          "Don't frighten clients",
+          "Be honest but compassionate"
+        ]
+      },
+      "after_consultation": {
+        "follow_up": [
+          "Send recording within 24-48 hours",
+          "Send written summary if promised",
+          "Email check-in after 1 week",
+          "Request testimonial if client satisfied",
+          "Note any rectification insights from client feedback",
+          "Update client file with notes"
+        ]
+      }
+    },
+    "consultation_pricing_guide": {
+      "suggested_rates": {
+        "natal_chart_full": "$150-300 (90-120 min)",
+        "natal_chart_follow_up": "$100-200 (60 min)",
+        "synastry": "$150-250 (60-90 min)",
+        "predictive": "$125-225 (60-90 min)",
+        "short_question": "$75-125 (30 min)",
+        "written_report_only": "$100-200"
+      },
+      "pricing_factors": [
+        "Your experience level",
+        "Geographic market",
+        "Consultation length",
+        "Included materials (recording, written report)",
+        "Complexity (synastry more complex than single chart)",
+        "Your preparation time"
+      ]
+    },
+    "marketing_templates": {
+      "natal_chart_description": "A complete natal chart consultation explores your birth chart to reveal your personality, life purpose, relationships, career path, and growth opportunities. You'll receive deep insight into your strengths, challenges, and the unique gifts you came here to express. Perfect for self-discovery and life direction.",
+      "synastry_description": "Relationship compatibility analysis compares two birth charts to show how you connect, where you harmonize, and where you challenge each other to grow. Discover your relationship's strengths, navigate challenges with awareness, and understand the deeper purpose of your connection.",
+      "predictive_description": "A timing consultation looks at your upcoming transits, progressions, and cycles to show what energies and opportunities are coming. Receive guidance on the best times for major decisions, relationship developments, career moves, and personal growth. Plan your year with cosmic awareness."
+    }
+  }
+}

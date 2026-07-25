@@ -1,0 +1,477 @@
+{
+  "predictive_astrology": {
+    "analysis_metadata": {
+      "subject_name": "",
+      "analysis_date": "YYYY-MM-DD",
+      "forecast_period": {
+        "start_date": "YYYY-MM-DD",
+        "end_date": "YYYY-MM-DD"
+      },
+      "techniques_used": [
+        "transits",
+        "progressions",
+        "solar_arcs",
+        "solar_return",
+        "lunar_return",
+        "profections",
+        "primary_directions",
+        "firdaria"
+      ],
+      "natal_chart_reference": "link_to_natal_chart_json"
+    },
+    "transits": {
+      "description": "Current planetary positions activating natal chart",
+      "methodology": "Tight orbs (1-2° for major aspects), wider for outer planets",
+      "current_transits": [
+        {
+          "transit_id": "",
+          "transiting_planet": "",
+          "natal_planet": "",
+          "aspect_type": "Conjunction|Opposition|Square|Trine|Sextile",
+          "orb": 0.0,
+          "exact_date": "YYYY-MM-DD",
+          "duration": {
+            "first_contact": "YYYY-MM-DD",
+            "exact_dates": [],
+            "final_separation": "YYYY-MM-DD",
+            "retrograde_periods": []
+          },
+          "intensity": "light|moderate|intense|life_changing",
+          "interpretation": {
+            "general_meaning": "",
+            "specific_effects": "",
+            "opportunities": [],
+            "challenges": [],
+            "advice": ""
+          },
+          "life_areas_affected": []
+        }
+      ],
+      "transit_categories": {
+        "fast_transits": {
+          "description": "Sun, Moon, Mercury, Venus, Mars - days to months",
+          "transits": []
+        },
+        "social_transits": {
+          "description": "Jupiter, Saturn - months to 2-3 years",
+          "transits": []
+        },
+        "generational_transits": {
+          "description": "Uranus, Neptune, Pluto - years to decades",
+          "transits": []
+        }
+      },
+      "outer_planet_transits": {
+        "jupiter_transits": {
+          "current_house": 0,
+          "aspects_to_natal": [],
+          "themes": "Growth, opportunity, expansion, luck",
+          "timeline": "",
+          "interpretation": ""
+        },
+        "saturn_transits": {
+          "current_house": 0,
+          "aspects_to_natal": [],
+          "themes": "Responsibility, structure, limitations, maturation",
+          "saturn_return": {
+            "active": false,
+            "exact_date": "YYYY-MM-DD",
+            "interpretation": "Major life restructuring around age 29-30"
+          },
+          "timeline": "",
+          "interpretation": ""
+        },
+        "uranus_transits": {
+          "current_house": 0,
+          "aspects_to_natal": [],
+          "themes": "Change, rebellion, awakening, freedom",
+          "uranus_opposition": {
+            "active": false,
+            "interpretation": "Mid-life awakening around age 42"
+          },
+          "timeline": "",
+          "interpretation": ""
+        },
+        "neptune_transits": {
+          "current_house": 0,
+          "aspects_to_natal": [],
+          "themes": "Spirituality, illusion, dissolution, transcendence",
+          "timeline": "",
+          "interpretation": ""
+        },
+        "pluto_transits": {
+          "current_house": 0,
+          "aspects_to_natal": [],
+          "themes": "Transformation, power, death/rebirth, intensity",
+          "timeline": "",
+          "interpretation": ""
+        }
+      },
+      "eclipse_impacts": {
+        "description": "Solar and lunar eclipses activating natal points",
+        "recent_eclipses": [
+          {
+            "eclipse_date": "YYYY-MM-DD",
+            "eclipse_type": "solar|lunar",
+            "degree": 0.0,
+            "sign": "",
+            "natal_points_activated": [],
+            "house_activated": 0,
+            "interpretation": "",
+            "manifestation_window": "6 months before to 6 months after"
+          }
+        ]
+      },
+      "lunar_phases": {
+        "current_phase": "",
+        "new_moon_impacts": [],
+        "full_moon_impacts": []
+      }
+    },
+    "secondary_progressions": {
+      "description": "One day after birth = one year of life",
+      "calculation_method": "Day-for-a-year progression",
+      "current_age": 0,
+      "progressed_positions": {
+        "progressed_sun": {
+          "sign": "",
+          "house": 0,
+          "degree": 0.0,
+          "movement_rate": "~1° per year",
+          "interpretation": "Evolving identity and life purpose",
+          "sign_changes": {
+            "last_change": "YYYY-MM-DD",
+            "next_change": "YYYY-MM-DD",
+            "interpretation": "Major 30-year life chapter shift"
+          }
+        },
+        "progressed_moon": {
+          "sign": "",
+          "house": 0,
+          "degree": 0.0,
+          "movement_rate": "~1° per month, full cycle ~27-28 years",
+          "interpretation": "Current emotional focus and needs",
+          "sign_changes": {
+            "last_change": "YYYY-MM-DD",
+            "next_change": "YYYY-MM-DD",
+            "interpretation": "2-3 year emotional chapter"
+          },
+          "lunar_phase_progression": {
+            "current_phase": "",
+            "interpretation": "Inner psychological development phase"
+          }
+        },
+        "progressed_mercury": {
+          "sign": "",
+          "degree": 0.0,
+          "retrograde": false,
+          "interpretation": "Evolving mental focus and communication"
+        },
+        "progressed_venus": {
+          "sign": "",
+          "degree": 0.0,
+          "retrograde": false,
+          "interpretation": "Evolving values and relationship needs"
+        },
+        "progressed_mars": {
+          "sign": "",
+          "degree": 0.0,
+          "retrograde": false,
+          "interpretation": "Evolving drive and assertion"
+        },
+        "progressed_ascendant": {
+          "sign": "",
+          "degree": 0.0,
+          "interpretation": "Evolving self-image and approach to life"
+        },
+        "progressed_midheaven": {
+          "sign": "",
+          "degree": 0.0,
+          "interpretation": "Evolving career and public image"
+        }
+      },
+      "progressed_aspects": {
+        "progressed_to_natal": [
+          {
+            "progressed_planet": "",
+            "natal_planet": "",
+            "aspect": "",
+            "orb": 0.0,
+            "exact_age": 0,
+            "interpretation": ""
+          }
+        ],
+        "progressed_to_progressed": [
+          {
+            "planet1": "",
+            "planet2": "",
+            "aspect": "",
+            "interpretation": ""
+          }
+        ]
+      },
+      "progressed_house_cusps": []
+    },
+    "solar_arc_directions": {
+      "description": "All natal points advance by progressed Sun's arc (~1° per year)",
+      "current_arc": 0.0,
+      "solar_arc_positions": [
+        {
+          "natal_planet": "",
+          "solar_arc_position": {
+            "sign": "",
+            "degree": 0.0,
+            "house": 0
+          },
+          "aspects_to_natal": [
+            {
+              "natal_point": "",
+              "aspect": "",
+              "orb": 0.0,
+              "exact_age": 0,
+              "interpretation": ""
+            }
+          ]
+        }
+      ],
+      "solar_arc_angles": {
+        "directed_ascendant": {
+          "sign": "",
+          "degree": 0.0
+        },
+        "directed_midheaven": {
+          "sign": "",
+          "degree": 0.0
+        }
+      },
+      "significant_solar_arcs": {
+        "description": "Major life events often coincide with exact solar arcs",
+        "active_directions": []
+      }
+    },
+    "primary_directions": {
+      "description": "Ancient, precise timing based on Earth's rotation (~1° = 1 year)",
+      "calculation_method": "Right ascension or oblique ascension",
+      "latitude": 0.0,
+      "mundane_directions": {
+        "description": "Angles to planets",
+        "directions": []
+      },
+      "zodiacal_directions": {
+        "description": "Planets to angles",
+        "directions": []
+      },
+      "converse_directions": {
+        "description": "Future to past",
+        "directions": []
+      }
+    },
+    "solar_return": {
+      "description": "Chart for exact moment Sun returns to natal position each year",
+      "return_year": 0,
+      "return_date": "YYYY-MM-DD",
+      "return_time": "HH:MM:SS",
+      "return_location": {
+        "city": "",
+        "country": "",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "relocated": false
+      },
+      "solar_return_chart": {
+        "ascendant": {
+          "sign": "",
+          "degree": 0.0,
+          "interpretation": "How you approach this year"
+        },
+        "sun_position": {
+          "house": 0,
+          "interpretation": "Primary focus area for the year"
+        },
+        "moon_position": {
+          "sign": "",
+          "house": 0,
+          "interpretation": "Emotional tone of the year"
+        },
+        "planets_in_houses": [],
+        "aspects": [],
+        "aspects_to_natal": {
+          "description": "Solar return planets aspecting natal chart",
+          "aspects": []
+        }
+      },
+      "year_themes": {
+        "primary_focus": "",
+        "opportunities": [],
+        "challenges": [],
+        "key_months": []
+      }
+    },
+    "lunar_returns": {
+      "description": "Monthly chart when Moon returns to natal position",
+      "current_lunar_return": {
+        "return_date": "YYYY-MM-DD",
+        "return_time": "HH:MM:SS",
+        "ascendant": "",
+        "interpretation": "Emotional focus for this month"
+      },
+      "monthly_forecasts": []
+    },
+    "profections": {
+      "description": "Annual profections: advance Ascendant 1 sign per year",
+      "current_age": 0,
+      "profected_year": {
+        "profected_ascendant_sign": "",
+        "profected_house": 0,
+        "time_lord_planet": "",
+        "year_themes": "",
+        "interpretation": "Dominant themes and life area focus for this year"
+      },
+      "monthly_profections": [
+        {
+          "month": "",
+          "profected_sign": "",
+          "time_lord": "",
+          "interpretation": ""
+        }
+      ],
+      "profections_to_natal_planets": {
+        "description": "Activates natal planets when profected angle aligns",
+        "activations": []
+      }
+    },
+    "firdaria": {
+      "description": "Medieval Persian timing system - planetary periods",
+      "day_night_chart": "day|night",
+      "current_firdar": {
+        "major_period_planet": "",
+        "major_period_duration": 0,
+        "major_period_start": "YYYY-MM-DD",
+        "major_period_end": "YYYY-MM-DD",
+        "sub_period_planet": "",
+        "sub_period_start": "YYYY-MM-DD",
+        "sub_period_end": "YYYY-MM-DD",
+        "interpretation": ""
+      },
+      "firdar_sequence": {
+        "day_chart_order": [
+          {"planet": "Sun", "years": 10},
+          {"planet": "Venus", "years": 8},
+          {"planet": "Mercury", "years": 13},
+          {"planet": "Moon", "years": 9},
+          {"planet": "Saturn", "years": 11},
+          {"planet": "Jupiter", "years": 12},
+          {"planet": "Mars", "years": 7},
+          {"planet": "North Node", "years": 3}
+        ],
+        "night_chart_order": [
+          {"planet": "Moon", "years": 9},
+          {"planet": "Saturn", "years": 11},
+          {"planet": "Jupiter", "years": 12},
+          {"planet": "Mars", "years": 7},
+          {"planet": "North Node", "years": 3},
+          {"planet": "Sun", "years": 10},
+          {"planet": "Venus", "years": 8},
+          {"planet": "Mercury", "years": 13}
+        ]
+      },
+      "life_chapters": []
+    },
+    "zodiacal_releasing": {
+      "description": "Hellenistic timing from Lot of Fortune or Spirit",
+      "releasing_from": "Fortune|Spirit",
+      "current_period": {
+        "sign": "",
+        "planet_ruler": "",
+        "level": 1,
+        "period_start": "YYYY-MM-DD",
+        "period_end": "YYYY-MM-DD",
+        "sub_periods": []
+      },
+      "peak_periods": {
+        "description": "Loosing of the bond - major success periods",
+        "periods": []
+      }
+    },
+    "integrated_timing": {
+      "description": "Multiple techniques converging on same themes",
+      "current_focus": {
+        "life_areas": [],
+        "themes": [],
+        "converging_techniques": []
+      },
+      "timeline": {
+        "past_6_months": {
+          "major_themes": [],
+          "key_events": []
+        },
+        "current_month": {
+          "major_themes": [],
+          "active_techniques": []
+        },
+        "next_3_months": {
+          "upcoming_themes": [],
+          "important_dates": []
+        },
+        "next_6_12_months": {
+          "emerging_themes": [],
+          "major_transits": []
+        }
+      }
+    },
+    "fixed_stars": {
+      "description": "Directions or transits to prominent fixed stars",
+      "activated_stars": [
+        {
+          "star_name": "",
+          "magnitude": 0.0,
+          "nature": "",
+          "degree": 0.0,
+          "sign": "",
+          "activation": {
+            "technique": "",
+            "planet": "",
+            "exact_date": "YYYY-MM-DD"
+          },
+          "interpretation": ""
+        }
+      ]
+    },
+    "harmonics_midpoints": {
+      "harmonic_charts": {
+        "h7": "Relationship, inspiration",
+        "h8": "Karma, hidden patterns",
+        "h9": "Spiritual development"
+      },
+      "midpoint_transits": {
+        "description": "Transits to natal midpoints for precise timing",
+        "activated_midpoints": []
+      }
+    },
+    "predictive_summary": {
+      "overall_forecast": "",
+      "major_life_themes": [],
+      "opportunities": {
+        "career": [],
+        "relationships": [],
+        "personal_growth": [],
+        "finances": []
+      },
+      "challenges": {
+        "areas_of_difficulty": [],
+        "lessons_to_learn": []
+      },
+      "timing_recommendations": {
+        "best_times_for": {
+          "new_beginnings": [],
+          "important_decisions": [],
+          "relationships": [],
+          "career_moves": []
+        },
+        "avoid_if_possible": []
+      },
+      "spiritual_guidance": [],
+      "integration_advice": ""
+    }
+  }
+}

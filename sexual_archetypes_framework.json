@@ -1,0 +1,419 @@
+{
+  "sexual_archetype_analysis": {
+    "analysis_metadata": {
+      "subject_name": "",
+      "analysis_date": "YYYY-MM-DD",
+      "interpretation_sources": [
+        "Jeffrey Wolf Green (zodiac sexual archetypes)",
+        "Demetra George (asteroid sexual associations)",
+        "Jason Holley (ongoing research)"
+      ],
+      "important_note": "These associations apply when archetypes are part of the chart's 'sexual signature' - activated by placement, aspect, or house emphasis"
+    },
+    "sexual_signature_indicators": {
+      "description": "Placements that activate sexual archetype themes",
+      "trigger_conditions": [
+        "Planets in 5th house (romance, pleasure, sex)",
+        "Planets in 8th house (deep intimacy, shared sexuality)",
+        "Venus aspects (especially to Mars, Pluto, Uranus)",
+        "Mars aspects (especially to Venus, Pluto)",
+        "Pluto aspects (intensity, power dynamics)",
+        "Lilith placements and aspects",
+        "Eros, Vesta, Juno placements",
+        "Scorpio emphasis in chart",
+        "Heavy 8th house stellium"
+      ],
+      "activation_strength": {
+        "strong": "Planet in sign + relevant house + major aspects",
+        "moderate": "Planet in sign + aspects OR relevant house",
+        "subtle": "Planet in sign only, no additional emphasis"
+      }
+    },
+    "zodiac_sexual_archetypes": {
+      "aries": {
+        "ruler": "Mars",
+        "sexual_themes": [
+          "Passion and fire",
+          "The need to be number one",
+          "Narcissism",
+          "Self-focus in lovemaking",
+          "Eroticized rage",
+          "Orgasm-oriented",
+          "Quick arousal and completion",
+          "Aggression in pursuit",
+          "Conquest mentality",
+          "Impatience with foreplay",
+          "Self-centered pleasure seeking"
+        ],
+        "healthy_expression": "Passionate, enthusiastic, direct initiation",
+        "shadow_expression": "Selfish, aggressive, insensitive to partner's needs",
+        "interpretation_guide": "Apply when Mars, Aries, or 1st house emphasized in sexual houses (5th/8th)"
+      },
+      "taurus": {
+        "ruler": "Venus",
+        "sexual_themes": [
+          "Sensuality and physical pleasure",
+          "Loyalty and possessiveness",
+          "Material security in relationships",
+          "Slow, sensual approach",
+          "All five senses engaged",
+          "Comfort and luxury in settings",
+          "Resistance to change",
+          "Ownership of partner",
+          "Jealousy and stubbornness",
+          "Physical affection as love language"
+        ],
+        "healthy_expression": "Sensual, reliable, physically affectionate",
+        "shadow_expression": "Possessive, jealous, resistant to growth",
+        "interpretation_guide": "Apply when Venus, Taurus, or 2nd house emphasized in sexual houses"
+      },
+      "gemini": {
+        "ruler": "Mercury",
+        "sexual_themes": [
+          "Mental stimulation as foreplay",
+          "Variety and experimentation",
+          "Communication during sex",
+          "Curiosity about everything",
+          "Multiple partners or polyamory",
+          "Detachment from emotions",
+          "Playfulness and games",
+          "Dirty talk and texting",
+          "Bisexual tendencies",
+          "Boredom with routine"
+        ],
+        "healthy_expression": "Playful, communicative, open to variety",
+        "shadow_expression": "Unfaithful, emotionally disconnected, scattered",
+        "interpretation_guide": "Apply when Mercury, Gemini, or 3rd house emphasized in sexual houses"
+      },
+      "cancer": {
+        "ruler": "Moon",
+        "sexual_themes": [
+          "Emotional security needs",
+          "Nurturing through sexuality",
+          "Mother/caretaker dynamics",
+          "Moodiness affecting libido",
+          "Home as sexual sanctuary",
+          "Clinging and neediness",
+          "Past wounds affecting intimacy",
+          "Intuitive to partner's needs",
+          "Pregnancy and fertility focus",
+          "Protective of loved ones"
+        ],
+        "healthy_expression": "Nurturing, emotionally connected, protective",
+        "shadow_expression": "Clingy, moody, using sex for security",
+        "interpretation_guide": "Apply when Moon, Cancer, or 4th house emphasized in sexual houses"
+      },
+      "leo": {
+        "ruler": "Sun",
+        "sexual_themes": [
+          "Performance and admiration",
+          "Need to be worshipped",
+          "Generosity in bed",
+          "Dramatic expressions of love",
+          "Pride in sexual prowess",
+          "Loyalty when devoted",
+          "Ego involvement in sexuality",
+          "Theatricality",
+          "Need for applause",
+          "Creativity in lovemaking"
+        ],
+        "healthy_expression": "Generous, playful, confident, loyal",
+        "shadow_expression": "Egotistical, demanding admiration, prideful",
+        "interpretation_guide": "Apply when Sun, Leo, or 5th house emphasized in sexual houses"
+      },
+      "virgo": {
+        "ruler": "Mercury",
+        "sexual_themes": [
+          "Service and pleasing partner",
+          "Technical perfection",
+          "Cleanliness and hygiene focus",
+          "Critical of self and partner",
+          "Anxious about performance",
+          "Health-conscious sexuality",
+          "Routine preferences",
+          "Analysis over feeling",
+          "Shyness and modesty",
+          "Attention to detail"
+        ],
+        "healthy_expression": "Attentive, service-oriented, skilled",
+        "shadow_expression": "Critical, anxious, overly analytical",
+        "interpretation_guide": "Apply when Mercury, Virgo, or 6th house emphasized in sexual houses"
+      },
+      "libra": {
+        "ruler": "Venus",
+        "sexual_themes": [
+          "Romance and beauty",
+          "Partnership as identity",
+          "Codependency",
+          "People-pleasing",
+          "Aesthetic environment importance",
+          "Balance and reciprocity",
+          "Indecision and avoidance",
+          "Passive-aggressive tendencies",
+          "Charm and seduction",
+          "Relationship addiction"
+        ],
+        "healthy_expression": "Romantic, balanced, aesthetically refined",
+        "shadow_expression": "Codependent, people-pleasing, conflict-avoidant",
+        "interpretation_guide": "Apply when Venus, Libra, or 7th house emphasized in sexual houses"
+      },
+      "scorpio": {
+        "ruler": "Pluto/Mars",
+        "sexual_themes": [
+          "Intensity and depth",
+          "Power and control",
+          "Merger and fusion",
+          "Obsession and possession",
+          "Taboo exploration",
+          "Eroticize fear",
+          "Manipulation",
+          "Secrets and privacy",
+          "Transformation through sex",
+          "Death/rebirth sexuality",
+          "Violation and rape themes",
+          "Jealousy and revenge",
+          "Soul-level bonding",
+          "Sexual healing or wounding"
+        ],
+        "healthy_expression": "Deep, transformative, powerfully bonded",
+        "shadow_expression": "Manipulative, controlling, vengeful, violating",
+        "interpretation_guide": "Apply when Pluto, Mars, Scorpio, or 8th house heavily emphasized"
+      },
+      "sagittarius": {
+        "ruler": "Jupiter",
+        "sexual_themes": [
+          "Freedom and adventure",
+          "Exploration and travel",
+          "Philosophical approach to sex",
+          "Multiple partners",
+          "Honesty and bluntness",
+          "Commitment-phobic",
+          "Outdoor/exotic settings",
+          "Cultural exchange through sex",
+          "Optimism and enthusiasm",
+          "Teaching/learning dynamic"
+        ],
+        "healthy_expression": "Adventurous, honest, growth-oriented",
+        "shadow_expression": "Commitment-phobic, insensitive, irresponsible",
+        "interpretation_guide": "Apply when Jupiter, Sagittarius, or 9th house emphasized in sexual houses"
+      },
+      "capricorn": {
+        "ruler": "Saturn",
+        "sexual_themes": [
+          "Control and dominance",
+          "Status and power dynamics",
+          "Delayed gratification",
+          "Responsibility in relationships",
+          "Traditional gender roles",
+          "Repression and inhibition",
+          "Age-gap relationships",
+          "Sexuality as achievement",
+          "Coldness and distance",
+          "Late bloomer sexually"
+        ],
+        "healthy_expression": "Responsible, committed, patient",
+        "shadow_expression": "Controlling, cold, repressed",
+        "interpretation_guide": "Apply when Saturn, Capricorn, or 10th house emphasized in sexual houses"
+      },
+      "aquarius": {
+        "ruler": "Uranus",
+        "sexual_themes": [
+          "Unconventional preferences",
+          "Emotional detachment",
+          "Group sex/polyamory",
+          "Technology and sexuality",
+          "Experimentation",
+          "Intellectual connection",
+          "Friendship over passion",
+          "Sudden attractions/departures",
+          "Revolutionary attitudes",
+          "Objectification"
+        ],
+        "healthy_expression": "Open-minded, experimental, friendly",
+        "shadow_expression": "Detached, cold, overly intellectual",
+        "interpretation_guide": "Apply when Uranus, Aquarius, or 11th house emphasized in sexual houses"
+      },
+      "pisces": {
+        "ruler": "Neptune",
+        "sexual_themes": [
+          "Sacred sexuality",
+          "Spiritual union",
+          "Merging and dissolution",
+          "Fantasy and imagination",
+          "Victim/savior dynamics",
+          "Boundary dissolution",
+          "Addiction and escape",
+          "Sacrificial love",
+          "Illusion and deception",
+          "Dissociation during sex",
+          "Empathic absorption",
+          "Unconditional love ideal"
+        ],
+        "healthy_expression": "Spiritual, compassionate, transcendent",
+        "shadow_expression": "Victim, escapist, boundary-less",
+        "interpretation_guide": "Apply when Neptune, Pisces, or 12th house emphasized in sexual houses"
+      }
+    },
+    "asteroid_sexual_associations": {
+      "chiron": {
+        "themes": [
+          "Sexual wounding",
+          "Healing through sexuality",
+          "Body shame",
+          "Performance anxiety",
+          "Past trauma",
+          "Teaching others through own wounds",
+          "Mentoring in sexuality",
+          "Holistic sexual healing",
+          "Vulnerability as strength"
+        ],
+        "activation": "Chiron in 5th/8th house, or aspecting Venus/Mars/Pluto",
+        "interpretation": "Where sexual wounds exist and healing is possible"
+      },
+      "eros": {
+        "themes": [
+          "Erotic desires",
+          "Turn-ons and attractions",
+          "Passionate love",
+          "What arouses you",
+          "Sexual creativity",
+          "Romantic obsession",
+          "The lover archetype",
+          "Pursuit of pleasure"
+        ],
+        "activation": "Eros in 5th/8th house, or aspecting personal planets",
+        "interpretation": "The nature of your erotic desires and attractions"
+      },
+      "ceres": {
+        "themes": [
+          "Nurturing through sexuality",
+          "Food and sex connection",
+          "Maternal sexuality",
+          "Comfort and care in intimacy",
+          "Loss and grief in relationships",
+          "Feeding and being fed",
+          "Body acceptance",
+          "Natural, earthy sexuality"
+        ],
+        "activation": "Ceres in 5th/8th house, or aspecting Venus/Moon",
+        "interpretation": "How nurturing and sexuality intertwine"
+      },
+      "pallas": {
+        "themes": [
+          "Strategic approach to relationships",
+          "Pattern recognition in sexuality",
+          "Wise counsel in love",
+          "Creative problem-solving",
+          "Gender equality",
+          "Intellectual attraction",
+          "Artistic expression of sexuality",
+          "Warrior energy in intimacy"
+        ],
+        "activation": "Pallas in 5th/7th/8th house, or aspecting Venus/Mars",
+        "interpretation": "Wisdom and strategy in sexual relationships"
+      },
+      "vesta": {
+        "themes": [
+          "Sacred sexuality",
+          "Sexual devotion",
+          "Celibacy periods",
+          "Prostitution/sex work",
+          "Priestess archetype",
+          "Sexual focus and dedication",
+          "Purity vs. expression",
+          "Service through sexuality",
+          "Sexual rituals",
+          "Keeping the flame alive"
+        ],
+        "activation": "Vesta in 5th/8th house, or aspecting Venus/Mars",
+        "interpretation": "Sacred vs. profane sexuality, devotion or denial"
+      },
+      "juno": {
+        "themes": [
+          "Marriage and commitment",
+          "Fidelity and betrayal",
+          "Intimate treason",
+          "Power in partnership",
+          "Sexual rage",
+          "Jealousy and possessiveness",
+          "Partnership equality",
+          "Wedding night expectations",
+          "Long-term sexual bond"
+        ],
+        "activation": "Juno in 7th/8th house, or aspecting Sun/Moon/Venus",
+        "interpretation": "Needs and wounds in committed sexual relationships"
+      }
+    },
+    "sexual_signature_synthesis": {
+      "primary_signature": {
+        "dominant_archetype": "",
+        "description": "",
+        "key_placements": []
+      },
+      "secondary_influences": [],
+      "aspects_creating_complexity": [
+        {
+          "aspect": "",
+          "interpretation": "How different sexual energies interact"
+        }
+      ],
+      "house_emphasis": {
+        "5th_house": {
+          "description": "Romance, dating, pleasure-seeking sexuality",
+          "planets_present": [],
+          "interpretation": ""
+        },
+        "8th_house": {
+          "description": "Deep intimacy, transformation, power dynamics",
+          "planets_present": [],
+          "interpretation": ""
+        }
+      }
+    },
+    "relationship_sexual_compatibility": {
+      "synastry_activation": {
+        "description": "How partner activates your sexual signature",
+        "partner_planets_in_your_5th_8th": [],
+        "your_planets_in_partner_5th_8th": []
+      },
+      "archetypal_compatibility": {
+        "primary_archetypes": {
+          "person_a": "",
+          "person_b": ""
+        },
+        "compatibility_analysis": "",
+        "potential_conflicts": [],
+        "potential_harmony": []
+      },
+      "asteroid_interactions": {
+        "eros_psyche": [],
+        "venus_mars": [],
+        "juno_contacts": [],
+        "lilith_activation": []
+      }
+    },
+    "healing_and_growth": {
+      "identified_wounds": [],
+      "growth_opportunities": [],
+      "shadow_work_needed": [],
+      "healthy_expression_path": [],
+      "therapeutic_recommendations": []
+    },
+    "interpretation_guidelines": {
+      "activation_rules": [
+        "Only interpret archetypes that are clearly emphasized in the chart",
+        "Look for multiple indicators before applying themes",
+        "Consider healthy vs. shadow expressions based on aspects and house placements",
+        "Integrate with overall chart themes, not in isolation",
+        "Be sensitive to trauma indicators"
+      ],
+      "ethical_considerations": [
+        "Sexual themes should be presented with care and consent",
+        "Focus on growth and healing, not judgment",
+        "Acknowledge complexity and individual variation",
+        "Provide resources for healing when wounds are indicated",
+        "Respect privacy and boundaries in interpretation"
+      ]
+    }
+  }
+}

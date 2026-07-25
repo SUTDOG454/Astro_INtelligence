@@ -1,0 +1,1346 @@
+{
+	"type": "object",
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"description": "JSON schema generated with JSONBuddy https://www.json-buddy.com",
+	"properties": {
+		"magi_astrology_glossary_integration": {
+			"type": "object",
+			"properties": {
+				"cross_reference_index": {
+					"type": "object",
+					"properties": {
+						"by_application_domain": {
+							"type": "object",
+							"properties": {
+								"electional_astrology": {
+									"type": "array",
+									"items": {
+										"oneOf": [
+											{
+												"type": "string"
+											}
+										]
+									}
+								},
+								"financial_astrology": {
+									"type": "array",
+									"items": {
+										"oneOf": [
+											{
+												"type": "string"
+											}
+										]
+									}
+								},
+								"romantic_compatibility": {
+									"type": "array",
+									"items": {
+										"oneOf": [
+											{
+												"type": "string"
+											}
+										]
+									}
+								},
+								"synastry_and_relationship_analysis": {
+									"type": "array",
+									"items": {
+										"oneOf": [
+											{
+												"type": "string"
+											}
+										]
+									}
+								},
+								"timing_and_transits": {
+									"type": "array",
+									"items": {
+										"oneOf": [
+											{
+												"type": "string"
+											}
+										]
+									}
+								}
+							}
+						},
+						"by_nature": {
+							"type": "object",
+							"properties": {
+								"analytical_tools": {
+									"type": "array",
+									"items": {
+										"oneOf": [
+											{
+												"type": "string"
+											}
+										]
+									}
+								},
+								"benefic_concepts": {
+									"type": "array",
+									"items": {
+										"oneOf": [
+											{
+												"type": "string"
+											}
+										]
+									}
+								},
+								"geometric_patterns": {
+									"type": "array",
+									"items": {
+										"oneOf": [
+											{
+												"type": "string"
+											}
+										]
+									}
+								},
+								"malefic_concepts": {
+									"type": "array",
+									"items": {
+										"oneOf": [
+											{
+												"type": "string"
+											}
+										]
+									}
+								}
+							}
+						},
+						"by_planet_centrality": {
+							"type": "object",
+							"properties": {
+								"Chiron_centered": {
+									"type": "array",
+									"items": {
+										"oneOf": [
+											{
+												"type": "string"
+											}
+										]
+									}
+								},
+								"Jupiter_centered": {
+									"type": "array",
+									"items": {
+										"oneOf": [
+											{
+												"type": "string"
+											}
+										]
+									}
+								},
+								"Saturn_centered": {
+									"type": "array",
+									"items": {
+										"oneOf": [
+											{
+												"type": "string"
+											}
+										]
+									}
+								},
+								"Venus_centered": {
+									"type": "array",
+									"items": {
+										"oneOf": [
+											{
+												"type": "string"
+											}
+										]
+									}
+								}
+							}
+						},
+						"integration_with_master_framework_sections": {
+							"type": "object",
+							"properties": {
+								"core_astrological_components_aspects": {
+									"type": "array",
+									"items": {
+										"oneOf": [
+											{
+												"type": "string"
+											}
+										]
+									}
+								},
+								"magi_integration_protocol": {
+									"type": "array",
+									"items": {
+										"oneOf": [
+											{
+												"type": "string"
+											}
+										]
+									}
+								},
+								"specialized_systems_financial_astrology": {
+									"type": "array",
+									"items": {
+										"oneOf": [
+											{
+												"type": "string"
+											}
+										]
+									}
+								},
+								"strength_scoring_framework": {
+									"type": "array",
+									"items": {
+										"oneOf": [
+											{
+												"type": "string"
+											}
+										]
+									}
+								},
+								"transit_system": {
+									"type": "array",
+									"items": {
+										"oneOf": [
+											{
+												"type": "string"
+											}
+										]
+									}
+								}
+							}
+						}
+					}
+				},
+				"integrated_glossary": {
+					"type": "object",
+					"properties": {
+						"Activation": {
+							"type": "object",
+							"properties": {
+								"category": {
+									"type": "string"
+								},
+								"core_angles": {
+									"type": "array",
+									"items": {
+										"oneOf": [
+											{
+												"type": "string"
+											}
+										]
+									}
+								},
+								"counting_methodology": {
+									"type": "object",
+									"properties": {
+										"diagnostic_use": {
+											"type": "string"
+										},
+										"geocentric_and_heliocentric": {
+											"type": "string"
+										}
+									}
+								},
+								"definition": {
+									"type": "string"
+								},
+								"example_charts_or_events": {
+									"type": "array",
+									"items": {
+										"oneOf": [
+											{
+												"type": "object",
+												"properties": {
+													"detail": {
+														"type": "string"
+													},
+													"subject": {
+														"type": "string"
+													}
+												}
+											}
+										]
+									}
+								},
+								"integration_with_heindel": {
+									"type": "object",
+									"properties": {
+										"correspondence": {
+											"type": "string"
+										},
+										"magi_precision_advantage": {
+											"type": "string"
+										},
+										"synthesis_note": {
+											"type": "string"
+										}
+									}
+								},
+								"keywords": {
+									"type": "array",
+									"items": {
+										"oneOf": [
+											{
+												"type": "string"
+											}
+										]
+									}
+								},
+								"pages_or_locations": {
+									"type": "array",
+									"items": {
+										"oneOf": [
+											{
+												"type": "string"
+											}
+										]
+									}
+								},
+								"source": {
+									"type": "string"
+								},
+								"subtypes": {
+									"type": "array",
+									"items": {
+										"oneOf": [
+											{
+												"type": "object",
+												"properties": {
+													"definition": {
+														"type": "string"
+													},
+													"keywords": {
+														"type": "array",
+														"items": {
+															"oneOf": [
+																{
+																	"type": "string"
+																}
+															]
+														}
+													},
+													"subtype": {
+														"type": "string"
+													}
+												}
+											}
+										]
+									}
+								},
+								"term": {
+									"type": "string"
+								}
+							}
+						},
+						"Financial_Super_Aspect": {
+							"type": "object",
+							"properties": {
+								"category": {
+									"type": "string"
+								},
+								"definition": {
+									"type": "string"
+								},
+								"example_charts_or_events": {
+									"type": "array",
+									"items": {
+										"oneOf": [
+											{
+												"type": "object",
+												"properties": {
+													"detail": {
+														"type": "string"
+													},
+													"subject": {
+														"type": "string"
+													}
+												}
+											}
+										]
+									}
+								},
+								"integration_with_master_framework": {
+									"type": "object",
+									"properties": {
+										"magi_super_aspect_orb_rule": {
+											"type": "string"
+										},
+										"placement": {
+											"type": "string"
+										},
+										"relationship_to_Historic_Aspect": {
+											"type": "string"
+										},
+										"synthesis_with_heindel": {
+											"type": "string"
+										}
+									}
+								},
+								"keywords": {
+									"type": "array",
+									"items": {
+										"oneOf": [
+											{
+												"type": "string"
+											}
+										]
+									}
+								},
+								"operational_function": {
+									"type": "object",
+									"properties": {
+										"in_corporate_natalizations": {
+											"type": "string"
+										},
+										"in_electional_timing": {
+											"type": "string"
+										},
+										"in_natal_or_marriage_charts": {
+											"type": "string"
+										}
+									}
+								},
+								"pages_or_locations": {
+									"type": "array",
+									"items": {
+										"oneOf": [
+											{
+												"type": "string"
+											}
+										]
+									}
+								},
+								"source": {
+									"type": "string"
+								},
+								"term": {
+									"type": "string"
+								},
+								"typical_planet_combinations": {
+									"type": "array",
+									"items": {
+										"oneOf": [
+											{
+												"type": "object",
+												"properties": {
+													"combination": {
+														"type": "string"
+													},
+													"domain": {
+														"type": "string"
+													},
+													"definition": {
+														"type": "string"
+													},
+													"keywords": {
+														"type": "array",
+														"items": {
+															"oneOf": [
+																{
+																	"type": "string"
+																}
+															]
+														}
+													}
+												}
+											}
+										]
+									}
+								}
+							}
+						},
+						"Golden_Rectangle": {
+							"type": "object",
+							"properties": {
+								"category": {
+									"type": "string"
+								},
+								"definition": {
+									"type": "string"
+								},
+								"example_charts_or_events": {
+									"type": "array",
+									"items": {
+										"oneOf": [
+											{
+												"type": "object",
+												"properties": {
+													"detail": {
+														"type": "string"
+													},
+													"subject": {
+														"type": "string"
+													}
+												}
+											}
+										]
+									}
+								},
+								"geometric_properties": {
+									"type": "object",
+									"properties": {
+										"classification": {
+											"type": "string"
+										},
+										"planets_involved": {
+											"type": "integer"
+										},
+										"proprietary_note": {
+											"type": "string"
+										},
+										"shape": {
+											"type": "string"
+										}
+									}
+								},
+								"integration_with_master_framework": {
+									"type": "object",
+									"properties": {
+										"magi_vs_traditional_correspondence": {
+											"type": "string"
+										},
+										"placement": {
+											"type": "string"
+										},
+										"relationship_to_existing_patterns": {
+											"type": "string"
+										},
+										"synthesis_with_heindel": {
+											"type": "string"
+										}
+									}
+								},
+								"keywords": {
+									"type": "array",
+									"items": {
+										"oneOf": [
+											{
+												"type": "string"
+											}
+										]
+									}
+								},
+								"operational_function": {
+									"type": "object",
+									"properties": {
+										"in_corporate_or_event_charts": {
+											"type": "string"
+										},
+										"in_electional_timing": {
+											"type": "string"
+										},
+										"in_financial_markets": {
+											"type": "string"
+										},
+										"in_natal_analysis": {
+											"type": "string"
+										}
+									}
+								},
+								"pages_or_locations": {
+									"type": "array",
+									"items": {
+										"oneOf": [
+											{
+												"type": "string"
+											}
+										]
+									}
+								},
+								"source": {
+									"type": "string"
+								},
+								"term": {
+									"type": "string"
+								}
+							}
+						},
+						"Historic_Aspect": {
+							"type": "object",
+							"properties": {
+								"category": {
+									"type": "string"
+								},
+								"definition": {
+									"type": "string"
+								},
+								"example_charts_or_events": {
+									"type": "array",
+									"items": {
+										"oneOf": [
+											{
+												"type": "object",
+												"properties": {
+													"detail": {
+														"type": "string"
+													},
+													"subject": {
+														"type": "string"
+													}
+												}
+											}
+										]
+									}
+								},
+								"integration_with_master_framework": {
+									"type": "object",
+									"properties": {
+										"placement": {
+											"type": "string"
+										},
+										"relationship_to_Financial_Super_Aspect": {
+											"type": "string"
+										},
+										"synthesis_with_heindel": {
+											"type": "string"
+										}
+									}
+								},
+								"keywords": {
+									"type": "array",
+									"items": {
+										"oneOf": [
+											{
+												"type": "string"
+											}
+										]
+									}
+								},
+								"operational_function": {
+									"type": "object",
+									"properties": {
+										"as_high_level_filter": {
+											"type": "string"
+										},
+										"combination_indicators": {
+											"type": "string"
+										},
+										"geocentric_and_heliocentric": {
+											"type": "string"
+										}
+									}
+								},
+								"pages_or_locations": {
+									"type": "array",
+									"items": {
+										"oneOf": [
+											{
+												"type": "string"
+											}
+										]
+									}
+								},
+								"source": {
+									"type": "string"
+								},
+								"term": {
+									"type": "string"
+								},
+								"usage_notes": {
+									"type": "string"
+								}
+							}
+						},
+						"Linkage": {
+							"type": "object",
+							"properties": {
+								"category": {
+									"type": "string"
+								},
+								"counting_methodology": {
+									"type": "object",
+									"properties": {
+										"geocentric_and_heliocentric": {
+											"type": "string"
+										},
+										"relationship_strength_assessment": {
+											"type": "string"
+										}
+									}
+								},
+								"definition": {
+									"type": "string"
+								},
+								"example_charts_or_events": {
+									"type": "array",
+									"items": {
+										"oneOf": [
+											{
+												"type": "object",
+												"properties": {
+													"detail": {
+														"type": "string"
+													},
+													"subject": {
+														"type": "string"
+													}
+												}
+											}
+										]
+									}
+								},
+								"formation_dimensions": {
+									"type": "object",
+									"properties": {
+										"declination_linkages": {
+											"type": "string"
+										},
+										"longitude_linkages": {
+											"type": "string"
+										}
+									}
+								},
+								"integration_with_heindel": {
+									"type": "object",
+									"properties": {
+										"correspondence": {
+											"type": "string"
+										},
+										"magi_precision_advantage": {
+											"type": "string"
+										},
+										"synthesis_note": {
+											"type": "string"
+										}
+									}
+								},
+								"keywords": {
+									"type": "array",
+									"items": {
+										"oneOf": [
+											{
+												"type": "string"
+											}
+										]
+									}
+								},
+								"orb_rules": {
+									"type": "object",
+									"properties": {
+										"declinations": {
+											"type": "string"
+										},
+										"longitudes": {
+											"type": "string"
+										}
+									}
+								},
+								"pages_or_locations": {
+									"type": "array",
+									"items": {
+										"oneOf": [
+											{
+												"type": "string"
+											}
+										]
+									}
+								},
+								"source": {
+									"type": "string"
+								},
+								"subtypes": {
+									"type": "array",
+									"items": {
+										"oneOf": [
+											{
+												"type": "object",
+												"properties": {
+													"definition": {
+														"type": "string"
+													},
+													"keywords": {
+														"type": "array",
+														"items": {
+															"oneOf": [
+																{
+																	"type": "string"
+																}
+															]
+														}
+													},
+													"subtype": {
+														"type": "string"
+													}
+												}
+											}
+										]
+									}
+								},
+								"term": {
+									"type": "string"
+								}
+							}
+						},
+						"Magi_Quad": {
+							"type": "object",
+							"properties": {
+								"category": {
+									"type": "string"
+								},
+								"definition": {
+									"type": "string"
+								},
+								"example_charts_or_events": {
+									"type": "array",
+									"items": {
+										"oneOf": [
+											{
+												"type": "object",
+												"properties": {
+													"detail": {
+														"type": "string"
+													},
+													"subject": {
+														"type": "string"
+													}
+												}
+											}
+										]
+									}
+								},
+								"integration_with_master_framework": {
+									"type": "object",
+									"properties": {
+										"placement": {
+											"type": "string"
+										},
+										"relationship_to_aspect_patterns": {
+											"type": "string"
+										},
+										"synthesis_with_heindel": {
+											"type": "string"
+										}
+									}
+								},
+								"keywords": {
+									"type": "array",
+									"items": {
+										"oneOf": [
+											{
+												"type": "string"
+											}
+										]
+									}
+								},
+								"operational_function": {
+									"type": "object",
+									"properties": {
+										"in_chart_dissection": {
+											"type": "string"
+										},
+										"in_relationship_analysis": {
+											"type": "string"
+										},
+										"in_software": {
+											"type": "string"
+										}
+									}
+								},
+								"pages_or_locations": {
+									"type": "array",
+									"items": {
+										"oneOf": [
+											{
+												"type": "string"
+											}
+										]
+									}
+								},
+								"sorting_methodologies": {
+									"type": "array",
+									"items": {
+										"oneOf": [
+											{
+												"type": "object",
+												"properties": {
+													"description": {
+														"type": "string"
+													},
+													"method": {
+														"type": "string"
+													},
+													"use_case": {
+														"type": "string"
+													}
+												}
+											}
+										]
+									}
+								},
+								"source": {
+									"type": "string"
+								},
+								"term": {
+									"type": "string"
+								},
+								"usage_notes": {
+									"type": "string"
+								}
+							}
+						},
+						"Magical_Angle": {
+							"type": "object",
+							"properties": {
+								"category": {
+									"type": "string"
+								},
+								"core_angles": {
+									"type": "array",
+									"items": {
+										"oneOf": [
+											{
+												"type": "object",
+												"properties": {
+													"angle_degrees": {
+														"type": "integer"
+													},
+													"condition": {
+														"type": "string"
+													},
+													"name": {
+														"type": "string"
+													},
+													"nature": {
+														"type": "string"
+													},
+													"angle_name": {
+														"type": "string"
+													},
+													"dimension": {
+														"type": "string"
+													}
+												}
+											}
+										]
+									}
+								},
+								"definition": {
+									"type": "string"
+								},
+								"example_charts_or_events": {
+									"type": "array",
+									"items": {
+										"oneOf": [
+											{
+												"type": "object",
+												"properties": {
+													"detail": {
+														"type": "string"
+													},
+													"subject": {
+														"type": "string"
+													}
+												}
+											}
+										]
+									}
+								},
+								"integration_with_heindel": {
+									"type": "object",
+									"properties": {
+										"correspondence": {
+											"type": "string"
+										},
+										"key_divergence": {
+											"type": "string"
+										},
+										"synthesis_note": {
+											"type": "string"
+										}
+									}
+								},
+								"keywords": {
+									"type": "array",
+									"items": {
+										"oneOf": [
+											{
+												"type": "string"
+											}
+										]
+									}
+								},
+								"operational_function": {
+									"type": "object",
+									"properties": {
+										"in_financial_astrology": {
+											"type": "string"
+										},
+										"in_natal_chart": {
+											"type": "string"
+										},
+										"in_synastry": {
+											"type": "string"
+										},
+										"in_transits": {
+											"type": "string"
+										}
+									}
+								},
+								"orb_rules": {
+									"type": "object",
+									"properties": {
+										"declinations": {
+											"type": "string"
+										},
+										"longitudes": {
+											"type": "string"
+										}
+									}
+								},
+								"pages_or_locations": {
+									"type": "array",
+									"items": {
+										"oneOf": [
+											{
+												"type": "string"
+											}
+										]
+									}
+								},
+								"source": {
+									"type": "string"
+								},
+								"term": {
+									"type": "string"
+								}
+							}
+						},
+						"Planetary_Synchronization": {
+							"type": "object",
+							"properties": {
+								"category": {
+									"type": "string"
+								},
+								"clustering_principle": {
+									"type": "object",
+									"properties": {
+										"combination_with_geometry": {
+											"type": "string"
+										},
+										"interpretation": {
+											"type": "string"
+										}
+									}
+								},
+								"definition": {
+									"type": "string"
+								},
+								"example_charts_or_events": {
+									"type": "array",
+									"items": {
+										"oneOf": [
+											{
+												"type": "object",
+												"properties": {
+													"detail": {
+														"type": "string"
+													},
+													"subject": {
+														"type": "string"
+													}
+												}
+											}
+										]
+									}
+								},
+								"integration_with_master_framework": {
+									"type": "object",
+									"properties": {
+										"placement": {
+											"type": "string"
+										},
+										"relationship_to_aspect_patterns": {
+											"type": "string"
+										},
+										"synthesis_with_heindel": {
+											"type": "string"
+										}
+									}
+								},
+								"keywords": {
+									"type": "array",
+									"items": {
+										"oneOf": [
+											{
+												"type": "string"
+											}
+										]
+									}
+								},
+								"operational_criteria": {
+									"type": "object",
+									"properties": {
+										"declination_synchronization": {
+											"type": "string"
+										},
+										"dual_perspective": {
+											"type": "string"
+										},
+										"extended_bodies": {
+											"type": "string"
+										},
+										"longitude_synchronization": {
+											"type": "string"
+										}
+									}
+								},
+								"pages_or_locations": {
+									"type": "array",
+									"items": {
+										"oneOf": [
+											{
+												"type": "string"
+											}
+										]
+									}
+								},
+								"source": {
+									"type": "string"
+								},
+								"term": {
+									"type": "string"
+								}
+							}
+						},
+						"Turbulent_Angle": {
+							"type": "object",
+							"properties": {
+								"category": {
+									"type": "string"
+								},
+								"core_angles": {
+									"type": "array",
+									"items": {
+										"oneOf": [
+											{
+												"type": "object",
+												"properties": {
+													"angle_degrees": {
+														"type": "integer"
+													},
+													"condition": {
+														"type": "string"
+													},
+													"name": {
+														"type": "string"
+													},
+													"nature": {
+														"type": "string"
+													}
+												}
+											}
+										]
+									}
+								},
+								"definition": {
+									"type": "string"
+								},
+								"example_charts_or_events": {
+									"type": "array",
+									"items": {
+										"oneOf": [
+											{
+												"type": "object",
+												"properties": {
+													"detail": {
+														"type": "string"
+													},
+													"subject": {
+														"type": "string"
+													}
+												}
+											}
+										]
+									}
+								},
+								"integration_with_heindel": {
+									"type": "object",
+									"properties": {
+										"correspondence": {
+											"type": "string"
+										},
+										"key_divergence": {
+											"type": "string"
+										},
+										"synthesis_note": {
+											"type": "string"
+										}
+									}
+								},
+								"keywords": {
+									"type": "array",
+									"items": {
+										"oneOf": [
+											{
+												"type": "string"
+											}
+										]
+									}
+								},
+								"operational_function": {
+									"type": "object",
+									"properties": {
+										"in_financial_astrology": {
+											"type": "string"
+										},
+										"in_relationship_analysis": {
+											"type": "string"
+										},
+										"in_synastry": {
+											"type": "string"
+										},
+										"in_transits": {
+											"type": "string"
+										}
+									}
+								},
+								"pages_or_locations": {
+									"type": "array",
+									"items": {
+										"oneOf": [
+											{
+												"type": "string"
+											}
+										]
+									}
+								},
+								"source": {
+									"type": "string"
+								},
+								"term": {
+									"type": "string"
+								}
+							}
+						}
+					}
+				},
+				"integration_metadata": {
+					"type": "object",
+					"properties": {
+						"integration_date": {
+							"type": "string"
+						},
+						"integration_scope": {
+							"type": "array",
+							"items": {
+								"oneOf": [
+									{
+										"type": "string"
+									}
+								]
+							}
+						},
+						"integration_target": {
+							"type": "string"
+						},
+						"integration_version": {
+							"type": "string"
+						},
+						"keywords_global_addition": {
+							"type": "array",
+							"items": {
+								"oneOf": [
+									{
+										"type": "string"
+									}
+								]
+							}
+						},
+						"placement_within_master_framework": {
+							"type": "object",
+							"properties": {
+								"primary_section": {
+									"type": "string"
+								},
+								"quaternary_section": {
+									"type": "string"
+								},
+								"secondary_section": {
+									"type": "string"
+								},
+								"tertiary_section": {
+									"type": "string"
+								}
+							}
+						},
+						"source_document": {
+							"type": "string"
+						},
+						"terms_integrated": {
+							"type": "integer"
+						}
+					}
+				},
+				"updated_magi_aspect_validation_rules": {
+					"type": "object",
+					"properties": {
+						"financial_super_aspect_orb_rule": {
+							"type": "object",
+							"properties": {
+								"electional_precision": {
+									"type": "string"
+								},
+								"rule": {
+									"type": "string"
+								}
+							}
+						},
+						"linkage_vs_activation_rule": {
+							"type": "object",
+							"properties": {
+								"rule": {
+									"type": "string"
+								},
+								"weighting": {
+									"type": "string"
+								}
+							}
+						},
+						"magical_angle_rule": {
+							"type": "object",
+							"properties": {
+								"orb_declination": {
+									"type": "string"
+								},
+								"orb_longitude": {
+									"type": "string"
+								},
+								"rule": {
+									"type": "string"
+								},
+								"super_aspect_distinction": {
+									"type": "string"
+								}
+							}
+						},
+						"planetary_synchronization_rule": {
+							"type": "object",
+							"properties": {
+								"rule": {
+									"type": "string"
+								},
+								"threshold": {
+									"type": "string"
+								}
+							}
+						},
+						"summary": {
+							"type": "string"
+						},
+						"turbulent_angle_rule": {
+							"type": "object",
+							"properties": {
+								"rule": {
+									"type": "string"
+								},
+								"saturn_quincunx_clarification": {
+									"type": "string"
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

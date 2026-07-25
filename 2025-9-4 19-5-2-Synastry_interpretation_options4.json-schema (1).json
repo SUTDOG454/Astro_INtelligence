@@ -1,0 +1,8289 @@
+{
+	"type": "object",
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"description": "JSON schema generated with JSONBuddy https://www.json-buddy.com",
+	"properties": {
+		"async_status": {
+			"type": "null"
+		},
+		"atlas_mode_enabled": {
+			"type": "null"
+		},
+		"blocked_urls": {
+			"type": "array"
+		},
+		"context_scopes": {
+			"type": "null"
+		},
+		"conversation_id": {
+			"type": "string"
+		},
+		"conversation_origin": {
+			"type": "null"
+		},
+		"conversation_template_id": {
+			"type": "string"
+		},
+		"create_time": {
+			"type": "number"
+		},
+		"current_node": {
+			"type": "string"
+		},
+		"default_model_slug": {
+			"type": "string"
+		},
+		"disabled_tool_ids": {
+			"type": "array"
+		},
+		"gizmo_id": {
+			"type": "string"
+		},
+		"gizmo_type": {
+			"type": "string"
+		},
+		"is_archived": {
+			"type": "boolean"
+		},
+		"is_do_not_remember": {
+			"type": "boolean"
+		},
+		"is_read_only": {
+			"type": "null"
+		},
+		"is_starred": {
+			"type": "null"
+		},
+		"is_study_mode": {
+			"type": "boolean"
+		},
+		"mapping": {
+			"type": "object",
+			"properties": {
+				"057301f8-2854-4ed0-97c7-8a1e16cf4859": {
+					"type": "object",
+					"properties": {
+						"children": {
+							"type": "array",
+							"items": {
+								"oneOf": [ { "type": "string" } ]
+							}
+						},
+						"id": {
+							"type": "string"
+						},
+						"message": {
+							"type": "object",
+							"properties": {
+								"author": {
+									"type": "object",
+									"properties": {
+										"metadata": {
+											"type": "object"
+										},
+										"name": {
+											"type": "null"
+										},
+										"role": {
+											"type": "string"
+										}
+									}
+								},
+								"channel": {
+									"type": "string"
+								},
+								"content": {
+									"type": "object",
+									"properties": {
+										"content_type": {
+											"type": "string"
+										},
+										"parts": {
+											"type": "array",
+											"items": {
+												"oneOf": [ { "type": "string" } ]
+											}
+										}
+									}
+								},
+								"create_time": {
+									"type": "number"
+								},
+								"end_turn": {
+									"type": "boolean"
+								},
+								"id": {
+									"type": "string"
+								},
+								"metadata": {
+									"type": "object",
+									"properties": {
+										"can_save": {
+											"type": "boolean"
+										},
+										"citations": {
+											"type": "array"
+										},
+										"content_references": {
+											"type": "array"
+										},
+										"default_model_slug": {
+											"type": "string"
+										},
+										"message_type": {
+											"type": "string"
+										},
+										"model_slug": {
+											"type": "string"
+										},
+										"model_switcher_deny": {
+											"type": "array",
+											"items": {
+												"oneOf": [
+													{
+														"type": "object",
+														"properties": {
+															"context": {
+																"type": "string"
+															},
+															"description": {
+																"type": "string"
+															},
+															"is_available": {
+																"type": "boolean"
+															},
+															"reason": {
+																"type": "string"
+															},
+															"slug": {
+																"type": "string"
+															}
+														}
+													}
+												]
+											}
+										},
+										"parent_id": {
+											"type": "string"
+										},
+										"request_id": {
+											"type": "string"
+										},
+										"resolved_model_slug": {
+											"type": "string"
+										},
+										"search_result_groups": {
+											"type": "array"
+										},
+										"turn_exchange_id": {
+											"type": "string"
+										}
+									}
+								},
+								"recipient": {
+									"type": "string"
+								},
+								"status": {
+									"type": "string"
+								},
+								"update_time": {
+									"type": [ "number", "null" ]
+								},
+								"weight": {
+									"type": "integer"
+								}
+							}
+						},
+						"parent": {
+							"type": "string"
+						}
+					}
+				},
+				"079a00bb-c167-48a1-8d0b-c58a7df256ee": {
+					"type": "object",
+					"properties": {
+						"children": {
+							"type": "array",
+							"items": {
+								"oneOf": [ { "type": "string" } ]
+							}
+						},
+						"id": {
+							"type": "string"
+						},
+						"message": {
+							"type": "object",
+							"properties": {
+								"author": {
+									"type": "object",
+									"properties": {
+										"metadata": {
+											"type": "object"
+										},
+										"name": {
+											"type": "null"
+										},
+										"role": {
+											"type": "string"
+										}
+									}
+								},
+								"channel": {
+									"type": "string"
+								},
+								"content": {
+									"type": "object",
+									"properties": {
+										"content_type": {
+											"type": "string"
+										},
+										"parts": {
+											"type": "array",
+											"items": {
+												"oneOf": [ { "type": "string" } ]
+											}
+										}
+									}
+								},
+								"create_time": {
+									"type": "number"
+								},
+								"end_turn": {
+									"type": "boolean"
+								},
+								"id": {
+									"type": "string"
+								},
+								"metadata": {
+									"type": "object",
+									"properties": {
+										"can_save": {
+											"type": "boolean"
+										},
+										"citations": {
+											"type": "array"
+										},
+										"content_references": {
+											"type": "array"
+										},
+										"default_model_slug": {
+											"type": "string"
+										},
+										"finish_details": {
+											"type": "object",
+											"properties": {
+												"stop_tokens": {
+													"type": "array",
+													"items": {
+														"oneOf": [
+															{
+																"type": "integer"
+															}
+														]
+													}
+												},
+												"type": {
+													"type": "string"
+												}
+											}
+										},
+										"is_complete": {
+											"type": "boolean"
+										},
+										"message_type": {
+											"type": "string"
+										},
+										"model_slug": {
+											"type": "string"
+										},
+										"model_switcher_deny": {
+											"type": "array",
+											"items": {
+												"oneOf": [
+													{
+														"type": "object",
+														"properties": {
+															"context": {
+																"type": "string"
+															},
+															"description": {
+																"type": "string"
+															},
+															"is_available": {
+																"type": "boolean"
+															},
+															"reason": {
+																"type": "string"
+															},
+															"slug": {
+																"type": "string"
+															}
+														}
+													}
+												]
+											}
+										},
+										"parent_id": {
+											"type": "string"
+										},
+										"request_id": {
+											"type": "string"
+										},
+										"resolved_model_slug": {
+											"type": "string"
+										},
+										"search_result_groups": {
+											"type": "array"
+										},
+										"turn_exchange_id": {
+											"type": "string"
+										}
+									}
+								},
+								"recipient": {
+									"type": "string"
+								},
+								"status": {
+									"type": "string"
+								},
+								"update_time": {
+									"type": "null"
+								},
+								"weight": {
+									"type": "integer"
+								}
+							}
+						},
+						"parent": {
+							"type": "string"
+						}
+					}
+				},
+				"09c21af3-1f9d-4852-8caa-49b5e5812437": {
+					"type": "object",
+					"properties": {
+						"children": {
+							"type": "array",
+							"items": {
+								"oneOf": [ { "type": "string" } ]
+							}
+						},
+						"id": {
+							"type": "string"
+						},
+						"message": {
+							"type": "object",
+							"properties": {
+								"author": {
+									"type": "object",
+									"properties": {
+										"metadata": {
+											"type": "object"
+										},
+										"name": {
+											"type": "string"
+										},
+										"role": {
+											"type": "string"
+										}
+									}
+								},
+								"channel": {
+									"type": "null"
+								},
+								"content": {
+									"type": "object",
+									"properties": {
+										"assets": {
+											"type": "null"
+										},
+										"content_type": {
+											"type": "string"
+										},
+										"result": {
+											"type": "string"
+										},
+										"summary": {
+											"type": "null"
+										},
+										"tether_id": {
+											"type": "null"
+										}
+									}
+								},
+								"create_time": {
+									"type": "number"
+								},
+								"end_turn": {
+									"type": "null"
+								},
+								"id": {
+									"type": "string"
+								},
+								"metadata": {
+									"type": "object",
+									"properties": {
+										"can_save": {
+											"type": "boolean"
+										},
+										"classifier_response": {
+											"type": "string"
+										},
+										"cloud_doc_urls": {
+											"type": "array",
+											"items": {
+												"oneOf": [ { "type": "null" } ]
+											}
+										},
+										"command": {
+											"type": "string"
+										},
+										"contextual_answers_available_sources": {
+											"type": "array",
+											"items": {
+												"oneOf": [ { "type": "string" } ]
+											}
+										},
+										"default_model_slug": {
+											"type": "string"
+										},
+										"is_contextual_answers_supported": {
+											"type": "boolean"
+										},
+										"is_visually_hidden_from_conversation": {
+											"type": "boolean"
+										},
+										"message_type": {
+											"type": "string"
+										},
+										"model_slug": {
+											"type": "string"
+										},
+										"parent_id": {
+											"type": "string"
+										},
+										"reasoning_status": {
+											"type": "string"
+										},
+										"request_id": {
+											"type": "string"
+										},
+										"retrieval_turn_number": {
+											"type": "integer"
+										},
+										"timestamp_": {
+											"type": "string"
+										}
+									}
+								},
+								"recipient": {
+									"type": "string"
+								},
+								"status": {
+									"type": "string"
+								},
+								"update_time": {
+									"type": "null"
+								},
+								"weight": {
+									"type": "integer"
+								}
+							}
+						},
+						"parent": {
+							"type": "string"
+						}
+					}
+				},
+				"0a24e9e0-aae0-4365-b0f1-1f47cf85dd23": {
+					"type": "object",
+					"properties": {
+						"children": {
+							"type": "array",
+							"items": {
+								"oneOf": [ { "type": "string" } ]
+							}
+						},
+						"id": {
+							"type": "string"
+						},
+						"message": {
+							"type": "object",
+							"properties": {
+								"author": {
+									"type": "object",
+									"properties": {
+										"metadata": {
+											"type": "object"
+										},
+										"name": {
+											"type": "null"
+										},
+										"role": {
+											"type": "string"
+										}
+									}
+								},
+								"channel": {
+									"type": "null"
+								},
+								"content": {
+									"type": "object",
+									"properties": {
+										"content_type": {
+											"type": "string"
+										},
+										"language": {
+											"type": "string"
+										},
+										"response_format_name": {
+											"type": "null"
+										},
+										"text": {
+											"type": "string"
+										}
+									}
+								},
+								"create_time": {
+									"type": "number"
+								},
+								"end_turn": {
+									"type": "boolean"
+								},
+								"id": {
+									"type": "string"
+								},
+								"metadata": {
+									"type": "object",
+									"properties": {
+										"can_save": {
+											"type": "boolean"
+										},
+										"citations": {
+											"type": "array"
+										},
+										"content_references": {
+											"type": "array"
+										},
+										"default_model_slug": {
+											"type": "string"
+										},
+										"finish_details": {
+											"type": "object",
+											"properties": {
+												"stop_tokens": {
+													"type": "array",
+													"items": {
+														"oneOf": [
+															{
+																"type": "integer"
+															}
+														]
+													}
+												},
+												"type": {
+													"type": "string"
+												}
+											}
+										},
+										"is_complete": {
+											"type": "boolean"
+										},
+										"message_type": {
+											"type": "string"
+										},
+										"model_slug": {
+											"type": "string"
+										},
+										"model_switcher_deny": {
+											"type": "array",
+											"items": {
+												"oneOf": [
+													{
+														"type": "object",
+														"properties": {
+															"context": {
+																"type": "string"
+															},
+															"description": {
+																"type": "string"
+															},
+															"is_available": {
+																"type": "boolean"
+															},
+															"reason": {
+																"type": "string"
+															},
+															"slug": {
+																"type": "string"
+															}
+														}
+													}
+												]
+											}
+										},
+										"parent_id": {
+											"type": "string"
+										},
+										"request_id": {
+											"type": "string"
+										},
+										"timestamp_": {
+											"type": "string"
+										}
+									}
+								},
+								"recipient": {
+									"type": "string"
+								},
+								"status": {
+									"type": "string"
+								},
+								"update_time": {
+									"type": "null"
+								},
+								"weight": {
+									"type": "integer"
+								}
+							}
+						},
+						"parent": {
+							"type": "string"
+						}
+					}
+				},
+				"0ba57791-5a6b-44da-a0df-88cc65b22a0f": {
+					"type": "object",
+					"properties": {
+						"children": {
+							"type": "array",
+							"items": {
+								"oneOf": [ { "type": "string" } ]
+							}
+						},
+						"id": {
+							"type": "string"
+						},
+						"message": {
+							"type": "object",
+							"properties": {
+								"author": {
+									"type": "object",
+									"properties": {
+										"metadata": {
+											"type": "object"
+										},
+										"name": {
+											"type": "null"
+										},
+										"role": {
+											"type": "string"
+										}
+									}
+								},
+								"channel": {
+									"type": "string"
+								},
+								"content": {
+									"type": "object",
+									"properties": {
+										"content_type": {
+											"type": "string"
+										},
+										"parts": {
+											"type": "array",
+											"items": {
+												"oneOf": [ { "type": "string" } ]
+											}
+										}
+									}
+								},
+								"create_time": {
+									"type": "number"
+								},
+								"end_turn": {
+									"type": "boolean"
+								},
+								"id": {
+									"type": "string"
+								},
+								"metadata": {
+									"type": "object",
+									"properties": {
+										"can_save": {
+											"type": "boolean"
+										},
+										"citations": {
+											"type": "array"
+										},
+										"content_references": {
+											"type": "array"
+										},
+										"default_model_slug": {
+											"type": "string"
+										},
+										"finish_details": {
+											"type": "object",
+											"properties": {
+												"stop_tokens": {
+													"type": "array",
+													"items": {
+														"oneOf": [
+															{
+																"type": "integer"
+															}
+														]
+													}
+												},
+												"type": {
+													"type": "string"
+												}
+											}
+										},
+										"is_complete": {
+											"type": "boolean"
+										},
+										"message_type": {
+											"type": "string"
+										},
+										"model_slug": {
+											"type": "string"
+										},
+										"model_switcher_deny": {
+											"type": "array",
+											"items": {
+												"oneOf": [
+													{
+														"type": "object",
+														"properties": {
+															"context": {
+																"type": "string"
+															},
+															"description": {
+																"type": "string"
+															},
+															"is_available": {
+																"type": "boolean"
+															},
+															"reason": {
+																"type": "string"
+															},
+															"slug": {
+																"type": "string"
+															}
+														}
+													}
+												]
+											}
+										},
+										"parent_id": {
+											"type": "string"
+										},
+										"request_id": {
+											"type": "string"
+										},
+										"resolved_model_slug": {
+											"type": "string"
+										},
+										"search_result_groups": {
+											"type": "array"
+										},
+										"turn_exchange_id": {
+											"type": "string"
+										}
+									}
+								},
+								"recipient": {
+									"type": "string"
+								},
+								"status": {
+									"type": "string"
+								},
+								"update_time": {
+									"type": "null"
+								},
+								"weight": {
+									"type": "integer"
+								}
+							}
+						},
+						"parent": {
+							"type": "string"
+						}
+					}
+				},
+				"1432b419-5493-484d-840c-2c01542fa8b5": {
+					"type": "object",
+					"properties": {
+						"children": {
+							"type": "array",
+							"items": {
+								"oneOf": [ { "type": "string" } ]
+							}
+						},
+						"id": {
+							"type": "string"
+						},
+						"message": {
+							"type": "object",
+							"properties": {
+								"author": {
+									"type": "object",
+									"properties": {
+										"metadata": {
+											"type": "object"
+										},
+										"name": {
+											"type": "null"
+										},
+										"role": {
+											"type": "string"
+										}
+									}
+								},
+								"channel": {
+									"type": "string"
+								},
+								"content": {
+									"type": "object",
+									"properties": {
+										"content_type": {
+											"type": "string"
+										},
+										"parts": {
+											"type": "array",
+											"items": {
+												"oneOf": [ { "type": "string" } ]
+											}
+										}
+									}
+								},
+								"create_time": {
+									"type": "number"
+								},
+								"end_turn": {
+									"type": "boolean"
+								},
+								"id": {
+									"type": "string"
+								},
+								"metadata": {
+									"type": "object",
+									"properties": {
+										"can_save": {
+											"type": "boolean"
+										},
+										"citations": {
+											"type": "array"
+										},
+										"content_references": {
+											"type": "array"
+										},
+										"default_model_slug": {
+											"type": "string"
+										},
+										"message_type": {
+											"type": "string"
+										},
+										"model_slug": {
+											"type": "string"
+										},
+										"model_switcher_deny": {
+											"type": "array",
+											"items": {
+												"oneOf": [
+													{
+														"type": "object",
+														"properties": {
+															"context": {
+																"type": "string"
+															},
+															"description": {
+																"type": "string"
+															},
+															"is_available": {
+																"type": "boolean"
+															},
+															"reason": {
+																"type": "string"
+															},
+															"slug": {
+																"type": "string"
+															}
+														}
+													}
+												]
+											}
+										},
+										"parent_id": {
+											"type": "string"
+										},
+										"request_id": {
+											"type": "string"
+										},
+										"resolved_model_slug": {
+											"type": "string"
+										},
+										"search_result_groups": {
+											"type": "array"
+										},
+										"turn_exchange_id": {
+											"type": "string"
+										}
+									}
+								},
+								"recipient": {
+									"type": "string"
+								},
+								"status": {
+									"type": "string"
+								},
+								"update_time": {
+									"type": "null"
+								},
+								"weight": {
+									"type": "integer"
+								}
+							}
+						},
+						"parent": {
+							"type": "string"
+						}
+					}
+				},
+				"1d5e1052-d3bd-4acd-bd84-46d6b83c0100": {
+					"type": "object",
+					"properties": {
+						"children": {
+							"type": "array",
+							"items": {
+								"oneOf": [ { "type": "string" } ]
+							}
+						},
+						"id": {
+							"type": "string"
+						},
+						"message": {
+							"type": "object",
+							"properties": {
+								"author": {
+									"type": "object",
+									"properties": {
+										"metadata": {
+											"type": "object"
+										},
+										"name": {
+											"type": "null"
+										},
+										"role": {
+											"type": "string"
+										}
+									}
+								},
+								"channel": {
+									"type": "null"
+								},
+								"content": {
+									"type": "object",
+									"properties": {
+										"content_type": {
+											"type": "string"
+										},
+										"parts": {
+											"type": "array",
+											"items": {
+												"oneOf": [ { "type": "string" } ]
+											}
+										}
+									}
+								},
+								"create_time": {
+									"type": "number"
+								},
+								"end_turn": {
+									"type": "boolean"
+								},
+								"id": {
+									"type": "string"
+								},
+								"metadata": {
+									"type": "object",
+									"properties": {
+										"can_save": {
+											"type": "boolean"
+										},
+										"default_model_slug": {
+											"type": "string"
+										},
+										"is_visually_hidden_from_conversation": {
+											"type": "boolean"
+										},
+										"message_type": {
+											"type": "string"
+										},
+										"model_slug": {
+											"type": "string"
+										},
+										"parent_id": {
+											"type": "string"
+										},
+										"rebase_system_message": {
+											"type": "boolean"
+										},
+										"request_id": {
+											"type": "string"
+										},
+										"turn_exchange_id": {
+											"type": "string"
+										}
+									}
+								},
+								"recipient": {
+									"type": "string"
+								},
+								"status": {
+									"type": "string"
+								},
+								"update_time": {
+									"type": "null"
+								},
+								"weight": {
+									"type": "integer"
+								}
+							}
+						},
+						"parent": {
+							"type": "string"
+						}
+					}
+				},
+				"2430e5f4-4827-419d-a4dc-d1d895e18777": {
+					"type": "object",
+					"properties": {
+						"children": {
+							"type": "array",
+							"items": {
+								"oneOf": [ { "type": "string" } ]
+							}
+						},
+						"id": {
+							"type": "string"
+						},
+						"message": {
+							"type": "object",
+							"properties": {
+								"author": {
+									"type": "object",
+									"properties": {
+										"metadata": {
+											"type": "object"
+										},
+										"name": {
+											"type": "null"
+										},
+										"role": {
+											"type": "string"
+										}
+									}
+								},
+								"channel": {
+									"type": "null"
+								},
+								"content": {
+									"type": "object",
+									"properties": {
+										"content_type": {
+											"type": "string"
+										},
+										"parts": {
+											"type": "array",
+											"items": {
+												"oneOf": [ { "type": "string" } ]
+											}
+										}
+									}
+								},
+								"create_time": {
+									"type": "null"
+								},
+								"end_turn": {
+									"type": "boolean"
+								},
+								"id": {
+									"type": "string"
+								},
+								"metadata": {
+									"type": "object",
+									"properties": {
+										"can_save": {
+											"type": "boolean"
+										},
+										"is_visually_hidden_from_conversation": {
+											"type": "boolean"
+										}
+									}
+								},
+								"recipient": {
+									"type": "string"
+								},
+								"status": {
+									"type": "string"
+								},
+								"update_time": {
+									"type": "null"
+								},
+								"weight": {
+									"type": "integer"
+								}
+							}
+						},
+						"parent": {
+							"type": "string"
+						}
+					}
+				},
+				"28614753-aabb-4c1f-a2d7-5a740097cd53": {
+					"type": "object",
+					"properties": {
+						"children": {
+							"type": "array",
+							"items": {
+								"oneOf": [ { "type": "string" } ]
+							}
+						},
+						"id": {
+							"type": "string"
+						},
+						"message": {
+							"type": "object",
+							"properties": {
+								"author": {
+									"type": "object",
+									"properties": {
+										"metadata": {
+											"type": "object"
+										},
+										"name": {
+											"type": "null"
+										},
+										"role": {
+											"type": "string"
+										}
+									}
+								},
+								"channel": {
+									"type": "null"
+								},
+								"content": {
+									"type": "object",
+									"properties": {
+										"content_type": {
+											"type": "string"
+										},
+										"parts": {
+											"type": "array",
+											"items": {
+												"oneOf": [ { "type": "string" } ]
+											}
+										}
+									}
+								},
+								"create_time": {
+									"type": "number"
+								},
+								"end_turn": {
+									"type": "boolean"
+								},
+								"id": {
+									"type": "string"
+								},
+								"metadata": {
+									"type": "object",
+									"properties": {
+										"can_save": {
+											"type": "boolean"
+										},
+										"default_model_slug": {
+											"type": "string"
+										},
+										"is_visually_hidden_from_conversation": {
+											"type": "boolean"
+										},
+										"message_type": {
+											"type": "string"
+										},
+										"model_slug": {
+											"type": "string"
+										},
+										"parent_id": {
+											"type": "string"
+										},
+										"rebase_system_message": {
+											"type": "boolean"
+										},
+										"request_id": {
+											"type": "string"
+										},
+										"turn_exchange_id": {
+											"type": "string"
+										}
+									}
+								},
+								"recipient": {
+									"type": "string"
+								},
+								"status": {
+									"type": "string"
+								},
+								"update_time": {
+									"type": "null"
+								},
+								"weight": {
+									"type": "integer"
+								}
+							}
+						},
+						"parent": {
+							"type": "string"
+						}
+					}
+				},
+				"30aaba2f-120e-4746-b276-8390f4859bcc": {
+					"type": "object",
+					"properties": {
+						"children": {
+							"type": "array",
+							"items": {
+								"oneOf": [ { "type": "string" } ]
+							}
+						},
+						"id": {
+							"type": "string"
+						},
+						"message": {
+							"type": "object",
+							"properties": {
+								"author": {
+									"type": "object",
+									"properties": {
+										"metadata": {
+											"type": "object"
+										},
+										"name": {
+											"type": "null"
+										},
+										"role": {
+											"type": "string"
+										}
+									}
+								},
+								"channel": {
+									"type": "null"
+								},
+								"content": {
+									"type": "object",
+									"properties": {
+										"content_type": {
+											"type": "string"
+										},
+										"parts": {
+											"type": "array",
+											"items": {
+												"oneOf": [ { "type": "string" } ]
+											}
+										}
+									}
+								},
+								"create_time": {
+									"type": "number"
+								},
+								"end_turn": {
+									"type": "null"
+								},
+								"id": {
+									"type": "string"
+								},
+								"metadata": {
+									"type": "object",
+									"properties": {
+										"can_save": {
+											"type": "boolean"
+										},
+										"default_model_slug": {
+											"type": "string"
+										},
+										"is_visually_hidden_from_conversation": {
+											"type": "boolean"
+										},
+										"message_type": {
+											"type": "string"
+										},
+										"model_slug": {
+											"type": "string"
+										},
+										"parent_id": {
+											"type": "string"
+										},
+										"request_id": {
+											"type": "string"
+										},
+										"turn_exchange_id": {
+											"type": "string"
+										}
+									}
+								},
+								"recipient": {
+									"type": "string"
+								},
+								"status": {
+									"type": "string"
+								},
+								"update_time": {
+									"type": "null"
+								},
+								"weight": {
+									"type": "integer"
+								}
+							}
+						},
+						"parent": {
+							"type": "string"
+						}
+					}
+				},
+				"369da9c8-099a-47d7-97ec-0cbbd2f3c3b2": {
+					"type": "object",
+					"properties": {
+						"children": {
+							"type": "array",
+							"items": {
+								"oneOf": [ { "type": "string" } ]
+							}
+						},
+						"id": {
+							"type": "string"
+						},
+						"message": {
+							"type": "object",
+							"properties": {
+								"author": {
+									"type": "object",
+									"properties": {
+										"metadata": {
+											"type": "object"
+										},
+										"name": {
+											"type": "null"
+										},
+										"role": {
+											"type": "string"
+										}
+									}
+								},
+								"channel": {
+									"type": "null"
+								},
+								"content": {
+									"type": "object",
+									"properties": {
+										"content_type": {
+											"type": "string"
+										},
+										"language": {
+											"type": "string"
+										},
+										"response_format_name": {
+											"type": "null"
+										},
+										"text": {
+											"type": "string"
+										}
+									}
+								},
+								"create_time": {
+									"type": "number"
+								},
+								"end_turn": {
+									"type": "boolean"
+								},
+								"id": {
+									"type": "string"
+								},
+								"metadata": {
+									"type": "object",
+									"properties": {
+										"can_save": {
+											"type": "boolean"
+										},
+										"citations": {
+											"type": "array"
+										},
+										"classifier_response": {
+											"type": "string"
+										},
+										"content_references": {
+											"type": "array"
+										},
+										"default_model_slug": {
+											"type": "string"
+										},
+										"is_visually_hidden_from_conversation": {
+											"type": "boolean"
+										},
+										"message_type": {
+											"type": "string"
+										},
+										"model_slug": {
+											"type": "string"
+										},
+										"model_switcher_deny": {
+											"type": "array",
+											"items": {
+												"oneOf": [
+													{
+														"type": "object",
+														"properties": {
+															"context": {
+																"type": "string"
+															},
+															"description": {
+																"type": "string"
+															},
+															"is_available": {
+																"type": "boolean"
+															},
+															"reason": {
+																"type": "string"
+															},
+															"slug": {
+																"type": "string"
+															}
+														}
+													}
+												]
+											}
+										},
+										"parent_id": {
+											"type": "string"
+										},
+										"reasoning_status": {
+											"type": "string"
+										},
+										"request_id": {
+											"type": "string"
+										},
+										"timestamp_": {
+											"type": "string"
+										}
+									}
+								},
+								"recipient": {
+									"type": "string"
+								},
+								"status": {
+									"type": "string"
+								},
+								"update_time": {
+									"type": "null"
+								},
+								"weight": {
+									"type": "integer"
+								}
+							}
+						},
+						"parent": {
+							"type": "string"
+						}
+					}
+				},
+				"4338a85e-b9d7-4969-bb6e-bb0f95e2ea35": {
+					"type": "object",
+					"properties": {
+						"children": {
+							"type": "array",
+							"items": {
+								"oneOf": [ { "type": "string" } ]
+							}
+						},
+						"id": {
+							"type": "string"
+						},
+						"message": {
+							"type": "object",
+							"properties": {
+								"author": {
+									"type": "object",
+									"properties": {
+										"metadata": {
+											"type": "object"
+										},
+										"name": {
+											"type": "null"
+										},
+										"role": {
+											"type": "string"
+										}
+									}
+								},
+								"channel": {
+									"type": "string"
+								},
+								"content": {
+									"type": "object",
+									"properties": {
+										"content_type": {
+											"type": "string"
+										},
+										"parts": {
+											"type": "array",
+											"items": {
+												"oneOf": [ { "type": "string" } ]
+											}
+										}
+									}
+								},
+								"create_time": {
+									"type": "number"
+								},
+								"end_turn": {
+									"type": "boolean"
+								},
+								"id": {
+									"type": "string"
+								},
+								"metadata": {
+									"type": "object",
+									"properties": {
+										"can_save": {
+											"type": "boolean"
+										},
+										"citations": {
+											"type": "array"
+										},
+										"content_references": {
+											"type": "array"
+										},
+										"default_model_slug": {
+											"type": "string"
+										},
+										"finish_details": {
+											"type": "object",
+											"properties": {
+												"stop_tokens": {
+													"type": "array",
+													"items": {
+														"oneOf": [
+															{
+																"type": "integer"
+															}
+														]
+													}
+												},
+												"type": {
+													"type": "string"
+												}
+											}
+										},
+										"is_complete": {
+											"type": "boolean"
+										},
+										"message_type": {
+											"type": "string"
+										},
+										"model_slug": {
+											"type": "string"
+										},
+										"model_switcher_deny": {
+											"type": "array",
+											"items": {
+												"oneOf": [
+													{
+														"type": "object",
+														"properties": {
+															"context": {
+																"type": "string"
+															},
+															"description": {
+																"type": "string"
+															},
+															"is_available": {
+																"type": "boolean"
+															},
+															"reason": {
+																"type": "string"
+															},
+															"slug": {
+																"type": "string"
+															}
+														}
+													}
+												]
+											}
+										},
+										"parent_id": {
+											"type": "string"
+										},
+										"request_id": {
+											"type": "string"
+										},
+										"resolved_model_slug": {
+											"type": "string"
+										},
+										"search_result_groups": {
+											"type": "array"
+										},
+										"turn_exchange_id": {
+											"type": "string"
+										}
+									}
+								},
+								"recipient": {
+									"type": "string"
+								},
+								"status": {
+									"type": "string"
+								},
+								"update_time": {
+									"type": "null"
+								},
+								"weight": {
+									"type": "integer"
+								}
+							}
+						},
+						"parent": {
+							"type": "string"
+						}
+					}
+				},
+				"4ec92e63-38b1-4649-88c6-45fde1853fab": {
+					"type": "object",
+					"properties": {
+						"children": {
+							"type": "array",
+							"items": {
+								"oneOf": [ { "type": "string" } ]
+							}
+						},
+						"id": {
+							"type": "string"
+						},
+						"message": {
+							"type": "object",
+							"properties": {
+								"author": {
+									"type": "object",
+									"properties": {
+										"metadata": {
+											"type": "object"
+										},
+										"name": {
+											"type": "null"
+										},
+										"role": {
+											"type": "string"
+										}
+									}
+								},
+								"channel": {
+									"type": "null"
+								},
+								"content": {
+									"type": "object",
+									"properties": {
+										"content_type": {
+											"type": "string"
+										},
+										"parts": {
+											"type": "array",
+											"items": {
+												"oneOf": [ { "type": "string" } ]
+											}
+										}
+									}
+								},
+								"create_time": {
+									"type": "number"
+								},
+								"end_turn": {
+									"type": "boolean"
+								},
+								"id": {
+									"type": "string"
+								},
+								"metadata": {
+									"type": "object",
+									"properties": {
+										"can_save": {
+											"type": "boolean"
+										},
+										"default_model_slug": {
+											"type": "string"
+										},
+										"is_visually_hidden_from_conversation": {
+											"type": "boolean"
+										},
+										"message_type": {
+											"type": "string"
+										},
+										"model_slug": {
+											"type": "string"
+										},
+										"parent_id": {
+											"type": "string"
+										},
+										"rebase_system_message": {
+											"type": "boolean"
+										},
+										"request_id": {
+											"type": "string"
+										},
+										"turn_exchange_id": {
+											"type": "string"
+										}
+									}
+								},
+								"recipient": {
+									"type": "string"
+								},
+								"status": {
+									"type": "string"
+								},
+								"update_time": {
+									"type": "null"
+								},
+								"weight": {
+									"type": "integer"
+								}
+							}
+						},
+						"parent": {
+							"type": "string"
+						}
+					}
+				},
+				"5b85a898-7310-44aa-8eac-99e1449d46fa": {
+					"type": "object",
+					"properties": {
+						"children": {
+							"type": "array",
+							"items": {
+								"oneOf": [ { "type": "string" } ]
+							}
+						},
+						"id": {
+							"type": "string"
+						},
+						"message": {
+							"type": "object",
+							"properties": {
+								"author": {
+									"type": "object",
+									"properties": {
+										"metadata": {
+											"type": "object"
+										},
+										"name": {
+											"type": "null"
+										},
+										"role": {
+											"type": "string"
+										}
+									}
+								},
+								"channel": {
+									"type": "null"
+								},
+								"content": {
+									"type": "object",
+									"properties": {
+										"content_type": {
+											"type": "string"
+										},
+										"parts": {
+											"type": "array",
+											"items": {
+												"oneOf": [ { "type": "string" } ]
+											}
+										}
+									}
+								},
+								"create_time": {
+									"type": "number"
+								},
+								"end_turn": {
+									"type": "boolean"
+								},
+								"id": {
+									"type": "string"
+								},
+								"metadata": {
+									"type": "object",
+									"properties": {
+										"can_save": {
+											"type": "boolean"
+										},
+										"citations": {
+											"type": "array",
+											"items": {
+												"oneOf": [
+													{
+														"type": "object",
+														"properties": {
+															"citation_format_type": {
+																"type": "string"
+															},
+															"end_ix": {
+																"type": "integer"
+															},
+															"metadata": {
+																"type": "object",
+																"properties": {
+																	"extra": {
+																		"type": "object",
+																		"properties": {
+																			"authors_display": {
+																				"type": "null"
+																			},
+																			"cited_message_id": {
+																				"type": "string"
+																			},
+																			"cited_message_idx": {
+																				"type": "integer"
+																			},
+																			"cloud_doc_url": {
+																				"type": "null"
+																			},
+																			"doi": {
+																				"type": "null"
+																			},
+																			"evidence_text": {
+																				"type": "string"
+																			},
+																			"journal_name": {
+																				"type": "null"
+																			},
+																			"publication_year": {
+																				"type": "string"
+																			},
+																			"search_result_idx": {
+																				"type": "null"
+																			}
+																		}
+																	},
+																	"id": {
+																		"type": "string"
+																	},
+																	"name": {
+																		"type": "string"
+																	},
+																	"source": {
+																		"type": "string"
+																	},
+																	"text": {
+																		"type": "string"
+																	},
+																	"type": {
+																		"type": "string"
+																	}
+																}
+															},
+															"start_ix": {
+																"type": "integer"
+															}
+														}
+													}
+												]
+											}
+										},
+										"content_references": {
+											"type": "array",
+											"items": {
+												"oneOf": [
+													{
+														"type": "object",
+														"properties": {
+															"alt": {
+																"type": "null"
+															},
+															"cloud_doc_url": {
+																"type": "null"
+															},
+															"end_idx": {
+																"type": "integer"
+															},
+															"fff_metadata": {
+																"type": "null"
+															},
+															"id": {
+																"type": "string"
+															},
+															"input_pointer": {
+																"type": "object",
+																"properties": {
+																	"file_index": {
+																		"type": "null"
+																	},
+																	"line_range_end": {
+																		"type": "null"
+																	},
+																	"line_range_start": {
+																		"type": "null"
+																	},
+																	"message_id": {
+																		"type": "string"
+																	},
+																	"message_index": {
+																		"type": "integer"
+																	}
+																}
+															},
+															"matched_text": {
+																"type": "string"
+															},
+															"medical_file_reference": {
+																"type": "object",
+																"properties": {
+																	"authors_display": {
+																		"type": "null"
+																	},
+																	"doi": {
+																		"type": "null"
+																	},
+																	"journal_name": {
+																		"type": "null"
+																	},
+																	"publication_year": {
+																		"type": "string"
+																	}
+																}
+															},
+															"name": {
+																"type": "string"
+															},
+															"snippet": {
+																"type": "string"
+															},
+															"source": {
+																"type": "string"
+															},
+															"start_idx": {
+																"type": "integer"
+															},
+															"type": {
+																"type": "string"
+															}
+														}
+													}
+												]
+											}
+										},
+										"default_model_slug": {
+											"type": "string"
+										},
+										"finish_details": {
+											"type": "object",
+											"properties": {
+												"stop_tokens": {
+													"type": "array",
+													"items": {
+														"oneOf": [
+															{
+																"type": "integer"
+															}
+														]
+													}
+												},
+												"type": {
+													"type": "string"
+												}
+											}
+										},
+										"is_complete": {
+											"type": "boolean"
+										},
+										"message_type": {
+											"type": "string"
+										},
+										"model_slug": {
+											"type": "string"
+										},
+										"model_switcher_deny": {
+											"type": "array",
+											"items": {
+												"oneOf": [
+													{
+														"type": "object",
+														"properties": {
+															"context": {
+																"type": "string"
+															},
+															"description": {
+																"type": "string"
+															},
+															"is_available": {
+																"type": "boolean"
+															},
+															"reason": {
+																"type": "string"
+															},
+															"slug": {
+																"type": "string"
+															}
+														}
+													}
+												]
+											}
+										},
+										"parent_id": {
+											"type": "string"
+										},
+										"request_id": {
+											"type": "string"
+										},
+										"timestamp_": {
+											"type": "string"
+										}
+									}
+								},
+								"recipient": {
+									"type": "string"
+								},
+								"status": {
+									"type": "string"
+								},
+								"update_time": {
+									"type": "null"
+								},
+								"weight": {
+									"type": "integer"
+								}
+							}
+						},
+						"parent": {
+							"type": "string"
+						}
+					}
+				},
+				"62603e93-ea17-415c-82ff-500cb4c0b376": {
+					"type": "object",
+					"properties": {
+						"children": {
+							"type": "array",
+							"items": {
+								"oneOf": [ { "type": "string" } ]
+							}
+						},
+						"id": {
+							"type": "string"
+						},
+						"message": {
+							"type": "object",
+							"properties": {
+								"author": {
+									"type": "object",
+									"properties": {
+										"metadata": {
+											"type": "object"
+										},
+										"name": {
+											"type": "null"
+										},
+										"role": {
+											"type": "string"
+										}
+									}
+								},
+								"channel": {
+									"type": "null"
+								},
+								"content": {
+									"type": "object",
+									"properties": {
+										"content_type": {
+											"type": "string"
+										},
+										"parts": {
+											"type": "array",
+											"items": {
+												"oneOf": [ { "type": "string" } ]
+											}
+										}
+									}
+								},
+								"create_time": {
+									"type": "number"
+								},
+								"end_turn": {
+									"type": "boolean"
+								},
+								"id": {
+									"type": "string"
+								},
+								"metadata": {
+									"type": "object",
+									"properties": {
+										"can_save": {
+											"type": "boolean"
+										},
+										"default_model_slug": {
+											"type": "string"
+										},
+										"is_visually_hidden_from_conversation": {
+											"type": "boolean"
+										},
+										"message_type": {
+											"type": "string"
+										},
+										"model_slug": {
+											"type": "string"
+										},
+										"parent_id": {
+											"type": "string"
+										},
+										"rebase_developer_message": {
+											"type": "boolean"
+										},
+										"request_id": {
+											"type": "string"
+										},
+										"timestamp_": {
+											"type": "string"
+										}
+									}
+								},
+								"recipient": {
+									"type": "string"
+								},
+								"status": {
+									"type": "string"
+								},
+								"update_time": {
+									"type": "null"
+								},
+								"weight": {
+									"type": "integer"
+								}
+							}
+						},
+						"parent": {
+							"type": "string"
+						}
+					}
+				},
+				"65b7f82a-c9f3-45f8-8d54-7ca9626e7a43": {
+					"type": "object",
+					"properties": {
+						"children": {
+							"type": "array",
+							"items": {
+								"oneOf": [ { "type": "string" } ]
+							}
+						},
+						"id": {
+							"type": "string"
+						},
+						"message": {
+							"type": "object",
+							"properties": {
+								"author": {
+									"type": "object",
+									"properties": {
+										"metadata": {
+											"type": "object"
+										},
+										"name": {
+											"type": "null"
+										},
+										"role": {
+											"type": "string"
+										}
+									}
+								},
+								"channel": {
+									"type": "null"
+								},
+								"content": {
+									"type": "object",
+									"properties": {
+										"content_type": {
+											"type": "string"
+										},
+										"parts": {
+											"type": "array",
+											"items": {
+												"oneOf": [ { "type": "string" } ]
+											}
+										}
+									}
+								},
+								"create_time": {
+									"type": "number"
+								},
+								"end_turn": {
+									"type": "boolean"
+								},
+								"id": {
+									"type": "string"
+								},
+								"metadata": {
+									"type": "object",
+									"properties": {
+										"can_save": {
+											"type": "boolean"
+										},
+										"default_model_slug": {
+											"type": "string"
+										},
+										"is_visually_hidden_from_conversation": {
+											"type": "boolean"
+										},
+										"message_type": {
+											"type": "string"
+										},
+										"model_slug": {
+											"type": "string"
+										},
+										"parent_id": {
+											"type": "string"
+										},
+										"rebase_developer_message": {
+											"type": "boolean"
+										},
+										"request_id": {
+											"type": "string"
+										},
+										"turn_exchange_id": {
+											"type": "string"
+										}
+									}
+								},
+								"recipient": {
+									"type": "string"
+								},
+								"status": {
+									"type": "string"
+								},
+								"update_time": {
+									"type": "null"
+								},
+								"weight": {
+									"type": "integer"
+								}
+							}
+						},
+						"parent": {
+							"type": "string"
+						}
+					}
+				},
+				"6d9eda29-ad19-4ef8-b093-8b45af783fb5": {
+					"type": "object",
+					"properties": {
+						"children": {
+							"type": "array",
+							"items": {
+								"oneOf": [ { "type": "string" } ]
+							}
+						},
+						"id": {
+							"type": "string"
+						},
+						"message": {
+							"type": "object",
+							"properties": {
+								"author": {
+									"type": "object",
+									"properties": {
+										"metadata": {
+											"type": "object"
+										},
+										"name": {
+											"type": "null"
+										},
+										"role": {
+											"type": "string"
+										}
+									}
+								},
+								"channel": {
+									"type": "null"
+								},
+								"content": {
+									"type": "object",
+									"properties": {
+										"content_type": {
+											"type": "string"
+										},
+										"parts": {
+											"type": "array",
+											"items": {
+												"oneOf": [ { "type": "string" } ]
+											}
+										}
+									}
+								},
+								"create_time": {
+									"type": "number"
+								},
+								"end_turn": {
+									"type": "null"
+								},
+								"id": {
+									"type": "string"
+								},
+								"metadata": {
+									"type": "object",
+									"properties": {
+										"can_save": {
+											"type": "boolean"
+										},
+										"default_model_slug": {
+											"type": "string"
+										},
+										"is_complete": {
+											"type": "boolean"
+										},
+										"is_visually_hidden_from_conversation": {
+											"type": "boolean"
+										},
+										"message_type": {
+											"type": "string"
+										},
+										"model_slug": {
+											"type": "string"
+										},
+										"parent_id": {
+											"type": "string"
+										},
+										"request_id": {
+											"type": "string"
+										},
+										"turn_exchange_id": {
+											"type": "string"
+										}
+									}
+								},
+								"recipient": {
+									"type": "string"
+								},
+								"status": {
+									"type": "string"
+								},
+								"update_time": {
+									"type": "null"
+								},
+								"weight": {
+									"type": "integer"
+								}
+							}
+						},
+						"parent": {
+							"type": "string"
+						}
+					}
+				},
+				"785f3538-e698-4881-bdec-21a27408b7b4": {
+					"type": "object",
+					"properties": {
+						"children": {
+							"type": "array",
+							"items": {
+								"oneOf": [ { "type": "string" } ]
+							}
+						},
+						"id": {
+							"type": "string"
+						},
+						"message": {
+							"type": "object",
+							"properties": {
+								"author": {
+									"type": "object",
+									"properties": {
+										"metadata": {
+											"type": "object"
+										},
+										"name": {
+											"type": "null"
+										},
+										"role": {
+											"type": "string"
+										}
+									}
+								},
+								"channel": {
+									"type": "null"
+								},
+								"content": {
+									"type": "object",
+									"properties": {
+										"content_type": {
+											"type": "string"
+										},
+										"parts": {
+											"type": "array",
+											"items": {
+												"oneOf": [ { "type": "string" } ]
+											}
+										}
+									}
+								},
+								"create_time": {
+									"type": "number"
+								},
+								"end_turn": {
+									"type": "boolean"
+								},
+								"id": {
+									"type": "string"
+								},
+								"metadata": {
+									"type": "object",
+									"properties": {
+										"can_save": {
+											"type": "boolean"
+										},
+										"default_model_slug": {
+											"type": "string"
+										},
+										"is_visually_hidden_from_conversation": {
+											"type": "boolean"
+										},
+										"message_type": {
+											"type": "string"
+										},
+										"model_slug": {
+											"type": "string"
+										},
+										"parent_id": {
+											"type": "string"
+										},
+										"rebase_developer_message": {
+											"type": "boolean"
+										},
+										"request_id": {
+											"type": "string"
+										},
+										"turn_exchange_id": {
+											"type": "string"
+										}
+									}
+								},
+								"recipient": {
+									"type": "string"
+								},
+								"status": {
+									"type": "string"
+								},
+								"update_time": {
+									"type": "null"
+								},
+								"weight": {
+									"type": "integer"
+								}
+							}
+						},
+						"parent": {
+							"type": "string"
+						}
+					}
+				},
+				"7ebd269f-2445-41fe-a390-f6c2958484ec": {
+					"type": "object",
+					"properties": {
+						"children": {
+							"type": "array",
+							"items": {
+								"oneOf": [ { "type": "string" } ]
+							}
+						},
+						"id": {
+							"type": "string"
+						},
+						"message": {
+							"type": "object",
+							"properties": {
+								"author": {
+									"type": "object",
+									"properties": {
+										"metadata": {
+											"type": "object"
+										},
+										"name": {
+											"type": "null"
+										},
+										"role": {
+											"type": "string"
+										}
+									}
+								},
+								"channel": {
+									"type": "string"
+								},
+								"content": {
+									"type": "object",
+									"properties": {
+										"content_type": {
+											"type": "string"
+										},
+										"parts": {
+											"type": "array",
+											"items": {
+												"oneOf": [ { "type": "string" } ]
+											}
+										}
+									}
+								},
+								"create_time": {
+									"type": "number"
+								},
+								"end_turn": {
+									"type": "boolean"
+								},
+								"id": {
+									"type": "string"
+								},
+								"metadata": {
+									"type": "object",
+									"properties": {
+										"can_save": {
+											"type": "boolean"
+										},
+										"citations": {
+											"type": "array"
+										},
+										"content_references": {
+											"type": "array"
+										},
+										"default_model_slug": {
+											"type": "string"
+										},
+										"finish_details": {
+											"type": "object",
+											"properties": {
+												"stop_tokens": {
+													"type": "array",
+													"items": {
+														"oneOf": [
+															{
+																"type": "integer"
+															}
+														]
+													}
+												},
+												"type": {
+													"type": "string"
+												}
+											}
+										},
+										"is_complete": {
+											"type": "boolean"
+										},
+										"message_type": {
+											"type": "string"
+										},
+										"model_slug": {
+											"type": "string"
+										},
+										"model_switcher_deny": {
+											"type": "array",
+											"items": {
+												"oneOf": [
+													{
+														"type": "object",
+														"properties": {
+															"context": {
+																"type": "string"
+															},
+															"description": {
+																"type": "string"
+															},
+															"is_available": {
+																"type": "boolean"
+															},
+															"reason": {
+																"type": "string"
+															},
+															"slug": {
+																"type": "string"
+															}
+														}
+													}
+												]
+											}
+										},
+										"parent_id": {
+											"type": "string"
+										},
+										"request_id": {
+											"type": "string"
+										},
+										"resolved_model_slug": {
+											"type": "string"
+										},
+										"search_result_groups": {
+											"type": "array"
+										},
+										"turn_exchange_id": {
+											"type": "string"
+										}
+									}
+								},
+								"recipient": {
+									"type": "string"
+								},
+								"status": {
+									"type": "string"
+								},
+								"update_time": {
+									"type": "null"
+								},
+								"weight": {
+									"type": "integer"
+								}
+							}
+						},
+						"parent": {
+							"type": "string"
+						}
+					}
+				},
+				"80a976f0-7bd9-4473-b337-11831f46cd6c": {
+					"type": "object",
+					"properties": {
+						"children": {
+							"type": "array",
+							"items": {
+								"oneOf": [ { "type": "string" } ]
+							}
+						},
+						"id": {
+							"type": "string"
+						},
+						"message": {
+							"type": "object",
+							"properties": {
+								"author": {
+									"type": "object",
+									"properties": {
+										"metadata": {
+											"type": "object"
+										},
+										"name": {
+											"type": "null"
+										},
+										"role": {
+											"type": "string"
+										}
+									}
+								},
+								"channel": {
+									"type": "null"
+								},
+								"content": {
+									"type": "object",
+									"properties": {
+										"content_type": {
+											"type": "string"
+										},
+										"parts": {
+											"type": "array",
+											"items": {
+												"oneOf": [ { "type": "string" } ]
+											}
+										}
+									}
+								},
+								"create_time": {
+									"type": "number"
+								},
+								"end_turn": {
+									"type": "boolean"
+								},
+								"id": {
+									"type": "string"
+								},
+								"metadata": {
+									"type": "object",
+									"properties": {
+										"can_save": {
+											"type": "boolean"
+										},
+										"default_model_slug": {
+											"type": "string"
+										},
+										"is_visually_hidden_from_conversation": {
+											"type": "boolean"
+										},
+										"message_type": {
+											"type": "string"
+										},
+										"model_slug": {
+											"type": "string"
+										},
+										"parent_id": {
+											"type": "string"
+										},
+										"rebase_developer_message": {
+											"type": "boolean"
+										},
+										"request_id": {
+											"type": "string"
+										},
+										"turn_exchange_id": {
+											"type": "string"
+										}
+									}
+								},
+								"recipient": {
+									"type": "string"
+								},
+								"status": {
+									"type": "string"
+								},
+								"update_time": {
+									"type": "null"
+								},
+								"weight": {
+									"type": "integer"
+								}
+							}
+						},
+						"parent": {
+							"type": "string"
+						}
+					}
+				},
+				"81d2299f-aec3-47a5-839b-69420c4d78bc": {
+					"type": "object",
+					"properties": {
+						"children": {
+							"type": "array",
+							"items": {
+								"oneOf": [ { "type": "string" } ]
+							}
+						},
+						"id": {
+							"type": "string"
+						},
+						"message": {
+							"type": "object",
+							"properties": {
+								"author": {
+									"type": "object",
+									"properties": {
+										"metadata": {
+											"type": "object"
+										},
+										"name": {
+											"type": "null"
+										},
+										"role": {
+											"type": "string"
+										}
+									}
+								},
+								"channel": {
+									"type": "null"
+								},
+								"content": {
+									"type": "object",
+									"properties": {
+										"content_type": {
+											"type": "string"
+										},
+										"parts": {
+											"type": "array",
+											"items": {
+												"oneOf": [ { "type": "string" } ]
+											}
+										}
+									}
+								},
+								"create_time": {
+									"type": "number"
+								},
+								"end_turn": {
+									"type": "boolean"
+								},
+								"id": {
+									"type": "string"
+								},
+								"metadata": {
+									"type": "object",
+									"properties": {
+										"can_save": {
+											"type": "boolean"
+										},
+										"default_model_slug": {
+											"type": "string"
+										},
+										"is_visually_hidden_from_conversation": {
+											"type": "boolean"
+										},
+										"message_type": {
+											"type": "string"
+										},
+										"model_slug": {
+											"type": "string"
+										},
+										"parent_id": {
+											"type": "string"
+										},
+										"rebase_system_message": {
+											"type": "boolean"
+										},
+										"request_id": {
+											"type": "string"
+										},
+										"turn_exchange_id": {
+											"type": "string"
+										}
+									}
+								},
+								"recipient": {
+									"type": "string"
+								},
+								"status": {
+									"type": "string"
+								},
+								"update_time": {
+									"type": "null"
+								},
+								"weight": {
+									"type": "integer"
+								}
+							}
+						},
+						"parent": {
+							"type": "string"
+						}
+					}
+				},
+				"8420026a-2197-4def-a966-a0e023a63c0e": {
+					"type": "object",
+					"properties": {
+						"children": {
+							"type": "array",
+							"items": {
+								"oneOf": [ { "type": "string" } ]
+							}
+						},
+						"id": {
+							"type": "string"
+						},
+						"message": {
+							"type": "object",
+							"properties": {
+								"author": {
+									"type": "object",
+									"properties": {
+										"metadata": {
+											"type": "object"
+										},
+										"name": {
+											"type": "null"
+										},
+										"role": {
+											"type": "string"
+										}
+									}
+								},
+								"channel": {
+									"type": "null"
+								},
+								"content": {
+									"type": "object",
+									"properties": {
+										"content_type": {
+											"type": "string"
+										},
+										"source_analysis_msg_id": {
+											"type": "string"
+										},
+										"thoughts": {
+											"type": "array",
+											"items": {
+												"oneOf": [
+													{
+														"type": "object",
+														"properties": {
+															"chunks": {
+																"type": "array",
+																"items": {
+																	"oneOf": [  ]
+																}
+															},
+															"content": {
+																"type": "string"
+															},
+															"finished": {
+																"type": "boolean"
+															},
+															"summary": {
+																"type": "string"
+															}
+														}
+													}
+												]
+											}
+										}
+									}
+								},
+								"create_time": {
+									"type": "number"
+								},
+								"end_turn": {
+									"type": "boolean"
+								},
+								"id": {
+									"type": "string"
+								},
+								"metadata": {
+									"type": "object",
+									"properties": {
+										"can_save": {
+											"type": "boolean"
+										},
+										"citations": {
+											"type": "array"
+										},
+										"classifier_response": {
+											"type": "string"
+										},
+										"content_references": {
+											"type": "array"
+										},
+										"default_model_slug": {
+											"type": "string"
+										},
+										"message_type": {
+											"type": "string"
+										},
+										"model_slug": {
+											"type": "string"
+										},
+										"model_switcher_deny": {
+											"type": "array",
+											"items": {
+												"oneOf": [
+													{
+														"type": "object",
+														"properties": {
+															"context": {
+																"type": "string"
+															},
+															"description": {
+																"type": "string"
+															},
+															"is_available": {
+																"type": "boolean"
+															},
+															"reason": {
+																"type": "string"
+															},
+															"slug": {
+																"type": "string"
+															}
+														}
+													}
+												]
+											}
+										},
+										"parent_id": {
+											"type": "string"
+										},
+										"reasoning_status": {
+											"type": "string"
+										},
+										"request_id": {
+											"type": "string"
+										},
+										"skip_reasoning_title": {
+											"type": "string"
+										},
+										"timestamp_": {
+											"type": "string"
+										}
+									}
+								},
+								"recipient": {
+									"type": "string"
+								},
+								"status": {
+									"type": "string"
+								},
+								"update_time": {
+									"type": "null"
+								},
+								"weight": {
+									"type": "integer"
+								}
+							}
+						},
+						"parent": {
+							"type": "string"
+						}
+					}
+				},
+				"84af860d-dddb-405c-987e-8cae0c360aee": {
+					"type": "object",
+					"properties": {
+						"children": {
+							"type": "array",
+							"items": {
+								"oneOf": [ { "type": "string" } ]
+							}
+						},
+						"id": {
+							"type": "string"
+						},
+						"message": {
+							"type": "object",
+							"properties": {
+								"author": {
+									"type": "object",
+									"properties": {
+										"metadata": {
+											"type": "object"
+										},
+										"name": {
+											"type": "null"
+										},
+										"role": {
+											"type": "string"
+										}
+									}
+								},
+								"channel": {
+									"type": "null"
+								},
+								"content": {
+									"type": "object",
+									"properties": {
+										"content_type": {
+											"type": "string"
+										},
+										"parts": {
+											"type": "array",
+											"items": {
+												"oneOf": [ { "type": "string" } ]
+											}
+										}
+									}
+								},
+								"create_time": {
+									"type": "number"
+								},
+								"end_turn": {
+									"type": "boolean"
+								},
+								"id": {
+									"type": "string"
+								},
+								"metadata": {
+									"type": "object",
+									"properties": {
+										"can_save": {
+											"type": "boolean"
+										},
+										"default_model_slug": {
+											"type": "string"
+										},
+										"is_visually_hidden_from_conversation": {
+											"type": "boolean"
+										},
+										"message_type": {
+											"type": "string"
+										},
+										"model_slug": {
+											"type": "string"
+										},
+										"parent_id": {
+											"type": "string"
+										},
+										"rebase_developer_message": {
+											"type": "boolean"
+										},
+										"request_id": {
+											"type": "string"
+										},
+										"turn_exchange_id": {
+											"type": "string"
+										}
+									}
+								},
+								"recipient": {
+									"type": "string"
+								},
+								"status": {
+									"type": "string"
+								},
+								"update_time": {
+									"type": "null"
+								},
+								"weight": {
+									"type": "integer"
+								}
+							}
+						},
+						"parent": {
+							"type": "string"
+						}
+					}
+				},
+				"8e9c50f7-c3c1-4711-94a3-2012b9aa89b2": {
+					"type": "object",
+					"properties": {
+						"children": {
+							"type": "array"
+						},
+						"id": {
+							"type": "string"
+						},
+						"message": {
+							"type": "object",
+							"properties": {
+								"author": {
+									"type": "object",
+									"properties": {
+										"metadata": {
+											"type": "object"
+										},
+										"name": {
+											"type": "null"
+										},
+										"role": {
+											"type": "string"
+										}
+									}
+								},
+								"channel": {
+									"type": "string"
+								},
+								"content": {
+									"type": "object",
+									"properties": {
+										"content_type": {
+											"type": "string"
+										},
+										"parts": {
+											"type": "array",
+											"items": {
+												"oneOf": [ { "type": "string" } ]
+											}
+										}
+									}
+								},
+								"create_time": {
+									"type": "number"
+								},
+								"end_turn": {
+									"type": "boolean"
+								},
+								"id": {
+									"type": "string"
+								},
+								"metadata": {
+									"type": "object",
+									"properties": {
+										"can_save": {
+											"type": "boolean"
+										},
+										"citations": {
+											"type": "array"
+										},
+										"content_references": {
+											"type": "array"
+										},
+										"default_model_slug": {
+											"type": "string"
+										},
+										"finish_details": {
+											"type": "object",
+											"properties": {
+												"stop_tokens": {
+													"type": "array",
+													"items": {
+														"oneOf": [
+															{
+																"type": "integer"
+															}
+														]
+													}
+												},
+												"type": {
+													"type": "string"
+												}
+											}
+										},
+										"is_complete": {
+											"type": "boolean"
+										},
+										"message_type": {
+											"type": "string"
+										},
+										"model_slug": {
+											"type": "string"
+										},
+										"model_switcher_deny": {
+											"type": "array",
+											"items": {
+												"oneOf": [
+													{
+														"type": "object",
+														"properties": {
+															"context": {
+																"type": "string"
+															},
+															"description": {
+																"type": "string"
+															},
+															"is_available": {
+																"type": "boolean"
+															},
+															"reason": {
+																"type": "string"
+															},
+															"slug": {
+																"type": "string"
+															}
+														}
+													}
+												]
+											}
+										},
+										"parent_id": {
+											"type": "string"
+										},
+										"request_id": {
+											"type": "string"
+										},
+										"resolved_model_slug": {
+											"type": "string"
+										},
+										"search_result_groups": {
+											"type": "array"
+										},
+										"turn_exchange_id": {
+											"type": "string"
+										}
+									}
+								},
+								"recipient": {
+									"type": "string"
+								},
+								"status": {
+									"type": "string"
+								},
+								"update_time": {
+									"type": "null"
+								},
+								"weight": {
+									"type": "integer"
+								}
+							}
+						},
+						"parent": {
+							"type": "string"
+						}
+					}
+				},
+				"8f4858df-c509-46f1-94e3-80c0ddf6bd00": {
+					"type": "object",
+					"properties": {
+						"children": {
+							"type": "array",
+							"items": {
+								"oneOf": [ { "type": "string" } ]
+							}
+						},
+						"id": {
+							"type": "string"
+						},
+						"message": {
+							"type": "object",
+							"properties": {
+								"author": {
+									"type": "object",
+									"properties": {
+										"metadata": {
+											"type": "object"
+										},
+										"name": {
+											"type": "null"
+										},
+										"role": {
+											"type": "string"
+										}
+									}
+								},
+								"channel": {
+									"type": "null"
+								},
+								"content": {
+									"type": "object",
+									"properties": {
+										"content_type": {
+											"type": "string"
+										},
+										"parts": {
+											"type": "array",
+											"items": {
+												"oneOf": [ { "type": "string" } ]
+											}
+										}
+									}
+								},
+								"create_time": {
+									"type": "number"
+								},
+								"end_turn": {
+									"type": "boolean"
+								},
+								"id": {
+									"type": "string"
+								},
+								"metadata": {
+									"type": "object",
+									"properties": {
+										"can_save": {
+											"type": "boolean"
+										},
+										"default_model_slug": {
+											"type": "string"
+										},
+										"is_visually_hidden_from_conversation": {
+											"type": "boolean"
+										},
+										"message_type": {
+											"type": "string"
+										},
+										"model_slug": {
+											"type": "string"
+										},
+										"parent_id": {
+											"type": "string"
+										},
+										"rebase_system_message": {
+											"type": "boolean"
+										},
+										"request_id": {
+											"type": "string"
+										},
+										"timestamp_": {
+											"type": "string"
+										}
+									}
+								},
+								"recipient": {
+									"type": "string"
+								},
+								"status": {
+									"type": "string"
+								},
+								"update_time": {
+									"type": "null"
+								},
+								"weight": {
+									"type": "integer"
+								}
+							}
+						},
+						"parent": {
+							"type": "string"
+						}
+					}
+				},
+				"904c37a3-446e-40e5-ad0f-3f4278d18b3b": {
+					"type": "object",
+					"properties": {
+						"children": {
+							"type": "array",
+							"items": {
+								"oneOf": [ { "type": "string" } ]
+							}
+						},
+						"id": {
+							"type": "string"
+						},
+						"message": {
+							"type": "object",
+							"properties": {
+								"author": {
+									"type": "object",
+									"properties": {
+										"metadata": {
+											"type": "object"
+										},
+										"name": {
+											"type": "null"
+										},
+										"role": {
+											"type": "string"
+										}
+									}
+								},
+								"channel": {
+									"type": "string"
+								},
+								"content": {
+									"type": "object",
+									"properties": {
+										"content_type": {
+											"type": "string"
+										},
+										"parts": {
+											"type": "array",
+											"items": {
+												"oneOf": [ { "type": "string" } ]
+											}
+										}
+									}
+								},
+								"create_time": {
+									"type": "number"
+								},
+								"end_turn": {
+									"type": "boolean"
+								},
+								"id": {
+									"type": "string"
+								},
+								"metadata": {
+									"type": "object",
+									"properties": {
+										"can_save": {
+											"type": "boolean"
+										},
+										"citations": {
+											"type": "array"
+										},
+										"content_references": {
+											"type": "array"
+										},
+										"default_model_slug": {
+											"type": "string"
+										},
+										"message_type": {
+											"type": "string"
+										},
+										"model_slug": {
+											"type": "string"
+										},
+										"model_switcher_deny": {
+											"type": "array",
+											"items": {
+												"oneOf": [
+													{
+														"type": "object",
+														"properties": {
+															"context": {
+																"type": "string"
+															},
+															"description": {
+																"type": "string"
+															},
+															"is_available": {
+																"type": "boolean"
+															},
+															"reason": {
+																"type": "string"
+															},
+															"slug": {
+																"type": "string"
+															}
+														}
+													}
+												]
+											}
+										},
+										"parent_id": {
+											"type": "string"
+										},
+										"request_id": {
+											"type": "string"
+										},
+										"resolved_model_slug": {
+											"type": "string"
+										},
+										"search_result_groups": {
+											"type": "array"
+										},
+										"turn_exchange_id": {
+											"type": "string"
+										}
+									}
+								},
+								"recipient": {
+									"type": "string"
+								},
+								"status": {
+									"type": "string"
+								},
+								"update_time": {
+									"type": "null"
+								},
+								"weight": {
+									"type": "integer"
+								}
+							}
+						},
+						"parent": {
+							"type": "string"
+						}
+					}
+				},
+				"9b09723e-5adb-4d61-9fe5-99545d6ccfea": {
+					"type": "object",
+					"properties": {
+						"children": {
+							"type": "array",
+							"items": {
+								"oneOf": [ { "type": "string" } ]
+							}
+						},
+						"id": {
+							"type": "string"
+						},
+						"message": {
+							"type": "object",
+							"properties": {
+								"author": {
+									"type": "object",
+									"properties": {
+										"metadata": {
+											"type": "object"
+										},
+										"name": {
+											"type": "string"
+										},
+										"role": {
+											"type": "string"
+										}
+									}
+								},
+								"channel": {
+									"type": "null"
+								},
+								"content": {
+									"type": "object",
+									"properties": {
+										"assets": {
+											"type": "null"
+										},
+										"content_type": {
+											"type": "string"
+										},
+										"result": {
+											"type": "string"
+										},
+										"summary": {
+											"type": "string"
+										},
+										"tether_id": {
+											"type": "null"
+										}
+									}
+								},
+								"create_time": {
+									"type": "number"
+								},
+								"end_turn": {
+									"type": "null"
+								},
+								"id": {
+									"type": "string"
+								},
+								"metadata": {
+									"type": "object",
+									"properties": {
+										"can_save": {
+											"type": "boolean"
+										},
+										"command": {
+											"type": "string"
+										},
+										"default_model_slug": {
+											"type": "string"
+										},
+										"message_type": {
+											"type": "string"
+										},
+										"model_slug": {
+											"type": "string"
+										},
+										"parent_id": {
+											"type": "string"
+										},
+										"request_id": {
+											"type": "string"
+										},
+										"status": {
+											"type": "string"
+										},
+										"timestamp_": {
+											"type": "string"
+										}
+									}
+								},
+								"recipient": {
+									"type": "string"
+								},
+								"update_time": {
+									"type": "null"
+								},
+								"weight": {
+									"type": "integer"
+								}
+							}
+						},
+						"parent": {
+							"type": "string"
+						}
+					}
+				},
+				"a066cd27-b114-4b88-8c44-105b2200a888": {
+					"type": "object",
+					"properties": {
+						"children": {
+							"type": "array",
+							"items": {
+								"oneOf": [ { "type": "string" } ]
+							}
+						},
+						"id": {
+							"type": "string"
+						},
+						"message": {
+							"type": "object",
+							"properties": {
+								"author": {
+									"type": "object",
+									"properties": {
+										"metadata": {
+											"type": "object"
+										},
+										"name": {
+											"type": "null"
+										},
+										"role": {
+											"type": "string"
+										}
+									}
+								},
+								"channel": {
+									"type": "null"
+								},
+								"content": {
+									"type": "object",
+									"properties": {
+										"content_type": {
+											"type": "string"
+										},
+										"source_analysis_msg_id": {
+											"type": "string"
+										},
+										"thoughts": {
+											"type": "array",
+											"items": {
+												"oneOf": [
+													{
+														"type": "object",
+														"properties": {
+															"chunks": {
+																"type": "array",
+																"items": {
+																	"oneOf": [  ]
+																}
+															},
+															"content": {
+																"type": "string"
+															},
+															"finished": {
+																"type": "boolean"
+															},
+															"summary": {
+																"type": "string"
+															}
+														}
+													}
+												]
+											}
+										}
+									}
+								},
+								"create_time": {
+									"type": "number"
+								},
+								"end_turn": {
+									"type": "boolean"
+								},
+								"id": {
+									"type": "string"
+								},
+								"metadata": {
+									"type": "object",
+									"properties": {
+										"can_save": {
+											"type": "boolean"
+										},
+										"citations": {
+											"type": "array"
+										},
+										"classifier_response": {
+											"type": "string"
+										},
+										"content_references": {
+											"type": "array"
+										},
+										"default_model_slug": {
+											"type": "string"
+										},
+										"message_type": {
+											"type": "string"
+										},
+										"model_slug": {
+											"type": "string"
+										},
+										"model_switcher_deny": {
+											"type": "array",
+											"items": {
+												"oneOf": [
+													{
+														"type": "object",
+														"properties": {
+															"context": {
+																"type": "string"
+															},
+															"description": {
+																"type": "string"
+															},
+															"is_available": {
+																"type": "boolean"
+															},
+															"reason": {
+																"type": "string"
+															},
+															"slug": {
+																"type": "string"
+															}
+														}
+													}
+												]
+											}
+										},
+										"parent_id": {
+											"type": "string"
+										},
+										"reasoning_status": {
+											"type": "string"
+										},
+										"request_id": {
+											"type": "string"
+										},
+										"skip_reasoning_title": {
+											"type": "string"
+										},
+										"timestamp_": {
+											"type": "string"
+										}
+									}
+								},
+								"recipient": {
+									"type": "string"
+								},
+								"status": {
+									"type": "string"
+								},
+								"update_time": {
+									"type": "null"
+								},
+								"weight": {
+									"type": "integer"
+								}
+							}
+						},
+						"parent": {
+							"type": "string"
+						}
+					}
+				},
+				"a5be965e-28a9-4cd1-9ff0-257b19c094a8": {
+					"type": "object",
+					"properties": {
+						"children": {
+							"type": "array",
+							"items": {
+								"oneOf": [ { "type": "string" } ]
+							}
+						},
+						"id": {
+							"type": "string"
+						},
+						"message": {
+							"type": "object",
+							"properties": {
+								"author": {
+									"type": "object",
+									"properties": {
+										"metadata": {
+											"type": "object"
+										},
+										"name": {
+											"type": "null"
+										},
+										"role": {
+											"type": "string"
+										}
+									}
+								},
+								"channel": {
+									"type": "string"
+								},
+								"content": {
+									"type": "object",
+									"properties": {
+										"content_type": {
+											"type": "string"
+										},
+										"parts": {
+											"type": "array",
+											"items": {
+												"oneOf": [ { "type": "string" } ]
+											}
+										}
+									}
+								},
+								"create_time": {
+									"type": "number"
+								},
+								"end_turn": {
+									"type": "boolean"
+								},
+								"id": {
+									"type": "string"
+								},
+								"metadata": {
+									"type": "object",
+									"properties": {
+										"can_save": {
+											"type": "boolean"
+										},
+										"citations": {
+											"type": "array",
+											"items": {
+												"oneOf": [
+													{
+														"type": "object",
+														"properties": {
+															"citation_format_type": {
+																"type": "string"
+															},
+															"end_ix": {
+																"type": "integer"
+															},
+															"invalid_reason": {
+																"type": "string"
+															},
+															"start_ix": {
+																"type": "integer"
+															}
+														}
+													}
+												]
+											}
+										},
+										"content_references": {
+											"type": "array",
+											"items": {
+												"oneOf": [
+													{
+														"type": "object",
+														"properties": {
+															"alt": {
+																"type": "null"
+															},
+															"end_idx": {
+																"type": "integer"
+															},
+															"invalid": {
+																"type": "boolean"
+															},
+															"matched_text": {
+																"type": "string"
+															},
+															"start_idx": {
+																"type": "integer"
+															},
+															"type": {
+																"type": "string"
+															}
+														}
+													}
+												]
+											}
+										},
+										"default_model_slug": {
+											"type": "string"
+										},
+										"message_type": {
+											"type": "string"
+										},
+										"model_slug": {
+											"type": "string"
+										},
+										"model_switcher_deny": {
+											"type": "array",
+											"items": {
+												"oneOf": [
+													{
+														"type": "object",
+														"properties": {
+															"context": {
+																"type": "string"
+															},
+															"description": {
+																"type": "string"
+															},
+															"is_available": {
+																"type": "boolean"
+															},
+															"reason": {
+																"type": "string"
+															},
+															"slug": {
+																"type": "string"
+															}
+														}
+													}
+												]
+											}
+										},
+										"parent_id": {
+											"type": "string"
+										},
+										"request_id": {
+											"type": "string"
+										},
+										"timestamp_": {
+											"type": "string"
+										}
+									}
+								},
+								"recipient": {
+									"type": "string"
+								},
+								"status": {
+									"type": "string"
+								},
+								"update_time": {
+									"type": "null"
+								},
+								"weight": {
+									"type": "integer"
+								}
+							}
+						},
+						"parent": {
+							"type": "string"
+						}
+					}
+				},
+				"a676c2f8-4705-43af-ba33-4f9463e0fd4b": {
+					"type": "object",
+					"properties": {
+						"children": {
+							"type": "array",
+							"items": {
+								"oneOf": [ { "type": "string" } ]
+							}
+						},
+						"id": {
+							"type": "string"
+						},
+						"message": {
+							"type": "object",
+							"properties": {
+								"author": {
+									"type": "object",
+									"properties": {
+										"metadata": {
+											"type": "object"
+										},
+										"name": {
+											"type": "string"
+										},
+										"role": {
+											"type": "string"
+										}
+									}
+								},
+								"channel": {
+									"type": "string"
+								},
+								"content": {
+									"type": "object",
+									"properties": {
+										"content_type": {
+											"type": "string"
+										},
+										"text": {
+											"type": "string"
+										}
+									}
+								},
+								"create_time": {
+									"type": "number"
+								},
+								"end_turn": {
+									"type": "null"
+								},
+								"id": {
+									"type": "string"
+								},
+								"metadata": {
+									"type": "object",
+									"properties": {
+										"aggregate_result": {
+											"type": "object",
+											"properties": {
+												"code": {
+													"type": "string"
+												},
+												"end_time": {
+													"type": "number"
+												},
+												"final_expression_output": {
+													"type": "string"
+												},
+												"in_kernel_exception": {
+													"type": "null"
+												},
+												"jupyter_messages": {
+													"type": "array",
+													"items": {
+														"oneOf": [
+															{
+																"type": "object",
+																"properties": {
+																	"content": {
+																		"type": "object",
+																		"properties": {
+																			"execution_state": {
+																				"type": "string"
+																			},
+																			"data": {
+																				"type": "object",
+																				"properties": {
+																					"text/plain": {
+																						"type": "string"
+																					}
+																				}
+																			}
+																		}
+																	},
+																	"msg_type": {
+																		"type": "string"
+																	},
+																	"parent_header": {
+																		"type": "object",
+																		"properties": {
+																			"msg_id": {
+																				"type": "string"
+																			},
+																			"version": {
+																				"type": "string"
+																			}
+																		}
+																	}
+																}
+															}
+														]
+													}
+												},
+												"messages": {
+													"type": "array"
+												},
+												"run_id": {
+													"type": "string"
+												},
+												"start_time": {
+													"type": "number"
+												},
+												"status": {
+													"type": "string"
+												},
+												"system_exception": {
+													"type": "null"
+												},
+												"timeout_triggered": {
+													"type": "null"
+												},
+												"update_time": {
+													"type": "number"
+												}
+											}
+										},
+										"can_save": {
+											"type": "boolean"
+										},
+										"default_model_slug": {
+											"type": "string"
+										},
+										"is_complete": {
+											"type": "boolean"
+										},
+										"message_type": {
+											"type": "string"
+										},
+										"model_slug": {
+											"type": "string"
+										},
+										"parent_id": {
+											"type": "string"
+										},
+										"request_id": {
+											"type": "string"
+										},
+										"turn_exchange_id": {
+											"type": "string"
+										}
+									}
+								},
+								"recipient": {
+									"type": "string"
+								},
+								"weight": {
+									"type": "integer"
+								}
+							}
+						},
+						"parent": {
+							"type": "string"
+						}
+					}
+				},
+				"ab5bb4e8-841b-49ba-9a25-d49b3bea7cde": {
+					"type": "object",
+					"properties": {
+						"children": {
+							"type": "array",
+							"items": {
+								"oneOf": [ { "type": "string" } ]
+							}
+						},
+						"id": {
+							"type": "string"
+						},
+						"message": {
+							"type": "object",
+							"properties": {
+								"author": {
+									"type": "object",
+									"properties": {
+										"metadata": {
+											"type": "object"
+										},
+										"name": {
+											"type": "null"
+										},
+										"role": {
+											"type": "string"
+										}
+									}
+								},
+								"channel": {
+									"type": "null"
+								},
+								"content": {
+									"type": "object",
+									"properties": {
+										"content_type": {
+											"type": "string"
+										},
+										"parts": {
+											"type": "array",
+											"items": {
+												"oneOf": [ { "type": "string" } ]
+											}
+										}
+									}
+								},
+								"create_time": {
+									"type": "number"
+								},
+								"end_turn": {
+									"type": "null"
+								},
+								"id": {
+									"type": "string"
+								},
+								"metadata": {
+									"type": "object",
+									"properties": {
+										"can_save": {
+											"type": "boolean"
+										},
+										"default_model_slug": {
+											"type": "string"
+										},
+										"is_complete": {
+											"type": "boolean"
+										},
+										"is_visually_hidden_from_conversation": {
+											"type": "boolean"
+										},
+										"message_type": {
+											"type": "string"
+										},
+										"model_slug": {
+											"type": "string"
+										},
+										"parent_id": {
+											"type": "string"
+										},
+										"request_id": {
+											"type": "string"
+										},
+										"turn_exchange_id": {
+											"type": "string"
+										}
+									}
+								},
+								"recipient": {
+									"type": "string"
+								},
+								"status": {
+									"type": "string"
+								},
+								"update_time": {
+									"type": "null"
+								},
+								"weight": {
+									"type": "integer"
+								}
+							}
+						},
+						"parent": {
+							"type": "string"
+						}
+					}
+				},
+				"b1526825-469b-47a1-bfaa-1b1533f36126": {
+					"type": "object",
+					"properties": {
+						"children": {
+							"type": "array",
+							"items": {
+								"oneOf": [ { "type": "string" } ]
+							}
+						},
+						"id": {
+							"type": "string"
+						},
+						"message": {
+							"type": "object",
+							"properties": {
+								"author": {
+									"type": "object",
+									"properties": {
+										"metadata": {
+											"type": "object"
+										},
+										"name": {
+											"type": "null"
+										},
+										"role": {
+											"type": "string"
+										}
+									}
+								},
+								"channel": {
+									"type": "null"
+								},
+								"content": {
+									"type": "object",
+									"properties": {
+										"content_type": {
+											"type": "string"
+										},
+										"parts": {
+											"type": "array",
+											"items": {
+												"oneOf": [ { "type": "string" } ]
+											}
+										}
+									}
+								},
+								"create_time": {
+									"type": "number"
+								},
+								"end_turn": {
+									"type": "boolean"
+								},
+								"id": {
+									"type": "string"
+								},
+								"metadata": {
+									"type": "object",
+									"properties": {
+										"can_save": {
+											"type": "boolean"
+										},
+										"default_model_slug": {
+											"type": "string"
+										},
+										"is_visually_hidden_from_conversation": {
+											"type": "boolean"
+										},
+										"message_type": {
+											"type": "string"
+										},
+										"model_slug": {
+											"type": "string"
+										},
+										"parent_id": {
+											"type": "string"
+										},
+										"rebase_developer_message": {
+											"type": "boolean"
+										},
+										"request_id": {
+											"type": "string"
+										},
+										"turn_exchange_id": {
+											"type": "string"
+										}
+									}
+								},
+								"recipient": {
+									"type": "string"
+								},
+								"status": {
+									"type": "string"
+								},
+								"update_time": {
+									"type": "null"
+								},
+								"weight": {
+									"type": "integer"
+								}
+							}
+						},
+						"parent": {
+							"type": "string"
+						}
+					}
+				},
+				"b7026ede-7e60-4a5a-897a-fdd5262d4c27": {
+					"type": "object",
+					"properties": {
+						"children": {
+							"type": "array",
+							"items": {
+								"oneOf": [ { "type": "string" } ]
+							}
+						},
+						"id": {
+							"type": "string"
+						},
+						"message": {
+							"type": "null"
+						},
+						"parent": {
+							"type": "null"
+						}
+					}
+				},
+				"b9f1b7b0-3805-4d05-87ee-d8a1bd73469d": {
+					"type": "object",
+					"properties": {
+						"children": {
+							"type": "array",
+							"items": {
+								"oneOf": [ { "type": "string" } ]
+							}
+						},
+						"id": {
+							"type": "string"
+						},
+						"message": {
+							"type": "object",
+							"properties": {
+								"author": {
+									"type": "object",
+									"properties": {
+										"metadata": {
+											"type": "object"
+										},
+										"name": {
+											"type": "null"
+										},
+										"role": {
+											"type": "string"
+										}
+									}
+								},
+								"channel": {
+									"type": "string"
+								},
+								"content": {
+									"type": "object",
+									"properties": {
+										"content_type": {
+											"type": "string"
+										},
+										"parts": {
+											"type": "array",
+											"items": {
+												"oneOf": [ { "type": "string" } ]
+											}
+										}
+									}
+								},
+								"create_time": {
+									"type": "number"
+								},
+								"end_turn": {
+									"type": "boolean"
+								},
+								"id": {
+									"type": "string"
+								},
+								"metadata": {
+									"type": "object",
+									"properties": {
+										"can_save": {
+											"type": "boolean"
+										},
+										"citations": {
+											"type": "array"
+										},
+										"content_references": {
+											"type": "array"
+										},
+										"default_model_slug": {
+											"type": "string"
+										},
+										"finish_details": {
+											"type": "object",
+											"properties": {
+												"stop_tokens": {
+													"type": "array",
+													"items": {
+														"oneOf": [
+															{
+																"type": "integer"
+															}
+														]
+													}
+												},
+												"type": {
+													"type": "string"
+												}
+											}
+										},
+										"is_complete": {
+											"type": "boolean"
+										},
+										"message_type": {
+											"type": "string"
+										},
+										"model_slug": {
+											"type": "string"
+										},
+										"model_switcher_deny": {
+											"type": "array",
+											"items": {
+												"oneOf": [
+													{
+														"type": "object",
+														"properties": {
+															"context": {
+																"type": "string"
+															},
+															"description": {
+																"type": "string"
+															},
+															"is_available": {
+																"type": "boolean"
+															},
+															"reason": {
+																"type": "string"
+															},
+															"slug": {
+																"type": "string"
+															}
+														}
+													}
+												]
+											}
+										},
+										"parent_id": {
+											"type": "string"
+										},
+										"request_id": {
+											"type": "string"
+										},
+										"resolved_model_slug": {
+											"type": "string"
+										},
+										"search_result_groups": {
+											"type": "array"
+										},
+										"turn_exchange_id": {
+											"type": "string"
+										}
+									}
+								},
+								"recipient": {
+									"type": "string"
+								},
+								"status": {
+									"type": "string"
+								},
+								"update_time": {
+									"type": "null"
+								},
+								"weight": {
+									"type": "integer"
+								}
+							}
+						},
+						"parent": {
+							"type": "string"
+						}
+					}
+				},
+				"baf76250-87a6-4cd2-96dc-6eeeda2eaaf8": {
+					"type": "object",
+					"properties": {
+						"children": {
+							"type": "array",
+							"items": {
+								"oneOf": [ { "type": "string" } ]
+							}
+						},
+						"id": {
+							"type": "string"
+						},
+						"message": {
+							"type": "object",
+							"properties": {
+								"author": {
+									"type": "object",
+									"properties": {
+										"metadata": {
+											"type": "object"
+										},
+										"name": {
+											"type": "null"
+										},
+										"role": {
+											"type": "string"
+										}
+									}
+								},
+								"channel": {
+									"type": "string"
+								},
+								"content": {
+									"type": "object",
+									"properties": {
+										"content_type": {
+											"type": "string"
+										},
+										"parts": {
+											"type": "array",
+											"items": {
+												"oneOf": [ { "type": "string" } ]
+											}
+										}
+									}
+								},
+								"create_time": {
+									"type": "number"
+								},
+								"end_turn": {
+									"type": "boolean"
+								},
+								"id": {
+									"type": "string"
+								},
+								"metadata": {
+									"type": "object",
+									"properties": {
+										"can_save": {
+											"type": "boolean"
+										},
+										"citations": {
+											"type": "array"
+										},
+										"content_references": {
+											"type": "array"
+										},
+										"default_model_slug": {
+											"type": "string"
+										},
+										"finish_details": {
+											"type": "object",
+											"properties": {
+												"stop_tokens": {
+													"type": "array",
+													"items": {
+														"oneOf": [
+															{
+																"type": "integer"
+															}
+														]
+													}
+												},
+												"type": {
+													"type": "string"
+												}
+											}
+										},
+										"is_complete": {
+											"type": "boolean"
+										},
+										"message_type": {
+											"type": "string"
+										},
+										"model_slug": {
+											"type": "string"
+										},
+										"model_switcher_deny": {
+											"type": "array",
+											"items": {
+												"oneOf": [
+													{
+														"type": "object",
+														"properties": {
+															"context": {
+																"type": "string"
+															},
+															"description": {
+																"type": "string"
+															},
+															"is_available": {
+																"type": "boolean"
+															},
+															"reason": {
+																"type": "string"
+															},
+															"slug": {
+																"type": "string"
+															}
+														}
+													}
+												]
+											}
+										},
+										"parent_id": {
+											"type": "string"
+										},
+										"request_id": {
+											"type": "string"
+										},
+										"resolved_model_slug": {
+											"type": "string"
+										},
+										"turn_exchange_id": {
+											"type": "string"
+										}
+									}
+								},
+								"recipient": {
+									"type": "string"
+								},
+								"status": {
+									"type": "string"
+								},
+								"update_time": {
+									"type": "null"
+								},
+								"weight": {
+									"type": "integer"
+								}
+							}
+						},
+						"parent": {
+							"type": "string"
+						}
+					}
+				},
+				"bb122c37-fdbf-4c51-8d1e-3649d9add81c": {
+					"type": "object",
+					"properties": {
+						"children": {
+							"type": "array",
+							"items": {
+								"oneOf": [ { "type": "string" } ]
+							}
+						},
+						"id": {
+							"type": "string"
+						},
+						"message": {
+							"type": "object",
+							"properties": {
+								"author": {
+									"type": "object",
+									"properties": {
+										"metadata": {
+											"type": "object"
+										},
+										"name": {
+											"type": "null"
+										},
+										"role": {
+											"type": "string"
+										}
+									}
+								},
+								"channel": {
+									"type": "null"
+								},
+								"content": {
+									"type": "object",
+									"properties": {
+										"content_type": {
+											"type": "string"
+										},
+										"parts": {
+											"type": "array",
+											"items": {
+												"oneOf": [ { "type": "string" } ]
+											}
+										}
+									}
+								},
+								"create_time": {
+									"type": "number"
+								},
+								"end_turn": {
+									"type": "null"
+								},
+								"id": {
+									"type": "string"
+								},
+								"metadata": {
+									"type": "object",
+									"properties": {
+										"can_save": {
+											"type": "boolean"
+										},
+										"default_model_slug": {
+											"type": "string"
+										},
+										"is_complete": {
+											"type": "boolean"
+										},
+										"is_visually_hidden_from_conversation": {
+											"type": "boolean"
+										},
+										"message_type": {
+											"type": "string"
+										},
+										"model_slug": {
+											"type": "string"
+										},
+										"parent_id": {
+											"type": "string"
+										},
+										"request_id": {
+											"type": "string"
+										},
+										"turn_exchange_id": {
+											"type": "string"
+										}
+									}
+								},
+								"recipient": {
+									"type": "string"
+								},
+								"status": {
+									"type": "string"
+								},
+								"update_time": {
+									"type": "null"
+								},
+								"weight": {
+									"type": "integer"
+								}
+							}
+						},
+						"parent": {
+							"type": "string"
+						}
+					}
+				},
+				"bbb21022-98dd-4519-b9b5-5fb586dc58f0": {
+					"type": "object",
+					"properties": {
+						"children": {
+							"type": "array",
+							"items": {
+								"oneOf": [ { "type": "string" } ]
+							}
+						},
+						"id": {
+							"type": "string"
+						},
+						"message": {
+							"type": "object",
+							"properties": {
+								"author": {
+									"type": "object",
+									"properties": {
+										"metadata": {
+											"type": "object"
+										},
+										"name": {
+											"type": "null"
+										},
+										"role": {
+											"type": "string"
+										}
+									}
+								},
+								"channel": {
+									"type": "null"
+								},
+								"content": {
+									"type": "object",
+									"properties": {
+										"content_type": {
+											"type": "string"
+										},
+										"parts": {
+											"type": "array",
+											"items": {
+												"oneOf": [ { "type": "string" } ]
+											}
+										}
+									}
+								},
+								"create_time": {
+									"type": "number"
+								},
+								"end_turn": {
+									"type": "null"
+								},
+								"id": {
+									"type": "string"
+								},
+								"metadata": {
+									"type": "object",
+									"properties": {
+										"can_save": {
+											"type": "boolean"
+										},
+										"content_references": {
+											"type": "array"
+										},
+										"dictation": {
+											"type": "boolean"
+										},
+										"image_gen_async": {
+											"type": "boolean"
+										},
+										"image_results": {
+											"type": "array"
+										},
+										"is_visually_hidden_from_conversation": {
+											"type": "boolean"
+										},
+										"message_source": {
+											"type": "null"
+										},
+										"real_time_audio_has_video": {
+											"type": "boolean"
+										},
+										"request_id": {
+											"type": "string"
+										},
+										"resolved_model_slug": {
+											"type": "string"
+										},
+										"search_queries": {
+											"type": "array"
+										},
+										"search_result_groups": {
+											"type": "array"
+										},
+										"trigger_async_ux": {
+											"type": "boolean"
+										},
+										"turn_exchange_id": {
+											"type": "string"
+										},
+										"writing_blocks": {
+											"type": "object"
+										}
+									}
+								},
+								"recipient": {
+									"type": "string"
+								},
+								"status": {
+									"type": "string"
+								},
+								"update_time": {
+									"type": "null"
+								},
+								"weight": {
+									"type": "integer"
+								}
+							}
+						},
+						"parent": {
+							"type": "string"
+						}
+					}
+				},
+				"bbb212fc-38c9-45b8-8b00-5109c15fd2ae": {
+					"type": "object",
+					"properties": {
+						"children": {
+							"type": "array",
+							"items": {
+								"oneOf": [ { "type": "string" } ]
+							}
+						},
+						"id": {
+							"type": "string"
+						},
+						"message": {
+							"type": "object",
+							"properties": {
+								"author": {
+									"type": "object",
+									"properties": {
+										"metadata": {
+											"type": "object"
+										},
+										"name": {
+											"type": "null"
+										},
+										"role": {
+											"type": "string"
+										}
+									}
+								},
+								"channel": {
+									"type": "null"
+								},
+								"content": {
+									"type": "object",
+									"properties": {
+										"content_type": {
+											"type": "string"
+										},
+										"parts": {
+											"type": "array",
+											"items": {
+												"oneOf": [ { "type": "string" } ]
+											}
+										}
+									}
+								},
+								"create_time": {
+									"type": "number"
+								},
+								"end_turn": {
+									"type": "null"
+								},
+								"id": {
+									"type": "string"
+								},
+								"metadata": {
+									"type": "object",
+									"properties": {
+										"can_save": {
+											"type": "boolean"
+										},
+										"content_references": {
+											"type": "array"
+										},
+										"dictation": {
+											"type": "boolean"
+										},
+										"image_gen_async": {
+											"type": "boolean"
+										},
+										"image_results": {
+											"type": "array"
+										},
+										"is_visually_hidden_from_conversation": {
+											"type": "boolean"
+										},
+										"message_source": {
+											"type": "null"
+										},
+										"real_time_audio_has_video": {
+											"type": "boolean"
+										},
+										"request_id": {
+											"type": "string"
+										},
+										"resolved_model_slug": {
+											"type": "string"
+										},
+										"search_queries": {
+											"type": "array"
+										},
+										"search_result_groups": {
+											"type": "array"
+										},
+										"trigger_async_ux": {
+											"type": "boolean"
+										},
+										"turn_exchange_id": {
+											"type": "string"
+										},
+										"writing_blocks": {
+											"type": "object"
+										}
+									}
+								},
+								"recipient": {
+									"type": "string"
+								},
+								"status": {
+									"type": "string"
+								},
+								"update_time": {
+									"type": "null"
+								},
+								"weight": {
+									"type": "integer"
+								}
+							}
+						},
+						"parent": {
+							"type": "string"
+						}
+					}
+				},
+				"bbb21370-2fd8-4787-8406-41f8ff34189e": {
+					"type": "object",
+					"properties": {
+						"children": {
+							"type": "array",
+							"items": {
+								"oneOf": [ { "type": "string" } ]
+							}
+						},
+						"id": {
+							"type": "string"
+						},
+						"message": {
+							"type": "object",
+							"properties": {
+								"author": {
+									"type": "object",
+									"properties": {
+										"metadata": {
+											"type": "object"
+										},
+										"name": {
+											"type": "null"
+										},
+										"role": {
+											"type": "string"
+										}
+									}
+								},
+								"channel": {
+									"type": "null"
+								},
+								"content": {
+									"type": "object",
+									"properties": {
+										"content_type": {
+											"type": "string"
+										},
+										"parts": {
+											"type": "array",
+											"items": {
+												"oneOf": [ { "type": "string" } ]
+											}
+										}
+									}
+								},
+								"create_time": {
+									"type": "number"
+								},
+								"end_turn": {
+									"type": "null"
+								},
+								"id": {
+									"type": "string"
+								},
+								"metadata": {
+									"type": "object",
+									"properties": {
+										"can_save": {
+											"type": "boolean"
+										},
+										"content_references": {
+											"type": "array"
+										},
+										"dictation": {
+											"type": "boolean"
+										},
+										"image_gen_async": {
+											"type": "boolean"
+										},
+										"image_results": {
+											"type": "array"
+										},
+										"is_visually_hidden_from_conversation": {
+											"type": "boolean"
+										},
+										"message_source": {
+											"type": "null"
+										},
+										"real_time_audio_has_video": {
+											"type": "boolean"
+										},
+										"request_id": {
+											"type": "string"
+										},
+										"search_queries": {
+											"type": "array"
+										},
+										"search_result_groups": {
+											"type": "array"
+										},
+										"timestamp_": {
+											"type": "string"
+										},
+										"trigger_async_ux": {
+											"type": "boolean"
+										}
+									}
+								},
+								"recipient": {
+									"type": "string"
+								},
+								"status": {
+									"type": "string"
+								},
+								"update_time": {
+									"type": "null"
+								},
+								"weight": {
+									"type": "integer"
+								}
+							}
+						},
+						"parent": {
+							"type": "string"
+						}
+					}
+				},
+				"bbb213d4-3836-41dc-b94c-f48787177a9a": {
+					"type": "object",
+					"properties": {
+						"children": {
+							"type": "array",
+							"items": {
+								"oneOf": [ { "type": "string" } ]
+							}
+						},
+						"id": {
+							"type": "string"
+						},
+						"message": {
+							"type": "object",
+							"properties": {
+								"author": {
+									"type": "object",
+									"properties": {
+										"metadata": {
+											"type": "object"
+										},
+										"name": {
+											"type": "null"
+										},
+										"role": {
+											"type": "string"
+										}
+									}
+								},
+								"channel": {
+									"type": "null"
+								},
+								"content": {
+									"type": "object",
+									"properties": {
+										"content_type": {
+											"type": "string"
+										},
+										"parts": {
+											"type": "array",
+											"items": {
+												"oneOf": [ { "type": "string" } ]
+											}
+										}
+									}
+								},
+								"create_time": {
+									"type": "number"
+								},
+								"end_turn": {
+									"type": "null"
+								},
+								"id": {
+									"type": "string"
+								},
+								"metadata": {
+									"type": "object",
+									"properties": {
+										"can_save": {
+											"type": "boolean"
+										},
+										"content_references": {
+											"type": "array"
+										},
+										"dictation": {
+											"type": "boolean"
+										},
+										"image_gen_async": {
+											"type": "boolean"
+										},
+										"image_results": {
+											"type": "array"
+										},
+										"is_visually_hidden_from_conversation": {
+											"type": "boolean"
+										},
+										"message_source": {
+											"type": "null"
+										},
+										"real_time_audio_has_video": {
+											"type": "boolean"
+										},
+										"request_id": {
+											"type": "string"
+										},
+										"search_queries": {
+											"type": "array"
+										},
+										"search_result_groups": {
+											"type": "array"
+										},
+										"timestamp_": {
+											"type": "string"
+										},
+										"trigger_async_ux": {
+											"type": "boolean"
+										}
+									}
+								},
+								"recipient": {
+									"type": "string"
+								},
+								"status": {
+									"type": "string"
+								},
+								"update_time": {
+									"type": "null"
+								},
+								"weight": {
+									"type": "integer"
+								}
+							}
+						},
+						"parent": {
+							"type": "string"
+						}
+					}
+				},
+				"bbb21704-a513-4703-8474-27dca147bbe0": {
+					"type": "object",
+					"properties": {
+						"children": {
+							"type": "array",
+							"items": {
+								"oneOf": [ { "type": "string" } ]
+							}
+						},
+						"id": {
+							"type": "string"
+						},
+						"message": {
+							"type": "object",
+							"properties": {
+								"author": {
+									"type": "object",
+									"properties": {
+										"metadata": {
+											"type": "object"
+										},
+										"name": {
+											"type": "null"
+										},
+										"role": {
+											"type": "string"
+										}
+									}
+								},
+								"channel": {
+									"type": "null"
+								},
+								"content": {
+									"type": "object",
+									"properties": {
+										"content_type": {
+											"type": "string"
+										},
+										"parts": {
+											"type": "array",
+											"items": {
+												"oneOf": [ { "type": "string" } ]
+											}
+										}
+									}
+								},
+								"create_time": {
+									"type": "number"
+								},
+								"end_turn": {
+									"type": "null"
+								},
+								"id": {
+									"type": "string"
+								},
+								"metadata": {
+									"type": "object",
+									"properties": {
+										"can_save": {
+											"type": "boolean"
+										},
+										"content_references": {
+											"type": "array"
+										},
+										"dictation": {
+											"type": "boolean"
+										},
+										"image_gen_async": {
+											"type": "boolean"
+										},
+										"image_results": {
+											"type": "array"
+										},
+										"is_visually_hidden_from_conversation": {
+											"type": "boolean"
+										},
+										"message_source": {
+											"type": "null"
+										},
+										"real_time_audio_has_video": {
+											"type": "boolean"
+										},
+										"request_id": {
+											"type": "string"
+										},
+										"resolved_model_slug": {
+											"type": "string"
+										},
+										"search_queries": {
+											"type": "array"
+										},
+										"search_result_groups": {
+											"type": "array"
+										},
+										"trigger_async_ux": {
+											"type": "boolean"
+										},
+										"turn_exchange_id": {
+											"type": "string"
+										},
+										"writing_blocks": {
+											"type": "object"
+										}
+									}
+								},
+								"recipient": {
+									"type": "string"
+								},
+								"status": {
+									"type": "string"
+								},
+								"update_time": {
+									"type": "null"
+								},
+								"weight": {
+									"type": "integer"
+								}
+							}
+						},
+						"parent": {
+							"type": "string"
+						}
+					}
+				},
+				"bbb2190e-09d6-46d7-bfa8-e37f8ba08954": {
+					"type": "object",
+					"properties": {
+						"children": {
+							"type": "array",
+							"items": {
+								"oneOf": [ { "type": "string" } ]
+							}
+						},
+						"id": {
+							"type": "string"
+						},
+						"message": {
+							"type": "object",
+							"properties": {
+								"author": {
+									"type": "object",
+									"properties": {
+										"metadata": {
+											"type": "object"
+										},
+										"name": {
+											"type": "null"
+										},
+										"role": {
+											"type": "string"
+										}
+									}
+								},
+								"channel": {
+									"type": "null"
+								},
+								"content": {
+									"type": "object",
+									"properties": {
+										"content_type": {
+											"type": "string"
+										},
+										"parts": {
+											"type": "array",
+											"items": {
+												"oneOf": [ { "type": "string" } ]
+											}
+										}
+									}
+								},
+								"create_time": {
+									"type": "number"
+								},
+								"end_turn": {
+									"type": "null"
+								},
+								"id": {
+									"type": "string"
+								},
+								"metadata": {
+									"type": "object",
+									"properties": {
+										"can_save": {
+											"type": "boolean"
+										},
+										"content_references": {
+											"type": "array"
+										},
+										"dictation": {
+											"type": "boolean"
+										},
+										"image_gen_async": {
+											"type": "boolean"
+										},
+										"image_results": {
+											"type": "array"
+										},
+										"is_visually_hidden_from_conversation": {
+											"type": "boolean"
+										},
+										"message_source": {
+											"type": "null"
+										},
+										"real_time_audio_has_video": {
+											"type": "boolean"
+										},
+										"request_id": {
+											"type": "string"
+										},
+										"resolved_model_slug": {
+											"type": "string"
+										},
+										"search_queries": {
+											"type": "array"
+										},
+										"search_result_groups": {
+											"type": "array"
+										},
+										"trigger_async_ux": {
+											"type": "boolean"
+										},
+										"turn_exchange_id": {
+											"type": "string"
+										},
+										"writing_blocks": {
+											"type": "object"
+										}
+									}
+								},
+								"recipient": {
+									"type": "string"
+								},
+								"status": {
+									"type": "string"
+								},
+								"update_time": {
+									"type": "null"
+								},
+								"weight": {
+									"type": "integer"
+								}
+							}
+						},
+						"parent": {
+							"type": "string"
+						}
+					}
+				},
+				"bbb21929-3d70-4c94-85e1-a897ff317755": {
+					"type": "object",
+					"properties": {
+						"children": {
+							"type": "array",
+							"items": {
+								"oneOf": [ { "type": "string" } ]
+							}
+						},
+						"id": {
+							"type": "string"
+						},
+						"message": {
+							"type": "object",
+							"properties": {
+								"author": {
+									"type": "object",
+									"properties": {
+										"metadata": {
+											"type": "object"
+										},
+										"name": {
+											"type": "null"
+										},
+										"role": {
+											"type": "string"
+										}
+									}
+								},
+								"channel": {
+									"type": "null"
+								},
+								"content": {
+									"type": "object",
+									"properties": {
+										"content_type": {
+											"type": "string"
+										},
+										"parts": {
+											"type": "array",
+											"items": {
+												"oneOf": [ { "type": "string" } ]
+											}
+										}
+									}
+								},
+								"create_time": {
+									"type": "number"
+								},
+								"end_turn": {
+									"type": "null"
+								},
+								"id": {
+									"type": "string"
+								},
+								"metadata": {
+									"type": "object",
+									"properties": {
+										"can_save": {
+											"type": "boolean"
+										},
+										"content_references": {
+											"type": "array"
+										},
+										"dictation": {
+											"type": "boolean"
+										},
+										"image_gen_async": {
+											"type": "boolean"
+										},
+										"image_results": {
+											"type": "array"
+										},
+										"is_visually_hidden_from_conversation": {
+											"type": "boolean"
+										},
+										"message_source": {
+											"type": "null"
+										},
+										"real_time_audio_has_video": {
+											"type": "boolean"
+										},
+										"request_id": {
+											"type": "string"
+										},
+										"resolved_model_slug": {
+											"type": "string"
+										},
+										"search_queries": {
+											"type": "array"
+										},
+										"search_result_groups": {
+											"type": "array"
+										},
+										"trigger_async_ux": {
+											"type": "boolean"
+										},
+										"turn_exchange_id": {
+											"type": "string"
+										},
+										"writing_blocks": {
+											"type": "object"
+										}
+									}
+								},
+								"recipient": {
+									"type": "string"
+								},
+								"status": {
+									"type": "string"
+								},
+								"update_time": {
+									"type": "null"
+								},
+								"weight": {
+									"type": "integer"
+								}
+							}
+						},
+						"parent": {
+							"type": "string"
+						}
+					}
+				},
+				"bbb21936-6cbf-4432-9a31-f7196b67125b": {
+					"type": "object",
+					"properties": {
+						"children": {
+							"type": "array",
+							"items": {
+								"oneOf": [ { "type": "string" } ]
+							}
+						},
+						"id": {
+							"type": "string"
+						},
+						"message": {
+							"type": "object",
+							"properties": {
+								"author": {
+									"type": "object",
+									"properties": {
+										"metadata": {
+											"type": "object"
+										},
+										"name": {
+											"type": "null"
+										},
+										"role": {
+											"type": "string"
+										}
+									}
+								},
+								"channel": {
+									"type": "null"
+								},
+								"content": {
+									"type": "object",
+									"properties": {
+										"content_type": {
+											"type": "string"
+										},
+										"parts": {
+											"type": "array",
+											"items": {
+												"oneOf": [ { "type": "string" } ]
+											}
+										}
+									}
+								},
+								"create_time": {
+									"type": "number"
+								},
+								"end_turn": {
+									"type": "null"
+								},
+								"id": {
+									"type": "string"
+								},
+								"metadata": {
+									"type": "object",
+									"properties": {
+										"can_save": {
+											"type": "boolean"
+										},
+										"content_references": {
+											"type": "array"
+										},
+										"dictation": {
+											"type": "boolean"
+										},
+										"image_gen_async": {
+											"type": "boolean"
+										},
+										"image_results": {
+											"type": "array"
+										},
+										"is_visually_hidden_from_conversation": {
+											"type": "boolean"
+										},
+										"message_source": {
+											"type": "null"
+										},
+										"real_time_audio_has_video": {
+											"type": "boolean"
+										},
+										"request_id": {
+											"type": "string"
+										},
+										"resolved_model_slug": {
+											"type": "string"
+										},
+										"search_queries": {
+											"type": "array"
+										},
+										"search_result_groups": {
+											"type": "array"
+										},
+										"trigger_async_ux": {
+											"type": "boolean"
+										},
+										"turn_exchange_id": {
+											"type": "string"
+										},
+										"writing_blocks": {
+											"type": "object"
+										}
+									}
+								},
+								"recipient": {
+									"type": "string"
+								},
+								"status": {
+									"type": "string"
+								},
+								"update_time": {
+									"type": "null"
+								},
+								"weight": {
+									"type": "integer"
+								}
+							}
+						},
+						"parent": {
+							"type": "string"
+						}
+					}
+				},
+				"bbb21a40-16df-4508-a73f-a0fcba1b5ed0": {
+					"type": "object",
+					"properties": {
+						"children": {
+							"type": "array",
+							"items": {
+								"oneOf": [ { "type": "string" } ]
+							}
+						},
+						"id": {
+							"type": "string"
+						},
+						"message": {
+							"type": "object",
+							"properties": {
+								"author": {
+									"type": "object",
+									"properties": {
+										"metadata": {
+											"type": "object"
+										},
+										"name": {
+											"type": "null"
+										},
+										"role": {
+											"type": "string"
+										}
+									}
+								},
+								"channel": {
+									"type": "null"
+								},
+								"content": {
+									"type": "object",
+									"properties": {
+										"content_type": {
+											"type": "string"
+										},
+										"parts": {
+											"type": "array",
+											"items": {
+												"oneOf": [ { "type": "string" } ]
+											}
+										}
+									}
+								},
+								"create_time": {
+									"type": "number"
+								},
+								"end_turn": {
+									"type": "null"
+								},
+								"id": {
+									"type": "string"
+								},
+								"metadata": {
+									"type": "object",
+									"properties": {
+										"can_save": {
+											"type": "boolean"
+										},
+										"content_references": {
+											"type": "array"
+										},
+										"dictation": {
+											"type": "boolean"
+										},
+										"image_gen_async": {
+											"type": "boolean"
+										},
+										"image_results": {
+											"type": "array"
+										},
+										"is_visually_hidden_from_conversation": {
+											"type": "boolean"
+										},
+										"message_source": {
+											"type": "null"
+										},
+										"real_time_audio_has_video": {
+											"type": "boolean"
+										},
+										"request_id": {
+											"type": "string"
+										},
+										"resolved_model_slug": {
+											"type": "string"
+										},
+										"search_queries": {
+											"type": "array"
+										},
+										"search_result_groups": {
+											"type": "array"
+										},
+										"trigger_async_ux": {
+											"type": "boolean"
+										},
+										"turn_exchange_id": {
+											"type": "string"
+										},
+										"writing_blocks": {
+											"type": "object"
+										}
+									}
+								},
+								"recipient": {
+									"type": "string"
+								},
+								"status": {
+									"type": "string"
+								},
+								"update_time": {
+									"type": "null"
+								},
+								"weight": {
+									"type": "integer"
+								}
+							}
+						},
+						"parent": {
+							"type": "string"
+						}
+					}
+				},
+				"bbb21bf2-a03b-476f-a39b-b582353afbff": {
+					"type": "object",
+					"properties": {
+						"children": {
+							"type": "array",
+							"items": {
+								"oneOf": [ { "type": "string" } ]
+							}
+						},
+						"id": {
+							"type": "string"
+						},
+						"message": {
+							"type": "object",
+							"properties": {
+								"author": {
+									"type": "object",
+									"properties": {
+										"metadata": {
+											"type": "object"
+										},
+										"name": {
+											"type": "null"
+										},
+										"role": {
+											"type": "string"
+										}
+									}
+								},
+								"channel": {
+									"type": "null"
+								},
+								"content": {
+									"type": "object",
+									"properties": {
+										"content_type": {
+											"type": "string"
+										},
+										"parts": {
+											"type": "array",
+											"items": {
+												"oneOf": [ { "type": "string" } ]
+											}
+										}
+									}
+								},
+								"create_time": {
+									"type": "number"
+								},
+								"end_turn": {
+									"type": "null"
+								},
+								"id": {
+									"type": "string"
+								},
+								"metadata": {
+									"type": "object",
+									"properties": {
+										"can_save": {
+											"type": "boolean"
+										},
+										"content_references": {
+											"type": "array"
+										},
+										"dictation": {
+											"type": "boolean"
+										},
+										"image_gen_async": {
+											"type": "boolean"
+										},
+										"image_results": {
+											"type": "array"
+										},
+										"is_visually_hidden_from_conversation": {
+											"type": "boolean"
+										},
+										"message_source": {
+											"type": "null"
+										},
+										"real_time_audio_has_video": {
+											"type": "boolean"
+										},
+										"request_id": {
+											"type": "string"
+										},
+										"resolved_model_slug": {
+											"type": "string"
+										},
+										"search_queries": {
+											"type": "array"
+										},
+										"search_result_groups": {
+											"type": "array"
+										},
+										"trigger_async_ux": {
+											"type": "boolean"
+										},
+										"turn_exchange_id": {
+											"type": "string"
+										},
+										"writing_blocks": {
+											"type": "object"
+										}
+									}
+								},
+								"recipient": {
+									"type": "string"
+								},
+								"status": {
+									"type": "string"
+								},
+								"update_time": {
+									"type": "null"
+								},
+								"weight": {
+									"type": "integer"
+								}
+							}
+						},
+						"parent": {
+							"type": "string"
+						}
+					}
+				},
+				"bbb21f03-e160-44b1-9226-8937e58a5420": {
+					"type": "object",
+					"properties": {
+						"children": {
+							"type": "array",
+							"items": {
+								"oneOf": [ { "type": "string" } ]
+							}
+						},
+						"id": {
+							"type": "string"
+						},
+						"message": {
+							"type": "object",
+							"properties": {
+								"author": {
+									"type": "object",
+									"properties": {
+										"metadata": {
+											"type": "object"
+										},
+										"name": {
+											"type": "null"
+										},
+										"role": {
+											"type": "string"
+										}
+									}
+								},
+								"channel": {
+									"type": "null"
+								},
+								"content": {
+									"type": "object",
+									"properties": {
+										"content_type": {
+											"type": "string"
+										},
+										"parts": {
+											"type": "array",
+											"items": {
+												"oneOf": [ { "type": "string" } ]
+											}
+										}
+									}
+								},
+								"create_time": {
+									"type": "number"
+								},
+								"end_turn": {
+									"type": "null"
+								},
+								"id": {
+									"type": "string"
+								},
+								"metadata": {
+									"type": "object",
+									"properties": {
+										"attachments": {
+											"type": "array",
+											"items": {
+												"oneOf": [
+													{
+														"type": "object",
+														"properties": {
+															"id": {
+																"type": "string"
+															},
+															"mime_type": {
+																"type": "string"
+															},
+															"name": {
+																"type": "string"
+															},
+															"size": {
+																"type": "integer"
+															}
+														}
+													}
+												]
+											}
+										},
+										"can_save": {
+											"type": "boolean"
+										},
+										"content_references": {
+											"type": "array"
+										},
+										"dictation": {
+											"type": "boolean"
+										},
+										"image_gen_async": {
+											"type": "boolean"
+										},
+										"image_results": {
+											"type": "array"
+										},
+										"is_visually_hidden_from_conversation": {
+											"type": "boolean"
+										},
+										"message_source": {
+											"type": "null"
+										},
+										"real_time_audio_has_video": {
+											"type": "boolean"
+										},
+										"request_id": {
+											"type": "string"
+										},
+										"search_queries": {
+											"type": "array"
+										},
+										"search_result_groups": {
+											"type": "array"
+										},
+										"timestamp_": {
+											"type": "string"
+										},
+										"trigger_async_ux": {
+											"type": "boolean"
+										}
+									}
+								},
+								"recipient": {
+									"type": "string"
+								},
+								"status": {
+									"type": "string"
+								},
+								"update_time": {
+									"type": "null"
+								},
+								"weight": {
+									"type": "integer"
+								}
+							}
+						},
+						"parent": {
+							"type": "string"
+						}
+					}
+				},
+				"bbb21f0a-d5f7-4d66-ad0d-e2290dca09a0": {
+					"type": "object",
+					"properties": {
+						"children": {
+							"type": "array",
+							"items": {
+								"oneOf": [ { "type": "string" } ]
+							}
+						},
+						"id": {
+							"type": "string"
+						},
+						"message": {
+							"type": "object",
+							"properties": {
+								"author": {
+									"type": "object",
+									"properties": {
+										"metadata": {
+											"type": "object"
+										},
+										"name": {
+											"type": "null"
+										},
+										"role": {
+											"type": "string"
+										}
+									}
+								},
+								"channel": {
+									"type": "null"
+								},
+								"content": {
+									"type": "object",
+									"properties": {
+										"content_type": {
+											"type": "string"
+										},
+										"parts": {
+											"type": "array",
+											"items": {
+												"oneOf": [ { "type": "string" } ]
+											}
+										}
+									}
+								},
+								"create_time": {
+									"type": "number"
+								},
+								"end_turn": {
+									"type": "null"
+								},
+								"id": {
+									"type": "string"
+								},
+								"metadata": {
+									"type": "object",
+									"properties": {
+										"can_save": {
+											"type": "boolean"
+										},
+										"content_references": {
+											"type": "array"
+										},
+										"dictation": {
+											"type": "boolean"
+										},
+										"image_gen_async": {
+											"type": "boolean"
+										},
+										"image_results": {
+											"type": "array"
+										},
+										"is_visually_hidden_from_conversation": {
+											"type": "boolean"
+										},
+										"message_source": {
+											"type": "null"
+										},
+										"real_time_audio_has_video": {
+											"type": "boolean"
+										},
+										"request_id": {
+											"type": "string"
+										},
+										"resolved_model_slug": {
+											"type": "string"
+										},
+										"search_queries": {
+											"type": "array"
+										},
+										"search_result_groups": {
+											"type": "array"
+										},
+										"trigger_async_ux": {
+											"type": "boolean"
+										},
+										"turn_exchange_id": {
+											"type": "string"
+										},
+										"writing_blocks": {
+											"type": "object"
+										}
+									}
+								},
+								"recipient": {
+									"type": "string"
+								},
+								"status": {
+									"type": "string"
+								},
+								"update_time": {
+									"type": "null"
+								},
+								"weight": {
+									"type": "integer"
+								}
+							}
+						},
+						"parent": {
+							"type": "string"
+						}
+					}
+				},
+				"bbb21f42-82a8-48cf-92c3-28ec7cbf9906": {
+					"type": "object",
+					"properties": {
+						"children": {
+							"type": "array",
+							"items": {
+								"oneOf": [ { "type": "string" } ]
+							}
+						},
+						"id": {
+							"type": "string"
+						},
+						"message": {
+							"type": "object",
+							"properties": {
+								"author": {
+									"type": "object",
+									"properties": {
+										"metadata": {
+											"type": "object"
+										},
+										"name": {
+											"type": "null"
+										},
+										"role": {
+											"type": "string"
+										}
+									}
+								},
+								"channel": {
+									"type": "null"
+								},
+								"content": {
+									"type": "object",
+									"properties": {
+										"content_type": {
+											"type": "string"
+										},
+										"parts": {
+											"type": "array",
+											"items": {
+												"oneOf": [ { "type": "string" } ]
+											}
+										}
+									}
+								},
+								"create_time": {
+									"type": "number"
+								},
+								"end_turn": {
+									"type": "null"
+								},
+								"id": {
+									"type": "string"
+								},
+								"metadata": {
+									"type": "object",
+									"properties": {
+										"can_save": {
+											"type": "boolean"
+										},
+										"content_references": {
+											"type": "array"
+										},
+										"dictation": {
+											"type": "boolean"
+										},
+										"image_gen_async": {
+											"type": "boolean"
+										},
+										"image_results": {
+											"type": "array"
+										},
+										"is_visually_hidden_from_conversation": {
+											"type": "boolean"
+										},
+										"message_source": {
+											"type": "null"
+										},
+										"real_time_audio_has_video": {
+											"type": "boolean"
+										},
+										"request_id": {
+											"type": "string"
+										},
+										"resolved_model_slug": {
+											"type": "string"
+										},
+										"search_queries": {
+											"type": "array"
+										},
+										"search_result_groups": {
+											"type": "array"
+										},
+										"trigger_async_ux": {
+											"type": "boolean"
+										},
+										"turn_exchange_id": {
+											"type": "string"
+										},
+										"writing_blocks": {
+											"type": "object"
+										}
+									}
+								},
+								"recipient": {
+									"type": "string"
+								},
+								"status": {
+									"type": "string"
+								},
+								"update_time": {
+									"type": "null"
+								},
+								"weight": {
+									"type": "integer"
+								}
+							}
+						},
+						"parent": {
+							"type": "string"
+						}
+					}
+				},
+				"c13ae024-881b-42c5-9a0d-83652d8fd32f": {
+					"type": "object",
+					"properties": {
+						"children": {
+							"type": "array",
+							"items": {
+								"oneOf": [ { "type": "string" } ]
+							}
+						},
+						"id": {
+							"type": "string"
+						},
+						"message": {
+							"type": "object",
+							"properties": {
+								"author": {
+									"type": "object",
+									"properties": {
+										"metadata": {
+											"type": "object"
+										},
+										"name": {
+											"type": "string"
+										},
+										"role": {
+											"type": "string"
+										}
+									}
+								},
+								"channel": {
+									"type": "null"
+								},
+								"content": {
+									"type": "object",
+									"properties": {
+										"content_type": {
+											"type": "string"
+										},
+										"text": {
+											"type": "string"
+										}
+									}
+								},
+								"create_time": {
+									"type": "number"
+								},
+								"end_turn": {
+									"type": "null"
+								},
+								"id": {
+									"type": "string"
+								},
+								"metadata": {
+									"type": "object",
+									"properties": {
+										"aggregate_result": {
+											"type": "object",
+											"properties": {
+												"code": {
+													"type": "string"
+												},
+												"end_time": {
+													"type": "number"
+												},
+												"final_expression_output": {
+													"type": "string"
+												},
+												"in_kernel_exception": {
+													"type": "null"
+												},
+												"jupyter_messages": {
+													"type": "array",
+													"items": {
+														"oneOf": [
+															{
+																"type": "object",
+																"properties": {
+																	"content": {
+																		"type": "object",
+																		"properties": {
+																			"execution_state": {
+																				"type": "string"
+																			},
+																			"data": {
+																				"type": "object",
+																				"properties": {
+																					"text/plain": {
+																						"type": "string"
+																					}
+																				}
+																			}
+																		}
+																	},
+																	"msg_type": {
+																		"type": "string"
+																	},
+																	"parent_header": {
+																		"type": "object",
+																		"properties": {
+																			"msg_id": {
+																				"type": "string"
+																			},
+																			"version": {
+																				"type": "string"
+																			}
+																		}
+																	}
+																}
+															}
+														]
+													}
+												},
+												"messages": {
+													"type": "array"
+												},
+												"run_id": {
+													"type": "string"
+												},
+												"start_time": {
+													"type": "number"
+												},
+												"status": {
+													"type": "string"
+												},
+												"system_exception": {
+													"type": "null"
+												},
+												"timeout_triggered": {
+													"type": "null"
+												},
+												"update_time": {
+													"type": "number"
+												}
+											}
+										},
+										"can_save": {
+											"type": "boolean"
+										},
+										"default_model_slug": {
+											"type": "string"
+										},
+										"is_complete": {
+											"type": "boolean"
+										},
+										"message_type": {
+											"type": "string"
+										},
+										"model_slug": {
+											"type": "string"
+										},
+										"parent_id": {
+											"type": "string"
+										},
+										"request_id": {
+											"type": "string"
+										},
+										"timestamp_": {
+											"type": "string"
+										}
+									}
+								},
+								"recipient": {
+									"type": "string"
+								},
+								"weight": {
+									"type": "integer"
+								}
+							}
+						},
+						"parent": {
+							"type": "string"
+						}
+					}
+				},
+				"c16bb111-ddfb-4000-a312-33db9cbcd0db": {
+					"type": "object",
+					"properties": {
+						"children": {
+							"type": "array",
+							"items": {
+								"oneOf": [ { "type": "string" } ]
+							}
+						},
+						"id": {
+							"type": "string"
+						},
+						"message": {
+							"type": "object",
+							"properties": {
+								"author": {
+									"type": "object",
+									"properties": {
+										"metadata": {
+											"type": "object"
+										},
+										"name": {
+											"type": "null"
+										},
+										"role": {
+											"type": "string"
+										}
+									}
+								},
+								"channel": {
+									"type": "string"
+								},
+								"content": {
+									"type": "object",
+									"properties": {
+										"content_type": {
+											"type": "string"
+										},
+										"parts": {
+											"type": "array",
+											"items": {
+												"oneOf": [ { "type": "string" } ]
+											}
+										}
+									}
+								},
+								"create_time": {
+									"type": "number"
+								},
+								"end_turn": {
+									"type": "boolean"
+								},
+								"id": {
+									"type": "string"
+								},
+								"metadata": {
+									"type": "object",
+									"properties": {
+										"can_save": {
+											"type": "boolean"
+										},
+										"citations": {
+											"type": "array"
+										},
+										"content_references": {
+											"type": "array"
+										},
+										"default_model_slug": {
+											"type": "string"
+										},
+										"finish_details": {
+											"type": "object",
+											"properties": {
+												"stop_tokens": {
+													"type": "array",
+													"items": {
+														"oneOf": [
+															{
+																"type": "integer"
+															}
+														]
+													}
+												},
+												"type": {
+													"type": "string"
+												}
+											}
+										},
+										"is_complete": {
+											"type": "boolean"
+										},
+										"message_type": {
+											"type": "string"
+										},
+										"model_slug": {
+											"type": "string"
+										},
+										"model_switcher_deny": {
+											"type": "array",
+											"items": {
+												"oneOf": [
+													{
+														"type": "object",
+														"properties": {
+															"context": {
+																"type": "string"
+															},
+															"description": {
+																"type": "string"
+															},
+															"is_available": {
+																"type": "boolean"
+															},
+															"reason": {
+																"type": "string"
+															},
+															"slug": {
+																"type": "string"
+															}
+														}
+													}
+												]
+											}
+										},
+										"parent_id": {
+											"type": "string"
+										},
+										"request_id": {
+											"type": "string"
+										},
+										"resolved_model_slug": {
+											"type": "string"
+										},
+										"turn_exchange_id": {
+											"type": "string"
+										}
+									}
+								},
+								"recipient": {
+									"type": "string"
+								},
+								"status": {
+									"type": "string"
+								},
+								"update_time": {
+									"type": "null"
+								},
+								"weight": {
+									"type": "integer"
+								}
+							}
+						},
+						"parent": {
+							"type": "string"
+						}
+					}
+				},
+				"c1a9d8fb-1d19-40a6-8e93-6eddf3621332": {
+					"type": "object",
+					"properties": {
+						"children": {
+							"type": "array",
+							"items": {
+								"oneOf": [ { "type": "string" } ]
+							}
+						},
+						"id": {
+							"type": "string"
+						},
+						"message": {
+							"type": "object",
+							"properties": {
+								"author": {
+									"type": "object",
+									"properties": {
+										"metadata": {
+											"type": "object"
+										},
+										"name": {
+											"type": "null"
+										},
+										"role": {
+											"type": "string"
+										}
+									}
+								},
+								"channel": {
+									"type": "null"
+								},
+								"content": {
+									"type": "object",
+									"properties": {
+										"content_type": {
+											"type": "string"
+										},
+										"parts": {
+											"type": "array",
+											"items": {
+												"oneOf": [ { "type": "string" } ]
+											}
+										}
+									}
+								},
+								"create_time": {
+									"type": "number"
+								},
+								"end_turn": {
+									"type": "boolean"
+								},
+								"id": {
+									"type": "string"
+								},
+								"metadata": {
+									"type": "object",
+									"properties": {
+										"can_save": {
+											"type": "boolean"
+										},
+										"citations": {
+											"type": "array"
+										},
+										"content_references": {
+											"type": "array"
+										},
+										"default_model_slug": {
+											"type": "string"
+										},
+										"finish_details": {
+											"type": "object",
+											"properties": {
+												"stop_tokens": {
+													"type": "array",
+													"items": {
+														"oneOf": [
+															{
+																"type": "integer"
+															}
+														]
+													}
+												},
+												"type": {
+													"type": "string"
+												}
+											}
+										},
+										"is_complete": {
+											"type": "boolean"
+										},
+										"message_type": {
+											"type": "string"
+										},
+										"model_slug": {
+											"type": "string"
+										},
+										"model_switcher_deny": {
+											"type": "array",
+											"items": {
+												"oneOf": [
+													{
+														"type": "object",
+														"properties": {
+															"context": {
+																"type": "string"
+															},
+															"description": {
+																"type": "string"
+															},
+															"is_available": {
+																"type": "boolean"
+															},
+															"reason": {
+																"type": "string"
+															},
+															"slug": {
+																"type": "string"
+															}
+														}
+													}
+												]
+											}
+										},
+										"parent_id": {
+											"type": "string"
+										},
+										"request_id": {
+											"type": "string"
+										},
+										"timestamp_": {
+											"type": "string"
+										}
+									}
+								},
+								"recipient": {
+									"type": "string"
+								},
+								"status": {
+									"type": "string"
+								},
+								"update_time": {
+									"type": "null"
+								},
+								"weight": {
+									"type": "integer"
+								}
+							}
+						},
+						"parent": {
+							"type": "string"
+						}
+					}
+				},
+				"c4867af2-b6f2-43db-a59b-18033dfdf0b6": {
+					"type": "object",
+					"properties": {
+						"children": {
+							"type": "array",
+							"items": {
+								"oneOf": [ { "type": "string" } ]
+							}
+						},
+						"id": {
+							"type": "string"
+						},
+						"message": {
+							"type": "object",
+							"properties": {
+								"author": {
+									"type": "object",
+									"properties": {
+										"metadata": {
+											"type": "object"
+										},
+										"name": {
+											"type": "null"
+										},
+										"role": {
+											"type": "string"
+										}
+									}
+								},
+								"channel": {
+									"type": "null"
+								},
+								"content": {
+									"type": "object",
+									"properties": {
+										"content_type": {
+											"type": "string"
+										},
+										"parts": {
+											"type": "array",
+											"items": {
+												"oneOf": [ { "type": "string" } ]
+											}
+										}
+									}
+								},
+								"create_time": {
+									"type": "number"
+								},
+								"end_turn": {
+									"type": "boolean"
+								},
+								"id": {
+									"type": "string"
+								},
+								"metadata": {
+									"type": "object",
+									"properties": {
+										"can_save": {
+											"type": "boolean"
+										},
+										"default_model_slug": {
+											"type": "string"
+										},
+										"is_visually_hidden_from_conversation": {
+											"type": "boolean"
+										},
+										"message_type": {
+											"type": "string"
+										},
+										"model_slug": {
+											"type": "string"
+										},
+										"parent_id": {
+											"type": "string"
+										},
+										"request_id": {
+											"type": "string"
+										},
+										"turn_exchange_id": {
+											"type": "string"
+										}
+									}
+								},
+								"recipient": {
+									"type": "string"
+								},
+								"status": {
+									"type": "string"
+								},
+								"update_time": {
+									"type": "null"
+								},
+								"weight": {
+									"type": "integer"
+								}
+							}
+						},
+						"parent": {
+							"type": "string"
+						}
+					}
+				},
+				"c8608389-d2a7-4073-8c8e-2194818e046c": {
+					"type": "object",
+					"properties": {
+						"children": {
+							"type": "array",
+							"items": {
+								"oneOf": [ { "type": "string" } ]
+							}
+						},
+						"id": {
+							"type": "string"
+						},
+						"message": {
+							"type": "object",
+							"properties": {
+								"author": {
+									"type": "object",
+									"properties": {
+										"metadata": {
+											"type": "object"
+										},
+										"name": {
+											"type": "null"
+										},
+										"role": {
+											"type": "string"
+										}
+									}
+								},
+								"channel": {
+									"type": "null"
+								},
+								"content": {
+									"type": "object",
+									"properties": {
+										"content_type": {
+											"type": "string"
+										},
+										"model_set_context": {
+											"type": "string"
+										},
+										"repo_summary": {
+											"type": "null"
+										},
+										"repository": {
+											"type": "null"
+										},
+										"structured_context": {
+											"type": "null"
+										}
+									}
+								},
+								"create_time": {
+									"type": "number"
+								},
+								"end_turn": {
+									"type": "null"
+								},
+								"id": {
+									"type": "string"
+								},
+								"metadata": {
+									"type": "object",
+									"properties": {
+										"can_save": {
+											"type": "boolean"
+										},
+										"default_model_slug": {
+											"type": "string"
+										},
+										"message_type": {
+											"type": "string"
+										},
+										"model_slug": {
+											"type": "string"
+										},
+										"model_switcher_deny": {
+											"type": "array",
+											"items": {
+												"oneOf": [
+													{
+														"type": "object",
+														"properties": {
+															"context": {
+																"type": "string"
+															},
+															"description": {
+																"type": "string"
+															},
+															"is_available": {
+																"type": "boolean"
+															},
+															"reason": {
+																"type": "string"
+															},
+															"slug": {
+																"type": "string"
+															}
+														}
+													}
+												]
+											}
+										},
+										"parent_id": {
+											"type": "string"
+										},
+										"request_id": {
+											"type": "string"
+										},
+										"timestamp_": {
+											"type": "string"
+										}
+									}
+								},
+								"recipient": {
+									"type": "string"
+								},
+								"status": {
+									"type": "string"
+								},
+								"update_time": {
+									"type": "null"
+								},
+								"weight": {
+									"type": "integer"
+								}
+							}
+						},
+						"parent": {
+							"type": "string"
+						}
+					}
+				},
+				"cb33d622-c0f3-47b4-9877-95f0456c71f2": {
+					"type": "object",
+					"properties": {
+						"children": {
+							"type": "array",
+							"items": {
+								"oneOf": [ { "type": "string" } ]
+							}
+						},
+						"id": {
+							"type": "string"
+						},
+						"message": {
+							"type": "object",
+							"properties": {
+								"author": {
+									"type": "object",
+									"properties": {
+										"metadata": {
+											"type": "object"
+										},
+										"name": {
+											"type": "string"
+										},
+										"role": {
+											"type": "string"
+										}
+									}
+								},
+								"channel": {
+									"type": "null"
+								},
+								"content": {
+									"type": "object",
+									"properties": {
+										"content_type": {
+											"type": "string"
+										},
+										"parts": {
+											"type": "array",
+											"items": {
+												"oneOf": [ { "type": "string" } ]
+											}
+										}
+									}
+								},
+								"create_time": {
+									"type": "number"
+								},
+								"end_turn": {
+									"type": "null"
+								},
+								"id": {
+									"type": "string"
+								},
+								"metadata": {
+									"type": "object",
+									"properties": {
+										"can_save": {
+											"type": "boolean"
+										},
+										"default_model_slug": {
+											"type": "string"
+										},
+										"is_visually_hidden_from_conversation": {
+											"type": "boolean"
+										},
+										"message_type": {
+											"type": "string"
+										},
+										"model_slug": {
+											"type": "string"
+										},
+										"parent_id": {
+											"type": "string"
+										},
+										"request_id": {
+											"type": "string"
+										},
+										"timestamp_": {
+											"type": "string"
+										}
+									}
+								},
+								"recipient": {
+									"type": "string"
+								},
+								"status": {
+									"type": "string"
+								},
+								"update_time": {
+									"type": "null"
+								},
+								"weight": {
+									"type": "integer"
+								}
+							}
+						},
+						"parent": {
+							"type": "string"
+						}
+					}
+				},
+				"cbd2ca64-682a-426e-8dcf-5d1dbba3b2ac": {
+					"type": "object",
+					"properties": {
+						"children": {
+							"type": "array",
+							"items": {
+								"oneOf": [ { "type": "string" } ]
+							}
+						},
+						"id": {
+							"type": "string"
+						},
+						"message": {
+							"type": "object",
+							"properties": {
+								"author": {
+									"type": "object",
+									"properties": {
+										"metadata": {
+											"type": "object"
+										},
+										"name": {
+											"type": "string"
+										},
+										"role": {
+											"type": "string"
+										}
+									}
+								},
+								"channel": {
+									"type": "string"
+								},
+								"content": {
+									"type": "object",
+									"properties": {
+										"content_type": {
+											"type": "string"
+										},
+										"text": {
+											"type": "string"
+										}
+									}
+								},
+								"create_time": {
+									"type": "number"
+								},
+								"end_turn": {
+									"type": "null"
+								},
+								"id": {
+									"type": "string"
+								},
+								"metadata": {
+									"type": "object",
+									"properties": {
+										"aggregate_result": {
+											"type": "object",
+											"properties": {
+												"code": {
+													"type": "string"
+												},
+												"end_time": {
+													"type": "null"
+												},
+												"final_expression_output": {
+													"type": "null"
+												},
+												"in_kernel_exception": {
+													"type": "null"
+												},
+												"jupyter_messages": {
+													"type": "array"
+												},
+												"messages": {
+													"type": "array"
+												},
+												"run_id": {
+													"type": "string"
+												},
+												"start_time": {
+													"type": "number"
+												},
+												"status": {
+													"type": "string"
+												},
+												"system_exception": {
+													"type": "null"
+												},
+												"timeout_triggered": {
+													"type": "null"
+												},
+												"update_time": {
+													"type": "number"
+												}
+											}
+										},
+										"can_save": {
+											"type": "boolean"
+										},
+										"default_model_slug": {
+											"type": "string"
+										},
+										"is_complete": {
+											"type": "boolean"
+										},
+										"message_type": {
+											"type": "string"
+										},
+										"model_slug": {
+											"type": "string"
+										},
+										"parent_id": {
+											"type": "string"
+										},
+										"request_id": {
+											"type": "string"
+										},
+										"turn_exchange_id": {
+											"type": "string"
+										}
+									}
+								},
+								"recipient": {
+									"type": "string"
+								},
+								"weight": {
+									"type": "integer"
+								}
+							}
+						},
+						"parent": {
+							"type": "string"
+						}
+					}
+				},
+				"d3fe8bd4-81c0-430b-8fba-7320e9e306a8": {
+					"type": "object",
+					"properties": {
+						"children": {
+							"type": "array",
+							"items": {
+								"oneOf": [ { "type": "string" } ]
+							}
+						},
+						"id": {
+							"type": "string"
+						},
+						"message": {
+							"type": "object",
+							"properties": {
+								"author": {
+									"type": "object",
+									"properties": {
+										"metadata": {
+											"type": "object"
+										},
+										"name": {
+											"type": "null"
+										},
+										"role": {
+											"type": "string"
+										}
+									}
+								},
+								"channel": {
+									"type": "null"
+								},
+								"content": {
+									"type": "object",
+									"properties": {
+										"content_type": {
+											"type": "string"
+										},
+										"model_set_context": {
+											"type": "string"
+										},
+										"repo_summary": {
+											"type": "null"
+										},
+										"repository": {
+											"type": "null"
+										},
+										"structured_context": {
+											"type": "null"
+										}
+									}
+								},
+								"create_time": {
+									"type": "number"
+								},
+								"end_turn": {
+									"type": "null"
+								},
+								"id": {
+									"type": "string"
+								},
+								"metadata": {
+									"type": "object",
+									"properties": {
+										"can_save": {
+											"type": "boolean"
+										},
+										"default_model_slug": {
+											"type": "string"
+										},
+										"message_type": {
+											"type": "string"
+										},
+										"model_slug": {
+											"type": "string"
+										},
+										"model_switcher_deny": {
+											"type": "array",
+											"items": {
+												"oneOf": [
+													{
+														"type": "object",
+														"properties": {
+															"context": {
+																"type": "string"
+															},
+															"description": {
+																"type": "string"
+															},
+															"is_available": {
+																"type": "boolean"
+															},
+															"reason": {
+																"type": "string"
+															},
+															"slug": {
+																"type": "string"
+															}
+														}
+													}
+												]
+											}
+										},
+										"parent_id": {
+											"type": "string"
+										},
+										"request_id": {
+											"type": "string"
+										},
+										"search_result_groups": {
+											"type": "array"
+										},
+										"turn_exchange_id": {
+											"type": "string"
+										}
+									}
+								},
+								"recipient": {
+									"type": "string"
+								},
+								"status": {
+									"type": "string"
+								},
+								"update_time": {
+									"type": "null"
+								},
+								"weight": {
+									"type": "integer"
+								}
+							}
+						},
+						"parent": {
+							"type": "string"
+						}
+					}
+				},
+				"d733aa38-3b91-4ea7-85d2-72d113c850e2": {
+					"type": "object",
+					"properties": {
+						"children": {
+							"type": "array",
+							"items": {
+								"oneOf": [ { "type": "string" } ]
+							}
+						},
+						"id": {
+							"type": "string"
+						},
+						"message": {
+							"type": "object",
+							"properties": {
+								"author": {
+									"type": "object",
+									"properties": {
+										"metadata": {
+											"type": "object"
+										},
+										"name": {
+											"type": "null"
+										},
+										"role": {
+											"type": "string"
+										}
+									}
+								},
+								"channel": {
+									"type": "null"
+								},
+								"content": {
+									"type": "object",
+									"properties": {
+										"content": {
+											"type": "string"
+										},
+										"content_type": {
+											"type": "string"
+										}
+									}
+								},
+								"create_time": {
+									"type": "number"
+								},
+								"end_turn": {
+									"type": "boolean"
+								},
+								"id": {
+									"type": "string"
+								},
+								"metadata": {
+									"type": "object",
+									"properties": {
+										"can_save": {
+											"type": "boolean"
+										},
+										"default_model_slug": {
+											"type": "string"
+										},
+										"finished_duration_sec": {
+											"type": "integer"
+										},
+										"message_type": {
+											"type": "string"
+										},
+										"model_slug": {
+											"type": "string"
+										},
+										"model_switcher_deny": {
+											"type": "array",
+											"items": {
+												"oneOf": [
+													{
+														"type": "object",
+														"properties": {
+															"context": {
+																"type": "string"
+															},
+															"description": {
+																"type": "string"
+															},
+															"is_available": {
+																"type": "boolean"
+															},
+															"reason": {
+																"type": "string"
+															},
+															"slug": {
+																"type": "string"
+															}
+														}
+													}
+												]
+											}
+										},
+										"parent_id": {
+											"type": "string"
+										},
+										"reasoning_status": {
+											"type": "string"
+										},
+										"request_id": {
+											"type": "string"
+										},
+										"timestamp_": {
+											"type": "string"
+										}
+									}
+								},
+								"recipient": {
+									"type": "string"
+								},
+								"status": {
+									"type": "string"
+								},
+								"update_time": {
+									"type": "null"
+								},
+								"weight": {
+									"type": "integer"
+								}
+							}
+						},
+						"parent": {
+							"type": "string"
+						}
+					}
+				},
+				"e66336ed-ed92-4dfb-aebf-2cf6ba00dd17": {
+					"type": "object",
+					"properties": {
+						"children": {
+							"type": "array",
+							"items": {
+								"oneOf": [ { "type": "string" } ]
+							}
+						},
+						"id": {
+							"type": "string"
+						},
+						"message": {
+							"type": "object",
+							"properties": {
+								"author": {
+									"type": "object",
+									"properties": {
+										"metadata": {
+											"type": "object"
+										},
+										"name": {
+											"type": "null"
+										},
+										"role": {
+											"type": "string"
+										}
+									}
+								},
+								"channel": {
+									"type": "null"
+								},
+								"content": {
+									"type": "object",
+									"properties": {
+										"content_type": {
+											"type": "string"
+										},
+										"parts": {
+											"type": "array",
+											"items": {
+												"oneOf": [ { "type": "string" } ]
+											}
+										}
+									}
+								},
+								"create_time": {
+									"type": "number"
+								},
+								"end_turn": {
+									"type": "boolean"
+								},
+								"id": {
+									"type": "string"
+								},
+								"metadata": {
+									"type": "object",
+									"properties": {
+										"can_save": {
+											"type": "boolean"
+										},
+										"default_model_slug": {
+											"type": "string"
+										},
+										"is_visually_hidden_from_conversation": {
+											"type": "boolean"
+										},
+										"message_type": {
+											"type": "string"
+										},
+										"model_slug": {
+											"type": "string"
+										},
+										"parent_id": {
+											"type": "string"
+										},
+										"rebase_developer_message": {
+											"type": "boolean"
+										},
+										"request_id": {
+											"type": "string"
+										},
+										"turn_exchange_id": {
+											"type": "string"
+										}
+									}
+								},
+								"recipient": {
+									"type": "string"
+								},
+								"status": {
+									"type": "string"
+								},
+								"update_time": {
+									"type": "null"
+								},
+								"weight": {
+									"type": "integer"
+								}
+							}
+						},
+						"parent": {
+							"type": "string"
+						}
+					}
+				},
+				"eff4c8d0-277e-481f-bba6-4b15039288d1": {
+					"type": "object",
+					"properties": {
+						"children": {
+							"type": "array",
+							"items": {
+								"oneOf": [ { "type": "string" } ]
+							}
+						},
+						"id": {
+							"type": "string"
+						},
+						"message": {
+							"type": "object",
+							"properties": {
+								"author": {
+									"type": "object",
+									"properties": {
+										"metadata": {
+											"type": "object"
+										},
+										"name": {
+											"type": "null"
+										},
+										"role": {
+											"type": "string"
+										}
+									}
+								},
+								"channel": {
+									"type": "null"
+								},
+								"content": {
+									"type": "object",
+									"properties": {
+										"content_type": {
+											"type": "string"
+										},
+										"parts": {
+											"type": "array",
+											"items": {
+												"oneOf": [ { "type": "string" } ]
+											}
+										}
+									}
+								},
+								"create_time": {
+									"type": "number"
+								},
+								"end_turn": {
+									"type": "boolean"
+								},
+								"id": {
+									"type": "string"
+								},
+								"metadata": {
+									"type": "object",
+									"properties": {
+										"can_save": {
+											"type": "boolean"
+										},
+										"default_model_slug": {
+											"type": "string"
+										},
+										"is_visually_hidden_from_conversation": {
+											"type": "boolean"
+										},
+										"message_type": {
+											"type": "string"
+										},
+										"model_slug": {
+											"type": "string"
+										},
+										"parent_id": {
+											"type": "string"
+										},
+										"rebase_system_message": {
+											"type": "boolean"
+										},
+										"request_id": {
+											"type": "string"
+										},
+										"turn_exchange_id": {
+											"type": "string"
+										}
+									}
+								},
+								"recipient": {
+									"type": "string"
+								},
+								"status": {
+									"type": "string"
+								},
+								"update_time": {
+									"type": "null"
+								},
+								"weight": {
+									"type": "integer"
+								}
+							}
+						},
+						"parent": {
+							"type": "string"
+						}
+					}
+				},
+				"f2e13e0b-c38e-4d6c-8e19-7633be4ff204": {
+					"type": "object",
+					"properties": {
+						"children": {
+							"type": "array",
+							"items": {
+								"oneOf": [ { "type": "string" } ]
+							}
+						},
+						"id": {
+							"type": "string"
+						},
+						"message": {
+							"type": "object",
+							"properties": {
+								"author": {
+									"type": "object",
+									"properties": {
+										"metadata": {
+											"type": "object"
+										},
+										"name": {
+											"type": "null"
+										},
+										"role": {
+											"type": "string"
+										}
+									}
+								},
+								"channel": {
+									"type": "null"
+								},
+								"content": {
+									"type": "object",
+									"properties": {
+										"content_type": {
+											"type": "string"
+										},
+										"parts": {
+											"type": "array",
+											"items": {
+												"oneOf": [ { "type": "string" } ]
+											}
+										}
+									}
+								},
+								"create_time": {
+									"type": "number"
+								},
+								"end_turn": {
+									"type": "boolean"
+								},
+								"id": {
+									"type": "string"
+								},
+								"metadata": {
+									"type": "object",
+									"properties": {
+										"can_save": {
+											"type": "boolean"
+										},
+										"default_model_slug": {
+											"type": "string"
+										},
+										"is_visually_hidden_from_conversation": {
+											"type": "boolean"
+										},
+										"message_type": {
+											"type": "string"
+										},
+										"model_slug": {
+											"type": "string"
+										},
+										"parent_id": {
+											"type": "string"
+										},
+										"rebase_system_message": {
+											"type": "boolean"
+										},
+										"request_id": {
+											"type": "string"
+										},
+										"turn_exchange_id": {
+											"type": "string"
+										}
+									}
+								},
+								"recipient": {
+									"type": "string"
+								},
+								"status": {
+									"type": "string"
+								},
+								"update_time": {
+									"type": "null"
+								},
+								"weight": {
+									"type": "integer"
+								}
+							}
+						},
+						"parent": {
+							"type": "string"
+						}
+					}
+				},
+				"fbb3586e-1f84-4ef9-b504-ec35620ccce3": {
+					"type": "object",
+					"properties": {
+						"children": {
+							"type": "array",
+							"items": {
+								"oneOf": [ { "type": "string" } ]
+							}
+						},
+						"id": {
+							"type": "string"
+						},
+						"message": {
+							"type": "object",
+							"properties": {
+								"author": {
+									"type": "object",
+									"properties": {
+										"metadata": {
+											"type": "object"
+										},
+										"name": {
+											"type": "null"
+										},
+										"role": {
+											"type": "string"
+										}
+									}
+								},
+								"channel": {
+									"type": "string"
+								},
+								"content": {
+									"type": "object",
+									"properties": {
+										"content_type": {
+											"type": "string"
+										},
+										"parts": {
+											"type": "array",
+											"items": {
+												"oneOf": [ { "type": "string" } ]
+											}
+										}
+									}
+								},
+								"create_time": {
+									"type": "number"
+								},
+								"end_turn": {
+									"type": "boolean"
+								},
+								"id": {
+									"type": "string"
+								},
+								"metadata": {
+									"type": "object",
+									"properties": {
+										"can_save": {
+											"type": "boolean"
+										},
+										"citations": {
+											"type": "array"
+										},
+										"content_references": {
+											"type": "array"
+										},
+										"default_model_slug": {
+											"type": "string"
+										},
+										"finish_details": {
+											"type": "object",
+											"properties": {
+												"stop_tokens": {
+													"type": "array",
+													"items": {
+														"oneOf": [
+															{
+																"type": "integer"
+															}
+														]
+													}
+												},
+												"type": {
+													"type": "string"
+												}
+											}
+										},
+										"is_complete": {
+											"type": "boolean"
+										},
+										"message_type": {
+											"type": "string"
+										},
+										"model_slug": {
+											"type": "string"
+										},
+										"model_switcher_deny": {
+											"type": "array",
+											"items": {
+												"oneOf": [
+													{
+														"type": "object",
+														"properties": {
+															"context": {
+																"type": "string"
+															},
+															"description": {
+																"type": "string"
+															},
+															"is_available": {
+																"type": "boolean"
+															},
+															"reason": {
+																"type": "string"
+															},
+															"slug": {
+																"type": "string"
+															}
+														}
+													}
+												]
+											}
+										},
+										"parent_id": {
+											"type": "string"
+										},
+										"request_id": {
+											"type": "string"
+										},
+										"resolved_model_slug": {
+											"type": "string"
+										},
+										"search_result_groups": {
+											"type": "array"
+										},
+										"turn_exchange_id": {
+											"type": "string"
+										}
+									}
+								},
+								"recipient": {
+									"type": "string"
+								},
+								"status": {
+									"type": "string"
+								},
+								"update_time": {
+									"type": "null"
+								},
+								"weight": {
+									"type": "integer"
+								}
+							}
+						},
+						"parent": {
+							"type": "string"
+						}
+					}
+				},
+				"ffaf1cb5-d0f4-49c5-b999-b8a9e157e803": {
+					"type": "object",
+					"properties": {
+						"children": {
+							"type": "array",
+							"items": {
+								"oneOf": [ { "type": "string" } ]
+							}
+						},
+						"id": {
+							"type": "string"
+						},
+						"message": {
+							"type": "object",
+							"properties": {
+								"author": {
+									"type": "object",
+									"properties": {
+										"metadata": {
+											"type": "object"
+										},
+										"name": {
+											"type": "string"
+										},
+										"role": {
+											"type": "string"
+										}
+									}
+								},
+								"channel": {
+									"type": "null"
+								},
+								"content": {
+									"type": "object",
+									"properties": {
+										"content_type": {
+											"type": "string"
+										},
+										"domain": {
+											"type": "string"
+										},
+										"tether_id": {
+											"type": "null"
+										},
+										"text": {
+											"type": "string"
+										},
+										"title": {
+											"type": "string"
+										},
+										"url": {
+											"type": "string"
+										}
+									}
+								},
+								"create_time": {
+									"type": "number"
+								},
+								"end_turn": {
+									"type": "null"
+								},
+								"id": {
+									"type": "string"
+								},
+								"metadata": {
+									"type": "object",
+									"properties": {
+										"can_save": {
+											"type": "boolean"
+										},
+										"command": {
+											"type": "string"
+										},
+										"default_model_slug": {
+											"type": "string"
+										},
+										"is_visually_hidden_from_conversation": {
+											"type": "boolean"
+										},
+										"message_type": {
+											"type": "string"
+										},
+										"model_slug": {
+											"type": "string"
+										},
+										"parent_id": {
+											"type": "string"
+										},
+										"request_id": {
+											"type": "string"
+										},
+										"timestamp_": {
+											"type": "string"
+										}
+									}
+								},
+								"recipient": {
+									"type": "string"
+								},
+								"status": {
+									"type": "string"
+								},
+								"update_time": {
+									"type": "null"
+								},
+								"weight": {
+									"type": "integer"
+								}
+							}
+						},
+						"parent": {
+							"type": "string"
+						}
+					}
+				}
+			}
+		},
+		"memory_scope": {
+			"type": "string"
+		},
+		"moderation_results": {
+			"type": "array"
+		},
+		"owner": {
+			"type": "null"
+		},
+		"pinned_time": {
+			"type": "null"
+		},
+		"plugin_ids": {
+			"type": "null"
+		},
+		"safe_urls": {
+			"type": "array"
+		},
+		"sugar_item_id": {
+			"type": "null"
+		},
+		"sugar_item_visible": {
+			"type": "boolean"
+		},
+		"voice": {
+			"type": "null"
+		}
+	}
+}

@@ -1,0 +1,1293 @@
+{
+  "comprehensive_astrology_system": {
+    "version": "3.0.0",
+    "schema_type": "complete_astrological_analysis_framework",
+    "system_components": [
+      "natal_chart_analysis",
+      "sexual_archetype_profile",
+      "synastry_compatibility_analysis",
+      "predictive_techniques",
+      "composite_chart_analysis"
+    ],
+    
+    "natal_chart": {
+      "reference": "See natal_chart_report schema",
+      "note": "Full natal chart as previously defined with all planetary placements, houses, aspects, etc."
+    },
+    
+    "sexual_archetype_analysis": {
+      "analysis_metadata": {
+        "based_on": "Jeffrey Wolf Green (zodiac), Demetra George (asteroids), Jason Holley research",
+        "version": "1.0",
+        "status": "continuous_development",
+        "note": "Sexual issues associated with the 12 archetypes and select asteroids/planetoids"
+      },
+      
+      "sexual_signature_calculation": {
+        "primary_indicators": {
+          "venus_sign": "",
+          "venus_house": 0,
+          "mars_sign": "",
+          "mars_house": 0,
+          "pluto_sign": "",
+          "pluto_house": 0,
+          "eighth_house_sign": "",
+          "eighth_house_ruler": "",
+          "fifth_house_sign": "",
+          "fifth_house_ruler": ""
+        },
+        "secondary_indicators": {
+          "moon_sign": "",
+          "moon_house": 0,
+          "lilith_sign": "",
+          "lilith_house": 0,
+          "eros_sign": "",
+          "eros_house": 0
+        },
+        "dominant_archetypes": []
+      },
+      
+      "zodiac_sexual_archetypes": [
+        {
+          "sign": "Aries",
+          "number": 1,
+          "ruler": "Mars",
+          "element": "Fire",
+          "modality": "Cardinal",
+          "sexual_issues": [
+            "passion / fire",
+            "begins/ends quickly",
+            "body obsession",
+            "narcissism",
+            "domineering",
+            "eroticized rage",
+            "direct/strong come-on",
+            "sexualized violence",
+            "animal magnetism",
+            "Marlboro man",
+            "impulsiveness",
+            "desires intense stimulation",
+            "wants fireworks",
+            "orgasm-oriented"
+          ],
+          "activation_conditions": {
+            "venus_in_sign": "strong",
+            "mars_in_sign": "very_strong",
+            "fifth_house_in_sign": "moderate",
+            "eighth_house_in_sign": "strong",
+            "aries_planets_count": "cumulative"
+          },
+          "shadow_expression": "Sexual aggression, selfishness, premature ejaculation, lack of emotional connection",
+          "evolved_expression": "Passionate initiator, exciting lover, direct about desires, energizing sexual presence"
+        },
+        {
+          "sign": "Taurus",
+          "number": 2,
+          "ruler": "Venus",
+          "element": "Earth",
+          "modality": "Fixed",
+          "sexual_issues": [
+            "sensation oriented",
+            "body aware",
+            "masturbation",
+            "sensuality",
+            "isolation",
+            "possessiveness",
+            "stagnancy",
+            "'in a rut'",
+            "role stereotypes",
+            "boundary containment",
+            "money for sex",
+            "vicarious",
+            "alone when together",
+            "'meat and potatoes'"
+          ],
+          "activation_conditions": {
+            "venus_in_sign": "very_strong",
+            "mars_in_sign": "strong",
+            "second_house_emphasis": "moderate",
+            "eighth_house_in_sign": "strong"
+          },
+          "shadow_expression": "Possessiveness, routine sex, materialism in relationships, resistance to change",
+          "evolved_expression": "Sensual mastery, tantric ability, providing security, deeply satisfying physical pleasure"
+        },
+        {
+          "sign": "Gemini",
+          "number": 3,
+          "ruler": "Mercury",
+          "element": "Air",
+          "modality": "Mutable",
+          "sexual_issues": [
+            "bisexuality",
+            "polyamory",
+            "toys and devices",
+            "sibling incest",
+            "'try anything once'",
+            "deception",
+            "foreplay oriented",
+            "'metrosexual'",
+            "hermaphroditic",
+            "can't stop thinking",
+            "frozen organs",
+            "dryness",
+            "games / keep it light",
+            "fetish objects"
+          ],
+          "activation_conditions": {
+            "mercury_aspects_to_venus_mars": "strong",
+            "gemini_in_fifth_or_eighth": "moderate",
+            "venus_or_mars_in_sign": "strong"
+          },
+          "shadow_expression": "Emotional disconnection, infidelity, objectification, inability to stay present",
+          "evolved_expression": "Playful experimentation, mental stimulation in sex, versatile lover, great communicator"
+        },
+        {
+          "sign": "Cancer",
+          "number": 4,
+          "ruler": "Moon",
+          "element": "Water",
+          "modality": "Cardinal",
+          "sexual_issues": [
+            "nurturing/caring",
+            "orality",
+            "breasts",
+            "seeking security",
+            "parental incest",
+            "wants mothering",
+            "enmeshment",
+            "creates dependencies",
+            "sex to process emotion",
+            "sex and food",
+            "give to get",
+            "need satiation",
+            "warmth",
+            "wants to feel safe",
+            "needs familiarity"
+          ],
+          "activation_conditions": {
+            "moon_in_fifth_or_eighth": "strong",
+            "cancer_planets_emphasis": "moderate",
+            "fourth_house_connection_to_fifth_eighth": "moderate"
+          },
+          "shadow_expression": "Codependency, using sex for emotional security, possessive clinging, regression",
+          "evolved_expression": "Emotionally nurturing lover, creates safe intimate space, intuitive to needs"
+        },
+        {
+          "sign": "Leo",
+          "number": 5,
+          "ruler": "Sun",
+          "element": "Fire",
+          "modality": "Fixed",
+          "sexual_issues": [
+            "play",
+            "self-expression",
+            "exhibitionism",
+            "validation/approval",
+            "adonis complex",
+            "trapped in mirror",
+            "worship",
+            "trophies, conquests",
+            "narcissism",
+            "penis/vagina",
+            "phallocentrism",
+            "role play",
+            "performance oriented",
+            "body display",
+            "children"
+          ],
+          "activation_conditions": {
+            "sun_in_fifth_house": "very_strong",
+            "leo_in_fifth_or_eighth": "strong",
+            "venus_or_mars_in_leo": "strong"
+          },
+          "shadow_expression": "Ego-driven sex, need for constant validation, performance anxiety, making it all about self",
+          "evolved_expression": "Generous lover, creative expression, playful and fun, radiates confidence"
+        },
+        {
+          "sign": "Virgo",
+          "number": 6,
+          "ruler": "Mercury",
+          "element": "Earth",
+          "modality": "Mutable",
+          "sexual_issues": [
+            "purification",
+            "technical proficiency",
+            "guilt/atonement",
+            "sadomasochism",
+            "never good enough",
+            "lack",
+            "barrenness",
+            "perfect pictures",
+            "obsessive compulsive",
+            "slavery/service",
+            "sexual anorexia",
+            "eroticize pain",
+            "body dysmorphic",
+            "dryness"
+          ],
+          "activation_conditions": {
+            "virgo_venus_or_mars": "strong",
+            "sixth_house_connection": "moderate",
+            "mercury_in_eighth": "moderate"
+          },
+          "shadow_expression": "Hypercritical, sexual shame, perfectionism blocks pleasure, service without receiving",
+          "evolved_expression": "Attentive to detail, health-conscious, skillful technique, improvement-oriented"
+        },
+        {
+          "sign": "Libra",
+          "number": 7,
+          "ruler": "Venus",
+          "element": "Air",
+          "modality": "Cardinal",
+          "sexual_issues": [
+            "multiple partners",
+            "'don juans'",
+            "compare/contrast",
+            "beauty obsession",
+            "give partner what partner wants",
+            "graceful",
+            "date rape",
+            "\"can't say no\"",
+            "focus on partner's orgasm",
+            "environment just right",
+            "same-sex love",
+            "wants it pretty"
+          ],
+          "activation_conditions": {
+            "libra_venus": "very_strong",
+            "seventh_house_emphasis": "strong",
+            "venus_in_seventh": "strong"
+          },
+          "shadow_expression": "Loss of self in relationship, people-pleasing in bed, can't be alone, superficial",
+          "evolved_expression": "Harmonious lover, aesthetic appreciation, balanced give-take, romantic artistry"
+        },
+        {
+          "sign": "Scorpio",
+          "number": 8,
+          "ruler": "Pluto",
+          "traditional_ruler": "Mars",
+          "element": "Water",
+          "modality": "Fixed",
+          "sexual_issues": [
+            "merger",
+            "wants intensity/depth",
+            "expects betrayal",
+            "power exchange",
+            "violation/rape",
+            "manipulation",
+            "deception",
+            "prostitution",
+            "compulsions/obsessions",
+            "boundary problems",
+            "distrust/suspicion",
+            "expect betrayal",
+            "eroticize fear",
+            "femmes fatales"
+          ],
+          "activation_conditions": {
+            "scorpio_venus_mars_or_pluto": "very_strong",
+            "eighth_house_planets": "strong",
+            "pluto_aspects_to_venus_mars": "strong"
+          },
+          "shadow_expression": "Sexual obsession, power games, jealousy, manipulation, trust issues, revenge",
+          "evolved_expression": "Deep transformation through sex, sacred sexuality, powerful connection, fearless intimacy"
+        },
+        {
+          "sign": "Sagittarius",
+          "number": 9,
+          "ruler": "Jupiter",
+          "element": "Fire",
+          "modality": "Mutable",
+          "sexual_issues": [
+            "wants freedom",
+            "cosmology of sex",
+            "everything has a meaning",
+            "compensation",
+            "religious material",
+            "exotic is erotic",
+            "adventurous",
+            "bigger is better",
+            "more is better",
+            "teacher role",
+            "outdoors",
+            "like to be natural"
+          ],
+          "activation_conditions": {
+            "sagittarius_venus_or_mars": "strong",
+            "ninth_house_connection": "moderate",
+            "jupiter_in_fifth_or_eighth": "moderate"
+          },
+          "shadow_expression": "Fear of commitment, grass-is-greener syndrome, preachy about sex, excess",
+          "evolved_expression": "Adventurous explorer, philosophical approach, optimistic, natural and free"
+        },
+        {
+          "sign": "Capricorn",
+          "number": 10,
+          "ruler": "Saturn",
+          "element": "Earth",
+          "modality": "Cardinal",
+          "sexual_issues": [
+            "appropriateness",
+            "daddy/daddy's girl",
+            "daddy/son dynamics",
+            "eroticized shame",
+            "anus",
+            "judgment/standards",
+            "protocols",
+            "concealment",
+            "stoicism",
+            "bondage/discipline",
+            "repression",
+            "submerged anger",
+            "in control, repressed",
+            "desire to lose control"
+          ],
+          "activation_conditions": {
+            "capricorn_venus_or_mars": "strong",
+            "saturn_in_fifth_or_eighth": "strong",
+            "tenth_house_connection": "moderate"
+          },
+          "shadow_expression": "Sexual repression, shame, control issues, performance as duty, coldness",
+          "evolved_expression": "Mature lover, commitment-oriented, responsible, builds over time, disciplined practice"
+        },
+        {
+          "sign": "Aquarius",
+          "number": 11,
+          "ruler": "Uranus",
+          "traditional_ruler": "Saturn",
+          "element": "Air",
+          "modality": "Fixed",
+          "sexual_issues": [
+            "sexual liberation",
+            "experimentation",
+            "mental / conceptual",
+            "\"kink\" / odd",
+            "groups",
+            "internet/media",
+            "cameras / filming",
+            "voyeurism/pornography",
+            "traumatized",
+            "disembodied",
+            "in shock / absent",
+            "detachment/clinical",
+            "'friends with benefits'",
+            "rebellion"
+          ],
+          "activation_conditions": {
+            "aquarius_venus_or_mars": "strong",
+            "uranus_in_fifth_or_eighth": "strong",
+            "eleventh_house_connection": "moderate"
+          },
+          "shadow_expression": "Emotional disconnection, too experimental, shocking for shock value, detached",
+          "evolved_expression": "Innovative, non-traditional, friendship-based intimacy, humanitarian sex-positive"
+        },
+        {
+          "sign": "Pisces",
+          "number": 12,
+          "ruler": "Neptune",
+          "traditional_ruler": "Jupiter",
+          "element": "Water",
+          "modality": "Mutable",
+          "sexual_issues": [
+            "sacred sex",
+            "ritualized sex",
+            "role play",
+            "confusion",
+            "escape/dissociation",
+            "idealization/deification",
+            "atonement",
+            "sadomasochism",
+            "\"rescue me\"",
+            "victimization",
+            "fantasy",
+            "\"purple haze\"",
+            "hiding/shyness",
+            "sex with drugs"
+          ],
+          "activation_conditions": {
+            "pisces_venus_or_mars": "strong",
+            "neptune_in_fifth_or_eighth": "strong",
+            "twelfth_house_connection": "moderate"
+          },
+          "shadow_expression": "Boundary dissolution, victim mentality, addiction, escapism through sex, illusion",
+          "evolved_expression": "Tantric/sacred sexuality, compassionate, spiritually transcendent, mystical union"
+        }
+      ],
+      
+      "asteroid_sexual_signatures": [
+        {
+          "asteroid": "Chiron",
+          "number": 2060,
+          "sexual_themes": {
+            "primary_issues": [
+              "deformities",
+              "sexual healing",
+              "sexual mentorship"
+            ],
+            "archetype": "The Wounded Healer",
+            "healing_potential": "Transforms sexual wounds into wisdom and ability to heal others",
+            "shadow": "Unhealed sexual trauma, shame about body or sexuality",
+            "evolved": "Sexual healer, tantric practitioner, helps others heal sexual wounds"
+          },
+          "natal_analysis": {
+            "sign_interpretation": "",
+            "house_interpretation": "",
+            "aspects_to_personal_planets": []
+          }
+        },
+        {
+          "asteroid": "Eros",
+          "number": 433,
+          "sexual_themes": {
+            "primary_issues": [
+              "\"flow\" of sexual energy",
+              "male homosexuality",
+              "erotic love",
+              "sexual passion"
+            ],
+            "archetype": "Primal Erotic Desire",
+            "nature": "Raw sexual attraction, life force, creative eros",
+            "shadow": "Obsessive desire, using sex to avoid intimacy",
+            "evolved": "Healthy erotic expression, creative life force, passionate connection"
+          },
+          "natal_analysis": {
+            "sign_interpretation": "",
+            "house_interpretation": "",
+            "aspects_to_personal_planets": []
+          }
+        },
+        {
+          "asteroid": "Psyche",
+          "number": 16,
+          "sexual_themes": {
+            "primary_issues": [
+              "soul connection in sexuality",
+              "psychological integration",
+              "trials in love"
+            ],
+            "archetype": "Soul Love",
+            "nature": "Deep soul connection, psychological depth in intimacy",
+            "shadow": "Tests and trials in love, psychological blocks",
+            "evolved": "Integration of soul and sexuality, depth psychology"
+          },
+          "natal_analysis": {
+            "sign_interpretation": "",
+            "house_interpretation": "",
+            "aspects_to_personal_planets": []
+          }
+        },
+        {
+          "asteroid": "Ceres",
+          "number": 1,
+          "sexual_themes": {
+            "primary_issues": [
+              "loss of innocence",
+              "grief/loss related to sex (e.g. death, abortions)",
+              "nurturing through sexuality"
+            ],
+            "archetype": "The Great Mother",
+            "nature": "Nurturing, grief and loss themes, mother-child dynamics in sexuality",
+            "shadow": "Sexual trauma, grief, loss of innocence, controlling through nurturing",
+            "evolved": "Healing through nurture, acceptance of cycles of loss and return"
+          },
+          "natal_analysis": {
+            "sign_interpretation": "",
+            "house_interpretation": "",
+            "aspects_to_personal_planets": []
+          }
+        },
+        {
+          "asteroid": "Pallas",
+          "number": 2,
+          "sexual_themes": {
+            "primary_issues": [
+              "transvestism",
+              "gender bending",
+              "covert incest",
+              "sexual strategy"
+            ],
+            "archetype": "Warrior Wisdom",
+            "nature": "Strategic sexuality, gender fluidity, pattern recognition in relationships",
+            "shadow": "Father-daughter dynamics, covert incest, gender confusion",
+            "evolved": "Gender integration, strategic approach to sexuality, creative intelligence"
+          },
+          "natal_analysis": {
+            "sign_interpretation": "",
+            "house_interpretation": "",
+            "aspects_to_personal_planets": []
+          }
+        },
+        {
+          "asteroid": "Vesta",
+          "number": 4,
+          "sexual_themes": {
+            "primary_issues": [
+              "prostitution",
+              "sacred sexuality",
+              "celibacy",
+              "devotion"
+            ],
+            "archetype": "Sacred Flame",
+            "nature": "Sexual devotion, sacred sexuality, focus and commitment, celibacy or sacred prostitution",
+            "shadow": "Sexual repression, prostitution, loss of sacred, burnout",
+            "evolved": "Sacred sexual practice, devoted monogamy, priestess/priest sexuality"
+          },
+          "natal_analysis": {
+            "sign_interpretation": "",
+            "house_interpretation": "",
+            "aspects_to_personal_planets": []
+          }
+        },
+        {
+          "asteroid": "Juno",
+          "number": 3,
+          "sexual_themes": {
+            "primary_issues": [
+              "fidelity and betrayal",
+              "intimate treason",
+              "sexual rage",
+              "marriage sexuality"
+            ],
+            "archetype": "Divine Consort",
+            "nature": "Commitment, marriage, fidelity issues, power in partnership",
+            "shadow": "Jealous rage, betrayal, staying in bad marriages, sexual revenge",
+            "evolved": "Committed sacred partnership, equality in marriage, healthy sexuality in long-term bond"
+          },
+          "natal_analysis": {
+            "sign_interpretation": "",
+            "house_interpretation": "",
+            "aspects_to_personal_planets": []
+          }
+        },
+        {
+          "asteroid": "Lilith (Black Moon)",
+          "calculation_type": "Mean or True",
+          "sexual_themes": {
+            "primary_issues": [
+              "primal feminine sexuality",
+              "rejection of patriarchy",
+              "sexual autonomy",
+              "dark feminine"
+            ],
+            "archetype": "Dark Goddess",
+            "nature": "Raw feminine power, sexual independence, rejection of control",
+            "shadow": "Sexual manipulation, destructiveness, victimization, rage",
+            "evolved": "Sexual sovereignty, wild feminine, authentic desire, power reclamation"
+          },
+          "natal_analysis": {
+            "sign_interpretation": "",
+            "house_interpretation": "",
+            "aspects_to_personal_planets": []
+          }
+        },
+        {
+          "asteroid": "Sappho",
+          "number": 80,
+          "sexual_themes": {
+            "primary_issues": [
+              "lesbian sexuality",
+              "female same-sex desire",
+              "artistic eroticism",
+              "obsessive love"
+            ],
+            "archetype": "Poetess of Desire",
+            "nature": "Female homoeroticism, artistic expression of sexuality, intense longing",
+            "shadow": "Unrequited love, obsession, artistic suffering",
+            "evolved": "Poetic eroticism, celebration of lesbian love, artistic sensuality"
+          },
+          "natal_analysis": {
+            "sign_interpretation": "",
+            "house_interpretation": "",
+            "aspects_to_personal_planets": []
+          }
+        }
+      ],
+      
+      "sexual_profile_synthesis": {
+        "dominant_themes": [],
+        "potential_issues": [],
+        "strengths": [],
+        "growth_areas": [],
+        "recommendations": []
+      }
+    },
+    
+    "synastry_analysis": {
+      "metadata": {
+        "person_a_name": "",
+        "person_b_name": "",
+        "relationship_type": "romantic|friendship|family|business|karmic",
+        "analysis_date": "",
+        "synastry_method": "double_chart_comparison"
+      },
+      
+      "basic_compatibility_scores": {
+        "overall_compatibility": 0.0,
+        "romantic_compatibility": 0.0,
+        "sexual_compatibility": 0.0,
+        "emotional_compatibility": 0.0,
+        "intellectual_compatibility": 0.0,
+        "spiritual_compatibility": 0.0,
+        "long_term_potential": 0.0,
+        "scoring_method": "weighted_aspects_and_overlays"
+      },
+      
+      "sun_moon_dynamics": {
+        "person_a_sun_to_person_b_moon": {
+          "aspect": "",
+          "orb": 0.0,
+          "interpretation": "Soul Mates generally have strong Sun-Moon connections",
+          "significance": "very_high"
+        },
+        "person_b_sun_to_person_a_moon": {
+          "aspect": "",
+          "orb": 0.0,
+          "interpretation": "",
+          "significance": "very_high"
+        },
+        "sun_moon_synthesis": ""
+      },
+      
+      "inter_aspects": {
+        "romantic_aspects": [
+          {
+            "aspect_id": "",
+            "person_a_planet": "",
+            "person_b_planet": "",
+            "aspect_type": "",
+            "orb": 0.0,
+            "exact": false,
+            "applying_or_separating": "",
+            "strength": "weak|moderate|strong|very_strong",
+            "quality": "harmonious|challenging|dynamic",
+            "interpretation": {
+              "basic_meaning": "",
+              "in_romance": "",
+              "sexual_implications": "",
+              "emotional_impact": "",
+              "strengths": [],
+              "challenges": [],
+              "advice": ""
+            }
+          }
+        ],
+        
+        "sexual_aspects": [
+          {
+            "note": "Venus-Mars, Mars-Mars, Venus-Pluto, Mars-Pluto, Eros-Psyche, Lilith contacts",
+            "aspect_details": {}
+          }
+        ],
+        
+        "emotional_aspects": [
+          {
+            "note": "Moon-Moon, Moon-Venus, Moon-Mercury, Moon-Saturn aspects",
+            "aspect_details": {}
+          }
+        ],
+        
+        "karmic_aspects": [
+          {
+            "note": "Saturn aspects, Nodal connections, Vertex contacts, Chiron aspects",
+            "aspect_details": {}
+          }
+        ],
+        
+        "challenging_aspects": [
+          {
+            "note": "Squares, oppositions, hard Saturn/Pluto/Uranus aspects",
+            "aspect_details": {},
+            "working_through": []
+          }
+        ]
+      },
+      
+      "house_overlays": {
+        "person_a_planets_in_person_b_houses": [
+          {
+            "planet": "",
+            "house": 0,
+            "interpretation": {
+              "general": "",
+              "romantic": "",
+              "challenges": [],
+              "benefits": []
+            }
+          }
+        ],
+        "person_b_planets_in_person_a_houses": [
+          {
+            "planet": "",
+            "house": 0,
+            "interpretation": {}
+          }
+        ],
+        "significant_overlays": {
+          "first_house": "Physical attraction and instant recognition",
+          "fourth_house": "Home and family, deep emotional bond",
+          "fifth_house": "Romance, creativity, children, fun",
+          "seventh_house": "Partnership, marriage, seeing each other as ideal mate",
+          "eighth_house": "Deep intimacy, sexuality, transformation, obsession",
+          "twelfth_house": "Karmic, spiritual, hidden, confusing but profound"
+        }
+      },
+      
+      "composite_midpoint_analysis": {
+        "description": "Midpoints reveal deep underlying dynamics",
+        "orb_used": 1.5,
+        "significant_midpoints": [
+          {
+            "person_a_planet": "",
+            "activates": "",
+            "person_b_midpoint": "",
+            "orb": 0.0,
+            "interpretation": "",
+            "significance": "low|moderate|high|critical"
+          }
+        ],
+        "critical_midpoints": {
+          "sun_moon_midpoint": {
+            "person_a": "",
+            "person_b": "",
+            "contacts": [],
+            "interpretation": "Inner unification through relationship"
+          },
+          "venus_mars_midpoint": {
+            "description": "Point of passion and sexual expression",
+            "contacts": []
+          },
+          "love_midpoints": {
+            "mercury_venus": "Love talks, gifts, nice conversations",
+            "venus_mars": "Desires and sex",
+            "venus_jupiter": "Popularity, happiness",
+            "venus_uranus": "Excitement, love at first sight, childbirth",
+            "mars_jupiter": "Successful activity, fortunate event, marriage/childbirth",
+            "jupiter_chiron": "Cinderella aspect, healing love"
+          },
+          "challenging_midpoints": {
+            "saturn_chiron": "Heartbreak midpoint, devastating mistakes",
+            "saturn_jupiter": "Nuclear midpoint, irreconcilable differences",
+            "mars_neptune": "Denial, refusal, illness in love",
+            "saturn_pluto": "Severe downfall, bankruptcy potential"
+          }
+        }
+      },
+      
+      "asteroid_synastry": {
+        "eros_psyche_contacts": {
+          "description": "Soul mate indicators, spiritually juicy, predestined",
+          "aspects": []
+        },
+        "juno_contacts": {
+          "description": "Marriage and commitment indicators",
+          "aspects": []
+        },
+        "lilith_contacts": {
+          "description": "Magnetic, obsessive, dangerous attraction",
+          "aspects": [],
+          "warning": "Hard aspects result in obsessive behavior, can be destructive"
+        },
+        "chiron_contacts": {
+          "description": "Healing or wounding in relationship",
+          "aspects": []
+        },
+        "vesta_contacts": {
+          "description": "Sacred sexuality, devotion, commitment",
+          "aspects": []
+        },
+        "ceres_contacts": {
+          "description": "Nurturing, care, comfort in relationship",
+          "aspects": []
+        }
+      },
+      
+      "vertex_fate_connections": {
+        "description": "Fated, destined encounters",
+        "person_a_vertex": {
+          "sign": "",
+          "house": 0,
+          "contacts_from_person_b": []
+        },
+        "person_b_vertex": {
+          "sign": "",
+          "house": 0,
+          "contacts_from_person_a": []
+        },
+        "interpretation": "Vertex contacts indicate life-changing relationships"
+      },
+      
+      "nodal_connections": {
+        "north_node_contacts": {
+          "description": "Growth direction, future-oriented",
+          "aspects": []
+        },
+        "south_node_contacts": {
+          "description": "Past life connections, karmic completion",
+          "aspects": []
+        },
+        "nodal_axis_interpretation": "When Nodal connections are found, the connection is powerful and karmic"
+      },
+      
+      "angle_contacts": {
+        "ascendant_contacts": {
+          "description": "How we see each other, immediate attraction",
+          "aspects": []
+        },
+        "descendant_contacts": {
+          "description": "What we seek in partnership",
+          "aspects": []
+        },
+        "mc_contacts": {
+          "description": "Career, reputation, public life together",
+          "aspects": []
+        },
+        "ic_contacts": {
+          "description": "Home, family, private life, roots",
+          "aspects": []
+        }
+      },
+      
+      "relationship_dynamics": {
+        "power_dynamics": {
+          "balance": "equal|person_a_dominant|person_b_dominant",
+          "pluto_dynamics": [],
+          "saturn_dynamics": [],
+          "issues": []
+        },
+        "communication_style": {
+          "mercury_mercury_aspect": "",
+          "mercury_contacts": [],
+          "ease_of_communication": "easy|moderate|difficult",
+          "potential_misunderstandings": []
+        },
+        "emotional_dynamics": {
+          "moon_moon_aspect": "",
+          "emotional_understanding": "high|moderate|low",
+          "nurturing_capacity": [],
+          "emotional_triggers": []
+        },
+        "sexual_dynamics": {
+          "venus_mars_aspects": [],
+          "mars_mars_aspects": [],
+          "pluto_aspects": [],
+          "sexual_compatibility": "very_high|high|moderate|low",
+          "passion_level": "intense|strong|moderate|low",
+          "issues": []
+        }
+      },
+      
+      "long_term_indicators": {
+        "saturn_contacts": {
+          "description": "Binding force, ensures longevity, responsibility",
+          "aspects": [],
+          "interpretation": "Hard aspects from Saturn are both challenging and binding"
+        },
+        "jupiter_contacts": {
+          "description": "Growth, expansion, optimism, benefits",
+          "aspects": []
+        },
+        "seventh_house_overlays": {
+          "description": "Partnership house, seeing each other as ideal mate",
+          "planets": []
+        },
+        "commitment_indicators": [
+          "Saturn aspects to personal planets",
+          "Juno contacts",
+          "Venus in 7th house overlay",
+          "Sun/Moon midpoint contacts",
+          "North Node connections"
+        ]
+      },
+      
+      "challenges_and_growth": {
+        "main_challenges": [],
+        "growth_opportunities": [],
+        "karmic_lessons": [],
+        "advice_for_navigation": []
+      },
+      
+      "celebrity_comparison_examples": {
+        "note": "Reference examples from documents",
+        "examples": []
+      },
+      
+      "synastry_summary": {
+        "relationship_type_indicated": "",
+        "soul_mate_indicators": 0,
+        "karmic_indicators": 0,
+        "long_term_potential": "",
+        "main_attractions": [],
+        "main_challenges": [],
+        "overall_assessment": ""
+      }
+    },
+    
+    "predictive_techniques": {
+      "metadata": {
+        "forecast_period": {
+          "start_date": "",
+          "end_date": ""
+        },
+        "techniques_used": [
+          "transits",
+          "progressions",
+          "solar_arc_directions",
+          "solar_return",
+          "profections",
+          "eclipses"
+        ]
+      },
+      
+      "transits": {
+        "description": "Current planetary movements activating natal chart",
+        "orb": "1-2 degrees for major aspects",
+        "current_transits": [
+          {
+            "transit_id": "",
+            "transiting_planet": "",
+            "natal_point": "",
+            "aspect": "",
+            "orb": 0.0,
+            "exact_date": "",
+            "in_effect_from": "",
+            "in_effect_until": "",
+            "interpretation": {
+              "general_meaning": "",
+              "specific_to_natal": "",
+              "opportunities": [],
+              "challenges": [],
+              "advice": ""
+            }
+          }
+        ],
+        "outer_planet_transits": {
+          "note": "Long-term trends, years to decades",
+          "jupiter_transits": [],
+          "saturn_transits": [],
+          "uranus_transits": [],
+          "neptune_transits": [],
+          "pluto_transits": []
+        },
+        "inner_planet_transits": {
+          "note": "Short-term developments, days to months",
+          "sun_transits": [],
+          "moon_transits": [],
+          "mercury_transits": [],
+          "venus_transits": [],
+          "mars_transits": []
+        }
+      },
+      
+      "secondary_progressions": {
+        "description": "One day after birth = one year of life",
+        "calculation_method": "Advance natal positions by days elapsed since birth",
+        "progressed_sun": {
+          "current_sign": "",
+          "current_house": 0,
+          "current_degree": 0.0,
+          "moves_approximately": "1° per year",
+          "aspects_forming": [],
+          "interpretation": "Identity shifts, life purpose evolution"
+        },
+        "progressed_moon": {
+          "current_sign": "",
+          "current_house": 0,
+          "current_degree": 0.0,
+          "moves_approximately": "1° per month, full cycle every ~28 years",
+          "phase": "New|Crescent|First Quarter|Gibbous|Full|Disseminating|Last Quarter|Balsamic",
+          "aspects_forming": [],
+          "interpretation": "Emotional cycles, new beginnings every 2.5 years"
+        },
+        "progressed_ascendant": {
+          "current_sign": "",
+          "current_degree": 0.0,
+          "interpretation": "Changing self-presentation and life approach"
+        },
+        "progressed_mc": {
+          "current_sign": "",
+          "current_degree": 0.0,
+          "interpretation": "Career and life direction shifts"
+        },
+        "progressed_aspects": [],
+        "major_progressions": {
+          "progressed_moon_returns": [],
+          "progressed_lunar_phase_changes": [],
+          "progressed_sun_sign_changes": []
+        }
+      },
+      
+      "solar_arc_directions": {
+        "description": "All natal positions advance by the same arc as progressed Sun",
+        "arc_value": "Approximately 0°59' to 1° per year",
+        "calculation": "Add same arc to every natal factor",
+        "directed_planets": [
+          {
+            "planet": "",
+            "natal_position": 0.0,
+            "directed_position": 0.0,
+            "arc_applied": 0.0,
+            "aspects_forming": [],
+            "interpretation": ""
+          }
+        ],
+        "significant_directions": {
+          "to_angles": [],
+          "to_personal_planets": [],
+          "to_outer_planets": []
+        },
+        "interpretation": "Uniform symbolic movement, excellent for outer planet activations"
+      },
+      
+      "primary_directions": {
+        "description": "Ancient, precise timing method based on Earth's daily rotation",
+        "calculation_method": "Right ascension or oblique ascension, 1° ≈ 1 year",
+        "types": [
+          "mundane (angles to planets)",
+          "zodiacal (planets to angles)",
+          "converse (future to past)"
+        ],
+        "current_directions": [],
+        "interpretation": "Pinpoints exact years/months of significant events",
+        "note": "Computationally intensive, requires software"
+      },
+      
+      "returns": {
+        "solar_return": {
+          "description": "Chart for exact moment Sun returns to natal degree annually",
+          "return_date": "",
+          "return_location": {
+            "relocated": false,
+            "location": ""
+          },
+          "return_chart": {
+            "ascendant": "",
+            "mc": "",
+            "planetary_positions": [],
+            "house_placements": [],
+            "aspects_to_natal": []
+          },
+          "interpretation": {
+            "year_theme": "",
+            "focus_areas": [],
+            "opportunities": [],
+            "challenges": []
+          }
+        },
+        "lunar_returns": {
+          "description": "Monthly chart when Moon returns to natal position",
+          "frequency": "Every 27-28 days",
+          "current_return": {},
+          "interpretation": "Short-term emotional cycles"
+        },
+        "planetary_returns": {
+          "jupiter_return": {
+            "age": "Approximately every 12 years",
+            "last_return": "",
+            "next_return": "",
+            "interpretation": "Growth and expansion cycle"
+          },
+          "saturn_return": {
+            "age": "Approximately 29, 58, 87 years",
+            "returns": [
+              {
+                "return_number": 1,
+                "age": 29,
+                "date": "",
+                "occurred": false,
+                "interpretation": "Major life restructuring, coming of age"
+              },
+              {
+                "return_number": 2,
+                "age": 58,
+                "date": "",
+                "occurred": false,
+                "interpretation": "Legacy and wisdom consolidation"
+              },
+              {
+                "return_number": 3,
+                "age": 87,
+                "date": "",
+                "occurred": false,
+                "interpretation": "Spiritual completion"
+              }
+            ]
+          }
+        }
+      },
+      
+      "time_lord_systems": {
+        "annual_profections": {
+          "description": "Advance Ascendant one sign per year",
+          "current_year": 0,
+          "profected_ascendant_sign": "",
+          "profected_house": 0,
+          "time_lord_planet": "",
+          "interpretation": {
+            "year_focus": "",
+            "activated_house": "",
+            "themes": []
+          },
+          "monthly_profections": []
+        },
+        "firdaria": {
+          "description": "Medieval Persian system, 75-year cycle",
+          "day_or_night_birth": "day|night",
+          "starts_with": "Sun (day) or Moon (night)",
+          "current_period": {
+            "planet": "",
+            "start_date": "",
+            "end_date": "",
+            "sub_period": {
+              "planet": "",
+              "start_date": "",
+              "end_date": ""
+            }
+          },
+          "periods": [
+            {"planet": "Sun", "years": 10},
+            {"planet": "Venus", "years": 8},
+            {"planet": "Mercury", "years": 13},
+            {"planet": "Moon", "years": 9},
+            {"planet": "Saturn", "years": 11},
+            {"planet": "Jupiter", "years": 12},
+            {"planet": "Mars", "years": 7},
+            {"planet": "North Node", "years": 3}
+          ]
+        },
+        "zodiacal_releasing": {
+          "description": "Hellenistic time-lord system from Lot of Fortune or Spirit",
+          "based_on": "Lot of Fortune|Lot of Spirit",
+          "current_period": {},
+          "interpretation": "Releases periods ruled by zodiacal signs and bounds"
+        }
+      },
+      
+      "lunations_and_eclipses": {
+        "current_lunar_cycle": {
+          "new_moon": {
+            "date": "",
+            "degree": "",
+            "house": 0,
+            "aspects_to_natal": [],
+            "interpretation": "New beginnings, intentions"
+          },
+          "full_moon": {
+            "date": "",
+            "degree": "",
+            "house": 0,
+            "aspects_to_natal": [],
+            "interpretation": "Culmination, revelation, release"
+          }
+        },
+        "eclipses": {
+          "upcoming_solar_eclipse": {
+            "date": "",
+            "degree": "",
+            "house": 0,
+            "type": "total|partial|annular",
+            "interpretation": "Major turning points when aspecting natal factors"
+          },
+          "upcoming_lunar_eclipse": {
+            "date": "",
+            "degree": "",
+            "house": 0,
+            "type": "total|partial|penumbral",
+            "interpretation": "Emotional revelations, endings, transformations"
+          },
+          "eclipse_series": {
+            "saros_cycle": "",
+            "themes": []
+          }
+        }
+      },
+      
+      "fixed_stars_and_critical_degrees": {
+        "transits_to_fixed_stars": {
+          "description": "Dramatic events when transits aspect prominent fixed stars",
+          "current_activations": []
+        },
+        "critical_degrees": {
+          "cardinal": [0, 13, 26],
+          "fixed": [9, 21],
+          "mutable": [4, 17],
+          "anaretic": [29],
+          "current_transits_at_critical_degrees": []
+        }
+      },
+      
+      "harmonics_and_midpoints": {
+        "description": "Advanced modern methods",
+        "harmonic_charts": {
+          "8th_harmonic": "Karma and transformation",
+          "9th_harmonic": "Spiritual development",
+          "interpretation": "Underlying patterns"
+        },
+        "midpoint_transits": {
+          "description": "Transits activating natal midpoint pictures",
+          "current_activations": []
+        }
+      },
+      
+      "forecast_summary": {
+        "major_themes": {
+          "next_3_months": [],
+          "next_6_months": [],
+          "next_year": [],
+          "next_5_years": []
+        },
+        "critical_dates": [],
+        "opportunities": [],
+        "challenges": [],
+        "advice": []
+      },
+      
+      "technique_hierarchy": {
+        "long_term_themes": [
+          "Secondary progressions",
+          "Solar arc directions",
+          "Outer planet transits"
+        ],
+        "annual_overview": [
+          "Solar return",
+          "Annual profections",
+          "Jupiter/Saturn transits"
+        ],
+        "specific_timing": [
+          "Transits",
+          "Primary directions",
+          "Firdaria sub-periods"
+        ],
+        "confirmation": [
+          "Multiple techniques aligning on same event",
+          "Eclipses",
+          "Critical transits"
+        ]
+      }
+    },
+    
+    "composite_chart_analysis": {
+      "description": "Midpoint composite chart representing the relationship itself",
+      "calculation_method": "Midpoints between each person's planets",
+      "composite_planets": [],
+      "composite_angles": {},
+      "composite_aspects": [],
+      "relationship_purpose": "",
+      "relationship_challenges": [],
+      "relationship_gifts": []
+    },
+    
+    "integration_and_synthesis": {
+      "natal_sexual_profile_summary": "",
+      "relationship_compatibility_summary": "",
+      "predictive_outlook_summary": "",
+      "overall_life_narrative": "",
+      "key_themes_across_all_systems": [],
+      "recommendations": {
+        "personal_development": [],
+        "relationship_advice": [],
+        "timing_recommendations": [],
+        "spiritual_practices": []
+      }
+    }
+  }
+}

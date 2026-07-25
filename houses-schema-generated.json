@@ -1,0 +1,484 @@
+{
+	"type": "object",
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"description": "JSON schema generated with JSONBuddy https://www.json-buddy.com",
+	"properties": {
+		"houses": {
+			"type": "object",
+			"properties": {
+				"10th": {
+					"type": "object",
+					"properties": {
+						"hellenistic_names": {
+							"type": "array",
+							"items": {
+								"oneOf": [ { "type": "string" } ]
+							}
+						},
+						"hellenistic_significations": {
+							"type": "object",
+							"properties": {
+								"valens": {
+									"type": "string"
+								}
+							}
+						},
+						"joy": {
+							"type": "null"
+						},
+						"karmic_meanings": {
+							"type": "string"
+						},
+						"name": {
+							"type": "string"
+						},
+						"natural_ruler": {
+							"type": "string"
+						},
+						"natural_ruler_planet": {
+							"type": "string"
+						}
+					}
+				},
+				"11th": {
+					"type": "object",
+					"properties": {
+						"hellenistic_names": {
+							"type": "array",
+							"items": {
+								"oneOf": [ { "type": "string" } ]
+							}
+						},
+						"hellenistic_significations": {
+							"type": "object",
+							"properties": {
+								"valens": {
+									"type": "string"
+								}
+							}
+						},
+						"joy": {
+							"type": "string"
+						},
+						"karmic_meanings": {
+							"type": "string"
+						},
+						"name": {
+							"type": "string"
+						},
+						"natural_ruler": {
+							"type": "string"
+						},
+						"natural_ruler_planet": {
+							"type": "string"
+						}
+					}
+				},
+				"12th": {
+					"type": "object",
+					"properties": {
+						"additional_techniques": {
+							"type": "object",
+							"properties": {
+								"profections": {
+									"type": "string"
+								},
+								"terms_bounds": {
+									"type": "string"
+								},
+								"zodiacal_releasing": {
+									"type": "string"
+								}
+							}
+						},
+						"fate_signature": {
+							"type": "string"
+						},
+						"fate_themes": {
+							"type": "string"
+						},
+						"fixed_star_correlations": {
+							"type": "array",
+							"items": {
+								"oneOf": [
+									{
+										"type": "object",
+										"properties": {
+											"effect": {
+												"type": "string"
+											},
+											"star": {
+												"type": "string"
+											}
+										}
+									}
+								]
+							}
+						},
+						"hellenistic_names": {
+							"type": "array",
+							"items": {
+								"oneOf": [ { "type": "string" } ]
+							}
+						},
+						"hellenistic_significations": {
+							"type": "object",
+							"properties": {
+								"valens": {
+									"type": "string"
+								}
+							}
+						},
+						"joy": {
+							"type": "string"
+						},
+						"karmic_meanings": {
+							"type": "string"
+						},
+						"modern_psychological_keywords": {
+							"type": "array",
+							"items": {
+								"oneOf": [ { "type": "string" } ]
+							}
+						},
+						"name": {
+							"type": "string"
+						},
+						"natural_ruler": {
+							"type": "string"
+						},
+						"natural_ruler_planet": {
+							"type": "string"
+						},
+						"pluto_in_12th_detailed": {
+							"type": "object",
+							"properties": {
+								"natal": {
+									"type": "string"
+								},
+								"synastry": {
+									"type": "string"
+								},
+								"transit": {
+									"type": "string"
+								},
+								"transit_events": {
+									"type": "array",
+									"items": {
+										"oneOf": [ { "type": "string" } ]
+									}
+								}
+							}
+						}
+					}
+				},
+				"1st": {
+					"type": "object",
+					"properties": {
+						"hellenistic_names": {
+							"type": "array",
+							"items": {
+								"oneOf": [ { "type": "string" } ]
+							}
+						},
+						"hellenistic_significations": {
+							"type": "object",
+							"properties": {
+								"valens": {
+									"type": "string"
+								}
+							}
+						},
+						"joy": {
+							"type": "string"
+						},
+						"karmic_meanings": {
+							"type": "string"
+						},
+						"name": {
+							"type": "string"
+						},
+						"natural_ruler": {
+							"type": "string"
+						},
+						"natural_ruler_planet": {
+							"type": "string"
+						}
+					}
+				},
+				"2nd": {
+					"type": "object",
+					"properties": {
+						"hellenistic_names": {
+							"type": "array",
+							"items": {
+								"oneOf": [ { "type": "string" } ]
+							}
+						},
+						"hellenistic_significations": {
+							"type": "object",
+							"properties": {
+								"valens": {
+									"type": "string"
+								}
+							}
+						},
+						"joy": {
+							"type": "null"
+						},
+						"karmic_meanings": {
+							"type": "string"
+						},
+						"name": {
+							"type": "string"
+						},
+						"natural_ruler": {
+							"type": "string"
+						},
+						"natural_ruler_planet": {
+							"type": "string"
+						}
+					}
+				},
+				"3rd": {
+					"type": "object",
+					"properties": {
+						"hellenistic_names": {
+							"type": "array",
+							"items": {
+								"oneOf": [ { "type": "string" } ]
+							}
+						},
+						"hellenistic_significations": {
+							"type": "object",
+							"properties": {
+								"valens": {
+									"type": "string"
+								}
+							}
+						},
+						"joy": {
+							"type": "string"
+						},
+						"karmic_meanings": {
+							"type": "string"
+						},
+						"name": {
+							"type": "string"
+						},
+						"natural_ruler": {
+							"type": "string"
+						},
+						"natural_ruler_planet": {
+							"type": "string"
+						}
+					}
+				},
+				"4th": {
+					"type": "object",
+					"properties": {
+						"hellenistic_names": {
+							"type": "array",
+							"items": {
+								"oneOf": [ { "type": "string" } ]
+							}
+						},
+						"hellenistic_significations": {
+							"type": "object",
+							"properties": {
+								"valens": {
+									"type": "string"
+								}
+							}
+						},
+						"joy": {
+							"type": "null"
+						},
+						"karmic_meanings": {
+							"type": "string"
+						},
+						"name": {
+							"type": "string"
+						},
+						"natural_ruler": {
+							"type": "string"
+						},
+						"natural_ruler_planet": {
+							"type": "string"
+						}
+					}
+				},
+				"5th": {
+					"type": "object",
+					"properties": {
+						"hellenistic_names": {
+							"type": "array",
+							"items": {
+								"oneOf": [ { "type": "string" } ]
+							}
+						},
+						"hellenistic_significations": {
+							"type": "object",
+							"properties": {
+								"valens": {
+									"type": "string"
+								}
+							}
+						},
+						"joy": {
+							"type": "string"
+						},
+						"karmic_meanings": {
+							"type": "string"
+						},
+						"name": {
+							"type": "string"
+						},
+						"natural_ruler": {
+							"type": "string"
+						},
+						"natural_ruler_planet": {
+							"type": "string"
+						}
+					}
+				},
+				"6th": {
+					"type": "object",
+					"properties": {
+						"hellenistic_names": {
+							"type": "array",
+							"items": {
+								"oneOf": [ { "type": "string" } ]
+							}
+						},
+						"hellenistic_significations": {
+							"type": "object",
+							"properties": {
+								"valens": {
+									"type": "string"
+								}
+							}
+						},
+						"joy": {
+							"type": "string"
+						},
+						"karmic_meanings": {
+							"type": "string"
+						},
+						"name": {
+							"type": "string"
+						},
+						"natural_ruler": {
+							"type": "string"
+						},
+						"natural_ruler_planet": {
+							"type": "string"
+						}
+					}
+				},
+				"7th": {
+					"type": "object",
+					"properties": {
+						"hellenistic_names": {
+							"type": "array",
+							"items": {
+								"oneOf": [ { "type": "string" } ]
+							}
+						},
+						"hellenistic_significations": {
+							"type": "object",
+							"properties": {
+								"valens": {
+									"type": "string"
+								}
+							}
+						},
+						"joy": {
+							"type": "null"
+						},
+						"karmic_meanings": {
+							"type": "string"
+						},
+						"name": {
+							"type": "string"
+						},
+						"natural_ruler": {
+							"type": "string"
+						},
+						"natural_ruler_planet": {
+							"type": "string"
+						}
+					}
+				},
+				"8th": {
+					"type": "object",
+					"properties": {
+						"hellenistic_names": {
+							"type": "array",
+							"items": {
+								"oneOf": [ { "type": "string" } ]
+							}
+						},
+						"hellenistic_significations": {
+							"type": "object",
+							"properties": {
+								"valens": {
+									"type": "string"
+								}
+							}
+						},
+						"joy": {
+							"type": "null"
+						},
+						"karmic_meanings": {
+							"type": "string"
+						},
+						"name": {
+							"type": "string"
+						},
+						"natural_ruler": {
+							"type": "string"
+						},
+						"natural_ruler_planet": {
+							"type": "string"
+						}
+					}
+				},
+				"9th": {
+					"type": "object",
+					"properties": {
+						"hellenistic_names": {
+							"type": "array",
+							"items": {
+								"oneOf": [ { "type": "string" } ]
+							}
+						},
+						"hellenistic_significations": {
+							"type": "object",
+							"properties": {
+								"valens": {
+									"type": "string"
+								}
+							}
+						},
+						"joy": {
+							"type": "string"
+						},
+						"karmic_meanings": {
+							"type": "string"
+						},
+						"name": {
+							"type": "string"
+						},
+						"natural_ruler": {
+							"type": "string"
+						},
+						"natural_ruler_planet": {
+							"type": "string"
+						}
+					}
+				}
+			}
+		}
+	}
+}

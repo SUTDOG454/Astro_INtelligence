@@ -1,0 +1,3729 @@
+{
+	"type": "object",
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"description": "JSON schema generated with JSONBuddy https://www.json-buddy.com",
+	"properties": {
+		"astrological_calculation_framework": {
+			"type": "object",
+			"properties": {
+				"astrological_interpretation_framework": {
+					"type": "object",
+					"properties": {
+						"core_philosophy": {
+							"type": "string"
+						},
+						"description": {
+							"type": "string"
+						},
+						"section_1_interpretation_principles": {
+							"type": "object",
+							"properties": {
+								"overview": {
+									"type": "string"
+								},
+								"primary_methods": {
+									"type": "object",
+									"properties": {
+										"actor_costume_stage_metaphor": {
+											"type": "object",
+											"properties": {
+												"components": {
+													"type": "object",
+													"properties": {
+														"aspects": {
+															"type": "string"
+														},
+														"houses": {
+															"type": "string"
+														},
+														"planets": {
+															"type": "string"
+														},
+														"signs": {
+															"type": "string"
+														}
+													}
+												},
+												"description": {
+													"type": "string"
+												},
+												"source": {
+													"type": "string"
+												}
+											}
+										},
+										"alice_bell_7_step_system": {
+											"type": "object",
+											"properties": {
+												"description": {
+													"type": "string"
+												},
+												"source": {
+													"type": "string"
+												},
+												"steps": {
+													"type": "array",
+													"items": {
+														"oneOf": [
+															{
+																"type": "object",
+																"properties": {
+																	"focus": {
+																		"type": "string"
+																	},
+																	"purpose": {
+																		"type": "string"
+																	},
+																	"step": {
+																		"type": "integer"
+																	}
+																}
+															}
+														]
+													}
+												}
+											}
+										},
+										"professional_approaches": {
+											"type": "object",
+											"properties": {
+												"stephen_arroyo_method": {
+													"type": "object",
+													"properties": {
+														"description": {
+															"type": "string"
+														}
+													}
+												},
+												"tracy_marks_method": {
+													"type": "object",
+													"properties": {
+														"description": {
+															"type": "string"
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						},
+						"section_2_delineation_keyword_system": {
+							"type": "object",
+							"properties": {
+								"core_keyword_expansion": {
+									"type": "object",
+									"properties": {
+										"houses": {
+											"type": "object",
+											"properties": {
+												"10th (MC)": {
+													"type": "string"
+												},
+												"11th": {
+													"type": "string"
+												},
+												"12th": {
+													"type": "string"
+												},
+												"1st": {
+													"type": "string"
+												},
+												"2nd": {
+													"type": "string"
+												},
+												"3rd": {
+													"type": "string"
+												},
+												"4th (IC)": {
+													"type": "string"
+												},
+												"5th": {
+													"type": "string"
+												},
+												"6th": {
+													"type": "string"
+												},
+												"7th (DC)": {
+													"type": "string"
+												},
+												"8th": {
+													"type": "string"
+												},
+												"9th": {
+													"type": "string"
+												}
+											}
+										},
+										"major_aspects": {
+											"type": "object",
+											"properties": {
+												"Conjunction (0°)": {
+													"type": "string"
+												},
+												"Opposition (180°)": {
+													"type": "string"
+												},
+												"Sextile (60°)": {
+													"type": "string"
+												},
+												"Square (90°)": {
+													"type": "string"
+												},
+												"Trine (120°)": {
+													"type": "string"
+												}
+											}
+										},
+										"minor_aspects_harmonics": {
+											"type": "object",
+											"properties": {
+												"Novile (40°)": {
+													"type": "string"
+												},
+												"Quintile (72°)": {
+													"type": "string"
+												},
+												"Septile (~51.4°)": {
+													"type": "string"
+												}
+											}
+										},
+										"planets": {
+											"type": "object",
+											"properties": {
+												"Jupiter": {
+													"type": "string"
+												},
+												"Mars": {
+													"type": "string"
+												},
+												"Mercury": {
+													"type": "string"
+												},
+												"Moon": {
+													"type": "string"
+												},
+												"Neptune": {
+													"type": "string"
+												},
+												"Pluto": {
+													"type": "string"
+												},
+												"Saturn": {
+													"type": "string"
+												},
+												"Sun": {
+													"type": "string"
+												},
+												"Uranus": {
+													"type": "string"
+												},
+												"Venus": {
+													"type": "string"
+												}
+											}
+										}
+									}
+								},
+								"overview": {
+									"type": "string"
+								},
+								"special_conditions": {
+									"type": "object",
+									"properties": {
+										"cazimi": {
+											"type": "string"
+										},
+										"combust": {
+											"type": "string"
+										},
+										"under_the_suns_beams": {
+											"type": "string"
+										}
+									}
+								}
+							}
+						},
+						"section_3_weighting_strength_calculation": {
+							"type": "object",
+							"properties": {
+								"overview": {
+									"type": "string"
+								},
+								"synthesis_weighting_formula": {
+									"type": "object",
+									"properties": {
+										"proposed_integrated_score": {
+											"type": "string"
+										},
+										"purpose": {
+											"type": "string"
+										}
+									}
+								},
+								"vedic_shadbala_system": {
+									"type": "object",
+									"properties": {
+										"description": {
+											"type": "string"
+										},
+										"interpretation_thresholds": {
+											"type": "object",
+											"properties": {
+												"strong": {
+													"type": "string"
+												},
+												"weak": {
+													"type": "string"
+												}
+											}
+										},
+										"six_components": {
+											"type": "array",
+											"items": {
+												"oneOf": [
+													{
+														"type": "object",
+														"properties": {
+															"component": {
+																"type": "string"
+															},
+															"meaning": {
+																"type": "string"
+															}
+														}
+													}
+												]
+											}
+										},
+										"source": {
+											"type": "string"
+										}
+									}
+								},
+								"western_strength_concepts": {
+									"type": "object",
+									"properties": {
+										"dignity_sect_weighting": {
+											"type": "object",
+											"properties": {
+												"accidental_dignity": {
+													"type": "string"
+												},
+												"essential_dignity": {
+													"type": "string"
+												},
+												"sect_importance": {
+													"type": "string"
+												}
+											}
+										},
+										"strongest_planet_technique": {
+											"type": "object",
+											"properties": {
+												"calculation_factors": {
+													"type": "array",
+													"items": {
+														"oneOf": [
+															{
+																"type": "object",
+																"properties": {
+																	"factor": {
+																		"type": "string"
+																	},
+																	"weight": {
+																		"type": "string"
+																	}
+																}
+															}
+														]
+													}
+												},
+												"philosophy": {
+													"type": "string"
+												},
+												"source": {
+													"type": "string"
+												},
+												"vs_ruling_planet": {
+													"type": "string"
+												}
+											}
+										}
+									}
+								}
+							}
+						},
+						"section_4_synthesis_of_chart_types": {
+							"type": "object",
+							"properties": {
+								"multi_system_synthesis": {
+									"type": "object",
+									"properties": {
+										"description": {
+											"type": "string"
+										},
+										"source_concept": {
+											"type": "string"
+										},
+										"synthesis_goal": {
+											"type": "string"
+										},
+										"systems": {
+											"type": "array",
+											"items": {
+												"oneOf": [
+													{
+														"type": "object",
+														"properties": {
+															"tropical": {
+																"type": "string"
+															},
+															"sidereal": {
+																"type": "string"
+															},
+															"draconic": {
+																"type": "string"
+															},
+															"chinese": {
+																"type": "string"
+															},
+															"numerology": {
+																"type": "string"
+															}
+														}
+													}
+												]
+											}
+										}
+									}
+								},
+								"overview": {
+									"type": "string"
+								},
+								"predictive_synthesis": {
+									"type": "object",
+									"properties": {
+										"layers": {
+											"type": "array",
+											"items": {
+												"oneOf": [ { "type": "string" } ]
+											}
+										},
+										"method": {
+											"type": "string"
+										}
+									}
+								},
+								"relationship_chart_synthesis": {
+									"type": "object",
+									"properties": {
+										"interpretive_synthesis": {
+											"type": "string"
+										},
+										"techniques": {
+											"type": "array",
+											"items": {
+												"oneOf": [
+													{
+														"type": "object",
+														"properties": {
+															"synastry": {
+																"type": "string"
+															},
+															"composite_chart": {
+																"type": "string"
+															},
+															"davison_chart": {
+																"type": "string"
+															},
+															"coalescent_chart": {
+																"type": "string"
+															}
+														}
+													}
+												]
+											}
+										}
+									}
+								}
+							}
+						},
+						"section_5_practical_workflow_for_complete_delineation": {
+							"type": "object",
+							"properties": {
+								"overview": {
+									"type": "string"
+								},
+								"phase_1_foundational_natal_analysis": {
+									"type": "array",
+									"items": {
+										"oneOf": [ { "type": "string" } ]
+									}
+								},
+								"phase_2_chart_synthesis": {
+									"type": "array",
+									"items": {
+										"oneOf": [ { "type": "string" } ]
+									}
+								},
+								"phase_3_narrative_integration": {
+									"type": "array",
+									"items": {
+										"oneOf": [ { "type": "string" } ]
+									}
+								},
+								"phase_4_contextualization_delivery": {
+									"type": "array",
+									"items": {
+										"oneOf": [ { "type": "string" } ]
+									}
+								}
+							}
+						},
+						"section_name": {
+							"type": "string"
+						},
+						"synthesis_sources": {
+							"type": "array",
+							"items": {
+								"oneOf": [ { "type": "string" } ]
+							}
+						}
+					}
+				},
+				"category_i_foundational_personal_blueprint": {
+					"type": "object",
+					"properties": {
+						"category_description": {
+							"type": "string"
+						},
+						"category_name": {
+							"type": "string"
+						},
+						"charts": {
+							"type": "array",
+							"items": {
+								"oneOf": [
+									{
+										"type": "object",
+										"properties": {
+											"chart_name": {
+												"type": "string"
+											},
+											"technical_specifications": {
+												"type": "object",
+												"properties": {
+													"cons": {
+														"type": "array",
+														"items": {
+															"oneOf": [
+																{
+																	"type": "string"
+																}
+															]
+														}
+													},
+													"core_function": {
+														"type": "string"
+													},
+													"critical_data_requirements": {
+														"type": "object",
+														"properties": {
+															"birth_date": {
+																"type": "string"
+															},
+															"birth_location": {
+																"type": "object",
+																"properties": {
+																	"altitude": {
+																		"type": "string"
+																	},
+																	"latitude": {
+																		"type": "string"
+																	},
+																	"longitude": {
+																		"type": "string"
+																	}
+																}
+															},
+															"birth_time": {
+																"type": "string"
+															}
+														}
+													},
+													"dependencies": {
+														"type": "array",
+														"items": {
+															"oneOf": [
+																{
+																	"type": "string"
+																}
+															]
+														}
+													},
+													"house_system_options": {
+														"type": "object",
+														"properties": {
+															"alcabitius": {
+																"type": "string"
+															},
+															"campanus": {
+																"type": "string"
+															},
+															"equal": {
+																"type": "string"
+															},
+															"koch": {
+																"type": "string"
+															},
+															"placidus": {
+																"type": "string"
+															},
+															"porphyry": {
+																"type": "string"
+															},
+															"regiomontanus": {
+																"type": "string"
+															},
+															"topocentric": {
+																"type": "string"
+															},
+															"whole_sign": {
+																"type": "string"
+															}
+														}
+													},
+													"key_components": {
+														"type": "object",
+														"properties": {
+															"angular_relationships": {
+																"type": "array",
+																"items": {
+																	"oneOf": [
+																		{
+																			"type": "string"
+																		}
+																	]
+																}
+															},
+															"calculated_points": {
+																"type": "array",
+																"items": {
+																	"oneOf": [
+																		{
+																			"type": "string"
+																		}
+																	]
+																}
+															},
+															"planets": {
+																"type": "array",
+																"items": {
+																	"oneOf": [
+																		{
+																			"type": "string"
+																		}
+																	]
+																}
+															}
+														}
+													},
+													"mathematical_basis": {
+														"type": "string"
+													},
+													"primary_uses": {
+														"type": "array",
+														"items": {
+															"oneOf": [
+																{
+																	"type": "string"
+																}
+															]
+														}
+													},
+													"pros": {
+														"type": "array",
+														"items": {
+															"oneOf": [
+																{
+																	"type": "string"
+																}
+															]
+														}
+													},
+													"related_techniques": {
+														"type": "array",
+														"items": {
+															"oneOf": [
+																{
+																	"type": "string"
+																}
+															]
+														}
+													},
+													"calculation_method": {
+														"type": "object",
+														"properties": {
+															"note": {
+																"type": "string"
+															},
+															"step_1": {
+																"type": "string"
+															},
+															"step_2": {
+																"type": "string"
+															},
+															"step_3": {
+																"type": "string"
+															}
+														}
+													},
+													"integration_notes": {
+														"type": "string"
+													},
+													"interpretation_focus": {
+														"type": "object",
+														"properties": {
+															"aspect_patterns": {
+																"type": "string"
+															},
+															"draconic_ascendant": {
+																"type": "string"
+															},
+															"draconic_moon": {
+																"type": "string"
+															},
+															"draconic_sun": {
+																"type": "string"
+															}
+														}
+													},
+													"archetypal_personalities": {
+														"type": "object",
+														"properties": {
+															"jupiter_persona": {
+																"type": "string"
+															},
+															"mars_persona": {
+																"type": "string"
+															},
+															"mercury_persona": {
+																"type": "string"
+															},
+															"moon_persona": {
+																"type": "string"
+															},
+															"neptune_persona": {
+																"type": "string"
+															},
+															"pluto_persona": {
+																"type": "string"
+															},
+															"saturn_persona": {
+																"type": "string"
+															},
+															"uranus_persona": {
+																"type": "string"
+															},
+															"venus_persona": {
+																"type": "string"
+															}
+														}
+													},
+													"calculation_methodology": {
+														"type": "object",
+														"properties": {
+															"core_principle": {
+																"type": "string"
+															},
+															"note": {
+																"type": "string"
+															},
+															"step_by_step": {
+																"type": "object",
+																"properties": {
+																	"step_1": {
+																		"type": "string"
+																	},
+																	"step_2": {
+																		"type": "string"
+																	},
+																	"step_3": {
+																		"type": "string"
+																	},
+																	"step_4": {
+																		"type": "string"
+																	},
+																	"step_5": {
+																		"type": "string"
+																	}
+																}
+															}
+														}
+													},
+													"interpretation_guidelines": {
+														"type": "object",
+														"properties": {
+															"rule_1": {
+																"type": "string"
+															},
+															"rule_2": {
+																"type": "string"
+															},
+															"rule_3": {
+																"type": "string"
+															},
+															"rule_4": {
+																"type": "string"
+															},
+															"rule_5": {
+																"type": "string"
+															},
+															"special_emphasis": {
+																"type": "string"
+															}
+														}
+													},
+													"calculation_tools": {
+														"type": "string"
+													},
+													"common_harmonics_interpretation": {
+														"type": "object",
+														"properties": {
+															"h1": {
+																"type": "string"
+															},
+															"h12": {
+																"type": "string"
+															},
+															"h16": {
+																"type": "string"
+															},
+															"h2": {
+																"type": "string"
+															},
+															"h22": {
+																"type": "string"
+															},
+															"h3": {
+																"type": "string"
+															},
+															"h32": {
+																"type": "string"
+															},
+															"h4": {
+																"type": "string"
+															},
+															"h5": {
+																"type": "string"
+															},
+															"h6": {
+																"type": "string"
+															},
+															"h7": {
+																"type": "string"
+															},
+															"h8": {
+																"type": "string"
+															},
+															"h9": {
+																"type": "string"
+															}
+														}
+													},
+													"interpretation_rules": {
+														"type": "object",
+														"properties": {
+															"rule_1": {
+																"type": "string"
+															},
+															"rule_2": {
+																"type": "string"
+															},
+															"rule_3": {
+																"type": "string"
+															},
+															"rule_4": {
+																"type": "string"
+															},
+															"rule_5": {
+																"type": "string"
+															}
+														}
+													},
+													"mathematical_foundation": {
+														"type": "object",
+														"properties": {
+															"aspect_relationship": {
+																"type": "string"
+															},
+															"explanation": {
+																"type": "string"
+															},
+															"formula": {
+																"type": "string"
+															}
+														}
+													},
+													"ninth_harmonic_specialization": {
+														"type": "object",
+														"properties": {
+															"aspect_focus": {
+																"type": "string"
+															},
+															"calculation": {
+																"type": "string"
+															},
+															"key_principle": {
+																"type": "string"
+															},
+															"name": {
+																"type": "string"
+															},
+															"vedic_interpretation": {
+																"type": "string"
+															},
+															"western_interpretation": {
+																"type": "string"
+															}
+														}
+													},
+													"technical_warnings": {
+														"type": "array",
+														"items": {
+															"oneOf": [
+																{
+																	"type": "string"
+																}
+															]
+														}
+													},
+													"calculation_methods": {
+														"type": "object",
+														"properties": {
+															"prenatal_solar_epoch": {
+																"type": "string"
+															},
+															"trutine_of_hermes": {
+																"type": "string"
+															},
+															"variant_methods": {
+																"type": "string"
+															}
+														}
+													},
+													"historical_basis": {
+														"type": "object",
+														"properties": {
+															"ancient_principle": {
+																"type": "string"
+															},
+															"modern_view": {
+																"type": "string"
+															},
+															"traditional_use": {
+																"type": "string"
+															}
+														}
+													},
+													"interpretation_approaches": {
+														"type": "object",
+														"properties": {
+															"karmic_indicator": {
+																"type": "string"
+															},
+															"rectification_tool": {
+																"type": "string"
+															},
+															"soul_incarnation_chart": {
+																"type": "string"
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								]
+							}
+						}
+					}
+				},
+				"category_ii_relationship_synergy": {
+					"type": "object",
+					"properties": {
+						"category_description": {
+							"type": "string"
+						},
+						"category_name": {
+							"type": "string"
+						},
+						"charts": {
+							"type": "array",
+							"items": {
+								"oneOf": [
+									{
+										"type": "object",
+										"properties": {
+											"chart_name": {
+												"type": "string"
+											},
+											"technical_specifications": {
+												"type": "object",
+												"properties": {
+													"cons": {
+														"type": "array",
+														"items": {
+															"oneOf": [
+																{
+																	"type": "string"
+																}
+															]
+														}
+													},
+													"core_function": {
+														"type": "string"
+													},
+													"dependencies": {
+														"type": "array",
+														"items": {
+															"oneOf": [
+																{
+																	"type": "string"
+																}
+															]
+														}
+													},
+													"house_overlay_analysis": {
+														"type": "object",
+														"properties": {
+															"example": {
+																"type": "string"
+															},
+															"interpretation": {
+																"type": "string"
+															},
+															"principle": {
+																"type": "string"
+															}
+														}
+													},
+													"integration_notes": {
+														"type": "string"
+													},
+													"key_aspect_focus": {
+														"type": "object",
+														"properties": {
+															"jupiter_aspects": {
+																"type": "string"
+															},
+															"mercury_aspects": {
+																"type": "string"
+															},
+															"moon_connections": {
+																"type": "string"
+															},
+															"outer_planet_aspects": {
+																"type": "string"
+															},
+															"saturn_aspects": {
+																"type": "string"
+															},
+															"sun_moon_aspects": {
+																"type": "string"
+															},
+															"venus_mars_aspects": {
+																"type": "string"
+															}
+														}
+													},
+													"primary_uses": {
+														"type": "array",
+														"items": {
+															"oneOf": [
+																{
+																	"type": "string"
+																}
+															]
+														}
+													},
+													"pros": {
+														"type": "array",
+														"items": {
+															"oneOf": [
+																{
+																	"type": "string"
+																}
+															]
+														}
+													},
+													"visualization_methods": {
+														"type": "object",
+														"properties": {
+															"aspect_table": {
+																"type": "string"
+															},
+															"bi_wheel": {
+																"type": "string"
+															},
+															"composite_table": {
+																"type": "string"
+															}
+														}
+													},
+													"calculation_method": {
+														"type": [ "object", "string" ],
+														"properties": {
+															"angle_calculation": {
+																"type": "object",
+																"properties": {
+																	"midpoint_method": {
+																		"type": "string"
+																	},
+																	"reference_place_method": {
+																		"type": "string"
+																	}
+																}
+															},
+															"basic_formula": {
+																"type": "string"
+															},
+															"house_systems": {
+																"type": "string"
+															},
+															"chart_casting": {
+																"type": "string"
+															},
+															"space_midpoint": {
+																"type": "object",
+																"properties": {
+																	"latitude": {
+																		"type": "string"
+																	},
+																	"longitude": {
+																		"type": "string"
+																	}
+																}
+															},
+															"time_midpoint": {
+																"type": "string"
+															}
+														}
+													},
+													"interpretation_approach": {
+														"type": "object",
+														"properties": {
+															"composite_ascendant": {
+																"type": "string"
+															},
+															"composite_midheaven": {
+																"type": "string"
+															},
+															"composite_moon": {
+																"type": "string"
+															},
+															"composite_sun": {
+																"type": "string"
+															},
+															"planetary_aspects": {
+																"type": "string"
+															},
+															"principle": {
+																"type": "string"
+															},
+															"advantage": {
+																"type": "string"
+															},
+															"focus": {
+																"type": "string"
+															},
+															"key_transits": {
+																"type": "string"
+															}
+														}
+													},
+													"variant_methods": {
+														"type": "object",
+														"properties": {
+															"time_space_midpoint": {
+																"type": "string"
+															},
+															"weighted_composite": {
+																"type": "string"
+															}
+														}
+													},
+													"variant_calculations": {
+														"type": "object",
+														"properties": {
+															"corrected_davison": {
+																"type": "string"
+															},
+															"reference_place": {
+																"type": "string"
+															},
+															"uncorrected_davison": {
+																"type": "string"
+															}
+														}
+													},
+													"calculation_layers": {
+														"type": "object",
+														"properties": {
+															"layer_1": {
+																"type": "string"
+															},
+															"layer_2": {
+																"type": "string"
+															},
+															"layer_3": {
+																"type": "string"
+															}
+														}
+													},
+													"key_planetary_focus": {
+														"type": "object",
+														"properties": {
+															"progressed_mars": {
+																"type": "string"
+															},
+															"progressed_mercury": {
+																"type": "string"
+															},
+															"progressed_moon": {
+																"type": "string"
+															},
+															"progressed_venus": {
+																"type": "string"
+															}
+														}
+													},
+													"interpretation_focus": {
+														"type": "object",
+														"properties": {
+															"contrast_with_natal": {
+																"type": "string"
+															},
+															"draconic_aspects": {
+																"type": "string"
+															},
+															"draconic_conjunctions": {
+																"type": "string"
+															},
+															"principle": {
+																"type": "string"
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								]
+							}
+						}
+					}
+				},
+				"category_iii_predictive_cyclical_timing": {
+					"type": "object",
+					"properties": {
+						"category_description": {
+							"type": "string"
+						},
+						"category_name": {
+							"type": "string"
+						},
+						"charts": {
+							"type": "array",
+							"items": {
+								"oneOf": [
+									{
+										"type": "object",
+										"properties": {
+											"chart_name": {
+												"type": "string"
+											},
+											"technical_specifications": {
+												"type": "object",
+												"properties": {
+													"aspect_focus": {
+														"type": "string"
+													},
+													"cons": {
+														"type": "array",
+														"items": {
+															"oneOf": [
+																{
+																	"type": "string"
+																}
+															]
+														}
+													},
+													"core_function": {
+														"type": "string"
+													},
+													"dependencies": {
+														"type": "array",
+														"items": {
+															"oneOf": [
+																{
+																	"type": "string"
+																}
+															]
+														}
+													},
+													"integration_notes": {
+														"type": "string"
+													},
+													"orb_system": {
+														"type": "object",
+														"properties": {
+															"moon_transits": {
+																"type": "string"
+															},
+															"outer_planets": {
+																"type": "string"
+															},
+															"personal_planets": {
+																"type": "string"
+															},
+															"social_planets": {
+																"type": "string"
+															}
+														}
+													},
+													"planetary_significance": {
+														"type": "object",
+														"properties": {
+															"fast_moving": {
+																"type": "string"
+															},
+															"outer_planets": {
+																"type": "string"
+															},
+															"personal_planets": {
+																"type": "string"
+															},
+															"social_planets": {
+																"type": "string"
+															},
+															"sa_jupiter": {
+																"type": "string"
+															},
+															"sa_mars": {
+																"type": "string"
+															},
+															"sa_mercury": {
+																"type": "string"
+															},
+															"sa_moon": {
+																"type": "string"
+															},
+															"sa_neptune": {
+																"type": "string"
+															},
+															"sa_pluto": {
+																"type": "string"
+															},
+															"sa_saturn": {
+																"type": "string"
+															},
+															"sa_sun": {
+																"type": "string"
+															},
+															"sa_uranus": {
+																"type": "string"
+															},
+															"sa_venus": {
+																"type": "string"
+															}
+														}
+													},
+													"primary_uses": {
+														"type": "array",
+														"items": {
+															"oneOf": [
+																{
+																	"type": "string"
+																}
+															]
+														}
+													},
+													"pros": {
+														"type": "array",
+														"items": {
+															"oneOf": [
+																{
+																	"type": "string"
+																}
+															]
+														}
+													},
+													"station_emphasis": {
+														"type": "string"
+													},
+													"visualization": {
+														"type": "string"
+													},
+													"aspect_interpretation": {
+														"type": "object",
+														"properties": {
+															"focus": {
+																"type": "string"
+															},
+															"orb": {
+																"type": "string"
+															},
+															"stationary_periods": {
+																"type": "string"
+															},
+															"key_arcs": {
+																"type": "string"
+															}
+														}
+													},
+													"calculation_method": {
+														"type": "object",
+														"properties": {
+															"basic_principle": {
+																"type": "string"
+															},
+															"precise_calculation": {
+																"type": "string"
+															},
+															"simplified_version": {
+																"type": "string"
+															},
+															"note": {
+																"type": "string"
+															},
+															"step_1": {
+																"type": "string"
+															},
+															"step_2": {
+																"type": "string"
+															},
+															"activation": {
+																"type": "string"
+															},
+															"basic_rule": {
+																"type": "string"
+															},
+															"determining_time_lord": {
+																"type": "string"
+															}
+														}
+													},
+													"key_progressed_planets": {
+														"type": "object",
+														"properties": {
+															"progressed_ascendant": {
+																"type": "string"
+															},
+															"progressed_mercury_venus_mars": {
+																"type": "string"
+															},
+															"progressed_moon": {
+																"type": "string"
+															},
+															"progressed_sun": {
+																"type": "string"
+															}
+														}
+													},
+													"variant_methods": {
+														"type": "object",
+														"properties": {
+															"minor_progression": {
+																"type": "string"
+															},
+															"solar_arc_progression": {
+																"type": "string"
+															},
+															"tertiary_progression": {
+																"type": "string"
+															}
+														}
+													},
+													"calculation_criticality": {
+														"type": "string"
+													},
+													"house_system_recommendation": {
+														"type": "string"
+													},
+													"interpretation_focus": {
+														"type": "object",
+														"properties": {
+															"planetary_emphasis": {
+																"type": "string"
+															},
+															"solar_return_ascendant": {
+																"type": "string"
+															},
+															"sr_midheaven": {
+																"type": "string"
+															},
+															"sr_moon_house": {
+																"type": "string"
+															},
+															"house_emphasis": {
+																"type": "string"
+															},
+															"lr_moon_placement": {
+																"type": "string"
+															},
+															"lunar_return_ascendant": {
+																"type": "string"
+															},
+															"planetary_aspects_to_lr_moon": {
+																"type": "string"
+															},
+															"profected_house": {
+																"type": "string"
+															},
+															"time_lord_condition": {
+																"type": "string"
+															},
+															"time_lord_planet": {
+																"type": "string"
+															},
+															"transits_to_time_lord": {
+																"type": "string"
+															}
+														}
+													},
+													"calculation": {
+														"type": "string"
+													},
+													"calculation_complexity": {
+														"type": "string"
+													},
+													"core_concept": {
+														"type": "string"
+													},
+													"key_formulas": {
+														"type": "object",
+														"properties": {
+															"equal_key": {
+																"type": "string"
+															},
+															"naibod_key": {
+																"type": "string"
+															},
+															"placidus_key": {
+																"type": "string"
+															}
+														}
+													},
+													"key_methods": {
+														"type": "object",
+														"properties": {
+															"campanus": {
+																"type": "string"
+															},
+															"placidus_semi_arc": {
+																"type": "string"
+															},
+															"regiomontanus": {
+																"type": "string"
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								]
+							}
+						}
+					}
+				},
+				"category_iv_specialized_predictive_systems": {
+					"type": "object",
+					"properties": {
+						"category_description": {
+							"type": "string"
+						},
+						"category_name": {
+							"type": "string"
+						},
+						"systems": {
+							"type": "array",
+							"items": {
+								"oneOf": [
+									{
+										"type": "object",
+										"properties": {
+											"chart_types": {
+												"type": "array",
+												"items": {
+													"oneOf": [
+														{
+															"type": "object",
+															"properties": {
+																"calculation": {
+																	"type": "string"
+																},
+																"chart_name": {
+																	"type": "string"
+																},
+																"description": {
+																	"type": "string"
+																},
+																"focus": {
+																	"type": "string"
+																},
+																"use": {
+																	"type": "string"
+																},
+																"critical_components": {
+																	"type": "array",
+																	"items": {
+																		"oneOf": [
+																			{
+																				"type": "string"
+																			}
+																		]
+																	}
+																},
+																"methods": {
+																	"type": "array",
+																	"items": {
+																		"oneOf": [
+																			{
+																				"type": "string"
+																			}
+																		]
+																	}
+																},
+																"components": {
+																	"type": "array",
+																	"items": {
+																		"oneOf": [
+																			{
+																				"type": "string"
+																			}
+																		]
+																	}
+																},
+																"formula": {
+																	"type": "string"
+																}
+															}
+														}
+													]
+												}
+											},
+											"cons": {
+												"type": "array",
+												"items": {
+													"oneOf": [ { "type": "string" } ]
+												}
+											},
+											"dependencies": {
+												"type": "array",
+												"items": {
+													"oneOf": [ { "type": "string" } ]
+												}
+											},
+											"key_philosophical_tenets": {
+												"type": "array",
+												"items": {
+													"oneOf": [ { "type": "string" } ]
+												}
+											},
+											"magi_aspect_patterns": {
+												"type": "array",
+												"items": {
+													"oneOf": [
+														{
+															"type": "object",
+															"properties": {
+																"configuration": {
+																	"type": "string"
+																},
+																"interpretation": {
+																	"type": "string"
+																},
+																"pattern_name": {
+																	"type": "string"
+																},
+																"validation_rule": {
+																	"type": "string"
+																}
+															}
+														}
+													]
+												}
+											},
+											"magi_linkages_system": {
+												"type": "object",
+												"properties": {
+													"description": {
+														"type": "string"
+													},
+													"linkage_categories": {
+														"type": "array",
+														"items": {
+															"oneOf": [
+																{
+																	"type": "object",
+																	"properties": {
+																		"category": {
+																			"type": "string"
+																		},
+																		"examples": {
+																			"type": "string"
+																		},
+																		"outcome": {
+																			"type": "string"
+																		}
+																	}
+																}
+															]
+														}
+													}
+												}
+											},
+											"pros": {
+												"type": "array",
+												"items": {
+													"oneOf": [ { "type": "string" } ]
+												}
+											},
+											"system_description": {
+												"type": "string"
+											},
+											"system_name": {
+												"type": "string"
+											},
+											"hypothetical_planets_meaning": {
+												"type": "object",
+												"properties": {
+													"admetos": {
+														"type": "string"
+													},
+													"apollon": {
+														"type": "string"
+													},
+													"cupido": {
+														"type": "string"
+													},
+													"hades": {
+														"type": "string"
+													},
+													"kronos": {
+														"type": "string"
+													},
+													"poseidon": {
+														"type": "string"
+													},
+													"vulcanus": {
+														"type": "string"
+													},
+													"zeus": {
+														"type": "string"
+													}
+												}
+											},
+											"key_features": {
+												"type": "array",
+												"items": {
+													"oneOf": [ { "type": "string" } ]
+												}
+											},
+											"advanced_analysis_techniques": {
+												"type": "object",
+												"properties": {
+													"harmonic_analysis_beyond_4th": {
+														"type": "object",
+														"properties": {
+															"4th_harmonic_90": {
+																"type": "object",
+																"properties": {
+																	"aspects": {
+																		"type": "array",
+																		"items": {
+																			"oneOf": [
+																				{
+																					"type": "string"
+																				}
+																			]
+																		}
+																	},
+																	"focus": {
+																		"type": "string"
+																	},
+																	"orb_recommendation": {
+																		"type": "string"
+																	}
+																}
+															},
+															"8th_harmonic_45": {
+																"type": "object",
+																"properties": {
+																	"aspects": {
+																		"type": "array",
+																		"items": {
+																			"oneOf": [
+																				{
+																					"type": "string"
+																				}
+																			]
+																		}
+																	},
+																	"focus": {
+																		"type": "string"
+																	},
+																	"orb_recommendation": {
+																		"type": "string"
+																	}
+																}
+															},
+															"description": {
+																"type": "string"
+															},
+															"other_harmonics_advanced": {
+																"type": "object",
+																"properties": {
+																	"5th_harmonic": {
+																		"type": "string"
+																	},
+																	"7th_harmonic": {
+																		"type": "string"
+																	},
+																	"9th_harmonic": {
+																		"type": "string"
+																	},
+																	"note": {
+																		"type": "string"
+																	}
+																}
+															}
+														}
+													},
+													"midpoint_analysis_with_unknown_birth_times": {
+														"type": "object",
+														"properties": {
+															"description": {
+																"type": "string"
+															},
+															"excluded_from_analysis": {
+																"type": "array",
+																"items": {
+																	"oneOf": [
+																		{
+																			"type": "string"
+																		}
+																	]
+																}
+															},
+															"included_in_analysis": {
+																"type": "array",
+																"items": {
+																	"oneOf": [
+																		{
+																			"type": "string"
+																		}
+																	]
+																}
+															},
+															"procedure": {
+																"type": "array",
+																"items": {
+																	"oneOf": [
+																		{
+																			"type": "string"
+																		}
+																	]
+																}
+															}
+														}
+													},
+													"multiple_focal_points_sharing_same_midpoint": {
+														"type": "object",
+														"properties": {
+															"description": {
+																"type": "string"
+															},
+															"example": {
+																"type": "string"
+															},
+															"interpretation": {
+																"type": "array",
+																"items": {
+																	"oneOf": [
+																		{
+																			"type": "string"
+																		}
+																	]
+																}
+															}
+														}
+													},
+													"the_aries_point_and_public_projection": {
+														"type": "object",
+														"properties": {
+															"aries_point_midpoint_pictures": {
+																"type": "string"
+															},
+															"characteristics": {
+																"type": "array",
+																"items": {
+																	"oneOf": [
+																		{
+																			"type": "string"
+																		}
+																	]
+																}
+															},
+															"examples": {
+																"type": "array",
+																"items": {
+																	"oneOf": [
+																		{
+																			"type": "object",
+																			"properties": {
+																				"configuration": {
+																					"type": "string"
+																				},
+																				"interpretation": {
+																					"type": "string"
+																				},
+																				"person": {
+																					"type": "string"
+																				}
+																			}
+																		}
+																	]
+																}
+															},
+															"significance": {
+																"type": "string"
+															}
+														}
+													},
+													"the_closest_midpoint_picture": {
+														"type": "object",
+														"properties": {
+															"applications": {
+																"type": "array",
+																"items": {
+																	"oneOf": [
+																		{
+																			"type": "object",
+																			"properties": {
+																				"closest_midpoint": {
+																					"type": "string"
+																				},
+																				"interpretation": {
+																					"type": "string"
+																				},
+																				"person": {
+																					"type": "string"
+																				}
+																			}
+																		}
+																	]
+																}
+															},
+															"finding_the_closest": {
+																"type": "array",
+																"items": {
+																	"oneOf": [
+																		{
+																			"type": "string"
+																		}
+																	]
+																}
+															},
+															"principle": {
+																"type": "string"
+															}
+														}
+													},
+													"transits_progressions_solar_arcs_to_midpoints": {
+														"type": "object",
+														"properties": {
+															"secondary_progressions_to_midpoints": {
+																"type": "object",
+																"properties": {
+																	"description": {
+																		"type": "string"
+																	}
+																}
+															},
+															"solar_arc_directions_to_midpoints": {
+																"type": "object",
+																"properties": {
+																	"description": {
+																		"type": "string"
+																	},
+																	"orb_recommendation": {
+																		"type": "string"
+																	}
+																}
+															},
+															"transits_to_midpoints": {
+																"type": "object",
+																"properties": {
+																	"description": {
+																		"type": "string"
+																	},
+																	"orb_recommendation": {
+																		"type": "string"
+																	}
+																}
+															}
+														}
+													},
+													"unaspected_planets_and_midpoints": {
+														"type": "object",
+														"properties": {
+															"definition": {
+																"type": "string"
+															},
+															"example_unaspected_mars": {
+																"type": "string"
+															},
+															"midpoint_analysis_for_unaspected_planets": {
+																"type": "array",
+																"items": {
+																	"oneOf": [
+																		{
+																			"type": "string"
+																		}
+																	]
+																}
+															},
+															"significance": {
+																"type": "string"
+															},
+															"solution_via_midpoints": {
+																"type": "string"
+															}
+														}
+													}
+												}
+											},
+											"advanced_synthesis": {
+												"type": "object",
+												"properties": {
+													"composite_chart_midpoint_analysis": {
+														"type": "object",
+														"properties": {
+															"description": {
+																"type": "string"
+															},
+															"procedure": {
+																"type": "array",
+																"items": {
+																	"oneOf": [
+																		{
+																			"type": "string"
+																		}
+																	]
+																}
+															}
+														}
+													},
+													"multi_midpoint_relationship_analysis": {
+														"type": "object",
+														"properties": {
+															"description": {
+																"type": "string"
+															},
+															"midpoint_trees_for_synastry": {
+																"type": "array",
+																"items": {
+																	"oneOf": [
+																		{
+																			"type": "string"
+																		}
+																	]
+																}
+															},
+															"significance": {
+																"type": "object",
+																"properties": {
+																	"challenging_contacts": {
+																		"type": "string"
+																	},
+																	"person_a_planets_hitting_person_b_midpoints": {
+																		"type": "string"
+																	},
+																	"reciprocal_contacts": {
+																		"type": "string"
+																	}
+																}
+															}
+														}
+													},
+													"predictive_applications": {
+														"type": "object",
+														"properties": {
+															"example": {
+																"type": "string"
+															},
+															"timing_events_through_midpoint_activation": {
+																"type": "array",
+																"items": {
+																	"oneOf": [
+																		{
+																			"type": "string"
+																		}
+																	]
+																}
+															}
+														}
+													}
+												}
+											},
+											"all_78_midpoint_combinations": {
+												"type": "object",
+												"properties": {
+													"angle_combinations": {
+														"type": "array",
+														"items": {
+															"oneOf": [
+																{
+																	"type": "object",
+																	"properties": {
+																		"basic_interpretation": {
+																			"type": "string"
+																		},
+																		"combination": {
+																			"type": "string"
+																		},
+																		"keywords": {
+																			"type": "string"
+																		},
+																		"significance": {
+																			"type": "string"
+																		}
+																	}
+																}
+															]
+														}
+													},
+													"jupiter_midpoints": {
+														"type": "array",
+														"items": {
+															"oneOf": [
+																{
+																	"type": "object",
+																	"properties": {
+																		"basic_interpretation": {
+																			"type": "string"
+																		},
+																		"combination": {
+																			"type": "string"
+																		},
+																		"keywords": {
+																			"type": "string"
+																		}
+																	}
+																}
+															]
+														}
+													},
+													"mars_midpoints": {
+														"type": "array",
+														"items": {
+															"oneOf": [
+																{
+																	"type": "object",
+																	"properties": {
+																		"basic_interpretation": {
+																			"type": "string"
+																		},
+																		"combination": {
+																			"type": "string"
+																		},
+																		"keywords": {
+																			"type": "string"
+																		}
+																	}
+																}
+															]
+														}
+													},
+													"mercury_midpoints": {
+														"type": "array",
+														"items": {
+															"oneOf": [
+																{
+																	"type": "object",
+																	"properties": {
+																		"basic_interpretation": {
+																			"type": "string"
+																		},
+																		"combination": {
+																			"type": "string"
+																		},
+																		"keywords": {
+																			"type": "string"
+																		}
+																	}
+																}
+															]
+														}
+													},
+													"moon_midpoints": {
+														"type": "array",
+														"items": {
+															"oneOf": [
+																{
+																	"type": "object",
+																	"properties": {
+																		"basic_interpretation": {
+																			"type": "string"
+																		},
+																		"combination": {
+																			"type": "string"
+																		},
+																		"keywords": {
+																			"type": "string"
+																		}
+																	}
+																}
+															]
+														}
+													},
+													"neptune_midpoints": {
+														"type": "array",
+														"items": {
+															"oneOf": [
+																{
+																	"type": "object",
+																	"properties": {
+																		"basic_interpretation": {
+																			"type": "string"
+																		},
+																		"combination": {
+																			"type": "string"
+																		},
+																		"keywords": {
+																			"type": "string"
+																		}
+																	}
+																}
+															]
+														}
+													},
+													"pluto_midpoints": {
+														"type": "array",
+														"items": {
+															"oneOf": [
+																{
+																	"type": "object",
+																	"properties": {
+																		"basic_interpretation": {
+																			"type": "string"
+																		},
+																		"combination": {
+																			"type": "string"
+																		},
+																		"keywords": {
+																			"type": "string"
+																		}
+																	}
+																}
+															]
+														}
+													},
+													"saturn_midpoints": {
+														"type": "array",
+														"items": {
+															"oneOf": [
+																{
+																	"type": "object",
+																	"properties": {
+																		"basic_interpretation": {
+																			"type": "string"
+																		},
+																		"combination": {
+																			"type": "string"
+																		},
+																		"keywords": {
+																			"type": "string"
+																		}
+																	}
+																}
+															]
+														}
+													},
+													"sun_midpoints": {
+														"type": "array",
+														"items": {
+															"oneOf": [
+																{
+																	"type": "object",
+																	"properties": {
+																		"basic_interpretation": {
+																			"type": "string"
+																		},
+																		"combination": {
+																			"type": "string"
+																		},
+																		"keywords": {
+																			"type": "string"
+																		},
+																		"significance": {
+																			"type": "string"
+																		}
+																	}
+																}
+															]
+														}
+													},
+													"uranus_midpoints": {
+														"type": "array",
+														"items": {
+															"oneOf": [
+																{
+																	"type": "object",
+																	"properties": {
+																		"basic_interpretation": {
+																			"type": "string"
+																		},
+																		"combination": {
+																			"type": "string"
+																		},
+																		"keywords": {
+																			"type": "string"
+																		}
+																	}
+																}
+															]
+														}
+													},
+													"venus_midpoints": {
+														"type": "array",
+														"items": {
+															"oneOf": [
+																{
+																	"type": "object",
+																	"properties": {
+																		"basic_interpretation": {
+																			"type": "string"
+																		},
+																		"combination": {
+																			"type": "string"
+																		},
+																		"keywords": {
+																			"type": "string"
+																		}
+																	}
+																}
+															]
+														}
+													}
+												}
+											},
+											"calculation_methods": {
+												"type": "object",
+												"properties": {
+													"basic_midpoint_calculation": {
+														"type": "object",
+														"properties": {
+															"example": {
+																"type": "string"
+															},
+															"formula": {
+																"type": "string"
+															}
+														}
+													},
+													"handling_zodiacal_wraparound": {
+														"type": "object",
+														"properties": {
+															"example": {
+																"type": "string"
+															},
+															"rule": {
+																"type": "string"
+															}
+														}
+													},
+													"the_aries_point_reference": {
+														"type": "string"
+													},
+													"the_axis_concept": {
+														"type": "string"
+													}
+												}
+											},
+											"complete_methodology_summary": {
+												"type": "object",
+												"properties": {
+													"key_principles_to_remember": {
+														"type": "array",
+														"items": {
+															"oneOf": [
+																{
+																	"type": "string"
+																}
+															]
+														}
+													},
+													"step_by_step_process": {
+														"type": "array",
+														"items": {
+															"oneOf": [
+																{
+																	"type": "string"
+																}
+															]
+														}
+													}
+												}
+											},
+											"foundational_principles": {
+												"type": "object",
+												"properties": {
+													"midpoint_equation_format": {
+														"type": "string"
+													},
+													"nature_of_midpoint_pictures": {
+														"type": "string"
+													},
+													"principle_of_potentials": {
+														"type": "string"
+													},
+													"three_point_synthesis": {
+														"type": "string"
+													}
+												}
+											},
+											"integration_synthesis": {
+												"type": "object",
+												"properties": {
+													"creating_thematic_coherence": {
+														"type": "object",
+														"properties": {
+															"example_synthesis_benjamin_franklin": {
+																"type": "object",
+																"properties": {
+																	"integration": {
+																		"type": "string"
+																	},
+																	"patterns": {
+																		"type": "array",
+																		"items": {
+																			"oneOf": [
+																				{
+																					"type": "string"
+																				}
+																			]
+																		}
+																	}
+																}
+															},
+															"observing_patterns": {
+																"type": "array",
+																"items": {
+																	"oneOf": [
+																		{
+																			"type": "string"
+																		}
+																	]
+																}
+															}
+														}
+													},
+													"interpretation_without_over_refinement": {
+														"type": "object",
+														"properties": {
+															"example_o_equals_i_7": {
+																"type": "object",
+																"properties": {
+																	"client_a": {
+																		"type": "string"
+																	},
+																	"client_b": {
+																		"type": "string"
+																	},
+																	"client_c": {
+																		"type": "string"
+																	},
+																	"client_d": {
+																		"type": "string"
+																	},
+																	"interpretation": {
+																		"type": "string"
+																	},
+																	"note": {
+																		"type": "string"
+																	}
+																}
+															},
+															"important_principle": {
+																"type": "string"
+															}
+														}
+													},
+													"midpoint_worksheet_system": {
+														"type": "object",
+														"properties": {
+															"section_1_focal_points": {
+																"type": "string"
+															},
+															"section_2_aries_point_contacts": {
+																"type": "string"
+															},
+															"section_3_sun_moon_midpoint": {
+																"type": "string"
+															},
+															"section_4_ascendant_midheaven_midpoint": {
+																"type": "string"
+															},
+															"section_5_unaspected_planets_analysis": {
+																"type": "string"
+															},
+															"section_6_closest_midpoint_picture": {
+																"type": "string"
+															},
+															"section_7_synthesis_summary": {
+																"type": "string"
+															}
+														}
+													}
+												}
+											},
+											"interpretation_methodology": {
+												"type": "object",
+												"properties": {
+													"application_of_polarities": {
+														"type": "object",
+														"properties": {
+															"example_mars_jupiter_midpoint": {
+																"type": "object",
+																"properties": {
+																	"least_positive": {
+																		"type": "string"
+																	},
+																	"moderate_positive": {
+																		"type": "string"
+																	},
+																	"most_positive": {
+																		"type": "string"
+																	}
+																}
+															},
+															"polarity_principle": {
+																"type": "string"
+															}
+														}
+													},
+													"core_planetary_keywords": {
+														"type": "object",
+														"properties": {
+															"ascendant": {
+																"type": "string"
+															},
+															"jupiter": {
+																"type": "string"
+															},
+															"mars": {
+																"type": "string"
+															},
+															"mercury": {
+																"type": "string"
+															},
+															"midheaven": {
+																"type": "string"
+															},
+															"moon": {
+																"type": "string"
+															},
+															"neptune": {
+																"type": "string"
+															},
+															"north_node": {
+																"type": "string"
+															},
+															"pluto": {
+																"type": "string"
+															},
+															"saturn": {
+																"type": "string"
+															},
+															"sun": {
+																"type": "string"
+															},
+															"uranus": {
+																"type": "string"
+															},
+															"venus": {
+																"type": "string"
+															}
+														}
+													},
+													"the_keyword_construction_method": {
+														"type": "object",
+														"properties": {
+															"basic_formula": {
+																"type": "string"
+															}
+														}
+													},
+													"three_level_interpretation_structure": {
+														"type": "object",
+														"properties": {
+															"level_1_basic_interpretation": {
+																"type": "string"
+															},
+															"level_2_contextual_expansion": {
+																"type": "string"
+															},
+															"level_3_practical_expression": {
+																"type": "string"
+															}
+														}
+													}
+												}
+											},
+											"midpoint_identification_organization": {
+												"type": "object",
+												"properties": {
+													"90_degree_midpoint_sort": {
+														"type": "object",
+														"properties": {
+															"description": {
+																"type": "string"
+															},
+															"reading_the_sort": {
+																"type": "string"
+															},
+															"why_90_degrees": {
+																"type": "string"
+															}
+														}
+													},
+													"90_degree_midpoint_tree": {
+														"type": "object",
+														"properties": {
+															"advantages": {
+																"type": "array",
+																"items": {
+																	"oneOf": [
+																		{
+																			"type": "string"
+																		}
+																	]
+																}
+															},
+															"best_practice": {
+																"type": "string"
+															},
+															"description": {
+																"type": "string"
+															},
+															"disadvantages": {
+																"type": "array",
+																"items": {
+																	"oneOf": [
+																		{
+																			"type": "string"
+																		}
+																	]
+																}
+															}
+														}
+													}
+												}
+											},
+											"midpoint_weighting_strength_calculation": {
+												"type": "object",
+												"properties": {
+													"hierarchy_of_midpoint_significance": {
+														"type": "object",
+														"properties": {
+															"primary_level": {
+																"type": "array",
+																"items": {
+																	"oneOf": [
+																		{
+																			"type": "string"
+																		}
+																	]
+																}
+															},
+															"secondary_level": {
+																"type": "array",
+																"items": {
+																	"oneOf": [
+																		{
+																			"type": "string"
+																		}
+																	]
+																}
+															},
+															"tertiary_level": {
+																"type": "array",
+																"items": {
+																	"oneOf": [
+																		{
+																			"type": "string"
+																		}
+																	]
+																}
+															}
+														}
+													},
+													"multi_factor_weighting_system": {
+														"type": "object",
+														"properties": {
+															"focal_point_weighting": {
+																"type": "object",
+																"properties": {
+																	"angles_asc_mc": {
+																		"type": "string"
+																	},
+																	"outer_planets": {
+																		"type": "string"
+																	},
+																	"personal_planets": {
+																		"type": "string"
+																	},
+																	"saturn_pluto": {
+																		"type": "string"
+																	},
+																	"sun_moon_nodes": {
+																		"type": "string"
+																	}
+																}
+															},
+															"formula": {
+																"type": "string"
+															},
+															"house_connection_weight": {
+																"type": "object",
+																"properties": {
+																	"1st_4th_7th_10th": {
+																		"type": "string"
+																	},
+																	"2nd_5th_8th_11th": {
+																		"type": "string"
+																	},
+																	"3rd_6th_9th_12th": {
+																		"type": "string"
+																	}
+																}
+															},
+															"modality_weighting": {
+																"type": "object",
+																"properties": {
+																	"conjunction_same_degree": {
+																		"type": "string"
+																	},
+																	"opposition_plus_minus_45": {
+																		"type": "string"
+																	},
+																	"square_plus_minus_30": {
+																		"type": "string"
+																	}
+																}
+															}
+														}
+													},
+													"orb_determination_weighting": {
+														"type": "object",
+														"properties": {
+															"description": {
+																"type": "string"
+															},
+															"recommended_orb_parameters": {
+																"type": "object",
+																"properties": {
+																	"conservative_orb": {
+																		"type": "string"
+																	},
+																	"liberal_orb": {
+																		"type": "string"
+																	},
+																	"standard_working_orb": {
+																		"type": "string"
+																	},
+																	"sun_moon_midpoint_special": {
+																		"type": "string"
+																	}
+																}
+															},
+															"standard_orb_guidelines": {
+																"type": "object",
+																"properties": {
+																	"0_00_to_0_30": {
+																		"type": "string"
+																	},
+																	"0_31_to_1_00": {
+																		"type": "string"
+																	},
+																	"1_01_to_1_30": {
+																		"type": "string"
+																	},
+																	"1_31_to_2_00": {
+																		"type": "string"
+																	},
+																	"2_01_to_2_30": {
+																		"type": "string"
+																	}
+																}
+															}
+														}
+													},
+													"weighting_formula": {
+														"type": "object",
+														"properties": {
+															"basic_weight": {
+																"type": "string"
+															},
+															"example_weights": {
+																"type": "object",
+																"properties": {
+																	"0_36": {
+																		"type": "integer"
+																	},
+																	"1_12": {
+																		"type": "integer"
+																	},
+																	"1_48": {
+																		"type": "integer"
+																	},
+																	"2_24": {
+																		"type": "integer"
+																	},
+																	"exact_0_00": {
+																		"type": "integer"
+																	}
+																}
+															}
+														}
+													}
+												}
+											},
+											"practical_interpretation_guidelines": {
+												"type": "object",
+												"properties": {
+													"house_placement_applications": {
+														"type": "object",
+														"properties": {
+															"description": {
+																"type": "string"
+															},
+															"example_o_i_7": {
+																"type": "object",
+																"properties": {
+																	"in_10th_house": {
+																		"type": "string"
+																	},
+																	"in_4th_house": {
+																		"type": "string"
+																	},
+																	"in_5th_house": {
+																		"type": "string"
+																	}
+																}
+															}
+														}
+													},
+													"sign_placements_in_midpoint_interpretation": {
+														"type": "object",
+														"properties": {
+															"cardinal_signs": {
+																"type": "object",
+																"properties": {
+																	"description": {
+																		"type": "string"
+																	},
+																	"effect": {
+																		"type": "string"
+																	}
+																}
+															},
+															"example_o_i_7": {
+																"type": "object",
+																"properties": {
+																	"in_gemini": {
+																		"type": "string"
+																	},
+																	"in_leo": {
+																		"type": "string"
+																	},
+																	"in_pisces": {
+																		"type": "string"
+																	}
+																}
+															},
+															"fixed_signs": {
+																"type": "object",
+																"properties": {
+																	"description": {
+																		"type": "string"
+																	},
+																	"effect": {
+																		"type": "string"
+																	}
+																}
+															},
+															"mutable_signs": {
+																"type": "object",
+																"properties": {
+																	"description": {
+																		"type": "string"
+																	},
+																	"effect": {
+																		"type": "string"
+																	}
+																}
+															}
+														}
+													},
+													"the_action_phrase_method": {
+														"type": "object",
+														"properties": {
+															"examples": {
+																"type": "array",
+																"items": {
+																	"oneOf": [
+																		{
+																			"type": "object",
+																			"properties": {
+																				"interpretation": {
+																					"type": "string"
+																				},
+																				"midpoint": {
+																					"type": "string"
+																				}
+																			}
+																		}
+																	]
+																}
+															},
+															"formula": {
+																"type": "string"
+															}
+														}
+													}
+												}
+											},
+											"source": {
+												"type": "string"
+											}
+										}
+									}
+								]
+							}
+						}
+					}
+				},
+				"category_v_event_locational": {
+					"type": "object",
+					"properties": {
+						"category_description": {
+							"type": "string"
+						},
+						"category_name": {
+							"type": "string"
+						},
+						"charts": {
+							"type": "array",
+							"items": {
+								"oneOf": [
+									{
+										"type": "object",
+										"properties": {
+											"chart_name": {
+												"type": "string"
+											},
+											"technical_specifications": {
+												"type": "object",
+												"properties": {
+													"cons": {
+														"type": "array",
+														"items": {
+															"oneOf": [
+																{
+																	"type": "string"
+																}
+															]
+														}
+													},
+													"core_function": {
+														"type": "string"
+													},
+													"critical_timing": {
+														"type": "string"
+													},
+													"dependencies": {
+														"type": "array",
+														"items": {
+															"oneOf": [
+																{
+																	"type": "string"
+																}
+															]
+														}
+													},
+													"key_techniques": {
+														"type": "array",
+														"items": {
+															"oneOf": [
+																{
+																	"type": "string"
+																}
+															]
+														}
+													},
+													"primary_uses": {
+														"type": "array",
+														"items": {
+															"oneOf": [
+																{
+																	"type": "string"
+																}
+															]
+														}
+													},
+													"pros": {
+														"type": "array",
+														"items": {
+															"oneOf": [
+																{
+																	"type": "string"
+																}
+															]
+														}
+													},
+													"key_principles": {
+														"type": "array",
+														"items": {
+															"oneOf": [
+																{
+																	"type": "string"
+																}
+															]
+														}
+													},
+													"planning_process": {
+														"type": "string"
+													},
+													"interpretation_principles": {
+														"type": "object",
+														"properties": {
+															"angularity_emphasis": {
+																"type": "string"
+															},
+															"parans": {
+																"type": "string"
+															},
+															"planetary_lines": {
+																"type": "string"
+															}
+														}
+													},
+													"main_techniques": {
+														"type": "object",
+														"properties": {
+															"astrocartography": {
+																"type": "string"
+															},
+															"local_space_chart": {
+																"type": "string"
+															},
+															"relocation_chart": {
+																"type": "string"
+															}
+														}
+													},
+													"common_events_charted": {
+														"type": "array",
+														"items": {
+															"oneOf": [
+																{
+																	"type": "string"
+																}
+															]
+														}
+													},
+													"interpretation_approach": {
+														"type": "string"
+													}
+												}
+											}
+										}
+									}
+								]
+							}
+						}
+					}
+				},
+				"category_vi_analytical_enhancement_techniques": {
+					"type": "object",
+					"properties": {
+						"category_description": {
+							"type": "string"
+						},
+						"category_name": {
+							"type": "string"
+						},
+						"techniques": {
+							"type": "array",
+							"items": {
+								"oneOf": [
+									{
+										"type": "object",
+										"properties": {
+											"technical_specifications": {
+												"type": "object",
+												"properties": {
+													"calculation_procedure": {
+														"type": "array",
+														"items": {
+															"oneOf": [
+																{
+																	"type": "string"
+																}
+															]
+														}
+													},
+													"cons": {
+														"type": "array",
+														"items": {
+															"oneOf": [
+																{
+																	"type": "string"
+																}
+															]
+														}
+													},
+													"dependencies": {
+														"type": "array",
+														"items": {
+															"oneOf": [
+																{
+																	"type": "string"
+																}
+															]
+														}
+													},
+													"description": {
+														"type": "string"
+													},
+													"general_formula": {
+														"type": "string"
+													},
+													"interpretation_focus": {
+														"type": "array",
+														"items": {
+															"oneOf": [
+																{
+																	"type": "string"
+																}
+															]
+														}
+													},
+													"key_parts": {
+														"type": "array",
+														"items": {
+															"oneOf": [
+																{
+																	"type": "object",
+																	"properties": {
+																		"day_formula": {
+																			"type": "string"
+																		},
+																		"meaning": {
+																			"type": "string"
+																		},
+																		"name": {
+																			"type": "string"
+																		},
+																		"night_formula": {
+																			"type": "string"
+																		},
+																		"female_formula": {
+																			"type": "string"
+																		},
+																		"male_formula": {
+																			"type": "string"
+																		},
+																		"modern_usage": {
+																			"type": "string"
+																		},
+																		"formula": {
+																			"type": "string"
+																		}
+																	}
+																}
+															]
+														}
+													},
+													"primary_uses": {
+														"type": "array",
+														"items": {
+															"oneOf": [
+																{
+																	"type": "string"
+																}
+															]
+														}
+													},
+													"pros": {
+														"type": "array",
+														"items": {
+															"oneOf": [
+																{
+																	"type": "string"
+																}
+															]
+														}
+													},
+													"historical_method": {
+														"type": "string"
+													},
+													"key_star_examples": {
+														"type": "object",
+														"properties": {
+															"aldebaran": {
+																"type": "string"
+															},
+															"algol": {
+																"type": "string"
+															},
+															"antares": {
+																"type": "string"
+															},
+															"regulus": {
+																"type": "string"
+															},
+															"spica": {
+																"type": "string"
+															}
+														}
+													},
+													"modern_method": {
+														"type": "string"
+													},
+													"orb_system": {
+														"type": "object",
+														"properties": {
+															"conjunction_to_angle": {
+																"type": "string"
+															},
+															"conjunction_to_planet": {
+																"type": "string"
+															},
+															"influence_strength": {
+																"type": "string"
+															}
+														}
+													},
+													"pattern_activation_mechanics": {
+														"type": "object",
+														"properties": {
+															"core_principle": {
+																"type": "string"
+															},
+															"grand_trine_activation": {
+																"type": "string"
+															},
+															"multiple_activations": {
+																"type": "string"
+															},
+															"t_square_activation": {
+																"type": "string"
+															},
+															"yod_activation": {
+																"type": "string"
+															}
+														}
+													},
+													"patterns": {
+														"type": "array",
+														"items": {
+															"oneOf": [
+																{
+																	"type": "object",
+																	"properties": {
+																		"activation_points": {
+																			"type": "string"
+																		},
+																		"configuration": {
+																			"type": "string"
+																		},
+																		"energy": {
+																			"type": "string"
+																		},
+																		"name": {
+																			"type": "string"
+																		}
+																	}
+																}
+															]
+														}
+													}
+												}
+											},
+											"technique_name": {
+												"type": "string"
+											},
+											"integration_notes": {
+												"type": "string"
+											},
+											"source": {
+												"type": "string"
+											}
+										}
+									}
+								]
+							}
+						}
+					}
+				},
+				"integration_framework_guidelines": {
+					"type": "object",
+					"properties": {
+						"categorical_structure": {
+							"type": "object",
+							"properties": {
+								"category_i": {
+									"type": "string"
+								},
+								"category_ii": {
+									"type": "string"
+								},
+								"category_iii": {
+									"type": "string"
+								},
+								"category_iv": {
+									"type": "string"
+								},
+								"category_v": {
+									"type": "string"
+								},
+								"category_vi": {
+									"type": "string"
+								}
+							}
+						},
+						"dependency_hierarchy": {
+							"type": "object",
+							"properties": {
+								"level_1": {
+									"type": "string"
+								},
+								"level_2": {
+									"type": "string"
+								},
+								"level_3": {
+									"type": "string"
+								},
+								"level_4": {
+									"type": "string"
+								},
+								"level_5": {
+									"type": "string"
+								}
+							}
+						},
+						"predictive_layering_recommendation": {
+							"type": "string"
+						},
+						"relationship_analysis_recommendation": {
+							"type": "string"
+						},
+						"section_name": {
+							"type": "string"
+						},
+						"software_implementation_notes": {
+							"type": "object",
+							"properties": {
+								"calculation_precision": {
+									"type": "string"
+								},
+								"efficient_algorithms": {
+									"type": "string"
+								},
+								"validation_checks": {
+									"type": "string"
+								}
+							}
+						}
+					}
+				},
+				"mathematical_reference_section": {
+					"type": "object",
+					"properties": {
+						"aspect_calculation_formulas": {
+							"type": "object",
+							"properties": {
+								"applying_vs_separating": {
+									"type": "string"
+								},
+								"basic_aspect_detection": {
+									"type": "string"
+								}
+							}
+						},
+						"description": {
+							"type": "string"
+						},
+						"dignity_calculation_systems": {
+							"type": "object",
+							"properties": {
+								"accidental_dignity_scoring": {
+									"type": "object",
+									"properties": {
+										"angular_house": {
+											"type": "integer"
+										},
+										"cadent_house": {
+											"type": "integer"
+										},
+										"cazimi": {
+											"type": "integer"
+										},
+										"combust": {
+											"type": "integer"
+										},
+										"direct_motion": {
+											"type": "integer"
+										},
+										"retrograde": {
+											"type": "integer"
+										},
+										"slow_motion": {
+											"type": "integer"
+										},
+										"succedent_house": {
+											"type": "integer"
+										},
+										"swift_motion": {
+											"type": "integer"
+										},
+										"under_suns_beams": {
+											"type": "integer"
+										}
+									}
+								},
+								"essential_dignity_scoring": {
+									"type": "object",
+									"properties": {
+										"detriment": {
+											"type": "integer"
+										},
+										"domicile": {
+											"type": "integer"
+										},
+										"exaltation": {
+											"type": "integer"
+										},
+										"face": {
+											"type": "integer"
+										},
+										"fall": {
+											"type": "integer"
+										},
+										"term": {
+											"type": "integer"
+										},
+										"triplicity": {
+											"type": "integer"
+										}
+									}
+								},
+								"triplicity_rulers": {
+									"type": "object",
+									"properties": {
+										"air_signs": {
+											"type": "object",
+											"properties": {
+												"day_ruler": {
+													"type": "string"
+												},
+												"night_ruler": {
+													"type": "string"
+												},
+												"signs": {
+													"type": "array",
+													"items": {
+														"oneOf": [ { "type": "string" } ]
+													}
+												}
+											}
+										},
+										"earth_signs": {
+											"type": "object",
+											"properties": {
+												"day_ruler": {
+													"type": "string"
+												},
+												"night_ruler": {
+													"type": "string"
+												},
+												"signs": {
+													"type": "array",
+													"items": {
+														"oneOf": [ { "type": "string" } ]
+													}
+												}
+											}
+										},
+										"fire_signs": {
+											"type": "object",
+											"properties": {
+												"day_ruler": {
+													"type": "string"
+												},
+												"night_ruler": {
+													"type": "string"
+												},
+												"signs": {
+													"type": "array",
+													"items": {
+														"oneOf": [ { "type": "string" } ]
+													}
+												}
+											}
+										},
+										"water_signs": {
+											"type": "object",
+											"properties": {
+												"day_ruler": {
+													"type": "string"
+												},
+												"night_ruler": {
+													"type": "string"
+												},
+												"signs": {
+													"type": "array",
+													"items": {
+														"oneOf": [ { "type": "string" } ]
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						},
+						"fundamental_conversions": {
+							"type": "object",
+							"properties": {
+								"coordinate_conversions": {
+									"type": "object",
+									"properties": {
+										"declination_from_longitude": {
+											"type": "string"
+										},
+										"ecliptic_to_equatorial": {
+											"type": "string"
+										},
+										"equatorial_to_ecliptic": {
+											"type": "string"
+										},
+										"longitude_to_right_ascension": {
+											"type": "string"
+										},
+										"right_ascension_to_longitude": {
+											"type": "string"
+										}
+									}
+								},
+								"julian_day_number": {
+									"type": "object",
+									"properties": {
+										"complete_formula": {
+											"type": "string"
+										},
+										"simplified_algorithm": {
+											"type": "string"
+										},
+										"variables": {
+											"type": "object",
+											"properties": {
+												"D": {
+													"type": "string"
+												},
+												"M": {
+													"type": "string"
+												},
+												"Y": {
+													"type": "string"
+												}
+											}
+										}
+									}
+								},
+								"local_sidereal_time": {
+									"type": "object",
+									"properties": {
+										"precise_formula": {
+											"type": "string"
+										},
+										"simplified_formula": {
+											"type": "string"
+										},
+										"variables": {
+											"type": "object",
+											"properties": {
+												"H": {
+													"type": "string"
+												},
+												"T": {
+													"type": "string"
+												},
+												"UT": {
+													"type": "string"
+												},
+												"d": {
+													"type": "string"
+												},
+												"d0": {
+													"type": "string"
+												},
+												"long": {
+													"type": "string"
+												}
+											}
+										}
+									}
+								},
+								"obliquity_of_ecliptic": {
+									"type": "object",
+									"properties": {
+										"formula": {
+											"type": "string"
+										},
+										"simplified": {
+											"type": "string"
+										},
+										"variables": {
+											"type": "object",
+											"properties": {
+												"T": {
+													"type": "string"
+												}
+											}
+										}
+									}
+								}
+							}
+						},
+						"midpoint_calculations": {
+							"type": "object",
+							"properties": {
+								"basic_midpoint": {
+									"type": "string"
+								},
+								"harmonic_midpoints": {
+									"type": "string"
+								},
+								"midpoint_tree": {
+									"type": "object",
+									"properties": {
+										"four_point": {
+											"type": "string"
+										},
+										"three_point": {
+											"type": "string"
+										}
+									}
+								},
+								"planetary_picture_formulas": {
+									"type": "object",
+									"properties": {
+										"direct_activation": {
+											"type": "string"
+										},
+										"opposition_to_midpoint": {
+											"type": "string"
+										},
+										"square_to_midpoint": {
+											"type": "string"
+										}
+									}
+								}
+							}
+						},
+						"section_name": {
+							"type": "string"
+						}
+					}
+				},
+				"metadata": {
+					"type": "object",
+					"properties": {
+						"compilation_date": {
+							"type": "string"
+						},
+						"description": {
+							"type": "string"
+						},
+						"document_structure": {
+							"type": "string"
+						},
+						"project": {
+							"type": "string"
+						},
+						"total_aspect_patterns": {
+							"type": "integer"
+						},
+						"total_chart_types": {
+							"type": "integer"
+						},
+						"total_formulas": {
+							"type": "integer"
+						},
+						"total_specialized_systems": {
+							"type": "integer"
+						},
+						"version": {
+							"type": "string"
+						}
+					}
+				},
+				"metadata_summary": {
+					"type": "object",
+					"properties": {
+						"compilation_source": {
+							"type": "string"
+						},
+						"framework_completeness": {
+							"type": "string"
+						},
+						"intended_use": {
+							"type": "string"
+						},
+						"last_updated": {
+							"type": "string"
+						},
+						"total_aspect_patterns_documented": {
+							"type": "integer"
+						},
+						"total_categories": {
+							"type": "integer"
+						},
+						"total_chart_types_detailed": {
+							"type": "integer"
+						},
+						"total_formulas_included": {
+							"type": "integer"
+						},
+						"total_midpoint_combinations": {
+							"type": "integer"
+						},
+						"total_specialized_systems": {
+							"type": "integer"
+						}
+					}
+				}
+			}
+		}
+	}
+}

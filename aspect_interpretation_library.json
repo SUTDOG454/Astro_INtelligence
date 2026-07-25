@@ -1,0 +1,1204 @@
+{
+  "aspect_interpretation_library": {
+    "library_metadata": {
+      "version": "1.0",
+      "created_date": "2026-02-21",
+      "scope": "Complete interpretation guide for all planetary aspect combinations",
+      "aspect_types_included": [
+        "conjunction (0°)",
+        "sextile (60°)",
+        "square (90°)",
+        "trine (120°)",
+        "opposition (180°)",
+        "semisextile (30°)",
+        "semisquare (45°)",
+        "sesquisquare (135°)",
+        "quincunx (150°)"
+      ],
+      "interpretation_structure": "Each aspect includes: basic meaning, psychological dynamics, potential expressions, growth opportunities, relationship dynamics"
+    },
+    "orb_guidelines": {
+      "major_aspects": {
+        "conjunction": "8-10° (tighter for Moon, Sun)",
+        "opposition": "8-10°",
+        "square": "8-10°",
+        "trine": "8-10°",
+        "sextile": "6-8°"
+      },
+      "minor_aspects": {
+        "semisextile": "2-3°",
+        "semisquare": "2-3°",
+        "sesquisquare": "2-3°",
+        "quincunx": "3-5°"
+      },
+      "special_considerations": {
+        "applying": "Aspect is forming, more dynamic",
+        "exact": "Most powerful expression, 0-1° orb",
+        "separating": "Aspect is waning, integrating the lesson",
+        "out_of_sign": "Same degree different signs, subtle influence"
+      }
+    },
+    "sun_aspects": {
+      "sun_moon": {
+        "conjunction": {
+          "basic_meaning": "Unity of will and emotion, conscious and unconscious merged",
+          "psychological": "Inner harmony, what you want aligns with what you need, integrated personality",
+          "positive_expressions": [
+            "Strong self-awareness",
+            "Emotional authenticity",
+            "Unified purpose",
+            "Natural self-expression",
+            "Integration of masculine/feminine"
+          ],
+          "challenges": [
+            "Difficulty seeing outside own perspective",
+            "May lack objectivity about self",
+            "Can be subjective in judgments"
+          ],
+          "growth_opportunity": "Develop awareness of how others see you differently than you see yourself",
+          "relationship_dynamic": "Comfortable with self, attracts partners who appreciate authenticity",
+          "career": "Natural leadership, authentic public presence"
+        },
+        "sextile": {
+          "basic_meaning": "Harmony between will and emotions with effort",
+          "psychological": "Can harmonize identity and feelings through conscious choice",
+          "positive_expressions": [
+            "Emotional intelligence available",
+            "Can balance logic and feeling",
+            "Good communication of needs",
+            "Adaptable self-expression"
+          ],
+          "growth_opportunity": "Actively develop emotional awareness to support goals",
+          "relationship_dynamic": "Can meet partner's emotional and ego needs with awareness"
+        },
+        "square": {
+          "basic_meaning": "Tension between will and emotions, ego and needs in conflict",
+          "psychological": "What you want vs. what you need creates internal friction",
+          "positive_expressions": [
+            "Dynamic personality",
+            "Motivation to resolve inner conflicts",
+            "Emotional depth from struggle",
+            "Creative tension drives growth"
+          ],
+          "challenges": [
+            "Inner restlessness",
+            "Mood affects confidence",
+            "Difficulty making decisions (head vs. heart)",
+            "May seek external validation"
+          ],
+          "growth_opportunity": "Integrate emotional needs with life purpose, find middle path",
+          "relationship_dynamic": "May project inner conflict onto partner, needs emotional security to shine",
+          "famous_examples": "Many successful people have this aspect—it creates drive"
+        },
+        "trine": {
+          "basic_meaning": "Natural flow between will and emotions, easy integration",
+          "psychological": "Comfortable in own skin, self-acceptance, inner peace",
+          "positive_expressions": [
+            "Emotional confidence",
+            "Natural charisma",
+            "Self-assured without arrogance",
+            "Comfortable expressing feelings",
+            "Lucky in pursuing desires"
+          ],
+          "challenges": [
+            "May take harmony for granted",
+            "Can lack motivation (everything feels easy)",
+            "Might not develop emotional depth without challenge"
+          ],
+          "growth_opportunity": "Use natural ease to help others integrate their conflicts",
+          "relationship_dynamic": "Attracts harmonious relationships, comfortable intimacy"
+        },
+        "opposition": {
+          "basic_meaning": "Polarity between will and emotions, conscious vs. unconscious in dialogue",
+          "psychological": "See-saw between ego needs and emotional needs, seeks balance through relationships",
+          "positive_expressions": [
+            "Awareness of both sides of self",
+            "Can mediate between head and heart",
+            "Attracts relationships that mirror inner polarity",
+            "Full moon energy—illumination"
+          ],
+          "challenges": [
+            "Feels torn between shoulds and wants",
+            "May project one side onto others",
+            "Relationship conflicts mirror inner split",
+            "Difficulty integrating both needs"
+          ],
+          "growth_opportunity": "Own both sides—be both strong and vulnerable",
+          "relationship_dynamic": "Attracts partners who embody disowned emotional side, must integrate rather than project"
+        },
+        "quincunx": {
+          "basic_meaning": "Awkward relationship between will and emotions, constant adjustment needed",
+          "psychological": "What you want and what you feel don't speak the same language",
+          "growth_opportunity": "Learn to translate between emotional and ego needs, develop flexibility"
+        }
+      },
+      "sun_mercury": {
+        "conjunction": {
+          "basic_meaning": "Mind and identity fused, communication is self-expression",
+          "psychological": "Think and speak from core self, identity strongly linked to ideas",
+          "positive_expressions": [
+            "Articulate self-expression",
+            "Clear communication of identity",
+            "Intellectual confidence",
+            "Storytelling ability",
+            "Writing talent"
+          ],
+          "challenges": [
+            "Can be too subjective (Sun burns Mercury)",
+            "Difficulty seeing other perspectives",
+            "May over-identify with ideas",
+            "Can be overly mental in self-concept"
+          ],
+          "growth_opportunity": "Separate self-worth from intelligence, listen more",
+          "career": "Excellent for writing, speaking, teaching, communications",
+          "note": "Mercury never more than 28° from Sun, so only conjunction possible"
+        }
+      },
+      "sun_venus": {
+        "conjunction": {
+          "basic_meaning": "Identity and values merged, love and self-expression unified",
+          "psychological": "What you love IS who you are, natural charm and grace",
+          "positive_expressions": [
+            "Natural charm and likability",
+            "Artistic self-expression",
+            "Values authenticity in relationships",
+            "Attractive personality",
+            "Diplomatic",
+            "Love of beauty and harmony"
+          ],
+          "challenges": [
+            "May be vain or self-indulgent",
+            "Can prioritize being liked over being authentic",
+            "Might avoid conflict to maintain harmony",
+            "Over-identification with appearance or relationships"
+          ],
+          "growth_opportunity": "Stand in authentic self even when not universally liked",
+          "relationship_dynamic": "Attracts love easily, needs to be loved for true self",
+          "career": "Arts, entertainment, beauty, diplomacy, public relations",
+          "note": "Venus never more than 48° from Sun, so only conjunction, semisextile, semisquare possible"
+        },
+        "semisextile": {
+          "basic_meaning": "Slight friction between identity and values, minor adjustments needed",
+          "growth_opportunity": "Integrate love and self-expression through small consistent efforts"
+        },
+        "semisquare": {
+          "basic_meaning": "Minor tension between ego and values, subtle irritation",
+          "challenges": [
+            "Slight insecurity about lovability",
+            "Minor conflicts between what you want and what you value",
+            "Can be hard on self about appearance or charm"
+          ],
+          "growth_opportunity": "Accept that love and self-worth aren't always aligned perfectly"
+        }
+      },
+      "sun_mars": {
+        "conjunction": {
+          "basic_meaning": "Will and action united, dynamic self-expression, warrior energy",
+          "psychological": "Impulse and identity merged, natural assertiveness",
+          "positive_expressions": [
+            "Courageous and bold",
+            "Natural leadership through action",
+            "High energy and vitality",
+            "Athletic ability",
+            "Pioneering spirit",
+            "Gets things done",
+            "Passionate self-expression"
+          ],
+          "challenges": [
+            "Can be aggressive or impulsive",
+            "Anger tied to ego (takes things personally)",
+            "Impatient, restless",
+            "May burn out from over-exertion",
+            "Competitive to a fault",
+            "Can be combative or confrontational"
+          ],
+          "growth_opportunity": "Channel warrior energy constructively, develop patience",
+          "relationship_dynamic": "Needs partner who can handle intensity, may compete with partner",
+          "career": "Military, athletics, surgery, entrepreneurship, competitive fields",
+          "health": "High vitality but risk of accidents, inflammation, burnout"
+        },
+        "sextile": {
+          "basic_meaning": "Harmonious flow between will and action with effort",
+          "positive_expressions": [
+            "Can motivate self effectively",
+            "Good balance of confidence and action",
+            "Constructive use of energy",
+            "Athletic ability with training"
+          ],
+          "growth_opportunity": "Actively develop courage and initiative"
+        },
+        "square": {
+          "basic_meaning": "Friction between ego and drive, impatience with self",
+          "psychological": "Feel blocked or frustrated in expressing will",
+          "positive_expressions": [
+            "Highly motivated by challenge",
+            "Develops strength through obstacles",
+            "Dynamic personality",
+            "Competitive drive"
+          ],
+          "challenges": [
+            "Frustration and anger",
+            "Impulsive reactions when ego threatened",
+            "Accident-prone",
+            "Conflicts with authority",
+            "Impatience with limitations",
+            "May be too aggressive in self-assertion"
+          ],
+          "growth_opportunity": "Learn constructive anger expression, develop patience",
+          "relationship_dynamic": "May have power struggles, needs to express anger healthily",
+          "health": "Monitor blood pressure, inflammation, stress"
+        },
+        "trine": {
+          "basic_meaning": "Natural flow between will and action, effortless courage",
+          "psychological": "Confidence and ability naturally aligned",
+          "positive_expressions": [
+            "Natural courage and confidence",
+            "Easy self-assertion",
+            "Athletic grace",
+            "Leadership ability",
+            "Healthy masculinity",
+            "Constructive use of aggression"
+          ],
+          "challenges": [
+            "May take courage for granted",
+            "Could lack drive if too easy"
+          ],
+          "growth_opportunity": "Use natural courage to help others develop theirs",
+          "relationship_dynamic": "Confident in relationships, attractive vitality",
+          "health": "Excellent vitality, strong constitution"
+        },
+        "opposition": {
+          "basic_meaning": "Polarized will and drive, ego battles desire for action",
+          "psychological": "Torn between identity and impulse, projects aggression",
+          "positive_expressions": [
+            "Awareness of own aggression",
+            "Can see both sides of conflicts",
+            "Attracts dynamic relationships",
+            "Learns about self through confrontation"
+          ],
+          "challenges": [
+            "Attracts conflicts and competitors",
+            "May project anger onto others",
+            "Relationships become battlegrounds",
+            "Difficulty integrating assertiveness",
+            "Can be passive-aggressive"
+          ],
+          "growth_opportunity": "Own your aggression, don't project onto others",
+          "relationship_dynamic": "Attracts competitive or aggressive partners, must own warrior energy",
+          "career": "Thrives in competitive environments once integrated"
+        },
+        "quincunx": {
+          "basic_meaning": "Awkward relationship between ego and drive",
+          "challenges": [
+            "Unsure how to assert self effectively",
+            "Energy feels erratic or misdirected",
+            "Health issues from blocked assertion"
+          ],
+          "growth_opportunity": "Adjust and adapt expressions of will and action"
+        }
+      },
+      "sun_jupiter": {
+        "conjunction": {
+          "basic_meaning": "Expanded identity, optimistic self-expression, larger-than-life presence",
+          "psychological": "Confidence and growth merged, natural faith in self",
+          "positive_expressions": [
+            "Naturally optimistic and enthusiastic",
+            "Generous spirit",
+            "Leadership through vision",
+            "Lucky opportunities",
+            "Philosophical outlook",
+            "Success and expansion",
+            "Teaching ability",
+            "Moral integrity"
+          ],
+          "challenges": [
+            "Can be overly confident or arrogant",
+            "May exaggerate or promise too much",
+            "Risk of excess (weight, spending, risk-taking)",
+            "Can be preachy or self-righteous",
+            "Difficulty with limits"
+          ],
+          "growth_opportunity": "Balance optimism with realism, generosity with boundaries",
+          "relationship_dynamic": "Generous in love, needs freedom and growth in relationships",
+          "career": "Teaching, philosophy, publishing, travel, entrepreneurship, motivational speaking",
+          "health": "Generally good vitality, watch for excess"
+        },
+        "sextile": {
+          "basic_meaning": "Opportunities for growth with effort",
+          "positive_expressions": [
+            "Can attract good fortune through action",
+            "Optimism available as resource",
+            "Educational opportunities",
+            "Growth mindset"
+          ]
+        },
+        "square": {
+          "basic_meaning": "Tension between identity and expansion, overreaching",
+          "positive_expressions": [
+            "Motivated to grow despite obstacles",
+            "Learns optimism through challenge",
+            "Dynamic ambition"
+          ],
+          "challenges": [
+            "Overconfidence leading to mistakes",
+            "Promises more than can deliver",
+            "Judgment errors from overoptimism",
+            "Legal or ethical challenges",
+            "Excess and waste",
+            "Restlessness"
+          ],
+          "growth_opportunity": "Develop realistic assessment alongside faith",
+          "career": "Success through learning from overreach"
+        },
+        "trine": {
+          "basic_meaning": "Natural luck and expansion, easy success",
+          "psychological": "Faith in self naturally supported by universe",
+          "positive_expressions": [
+            "Lucky breaks",
+            "Natural wisdom",
+            "Easy success in endeavors",
+            "Generous and optimistic",
+            "Protected from worst outcomes",
+            "International opportunities"
+          ],
+          "challenges": [
+            "May be lazy or complacent",
+            "Can take luck for granted",
+            "Might not develop discipline"
+          ],
+          "growth_opportunity": "Use natural gifts to uplift others",
+          "relationship_dynamic": "Attracts abundant relationships",
+          "career": "Success comes relatively easily, many opportunities"
+        },
+        "opposition": {
+          "basic_meaning": "Polarized identity and belief, ego vs. philosophy",
+          "challenges": [
+            "May be dogmatic or extreme in beliefs",
+            "Attracts opposite philosophies",
+            "Relationship conflicts over values/beliefs",
+            "Can be self-righteous",
+            "Legal issues possible"
+          ],
+          "growth_opportunity": "Balance confidence with humility, integrate opposite beliefs"
+        }
+      },
+      "sun_saturn": {
+        "conjunction": {
+          "basic_meaning": "Identity shaped by discipline, serious self-expression, late bloomer",
+          "psychological": "Ego and limitation merged, serious or heavy sense of self",
+          "positive_expressions": [
+            "Mature and responsible",
+            "Natural authority and gravitas",
+            "Disciplined self-expression",
+            "Builds lasting achievements",
+            "Patient and persistent",
+            "Wise beyond years",
+            "Traditional leadership"
+          ],
+          "challenges": [
+            "Low self-confidence, especially youth",
+            "Heavy burden of responsibility",
+            "Can be depressed or pessimistic",
+            "Father wounds or difficult father relationship",
+            "Fear of failure prevents trying",
+            "May feel undeserving of success",
+            "Cold or distant expression"
+          ],
+          "growth_opportunity": "Build self-worth through achievement, heal father wound",
+          "relationship_dynamic": "Serious in love, commitment-oriented, may fear rejection",
+          "career": "Late bloomer who achieves lasting success through persistence",
+          "health": "May have constitutional weakness requiring maintenance",
+          "timing": "Success typically after age 30, Saturn return important"
+        },
+        "sextile": {
+          "basic_meaning": "Can access discipline and structure with effort",
+          "positive_expressions": [
+            "Responsible when needed",
+            "Can build lasting achievements",
+            "Mature judgment available"
+          ]
+        },
+        "square": {
+          "basic_meaning": "Severe friction between ego and limitation, blocked self-expression",
+          "psychological": "Father wound, authority issues, self-doubt",
+          "positive_expressions": [
+            "Develops character through hardship",
+            "Builds real competence through obstacles",
+            "Perseverance",
+            "Late-life success after struggles"
+          ],
+          "challenges": [
+            "Deep insecurity and self-doubt",
+            "Father wound or difficult relationship with authority",
+            "Chronic obstacles to success",
+            "Depression or pessimism",
+            "Feels blocked or limited",
+            "Harsh self-criticism",
+            "Fear of visibility"
+          ],
+          "growth_opportunity": "Heal father wound, build self-worth despite external validation",
+          "relationship_dynamic": "May attract critical partners or repeat father patterns",
+          "career": "Significant obstacles but ultimately builds lasting success",
+          "therapy_recommendation": "Work on father wound, inner critic, self-worth",
+          "famous_examples": "Many successful people have this—creates drive to prove self"
+        },
+        "trine": {
+          "basic_meaning": "Natural discipline and responsibility, easy authority",
+          "positive_expressions": [
+            "Mature and responsible without heaviness",
+            "Natural authority respected by others",
+            "Patient persistence",
+            "Builds lasting success steadily",
+            "Good relationship with father/authority",
+            "Realistic self-assessment"
+          ],
+          "growth_opportunity": "Use natural authority to mentor others",
+          "career": "Steady rise to positions of responsibility and authority"
+        },
+        "opposition": {
+          "basic_meaning": "Polarized identity and limitation, ego vs. responsibility",
+          "challenges": [
+            "Torn between wanting recognition and feeling undeserving",
+            "Attracts critical authority figures",
+            "Relationship conflicts over responsibility",
+            "Public vs. private persona split"
+          ],
+          "growth_opportunity": "Integrate confidence with realism, own authority"
+        }
+      },
+      "sun_uranus": {
+        "conjunction": {
+          "basic_meaning": "Revolutionary identity, unique self-expression, breakthrough energy",
+          "psychological": "Ego and individuality merged, cannot be conventional",
+          "positive_expressions": [
+            "Highly original and creative",
+            "Natural innovator",
+            "Independent and freedom-loving",
+            "Ahead of the times",
+            "Brilliant insights",
+            "Championsindividual rights",
+            "Eccentric charisma",
+            "Technology talent"
+          ],
+          "challenges": [
+            "Difficulty with routine or tradition",
+            "Can be erratic or unpredictable",
+            "Rebellious for rebellion's sake",
+            "Difficulty with commitment or authority",
+            "Nervous system sensitivity",
+            "Sudden disruptions in life",
+            "Alienation from others"
+          ],
+          "growth_opportunity": "Channel revolutionary energy constructively",
+          "relationship_dynamic": "Needs freedom in relationships, may fear intimacy",
+          "career": "Innovation, technology, sciences, activism, entertainment",
+          "health": "Nervous system sensitivity, need for freedom and space"
+        },
+        "square": {
+          "basic_meaning": "Tension between ego and uniqueness, disruptive change",
+          "challenges": [
+            "Sudden upheavals in identity",
+            "Rebellion against self",
+            "Difficulty settling or committing",
+            "Attracts disruption",
+            "Nervous tension"
+          ],
+          "positive_expressions": [
+            "Breakthrough growth through crisis",
+            "Liberation from false self",
+            "Innovation under pressure"
+          ],
+          "growth_opportunity": "Find authentic uniqueness beyond mere rebellion"
+        },
+        "trine": {
+          "basic_meaning": "Natural originality and innovation, easy uniqueness",
+          "positive_expressions": [
+            "Effortlessly original",
+            "Natural genius in some area",
+            "Technology and innovation talent",
+            "Freedom in self-expression",
+            "Attracts opportunities for breakthrough"
+          ]
+        },
+        "opposition": {
+          "basic_meaning": "Polarized identity and uniqueness",
+          "challenges": [
+            "Attracts unusual or unstable relationships",
+            "Sudden separations",
+            "Partner embodies freedom/rebellion",
+            "Difficulty balancing independence and intimacy"
+          ]
+        }
+      },
+      "sun_neptune": {
+        "conjunction": {
+          "basic_meaning": "Dissolved ego boundaries, mystical identity, artist or victim",
+          "psychological": "Ego and spirituality merged, unclear sense of self",
+          "positive_expressions": [
+            "Spiritual or mystical identity",
+            "Artistic genius",
+            "Compassionate and empathetic",
+            "Psychic sensitivity",
+            "Idealistic vision",
+            "Healing presence",
+            "Transcendent experiences",
+            "Music/film/poetry talent"
+          ],
+          "challenges": [
+            "Weak ego boundaries",
+            "Victim mentality or martyrdom",
+            "Identity confusion",
+            "Susceptible to deception",
+            "Addiction vulnerabilities",
+            "Escapism",
+            "Difficulty with practical reality",
+            "Self-deception",
+            "Weak will or follow-through"
+          ],
+          "growth_opportunity": "Ground spirituality in reality, maintain healthy boundaries",
+          "relationship_dynamic": "Can lose self in relationships, attracts wounded or addicts",
+          "career": "Arts, healing, spirituality, film, music, helping professions",
+          "health": "Sensitive to substances, need for spiritual practice",
+          "shadow": "Victim, addict, deceiver, lost soul"
+        },
+        "square": {
+          "basic_meaning": "Tension between ego and spirituality, confusion about identity",
+          "challenges": [
+            "Self-deception",
+            "Unrealistic self-image",
+            "Disillusionment",
+            "Addiction issues",
+            "Feeling lost or purposeless",
+            "Difficulty manifesting dreams"
+          ],
+          "positive_expressions": [
+            "Develops discernment through disillusionment",
+            "Artistic talent born from struggle",
+            "Spiritual growth through confusion"
+          ],
+          "growth_opportunity": "Find realistic spirituality, develop discernment"
+        },
+        "trine": {
+          "basic_meaning": "Natural flow between ego and spirit, easy transcendence",
+          "positive_expressions": [
+            "Natural spiritual connection",
+            "Artistic gifts flow easily",
+            "Compassionate without losing self",
+            "Psychic gifts",
+            "Healing ability",
+            "Protected by universe"
+          ]
+        },
+        "opposition": {
+          "basic_meaning": "Polarized ego and spirit, martyr or savior dynamic",
+          "challenges": [
+            "Attracts wounded or needy partners",
+            "Savior/victim relationships",
+            "Deception in partnerships",
+            "Losing self to partner",
+            "Unrealistic relationship expectations"
+          ],
+          "growth_opportunity": "Maintain self while serving, healthy boundaries in relationships"
+        }
+      },
+      "sun_pluto": {
+        "conjunction": {
+          "basic_meaning": "Powerful identity, transformative self-expression, intense will",
+          "psychological": "Ego and power merged, compulsive self-transformation",
+          "positive_expressions": [
+            "Powerful presence and charisma",
+            "Natural depth and intensity",
+            "Transformative leadership",
+            "Psychological insight",
+            "Ability to regenerate after crisis",
+            "Fearless in facing shadow",
+            "Research and investigation talent",
+            "Healing through transformation"
+          ],
+          "challenges": [
+            "Power struggles and control issues",
+            "Compulsive or obsessive",
+            "Difficulty trusting others",
+            "May manipulate to maintain control",
+            "Attracts crisis and transformation",
+            "Intensity can overwhelm others",
+            "Father as powerful or dominating figure",
+            "Early trauma or power abuse"
+          ],
+          "growth_opportunity": "Use power for transformation, not domination",
+          "relationship_dynamic": "Intense relationships, power dynamics, transformative partnerships",
+          "career": "Psychology, research, crisis management, surgery, detective work",
+          "health": "Regenerative ability, may have brushes with death",
+          "shadow": "Dictator, manipulator, destroyer"
+        },
+        "square": {
+          "basic_meaning": "Severe power struggles, compulsive transformation",
+          "challenges": [
+            "Severe control issues",
+            "Power struggles with authority",
+            "Compulsive self-destructive patterns",
+            "Trauma and crisis",
+            "Intense fear and mistrust",
+            "May abuse power or be abused"
+          ],
+          "positive_expressions": [
+            "Profound transformation through crisis",
+            "Develops real power through struggle",
+            "Phoenix rising from ashes",
+            "Deep psychological insight"
+          ],
+          "growth_opportunity": "Transform power wounds, use intensity for healing",
+          "therapy_recommendation": "Deep trauma work, power issues, trust"
+        },
+        "trine": {
+          "basic_meaning": "Natural transformative power, easy intensity",
+          "positive_expressions": [
+            "Natural charisma and influence",
+            "Powerful without dominating",
+            "Transforms situations effortlessly",
+            "Deep insight comes naturally",
+            "Protected during crisis",
+            "Regenerates easily"
+          ]
+        },
+        "opposition": {
+          "basic_meaning": "Polarized power and identity, attracts intense others",
+          "challenges": [
+            "Attracts powerful or controlling partners",
+            "Power struggles in relationships",
+            "Transformation through others",
+            "May project shadow onto partner",
+            "Intense jealousy or possessiveness"
+          ],
+          "growth_opportunity": "Own your power, don't project onto others"
+        }
+      }
+    },
+    "moon_aspects": {
+      "moon_mercury": {
+        "conjunction": {
+          "basic_meaning": "Emotions and mind merged, feeling-based thinking",
+          "psychological": "Think with feelings, communicate emotions easily",
+          "positive_expressions": [
+            "Emotional intelligence",
+            "Can articulate feelings",
+            "Empathetic communication",
+            "Good listener",
+            "Intuitive thinking",
+            "Memory for emotional detail"
+          ],
+          "challenges": [
+            "May be too subjective in thinking",
+            "Emotions cloud judgment",
+            "Can rationalize feelings",
+            "Restless mind affected by moods",
+            "Difficulty being objective"
+          ],
+          "growth_opportunity": "Balance emotional and rational thinking",
+          "career": "Counseling, writing, communications, teaching"
+        },
+        "square": {
+          "basic_meaning": "Tension between feelings and thoughts",
+          "challenges": [
+            "Mind-emotion conflicts",
+            "Anxiety from overthinking feelings",
+            "Difficulty communicating emotional needs",
+            "Restless mind"
+          ]
+        }
+      },
+      "moon_venus": {
+        "conjunction": {
+          "basic_meaning": "Emotional needs and love merged, needs to be loved",
+          "psychological": "Love equals emotional security",
+          "positive_expressions": [
+            "Warm and affectionate",
+            "Natural grace and charm",
+            "Artistic sensitivity",
+            "Diplomatic",
+            "Values emotional connection",
+            "Beauty and comfort important"
+          ],
+          "challenges": [
+            "May be too dependent on love",
+            "Can be people-pleasing",
+            "Emotional eating or spending",
+            "Needs constant affection",
+            "May sacrifice own needs"
+          ]
+        }
+      },
+      "moon_mars": {
+        "conjunction": {
+          "basic_meaning": "Emotions and action merged, reactive and passionate",
+          "psychological": "Act on feelings immediately, emotional courage",
+          "positive_expressions": [
+            "Emotional courage and passion",
+            "Protective of loved ones",
+            "Direct expression of feelings",
+            "High energy",
+            "Fertile (baby-making aspect)",
+            "Nurturing through action"
+          ],
+          "challenges": [
+            "Explosive temper",
+            "Impulsive emotional reactions",
+            "Moodiness affects energy",
+            "Can be aggressive when hurt",
+            "Difficulty calming down"
+          ]
+        },
+        "square": {
+          "basic_meaning": "Frustrated emotions, blocked expression",
+          "challenges": [
+            "Anger and frustration",
+            "Emotional volatility",
+            "Accidents when upset",
+            "Difficulty controlling reactions"
+          ]
+        }
+      },
+      "moon_jupiter": {
+        "conjunction": {
+          "basic_meaning": "Expanded emotions, generous heart, eternal optimist",
+          "positive_expressions": [
+            "Naturally optimistic and cheerful",
+            "Generous and benevolent",
+            "Philosophical about emotions",
+            "Lucky emotionally",
+            "Good humor",
+            "Resilient"
+          ],
+          "challenges": [
+            "Can be excessive (eating, spending)",
+            "May avoid negative feelings",
+            "Overly optimistic about problems",
+            "Can be emotionally indulgent"
+          ]
+        }
+      },
+      "moon_saturn": {
+        "conjunction": {
+          "basic_meaning": "Restricted emotions, serious feelings, mother wound",
+          "psychological": "Emotional control, depression-prone, late emotional maturity",
+          "positive_expressions": [
+            "Emotionally mature and responsible",
+            "Patient and enduring",
+            "Can handle emotional hardship",
+            "Reliable and steady",
+            "Emotional wisdom from experience"
+          ],
+          "challenges": [
+            "Depression and melancholy",
+            "Difficulty expressing or feeling emotions",
+            "Mother wound or difficult mother relationship",
+            "Feels unloved or unworthy",
+            "Emotional coldness or distance",
+            "Takes on too much responsibility",
+            "Fear of vulnerability"
+          ],
+          "growth_opportunity": "Heal mother wound, allow emotional vulnerability",
+          "therapy_recommendation": "Essential for healing emotional wounds"
+        },
+        "square": {
+          "basic_meaning": "Severe emotional restriction, deep loneliness",
+          "challenges": [
+            "Deep emotional pain",
+            "Chronic depression",
+            "Severe mother wound",
+            "Feels emotionally starved",
+            "Difficulty receiving nurturing"
+          ]
+        }
+      },
+      "moon_uranus": {
+        "conjunction": {
+          "basic_meaning": "Erratic emotions, need for emotional freedom",
+          "challenges": [
+            "Emotional detachment",
+            "Unpredictable moods",
+            "Difficulty with emotional intimacy",
+            "Unconventional mother relationship",
+            "Sudden emotional changes"
+          ],
+          "positive_expressions": [
+            "Unique emotional expression",
+            "Freedom in feelings",
+            "Innovative emotional intelligence",
+            "Psychologically ahead of times"
+          ]
+        }
+      },
+      "moon_neptune": {
+        "conjunction": {
+          "basic_meaning": "Dissolved emotional boundaries, psychic sensitivity",
+          "positive_expressions": [
+            "Highly empathetic and compassionate",
+            "Psychic emotional perception",
+            "Artistic sensitivity",
+            "Spiritual connection",
+            "Healing emotional presence"
+          ],
+          "challenges": [
+            "Absorbs others' emotions",
+            "Emotional confusion",
+            "Escapist tendencies",
+            "Codependency",
+            "Victim mentality",
+            "Difficulty setting emotional boundaries",
+            "May have addicted or absent mother"
+          ]
+        }
+      },
+      "moon_pluto": {
+        "conjunction": {
+          "basic_meaning": "Intense emotions, compulsive feelings, emotional power",
+          "psychological": "Deep emotional transformation, powerful feelings",
+          "positive_expressions": [
+            "Emotional depth and intensity",
+            "Powerful intuition",
+            "Transformative emotional healing",
+            "Psychological insight",
+            "Passionate feelings",
+            "Protective and loyal"
+          ],
+          "challenges": [
+            "Overwhelming emotions",
+            "Control issues around feelings",
+            "Emotional manipulation or being manipulated",
+            "Obsessive attachments",
+            "Power struggles with mother",
+            "Trust issues",
+            "Emotional extremes"
+          ]
+        },
+        "square": {
+          "basic_meaning": "Severe emotional intensity, power struggles",
+          "challenges": [
+            "Extreme emotional crises",
+            "Power struggles around vulnerability",
+            "Compulsive emotional patterns",
+            "Deep trust wounds",
+            "May have experienced emotional abuse"
+          ]
+        }
+      }
+    },
+    "venus_aspects": {
+      "venus_mars": {
+        "conjunction": {
+          "basic_meaning": "Love and desire united, passion and romance merged",
+          "psychological": "What you love and what you desire are the same",
+          "positive_expressions": [
+            "Passionate and romantic",
+            "Sexual magnetism",
+            "Creative fire",
+            "Pursues love actively",
+            "Charming and attractive",
+            "Artistic talent with energy"
+          ],
+          "challenges": [
+            "Can be impulsive in love",
+            "May confuse lust with love",
+            "Needs intensity in relationships",
+            "Can be combative with partners"
+          ],
+          "relationship_dynamic": "Strong sexual chemistry, passionate relationships",
+          "synastry_note": "THE key sexual chemistry aspect in synastry"
+        },
+        "square": {
+          "basic_meaning": "Tension between love and desire, frustrated passion",
+          "challenges": [
+            "Love-hate dynamics",
+            "Sexual frustration",
+            "Conflicts in relationships",
+            "Difficulty balancing romance and passion"
+          ]
+        },
+        "opposition": {
+          "basic_meaning": "Polarized love and desire, attracts passion through others",
+          "relationship_dynamic": "Intense attraction, may project desire onto partner"
+        }
+      },
+      "venus_jupiter": {
+        "conjunction": {
+          "basic_meaning": "Expanded love, generous heart, social grace",
+          "positive_expressions": [
+            "Abundant love and generosity",
+            "Social success and popularity",
+            "Artistic talent",
+            "Optimistic in love",
+            "Attracts wealth and good fortune",
+            "Philosophical about relationships"
+          ],
+          "challenges": [
+            "Can be excessive or indulgent",
+            "May be lazy in love",
+            "Overconfident in relationships",
+            "Spending too much"
+          ]
+        }
+      },
+      "venus_saturn": {
+        "conjunction": {
+          "basic_meaning": "Restricted love, serious relationships, karmic bonds",
+          "challenges": [
+            "Feels unworthy of love",
+            "Difficulty receiving affection",
+            "Age-gap relationships",
+            "Cold or distant in love",
+            "Late bloomer in romance",
+            "Loyalty but difficulty expressing love"
+          ],
+          "positive_expressions": [
+            "Committed and faithful",
+            "Mature in relationships",
+            "Values lasting bonds",
+            "Builds real love slowly"
+          ],
+          "synastry_note": "Karmic aspect, difficult but creates lasting bonds"
+        }
+      },
+      "venus_pluto": {
+        "conjunction": {
+          "basic_meaning": "Transformative love, obsessive passion, intense values",
+          "psychological": "Love as transformation, passionate intensity",
+          "positive_expressions": [
+            "Deeply passionate",
+            "Transformative relationships",
+            "Magnetic attraction",
+            "Loyal and devoted",
+            "Profound emotional depth"
+          ],
+          "challenges": [
+            "Obsessive in love",
+            "Jealousy and possessiveness",
+            "Power struggles in relationships",
+            "May attract toxic dynamics",
+            "Control issues",
+            "All-or-nothing approach"
+          ],
+          "synastry_note": "Most intense sexual/romantic aspect, can be obsessive"
+        }
+      }
+    },
+    "mars_aspects": {
+      "mars_jupiter": {
+        "conjunction": {
+          "basic_meaning": "Expanded action, successful activity, abundant energy",
+          "positive_expressions": [
+            "Success through action",
+            "Abundant energy and enthusiasm",
+            "Lucky in pursuits",
+            "Good at sports and competition",
+            "Confident action",
+            "Marriage indicator"
+          ]
+        }
+      },
+      "mars_saturn": {
+        "conjunction": {
+          "basic_meaning": "Disciplined action, controlled energy, frustrated drive",
+          "challenges": [
+            "Blocked or frustrated energy",
+            "Difficulty asserting self",
+            "Chronic obstacles to action",
+            "Anger suppression"
+          ],
+          "positive_expressions": [
+            "Disciplined and persistent",
+            "Controlled strength",
+            "Endurance",
+            "Strategic action"
+          ]
+        }
+      },
+      "mars_uranus": {
+        "conjunction": {
+          "basic_meaning": "Explosive action, sudden energy bursts, rebellion",
+          "challenges": [
+            "Accident-prone",
+            "Erratic energy",
+            "Impulsive and unpredictable",
+            "Rebellious actions"
+          ],
+          "positive_expressions": [
+            "Innovative action",
+            "Quick reflexes",
+            "Revolutionary energy",
+            "Breakthroughs"
+          ]
+        }
+      },
+      "mars_neptune": {
+        "conjunction": {
+          "basic_meaning": "Dissolved action, spiritual warrior, confused drive",
+          "challenges": [
+            "Weak will or follow-through",
+            "Passive-aggressive",
+            "Energy drains easily",
+            "Susceptible to deception"
+          ],
+          "positive_expressions": [
+            "Spiritual warrior",
+            "Artistic action",
+            "Compassionate assertiveness",
+            "Dance, film, arts"
+          ]
+        }
+      },
+      "mars_pluto": {
+        "conjunction": {
+          "basic_meaning": "Powerful action, compulsive drive, dangerous energy",
+          "psychological": "Intense willpower, potential for violence or transformation",
+          "positive_expressions": [
+            "Incredible willpower and intensity",
+            "Transformative action",
+            "Surgical precision",
+            "Sexual power",
+            "Ability to face danger"
+          ],
+          "challenges": [
+            "Dangerous or violent impulses",
+            "Compulsive and obsessive",
+            "Power struggles",
+            "Destructive anger",
+            "May attract violence",
+            "Difficulty controlling intensity"
+          ],
+          "synastry_note": "Extremely intense physical/sexual connection"
+        }
+      }
+    },
+    "jupiter_aspects": {
+      "jupiter_saturn": {
+        "conjunction": {
+          "basic_meaning": "Expansion meets limitation, optimism meets realism",
+          "positive_expressions": [
+            "Balanced growth—neither too fast nor too slow",
+            "Philosophical realism",
+            "Can build lasting expansion",
+            "Wisdom from experience"
+          ],
+          "challenges": [
+            "Alternating optimism and pessimism",
+            "Growth blocked by limitations",
+            "Opportunity timing off"
+          ],
+          "synastry_note": "Friendship indicator but can limit romantic passion"
+        }
+      },
+      "jupiter_uranus": {
+        "conjunction": {
+          "basic_meaning": "Sudden expansion, breakthrough opportunities, revolutionary optimism",
+          "positive_expressions": [
+            "Unexpected opportunities",
+            "Breakthrough success",
+            "Revolutionary vision",
+            "Freedom through growth"
+          ]
+        }
+      },
+      "jupiter_neptune": {
+        "conjunction": {
+          "basic_meaning": "Spiritual expansion, mystical optimism, inspired vision",
+          "positive_expressions": [
+            "Spiritual growth",
+            "Inspired creativity",
+            "Compassionate expansion",
+            "Mystical experiences"
+          ],
+          "challenges": [
+            "Unrealistic expectations",
+            "Spiritual bypassing",
+            "Gullibility"
+          ]
+        }
+      },
+      "jupiter_pluto": {
+        "conjunction": {
+          "basic_meaning": "Powerful expansion, transformative success, intense growth",
+          "positive_expressions": [
+            "Powerful success and influence",
+            "Transformative growth",
+            "Can handle power well",
+            "Regenerative success"
+          ]
+        }
+      }
+    },
+    "saturn_aspects": {
+      "saturn_uranus": {
+        "conjunction": {
+          "basic_meaning": "Structure meets change, tradition vs. innovation",
+          "challenges": [
+            "Tension between old and new",
+            "Sudden limitations or sudden liberation",
+            "Structural upheaval"
+          ],
+          "synastry_note": "Stress and separation aspect in relationships"
+        }
+      },
+      "saturn_neptune": {
+        "conjunction": {
+          "basic_meaning": "Structure meets dissolution, reality vs. fantasy",
+          "positive_expressions": [
+            "Can manifest spiritual ideals",
+            "Disciplined creativity",
+            "Grounded spirituality"
+          ],
+          "challenges": [
+            "Depression from disillusionment",
+            "Difficulty trusting universe",
+            "Chronic anxiety"
+          ]
+        }
+      },
+      "saturn_pluto": {
+        "conjunction": {
+          "basic_meaning": "Limitation meets power, intense karmic lessons",
+          "challenges": [
+            "Heavy karmic burdens",
+            "Power through control",
+            "Difficult transformations",
+            "Oppressive structures"
+          ],
+          "positive_expressions": [
+            "Can handle extreme pressure",
+            "Transforms through discipline",
+            "Builds real power"
+          ]
+        }
+      }
+    },
+    "outer_planet_aspects": {
+      "uranus_neptune": {
+        "note": "Generational aspect, affects entire generation",
+        "themes": "Revolution meets spirituality, innovation in consciousness"
+      },
+      "uranus_pluto": {
+        "note": "Generational aspect, affects entire generation",
+        "themes": "Revolutionary transformation, breakdown of structures",
+        "square": "Major generational challenge aspect (2012-2015 generation)"
+      },
+      "neptune_pluto": {
+        "note": "Very long-term generational aspect",
+        "themes": "Spiritual transformation, collective unconscious shifts"
+      }
+    },
+    "interpretation_guidelines": {
+      "synthesis_principles": [
+        "Never interpret aspects in isolation—always consider sign, house, dignity",
+        "Outer planet aspects are generational unless involving angles or luminaries",
+        "Applying aspects are more dynamic than separating",
+        "Exact aspects (within 1°) are most powerful",
+        "Aspects from angular houses are stronger",
+        "Multiple aspects to same planet create complex dynamics",
+        "Aspect patterns (T-square, Grand Trine, etc.) override individual aspects"
+      ],
+      "positive_use_vs_shadow": "Every aspect has constructive and destructive expressions—choice matters",
+      "timing_considerations": "Aspects activate at different life stages based on progressions and transits",
+      "free_will": "Aspects show potential dynamics, not fated outcomes"
+    }
+  }
+}

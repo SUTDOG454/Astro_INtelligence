@@ -1,0 +1,458 @@
+{
+  "synastry_analysis": {
+    "analysis_metadata": {
+      "analysis_id": "",
+      "generated_date": "YYYY-MM-DD",
+      "analysis_type": "romantic|friendship|business|family",
+      "compatibility_score": 0.0,
+      "interpretation_depth": "basic|intermediate|advanced"
+    },
+    "person_a": {
+      "name": "",
+      "birth_data": {
+        "date": "YYYY-MM-DD",
+        "time": "HH:MM:SS",
+        "timezone": "UTC+/-HH:MM",
+        "location": {
+          "city": "",
+          "country": "",
+          "latitude": 0.0,
+          "longitude": 0.0
+        }
+      },
+      "natal_chart_reference": "link_to_natal_chart_json"
+    },
+    "person_b": {
+      "name": "",
+      "birth_data": {
+        "date": "YYYY-MM-DD",
+        "time": "HH:MM:SS",
+        "timezone": "UTC+/-HH:MM",
+        "location": {
+          "city": "",
+          "country": "",
+          "latitude": 0.0,
+          "longitude": 0.0
+        }
+      },
+      "natal_chart_reference": "link_to_natal_chart_json"
+    },
+    "interaspects": {
+      "major_aspects": [
+        {
+          "aspect_id": "",
+          "person_a_planet": "",
+          "person_b_planet": "",
+          "aspect_type": "Conjunction|Sextile|Square|Trine|Opposition",
+          "angle": 0,
+          "orb": 0.0,
+          "orb_limit": 8.0,
+          "quality": "harmonious|challenging|neutral|intense",
+          "strength": "very_strong|strong|moderate|weak",
+          "double_whammy": false,
+          "interpretation": {
+            "basic_meaning": "",
+            "relationship_dynamic": "",
+            "strengths": [],
+            "challenges": [],
+            "advice": ""
+          },
+          "categories": {
+            "romance": true,
+            "communication": false,
+            "emotional": false,
+            "sexual": false,
+            "karmic": false,
+            "power_dynamic": false
+          }
+        }
+      ],
+      "minor_aspects": [
+        {
+          "aspect_id": "",
+          "person_a_planet": "",
+          "person_b_planet": "",
+          "aspect_type": "SemiSquare|Sesquisquare|Quincunx|SemiSextile",
+          "angle": 0,
+          "orb": 0.0,
+          "orb_limit": 3.0,
+          "interpretation": ""
+        }
+      ],
+      "aspect_categories": {
+        "sun_moon": {
+          "aspects": [],
+          "significance": "Core identity and emotional compatibility",
+          "interpretation": ""
+        },
+        "venus_mars": {
+          "aspects": [],
+          "significance": "Romantic and sexual chemistry",
+          "interpretation": ""
+        },
+        "mercury_mercury": {
+          "aspects": [],
+          "significance": "Communication compatibility",
+          "interpretation": ""
+        },
+        "moon_moon": {
+          "aspects": [],
+          "significance": "Emotional understanding",
+          "interpretation": ""
+        },
+        "saturn_contacts": {
+          "aspects": [],
+          "significance": "Commitment, longevity, lessons",
+          "interpretation": ""
+        },
+        "outer_planet_contacts": {
+          "aspects": [],
+          "significance": "Transformative, karmic, spiritual bonds",
+          "interpretation": ""
+        }
+      }
+    },
+    "house_overlays": {
+      "person_a_planets_in_b_houses": [
+        {
+          "planet": "",
+          "house": 0,
+          "interpretation": {
+            "influence": "",
+            "how_b_experiences_a": "",
+            "relationship_area": ""
+          }
+        }
+      ],
+      "person_b_planets_in_a_houses": [
+        {
+          "planet": "",
+          "house": 0,
+          "interpretation": {
+            "influence": "",
+            "how_a_experiences_b": "",
+            "relationship_area": ""
+          }
+        }
+      ],
+      "significant_overlays": {
+        "1st_house": {
+          "description": "Identity, attraction, first impressions",
+          "planets_present": [],
+          "interpretation": ""
+        },
+        "4th_house": {
+          "description": "Home, family, emotional foundation",
+          "planets_present": [],
+          "interpretation": ""
+        },
+        "5th_house": {
+          "description": "Romance, fun, creativity, children",
+          "planets_present": [],
+          "interpretation": ""
+        },
+        "7th_house": {
+          "description": "Partnership, marriage, one-on-one relating",
+          "planets_present": [],
+          "interpretation": ""
+        },
+        "8th_house": {
+          "description": "Intimacy, transformation, shared resources",
+          "planets_present": [],
+          "interpretation": ""
+        },
+        "10th_house": {
+          "description": "Public image, career, reputation together",
+          "planets_present": [],
+          "interpretation": ""
+        },
+        "11th_house": {
+          "description": "Friendship, shared goals, social connection",
+          "planets_present": [],
+          "interpretation": ""
+        },
+        "12th_house": {
+          "description": "Spiritual connection, hidden dynamics, past lives",
+          "planets_present": [],
+          "interpretation": ""
+        }
+      }
+    },
+    "synastry_midpoints": {
+      "orb_limit": 2.0,
+      "description": "Sensitive points revealing deep connection themes",
+      "person_a_midpoints_aspected": [
+        {
+          "midpoint": "Sun/Moon",
+          "aspected_by_b": "",
+          "aspect_type": "",
+          "orb": 0.0,
+          "interpretation": "Deep fulfillment and unity through relationship"
+        }
+      ],
+      "person_b_midpoints_aspected": [
+        {
+          "midpoint": "Venus/Mars",
+          "aspected_by_a": "",
+          "aspect_type": "",
+          "orb": 0.0,
+          "interpretation": "Sexual and romantic desire activation"
+        }
+      ],
+      "key_midpoint_combinations": {
+        "sun_moon": {
+          "description": "Inner unification through relationship",
+          "present": false,
+          "details": []
+        },
+        "venus_mars": {
+          "description": "Passion and desire point",
+          "present": false,
+          "details": []
+        },
+        "jupiter_saturn": {
+          "description": "Friendship vs commitment dynamic",
+          "present": false,
+          "details": []
+        },
+        "saturn_chiron": {
+          "description": "Heartbreak midpoint - challenging but karmic",
+          "present": false,
+          "details": []
+        },
+        "jupiter_chiron": {
+          "description": "Cinderella/Golden midpoint - healing and growth",
+          "present": false,
+          "details": []
+        }
+      }
+    },
+    "composite_chart": {
+      "description": "The relationship itself as an entity",
+      "composite_sun": {
+        "sign": "",
+        "house": 0,
+        "degree": 0.0,
+        "interpretation": "Core purpose and identity of the relationship"
+      },
+      "composite_moon": {
+        "sign": "",
+        "house": 0,
+        "degree": 0.0,
+        "interpretation": "Emotional tone and comfort zone of relationship"
+      },
+      "composite_ascendant": {
+        "sign": "",
+        "degree": 0.0,
+        "interpretation": "How the relationship appears to others"
+      },
+      "composite_venus": {
+        "sign": "",
+        "house": 0,
+        "degree": 0.0,
+        "interpretation": "How love is expressed in the relationship"
+      },
+      "composite_mars": {
+        "sign": "",
+        "house": 0,
+        "degree": 0.0,
+        "interpretation": "How energy and conflict are handled"
+      },
+      "composite_saturn": {
+        "sign": "",
+        "house": 0,
+        "degree": 0.0,
+        "interpretation": "Commitment, challenges, and lessons"
+      },
+      "composite_aspects": [],
+      "composite_interpretation": ""
+    },
+    "special_synastry_indicators": {
+      "vertex_contacts": {
+        "description": "Fated encounters and destined meetings",
+        "contacts": [
+          {
+            "person_a_vertex": "",
+            "person_b_planet": "",
+            "aspect": "",
+            "interpretation": "Fated connection"
+          }
+        ]
+      },
+      "north_south_node_contacts": {
+        "description": "Karmic connections and soul contracts",
+        "contacts": [
+          {
+            "node_person": "",
+            "node_type": "North|South",
+            "planet_person": "",
+            "planet": "",
+            "aspect": "",
+            "interpretation": ""
+          }
+        ],
+        "karmic_indicators": []
+      },
+      "asteroid_synastry": {
+        "juno_contacts": {
+          "description": "Marriage and commitment potential",
+          "contacts": []
+        },
+        "eros_psyche": {
+          "description": "Soul mate markers and destined love",
+          "contacts": []
+        },
+        "lilith_contacts": {
+          "description": "Dark sexuality, obsession, taboo attraction",
+          "contacts": []
+        },
+        "chiron_contacts": {
+          "description": "Healing through relationship, wounds exposed",
+          "contacts": []
+        },
+        "ceres_vesta_pallas": {
+          "description": "Nurturing, devotion, partnership wisdom",
+          "contacts": []
+        }
+      },
+      "angle_contacts": {
+        "ascendant_desc_contacts": [
+          {
+            "person": "",
+            "angle": "Ascendant|Descendant",
+            "planet_from_partner": "",
+            "aspect": "",
+            "interpretation": ""
+          }
+        ],
+        "ic_mc_contacts": [
+          {
+            "person": "",
+            "angle": "IC|MC",
+            "planet_from_partner": "",
+            "aspect": "",
+            "interpretation": ""
+          }
+        ]
+      }
+    },
+    "relationship_dynamics": {
+      "dominant_partner": {
+        "person": "A|B|Equal",
+        "indicators": [],
+        "interpretation": ""
+      },
+      "communication_style": {
+        "quality": "excellent|good|challenging|difficult",
+        "mercury_contacts": [],
+        "3rd_9th_house_influences": [],
+        "interpretation": ""
+      },
+      "emotional_compatibility": {
+        "score": 0.0,
+        "moon_contacts": [],
+        "4th_house_influences": [],
+        "interpretation": ""
+      },
+      "sexual_chemistry": {
+        "score": 0.0,
+        "venus_mars_contacts": [],
+        "8th_house_influences": [],
+        "5th_house_influences": [],
+        "intensity_level": "low|moderate|high|explosive",
+        "interpretation": ""
+      },
+      "commitment_potential": {
+        "score": 0.0,
+        "saturn_contacts": [],
+        "7th_house_influences": [],
+        "juno_contacts": [],
+        "long_term_indicators": [],
+        "interpretation": ""
+      },
+      "power_dynamics": {
+        "balance": "equal|A_dominant|B_dominant|unstable",
+        "pluto_contacts": [],
+        "mars_contacts": [],
+        "potential_issues": [],
+        "interpretation": ""
+      },
+      "growth_and_expansion": {
+        "jupiter_contacts": [],
+        "9th_house_influences": [],
+        "mutual_growth_areas": [],
+        "interpretation": ""
+      }
+    },
+    "compatibility_scores": {
+      "overall_score": 0.0,
+      "romantic_compatibility": 0.0,
+      "emotional_compatibility": 0.0,
+      "intellectual_compatibility": 0.0,
+      "sexual_compatibility": 0.0,
+      "spiritual_compatibility": 0.0,
+      "long_term_potential": 0.0,
+      "scoring_methodology": "Weighted algorithm based on aspect quality, house overlays, and special indicators"
+    },
+    "relationship_themes": {
+      "primary_themes": [
+        "passion",
+        "growth",
+        "healing",
+        "karmic_lessons",
+        "soul_connection",
+        "transformation",
+        "stability",
+        "adventure"
+      ],
+      "strengths": [],
+      "challenges": [],
+      "growth_opportunities": [],
+      "red_flags": [],
+      "green_lights": []
+    },
+    "timing_indicators": {
+      "progressed_synastry": {
+        "description": "How the relationship evolves over time",
+        "current_progressions": []
+      },
+      "solar_arc_synastry": {
+        "description": "Major relationship developments",
+        "current_arcs": []
+      },
+      "transits_to_synastry": {
+        "description": "Current planetary activations of relationship dynamics",
+        "active_transits": []
+      }
+    },
+    "relationship_advice": {
+      "do_emphasize": [],
+      "be_aware_of": [],
+      "work_on_together": [],
+      "individual_growth_needed": {
+        "person_a": [],
+        "person_b": []
+      },
+      "communication_tips": [],
+      "conflict_resolution_strategies": []
+    },
+    "notable_synastry_patterns": {
+      "double_whammies": {
+        "description": "Reciprocal aspects showing mutual influence",
+        "patterns": []
+      },
+      "aspect_chains": {
+        "description": "Multiple planets linking both charts",
+        "patterns": []
+      },
+      "cross_aspects": {
+        "description": "Planets forming aspect to partner's angle",
+        "patterns": []
+      }
+    },
+    "famous_couple_comparison": {
+      "similar_patterns_to": [],
+      "interpretation": ""
+    }
+  }
+}

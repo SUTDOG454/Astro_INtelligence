@@ -1,0 +1,280 @@
+// DG Horary Degrees
+// Traditional Horary Degrees Interpretation - DeVore.
+// Adapted for ZET 8 by Paul Hysen 2007.
+
+[ 1] Aries
+   1 A positive nature that creates its own destiny. Cusp of First Lunar Mansion, a so-called Critical Degree.
+   2 Degree of the Surgeon; an organizer.
+   3 Degree of abscesses; literary and poetic.
+   4 Birds and aviators; collisions; goitre.
+   5 Cruelty.
+   6 Unsatisfied ambitions.
+   7 Jaundice.
+   8 Degree of life and death
+   9 Degree of courage; immorality.
+  10 Triumph; great generals
+  11 Spiritual triumph; scientific interests; a degree of electricity.
+  12 Spiritual intuitions.
+  13 Cusp of Second Lunar Mansion.
+  14 Degree of the Physician; of food and drink.
+  15 Degree of apoplexy or suicide.
+  16 Persuasive oratory; public life.
+  17 Children.
+  18 Oratory.
+  19 Mental fertility and physical passionateness.
+  20 Exaltation of Sun: Fall of Saturn; a Fortunate Degree.
+  21 Abscesses; accidents; electricity.
+  22 Hope; artistic.
+  23 Music.
+  24 Philosophy.
+  25 Literature; travel.
+  26 Cusp of Third Lunar Mansion. Exploration and discovery.
+  27 Degree of tuberculosis of the lungs; of opposition and strife; militant leaders. Great soldiers are found on this Aries-Libra axis.
+  28 Tenacity of purpose; hair; Mars in this degree denotes red hair.
+  29 Power to realize a lofty ideal.
+  30 A prophet of a new order.
+
+[ 2] Taurus
+   1 Powerful in combining old principles in new applications.
+   2 Magic.
+   3 Degree of plot and strategy. Important degree in nativities of great military generals.
+   4 Exaltation of the Moon; a fortunate degree. One accustomed to the exercise of authority.
+   5 Founder of a sect; the seat of law.
+   7 One who has secret knowledge, a healer; hermit.
+   7 Degree of many enemies.
+   8 Determined and resourceful.
+   9 Cusp of Fourth Lunar Mansion. A critical degree.
+  10 Neurasthenia. 
+  11 Architecture.
+  12 Architecture, experimental scientist.
+  13 Architecture, air pressure and gravitation.
+  14 Circulation of money: unfortunate for marriage.
+  15 First point of stabilization; a fortunate degree; religious nature.
+  16 Growth; music.
+  17 Painting; influential in organizations.
+  18 Appendicitis. 
+  19 Leader of a party.
+  20 A self-made man.
+  21 Cusp of Fifth Lunar Mansion; a critical degree; oratorical.
+  22 Water travel.
+  23 Success at any cost.
+  24 Patient in toil. 
+  25 Poet and recluse.
+  26 Autocratic and unscrupulous; death of partner; a bad reputation.
+  27 Fortune by marriage.
+  28 A fortunate degree; steadfast; fortune through employment
+  29 Literature; powerful will, and organizing ability.
+  30 Degree of fate; favored by fortune; a dramatic area; a famous actors' degree.
+
+[ 3] Gemini. 
+   1 Degree of draftsmanship.
+   2 Degree of draftmanship   
+   3 An ambassadorial degree; degree of draftmanship.
+   4 Exaltation of Moon's North Node: a point of spiritual illumination. Cusp of Sixth Lunar Mansion: a critical degree.
+   5 Degree of aviation; of mental stability.
+   6 Degree of quiet fortunes.
+   7 A degree of brilliant intellectuality; of expression in language.
+   8 Degree of cantankerous irritability.
+   9 Ascendant and Uranus in U.S. horoscope.
+  10 Degree of homicide; elevation through partnership or marriage.
+  11 A Fortunate degree.
+  13 A degree of hope realized.
+  14 Degree of accidents to wheeled vehicles; of imitation and acting.
+  15 Degree of dumbness from impaired speech organs.
+  16 Inheritor of a home.
+  17 Cusp of Seventh Lunar Mansion; a critical degree. A degree associated with sleep and trance.
+  18 A degree of homicide.
+  23 Degree of Literature.
+  24 Faith: a military degree; also affecting the spine.
+  26 Degree of neurasthenia.
+  29 Degree of tuberculosis of lungs.
+  30 Degree of imitation and acting.
+ 
+[ 4] Cancer.
+   1 Cusp of Eighth Lunar Mansion; a critical degree.
+   2 Degree of sight. A fortunate degree.
+   3 Degree of sight. A fortunate degree.
+   4 A fortunate degree.
+   5 A medical degree.
+   6 Degree of sleep and trance
+  11 Historical degree.
+  12 Degree of retentive memory; of cancer and alcoholism.
+  13 Cusp of Ninth Lunar Mansion; a critical degree. Degree of business.
+  14 Degree of business.
+  15 A fortunate degree. Degree of business.
+  16 Exaltation of Jupiter. Degree of business. A degree of self-destruction.
+  17 Degree of duty. Degree of business.
+  21 Degree of limitation and hindrance.
+  24 Degree of forethought.
+  25 Degree of music.
+  26 Cusp of Tenth Lunar Mansion: a critical degree.
+  28 Degree of farming.
+  29 Fall of Mars. Degree associated with hair.
+  30 Degree of the avid collector. 
+
+[ 5] Leo.
+   1 Homicide.
+   4 Biliousness.
+   6 Homicide, aviation accidents.
+   7 Sight.
+   9 Cusp of Eleventh Lunar Mansion; a critical degree; Anaemia; hearing.
+  10 Bladder afflictions; alcoholism; Army and Navy.
+  13 A degree of beauty.
+  14 Degree of literature.
+  16 First point of Affection: The Lion point.
+  18 Degree of aviation; of air and gas.
+  19 Medical ability.
+  20 The back. Medical ability.
+  21 Cusp of Twelfth Lunar Mansion; a critical degree. A degree of Faith. Medical ability. Homicide.
+  22 Comedy. Medical ability. Homicide.
+  23 Appendicitis. Medical ability. Homicide.
+  24 The stage. Homicide.
+  25 Homicide.
+  26 Alcoholic. Astrology.
+  27 Alcoholic. Astrology. 
+  28 Astrology. 
+  29 Astrology. 
+  30 Astrology. 
+
+[ 6] Virgo.
+   4 Cusp of the Thirteenth Lunar Mansion: a critical degree; appendicitis.
+   5 Asthma.
+   8 Degree of dress.
+   9 Mixing and blending. Degree of dress.
+  10 Homicidal tendencies. Degree of dress.
+  11 Purifying, cleansing, refining, and reducing to simplest essence. A degree of theology; also of dress.
+  12 An astrological degree.
+  13 Business.
+  14 Degree of transformation and versatility. The stage. Feet. Business. 
+  15 Degree of transformation and versatility. Business. 
+  16 Exaltation of Mercury. Business. 
+  17 Cusp of Fourteenth Lunar Mansion; a critical degree, Christian ministers; a degree of symbolism. Business. 
+  18 Degree of gliding or flowing.
+  23 A military degree; rules appendicitis; hairdressers.
+  25 Degree of painting.
+  26 Cancer. Degree of painting.
+  27 Degree of painting.
+  28 Diabetes.
+
+[ 7] Libra.
+   1 Cusp of Fifteenth Lunar Mansion; a sensitive degree.
+   4 Abscesses.
+   6 Homicide.
+   7 Degree of birds; aviation; goiter.
+   8 Sudden death; animal life.
+  10 Courage, triumph.
+  13 Cusp of Sixteenth Lunar Mansion; a sensitive degree.
+  14 Food and drink.
+  16 Suicide, apoplexy.
+  17 Electrical.
+  18 Electrical.
+  19 Electrical.
+  20 Fall of the Sun.
+  22 Exaltation of Saturn. The stage, comedy.
+  23 Artistic; hope.
+  24 Degree of homosexuality.
+  25 Musical.
+  26 Cusp of Seventeenth Lunar Mansion; a sensitive degree; literature.
+  27 Detectives.
+  28 Consumption.
+  29 Hospitality; hair.
+
+[ 8] Scorpio.
+   1 Sensuous and passionate degree.
+   3 Plot.
+   4 Fall of the Moon.
+   7 Occultist and leader. That which is slippery but soothing.
+   9 Cusp of Eighteenth Lunar Mansion; a critical degree.
+  11 Neurasthenia.
+  13 Business.
+  14 Air pressure. Business. 
+  15 Business.
+  16 The Center of Regeneration: the Eagle-point. Business. 
+  17 Growth. Painting. Business.
+  18 Music.
+  19 Appendicitis.
+  20 The degree of avidity, an evil degree; the crucial point in the war between the Ego and the Supreme Will; animal life.
+  21 Cusp of Nineteenth Lunar Mansion; a critical degree.
+  22 Bronchial tubes.
+  26 Dumbness. Alcoholic.
+  28 Literature; memory.
+  29 Brewers.
+
+[ 9] Sagittarius.
+   1 Degrees of draughtsmanship.
+   2 Degrees of draughtsmanship.
+   3 Degrees of draughtsmanship.
+   4 Degrees of draughtsmanship. Exaltation of Moon's South Node: Fall of Moon's North Node. Cusp of Twentieth Lunar Mansion: a critical degree.
+   5 Aviation.
+   7 Degree of expression in language.
+   8 Degree of the heart.
+  10 Homicide.
+  13 Accidents to wheeled vehicles.
+  14 Degree of acting.
+  15 Degree of dumbness; indecision.
+  17 Cusp of Twenty-First Lunar Mansion: a critical degree. 
+  18 Degree of matter in transition - heat, flame; homicidal. 
+  19 Royalty.
+  21 Faith. 
+  22 Faith. Growth.
+  23 Faith. A military degree. 
+  24 Faith.
+  26 Neurasthenia.
+  29 Consumption.
+  30 Imitation; acting.
+
+[10] Capricorn.
+   1 The Galactic Center. The most important point in astrology. Cusp of the Twenty-Second Lunar Mansion. An ambitious degree.
+   3 Sight.
+   4 Medical.
+   5 Sleep and trance. 
+   6 Sleep and trance.
+   7 Analogy.
+   8 Unusual ability.
+  10 Degree of history.
+  11 Memory.
+  12 Religion.
+  13 Cusp of the Twenty-Third Lunar Mansion.
+  15 Suicide.
+  16 Fall of Jupiter. A degree of duty.
+  17 Degree of solid matter.
+  18 Intellectual and governmental.
+  22 A scholarly degree.
+  24 Governmental authority; music.
+  26 Cusp of the Twenty-Fourth Lunar Mansion.
+  27 Land and farming.
+  28 Hair.
+  29 Exaltation of Mars.
+  30 Degree of collecting.
+
+[11] Aquarius.
+   1 Homicide.
+   2 Homicide.
+   3 Homicide.
+   4 Homicide.
+   5 Homicide.
+   6 Homicide.
+   9 Cusp of Twenty-fifth Lunar Mansion.
+  10 Executive; presidential.
+  11 The principle of things.
+  13 If Mars afflicted here: assassination.
+  14 Degree of beauty; literature.
+  16 The Center of Humanity, the angel point.
+  18 State of air and gases.
+  19 Explosiveness.
+  20 The back.
+  21 Cusp of Twenty-Sixth Lunar Mansion; a degree of Faith.
+  23 Astrological area.
+  24 Astrological area. Benevolence.
+  25 Astrological area.
+  26 Astrological area. Alcoholism.
+  27 Astrological area.
+  28 Astrological area.
+  29 Astrological area.
+
+[12] Pisces.
+   4 Cusp of Twenty-Seventh Lunar Mansion.
+  16 Fall of Mercury.
+  17 Cusp of Twenty-Eighth Lunar Mansion.
+  28 Exaltation of Venus.
+

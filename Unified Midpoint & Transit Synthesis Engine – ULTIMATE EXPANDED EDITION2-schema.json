@@ -1,0 +1,3377 @@
+{
+	"type": "object",
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"description": "JSON schema generated with JSONBuddy https://www.json-buddy.com",
+	"properties": {
+		"aries_point": {
+			"type": "object",
+			"properties": {
+				"activation": {
+					"type": "object",
+					"properties": {
+						"Ascendant": {
+							"type": "string"
+						},
+						"Jupiter": {
+							"type": "string"
+						},
+						"Mars": {
+							"type": "string"
+						},
+						"Mercury": {
+							"type": "string"
+						},
+						"Midheaven": {
+							"type": "string"
+						},
+						"Moon": {
+							"type": "string"
+						},
+						"Neptune": {
+							"type": "string"
+						},
+						"North Node": {
+							"type": "string"
+						},
+						"Pluto": {
+							"type": "string"
+						},
+						"Saturn": {
+							"type": "string"
+						},
+						"Sun": {
+							"type": "string"
+						},
+						"Uranus": {
+							"type": "string"
+						},
+						"Venus": {
+							"type": "string"
+						}
+					}
+				},
+				"definition": {
+					"type": "string"
+				},
+				"essence": {
+					"type": "string"
+				},
+				"examples": {
+					"type": "array",
+					"items": {
+						"oneOf": [
+							{
+								"type": "object",
+								"properties": {
+									"focal": {
+										"type": "string"
+									},
+									"interpretation": {
+										"type": "string"
+									},
+									"name": {
+										"type": "string"
+									}
+								}
+							}
+						]
+					}
+				},
+				"weighting": {
+					"type": "object",
+					"properties": {
+						"closest_aries_point_picture_bonus": {
+							"type": "integer"
+						},
+						"focal_point_bonus": {
+							"type": "integer"
+						}
+					}
+				}
+			}
+		},
+		"chiron_midpoints": {
+			"type": "object",
+			"properties": {
+				"Chiron/Ascendant": {
+					"type": "object",
+					"properties": {
+						"Midheaven": {
+							"type": "string"
+						}
+					}
+				},
+				"Chiron/Midheaven": {
+					"type": "object",
+					"properties": {
+						"Ascendant": {
+							"type": "string"
+						},
+						"Jupiter": {
+							"type": "string"
+						},
+						"Mars": {
+							"type": "string"
+						},
+						"Mercury": {
+							"type": "string"
+						},
+						"Moon": {
+							"type": "string"
+						},
+						"Neptune": {
+							"type": "string"
+						},
+						"North Node": {
+							"type": "string"
+						},
+						"Pluto": {
+							"type": "string"
+						},
+						"Saturn": {
+							"type": "string"
+						},
+						"Sun": {
+							"type": "string"
+						},
+						"Uranus": {
+							"type": "string"
+						},
+						"Venus": {
+							"type": "string"
+						}
+					}
+				},
+				"Pluto/Chiron": {
+					"type": "object",
+					"properties": {
+						"Ascendant": {
+							"type": "string"
+						}
+					}
+				}
+			}
+		},
+		"ebertin_transits": {
+			"type": "object",
+			"properties": {
+				"planet_dictionaries": {
+					"type": "array",
+					"items": {
+						"oneOf": [
+							{
+								"type": "object",
+								"properties": {
+									"biological": {
+										"type": "string"
+									},
+									"duration": {
+										"type": "string"
+									},
+									"glyph": {
+										"type": "string"
+									},
+									"name": {
+										"type": "string"
+									},
+									"psychological": {
+										"type": "object",
+										"properties": {
+											"negative": {
+												"type": "string"
+											},
+											"positive": {
+												"type": "string"
+											}
+										}
+									},
+									"sociological": {
+										"type": "string"
+									},
+									"transits": {
+										"type": "array",
+										"items": {
+											"oneOf": [
+												{
+													"type": "object",
+													"properties": {
+														"conjunction": {
+															"type": [ "string", "null" ]
+														},
+														"examples": {
+															"type": "array",
+															"items": {
+																"oneOf": [
+																	{
+																		"type": "object",
+																		"properties": {
+																			"description": {
+																				"type": "string"
+																			}
+																		}
+																	}
+																]
+															}
+														},
+														"negative": {
+															"type": [ "string", "null" ]
+														},
+														"positive": {
+															"type": [ "string", "null" ]
+														},
+														"to": {
+															"type": "string"
+														}
+													}
+												}
+											]
+										}
+									}
+								}
+							}
+						]
+					}
+				},
+				"principles": {
+					"type": "object",
+					"properties": {
+						"best_day_to_realize_plans": {
+							"type": "object",
+							"properties": {
+								"change_of_residence": {
+									"type": "string"
+								},
+								"court_trials": {
+									"type": "string"
+								},
+								"examinations": {
+									"type": "string"
+								},
+								"friendship": {
+									"type": "string"
+								},
+								"intellectual_work": {
+									"type": "string"
+								},
+								"marriage": {
+									"type": "string"
+								},
+								"physical_work": {
+									"type": "string"
+								},
+								"recreation_trips": {
+									"type": "string"
+								},
+								"speculation_lottery": {
+									"type": "string"
+								},
+								"vocation_career": {
+									"type": "string"
+								}
+							}
+						},
+						"definition": {
+							"type": "string"
+						},
+						"duration_rule": {
+							"type": "string"
+						},
+						"evaluation": {
+							"type": "string"
+						},
+						"mundane_aspects": {
+							"type": "string"
+						},
+						"orb_rule": {
+							"type": "string"
+						},
+						"parallels": {
+							"type": "string"
+						}
+					}
+				}
+			}
+		},
+		"framework": {
+			"type": "object",
+			"properties": {
+				"calculation": {
+					"type": "object",
+					"properties": {
+						"45_degree_graphic_ephemeris": {
+							"type": "string"
+						},
+						"conversion": {
+							"type": "string"
+						},
+						"formula": {
+							"type": "string"
+						},
+						"method": {
+							"type": "string"
+						}
+					}
+				},
+				"orbs": {
+					"type": "object",
+					"properties": {
+						"aries_point": {
+							"type": "string"
+						},
+						"ebertin_transit": {
+							"type": "object",
+							"properties": {
+								"fast_planets_Mercury_Venus_Mars": {
+									"type": "string"
+								},
+								"personal_points_MC_ASC_Sun_Moon": {
+									"type": "string"
+								},
+								"slow_planets_Jupiter_Saturn_Uranus_Neptune_Pluto_Node": {
+									"type": "string"
+								}
+							}
+						},
+						"midpoint_activation_harvey": {
+							"type": "string"
+						},
+						"midpoint_activation_mcbroom": {
+							"type": "string"
+						},
+						"quadrant_midpoints": {
+							"type": "string"
+						}
+					}
+				},
+				"recommended_tools": {
+					"type": "object",
+					"properties": {
+						"manual": {
+							"type": "string"
+						},
+						"software": {
+							"type": "string"
+						}
+					}
+				},
+				"synthesis_protocol": {
+					"type": "array",
+					"items": {
+						"oneOf": [ { "type": "string" } ]
+					}
+				},
+				"unified_syntax": {
+					"type": "object",
+					"properties": {
+						"example": {
+							"type": "string"
+						},
+						"formula": {
+							"type": "string"
+						}
+					}
+				},
+				"weighting_algorithm": {
+					"type": "object",
+					"properties": {
+						"bonus_modifiers": {
+							"type": "object",
+							"properties": {
+								"aries_point_focal": {
+									"type": "integer"
+								},
+								"closest_picture": {
+									"type": "integer"
+								},
+								"grand_trine_member": {
+									"type": "integer"
+								},
+								"multiple_unaspected_in_midpoint": {
+									"type": "integer"
+								},
+								"natal_midpoint_exact": {
+									"type": "integer"
+								},
+								"natal_midpoint_within_1.5d": {
+									"type": "integer"
+								},
+								"natal_midpoint_within_1d": {
+									"type": "integer"
+								},
+								"natal_midpoint_within_2d": {
+									"type": "integer"
+								},
+								"natal_midpoint_within_30m": {
+									"type": "integer"
+								},
+								"planet_on_quadrant_midpoint": {
+									"type": "integer"
+								},
+								"quindecile_involvement": {
+									"type": "integer"
+								},
+								"sun_moon_equals_asc_mc": {
+									"type": "integer"
+								},
+								"t_square_apex": {
+									"type": "integer"
+								},
+								"transit_exact": {
+									"type": "integer"
+								},
+								"transit_within_1d": {
+									"type": "integer"
+								},
+								"transit_within_2d": {
+									"type": "integer"
+								},
+								"transit_within_3d": {
+									"type": "integer"
+								},
+								"transit_within_4d": {
+									"type": "integer"
+								},
+								"unaspected_focal": {
+									"type": "integer"
+								},
+								"yod_focal": {
+									"type": "integer"
+								}
+							}
+						},
+						"exactitude": {
+							"type": "object",
+							"properties": {
+								"0°00′": {
+									"type": "integer"
+								},
+								"0°01‑0°30′": {
+									"type": "integer"
+								},
+								"0°31‑1°00′": {
+									"type": "integer"
+								},
+								"1°01‑1°30′": {
+									"type": "integer"
+								},
+								"1°31‑2°00′": {
+									"type": "integer"
+								},
+								">2°00′": {
+									"type": "integer"
+								}
+							}
+						},
+						"significance_thresholds": {
+							"type": "object",
+							"properties": {
+								"dominant_life_theme": {
+									"type": "string"
+								},
+								"major_sub_theme": {
+									"type": "string"
+								},
+								"subtle_nuance": {
+									"type": "string"
+								},
+								"supporting_detail": {
+									"type": "string"
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+		"glossary": {
+			"type": "object",
+			"properties": {
+				"45° graphic ephemeris": {
+					"type": "string"
+				},
+				"90° Midpoint Sort": {
+					"type": "string"
+				},
+				"90° Midpoint Tree": {
+					"type": "string"
+				},
+				"90° dial": {
+					"type": "string"
+				},
+				"Aries Point (AP)": {
+					"type": "string"
+				},
+				"Transneptunians": {
+					"type": "string"
+				},
+				"cosmobiology": {
+					"type": "string"
+				},
+				"cosmogram": {
+					"type": "string"
+				},
+				"direct midpoint": {
+					"type": "string"
+				},
+				"figurines": {
+					"type": "string"
+				},
+				"focal point": {
+					"type": "string"
+				},
+				"half‑sum axis": {
+					"type": "string"
+				},
+				"half‑sum": {
+					"type": "string"
+				},
+				"indirect midpoint": {
+					"type": "string"
+				},
+				"midpoint picture": {
+					"type": "string"
+				},
+				"midpoint": {
+					"type": "string"
+				},
+				"mundane aspect": {
+					"type": "string"
+				},
+				"parallel": {
+					"type": "string"
+				},
+				"planetary picture": {
+					"type": "string"
+				},
+				"progressing": {
+					"type": "string"
+				},
+				"quadrant midpoint": {
+					"type": "string"
+				},
+				"radix": {
+					"type": "string"
+				},
+				"sensitive point": {
+					"type": "string"
+				},
+				"transit": {
+					"type": "string"
+				},
+				"unaspected planet": {
+					"type": "string"
+				}
+			}
+		},
+		"harvey_midpoints": {
+			"type": "object",
+			"properties": {
+				"ebertin_review": {
+					"type": "object",
+					"properties": {
+						"combination_of_stellar_influences": {
+							"type": "string"
+						},
+						"fixed_stars": {
+							"type": "string"
+						},
+						"pluto": {
+							"type": "string"
+						},
+						"rapid_and_reliable_analysis": {
+							"type": "string"
+						},
+						"transits": {
+							"type": "string"
+						}
+					}
+				},
+				"principles": {
+					"type": "object",
+					"properties": {
+						"activation": {
+							"type": "string"
+						},
+						"calculation": {
+							"type": "string"
+						},
+						"definition": {
+							"type": "string"
+						},
+						"orb": {
+							"type": "string"
+						},
+						"reference": {
+							"type": "string"
+						},
+						"tool": {
+							"type": "string"
+						}
+					}
+				}
+			}
+		},
+		"medical_midpoint_indicators": {
+			"type": "object",
+			"properties": {
+				"disclaimer": {
+					"type": "string"
+				},
+				"indicators": {
+					"type": "array",
+					"items": {
+						"oneOf": [
+							{
+								"type": "object",
+								"properties": {
+									"indication": {
+										"type": "string"
+									},
+									"midpoint": {
+										"type": "string"
+									}
+								}
+							}
+						]
+					}
+				}
+			}
+		},
+		"metadata": {
+			"type": "object",
+			"properties": {
+				"compiler": {
+					"type": "string"
+				},
+				"date_compiled": {
+					"type": "string"
+				},
+				"description": {
+					"type": "string"
+				},
+				"sources": {
+					"type": "array",
+					"items": {
+						"oneOf": [ { "type": "string" } ]
+					}
+				},
+				"subtitle": {
+					"type": "string"
+				},
+				"title": {
+					"type": "string"
+				},
+				"version": {
+					"type": "string"
+				}
+			}
+		},
+		"midpoint_pro_aspects": {
+			"type": "object",
+			"properties": {
+				"johnny_depp_case_study": {
+					"type": "object",
+					"properties": {
+						"active_midpoints_jan_jun_2006": {
+							"type": "array",
+							"items": {
+								"oneOf": [
+									{
+										"type": "object",
+										"properties": {
+											"date": {
+												"type": "string"
+											},
+											"interpretation": {
+												"type": "string"
+											},
+											"transit": {
+												"type": "string"
+											},
+											"progressed": {
+												"type": "string"
+											},
+											"direction": {
+												"type": "string"
+											}
+										}
+									}
+								]
+							}
+						},
+						"natal_data": {
+							"type": "object",
+							"properties": {
+								"birth_date": {
+									"type": "string"
+								},
+								"birth_place": {
+									"type": "string"
+								},
+								"birth_time": {
+									"type": "string"
+								},
+								"coordinates": {
+									"type": "string"
+								},
+								"house_system": {
+									"type": "string"
+								},
+								"name": {
+									"type": "string"
+								},
+								"positions": {
+									"type": "object",
+									"properties": {
+										"Ascendant": {
+											"type": "string"
+										},
+										"Jupiter": {
+											"type": "string"
+										},
+										"Mars": {
+											"type": "string"
+										},
+										"Mercury": {
+											"type": "string"
+										},
+										"Midheaven": {
+											"type": "string"
+										},
+										"Moon": {
+											"type": "string"
+										},
+										"Neptune": {
+											"type": "string"
+										},
+										"Node": {
+											"type": "string"
+										},
+										"Pluto": {
+											"type": "string"
+										},
+										"Saturn": {
+											"type": "string"
+										},
+										"Sun": {
+											"type": "string"
+										},
+										"Uranus": {
+											"type": "string"
+										},
+										"Venus": {
+											"type": "string"
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+		"sandbach_midpoints": {
+			"type": "object",
+			"properties": {
+				"introduction": {
+					"type": "string"
+				},
+				"midpoint_dictionary": {
+					"type": "array",
+					"items": {
+						"oneOf": [
+							{
+								"type": "object",
+								"properties": {
+									"activation": {
+										"type": "object",
+										"properties": {
+											"Ascendant": {
+												"type": "string"
+											},
+											"Chiron": {
+												"type": "string"
+											},
+											"Jupiter": {
+												"type": "string"
+											},
+											"Mars": {
+												"type": "string"
+											},
+											"Mercury": {
+												"type": "string"
+											},
+											"Midheaven": {
+												"type": "string"
+											},
+											"Neptune": {
+												"type": "string"
+											},
+											"Node": {
+												"type": "string"
+											},
+											"Pluto": {
+												"type": "string"
+											},
+											"Saturn": {
+												"type": "string"
+											},
+											"Uranus": {
+												"type": "string"
+											},
+											"Venus": {
+												"type": "string"
+											},
+											"Moon": {
+												"type": "string"
+											},
+											"Sun": {
+												"type": "string"
+											}
+										}
+									},
+									"glyphs": {
+										"type": "string"
+									},
+									"pair": {
+										"type": "string"
+									},
+									"principle": {
+										"type": "string"
+									},
+									"process": {
+										"type": "string"
+									}
+								}
+							}
+						]
+					}
+				},
+				"note": {
+					"type": "string"
+				}
+			}
+		},
+		"seagrief_quadrant_midpoints": {
+			"type": "object",
+			"properties": {
+				"definition": {
+					"type": "string"
+				},
+				"interpretation_guidelines": {
+					"type": "array",
+					"items": {
+						"oneOf": [ { "type": "string" } ]
+					}
+				},
+				"introduction": {
+					"type": "string"
+				},
+				"quadrants": {
+					"type": "array",
+					"items": {
+						"oneOf": [
+							{
+								"type": "object",
+								"properties": {
+									"boundaries": {
+										"type": "string"
+									},
+									"examples": {
+										"type": "array",
+										"items": {
+											"oneOf": [
+												{
+													"type": "object",
+													"properties": {
+														"interpretation": {
+															"type": "string"
+														},
+														"name": {
+															"type": "string"
+														},
+														"planet": {
+															"type": "string"
+														},
+														"sign": {
+															"type": "string"
+														}
+													}
+												}
+											]
+										}
+									},
+									"midpoint_meaning": {
+										"type": "string"
+									},
+									"planet_on_midpoint": {
+										"type": "string"
+									},
+									"quadrant": {
+										"type": "string"
+									},
+									"waning_phase": {
+										"type": "string"
+									},
+									"waxing_phase": {
+										"type": "string"
+									}
+								}
+							}
+						]
+					}
+				}
+			}
+		},
+		"sun_moon_midpoint_by_sign": {
+			"type": "object",
+			"properties": {
+				"Aquarius": {
+					"type": "string"
+				},
+				"Aries": {
+					"type": "string"
+				},
+				"Cancer": {
+					"type": "string"
+				},
+				"Capricorn": {
+					"type": "string"
+				},
+				"Gemini": {
+					"type": "string"
+				},
+				"Leo": {
+					"type": "string"
+				},
+				"Libra": {
+					"type": "string"
+				},
+				"Pisces": {
+					"type": "string"
+				},
+				"Sagittarius": {
+					"type": "string"
+				},
+				"Scorpio": {
+					"type": "string"
+				},
+				"Taurus": {
+					"type": "string"
+				},
+				"Virgo": {
+					"type": "string"
+				}
+			}
+		},
+		"witte_uranian": {
+			"type": "object",
+			"properties": {
+				"midpoint_dictionary": {
+					"type": "object",
+					"properties": {
+						"AS/AD": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"AS/AP": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"AS/CU": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"AS/HA": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"AS/JU": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"AS/KR": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"AS/MA": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"AS/MC": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"AS/ME": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"AS/MO": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"AS/NE": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"AS/PL": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"AS/PO": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"AS/SA": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"AS/SO": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"AS/UR": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"AS/VE": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"AS/VU": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"AS/ZE": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"JU/AD": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"JU/AP": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"JU/CU": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"JU/HA": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"JU/KR": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"JU/NE": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"JU/PL": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"JU/PO": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"JU/SA": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"JU/UR": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"JU/VU": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"JU/ZE": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"MA/AD": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"MA/AP": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"MA/CU": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"MA/HA": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"MA/JU": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"MA/KR": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"MA/NE": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"MA/PL": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"MA/PO": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"MA/SA": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"MA/UR": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"MA/VU": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"MA/ZE": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"MC/AD": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"MC/AP": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"MC/AS": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object",
+									"properties": {
+										"AS": {
+											"type": "string"
+										},
+										"MC": {
+											"type": "string"
+										}
+									}
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"MC/CU": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"MC/HA": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"MC/JU": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"MC/KR": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"MC/MA": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"MC/ME": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"MC/MO": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"MC/NE": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"MC/PL": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"MC/PO": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"MC/SA": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"MC/SO": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"MC/UR": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"MC/VE": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"MC/VU": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"MC/ZE": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"ME/AD": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"ME/AP": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"ME/CU": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"ME/HA": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"ME/JU": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"ME/KR": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"ME/MA": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"ME/NE": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"ME/PL": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"ME/PO": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"ME/SA": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"ME/UR": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"ME/VE": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"ME/VU": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"ME/ZE": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"MO/AD": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"MO/AP": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"MO/AS": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"MO/CU": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"MO/HA": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"MO/JU": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"MO/KR": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"MO/MA": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"MO/ME": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"MO/NE": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"MO/PL": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"MO/PO": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"MO/SA": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"MO/UR": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"MO/VE": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"MO/VU": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"MO/ZE": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"NE/AD": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"NE/AP": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"NE/CU": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"NE/HA": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"NE/KR": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"NE/PL": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"NE/PO": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"NE/VU": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"NE/ZE": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"PL/AD": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"PL/AP": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"PL/CU": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"PL/HA": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"PL/KR": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"PL/PO": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"PL/VU": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"PL/ZE": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"SA/AD": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"SA/AP": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"SA/CU": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"SA/HA": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"SA/KR": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"SA/NE": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"SA/PL": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"SA/PO": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"SA/UR": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"SA/VU": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"SA/ZE": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"SO/AD": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"SO/AP": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"SO/CU": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"SO/HA": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"SO/JU": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"SO/KR": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"SO/MA": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"SO/ME": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"SO/MO": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"SO/NE": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"SO/PL": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"SO/PO": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"SO/SA": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"SO/UR": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"SO/VE": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"SO/VU": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"SO/ZE": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"UR/AD": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"UR/AP": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"UR/CU": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"UR/HA": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"UR/KR": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"UR/NE": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"UR/PL": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"UR/PO": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"UR/VU": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"UR/ZE": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"VE/AD": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"VE/AP": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"VE/CU": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"VE/HA": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"VE/JU": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"VE/KR": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"VE/MA": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"VE/NE": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"VE/PL": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"VE/PO": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"VE/SA": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"VE/UR": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"VE/VU": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						},
+						"VE/ZE": {
+							"type": "object",
+							"properties": {
+								"activation": {
+									"type": "object"
+								},
+								"meaning": {
+									"type": "string"
+								},
+								"pair": {
+									"type": "string"
+								}
+							}
+						}
+					}
+				},
+				"note": {
+					"type": "string"
+				},
+				"planets_and_points": {
+					"type": "object",
+					"properties": {
+						"AD": {
+							"type": "string"
+						},
+						"AP": {
+							"type": "string"
+						},
+						"AS": {
+							"type": "string"
+						},
+						"CU": {
+							"type": "string"
+						},
+						"HA": {
+							"type": "string"
+						},
+						"JU": {
+							"type": "string"
+						},
+						"KR": {
+							"type": "string"
+						},
+						"MA": {
+							"type": "string"
+						},
+						"MC": {
+							"type": "string"
+						},
+						"ME": {
+							"type": "string"
+						},
+						"MO": {
+							"type": "string"
+						},
+						"NE": {
+							"type": "string"
+						},
+						"PL": {
+							"type": "string"
+						},
+						"PO": {
+							"type": "string"
+						},
+						"SA": {
+							"type": "string"
+						},
+						"UR": {
+							"type": "string"
+						},
+						"VE": {
+							"type": "string"
+						},
+						"VU": {
+							"type": "string"
+						},
+						"ZE": {
+							"type": "string"
+						}
+					}
+				},
+				"transneptunians": {
+					"type": "array",
+					"items": {
+						"oneOf": [
+							{
+								"type": "object",
+								"properties": {
+									"function": {
+										"type": "string"
+									},
+									"glyph": {
+										"type": "string"
+									},
+									"manifestation": {
+										"type": "string"
+									},
+									"name": {
+										"type": "string"
+									},
+									"orbital_period": {
+										"type": "string"
+									},
+									"principle": {
+										"type": "string"
+									}
+								}
+							}
+						]
+					}
+				}
+			}
+		}
+	}
+}
